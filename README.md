@@ -108,6 +108,8 @@ Selected official guides, organized by what you want to build. Cookbook results 
 
 Suggest a resource you have inspected or used, explain who it helps, and disclose your connection to it. Read the [contribution guide](CONTRIBUTING.md) for inclusion criteria, entry format, and checks. Broken links and corrections are welcome too.
 
+Use the [contributor skill](CONTRIBUTING.md#use-the-contributor-skill) to have a coding agent check your project or starter kit and prepare a focused submission with evidence.
+
 This repository was produced with AI agents using primary documentation, source review, offline tests, and explicit live checks. See [validation scope](docs/validation.md) and [maintenance and provenance](docs/maintaining.md) for the review process and its boundaries. This project is not affiliated with or endorsed by TypeSafe AI or the central Awesome directory.
 
 The list and documentation use CC0; original code uses MIT. See [licensing](LICENSE.md).

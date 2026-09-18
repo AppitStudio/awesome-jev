@@ -2,6 +2,26 @@
 
 Help readers find resources that make working with Jev easier. A useful correction or a small, well-understood addition matters more than the size of the list.
 
+## Use the contributor skill
+
+The [Awesome Jev contributor skill](skills/awesome-jev-contributor/SKILL.md) helps a coding agent review your project or starter kit, identify gaps, and prepare a focused entry and proposal with verification evidence. It supports both external project listings and code contributed here. These contribution rules remain the source of truth; the skill does not guarantee acceptance.
+
+Install it from your project directory with the [Skills CLI](https://github.com/vercel-labs/skills), then select your agent:
+
+```sh
+npx skills add AppitStudio/awesome-jev --skill awesome-jev-contributor
+```
+
+For Codex specifically, add `--agent codex`; add `--global` if you want it available across projects. You can also give an agent the linked `SKILL.md` directly without installing it.
+
+Example requests:
+
+- “Use awesome-jev-contributor to check this Jev starter kit for submission readiness: PROJECT_URL.”
+- “Use awesome-jev-contributor to review my project and prepare a README entry and PR text. Keep the proposal local.”
+- “Use awesome-jev-contributor to submit my project to Awesome Jev. I maintain it; review the source and tests and disclose the AI assistance.”
+
+A review or preparation request produces local artifacts. An explicit submission request allows the agent to open the scoped issue or PR once ready. The contributor remains responsible for reviewing the proposal, and maintainers decide whether to accept it.
+
 ## Suggest a resource
 
 Open a resource suggestion or send a pull request for one resource at a time. Search existing entries and open proposals first. Self-submissions are welcome; disclose your involvement and any commercial relationship.
