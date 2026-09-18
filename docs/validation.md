@@ -24,7 +24,7 @@ The following upstream checks passed on 2026-09-18 using mocked responses. These
 | --- | --- |
 | [Jev Review · 57690af](https://github.com/NiazMorshed2007/jev-review/tree/57690af54ef7d862c2483342c1e61c14dffcf727) | 13 tests, typecheck, and build on Node.js 22. |
 | [llama-index-jev · 72c73dc](https://github.com/WiktorB2004/llama-index-jev/tree/72c73dc50bca4b7ea6928ef65ea09f1a7ee4a01e) | 52 reranker and selector tests on Python 3.12. |
-| [Testimonial miner · da577a3](https://github.com/AppitStudio/testimonial-miner/tree/da577a3f04cb7118b886e23953e6dc13bd779938) | 26 offline tests on Python 3.12 and 3.14 with a fake IMAP source and a scripted model. |
+| [Testimonial miner · 0852a28](https://github.com/AppitStudio/testimonial-miner/tree/0852a28f6961935afe440b1d698ce22412a4a7ec) | 26 offline tests on Python 3.12 and 3.14 with a fake IMAP source and a scripted model, locally and in the project's CI. |
 | [TypeSafeAI.Net · 7f014c9](https://github.com/Hawxy/TypeSafeAI.Net/tree/7f014c92ec4d0cf89896989eb7cd20a0e033e621) | 89 core-client and adapter tests on .NET 10. |
 
 ## Evaluating an application
