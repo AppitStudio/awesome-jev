@@ -15,7 +15,7 @@ The four teaching examples use Python 3.10+ and the standard library. Their ques
 | Judge retrieved passages before answering | [RAG triage](https://github.com/AppitStudio/awesome-jev/blob/main/examples/rag-triage/README.md) | Relevance, evidence, and contradiction judgments; retrieval and answer generation are separate components. |
 | Evaluate support-routing questions and policy | [Evaluation runner](https://github.com/AppitStudio/awesome-jev/blob/main/evaluations/README.md) | Development/holdout, coverage/errors, and replay for the Support Router; other tasks need their own labels, request adapter, and metrics. |
 
-For a different stack, inspect current [community projects](https://github.com/AppitStudio/awesome-jev#community-projects). The catalog currently includes LlamaIndex integrations, a .NET client, and an experimental code-quality MCP server. Check the actual revision, runtime, key variable, license, data handling, and fallback behavior. Inclusion and mocked upstream tests do not establish live behavior or quality on the user's data.
+For a different stack, inspect current [community projects](https://github.com/AppitStudio/awesome-jev#community-projects). The catalog currently includes LlamaIndex integrations, a .NET client, an experimental code-quality MCP server, and a Gmail testimonial miner built with the Python SDK. Check the actual revision, runtime, key variable, license, data handling, and fallback behavior. Inclusion and mocked upstream tests do not establish live behavior or quality on the user's data.
 
 ## When a custom starter fits better
 
