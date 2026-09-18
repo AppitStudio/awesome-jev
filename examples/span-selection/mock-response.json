@@ -1,0 +1,19 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "billing_contact": {
+      "type": "choice",
+      "choice": "candidate_1",
+      "probabilities": {
+        "candidate_0": 0.02,
+        "candidate_1": 0.95,
+        "none": 0.03
+      },
+      "confidence": 0.92
+    }
+  },
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}

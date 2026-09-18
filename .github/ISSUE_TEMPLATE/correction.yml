@@ -1,0 +1,22 @@
+name: Report a correction
+description: Report a broken resource, stale API example, or misleading description.
+title: "Correction: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Entry or file
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Include reproduction steps or source links. Remove keys and private data from logs.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested correction
+      description: A replacement URL, version update, or removal reason is helpful.

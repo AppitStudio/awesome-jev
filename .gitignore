@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.lycheecache
+lychee/
+.coverage
+coverage/

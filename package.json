@@ -1,0 +1,27 @@
+{
+  "name": "awesome-jev",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Development checks for the Awesome Jev community resource list",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint": "markdownlint-cli2",
+    "check:links": "node scripts/check-local-links.mjs",
+    "test:examples": "python3 -m unittest discover -s examples/tests -v",
+    "test:projects": "python3 -m unittest discover -s projects/support-router/tests -v",
+    "test:evaluations": "python3 -m unittest discover -s evaluations/tests -v",
+    "check": "npm run lint && npm run check:links && npm run test:examples && npm run test:projects && npm run test:evaluations"
+  },
+  "devDependencies": {
+    "github-slugger": "2.0.0",
+    "markdown-it": "14.3.2",
+    "markdownlint-cli2": "0.23.2"
+  },
+  "overrides": {
+    "smol-toml": "1.8.0"
+  }
+}

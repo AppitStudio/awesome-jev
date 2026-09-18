@@ -1,0 +1,2 @@
+{"id":"format-01","split":"development","slice":"clear-billing","message":"Please send a copy of my last invoice.","expected_department":"billing","expected_urgency":"ordinary","require_review":false}
+{"id":"format-02","split":"development","slice":"missing-information","message":"Can you help with that thing from before?","expected_department":"other","expected_urgency":"ordinary","require_review":true}

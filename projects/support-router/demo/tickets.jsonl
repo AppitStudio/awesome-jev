@@ -1,0 +1,6 @@
+{"id": "demo-001", "message": "I was charged twice for this month. Please refund the duplicate charge."}
+{"id": "demo-002", "message": "The export API returns 500 on every call. Our operations team cannot prepare any shipments until it works."}
+{"id": "demo-003", "message": "Please help me reset my login MFA after replacing my phone."}
+{"id": "demo-004", "message": "Please correct the amount on my invoice and fix the broken export API. Both matter equally."}
+{"id": "demo-005", "message": "The dashboard chart stopped loading. It would be good to have it soon."}
+{"id": "demo-006", "message": "The access page behaves strangely, but I cannot describe what is wrong yet."}

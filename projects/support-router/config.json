@@ -1,0 +1,14 @@
+{
+  "departments": {
+    "billing": "Invoices, charged amounts, refunds, payment methods, subscription billing or cancellation.",
+    "technical": "Application failures, outages, or integration bugs, excluding issues limited to login or account access.",
+    "account": "Login, password or MFA recovery, account access, profile changes, or account lifecycle requests unrelated to billing.",
+    "other": "No clear primary request, equally primary requests for different teams, or none of the teams fit."
+  },
+  "policy": {
+    "department_confidence_min": 0.8,
+    "urgency_low_max": 0.15,
+    "urgency_high_min": 0.85,
+    "review_uncertain_urgency": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "relevant": {
+      "type": "noul",
+      "noul": 0.96
+    },
+    "evidence": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "contradiction": {
+      "type": "noul",
+      "noul": 0.03
+    }
+  },
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}

@@ -1,0 +1,41 @@
+name: Suggest a resource
+description: Propose one useful Jev resource for review.
+title: "Resource: "
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Canonical resource URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Jev-specific value and suggested category
+      description: Who benefits, and what does this add beyond existing entries?
+    validations:
+      required: true
+  - type: textarea
+    id: review
+    attributes:
+      label: Your review
+      description: What did you read or run? State supported API/model versions, prerequisites, costs, and known limitations.
+    validations:
+      required: true
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Affiliation and AI assistance
+      description: Disclose your relationship to the resource and any AI assistance used for this submission. “None” is fine.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked existing entries and open proposals for duplicates.
+          required: true
+        - label: I read CONTRIBUTING.md and verified the resource is accessible.
+          required: true

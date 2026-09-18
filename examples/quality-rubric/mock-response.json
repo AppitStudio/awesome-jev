@@ -1,0 +1,41 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "usefulness": {
+      "type": "score",
+      "score": 1.8,
+      "legend": {
+        "0": "Does not address the request.",
+        "1": "Partly addresses it but next steps are incomplete.",
+        "2": "Directly addresses it with concrete next steps."
+      },
+      "probabilities": {
+        "0": 0.02,
+        "1": 0.16,
+        "2": 0.82
+      },
+      "confidence": 0.83
+    },
+    "clarity": {
+      "type": "score",
+      "score": 2.6,
+      "legend": {
+        "0": "Unintelligible.",
+        "1": "Hard to follow.",
+        "2": "Understandable with minor ambiguity.",
+        "3": "Clear and easy to follow."
+      },
+      "probabilities": {
+        "0": 0.02,
+        "1": 0.03,
+        "2": 0.28,
+        "3": 0.67
+      },
+      "confidence": 0.81
+    }
+  },
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}

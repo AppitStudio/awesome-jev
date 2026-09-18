@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: TypeSafe documentation
+    url: https://docs.typesafe.ai/introduction
+    about: Official product documentation. This community list does not operate Jev.

@@ -1,0 +1,8 @@
+# External links are checked separately so temporary outages do not block PRs.
+scheme = ["https", "http"]
+exclude_all_private = true
+max_concurrency = 2
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+# 401/403/429 are not silently accepted: inspect reports before editing the list.
