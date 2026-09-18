@@ -6,6 +6,7 @@
 
 ## Contents
 
+- [Explore Jev with our skill](#explore-jev-with-our-skill)
 - [Start here](#start-here)
 - [Official SDKs and tools](#official-sdks-and-tools)
 - [Community projects](#community-projects)
@@ -18,12 +19,55 @@
 - [Model behavior and evaluation](#model-behavior-and-evaluation)
 - [Contributing](#contributing)
 
+## Explore Jev with our skill
+
+Use **Awesome Jev Guide** to understand Jev and explore solutions that fit your needs. Describe your workflow in plain language, and your coding agent will help you choose an example, adapt a project, or build a suitable starter—with guided setup along the way.
+
+**1. Install the skill.** With Node.js 22+ installed, run this in your project directory:
+
+```sh
+npx skills add AppitStudio/awesome-jev --skill awesome-jev-guide
+```
+
+Select your coding agent when prompted. For Codex, you can add `--agent codex`. No TypeSafe account or API key is needed to explore ideas or run the offline examples.
+
+**2. Open your coding agent in that project and try a prompt.**
+
+New to Jev? Start here:
+
+```text
+Use awesome-jev-guide. Explain Jev simply, help me understand what I can
+build with it, and walk me through the easiest example. I don't have
+an API key yet.
+```
+
+Have a workflow in mind? Fill in the brackets:
+
+```text
+Use awesome-jev-guide. Today I [describe the work I do manually].
+I want to [describe the result]. I use [language, framework, or tools].
+Help me find the best starting point in this repo and explain what
+needs adapting. Ask me anything essential that's missing.
+```
+
+Ready to build?
+
+```text
+Use awesome-jev-guide to build a small starter for [my workflow] using
+[my stack]. Start with a working offline demo, explain what I should
+customize, then guide me through API-key setup and a first live check
+when I'm ready.
+```
+
+**3. Follow the next step together.** The guide uses current TypeSafe documentation and explains what already works, what needs building, and how to handle uncertain results. When you want live access, it walks you through private key setup—never paste a key into chat.
+
+See the [full onboarding guide](docs/using-the-guide.md) for installation options, demos, and setup details.
+
 ## Start here
 
 - [Introduction](https://docs.typesafe.ai/introduction) - Understand Jev's state-and-questions interface and its three decision primitives.
 - [Official quick start](https://docs.typesafe.ai/introduction/quickstart) - Make a first request using Python or HTTP.
 - [Run an example locally](docs/getting-started.md) - Try a complete workflow with synthetic mock responses, without an account, an API key, or package installation.
-- [Get help with your workflow](docs/using-the-guide.md) - Use the Awesome Jev Guide skill to choose a starting point, adapt or build a solution in your stack, and work through setup.
 - [Choose a decision pattern](docs/decision-patterns.md) - Match a task to Choice, Score, or Noul and define what happens when the result is uncertain.
 - [HTTP API reference](https://docs.typesafe.ai/api) - Check the wire format, authentication, answer fields, and error responses.
 
