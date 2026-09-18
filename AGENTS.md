@@ -4,6 +4,8 @@ Keep this repository a selective resource list with small, runnable reference pr
 
 For project or starter-kit submissions, use the [contributor skill](skills/awesome-jev-contributor/SKILL.md). Keep its guidance aligned with `CONTRIBUTING.md`; it must work when installed outside this checkout.
 
+Every Community projects entry needs a [detail page and category listing](community/README.md) alongside its original README link. Follow the [page template](community/PROJECT_TEMPLATE.md); a skill resource-map mention alone does not complete a submission.
+
 For workflow discovery, resource selection, guided setup, or adapting a starter for a user, use the [Awesome Jev Guide skill](skills/awesome-jev-guide/SKILL.md). Keep its references current and user-specific projects outside this public catalog unless the user requests a contribution.
 
 ## TypeSafe integrations

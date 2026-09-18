@@ -17,7 +17,7 @@ For a newcomer, explain the few terms needed for the next step. For a concrete b
 
 ## Refresh the relevant context
 
-Read the current [catalog](https://github.com/AppitStudio/awesome-jev/blob/main/README.md), the selected project's README, and its [validation scope](https://github.com/AppitStudio/awesome-jev/blob/main/docs/validation.md). If working in a checkout, also read its `AGENTS.md`. Follow the installed skill's own relative references from its directory, not from the user's working directory.
+Read the current [catalog](https://github.com/AppitStudio/awesome-jev/blob/main/README.md) and [categorized community directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/README.md). For a community recommendation, read its project page for fit, setup, examples, and review evidence, then verify version-sensitive details against the upstream README. For repository examples, read their own README and [validation scope](https://github.com/AppitStudio/awesome-jev/blob/main/docs/validation.md). If working in a checkout, also read its `AGENTS.md`. Follow the installed skill's own relative references from its directory, not from the user's working directory.
 
 For TypeSafe design or integration, use the official `typesafe-ai` skill if available. Otherwise read its [official entrypoint](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md) and the relevant live docs; another skill installation is optional. Start with the [documentation index](https://docs.typesafe.ai/llms.txt), then the current model/API or selected SDK page and the closest cookbook. Read narrowly rather than loading the whole site. [Resource selection](references/solutions.md) maps needs to useful entry points.
 
@@ -27,7 +27,7 @@ Before giving version-sensitive commands, verify package names, runtime requirem
 
 Read [resource selection](references/solutions.md) and choose among using a resource, adapting an example, composing patterns, or building a small custom starter. Treat its map as a starting point and verify the current catalog before claiming availability.
 
-Give one recommendation with its source link, why it fits, what is already runnable, and what still needs building. Offer one alternative only when a real tradeoff matters. Distinguish a teaching example, a reference application, a community package, a cookbook, and proposed new work. Never describe an unbuilt kit as available, universally perfect, or production validated.
+Give one recommendation with its project guide and source links, why it fits, what is already runnable, and what still needs building. Offer one alternative only when a real tradeoff matters. Distinguish a teaching example, a reference application, a community package, a cookbook, and proposed new work. Never describe an unbuilt kit as available, universally perfect, or production validated.
 
 Check whether Jev adds useful semantic judgment. Exact calculations/lookups belong in ordinary code. Generated prose, image understanding, or actions may need other components; identify Jev's limited role rather than promising the full capability. Keep authorization decisions outside model output. If no useful Jev role exists, say so and recommend the simpler approach.
 

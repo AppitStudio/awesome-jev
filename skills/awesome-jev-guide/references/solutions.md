@@ -15,7 +15,18 @@ The four teaching examples use Python 3.10+ and the standard library. Their ques
 | Judge retrieved passages before answering | [RAG triage](https://github.com/AppitStudio/awesome-jev/blob/main/examples/rag-triage/README.md) | Relevance, evidence, and contradiction judgments; retrieval and answer generation are separate components. |
 | Evaluate support-routing questions and policy | [Evaluation runner](https://github.com/AppitStudio/awesome-jev/blob/main/evaluations/README.md) | Development/holdout, coverage/errors, and replay for the Support Router; other tasks need their own labels, request adapter, and metrics. |
 
-For a different stack, inspect current [community projects](https://github.com/AppitStudio/awesome-jev#community-projects). The catalog currently includes LlamaIndex integrations, a .NET client, an experimental code-quality MCP server, and a Gmail testimonial miner built with the Python SDK. Check the actual revision, runtime, key variable, license, data handling, and fallback behavior. Inclusion and mocked upstream tests do not establish live behavior or quality on the user's data.
+## Community applications and integrations
+
+Browse the current [community directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/README.md) for categorized project pages. Each page provides fit, setup, examples, and review evidence; verify its upstream source before giving version-sensitive instructions.
+
+| User's need | Project guide | What to check before setup |
+| --- | --- | --- |
+| Find praise in customer emails | [Testimonial miner](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/testimonial-miner.md) | Python/Gmail workflow; a Gmail dry run still reads the mailbox, and publishing selected text needs separate permission. |
+| Add quality feedback to an AI coding workflow | [Jev Review](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/jev-review.md) | Experimental MCP server; uses `JEV_API_KEY`; scores need interpretation and are not proof of correctness. |
+| Integrate typed judgments in a .NET application | [TypeSafeAI.Net](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/typesafeai-net.md) | Community client; runtime support differs from sample prerequisites; key configuration is explicit in application code. |
+| Rerank retrieved passages or route LlamaIndex queries | [llama-index-jev](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/llama-index-jev.md) | Separate reranker and selector packages; upstream OpenRouter examples make live calls even with mocked embeddings or answer generation. |
+
+Check the actual revision, runtime, key variable, license, data handling, and fallback behavior. Inclusion and mocked tests do not establish live behavior or quality on the user's data; use each page's evidence scope.
 
 ## When a custom starter fits better
 

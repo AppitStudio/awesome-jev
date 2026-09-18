@@ -13,7 +13,7 @@ Identify the project URL or local path, its Jev-specific benefit, and the reques
 
 Choose the appropriate route:
 
-- **External project or starter kit:** propose a concise link in the closest existing README category. Keep its code in its own repository. A starter kit does not have to be copied into Awesome Jev to qualify.
+- **External project or starter kit:** add a project detail page, list it in the community directory's closest category, and retain a concise entry in the README. Keep its code in its own repository. A starter kit does not have to be copied into Awesome Jev to qualify.
 - **Code contributed to Awesome Jev:** use `examples/` for a small teaching workflow or the existing `projects/` conventions for a more complete tool. Apply the repository's example requirements to either, scaled to the contribution.
 - **Existing entry:** make a focused correction or update instead of adding a duplicate.
 
@@ -25,11 +25,12 @@ In an Awesome Jev checkout, read its `AGENTS.md`, `CONTRIBUTING.md`, `README.md`
 
 - [Contribution rules](https://github.com/AppitStudio/awesome-jev/blob/main/CONTRIBUTING.md).
 - [Catalog and categories](https://github.com/AppitStudio/awesome-jev/blob/main/README.md).
+- [Community directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/README.md) and [project page template](https://github.com/AppitStudio/awesome-jev/blob/main/community/PROJECT_TEMPLATE.md).
 - [Maintainer review process](https://github.com/AppitStudio/awesome-jev/blob/main/docs/maintaining.md).
 - [Pull-request template](https://github.com/AppitStudio/awesome-jev/blob/main/.github/PULL_REQUEST_TEMPLATE.md) or [resource suggestion form](https://github.com/AppitStudio/awesome-jev/blob/main/.github/ISSUE_TEMPLATE/resource.yml).
 - [Agent guidance](https://github.com/AppitStudio/awesome-jev/blob/main/AGENTS.md) and [license boundaries](https://github.com/AppitStudio/awesome-jev/blob/main/LICENSE.md).
 
-The current repository rules govern eligibility; this skill is a workflow, not a separate policy. Search the catalog and open issues/PRs for the canonical URL and project name. If current rules, source, or duplicate checks are inaccessible, state which checks remain unverified. Do not claim submission readiness until required evidence is available.
+The current repository rules govern eligibility; this skill is a workflow, not a separate policy. Search the README, community directory and project pages, and open issues/PRs for the canonical URL and project name. If current rules, source, or duplicate checks are inaccessible, state which checks remain unverified. Do not claim submission readiness until required evidence is available.
 
 ## Review the actual artifact
 
@@ -64,6 +65,14 @@ For an external resource, use its canonical HTTPS URL and one factual sentence:
 
 Choose the narrowest existing category and alphabetize within it unless it explicitly follows a learning sequence. Keep community projects separate from official TypeSafe resources. Do not copy the project's README, add empty categories, or pad the list with several unrelated links.
 
+For an external application, starter kit, tool, or integration, prepare all three connected parts:
+
+1. **Project page:** create `community/projects/<slug>.md` from the current page template. Explain when to use it, how Jev fits, prerequisites and setup, real examples/demos, data handling and costs, limitations, license, affiliation, and version-specific review evidence. Include one canonical HTTPS link labeled `Source` and a link back to its directory category. Distinguish inspected instructions from commands you actually ran.
+2. **Category index:** link the page once under its primary category in `community/README.md`, with a concise use case and stack/format. Reuse an existing category when it fits.
+3. **README entry:** keep the canonical upstream link and factual sentence in `Community projects`, and append a link to the local project page. Do not replace the original list with the directory.
+
+Articles and cookbook links do not need project pages. Update the guide's resource map when it helps discovery, but a `solutions.md` mention alone is not a complete project submission. For corrections or removals, keep the README, directory, and detail page consistent.
+
 For code hosted in Awesome Jev, include a problem statement, prerequisites, a runnable command and expected output, clearly synthetic offline fixtures, explicit live opt-in and key/cost instructions, documented versions, uncertainty/error behavior, meaningful tests, and licensing/provenance. Follow the nearby example or project structure. Preserve existing user changes and keep the patch focused.
 
 Fill the repository's current PR template with:
@@ -73,7 +82,7 @@ Fill the repository's current PR template with:
 - AI assistance and what the contributor actually reviewed. Do not claim human review that has not happened.
 - Honest checklist states: leave unperformed checks unchecked and explain them.
 
-For a resource issue, use the corresponding form's fields instead. Prefer one issue or one PR, not duplicate proposals. Show a suggested README entry even when the chosen route is an issue.
+For a resource issue, use the corresponding form's fields instead. Include the proposed category and enough information to write the project page; an accepted project patch still needs all three parts. Prefer one issue or one PR, not duplicate proposals. Show a suggested README entry even when the chosen route is an issue.
 
 In the Awesome Jev checkout, follow its current check instructions. At the time of writing these require Node.js 22+ and Python 3.10+:
 
@@ -82,7 +91,7 @@ npm ci --ignore-scripts
 npm run check
 ```
 
-These checks apply to the catalog repository; use the candidate project's own toolchain for its tests. Confirm external links separately. Review the diff for secrets, private paths/data, unrelated files, and claims beyond the evidence. Do not present formatting or link checks as editorial approval.
+These checks apply to the catalog repository; use the candidate project's own toolchain for its tests. The included `check:community` check verifies that the README, category index, and project pages connect correctly; it cannot verify the page's factual claims. Confirm setup and example links against upstream instructions, including whether commands need credentials or make live calls. Confirm external links separately. Review the diff for secrets, private paths/data, unrelated files, and claims beyond the evidence. Do not present formatting or link checks as editorial approval.
 
 ## Deliver or submit
 

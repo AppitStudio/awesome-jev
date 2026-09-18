@@ -8,6 +8,8 @@ This page distinguishes checks of the repository's code from claims about model 
 
 The bundled inputs and responses are hand-authored synthetic fixtures. Mock mode is deterministic application testing; it is not local Jev inference. Follow [Contributing](../CONTRIBUTING.md#run-checks) to reproduce the checks.
 
+The community directory check connects each README entry to one project page and one category listing, verifies matching canonical sources, and requires a link back to the category. Its tests cover missing pages, duplicate entries, and mismatched navigation. These checks do not verify upstream installation instructions or project claims.
+
 ## Live integration checks
 
 On 2026-09-18, each of the four [starter examples](../examples/README.md) completed an authenticated request using `jev-1.13.0`. The returned version was also `jev-1.13.0`; responses passed the same contract validation used by the examples and produced application decisions.

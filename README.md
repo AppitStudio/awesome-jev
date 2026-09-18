@@ -10,6 +10,7 @@
 - [Start here](#start-here)
 - [Official SDKs and tools](#official-sdks-and-tools)
 - [Community projects](#community-projects)
+  - [Browse the project directory](community/README.md)
 - [Starter projects](#starter-projects)
 - [Reference project](#reference-project)
 - [Patterns and cookbooks](#patterns-and-cookbooks)
@@ -82,12 +83,14 @@ These resources are maintained by TypeSafe.
 
 ## Community projects
 
-These projects were reviewed from source and their upstream tests with mocked responses passed on 2026-09-18. Their live behavior and model quality were not evaluated here. Check each project's prerequisites, license, and fallback behavior before adopting it.
+**[Browse projects by category](community/README.md)** for dedicated pages with use cases, setup, examples, limitations, and review evidence. The links below still take you directly to the upstream projects.
 
-- [Jev Review](https://github.com/NiazMorshed2007/jev-review) - MCP server for experimental software-quality rubric scores and comparisons; requires `JEV_API_KEY` and sends supplied code context to TypeSafe.
-- [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev) - Python integrations for LlamaIndex passage reranking and query-engine selection, with configurable error and selection behavior.
-- [Testimonial miner](https://github.com/AppitStudio/testimonial-miner) - Python CLI that finds quotable user praise in Gmail mailboxes with one Jev request per email (message kind, app, praise quality, and a Noul per sentence) and stores verbatim quotes for review; requires a TypeSafe key and Google app passwords, and sends cleaned email text to TypeSafe.
-- [TypeSafeAI.Net](https://github.com/Hawxy/TypeSafeAI.Net) - Community .NET client with typed questions, dependency injection, and Microsoft.Extensions.AI adapters.
+Checks are tied to reviewed versions; see each page and the [validation scope](docs/validation.md#community-project-checks). Mocked tests and reported live smoke checks do not establish model quality on your workload.
+
+- [Jev Review](https://github.com/NiazMorshed2007/jev-review) - MCP server for experimental software-quality rubric scores and comparisons; requires `JEV_API_KEY` and sends supplied code context to TypeSafe. [Project guide](community/projects/jev-review.md).
+- [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev) - Python integrations for LlamaIndex passage reranking and query-engine selection, with configurable error and selection behavior. [Project guide](community/projects/llama-index-jev.md).
+- [Testimonial miner](https://github.com/AppitStudio/testimonial-miner) - Python CLI that finds quotable user praise in Gmail mailboxes with one Jev request per email (message kind, app, praise quality, and a Noul per sentence) and stores verbatim quotes for review; requires a TypeSafe key and Google app passwords, and sends cleaned email text to TypeSafe. [Project guide](community/projects/testimonial-miner.md).
+- [TypeSafeAI.Net](https://github.com/Hawxy/TypeSafeAI.Net) - Community .NET client with typed questions, dependency injection, and Microsoft.Extensions.AI adapters. [Project guide](community/projects/typesafeai-net.md).
 
 ## Starter projects
 

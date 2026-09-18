@@ -4,7 +4,7 @@ Help readers find resources that make working with Jev easier. A useful correcti
 
 ## Use the contributor skill
 
-The [Awesome Jev contributor skill](skills/awesome-jev-contributor/SKILL.md) helps a coding agent review your project or starter kit, identify gaps, and prepare a focused entry and proposal with verification evidence. It supports both external project listings and code contributed here. These contribution rules remain the source of truth; the skill does not guarantee acceptance.
+The [Awesome Jev contributor skill](skills/awesome-jev-contributor/SKILL.md) helps a coding agent review your project or starter kit, identify gaps, and prepare its project page, category listing, README entry, and proposal with verification evidence. It supports both external project listings and code contributed here. These contribution rules remain the source of truth; the skill does not guarantee acceptance.
 
 Install it from your project directory with the [Skills CLI](https://github.com/vercel-labs/skills), then select your agent:
 
@@ -17,7 +17,7 @@ For Codex specifically, add `--agent codex`; add `--global` if you want it avail
 Example requests:
 
 - “Use awesome-jev-contributor to check this Jev starter kit for submission readiness: PROJECT_URL.”
-- “Use awesome-jev-contributor to review my project and prepare a README entry and PR text. Keep the proposal local.”
+- “Use awesome-jev-contributor to review my project and prepare its project page, category listing, README entry, and PR text. Keep the proposal local.”
 - “Use awesome-jev-contributor to submit my project to Awesome Jev. I maintain it; review the source and tests and disclose the AI assistance.”
 
 A review or preparation request produces local artifacts. An explicit submission request allows the agent to open the scoped issue or PR once ready. The contributor remains responsible for reviewing the proposal, and maintainers decide whether to accept it.
@@ -43,6 +43,22 @@ Use the canonical HTTPS URL and one concise, factual sentence:
 ```
 
 Choose the closest existing category. Keep resources alphabetized within that category unless the section explicitly describes a learning sequence. Use objective descriptions rather than words such as “best,” “revolutionary,” or “production-ready.” Identify official TypeSafe resources separately from community resources. Do not add empty categories for future links.
+
+## Add a community project
+
+External applications, starter kits, libraries, and tools get a browsable page in this repository while their code stays upstream. A project PR includes all three:
+
+1. **A detail page** at `community/projects/<project-slug>.md`, based on the [project-page template](community/PROJECT_TEMPLATE.md). Explain when to use it, how it works, prerequisites and key setup, the shortest real usage path, examples/demo links, limitations/data flow, license, affiliation, and dated verification evidence.
+2. **An index entry** under one primary category in [community/README.md](community/README.md), linking to the page and briefly describing its use and stack. Prefer an existing category; create a new one only when the submitted project needs it. Alphabetize projects within a category.
+3. **The existing README entry** under Community projects, keeping its canonical upstream HTTPS link and concise description, plus a `Project guide` link to the new page.
+
+The page must have one canonical HTTPS link labeled `Source` matching that README entry and a link back to its category. `npm run check:community` catches missing pages, missing/duplicate index entries, mismatched sources, and disconnected README entries. These checks verify navigation, not the truth of a project's claims.
+
+Use real examples and accurate commands. A dry run can still read an external service; mocked components do not make every part of a demo offline. Explain what requires an account, where data goes, and which tests you ran versus results reported by someone else. If a separate demo is unavailable, say so and provide the best verified usage link. See [Testimonial miner](community/projects/testimonial-miner.md) for a complete page.
+
+Update the guide skill's resource map only when a new workflow needs specific routing guidance, using the project's local guide as its entry point. A change to `solutions.md` alone is not a project submission. Documentation articles and individual cookbooks can remain ordinary resource links without a project page.
+
+For an issue suggestion, supply the same information in the form; the accepted project needs its page and both listings before the catalog change is merged. Updates and removals should keep these three locations consistent.
 
 ## Add an example
 
@@ -77,6 +93,6 @@ npm ci
 npm run check
 ```
 
-`npm run lint` checks Markdown, `npm run check:links` checks local targets and heading anchors, and the `test:examples`, `test:projects`, `test:evaluations`, and `test:skills` scripts run offline behavior tests. A separate weekly/manual workflow checks remote URLs with bounded retries; transient failures need human review before removing a resource.
+`npm run lint` checks Markdown, `npm run check:links` checks local targets and heading anchors, and `npm run check:community` checks the project directory's coverage and navigation. The `test:community`, `test:examples`, `test:projects`, `test:evaluations`, and `test:skills` scripts exercise the checks and offline behavior. A separate weekly/manual workflow checks remote URLs with bounded retries; transient failures need human review before removing a resource.
 
 By contributing, you agree to the [license terms for the relevant files](LICENSE.md): CC0 for list/documentation text, MIT for original code and configuration. External projects keep their own licenses.
