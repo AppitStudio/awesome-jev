@@ -77,6 +77,6 @@ npm ci
 npm run check
 ```
 
-`npm run lint` checks Markdown, `npm run check:links` checks local targets and heading anchors, and the `test:examples`, `test:projects`, and `test:evaluations` scripts run offline behavior tests. A separate weekly/manual workflow checks remote URLs with bounded retries; transient failures need human review before removing a resource.
+`npm run lint` checks Markdown, `npm run check:links` checks local targets and heading anchors, and the `test:examples`, `test:projects`, `test:evaluations`, and `test:skills` scripts run offline behavior tests. A separate weekly/manual workflow checks remote URLs with bounded retries; transient failures need human review before removing a resource.
 
 By contributing, you agree to the [license terms for the relevant files](LICENSE.md): CC0 for list/documentation text, MIT for original code and configuration. External projects keep their own licenses.

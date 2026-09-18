@@ -4,7 +4,7 @@ This page distinguishes checks of the repository's code from claims about model 
 
 ## Offline checks
 
-`npm run check` validates Markdown, local links and anchors, and the Python behavior tests for examples, Support Router, and the evaluation runner. CI performs these checks without a TypeSafe key. Tests cover request construction, answer validation, policy boundaries, replay behavior, error paths, and credential handling.
+`npm run check` validates Markdown, local links and anchors, and the Python behavior tests for examples, Support Router, the evaluation runner, and the guide skill's example helper. CI performs these checks without a TypeSafe key. Tests cover request construction, answer validation, policy boundaries, replay behavior, error paths, and credential handling. The guide helper's tests use mocked transport to check its attempt bound and private key handling; they do not constitute live inference or an evaluation of an LLM following the skill.
 
 The bundled inputs and responses are hand-authored synthetic fixtures. Mock mode is deterministic application testing; it is not local Jev inference. Follow [Contributing](../CONTRIBUTING.md#run-checks) to reproduce the checks.
 

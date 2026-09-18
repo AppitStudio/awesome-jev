@@ -1,0 +1,4 @@
+interface:
+  display_name: "Awesome Jev Guide"
+  short_description: "Find a Jev starting point and get your workflow running"
+  default_prompt: "Use $awesome-jev-guide to understand my workflow, recommend a suitable starting point, and guide me through setup."

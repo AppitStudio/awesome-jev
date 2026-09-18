@@ -4,6 +4,8 @@ Keep this repository a selective resource list with small, runnable reference pr
 
 For project or starter-kit submissions, use the [contributor skill](skills/awesome-jev-contributor/SKILL.md). Keep its guidance aligned with `CONTRIBUTING.md`; it must work when installed outside this checkout.
 
+For workflow discovery, resource selection, guided setup, or adapting a starter for a user, use the [Awesome Jev Guide skill](skills/awesome-jev-guide/SKILL.md). Keep its references current and user-specific projects outside this public catalog unless the user requests a contribution.
+
 ## TypeSafe integrations
 
 Use the installed `typesafe-ai` skill when changing Jev questions, policy, API handling, or examples. Its source is the [official TypeSafe skill](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md). If it is unavailable, read the relevant current pages from the [documentation index](https://docs.typesafe.ai/llms.txt) and state that limitation.
