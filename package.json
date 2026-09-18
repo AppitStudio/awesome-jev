@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "github-slugger": "2.0.0",
-    "markdown-it": "14.3.2",
+    "markdown-it": "15.0.2",
     "markdownlint-cli2": "0.23.2"
   },
   "overrides": {
