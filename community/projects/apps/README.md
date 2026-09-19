@@ -8,6 +8,16 @@ Read the [tag guide](../../APP_TAGS.md): **Open source** describes source licens
 
 ## Web apps
 
+### Jev Radar
+
+`Open source` · `Free source build` · `BYOK`
+
+Run local evidence-linked research from a prompt. Jev selects methods, questions, leads, and claim checks; Brave Search discovers sources; an optional text model proposes questions and drafts answers for Jev to verify.
+
+**Access:** clone and run the [MIT source](https://github.com/Eliovp-BV/Jev-Radar) (Python 3.11+, Node 22.12+ or Node 20.19+ within 20) with `TYPESAFE_API_KEY` and usually `BRAVE_SEARCH_API_KEY`. No app purchase fee; search and provider usage can incur charges. Default estimated spend ceilings are $5 Jev / $20 text model per investigation. No login—bind to localhost on untrusted networks. Offline pytest on the review host: 600 passed, 2 failed, 22 skipped; live investigations not run.
+
+[Full Jev Radar guide](jev-radar.md) · [Source](https://github.com/Eliovp-BV/Jev-Radar)
+
 ### Jev Search
 
 `Open source` · `Pricing unverified` · `BYOK`
