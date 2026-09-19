@@ -6,6 +6,8 @@
 
 **[Explore Jev-powered apps](community/projects/apps/README.md)** · **[Share your app](CONTRIBUTING.md#list-a-jev-powered-app)**
 
+**Try the beta web UI at [JevList](https://jevlist.ai/).** Explore the projects in this directory through a searchable web interface. We're continually improving the experience—take a look and let us know what you think!
+
 ## Contents
 
 - [Explore Jev with our skill](#explore-jev-with-our-skill)
