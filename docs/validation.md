@@ -12,7 +12,7 @@ The community directory check connects each README entry to one project page and
 
 ## Live integration checks
 
-On 2026-09-18, each of the four [starter examples](../examples/README.md) completed an authenticated request using `jev-1.13.0`. The returned version was also `jev-1.13.0`; responses passed the same contract validation used by the examples and produced application decisions.
+On 2026-09-18, each of the original four [shared-runner recipes](../examples/README.md) completed an authenticated request using `jev-1.13.0`. The returned version was also `jev-1.13.0`; responses passed the same contract validation used by the examples and produced application decisions. This does not include the subsequently added computer-use example.
 
 The [Support Router](../projects/support-router/README.md) also processed its six synthetic demo tickets through the live CLI with the same requested and returned version. The run exercised batch requests, contract validation, policy decisions, and output files. Its saved responses were replayed locally without further API calls and reproduced the decisions.
 
@@ -29,8 +29,46 @@ The following upstream checks passed on 2026-09-18 using mocked responses. These
 | [Testimonial miner · 0852a28](https://github.com/AppitStudio/testimonial-miner/tree/0852a28f6961935afe440b1d698ce22412a4a7ec) | 26 offline tests on Python 3.12 and 3.14 with a fake IMAP source and a scripted model, locally and in the project's CI. |
 | [TypeSafeAI.Net · 7f014c9](https://github.com/Hawxy/TypeSafeAI.Net/tree/7f014c92ec4d0cf89896989eb7cd20a0e033e621) | 89 core-client and adapter tests on .NET 10. |
 
+### Implementation guides reviewed on 2026-09-19
+
+The [use-case tour](explore-use-cases.md) links complementary implementations selected through public X discovery and GitHub source review. Each guide records a fixed upstream revision and distinguishes actual execution from inspected instructions. Reviews were prepared with AI assistance; no live inference, browser automation, production database connection, or device action was performed for this batch. Upstream performance claims were not reproduced.
+
+All nine guides received a second source review against their pinned revisions before draft publication. The checks below include preparation evidence; repeated tests are not additional coverage. The second pass corrected a path-intent example, clarified setup and configurable policy, and checked that suggested adaptations are identified as such. Home Assistant remains a source review with targeted extracted-code checks, rather than a tested installation.
+
+| Project guide | Executed checks and limits |
+| --- | --- |
+| [fast-jev-compaction](../community/projects/fast-jev-compaction.md) | 29 offline tests, typecheck, build, and the guide's synthetic keep/truncate/drop example with assertions. Claude Code plugin installation and live inference were not tested. |
+| [Jev for Home Assistant](../community/projects/ha-jev.md) | 28 Python files compiled, 15 YAML examples parsed, extracted usage-accounting code tested, and the pinned client exercised with a synthetic question/response. No full Home Assistant integration suite, installation, or device actions. |
+| [Jev Logs](../community/projects/jevlogs.md) | 32 tests passed and one live test was skipped; example typechecks, the fixed CLI demo, and an injected three-event scenario passed. No production delivery, live inference, or retention enforcement was tested. |
+| [Jev Search](../community/projects/jev-search.md) | 79 tests across 14 files passed; query-candidate output and hosted homepage reachability were checked. No live searches, production build, or deployment; the tested pnpm version differed from upstream's pin. |
+| [Jev Ultrafast](../community/projects/jev-ultrafast.md) | 31 mocked tests, Ruff, two JavaScript syntax checks, and package build. Real-browser connection and guard behavior were not tested. |
+| [Laravel AI](../community/projects/laravel-ai.md) | 26 upstream classification/HTTP-fake tests passed with 70 assertions, plus the guide's synthetic routing example. Reviewed development source on PHP 8.4 and Laravel 13; stable-package adoption, Laravel 12, and live inference remain untested. |
+| [neo4jev](../community/projects/neo4jev.md) | 161 offline unit tests passed, plus a synthetic edge-direction mapping probe. Remote Neo4j access, Streamlit rendering, and live inference were not tested. |
+| [Notra](../community/projects/notra.md) | The guide's composition example and 10 separate synthetic assertions ran against unmodified utilities. No monorepo dependency installation, upstream test suite, database bootstrap, or live scans. |
+| [pg-jev](../community/projects/pg-jev.md) | Three extracted PL/Python bodies compiled and five loopback mock requests passed. No PostgreSQL execution: tools were unavailable and Docker was not running. Full SQL regressions, example SQL, and permission isolation remain untested. |
+
 ## Evaluating an application
 
 Use the [evaluation runner](../evaluations/README.md) with labels written before inspecting responses. Keep development and holdout cases separate, count service failures and review decisions, and report errors among automatic decisions alongside their coverage. A small synthetic dataset is useful for finding integration and policy mistakes; it is not representative production evidence.
 
 Keep input datasets and response captures outside this repository. Run live mode only with an explicit request bound and a locally configured key. Re-evaluate questions and policy when changing a model, rubric, or workload. Preserve the requested and returned versions instead of silently treating an alias as fixed.
+
+## Computer-use review
+
+The [computer-use guide](computer-use.md), four new community pages, and expanded Jev Ultrafast page were prepared with AI assistance on **2026-09-19**, using X author posts, current TypeSafe docs, GitHub source/license inspection, and isolated checkouts. No live provider calls, personal desktop actions, Android/iOS control, or comparative performance measurements were performed. Initial browser/mobile checks used Node.js 22.19.0; the added browser form walkthrough used Node.js 24.19.0. Native Mac and Ultrafast tests used Python 3.14.4, and the Cua recipe used Python 3.12.11. See each project's declared runtime requirements before adopting it.
+
+| Project and pinned revision | Checks executed here | Limits |
+| --- | --- | --- |
+| [Jev Browser (tontoko) · 92a318b](https://github.com/tontoko/jev-browser/tree/92a318b1f4215f064e9dd663172fb08534d2abdc) | `npm ci --ignore-scripts`, Chromium installation, `npm run check`: build and **270 tests passed, zero skipped**. | Real Chromium with local fixtures and injected/fake provider decisions. No live Jev, Firefox/WebKit, or published-artifact verification. |
+| [typesafe-computer-use · cc7b506](https://github.com/awlevin/typesafe-computer-use/tree/cc7b5066ae1a07b5e3182e8f87a9b5b6dfdcffc1) | `uv sync --frozen`; `uv run --frozen --offline pytest -q`: **144 tests passed**. | Mocked platform/provider boundaries; no screen capture, OS permissions, or desktop operation. |
+| [Mobile Jev · 395fc22](https://github.com/droidrun/mobile-jev/tree/395fc222beac4f059f9a0beb337d114a2b066e99) | `npm test`: **55 tests passed**. | Synthetic/mock device and provider tests; no studio build or live device connection. |
+| [Cua jev-use · 83f142c](https://github.com/trycua/cua/tree/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use) | Frozen Python install; Python suite initially **35 passed, one skipped**, then **36 passed** after `npm ci --ignore-scripts` enabled the parity test. `npm test`: **24 passed**; `npm run typecheck` passed. Both mock choosers returned valid selection envelopes. | Source subset included the required workflow fixture. No Driver, real UI loop, perception engine, Windows/PowerShell execution, or live provider test. |
+| [Jev Ultrafast · 1231850](https://github.com/browser-use/jev-ultrafast/tree/1231850a0bf1a0c0341fe408ef1668dbbfdfac46) | Fresh `uv sync --frozen`; `uv run --frozen --offline pytest -q`: **31 passed**. The guide's exact synthetic chooser script returned `CLICK` mapped to `browser`. | No real browser connection, inspector task, text-helper call, or live Jev evaluation. |
+
+The initial Cua test invocation lacked a repository workflow file used by its tests. Fetching that file at the same pinned revision resolved the setup error; no upstream source was modified. Source clones, logs, dependency caches, and browser downloads stayed outside this catalog. Test subprocesses received no provider credentials.
+
+The expanded Jev Browser guide's exact `catalog-form.mjs` walkthrough ran in isolated headless Chromium with an injected synthetic decision and **zero provider requests**. Its exact field-value assertion passed. The extraction subset (`node --test test/structured.test.mjs`) was rerun: **7 passed**, already included in the 270-test suite above. The Mobile Jev CLI help and both browser walkthroughs were checked against their documented expected output. Native desktop, Android device, and Cua Driver setup commands were source-reviewed; those platform interactions were not executed.
+
+The new [computer-use example](../examples/computer-use/README.md) passed its default synthetic run and **14 offline tests**. They cover selection mistakes, false completion, uncertainty/no-match, malformed responses, stale observations, caller permissions, source copying, non-UTF-8 locale handling, network avoidance, and failure before execution. `npm run check` includes these tests. The example's optional live mode and all real driver adaptations remain untested.
+
+For iOS, the author's Jev + AXe posts were inspected and the public AXe tree was checked at [30f4bfa](https://github.com/cameroncooke/AXe/tree/30f4bfa9bc81817906a60fadedbc913d7314b7e1). No Jev implementation was found there; the guide presents the demonstration separately from adoptable integrations. Source search is not evidence that no private or unpublished implementation exists.

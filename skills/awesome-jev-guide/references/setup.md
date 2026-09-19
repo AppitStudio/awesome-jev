@@ -18,11 +18,13 @@ Select the matching recipe: `support-routing`, `quality-rubric`, `span-selection
 
 For the full batch tool, use its [README](https://github.com/AppitStudio/awesome-jev/blob/main/projects/support-router/README.md) and start with `python3 projects/support-router/run.py`. A community integration needs its own installation path, not these commands.
 
+For UI workflows, use the standalone [computer-use example](https://github.com/AppitStudio/awesome-jev/blob/main/examples/computer-use/README.md): `python3 examples/computer-use/run.py`. It is not a `try_example.py` recipe. Expect `simulated_verified` with five passing checks; both the decisions and UI are synthetic. Its `--live` option still simulates the UI, requires an already configured environment key, and permits at most one HTTP attempt. Continue through the [computer-use implementation guides](https://github.com/AppitStudio/awesome-jev/blob/main/docs/computer-use.md) for actual browser, Mac, or Android setup; do not offer an unverified iOS Jev adapter as installable.
+
 The helper can also be run from an installed skill: use its actual `scripts/try_example.py` path and pass `--repo PATH_TO_AWESOME_JEV`. It reuses the checkout's request builder, validator, and policy; installing the skill alone does not install the repository or an SDK. It does not load `.env` files.
 
 ## 2. Obtain and configure a key when live access is wanted
 
-The official quick start points to [TypeSafe API keys](https://console.typesafe.ai/settings/keys). Have the user sign in or create an account through the official console, then create/copy a key in its keys settings. Explain what to find without inventing unobserved button labels. Account access, limits, and billing can vary; check the current [models and pricing](https://docs.typesafe.ai/models) and console rather than promising free credits or a fixed price.
+The official quick start points to [TypeSafe API keys](https://console.typesafe.ai/keys). Have the user sign in or create an account through the official console, then create/copy a key in its keys settings. Explain what to find without inventing unobserved button labels. Account access, limits, and billing can vary; check the current [models and pricing](https://docs.typesafe.ai/models) and console rather than promising free credits or a fixed price.
 
 The user enters the key privately. Never ask them to paste it into chat, source code, a command argument, or a screenshot. Do not create keys, accept terms, or change payment settings merely to explain setup.
 
