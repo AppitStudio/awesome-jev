@@ -33,8 +33,11 @@ Browse Jev applications, developer tools, and integrations by what you want to d
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
 | [fast-jev-compaction](projects/fast-jev-compaction.md) | Select which old tool calls and results remain in agent context. | TypeScript · library and Claude Code plugin |
+| [Jev Belay](projects/jev-belay.md) | Block an unverified "done" until the transcript shows real evidence. | Node.js · Claude Code plugin / Stop hook |
+| [Jev Commit](projects/jev-commit.md) | Check whether a commit message actually matches the staged diff. | Python · pre-commit / git hook |
 | [Jev Logs](projects/jevlogs.md) | Prioritize logs for deeper analysis alongside your archive. | TypeScript · library, CLI and OpenTelemetry integration |
 | [Jev Review](projects/jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
+| [jev.nvim](projects/jev-nvim.md) | Ask a buffer a plain-language question and get a ranked quickfix list. | Lua · Neovim plugin |
 
 ## Home automation
 
