@@ -72,6 +72,16 @@ Find sponsor reads on YouTube using Jev judgments over transcript lines or live 
 
 [Full Sponsor Skip guide](sponsor-skip.md) · [Source](https://github.com/trungdq88/youtube-sponsor-detection)
 
+### TypeSafe Fun AdBlocker
+
+`Open source` · `Free source build` · `BYOK`
+
+Ask Jev whether heuristically selected DOM elements are ads, then remove or highlight matches in an experimental Chrome extension.
+
+**Access:** [load the MIT source as an unpacked Chrome extension](https://github.com/realZachi/typesafe-adblock#install) and paste a TypeSafe key. No app purchase fee; each batch can incur provider charges. Explicit fun demo, not a production ad blocker. Source inspected; Chrome installation and live browsing were not tested.
+
+[Full TypeSafe Fun AdBlocker guide](typesafe-adblock.md) · [Source](https://github.com/realZachi/typesafe-adblock)
+
 ### Unclutter
 
 `Open source` · `Free source build` · `BYOK`
