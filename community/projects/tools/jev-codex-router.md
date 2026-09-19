@@ -8,13 +8,13 @@ Per-turn Codex model and reasoning routing through a local server that asks Jev 
 | --- | --- |
 | Source | [Source](https://github.com/0xNatoshi/jev-codex-router) |
 | Maintainer | [0xNatoshi](https://github.com/0xNatoshi) (Thibault Saint-Jean). Independently curated; this entry is not an upstream submission or endorsement. |
-| Format | Python local HTTP server (`server/jev_server.py`) plus Codex Router generic-provider registration; optional hook/PoC and backtest tools. |
+| Format | Python local HTTP server (`server/jev_server.py`) plus Codex Router generic-provider registration; optional hook/PoC and backtest tools. **Upstream repository is archived** on GitHub as of this review (still publicly readable under MIT). |
 | Requirements | macOS-oriented Codex desktop setup with a working [Codex Router](https://github.com/0xNatoshi/jev-codex-router#quickstart) checkout (`bin/codex-router`), Python 3.11+, and `TYPESAFE_API_KEY` (default env file `~/.hermes/.env`). Offline source inspection needs no account. |
 | License | [MIT](https://github.com/0xNatoshi/jev-codex-router/blob/8292b519659280884627a962c826ac7721136a64/LICENSE). ChatGPT / OpenCode tandem usage and TypeSafe inference have separate account and cost requirements. |
 
 ## When to use
 
-Use it when Codex already runs through Codex Router and you want each turn (including tool-step continuations) classified by Jev so mechanical work can stay on cheaper tiers while hard steps keep a frontier model. Prefer a simpler fixed model when you do not want a local classification server or Codex Router dependency.
+Use it when Codex already runs through Codex Router and you want each turn (including tool-step continuations) classified by Jev so mechanical work can stay on cheaper tiers while hard steps keep a frontier model. Prefer a simpler fixed model when you do not want a local classification server or Codex Router dependency. Because the upstream repo is archived, expect no further upstream fixes unless the author un-archives or publishes a successor.
 
 It is distinct from catalogued [jev-router](jev-router.md) (CLI launchers/proxies for Claude Code and Codex) and [Jev Model Router](jev-model-router.md) (Claude Code function-hook mod): this project plugs into Codex Router's generic provider and curated `jev/auto` model rather than wrapping the CLI itself.
 
@@ -59,6 +59,6 @@ Jev receives turn/tool digests as constructed by the server (including tool-outp
 
 ## Review and maintenance
 
-Reviewed on **2026-09-20** at [commit 8292b51](https://github.com/0xNatoshi/jev-codex-router/tree/8292b519659280884627a962c826ac7721136a64): MIT. AI-assisted source review of `server/jev_server.py`, README, BACKTEST notes, license, and repository layout. No automated offline test suite was run; no live TypeSafe calls, Codex Router install, or end-to-end routing session were performed.
+Reviewed on **2026-09-20** at [commit 8292b51](https://github.com/0xNatoshi/jev-codex-router/tree/8292b519659280884627a962c826ac7721136a64): MIT. Upstream GitHub repository is **archived** (read-only); listing remains for discoverability of the last reviewed revision. AI-assisted source review of `server/jev_server.py`, README, BACKTEST notes, license, and repository layout. No automated offline test suite was run; no live TypeSafe calls, Codex Router install, or end-to-end routing session were performed.
 
 Related: [jev-router](jev-router.md), [Jev Model Router](jev-model-router.md).
