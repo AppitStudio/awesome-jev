@@ -29,6 +29,24 @@ The following upstream checks passed on 2026-09-18 using mocked responses. These
 | [Testimonial miner · 0852a28](https://github.com/AppitStudio/testimonial-miner/tree/0852a28f6961935afe440b1d698ce22412a4a7ec) | 26 offline tests on Python 3.12 and 3.14 with a fake IMAP source and a scripted model, locally and in the project's CI. |
 | [TypeSafeAI.Net · 7f014c9](https://github.com/Hawxy/TypeSafeAI.Net/tree/7f014c92ec4d0cf89896989eb7cd20a0e033e621) | 89 core-client and adapter tests on .NET 10. |
 
+### Tweet directory review on 2026-09-19
+
+All 30 repositories linked in [StudioYebisu's roundup](https://x.com/studio_yebisu/status/2101065176069886152) received individual AI-agent source reviews. The catalog gained **21 detail pages**: four apps, thirteen Jev developer resources, and four explicitly separated [independent model research projects](../community/projects/tools/README.md#independent-model-research). Each addition has a category entry and a canonical upstream link in the root README. The research models are not official Jev weights or independently validated substitutes.
+
+Nine resources were already listed. Seven retained their existing entries; [Jev Search](../community/projects/apps/jev-search.md#newer-provider-options) gained a dated update about optional provider chains, and [Jev for Home Assistant](../community/projects/tools/ha-jev.md#newer-question-editor) gained a dated update about the editor's live preview. Their earlier executed checks remain tied to the earlier revisions, not the newly inspected source.
+
+Reviews covered public source, licensing or missing licensing, setup instructions, concrete decision integrations, data recipients, failure handling and representative test definitions. Each new guide records its exact commit and distinguishes inspected instructions from execution. Source-file paths and upstream Markdown anchors were checked against the reviewed clones; this does not verify published packages or hosted services. Open issue/PR checks found no overlapping proposals.
+
+The new batch included only these candidate execution checks:
+
+| Project | Executed check | Evidence boundary |
+| --- | --- | --- |
+| [Jev Voice Browser](../community/projects/tools/jev-voice-browser.md) | `node --test test/unit/policy.test.js test/unit/spans.test.js`: **24 passed**, with sanitized environment and network denied. | Mocked policy and text-span behavior; no browser, microphone or provider operation. |
+| [jev-rules](../community/projects/tools/jev-rules.md) | **101 offline tests passed** on Node.js 24.11.1 with a sanitized environment and mocked requests. | Local rule selection, hooks and fallback behavior; no plugin installation or live classification. |
+| [Jev Review (Dev Agrawal)](../community/projects/tools/jev-review-devagrawal.md) | `node --check src/dashboard/public/app.js` passed on Node.js 22.19.0. | JavaScript syntax only; the project's required Node.js 24 runtime, dependency checks and live review were not tested. |
+
+The remaining new candidates were source-reviewed only. No live inference, desktop/device control, Discord moderation, wallet transactions, GPU deployments or model downloads were performed for this batch. No upstream speed, accuracy, profitability or safety claim was adopted as independently verified. Public source clones, review drafts and raw research remained outside the catalog; contributor affiliations and commercial relationships were not supplied, and human editorial approval is not claimed.
+
 ### Implementation guides reviewed on 2026-09-19
 
 The [use-case tour](explore-use-cases.md) links complementary implementations selected through public X discovery and GitHub source review. Each guide records a fixed upstream revision and distinguishes actual execution from inspected instructions. Reviews were prepared with AI assistance; no live inference, browser automation, production database connection, or device action was performed for this batch. Upstream performance claims were not reproduced.

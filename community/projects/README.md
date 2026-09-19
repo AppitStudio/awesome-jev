@@ -15,6 +15,8 @@ An app offers a complete user workflow through its own interface. It may need an
 
 A tool provides a reusable building block, developer workflow, or reference implementation. A demo dashboard or inspector does not by itself make a developer project an app.
 
+The tools directory also separates [independent model research](tools/README.md#independent-model-research) that explores related typed-decision patterns. Their local inference uses other models; separate comparison scripts may call Jev, but these projects do not provide its weights.
+
 These groups describe how a project is used. They do not certify production readiness or live-model quality; read each page's verification scope before adopting it.
 
 ## Share your work

@@ -14,7 +14,7 @@ Read the [tag guide](../../APP_TAGS.md): **Open source** describes source licens
 
 Search across selected sources and explore ranked links with editable filters. Jev selects queries, sources, and time windows, then judges result relevance; Search1API retrieves the links.
 
-**Access:** use the [hosted application](https://jev.s1.dev) or self-host from source with TypeSafe and Search1API keys. Self-hosting can incur provider and hosting charges. The hosted homepage was checked; live search and hosted access limits were not tested.
+**Access:** use the [hosted application](https://jev.s1.dev) or self-host from source with Search1API and a configured Jev provider (TypeSafe by default; newer source also supports Vercel AI Gateway or Cloudflare Workers AI). Self-hosting can incur provider and hosting charges. The hosted homepage was checked; live search and hosted access limits were not tested.
 
 [Full Jev Search guide](jev-search.md) · [Source](https://github.com/superagents-lab/jev-search)
 
@@ -62,6 +62,26 @@ Paste a block of text into supported web form fields with undo. Jev chooses rele
 
 [Full Smart Paste guide](smart-paste.md) · [Source](https://github.com/nomanjack/smart-paste)
 
+### Sponsor Skip
+
+`Source unverified` · `Pricing unverified` · `BYOK`
+
+Find sponsor reads on YouTube using Jev judgments over transcript lines or live speech text, then inspect or skip them.
+
+**Access:** [load the Chrome extension from source](https://github.com/trungdq88/youtube-sponsor-detection#chrome-extension) with a TypeSafe key; audio modes also need Deepgram. Auto-skip defaults on. Provider fees apply; no license or app pricing terms were found. Source inspected only; live playback and accuracy untested.
+
+[Full Sponsor Skip guide](sponsor-skip.md) · [Source](https://github.com/trungdq88/youtube-sponsor-detection)
+
+### Unclutter
+
+`Open source` · `Free source build` · `BYOK`
+
+Hide page clutter with Jev classifications and reusable local rules, with pause and per-element controls.
+
+**Access:** build the [MIT source](https://github.com/kitze/unclutter#install-from-source) using Bun and Node.js 22.12+ for Chromium or Firefox 140+. Supply a TypeSafe or Vercel AI Gateway key; inference charges apply. Manual analysis is the default; optional automatic analysis sends snippets on page visits. Source was inspected; installation and live browsing were not tested.
+
+[Full Unclutter guide](unclutter.md) · [Source](https://github.com/kitze/unclutter)
+
 ### Vibe Check for X
 
 `Source unverified` · `Pricing unverified` · `BYOK`
@@ -71,6 +91,30 @@ Review draft X posts, replies, and quote posts with a scorecard inside the compo
 **Access:** load the source folder as an unpacked Chrome extension and supply a TypeSafe key; media descriptions need an OpenAI key. No license file or explicit app pricing terms were found. Provider calls can incur charges, auto-analysis is enabled by default, and keys use Chrome sync storage. Source and syntax were checked; Chrome installation and live scoring were not tested.
 
 [Full Vibe Check guide](vibecheck.md) · [Source](https://github.com/RafalWilinski/vibecheck)
+
+## Command-line apps
+
+### Jevmeter
+
+`Open source` · `Free source build` · `BYOK`
+
+Annotate videos with Jev judgments about sentence-level rhetoric, then render overlays and highlights.
+
+**Access:** [build the MIT Python CLI](https://github.com/ChetasLua/jevmeter#-command-line-for-power-users) with a Whisper backend, FFmpeg support and TypeSafe key. Source has no purchase fee; inference charges apply. The review inspected source only. Scores are model judgments, not fact-checks; failed sentences can be omitted.
+
+[Full Jevmeter guide](jevmeter.md) · [Source](https://github.com/ChetasLua/jevmeter)
+
+## Discord bots
+
+### Jev Moderation Bot
+
+`Source unverified` · `Pricing unverified` · `BYOK`
+
+Moderate Discord messages with Jev classifications, configurable escalation and member activity summaries.
+
+**Access:** [self-host the Python bot](https://github.com/brainstormity/Jev-Moderation-Bot#setup) with Discord bot permissions and a TypeSafe key. Starting it enables automatic message deletion and escalating timeouts; no review-only mode was established. Inference/hosting costs apply. README declares MIT but a complete license was not found. Source reviewed; live moderation and accuracy untested.
+
+[Full Jev Moderation Bot guide](jev-moderation-bot.md) · [Source](https://github.com/brainstormity/Jev-Moderation-Bot)
 
 ## Before you get started
 

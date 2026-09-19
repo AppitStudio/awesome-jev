@@ -9,14 +9,14 @@ Turn a request such as “Find TypeSafe Jev implementations on GitHub this month
 | Source | [Source](https://github.com/superagents-lab/jev-search) |
 | Tags | `Open source` · `Pricing unverified` · `BYOK` |
 | Product homepage | [Jev Search](https://jev.s1.dev) |
-| Pricing and access | Hosted pricing/access limits remain unverified as of **2026-09-19**; no pricing terms were found on the inspected [homepage](https://jev.s1.dev). Self-hosting needs TypeSafe and Search1API keys and can incur provider/hosting charges. |
+| Pricing and access | Hosted pricing/access limits remain unverified as of **2026-09-19**; no pricing terms were found on the inspected [homepage](https://jev.s1.dev). The pinned setup needs TypeSafe and Search1API keys; newer source also offers alternate Jev providers described below. Provider/hosting charges may apply. |
 | Jev evidence | [TypeSafe client](https://github.com/superagents-lab/jev-search/blob/522868762f0637b20bf533f136e930cceb83b9f3/src/lib/typesafe.ts) and the pipeline described below were source-reviewed. |
 | Disclosure | Open-source code does not establish free hosted use. Built by the search-provider team; independently curated here, with no endorsement or live-search validation. |
 | Maintainer | [Search1API / superagents-lab](https://github.com/superagents-lab); built by the search-provider team. Independently curated here, not an upstream submission or TypeSafe endorsement. |
 | Format | TypeScript web application using React 19, TanStack Start, and Cloudflare Workers. |
 | Platform and availability | Web · [hosted app](https://jev.s1.dev) or self-host from source. Homepage reachability was checked; live search and hosted access limits were not tested. |
 | Jev's role | Selects queries, sources, and time windows, then judges result relevance; Search1API retrieves the links. |
-| Requirements | Upstream recommends Node.js 22.12+ and pins pnpm 10.8.0. Live local searches need `TYPESAFE_API_KEY` and `SEARCH1API_API_KEY` in private `.dev.vars`; deployment needs a Cloudflare account. |
+| Requirements | Upstream recommends Node.js 22.12+ and pins pnpm 10.8.0. The pinned live setup uses `TYPESAFE_API_KEY` and `SEARCH1API_API_KEY` in private `.dev.vars`; newer provider options are described below. Deployment needs a Cloudflare account. |
 | License | [MIT application code](https://github.com/superagents-lab/jev-search/blob/522868762f0637b20bf533f136e930cceb83b9f3/LICENSE); TypeSafe names and brand assets are excluded from that license. |
 
 ## When to use
@@ -43,6 +43,31 @@ GitHub, Reddit, and Hacker News each use two searches: their dedicated engine pl
 The [TypeSafe client](https://github.com/superagents-lab/jev-search/blob/522868762f0637b20bf533f136e930cceb83b9f3/src/lib/typesafe.ts) uses the current [HTTP interface](https://docs.typesafe.ai/api), defaulting to `jev-latest`. For each result, a Noul asks whether its title or snippet concerns the requested subject. The displayed “% on topic” is that yes-probability, not a separate confidence or quality score. See [Noul semantics](https://docs.typesafe.ai/primitives/noul).
 
 Code merges normalized URLs and groups similar titles. Best-match ordering uses rounded topical probability, then engine agreement, then original position. Newest uses known ages first. Rows below `0.3` are folded into an expandable group. Streaming preserves already placed rows; changing sort mode recomputes the order.
+
+## Newer provider options
+
+A source-only re-review on **2026-09-19** inspected commit
+[`894ea4ce4f1e05cb881f180cab93e21de3f70333`](https://github.com/superagents-lab/jev-search/commit/894ea4ce4f1e05cb881f180cab93e21de3f70333).
+Its [provider configuration](https://github.com/superagents-lab/jev-search/blob/894ea4ce4f1e05cb881f180cab93e21de3f70333/src/lib/judge-config.ts)
+adds optional Vercel AI Gateway and Cloudflare Workers AI routes. TypeSafe alone
+remains the default. `JEV_PROVIDERS` explicitly enables and orders providers;
+unlisted providers stay disabled even if credentials exist. Search1API is still
+required. Vercel uses `AI_GATEWAY_API_KEY`; Cloudflare uses an `AI` binding and
+account access, including remote calls from local development.
+
+The [updated client](https://github.com/superagents-lab/jev-search/blob/894ea4ce4f1e05cb881f180cab93e21de3f70333/src/lib/typesafe.ts)
+tries the next configured provider once after HTTP 402, 429 or 5xx, but not after
+other client errors or cancellation. Defaults are `jev-latest` for TypeSafe,
+`typesafe-ai/jev` for Vercel and `typesafe/jev` for Cloudflare. Vercel boolean
+answers are mapped to Noul values. Fallback can send the same request and result
+snippets through multiple enabled providers and add usage charges; it is not a
+spending cap. Hosted provider configuration and current prices were not verified.
+
+This newer source, README, license and mocked provider/configuration tests were
+inspected without installation, test execution or live requests. The walkthrough
+and **79-test result below remain pinned to the earlier `5228687` revision**.
+Follow the newer [provider setup](https://github.com/superagents-lab/jev-search/blob/894ea4ce4f1e05cb881f180cab93e21de3f70333/README.md#jev-providers)
+when choosing an alternate provider; those routes have no execution evidence here.
 
 ## Get started
 

@@ -38,6 +38,28 @@ The [state builder](https://github.com/AboveColin/HA-Jev/blob/1b48f2fa1e94d076b5
 
 Each context batches its questions into one request. A Noul produces the probability of “yes”; adding `threshold` also creates a binary sensor. Choice and Score sensors retain distributions and confidence attributes. The [Noul documentation](https://docs.typesafe.ai/primitives/noul) explains why its probability is the answer itself, without a separate confidence value.
 
+## Newer question editor
+
+A source-only re-review on **2026-09-19** inspected integration **1.9.0** at
+[`1f63190483d8718fa57d9750f39118b577325330`](https://github.com/AboveColin/HA-Jev/commit/1f63190483d8718fa57d9750f39118b577325330).
+The new [question editor](https://github.com/AboveColin/HA-Jev/blob/1f63190483d8718fa57d9750f39118b577325330/custom_components/jev/subentry.py)
+is available through **Settings → Devices and services → Jev → Add question**.
+It creates editable Noul, Choice and Score questions and automatically groups
+questions with matching state, schedule and triggers into shared requests.
+
+**The editor preview is live.** Creating or editing a question builds its state
+and attempts one trial evaluation before saving, sending selected household data
+to TypeSafe. It checks the accumulated daily budget and records successful usage;
+a failed trial or exhausted budget does not prevent saving. This adds another
+billable interaction beyond scheduled updates. Direct service actions still lack
+the pre-request budget check described below.
+
+README/setup, license, coordinator, service code, editor and representative mocked
+tests were inspected. No HA installation, test suite or provider calls were run
+for 1.9.0. The walkthrough and original offline evidence below remain tied to
+**1.8.0**; see the newer [editor instructions](https://github.com/AboveColin/HA-Jev/blob/1f63190483d8718fa57d9750f39118b577325330/site-docs/questions-ui.md)
+for its alternate configuration path.
+
 ## Get started
 
 **Offline first:** read [the laundry reminder example](https://github.com/AboveColin/HA-Jev/blob/1b48f2fa1e94d076b54082f889f04b0083bcd1a8/examples/01_laundry_reminder.yaml). Its entity IDs are placeholders. There is no standalone offline household demo; the upstream test suite replaces the API client.
