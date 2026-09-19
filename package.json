@@ -11,10 +11,13 @@
   "scripts": {
     "lint": "markdownlint-cli2",
     "check:links": "node scripts/check-local-links.mjs",
+    "check:community": "node scripts/check-community.mjs",
+    "test:community": "node --test tests/check-community.test.mjs",
     "test:examples": "python3 -m unittest discover -s examples/tests -v",
     "test:projects": "python3 -m unittest discover -s projects/support-router/tests -v",
     "test:evaluations": "python3 -m unittest discover -s evaluations/tests -v",
-    "check": "npm run lint && npm run check:links && npm run test:examples && npm run test:projects && npm run test:evaluations"
+    "test:skills": "python3 -m unittest discover -s tests -v",
+    "check": "npm run lint && npm run check:links && npm run check:community && npm run test:community && npm run test:examples && npm run test:projects && npm run test:evaluations && npm run test:skills"
   },
   "devDependencies": {
     "github-slugger": "2.0.0",

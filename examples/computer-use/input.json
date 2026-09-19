@@ -1,0 +1,25 @@
+{
+  "goal": "Fill the accounts payable email with the supplied billing_contact, leave the delivery contact unchanged, and read the invoice amount due. Do not submit the form.",
+  "values": {"billing_contact": "billing@example.invalid"},
+  "snapshot": {
+    "surface": "https://invoice.example.invalid/fixture",
+    "revision": 1,
+    "submitted": false,
+    "elements": [
+      {"id": "e1", "role": "textbox", "label": "Delivery contact", "enabled": true, "value": "shipping@example.invalid"},
+      {"id": "e2", "role": "textbox", "label": "Accounts payable", "enabled": true, "value": ""},
+      {"id": "e3", "role": "button", "label": "Pay invoice", "enabled": true}
+    ],
+    "texts": [
+      {"id": "t1", "label": "Subtotal", "text": "€100.00"},
+      {"id": "t2", "label": "Amount due (tax included)", "text": "€120.00"}
+    ]
+  },
+  "expected": {
+    "billing_field": "e2",
+    "delivery_field": "e1",
+    "delivery_value": "shipping@example.invalid",
+    "amount_source": "t2",
+    "amount_value": "€120.00"
+  }
+}

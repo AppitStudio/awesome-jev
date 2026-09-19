@@ -17,6 +17,11 @@ body:
     validations:
       required: true
   - type: textarea
+    id: project_page
+    attributes:
+      label: Project guide details (for an application, starter kit, library, or tool)
+      description: Describe when to use it, setup and expected output, and real example/demo links. State prerequisites, key variables, data flow, costs, license, and limitations. Accepted projects need a detail page and category listing; see community/PROJECT_TEMPLATE.md. Write "Not applicable" for an article or other non-project resource.
+  - type: textarea
     id: review
     attributes:
       label: Your review

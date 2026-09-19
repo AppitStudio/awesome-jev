@@ -6,9 +6,13 @@
 
 ## Contents
 
+- [Explore Jev with our skill](#explore-jev-with-our-skill)
 - [Start here](#start-here)
+  - [Explore practical use cases](docs/explore-use-cases.md)
 - [Official SDKs and tools](#official-sdks-and-tools)
 - [Community projects](#community-projects)
+  - [Browse the project directory](community/README.md)
+- [Computer and browser use](#computer-and-browser-use)
 - [Starter projects](#starter-projects)
 - [Reference project](#reference-project)
 - [Patterns and cookbooks](#patterns-and-cookbooks)
@@ -18,7 +22,53 @@
 - [Model behavior and evaluation](#model-behavior-and-evaluation)
 - [Contributing](#contributing)
 
+## Explore Jev with our skill
+
+Use **Awesome Jev Guide** to understand Jev and explore solutions that fit your needs. Describe your workflow in plain language, and your coding agent will help you choose an example, adapt a project, or build a suitable starter—with guided setup along the way.
+
+**1. Install the skill.** With Node.js 22+ installed, run this in your project directory:
+
+```sh
+npx skills add AppitStudio/awesome-jev --skill awesome-jev-guide
+```
+
+Select your coding agent when prompted. For Codex, you can add `--agent codex`. No TypeSafe account or API key is needed to explore ideas or run the offline examples.
+
+**2. Open your coding agent in that project and try a prompt.**
+
+New to Jev? Start here:
+
+```text
+Use awesome-jev-guide. Explain Jev simply, help me understand what I can
+build with it, and walk me through the easiest example. I don't have
+an API key yet.
+```
+
+Have a workflow in mind? Fill in the brackets:
+
+```text
+Use awesome-jev-guide. Today I [describe the work I do manually].
+I want to [describe the result]. I use [language, framework, or tools].
+Help me find the best starting point in this repo and explain what
+needs adapting. Ask me anything essential that's missing.
+```
+
+Ready to build?
+
+```text
+Use awesome-jev-guide to build a small starter for [my workflow] using
+[my stack]. Start with a working offline demo, explain what I should
+customize, then guide me through API-key setup and a first live check
+when I'm ready.
+```
+
+**3. Follow the next step together.** The guide uses current TypeSafe documentation and explains what already works, what needs building, and how to handle uncertain results. When you want live access, it walks you through private key setup—never paste a key into chat.
+
+See the [full onboarding guide](docs/using-the-guide.md) for installation options, demos, and setup details.
+
 ## Start here
+
+**[Explore what you can build](docs/explore-use-cases.md)** — choose a real implementation by the result you want, then follow its guide, worked example, and setup path.
 
 - [Introduction](https://docs.typesafe.ai/introduction) - Understand Jev's state-and-questions interface and its three decision primitives.
 - [Official quick start](https://docs.typesafe.ai/introduction/quickstart) - Make a first request using Python or HTTP.
@@ -37,16 +87,45 @@ These resources are maintained by TypeSafe.
 
 ## Community projects
 
-These projects were reviewed from source and their upstream tests with mocked responses passed on 2026-09-18. Their live behavior and model quality were not evaluated here. Check each project's prerequisites, license, and fallback behavior before adopting it.
+**[Browse projects by category](community/README.md)** for dedicated pages with use cases, setup, examples, limitations, and review evidence. The links below still take you directly to the upstream projects.
 
-- [Jev Review](https://github.com/NiazMorshed2007/jev-review) - MCP server for experimental software-quality rubric scores and comparisons; requires `JEV_API_KEY` and sends supplied code context to TypeSafe.
-- [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev) - Python integrations for LlamaIndex passage reranking and query-engine selection, with configurable error and selection behavior.
-- [TypeSafeAI.Net](https://github.com/Hawxy/TypeSafeAI.Net) - Community .NET client with typed questions, dependency injection, and Microsoft.Extensions.AI adapters.
+Checks are tied to reviewed versions; see each page and the [validation scope](docs/validation.md#community-project-checks). Mocked tests and reported live smoke checks do not establish model quality on your workload.
+
+- [Cua jev-use](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use) - Composes a bounded Jev chooser with Cua Driver and an independently verified browser fixture. [Project guide](community/projects/cua-jev-use.md).
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Selects tool-call/result pairs to keep, truncate, or remove while preserving retained conversation content verbatim. [Project guide](community/projects/fast-jev-compaction.md).
+- [Jev Browser (tontoko)](https://github.com/tontoko/jev-browser) - Integrates Jev field selection and source-backed extraction with a Playwright SDK, CLI, MCP server, and explicit assertions. [Project guide](community/projects/jev-browser-tontoko.md).
+- [Jev for Home Assistant](https://github.com/AboveColin/HA-Jev) - Turns judgments over selected Home Assistant state into sensors and automation responses, with usage accounting. [Project guide](community/projects/ha-jev.md).
+- [Jev Logs](https://github.com/reachjalil/jevlogs) - Scores OpenTelemetry logs for a separate analysis branch, with mock mode and conservative error handling. [Project guide](community/projects/jevlogs.md).
+- [Jev Review](https://github.com/NiazMorshed2007/jev-review) - MCP server for experimental software-quality rubric scores and comparisons; requires `JEV_API_KEY` and sends supplied code context to TypeSafe. [Project guide](community/projects/jev-review.md).
+- [Jev Search](https://github.com/superagents-lab/jev-search) - Selects search sources and filters, then ranks retrieved links using Jev and Search1API. [Project guide](community/projects/jev-search.md).
+- [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) - Selects browser operations and observed targets with Jev, using a separate text model for text entry. [Project guide](community/projects/jev-ultrafast.md).
+- [Laravel AI](https://github.com/laravel/ai) - Provides typed classification and a TypeSafe provider for Laravel applications, with fake responses for application testing. [Project guide](community/projects/laravel-ai.md).
+- [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev) - Python integrations for LlamaIndex passage reranking and query-engine selection, with configurable error and selection behavior. [Project guide](community/projects/llama-index-jev.md).
+- [Mobile Jev](https://github.com/droidrun/mobile-jev) - Selects Android actions and exact input text through Mobilerun, with a local studio and task-specific verification demo. [Project guide](community/projects/mobile-jev.md).
+- [neo4jev](https://github.com/jexp/neo4jev) - Explores Neo4j paths using next-hop choices and goal judgments, with notebooks and a Streamlit interface. [Project guide](community/projects/neo4jev.md).
+- [Notra](https://github.com/usenotra/notra) - Uses Jev judgments within a broader application for tracking brand mentions and placement in AI answers. [Project guide](community/projects/notra.md).
+- [pg-jev](https://github.com/realZachi/pg-jev) - Adds semantic predicates, probabilities, choices, and scores to PostgreSQL through a PL/Python extension. [Project guide](community/projects/pg-jev.md).
+- [Testimonial miner](https://github.com/AppitStudio/testimonial-miner) - Python CLI that finds quotable user praise in Gmail mailboxes with one Jev request per email (message kind, app, praise quality, and a Noul per sentence) and stores verbatim quotes for review; requires a TypeSafe key and Google app passwords, and sends cleaned email text to TypeSafe. [Project guide](community/projects/testimonial-miner.md).
+- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) - Combines local OCR and Accessibility observations with Jev decisions to operate macOS, with an optional writing model. [Project guide](community/projects/typesafe-computer-use.md).
+- [TypeSafeAI.Net](https://github.com/Hawxy/TypeSafeAI.Net) - Community .NET client with typed questions, dependency injection, and Microsoft.Extensions.AI adapters. [Project guide](community/projects/typesafeai-net.md).
+
+## Computer and browser use
+
+**[Explore computer-use solutions](docs/computer-use.md)** for browser navigation, form filling, data extraction, macOS/Android control, and iOS Simulator experiments. The guide compares inspected implementations, explains their testing boundaries, and develops a practical observe → choose → act → verify design.
+
+Start with [Jev Browser (tontoko)](community/projects/jev-browser-tontoko.md) for Playwright forms, extraction, and app tests, or [Jev Ultrafast](community/projects/jev-ultrafast.md) to study a compact browser loop. Native macOS and Android have separate implementations; the iOS Jev + AXe work is documented as a public demonstration with an unverified release path.
+
+Try the [offline computer-use example](examples/computer-use/README.md) to see field selection, exact source extraction, freshness checks, and independent assertions without controlling a real device:
+
+```sh
+python3 examples/computer-use/run.py
+```
 
 ## Starter projects
 
 Original examples maintained in this repository. Each includes readable questions, application policy, synthetic responses, tests, and an optional live mode. **Mock results demonstrate code behavior, not Jev accuracy.**
 
+- [Computer-use decision cycle](examples/computer-use/README.md) - Select a form field and source value, then check a simulated action with independent assertions; uses its own runner.
 - [Quality rubric](examples/quality-rubric/README.md) - Evaluate independent dimensions and combine scores with visible weights in code.
 - [RAG triage](examples/rag-triage/README.md) - Check a retrieved passage for relevance, evidence, and contradictory information before selecting context.
 - [Span selection](examples/span-selection/README.md) - Extract candidate values in code, select one with Jev, and return the exact source value.
@@ -107,6 +186,8 @@ Selected official guides, organized by what you want to build. Cookbook results 
 ## Contributing
 
 Suggest a resource you have inspected or used, explain who it helps, and disclose your connection to it. Read the [contribution guide](CONTRIBUTING.md) for inclusion criteria, entry format, and checks. Broken links and corrections are welcome too.
+
+Use the [contributor skill](CONTRIBUTING.md#use-the-contributor-skill) to have a coding agent check your project or starter kit and prepare a focused submission with evidence.
 
 This repository was produced with AI agents using primary documentation, source review, offline tests, and explicit live checks. See [validation scope](docs/validation.md) and [maintenance and provenance](docs/maintaining.md) for the review process and its boundaries. This project is not affiliated with or endorsed by TypeSafe AI or the central Awesome directory.
 
