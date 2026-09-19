@@ -52,6 +52,16 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 ## Browser extensions
 
+### Smart Paste
+
+`Open source` · `Free source build` · `BYOK`
+
+Paste a block of text into supported web form fields with undo. Jev chooses relevant passages, selects value boundaries, and verifies the proposed matches; JavaScript copies exact source text and checks that the page retains it.
+
+**Access:** load the [MIT source as an unpacked Chrome extension](https://github.com/nomanjack/smart-paste#install), add a TypeSafe key, and enable matching. No app purchase is required for this source distribution; each paste can make up to three potentially billable provider requests. The extension is experimental, sends pasted text and limited form context to TypeSafe, and can replace the focused field. Source and mocked tests were checked; Chrome installation and live matching were not tested.
+
+[Full Smart Paste guide](smart-paste.md) · [Source](https://github.com/nomanjack/smart-paste)
+
 ### Vibe Check for X
 
 `Source unverified` · `Pricing unverified` · `BYOK`
