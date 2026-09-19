@@ -2,6 +2,8 @@
 
 Start with a synthetic support ticket and inspect how typed answers become an application decision. The default example makes no network requests and needs no API key.
 
+For help choosing or adapting an example to your own workflow, use the [Awesome Jev Guide skill](using-the-guide.md).
+
 ## 1. Run locally
 
 Install Python 3.10 or newer, clone the repository, and run:

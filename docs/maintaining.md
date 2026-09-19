@@ -12,6 +12,8 @@ Keep the list small enough that every entry has a reason to be here. Useful cura
 
 Use [CONTRIBUTING.md](../CONTRIBUTING.md) as the acceptance standard. First-party examples receive the same scrutiny as external submissions. Do not rank entries by stars, accept payment for placement, or add filler to make a section look complete.
 
+For community projects, review the [detail page](../community/PROJECT_TEMPLATE.md), [category index](../community/README.md), and original README entry together. Verify setup and examples against the cited upstream version, distinguish executed checks from reported results, and keep all three surfaces consistent when updating or removing a project. `check:community` checks their connections, not factual accuracy. Keep the contributor and guide skills aligned with these conventions.
+
 ## Maintain links and relevance
 
 Review the scheduled link-check results weekly. A 403 or 429 may be a host blocking automated checks; inspect it manually before removing an otherwise useful resource. Retry transient failures. Fix moved links, replace misleading descriptions, and remove persistently unavailable or unsuitable resources with an explanation in the pull request.
