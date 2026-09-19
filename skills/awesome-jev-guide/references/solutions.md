@@ -19,12 +19,23 @@ The four teaching examples use Python 3.10+ and the standard library. Their ques
 
 Browse the current [community directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/README.md) for categorized project pages. Each page provides fit, setup, examples, and review evidence; verify its upstream source before giving version-sensitive instructions.
 
+For open-ended exploration, start with the [use-case tour](https://github.com/AppitStudio/awesome-jev/blob/main/docs/explore-use-cases.md). It maps desired outcomes to implementation guides and explains how to run a first experiment without confusing synthetic tests with model evaluation.
+
 | User's need | Project guide | What to check before setup |
 | --- | --- | --- |
 | Find praise in customer emails | [Testimonial miner](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/testimonial-miner.md) | Python/Gmail workflow; a Gmail dry run still reads the mailbox, and publishing selected text needs separate permission. |
 | Add quality feedback to an AI coding workflow | [Jev Review](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/jev-review.md) | Experimental MCP server; uses `JEV_API_KEY`; scores need interpretation and are not proof of correctness. |
 | Integrate typed judgments in a .NET application | [TypeSafeAI.Net](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/typesafeai-net.md) | Community client; runtime support differs from sample prerequisites; key configuration is explicit in application code. |
 | Rerank retrieved passages or route LlamaIndex queries | [llama-index-jev](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/llama-index-jev.md) | Separate reranker and selector packages; upstream OpenRouter examples make live calls even with mocked embeddings or answer generation. |
+| Choose browser actions from a live page | [Jev Ultrafast](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/jev-ultrafast.md) | Jev selects operations/targets; another provider supplies typed text. Read the guide's browser-profile, stopping and verification limits before connecting a browser. |
+| Compact an agent's tool history | [fast-jev-compaction](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/fast-jev-compaction.md) | Start with the library and synthetic demo; Jev's abbreviated view differs from the retained transcript, and plugin setup changes the host workflow. |
+| Filter or classify SQL rows semantically | [pg-jev](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/pg-jev.md) | Requires PostgreSQL with PL/Python and suitable privileges; read-ahead can send rows beyond final WHERE/LIMIT results. Check input and request budgets. |
+| Build a search interface with semantic source selection | [Jev Search](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/jev-search.md) | Search1API and TypeSafe are separate dependencies; results are selected and ranked, not fact-checked or turned into generated answers. |
+| Prioritize logs for deeper analysis | [Jev Logs](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/jevlogs.md) | Start in mock/annotation mode and keep the existing archive; the default evaluator uses Vercel AI Gateway, and routing must preserve uncertain records. |
+| Judge household context for reminders or automations | [Jev for Home Assistant](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/ha-jev.md) | Requires Home Assistant 2026.9+; begin with selected state and judgment sensors, and inspect action permissions separately. |
+| Explore paths through a knowledge graph | [neo4jev](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/neo4jev.md) | Neo4j access remains separate from inference; a mocked model does not make database reads offline. Bound branching, depth and provider attempts. |
+| Add typed decisions to an existing Laravel app | [Laravel AI](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/laravel-ai.md) | Check release availability for the reviewed classification interface; use fake responses first and keep business actions in application code. |
+| Study brand mentions in AI answers | [Notra](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/notra.md) | Start at the mention-evaluation module; the full AGPL application has database, authentication and several provider requirements. |
 
 Check the actual revision, runtime, key variable, license, data handling, and fallback behavior. Inclusion and mocked tests do not establish live behavior or quality on the user's data; use each page's evidence scope.
 

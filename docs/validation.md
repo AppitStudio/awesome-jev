@@ -29,6 +29,24 @@ The following upstream checks passed on 2026-09-18 using mocked responses. These
 | [Testimonial miner · 0852a28](https://github.com/AppitStudio/testimonial-miner/tree/0852a28f6961935afe440b1d698ce22412a4a7ec) | 26 offline tests on Python 3.12 and 3.14 with a fake IMAP source and a scripted model, locally and in the project's CI. |
 | [TypeSafeAI.Net · 7f014c9](https://github.com/Hawxy/TypeSafeAI.Net/tree/7f014c92ec4d0cf89896989eb7cd20a0e033e621) | 89 core-client and adapter tests on .NET 10. |
 
+### Implementation guides reviewed on 2026-09-19
+
+The [use-case tour](explore-use-cases.md) links complementary implementations selected through public X discovery and GitHub source review. Each guide records a fixed upstream revision and distinguishes actual execution from inspected instructions. Reviews were prepared with AI assistance; no live inference, browser automation, production database connection, or device action was performed for this batch. Upstream performance claims were not reproduced.
+
+All nine guides received a second source review against their pinned revisions before draft publication. The checks below include preparation evidence; repeated tests are not additional coverage. The second pass corrected a path-intent example, clarified setup and configurable policy, and checked that suggested adaptations are identified as such. Home Assistant remains a source review with targeted extracted-code checks, rather than a tested installation.
+
+| Project guide | Executed checks and limits |
+| --- | --- |
+| [fast-jev-compaction](../community/projects/fast-jev-compaction.md) | 29 offline tests, typecheck, build, and the guide's synthetic keep/truncate/drop example with assertions. Claude Code plugin installation and live inference were not tested. |
+| [Jev for Home Assistant](../community/projects/ha-jev.md) | 28 Python files compiled, 15 YAML examples parsed, extracted usage-accounting code tested, and the pinned client exercised with a synthetic question/response. No full Home Assistant integration suite, installation, or device actions. |
+| [Jev Logs](../community/projects/jevlogs.md) | 32 tests passed and one live test was skipped; example typechecks, the fixed CLI demo, and an injected three-event scenario passed. No production delivery, live inference, or retention enforcement was tested. |
+| [Jev Search](../community/projects/jev-search.md) | 79 tests across 14 files passed; query-candidate output and hosted homepage reachability were checked. No live searches, production build, or deployment; the tested pnpm version differed from upstream's pin. |
+| [Jev Ultrafast](../community/projects/jev-ultrafast.md) | 31 mocked tests, Ruff, two JavaScript syntax checks, and package build. Real-browser connection and guard behavior were not tested. |
+| [Laravel AI](../community/projects/laravel-ai.md) | 26 upstream classification/HTTP-fake tests passed with 70 assertions, plus the guide's synthetic routing example. Reviewed development source on PHP 8.4 and Laravel 13; stable-package adoption, Laravel 12, and live inference remain untested. |
+| [neo4jev](../community/projects/neo4jev.md) | 161 offline unit tests passed, plus a synthetic edge-direction mapping probe. Remote Neo4j access, Streamlit rendering, and live inference were not tested. |
+| [Notra](../community/projects/notra.md) | The guide's composition example and 10 separate synthetic assertions ran against unmodified utilities. No monorepo dependency installation, upstream test suite, database bootstrap, or live scans. |
+| [pg-jev](../community/projects/pg-jev.md) | Three extracted PL/Python bodies compiled and five loopback mock requests passed. No PostgreSQL execution: tools were unavailable and Docker was not running. Full SQL regressions, example SQL, and permission isolation remain untested. |
+
 ## Evaluating an application
 
 Use the [evaluation runner](../evaluations/README.md) with labels written before inspecting responses. Keep development and holdout cases separate, count service failures and review decisions, and report errors among automatic decisions alongside their coverage. A small synthetic dataset is useful for finding integration and policy mistakes; it is not representative production evidence.
