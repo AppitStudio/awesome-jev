@@ -20,14 +20,14 @@ def main(argv=None):
     parser.add_argument("--live", action="store_true", help="One TypeSafe attempt; may incur charges")
     parser.add_argument("--show-request", action="store_true", help="Print payload without contacting TypeSafe")
     args = parser.parse_args(argv)
-    case = json.loads((DIRECTORY / "input.json").read_text())
+    case = json.loads((DIRECTORY / "input.json").read_text(encoding="utf-8"))
     request = build_request(case)
     if args.show_request:
         print(json.dumps(request, indent=2))
         return 0
     try:
         response = evaluate(request, os.environ.get("TYPESAFE_API_KEY"), max_attempts=1) if args.live else json.loads(
-            (DIRECTORY / "mock-response.json").read_text()
+            (DIRECTORY / "mock-response.json").read_text(encoding="utf-8")
         )
         proposal = prepare(request, response)
         result = proposal

@@ -5,7 +5,9 @@ import copy
 import importlib.util
 import io
 import json
+import os
 from pathlib import Path
+import subprocess
 import sys
 import unittest
 from unittest.mock import patch
@@ -22,8 +24,8 @@ spec.loader.exec_module(runner)
 
 class ComputerUseTests(unittest.TestCase):
     def setUp(self):
-        self.case = json.loads((EXAMPLES / "computer-use/input.json").read_text())
-        self.response = json.loads((EXAMPLES / "computer-use/mock-response.json").read_text())
+        self.case = json.loads((EXAMPLES / "computer-use/input.json").read_text(encoding="utf-8"))
+        self.response = json.loads((EXAMPLES / "computer-use/mock-response.json").read_text(encoding="utf-8"))
         self.request = build_request(self.case)
 
     def choose(self, name, value, confidence=0.95):
@@ -134,6 +136,17 @@ class ComputerUseTests(unittest.TestCase):
         with patch.object(runner, "evaluate", side_effect=AssertionError("Unexpected network")), patch("sys.stdout", new_callable=io.StringIO):
             self.assertEqual(runner.main([]), 0)
             self.assertEqual(runner.main(["--show-request", "--live"]), 0)
+
+    def test_default_run_preserves_source_text_with_non_utf8_locale(self):
+        environment = {**os.environ, "LC_ALL": "C", "PYTHONCOERCECLOCALE": "0", "PYTHONUTF8": "0"}
+        result = subprocess.run(
+            [sys.executable, str(EXAMPLES / "computer-use/run.py")],
+            env=environment, capture_output=True, encoding="utf-8", timeout=10,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        output = json.loads(result.stdout)
+        self.assertEqual(output["proposal"]["extracted"]["value"], "€120.00")
+        self.assertEqual(output["result"]["status"], "simulated_verified")
 
     def test_live_is_one_attempt_and_service_failure_cannot_act(self):
         with patch.object(runner, "evaluate", side_effect=JevError("Unavailable")) as call, \
