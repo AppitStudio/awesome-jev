@@ -28,6 +28,16 @@ Search across selected sources and explore ranked links with editable filters. J
 
 [Try Jev Search](https://jev.s1.dev/) · [Full Jev Search guide](jev-search.md) · [Source](https://github.com/superagents-lab/jev-search)
 
+### Jevmail
+
+`Open source` · `Free source build` · `BYOK`
+
+Local read-only Gmail triage into Needs reply / Updates / Promos / Sales / Spam using TypeSafe Jev via the Vercel AI Gateway, with urgency and personal-mail scores plus retained corrections.
+
+**Access:** clone and run the [MIT source](https://github.com/fazlerocks/jevmail) with pnpm, Google OAuth (Gmail API), `AI_GATEWAY_API_KEY`, and `AUTH_SECRET`. No app purchase fee; Gateway free-tier limits and Gmail quotas apply. Offline `pnpm test` skips without a Gateway key; live Gmail classification not run.
+
+[Full Jevmail guide](jevmail.md) · [Source](https://github.com/fazlerocks/jevmail)
+
 ### Notra
 
 `Open source` · `Commercial` · `Paid`
