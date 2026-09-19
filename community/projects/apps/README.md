@@ -40,6 +40,18 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 [Full TipTour guide](tiptour.md) · [Source](https://github.com/milind-soni/tiptour-macos)
 
+## Browser extensions
+
+### Vibe Check for X
+
+`Source unverified` · `Pricing unverified` · `BYOK`
+
+Review draft X posts, replies, and quote posts with a scorecard inside the composer. Jev judges qualities such as clarity, humor, and regret risk; JavaScript combines the judgments into a verdict. Optional OpenAI vision calls describe media for Jev.
+
+**Access:** load the source folder as an unpacked Chrome extension and supply a TypeSafe key; media descriptions need an OpenAI key. No license file or explicit app pricing terms were found. Provider calls can incur charges, auto-analysis is enabled by default, and keys use Chrome sync storage. Source and syntax were checked; Chrome installation and live scoring were not tested.
+
+[Full Vibe Check guide](vibecheck.md) · [Source](https://github.com/RafalWilinski/vibecheck)
+
 ## Before you get started
 
 Each guide records supported platforms, setup, accounts and keys, data recipients, costs, limitations, and the version reviewed. Follow its launch or build path. Source availability does not imply a downloadable release or free inference, and an app listing does not certify production readiness.
