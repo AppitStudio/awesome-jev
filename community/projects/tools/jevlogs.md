@@ -1,6 +1,6 @@
 # Jev Logs
 
-[All projects](../README.md) · [Developer tools](../README.md#developer-tools)
+[All projects](../README.md) · [Developer tools](README.md#developer-tools)
 
 Decide which application logs deserve deeper investigation while keeping a separate archive of every event. Jev Logs gives Node.js developers a CLI, a triage function, and OpenTelemetry integrations for that decision.
 
@@ -97,6 +97,6 @@ The receiver supports loopback, uncompressed OTLP HTTP/JSON only, with a 1 MiB/1
 
 Reviewed on **2026-09-19** at [b1ff600](https://github.com/reachjalil/jevlogs/commit/b1ff60079c30d50a7f93dbfa09848f9539665d44). AI-assisted inspection covered implementation, CLI/configuration, tests, examples, and license. With an empty credential environment and Node.js 24.19.0, `pnpm test` passed **32 tests**, with **one live test skipped**; `pnpm check:examples` passed. The built demo and the three-event scenario above also passed. Receiver tests used synthetic loopback fixtures.
 
-Live inference, production delivery, incident recall, latency, billing, and retention enforcement were not tested. These checks establish application behavior, not model quality. See [catalog validation scope](../../docs/validation.md).
+Live inference, production delivery, incident recall, latency, billing, and retention enforcement were not tested. These checks establish application behavior, not model quality. See [catalog validation scope](../../../docs/validation.md).
 
-Related: [RAG triage](../../examples/rag-triage/README.md) teaches the same judgment-to-routing boundary with a smaller, dependency-free offline example.
+Related: [RAG triage](../../../examples/rag-triage/README.md) teaches the same judgment-to-routing boundary with a smaller, dependency-free offline example.

@@ -1,6 +1,6 @@
 # llama-index-jev
 
-[All projects](../README.md) · [Search and retrieval](../README.md#search-and-retrieval)
+[All projects](../README.md) · [Search and retrieval](README.md#search-and-retrieval)
 
 Add Jev judgments at two points in a LlamaIndex workflow: ranking retrieved passages and selecting the query engine that should handle a question.
 
@@ -62,6 +62,6 @@ Queries/passages or tool descriptions go to the selected provider. In the defaul
 
 ## Review and maintenance
 
-Documentation was rechecked on 2026-09-19 at [72c73dc](https://github.com/WiktorB2004/llama-index-jev/tree/72c73dc50bca4b7ea6928ef65ea09f1a7ee4a01e). The catalog's 2026-09-18 review passed 52 mocked reranker/selector tests on Python 3.12. No live behavior or task quality was evaluated. See [validation scope](../../docs/validation.md#community-project-checks).
+Documentation was rechecked on 2026-09-19 at [72c73dc](https://github.com/WiktorB2004/llama-index-jev/tree/72c73dc50bca4b7ea6928ef65ea09f1a7ee4a01e). The catalog's 2026-09-18 review passed 52 mocked reranker/selector tests on Python 3.12. No live behavior or task quality was evaluated. See [validation scope](../../../docs/validation.md#community-project-checks).
 
-Related: [RAG triage](../../examples/rag-triage/README.md) for a smaller example without LlamaIndex.
+Related: [RAG triage](../../../examples/rag-triage/README.md) for a smaller example without LlamaIndex.

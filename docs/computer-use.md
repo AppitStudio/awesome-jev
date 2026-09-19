@@ -1,6 +1,6 @@
 # Computer and browser use with Jev
 
-[Awesome Jev](../README.md) · [Project directory](../community/README.md#browser-and-computer-use) · [Run the offline example](../examples/computer-use/README.md)
+[Awesome Jev](../README.md) · [Project directory](../community/projects/tools/README.md#browser-and-computer-use) · [Run the offline example](../examples/computer-use/README.md)
 
 Jev can choose the next UI operation, match a field to a supplied value, or select text to extract. A browser or native driver must supply observations and execute the choice. The current [TypeSafe state interface](https://docs.typesafe.ai/concepts/state) takes text or structured data; screenshot interpretation requires OCR, Accessibility/DOM extraction, or another model.
 
@@ -35,15 +35,15 @@ A command named “preview” or “dry run” may still read a device and send 
 
 ## Choose a starting point
 
-For **browser forms, extraction, and application tests**, start with **[Jev Browser (tontoko)](../community/projects/jev-browser-tontoko.md)**. Among this source-reviewed shortlist, its existing Playwright integration, record-level extraction evidence, explicit input binding, and caller-defined assertions make it the closest fit. For a small loop you can read and modify, choose [Jev Ultrafast](../community/projects/jev-ultrafast.md). Neither recommendation is a benchmark ranking or a claim of production readiness.
+For **browser forms, extraction, and application tests**, start with **[Jev Browser (tontoko)](../community/projects/tools/jev-browser-tontoko.md)**. Among this source-reviewed shortlist, its existing Playwright integration, record-level extraction evidence, explicit input binding, and caller-defined assertions make it the closest fit. For a small loop you can read and modify, choose [Jev Ultrafast](../community/projects/tools/jev-ultrafast.md). Neither recommendation is a benchmark ranking or a claim of production readiness.
 
 | Need | Starting point | What is available; what remains |
 | --- | --- | --- |
-| Browser navigation and understanding the decision loop | [Jev Ultrafast](../community/projects/jev-ultrafast.md) | Observed DOM targets, inspector, separate text helper. Add workload-specific assertions and action policy. |
-| Fill forms, extract tables, or augment Playwright tests | [Jev Browser (tontoko)](../community/projects/jev-browser-tontoko.md) | SDK/CLI/MCP, supplied values, source evidence, native and semantic assertions. Configure permissions and verify backend effects where needed. |
-| Native macOS apps | [typesafe-computer-use](../community/projects/typesafe-computer-use.md) | Local OCR + Accessibility, action choices, optional writing model. Add app/window restrictions and deterministic test assertions. |
-| Build a driver integration with an independent verifier | [Cua jev-use](../community/projects/cua-jev-use.md) | Bounded chooser and a browser fixture verified through `/state`. Native task support and optional perception need separate validation. |
-| Android app navigation and input | [Mobile Jev](../community/projects/mobile-jev.md) | Mobilerun device control, exact text selection, studio, dark-theme verifier. Requires a device/service account; generic `done` still needs an oracle. |
+| Browser navigation and understanding the decision loop | [Jev Ultrafast](../community/projects/tools/jev-ultrafast.md) | Observed DOM targets, inspector, separate text helper. Add workload-specific assertions and action policy. |
+| Fill forms, extract tables, or augment Playwright tests | [Jev Browser (tontoko)](../community/projects/tools/jev-browser-tontoko.md) | SDK/CLI/MCP, supplied values, source evidence, native and semantic assertions. Configure permissions and verify backend effects where needed. |
+| Native macOS apps | [typesafe-computer-use](../community/projects/tools/typesafe-computer-use.md) | Local OCR + Accessibility, action choices, optional writing model. Add app/window restrictions and deterministic test assertions. |
+| Build a driver integration with an independent verifier | [Cua jev-use](../community/projects/tools/cua-jev-use.md) | Bounded chooser and a browser fixture verified through `/state`. Native task support and optional perception need separate validation. |
+| Android app navigation and input | [Mobile Jev](../community/projects/tools/mobile-jev.md) | Mobilerun device control, exact text selection, studio, dark-theme verifier. Requires a device/service account; generic `done` still needs an oracle. |
 | iOS Simulator experiments | [Jev + AXe demonstration](#ios-simulator-evidence) | Public author demonstration; the reviewed AXe default branch did not expose a Jev integration. Treat the adapter below as proposed work. |
 | Learn without credentials or a driver | [Offline computer-use cycle](../examples/computer-use/README.md) | Runnable synthetic form/extraction example, stale-state checks, raw answers, and independent assertions. No real UI adapter. |
 
@@ -55,13 +55,13 @@ These are practical starting tasks, not measured popularity or success claims. T
 
 | Task | Start with | What you supply | What proves success |
 | --- | --- | --- | --- |
-| Fill a staging customer form with changing labels | [Jev Browser](../community/projects/jev-browser-tontoko.md) | Explicit fictional values and a permitted form/action scope | Exact values on the saved test record; unrelated fields unchanged. |
-| Extract invoices or product rows | [Jev Browser](../community/projects/jev-browser-tontoko.md) | A record scope, field schema, and pagination rule | Each value points to its source row; coverage and missing fields are reported. |
-| Navigate a site and open the intended result | [Jev Ultrafast](../community/projects/jev-ultrafast.md) | A starting URL and concrete goal | The expected URL/content is present, checked independently. |
-| Turn a new UI path into a regression test | [Jev Browser](../community/projects/jev-browser-tontoko.md) | A disposable test app and Playwright assertions | All exact assertions pass; preserve the successful path as a conventional test. |
-| Explore a native Mac app's controls | [typesafe-computer-use](../community/projects/typesafe-computer-use.md) | A test desktop, a small goal, and app-specific checks | Fresh field/setting readback or test-app state, beyond the model's `done`. |
-| Add a decision layer to an existing driver | [Cua jev-use](../community/projects/cua-jev-use.md) | Observations, immutable candidates, permissions, and an independent verifier | A trusted state check matches the requested postcondition. |
-| Exercise an Android settings or input flow | [Mobile Jev](../community/projects/mobile-jev.md) | A Mobilerun test device, exact input values, and a reset procedure | Device state matches the full goal; the dark-theme demo includes a dedicated check. |
+| Fill a staging customer form with changing labels | [Jev Browser](../community/projects/tools/jev-browser-tontoko.md) | Explicit fictional values and a permitted form/action scope | Exact values on the saved test record; unrelated fields unchanged. |
+| Extract invoices or product rows | [Jev Browser](../community/projects/tools/jev-browser-tontoko.md) | A record scope, field schema, and pagination rule | Each value points to its source row; coverage and missing fields are reported. |
+| Navigate a site and open the intended result | [Jev Ultrafast](../community/projects/tools/jev-ultrafast.md) | A starting URL and concrete goal | The expected URL/content is present, checked independently. |
+| Turn a new UI path into a regression test | [Jev Browser](../community/projects/tools/jev-browser-tontoko.md) | A disposable test app and Playwright assertions | All exact assertions pass; preserve the successful path as a conventional test. |
+| Explore a native Mac app's controls | [typesafe-computer-use](../community/projects/tools/typesafe-computer-use.md) | A test desktop, a small goal, and app-specific checks | Fresh field/setting readback or test-app state, beyond the model's `done`. |
+| Add a decision layer to an existing driver | [Cua jev-use](../community/projects/tools/cua-jev-use.md) | Observations, immutable candidates, permissions, and an independent verifier | A trusted state check matches the requested postcondition. |
+| Exercise an Android settings or input flow | [Mobile Jev](../community/projects/tools/mobile-jev.md) | A Mobilerun test device, exact input values, and a reset procedure | Device state matches the full goal; the dark-theme demo includes a dedicated check. |
 | Investigate iOS Simulator automation | [Jev + AXe evidence](#ios-simulator-evidence) | A separately implemented and validated adapter | XCTest/XCUITest or fixture state verifies the final result. No released Jev adapter was verified here. |
 
 ### Let the guide help you adapt one

@@ -1,15 +1,20 @@
 # Notra
 
-[All projects](../README.md) · [Apps powered by Jev](../README.md#apps-powered-by-jev)
+[All projects](../README.md) · [Apps](README.md) · [Web apps](README.md#web-apps)
 
 Track whether AI answers mention your brand, where it appears in a recommendation list, and how the answer describes it. Notra shows how narrow Jev judgments can become useful fields inside a larger analytics product.
 
 | At a glance | Details |
 | --- | --- |
 | Source | [Source](https://github.com/usenotra/notra) |
+| Tags | `Open source` · `Commercial` · `Paid` |
+| Product homepage | [Notra](https://www.usenotra.com) |
+| Pricing and access | The [official pricing page](https://www.usenotra.com/pricing), inspected **2026-09-19**, lists paid hosted plans and an enterprise contact option. Trial terms were not verified. Self-hosted source has separate infrastructure/provider costs. |
+| Jev evidence | [Mention-evaluation implementation](https://github.com/usenotra/notra/blob/59ddfa6b58503d0f02b44b3dfd0dcb2f18c9cb7d/packages/geo-core/src/utils/geo-check-evaluation.ts) was source-reviewed; the hosted deployment was not audited. |
+| Disclosure | Commercial product with paid hosted plans alongside open-source code. Independently curated, not submitted on the vendor's behalf; inclusion is not endorsement. Account access and checkout were not tested. |
 | Maintainer | [Notra](https://github.com/usenotra); independently curated here, not submitted on the maintainer's behalf. |
 | Format | TypeScript application: Bun/Turborepo, Next.js dashboard, Hono API, PostgreSQL and Drizzle. |
-| Platform and availability | Web · [hosted product](https://www.usenotra.com) requires an account; self-hosting requires database, authentication, and provider setup. Hosted pricing and account access were not tested. |
+| Platform and availability | Web · [hosted product](https://www.usenotra.com) requires an account; self-hosting requires database, authentication, and provider setup. Pricing information was inspected; account access and billing were not tested. |
 | Jev's role | Judges brand sentiment and list position in AI answers; other models handle scans, general judging, and drafting. |
 | Requirements | Reviewed checkout pins Bun **1.4.0**, Node.js **24.11.1**, `ai@7.0.105` and `@ai-sdk/gateway@4.0.85`. The small offline example below needs only Bun and the source. |
 | Live access | Server-side `AI_GATEWAY_API_KEY` or Vercel OIDC for `typesafe-ai/jev`; separate model access for scans and the general judge. Full dashboard setup also needs database/auth configuration. |
@@ -101,6 +106,8 @@ Unavailable credentials, a disabled `NOTRA_JEV_CLASSIFIERS` flag, or caught eval
 
 Reviewed **2026-09-19** at [59ddfa6](https://github.com/usenotra/notra/commit/59ddfa6b58503d0f02b44b3dfd0dcb2f18c9cb7d). AI-assisted source inspection covered implementation, tests, setup, storage and licenses. Bun 1.4.0 ran the composition example and **10 synthetic assertions** against unmodified utility functions with an empty credential environment. These were separate review checks, not the upstream suite.
 
-Full installation, authentication, database bootstrap, live scans, inference and model quality remain untested. See [catalog validation scope](../../docs/validation.md).
+Full installation, authentication, database bootstrap, live scans, inference and model quality remain untested. See [catalog validation scope](../../../docs/validation.md).
 
-Related: [Quality rubric](../../examples/quality-rubric/README.md) offers a smaller offline example of independent judgments and explicit application policy.
+The product homepage and pricing page were separately inspected on **2026-09-19** to label the hosted offering `Commercial` and `Paid`. This was a read-only review of published terms, not a signup, purchase, or confirmation of trial eligibility.
+
+Related: [Quality rubric](../../../examples/quality-rubric/README.md) offers a smaller offline example of independent judgments and explicit application policy.

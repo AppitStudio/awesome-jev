@@ -32,11 +32,44 @@ body:
     attributes:
       label: App platform and availability (for apps)
       description: State supported platforms, release stage, and a working launch/download/source-build link. Include free/paid access or a pricing link, accounts, API keys, separate provider charges, and any beta restrictions. Mark unverified details honestly. See CONTRIBUTING.md#list-a-jev-powered-app.
+  - type: dropdown
+    id: source_access
+    attributes:
+      label: App source-access tag
+      description: Closed-source products are welcome; no public repository is required. Select the tag supported by evidence.
+      options:
+        - Open source
+        - Source available
+        - Closed source
+        - Source unverified
+        - Not an app
+  - type: dropdown
+    id: pricing_tag
+    attributes:
+      label: App pricing tag
+      description: Paid and Freemium also receive the Commercial tag. Add BYOK in the details when users supply their own API keys. A trial alone is not a permanent free tier.
+      options:
+        - Pricing unverified
+        - Free
+        - Free source build
+        - Freemium
+        - Paid
+        - Not an app
+  - type: textarea
+    id: app_product
+    attributes:
+      label: Product homepage, pricing, and Jev evidence (for apps)
+      description: Link the canonical product homepage, official pricing or sales/access page, and code/docs/public demo establishing the Jev-powered feature. A product homepage can be the Source for closed-source apps. Include a license link if claiming Open source. See community/APP_TAGS.md.
+  - type: textarea
+    id: app_disclosure
+    attributes:
+      label: Commercial and source-review disclosure (for apps)
+      description: Clearly identify paid access and any vendor relationship. For closed-source apps, state that implementation could not be inspected and distinguish vendor claims from verified behavior. Include review limits and when pricing/access was checked; listing is not endorsement.
   - type: textarea
     id: project_page
     attributes:
       label: Project guide details (for an application, starter kit, library, or tool)
-      description: Describe when to use it, setup and expected output, and real example/demo links. State prerequisites, key variables, permissions, data recipients, costs, license/access terms, and limitations. Accepted projects need a detail page and category listing; see community/PROJECT_TEMPLATE.md. Write "Not applicable" for an article or other non-project resource.
+      description: Describe when to use it, setup and expected output, and real example/demo links. State prerequisites, key variables, permissions, data recipients, costs, license/access terms, and limitations. Accepted apps get full pages in community/projects/apps/; tools go in community/projects/tools/, each with its own directory listing. See community/PROJECT_TEMPLATE.md. Write "Not applicable" for a non-project resource.
   - type: textarea
     id: review
     attributes:

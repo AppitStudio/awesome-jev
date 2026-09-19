@@ -1,6 +1,6 @@
 # fast-jev-compaction
 
-[All projects](../README.md) · [Developer tools](../README.md#developer-tools)
+[All projects](../README.md) · [Developer tools](README.md#developer-tools)
 
 Prune old tool activity from an agent conversation while preserving ordinary message text and the tool evidence selected for retention.
 
@@ -113,4 +113,4 @@ The optional [Claude Code adapter](https://github.com/tamaratran/fast-jev-compac
 
 Reviewed on **2026-09-19** at [commit e3f262a](https://github.com/tamaratran/fast-jev-compaction/tree/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0): package version 0.2.0, plugin manifest 0.3.0. AI-assisted source review covered the library, plugin, license, and examples. On Node.js 22.19.0, all **29 offline tests**, `npm run typecheck`, and `npm run build` passed. The synthetic example above was also executed with assertions for retention, truncation, and pair integrity. No live inference, plugin installation, or model-quality evaluation was performed.
 
-Related: [RAG triage](../../examples/rag-triage/README.md) selects context before an answer; this library removes tool context from an existing conversation.
+Related: [RAG triage](../../../examples/rag-triage/README.md) selects context before an answer; this library removes tool context from an existing conversation.

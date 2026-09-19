@@ -1,6 +1,6 @@
 # Cua jev-use
 
-[All projects](../README.md) · [Browser and computer use](../README.md#browser-and-computer-use)
+[All projects](../README.md) · [Browser and computer use](README.md#browser-and-computer-use)
 
 Run a synthetic Jev chooser first, then use the same pattern to fill and verify a local browser form through Cua Driver.
 
@@ -155,7 +155,7 @@ Changing the fixture's goal text alone does not create a new automation. Update 
 | Jev state and judgment | `python/jev_adapter.py` or `typescript/jev_adapter.ts` | Explain the task and provide the relevant fresh observations. Keep `reobserve` and `abstain`. |
 | Completion and failure checks | `python/run.py` or `typescript/run.ts` | Replace the fixture-specific `/state` oracle with your own independent assertion. |
 
-The supplied runners intentionally target their loopback fixture; `--fixture-url` is not a general arbitrary-site switch. For extracting a displayed price or date, parse candidate source values in code and let Jev select the intended candidate, then return the exact source value. That is an adaptation idea; the Cua recipe does not ship a general extraction method. The [offline computer-use example](../../examples/computer-use/README.md) demonstrates this pattern locally.
+The supplied runners intentionally target their loopback fixture; `--fixture-url` is not a general arbitrary-site switch. For extracting a displayed price or date, parse candidate source values in code and let Jev select the intended candidate, then return the exact source value. That is an adaptation idea; the Cua recipe does not ship a general extraction method. The [offline computer-use example](../../../examples/computer-use/README.md) demonstrates this pattern locally.
 
 ## Optional TypeScript setup
 
@@ -204,6 +204,6 @@ AI-assisted source review on **2026-09-19**, pinned to [83f142c](https://github.
 - `npm ci --ignore-scripts`, `npm test`, and `npm run typecheck`: **24 TypeScript tests passed**, typecheck passed.
 - TypeScript mock chooser: returned the corresponding `submit-form` envelope.
 
-The locked Python `typesafe-sdk==0.6.0` retry/model defaults were checked against installed source and the [current SDK reference](https://docs.typesafe.ai/sdk/python/api/clients/sync). Browser setup and live commands were checked against upstream source but not executed. Driver installation, desktop/browser execution, optional perception, Windows/PowerShell execution, and live inference remain untested here. See [catalog validation](../../docs/validation.md#computer-use-review) for the shared record.
+The locked Python `typesafe-sdk==0.6.0` retry/model defaults were checked against installed source and the [current SDK reference](https://docs.typesafe.ai/sdk/python/api/clients/sync). Browser setup and live commands were checked against upstream source but not executed. Driver installation, desktop/browser execution, optional perception, Windows/PowerShell execution, and live inference remain untested here. See [catalog validation](../../../docs/validation.md#computer-use-review) for the shared record.
 
-Related: [computer-use guide](../../docs/computer-use.md) · [native macOS reference](typesafe-computer-use.md).
+Related: [computer-use guide](../../../docs/computer-use.md) · [native macOS reference](typesafe-computer-use.md).

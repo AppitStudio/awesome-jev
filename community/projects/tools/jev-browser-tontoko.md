@@ -1,6 +1,6 @@
 # Jev Browser (tontoko)
 
-[All projects](../README.md) · [Browser and computer use](../README.md#browser-and-computer-use)
+[All projects](../README.md) · [Browser and computer use](README.md#browser-and-computer-use)
 
 Add semantic field selection and source-backed extraction to Playwright tests, browser scripts, a CLI session, or an MCP client. Start with a local form that needs no account.
 
@@ -209,4 +209,4 @@ AI-assisted review on **2026-09-19**, pinned to [92a318b](https://github.com/ton
 
 For this expanded guide, the exact `catalog-form.mjs` synthetic walkthrough passed on a supported Node runtime, including its independent value assertion; `node --test test/structured.test.mjs` passed all **7 tests** again. The current TypeSafe JavaScript SDK, model, and source-value extraction documentation were checked. Live inference, Firefox/WebKit, published artifacts, and workload quality were not tested. The walkthrough is original catalog teaching code using the upstream public API; its fixture responses are authored, not recorded Jev output.
 
-Related: [computer-use guide](../../docs/computer-use.md) · [offline decision cycle](../../examples/computer-use/README.md) · [Jev Ultrafast](jev-ultrafast.md).
+Related: [computer-use guide](../../../docs/computer-use.md) · [offline decision cycle](../../../examples/computer-use/README.md) · [Jev Ultrafast](jev-ultrafast.md).

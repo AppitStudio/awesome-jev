@@ -1,12 +1,17 @@
 # Jev Search
 
-[All projects](../README.md) · [Apps powered by Jev](../README.md#apps-powered-by-jev)
+[All projects](../README.md) · [Apps](README.md) · [Web apps](README.md#web-apps)
 
 Turn a request such as “Find TypeSafe Jev implementations on GitHub this month” into editable search filters and ranked links you can inspect yourself.
 
 | At a glance | Details |
 | --- | --- |
 | Source | [Source](https://github.com/superagents-lab/jev-search) |
+| Tags | `Open source` · `Pricing unverified` · `BYOK` |
+| Product homepage | [Jev Search](https://jev.s1.dev) |
+| Pricing and access | Hosted pricing/access limits remain unverified as of **2026-09-19**; no pricing terms were found on the inspected [homepage](https://jev.s1.dev). Self-hosting needs TypeSafe and Search1API keys and can incur provider/hosting charges. |
+| Jev evidence | [TypeSafe client](https://github.com/superagents-lab/jev-search/blob/522868762f0637b20bf533f136e930cceb83b9f3/src/lib/typesafe.ts) and the pipeline described below were source-reviewed. |
+| Disclosure | Open-source code does not establish free hosted use. Built by the search-provider team; independently curated here, with no endorsement or live-search validation. |
 | Maintainer | [Search1API / superagents-lab](https://github.com/superagents-lab); built by the search-provider team. Independently curated here, not an upstream submission or TypeSafe endorsement. |
 | Format | TypeScript web application using React 19, TanStack Start, and Cloudflare Workers. |
 | Platform and availability | Web · [hosted app](https://jev.s1.dev) or self-host from source. Homepage reachability was checked; live search and hosted access limits were not tested. |
@@ -98,4 +103,4 @@ Self-hosting can incur TypeSafe, Search1API, and Cloudflare charges. The per-IP 
 
 AI-assisted source review on **2026-09-19**, pinned to [522868762f0637b20bf533f136e930cceb83b9f3](https://github.com/superagents-lab/jev-search/tree/522868762f0637b20bf533f136e930cceb83b9f3). Reviewed the license, setup, candidate/source definitions, API handling, pipeline, ranking, merging, cache, UI behavior, and relevant tests. Installed dependencies with lifecycle scripts disabled and ran `pnpm test` in a sanitized environment: **79 tests passed** using Node 24.19.0 and pnpm 11.19.0. Upstream's pinned pnpm 10.8.0, production build, deployment, live inference, and retrieval quality were not tested.
 
-Related: [LlamaIndex integration](llama-index-jev.md) for an existing retrieval pipeline; [RAG triage](../../examples/rag-triage/README.md) for a smaller offline lesson in separating relevance from evidence sufficiency.
+Related: [LlamaIndex integration](../tools/llama-index-jev.md) for an existing retrieval pipeline; [RAG triage](../../../examples/rag-triage/README.md) for a smaller offline lesson in separating relevance from evidence sufficiency.

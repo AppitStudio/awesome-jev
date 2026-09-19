@@ -1,12 +1,17 @@
 # TipTour
 
-[All projects](../README.md) · [Apps powered by Jev](../README.md#apps-powered-by-jev)
+[All projects](../README.md) · [Apps](README.md) · [macOS apps](README.md#macos-apps)
 
 A macOS menu bar app for interacting with desktop controls: type a click-based task for Jev, or use a separate Gemini mode for voice and writing.
 
 | At a glance | Details |
 | --- | --- |
 | Source | [Source](https://github.com/milind-soni/tiptour-macos) |
+| Tags | `Open source` · `Free source build` · `BYOK` |
+| Product homepage | [TipTour project homepage](https://github.com/milind-soni/tiptour-macos) — the reviewed source-build entry point. |
+| Pricing and access | No app purchase fee for the MIT source build reviewed **2026-09-19**. Bring a TypeSafe key and optionally a Gemini key; provider usage can incur charges. Packaged-product pricing was not verified. |
+| Jev evidence | [Jev client](https://github.com/milind-soni/tiptour-macos/blob/d192c21f0fbefa578191e6c329a874142d11fa64/TipTour/Jev/JevClient.swift) and the decision/loop implementation below were source-reviewed. |
+| Disclosure | The free-source-build tag applies to source access, not inference or other distributed offerings. Independently curated; no commercial relationship was declared and inclusion is not endorsement. |
 | Maintainer | [Milind Soni](https://github.com/milind-soni); independently curated here, not submitted on the maintainer's behalf. No commercial relationship was declared for this listing. |
 | Format | Native Swift macOS application using a shared local perception and action engine. |
 | Platform and availability | macOS **14.2+**. Reviewed access is a source build with Xcode; compatibility of packaged releases with this Jev mode was not checked. |
@@ -75,6 +80,6 @@ The click-type question refers to “that element” in a batch where questions 
 
 Reviewed **2026-09-19** at [d192c21](https://github.com/milind-soni/tiptour-macos/commit/d192c21f0fbefa578191e6c329a874142d11fa64). AI-assisted inspection covered the README, MIT license, build settings, Jev client/question/decision code, pointer loop, decision panel, key storage, log and analytics paths, and isolated tests. Existing catalog entries and open issues/PRs were checked for duplicates.
 
-Ran `bash scripts/test-jev.sh` in an isolated checkout outside this catalog with a sanitized process environment, using Apple Swift 6.2.3: **8 tests passed** with synthetic answers and no provider requests. The missing-key test injects a nil key provider; it does not read saved credentials. The full app, packaged releases, permissions, live inference, desktop actions, and model quality were not tested. See [catalog validation scope](../../docs/validation.md#app-directory-review).
+Ran `bash scripts/test-jev.sh` in an isolated checkout outside this catalog with a sanitized process environment, using Apple Swift 6.2.3: **8 tests passed** with synthetic answers and no provider requests. The missing-key test injects a nil key provider; it does not read saved credentials. The full app, packaged releases, permissions, live inference, desktop actions, and model quality were not tested. See [catalog validation scope](../../../docs/validation.md#app-directory-review).
 
-Related: [typesafe-computer-use](typesafe-computer-use.md) is a Python desktop-control implementation; the [computer-use guide](../../docs/computer-use.md) discusses observation, action, and independent verification.
+Related: [typesafe-computer-use](../tools/typesafe-computer-use.md) is a Python desktop-control implementation; the [computer-use guide](../../../docs/computer-use.md) discusses observation, action, and independent verification.

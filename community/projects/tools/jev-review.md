@@ -1,6 +1,6 @@
 # Jev Review
 
-[All projects](../README.md) · [Developer tools](../README.md#developer-tools)
+[All projects](../README.md) · [Developer tools](README.md#developer-tools)
 
 Give a coding agent structured, experimental feedback on separate software-quality dimensions while it works.
 
@@ -54,6 +54,6 @@ The server runs locally, but the task, diff, files, and context you supply leave
 
 ## Review and maintenance
 
-Documentation was rechecked on 2026-09-19 at [57690af](https://github.com/NiazMorshed2007/jev-review/tree/57690af54ef7d862c2483342c1e61c14dffcf727). The catalog's 2026-09-18 review passed 13 mocked tests, typecheck, and build on Node.js 22. Plugin installation and live inference were not tested; quality on real code was not evaluated. See [validation scope](../../docs/validation.md#community-project-checks).
+Documentation was rechecked on 2026-09-19 at [57690af](https://github.com/NiazMorshed2007/jev-review/tree/57690af54ef7d862c2483342c1e61c14dffcf727). The catalog's 2026-09-18 review passed 13 mocked tests, typecheck, and build on Node.js 22. Plugin installation and live inference were not tested; quality on real code was not evaluated. See [validation scope](../../../docs/validation.md#community-project-checks).
 
-Related: [quality-rubric example](../../examples/quality-rubric/README.md) for the simpler scoring pattern.
+Related: [quality-rubric example](../../../examples/quality-rubric/README.md) for the simpler scoring pattern.

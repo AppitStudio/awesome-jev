@@ -1,6 +1,6 @@
 # Laravel AI
 
-[All projects](../README.md) · [SDKs and integrations](../README.md#sdks-and-integrations)
+[All projects](../README.md) · [SDKs and integrations](README.md#sdks-and-integrations)
 
 Add inspectable support-message routing to a Laravel application using typed Jev answers and Laravel's testing tools.
 
@@ -16,7 +16,7 @@ Add inspectable support-message routing to a Laravel application using typed Jev
 
 Use this when an existing Laravel application needs a semantic judgment: which support queue fits a message, whether someone explicitly requests urgent help, or how a comment scores against a written rubric. Laravel supplies typed response objects, events, provider configuration, and fakes; you supply the application policy.
 
-Keep exact checks such as subscription status, invoice totals, and account permissions in ordinary PHP. This SDK does not include a complete ticketing application. For a ready-made batch workflow, explore [Support Router](../../projects/support-router/README.md).
+Keep exact checks such as subscription status, invoice totals, and account permissions in ordinary PHP. This SDK does not include a complete ticketing application. For a ready-made batch workflow, explore [Support Router](../../../projects/support-router/README.md).
 
 **Version caveat:** on September 19, 2026, [Packagist](https://packagist.org/packages/laravel/ai) still listed `v0.11.2` as stable. TypeSafe classification was merged afterward in [PR #1010](https://github.com/laravel/ai/pull/1010) and is present in the reviewed `1.x-dev` source. An unqualified `composer require laravel/ai` does not establish that this feature is installed. Start in a disposable checkout of the revision below; review release availability before adopting it in an application.
 
@@ -154,4 +154,4 @@ Classification itself adds no database persistence, but dispatches events contai
 
 Reviewed September 19, 2026 at [ca8d9bf](https://github.com/laravel/ai/commit/ca8d9bf4735aa53c107a6cf422c8ab6dd68bfc73). AI-assisted review inspected the license, Composer constraints, configuration, questions, gateway, response objects, fakes, events, and failure handling. In an isolated environment without provider keys, dependency installation succeeded on PHP 8.4.23; the two upstream fake suites passed **26 tests / 70 assertions**. The worked example passed **1 test / 6 assertions** offline. Laravel 12, PHP 8.3, stable-package adoption, live inference, and model quality were not tested.
 
-Related: [Support routing concepts](../../examples/support-routing/README.md) · [Evaluating routing policies](../../evaluations/README.md).
+Related: [Support routing concepts](../../../examples/support-routing/README.md) · [Evaluating routing policies](../../../evaluations/README.md).

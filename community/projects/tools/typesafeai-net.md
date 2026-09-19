@@ -1,6 +1,6 @@
 # TypeSafeAI.Net
 
-[All projects](../README.md) · [SDKs and integrations](../README.md#sdks-and-integrations)
+[All projects](../README.md) · [SDKs and integrations](README.md#sdks-and-integrations)
 
 Use Jev from a .NET application with typed questions and answers, dependency injection, and optional Microsoft.Extensions.AI adapters.
 
@@ -57,6 +57,6 @@ State and questions are sent to the configured API endpoint. Configure model ver
 
 ## Review and maintenance
 
-Documentation was rechecked on 2026-09-19 at [7f014c9](https://github.com/Hawxy/TypeSafeAI.Net/tree/7f014c92ec4d0cf89896989eb7cd20a0e033e621). The catalog's 2026-09-18 review passed 89 mocked tests on .NET 10; .NET 8, live inference, and model quality were not evaluated. See [validation scope](../../docs/validation.md#community-project-checks).
+Documentation was rechecked on 2026-09-19 at [7f014c9](https://github.com/Hawxy/TypeSafeAI.Net/tree/7f014c92ec4d0cf89896989eb7cd20a0e033e621). The catalog's 2026-09-18 review passed 89 mocked tests on .NET 10; .NET 8, live inference, and model quality were not evaluated. See [validation scope](../../../docs/validation.md#community-project-checks).
 
-Related: [decision patterns](../../docs/decision-patterns.md) and the repository's [support-routing example](../../examples/support-routing/README.md) explain the same policy separation in a smaller Python workflow.
+Related: [decision patterns](../../../docs/decision-patterns.md) and the repository's [support-routing example](../../../examples/support-routing/README.md) explain the same policy separation in a smaller Python workflow.

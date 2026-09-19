@@ -18,22 +18,22 @@ It prints a routing decision from fixtures without sending data or assigning a t
 
 | I want to… | Start with | What to explore first |
 | --- | --- | --- |
-| Guide a browser through a task | [Jev Ultrafast](../community/projects/jev-ultrafast.md) | How one observed element table supports both an operation and its possible targets. A text model supplies typed text when needed. |
+| Guide a browser through a task | [Jev Ultrafast](../community/projects/tools/jev-ultrafast.md) | How one observed element table supports both an operation and its possible targets. A text model supplies typed text when needed. |
 | Fill forms, extract records, or test browser/native interfaces | [Computer and browser use](computer-use.md) | Compare Playwright, native macOS, Android, and driver recipes; distinguish iOS demonstrations from available integrations. Start with the offline form/extraction cycle. |
-| Reduce an agent's old tool history | [fast-jev-compaction](../community/projects/fast-jev-compaction.md) | The library's keep, truncate, and remove decisions; inspect the synthetic demo before connecting a real conversation. |
-| Ask semantic questions of database rows | [pg-jev](../community/projects/pg-jev.md) | How SQL calls become typed judgments, and why read-ahead and ordinary SQL filters affect what data is sent. |
-| Search across sources with editable filters | [Jev Search](../community/projects/jev-search.md) | Query/source selection, retrieval, and relevance ranking as separate stages. |
-| Send useful logs to deeper investigation | [Jev Logs](../community/projects/jevlogs.md) | Mock mode, protected records, and a separate analysis branch alongside the existing archive. |
-| Turn household context into a useful reminder | [Jev for Home Assistant](../community/projects/ha-jev.md) | Read-only state selection and judgment sensors before connecting an automation. |
-| Find a useful path through a knowledge graph | [neo4jev](../community/projects/neo4jev.md) | Next-hop candidates, branching search, and the difference between semantic goals and exact target matching. |
-| Add typed classification to a Laravel app | [Laravel AI](../community/projects/laravel-ai.md) | The classification interface, TypeSafe provider, and fake responses; check which package version contains the integration. |
-| Understand how AI answers mention a brand | [Notra](../community/projects/notra.md) | The mention-evaluation component before attempting the full application setup. |
+| Reduce an agent's old tool history | [fast-jev-compaction](../community/projects/tools/fast-jev-compaction.md) | The library's keep, truncate, and remove decisions; inspect the synthetic demo before connecting a real conversation. |
+| Ask semantic questions of database rows | [pg-jev](../community/projects/tools/pg-jev.md) | How SQL calls become typed judgments, and why read-ahead and ordinary SQL filters affect what data is sent. |
+| Search across sources with editable filters | [Jev Search](../community/projects/apps/jev-search.md) | Query/source selection, retrieval, and relevance ranking as separate stages. |
+| Send useful logs to deeper investigation | [Jev Logs](../community/projects/tools/jevlogs.md) | Mock mode, protected records, and a separate analysis branch alongside the existing archive. |
+| Turn household context into a useful reminder | [Jev for Home Assistant](../community/projects/tools/ha-jev.md) | Read-only state selection and judgment sensors before connecting an automation. |
+| Find a useful path through a knowledge graph | [neo4jev](../community/projects/tools/neo4jev.md) | Next-hop candidates, branching search, and the difference between semantic goals and exact target matching. |
+| Add typed classification to a Laravel app | [Laravel AI](../community/projects/tools/laravel-ai.md) | The classification interface, TypeSafe provider, and fake responses; check which package version contains the integration. |
+| Understand how AI answers mention a brand | [Notra](../community/projects/apps/notra.md) | The mention-evaluation component before attempting the full application setup. |
 
 These are complementary starting points, not a ranking of model performance. Each guide identifies its reviewed revision, prerequisites, license, data recipients, tests, and remaining gaps. Most real workflows use hosted inference; an offline test or mock demo does not run Jev locally.
 
 ## Find an app to use
 
-The [app directory](../community/README.md#apps-powered-by-jev) lists user-facing products separately from developer tools. Start there for a macOS click assistant, a search interface, or a brand-visibility application. Each listing explains what Jev powers, what other components do, supported platforms, and whether access is hosted or requires a source build. Makers can [share their own apps](../CONTRIBUTING.md#list-a-jev-powered-app).
+The [app directory](../community/projects/apps/README.md) lists user-facing products separately from developer tools. Start there for a macOS click assistant, a search interface, or a brand-visibility application. Each listing explains what Jev powers, what other components do, supported platforms, and whether access is hosted or requires a source build. Makers can [share their own apps](../CONTRIBUTING.md#list-a-jev-powered-app).
 
 ## Follow one decision through the system
 

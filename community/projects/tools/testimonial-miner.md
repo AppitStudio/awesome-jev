@@ -1,6 +1,6 @@
 # Testimonial miner
 
-[All projects](../README.md) · [Customer feedback and marketing](../README.md#customer-feedback-and-marketing)
+[All projects](../README.md) · [Customer feedback and marketing](README.md#customer-feedback-and-marketing)
 
 Find useful customer praise in a Gmail inbox and collect the sender's actual words for review, grouped by product.
 
@@ -66,6 +66,6 @@ Gmail access is read-only. Judged messages send sender identity, subject, cleane
 
 ## Review and maintenance
 
-Documentation and selected source were inspected on 2026-09-19 at [0852a28](https://github.com/AppitStudio/testimonial-miner/tree/0852a28f6961935afe440b1d698ce22412a4a7ec). [Submission PR #5](https://github.com/AppitStudio/awesome-jev/pull/5) records the submitter's 26 offline tests and bounded live fixture check; these were not rerun for this page. The [project CI](https://github.com/AppitStudio/testimonial-miner/actions/runs/35393194082) and [catalog validation](../../docs/validation.md#community-project-checks) give the review scope. No independent workload-accuracy evaluation is claimed.
+Documentation and selected source were inspected on 2026-09-19 at [0852a28](https://github.com/AppitStudio/testimonial-miner/tree/0852a28f6961935afe440b1d698ce22412a4a7ec). [Submission PR #5](https://github.com/AppitStudio/awesome-jev/pull/5) records the submitter's 26 offline tests and bounded live fixture check; these were not rerun for this page. The [project CI](https://github.com/AppitStudio/testimonial-miner/actions/runs/35393194082) and [catalog validation](../../../docs/validation.md#community-project-checks) give the review scope. No independent workload-accuracy evaluation is claimed.
 
-Related: [span selection](../../examples/span-selection/README.md) for a smaller source-selection example; [quality rubric](../../examples/quality-rubric/README.md) for combining independent judgments.
+Related: [span selection](../../../examples/span-selection/README.md) for a smaller source-selection example; [quality rubric](../../../examples/quality-rubric/README.md) for combining independent judgments.

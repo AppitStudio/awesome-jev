@@ -1,6 +1,6 @@
 # typesafe-computer-use
 
-[All projects](../README.md) · [Browser and computer use](../README.md#browser-and-computer-use)
+[All projects](../README.md) · [Browser and computer use](README.md#browser-and-computer-use)
 
 Use this experimental macOS CLI to study how local screen reading and Jev decisions can select the next click, scroll, or text-entry action.
 
@@ -100,7 +100,7 @@ This is a suggested adaptation for **your own test app**, not a checked-in nativ
 4. Read the value through the app's test API, exported configuration, or an XCTest assertion, and compare it exactly with `QA Workspace`.
 5. Save the observation, raw answers, action, and assertion result together. Reset the profile before another attempt.
 
-A Jev `done` decision or the optional model's final answer does not replace step 4. Likewise, a confidence threshold cannot tell you that the correct app was modified. See the [offline computer-use example](../../examples/computer-use/README.md) for a runnable demonstration of candidate identity, freshness checks, and independent assertions before building the real adapter.
+A Jev `done` decision or the optional model's final answer does not replace step 4. Likewise, a confidence threshold cannot tell you that the correct app was modified. See the [offline computer-use example](../../../examples/computer-use/README.md) for a runnable demonstration of candidate identity, freshness checks, and independent assertions before building the real adapter.
 
 ## Customize and troubleshoot
 
@@ -138,4 +138,4 @@ TypeSafe receives screen text, app/URL context, field state, the goal, and recen
 
 AI-assisted source review on **2026-09-19** at [cc7b506](https://github.com/awlevin/typesafe-computer-use/tree/cc7b5066ae1a07b5e3182e8f87a9b5b6dfdcffc1) covered license, setup, questions, loop, executor, writer data flow, and tests. Frozen installation and `uv run --frozen --offline pytest -q` passed in a separate checkout with provider credentials absent: **144 tests**, rerun when expanding this guide. CLI flags, environment precedence, and the locked `typesafe-sdk==0.6.0` retry/model defaults were checked against source and the [current SDK reference](https://docs.typesafe.ai/sdk/python/api/clients/sync). Desktop inspection and live commands above were source-checked only. No screen capture, Accessibility interaction, live inference, or native app task was run.
 
-Related: [macOS test adaptation](../../docs/computer-use.md#macos-and-ios-app-tests) · [Cua recipe](cua-jev-use.md).
+Related: [macOS test adaptation](../../../docs/computer-use.md#macos-and-ios-app-tests) · [Cua recipe](cua-jev-use.md).

@@ -4,9 +4,9 @@
 
 Describe the reader benefit and category. For a resource, include the canonical URL and your affiliation.
 
-For a community project, link the new or updated project page and its category index entry. Keep the existing README upstream link and add its Project guide link. Use community/PROJECT_TEMPLATE.md for the page contents.
+For a community project, link its full page in community/projects/apps/ or community/projects/tools/ and its category entry in that folder's README. Keep the root README upstream link and add its Project guide link. Use community/PROJECT_TEMPLATE.md for the page contents.
 
-For an app, use Apps powered by Jev in the directory and README. State platforms, release/access requirements, costs or pricing link, and the specific Jev-powered feature with integration evidence. Identify other models and any source-only or unverified access path.
+For an app, follow community/APP_TAGS.md and repeat source/pricing tags in the full page, app directory, and root README. Include product and pricing/access links, platforms, release/access requirements, Jev evidence, and disclosures. Paid/Freemium apps also need Commercial. Closed-source apps can use their product homepage as Source; state source-review limits and distinguish vendor claims from verified behavior. Identify other models and any source-only or unverified access path.
 
 ## Verification
 

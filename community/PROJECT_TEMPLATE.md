@@ -1,21 +1,26 @@
 # Community project page template
 
-Use this for an external application, starter kit, tool, or integration. Copy the Markdown inside the block into `community/projects/your-project-slug.md`, replace every placeholder, and remove instructions that do not belong in the final page. Follow [the contribution rules](../CONTRIBUTING.md#add-a-community-project).
+Use this for an external application, starter kit, tool, or integration. Copy the Markdown inside the block into `community/projects/apps/your-app-slug.md` or `community/projects/tools/your-tool-slug.md`, replace every placeholder, and remove instructions that do not belong in the final page. Follow [the contribution rules](../CONTRIBUTING.md#add-a-community-project).
 
 Keep the page useful on its own: explain the fit, show a real starting path, and link to actual examples. Summarize in your own words rather than copying the upstream README. Missing demos or live validation should be stated honestly, not invented. Closed-source or paid resources can use their canonical product page as the Source and describe their access terms.
 
-For an app, follow [List a Jev-powered app](../CONTRIBUTING.md#list-a-jev-powered-app), use **Apps powered by Jev** as its primary category, and keep the platform/availability and Jev-role rows below. Identify source-build requirements, account or paid access, release stage, and other models without implying Jev powers the entire product. For developer resources, adapt or omit those rows as appropriate.
+For an app, follow [List a Jev-powered app](../CONTRIBUTING.md#list-a-jev-powered-app) and [app tags and disclosures](APP_TAGS.md), choose a platform category in the [app directory](projects/apps/README.md), and keep all app-specific rows below. Identify source-build requirements, account or paid access, release stage, and other models without implying Jev powers the entire product. For developer resources, use a category in the [tools directory](projects/tools/README.md) and adapt or omit app-specific rows.
 
 ````markdown
 # Project name
 
-[All projects](../README.md) · [Existing category](../README.md#category-anchor)
+[All projects](../README.md) · [Existing category](README.md#category-anchor)
 
 One sentence describing the problem this project solves and who it helps.
 
 | At a glance | Details |
 | --- | --- |
 | Source | [Source](https://example.com) |
+| Tags | One source-access tag · one pricing tag · Commercial and/or BYOK if applicable. |
+| Product homepage | [Product homepage](https://example.com) — product information or a source-built app's project homepage. |
+| Pricing and access | Official pricing/access link, accounts, trial/free-tier limits, API/hosting costs, and date checked or an explicit unknown. |
+| Jev evidence | Link to inspected integration code, public technical documentation, or reproducible demo; distinguish vendor claims from verified behavior. |
+| Disclosure | Paid/commercial status, source-review limits, affiliation, and no endorsement. For closed source, explicitly state that implementation was not inspected. |
 | Maintainer | Name, upstream link, and contributor affiliation/commercial relationship. |
 | Format | Application, starter kit, library, CLI, MCP server, or another accurate type. |
 | Platform and availability | Supported platforms, release stage, launch/download/source-build link, free/paid access or pricing link, and unverified access limits. |
@@ -60,6 +65,6 @@ were not checked. Link to the submission or catalog validation when available.
 Related: link to relevant local examples or other project pages when useful.
 ````
 
-Use one canonical HTTPS link labeled `Source`; the directory check matches it to the existing README entry. Put the page under one primary category in [the directory](README.md) and link back to that category. Related links can connect it to other use cases without duplicating the index entry.
+Use one canonical HTTPS link labeled `Source`; the directory check matches it to the existing README entry. For a closed-source app, this can be the product homepage. Put the page under one primary category in its own apps/tools index and link back to that category. Repeat app tags in the index and root README. Related links can connect it to other use cases without duplicating the index entry.
 
-For a complete example, read [Testimonial miner](projects/testimonial-miner.md). Keep research drafts, source clones, raw evaluations, private data, and credentials outside this public repository.
+For a complete example, read [Testimonial miner](projects/tools/testimonial-miner.md). Keep research drafts, source clones, raw evaluations, private data, and credentials outside this public repository.

@@ -1,6 +1,6 @@
 # neo4jev
 
-[All projects](../README.md) · [Search and retrieval](../README.md#search-and-retrieval)
+[All projects](../README.md) · [Search and retrieval](README.md#search-and-retrieval)
 
 Explore how a natural-language goal can guide a search through existing Neo4j relationships, with a visible record of the alternatives considered at each step.
 

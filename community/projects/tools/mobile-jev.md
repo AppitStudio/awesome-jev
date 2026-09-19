@@ -1,6 +1,6 @@
 # Mobile Jev
 
-[All projects](../README.md) · [Browser and computer use](../README.md#browser-and-computer-use)
+[All projects](../README.md) · [Browser and computer use](README.md#browser-and-computer-use)
 
 Use Jev to navigate an Android app and enter supplied text through Mobilerun. Start with offline tests, preview one decision, then try the included dark-theme task with a separate result check.
 
@@ -16,7 +16,7 @@ Use Jev to navigate an Android app and enter supplied text through Mobilerun. St
 
 Choose it when you want to explore Android settings, fill fields with known test values, or build a smoke-test harness around an app you own. The included dark-theme demo has a visible result and an independent switch-state check. No ADB connection is required; device control goes through the Mobilerun service.
 
-This is an **Android** integration. It does not implement iOS automation, generate missing form values, or provide ready-made assertions for every app. See [iOS evidence and adaptation guidance](../../docs/computer-use.md#ios-simulator-evidence) for the separate Simulator work.
+This is an **Android** integration. It does not implement iOS automation, generate missing form values, or provide ready-made assertions for every app. See [iOS evidence and adaptation guidance](../../../docs/computer-use.md#ios-simulator-evidence) for the separate Simulator work.
 
 ## How it works
 
@@ -42,7 +42,7 @@ node scripts/run.mjs --help
 
 Expect **55 passing tests**, then help text listing `observe`, `run`, `--text`, `--steps`, and `--execute`. The tests use synthetic data, mocked providers, and local transport checks. They do not control a phone or call Jev. Neither this test path nor the CLI needs studio dependencies installed.
 
-For a smaller walkthrough of why action selection and verification differ, run the catalog's [offline decision cycle](../../examples/computer-use/README.md). That example uses synthetic browser fields; it is not an Android driver.
+For a smaller walkthrough of why action selection and verification differ, run the catalog's [offline decision cycle](../../../examples/computer-use/README.md). That example uses synthetic browser fields; it is not an Android driver.
 
 ### 2. Configure a private key and one test device
 
@@ -153,7 +153,7 @@ For a controlled execution, append `--execute --steps 3` (at most ten Jev decisi
 
 Use the theme demo's [verifier](https://github.com/droidrun/mobile-jev/blob/395fc222beac4f059f9a0beb337d114a2b066e99/scripts/demo-verifiers.mjs) as the pattern: define the final state before running, read fresh app state afterward, and fail if evidence is absent or ambiguous. For a saved profile, check the persisted test record as well as the text field. Keep numeric/date parsing and expected values in code. A `done` response and a successful input acknowledgment are insufficient assertions.
 
-This integration supplies navigation and input; a general structured-data exporter is additional work. For extracting records from Android screens, build candidates from observed text, preserve the source element and observation, select with Jev, and copy/parse in code. See the [source-value selection pattern](https://docs.typesafe.ai/cookbooks/pre_parsed_value_extraction_cookbook) and the catalog's [offline extraction example](../../examples/span-selection/README.md).
+This integration supplies navigation and input; a general structured-data exporter is additional work. For extracting records from Android screens, build candidates from observed text, preserve the source element and observation, select with Jev, and copy/parse in code. See the [source-value selection pattern](https://docs.typesafe.ai/cookbooks/pre_parsed_value_extraction_cookbook) and the catalog's [offline extraction example](../../../examples/span-selection/README.md).
 
 ## Examples and demos
 
@@ -188,4 +188,4 @@ AI-assisted review on **2026-09-19** at [395fc22](https://github.com/droidrun/mo
 
 Studio dependency installation/build, Mobilerun connectivity, phone control, live Jev behavior, and demonstration measurements were not reproduced. Search and QA-form recipes are supplied adaptation examples, not measured successes. No paid inference or device change was performed for this review.
 
-Related: [computer-use guide](../../docs/computer-use.md) · [offline decision cycle](../../examples/computer-use/README.md).
+Related: [computer-use guide](../../../docs/computer-use.md) · [offline decision cycle](../../../examples/computer-use/README.md).

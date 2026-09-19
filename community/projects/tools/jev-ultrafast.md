@@ -1,6 +1,6 @@
 # Jev Ultrafast
 
-[All projects](../README.md) · [Browser and computer use](../README.md#browser-and-computer-use)
+[All projects](../README.md) · [Browser and computer use](README.md#browser-and-computer-use)
 
 Learn a compact browser-agent loop: give it a goal, inspect the observed controls, and see Jev choose an operation and target. Start with a synthetic choice that needs no browser or account.
 
@@ -236,4 +236,4 @@ AI-assisted source review on **2026-09-19**, at [1231850](https://github.com/bro
 
 For this expanded guide, a fresh pinned checkout installed with `uv sync --frozen`; `uv run --frozen --offline pytest -q` again passed **31 tests** on Python 3.14.4. The exact `catalog-choice.py` synthetic walkthrough passed with provider keys absent and returned the expected action mapping with zero browser actions. The model adapter's retry count, environment loading, text-helper requirements, and current TypeSafe model documentation were rechecked. This walkthrough is original catalog teaching code around the upstream adapter; its one-hot responses are synthetic fixtures, not recorded predictions. The live walkthrough and Chrome setup remain unexecuted.
 
-Related: [computer-use comparison](../../docs/computer-use.md) · [Jev Browser for Playwright tests and extraction](jev-browser-tontoko.md) · [offline computer-use cycle](../../examples/computer-use/README.md). The [span selection](../../examples/span-selection/README.md) teaches selecting observed candidates without browser access; [support routing](../../examples/support-routing/README.md) demonstrates explicit review handling.
+Related: [computer-use comparison](../../../docs/computer-use.md) · [Jev Browser for Playwright tests and extraction](jev-browser-tontoko.md) · [offline computer-use cycle](../../../examples/computer-use/README.md). The [span selection](../../../examples/span-selection/README.md) teaches selecting observed candidates without browser access; [support routing](../../../examples/support-routing/README.md) demonstrates explicit review handling.

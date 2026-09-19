@@ -1,6 +1,6 @@
 ---
 name: awesome-jev-guide
-description: Help users understand Awesome Jev, describe a workflow, choose a suitable example or integration, and get it running. Use for Jev solution discovery, starter-kit selection, API-key setup, or adapting/building a Jev workflow in the user's stack.
+description: Help users discover Jev apps, tools, and examples, with clear source-access and paid-product disclosures. Use for Jev solution discovery, app recommendations, starter-kit selection, API-key setup, or adapting/building a Jev workflow in the user's stack.
 ---
 
 # Find and build with Awesome Jev
@@ -17,7 +17,7 @@ For a newcomer, explain the few terms needed for the next step. For a concrete b
 
 ## Refresh the relevant context
 
-Read the current [catalog](https://github.com/AppitStudio/awesome-jev/blob/main/README.md) and [categorized community directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/README.md). For a community recommendation, read its project page for fit, setup, examples, and review evidence, then verify version-sensitive details against the upstream README. For repository examples, read their own README and [validation scope](https://github.com/AppitStudio/awesome-jev/blob/main/docs/validation.md). If working in a checkout, also read its `AGENTS.md`. Follow the installed skill's own relative references from its directory, not from the user's working directory.
+Read the current [catalog](https://github.com/AppitStudio/awesome-jev/blob/main/README.md) and [project directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/README.md), which separates apps from tools. For a community recommendation, read its full page for fit, tags, access, setup, and review evidence, then verify version-sensitive details against the upstream source or product documentation. For repository examples, read their own README and [validation scope](https://github.com/AppitStudio/awesome-jev/blob/main/docs/validation.md). If working in a checkout, also read its `AGENTS.md`. Follow the installed skill's own relative references from its directory, not from the user's working directory.
 
 For TypeSafe design or integration, use the official `typesafe-ai` skill if available. Otherwise read its [official entrypoint](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md) and the relevant live docs; another skill installation is optional. Start with the [documentation index](https://docs.typesafe.ai/llms.txt), then the current model/API or selected SDK page and the closest cookbook. Read narrowly rather than loading the whole site. [Resource selection](references/solutions.md) maps needs to useful entry points.
 
@@ -25,7 +25,11 @@ Before giving version-sensitive commands, verify package names, runtime requirem
 
 ## Recommend the smallest useful solution
 
-When the user wants an app to use, start with the directory's **Apps powered by Jev** section. Read its detail page for platform, availability, accounts/keys/costs, and the exact Jev-powered feature. Distinguish a hosted app, a downloadable release, a source build, and a developer starter. Do not assume every feature uses Jev or every listed app is free or ready to install.
+When the user wants an app to use, start with the dedicated [app directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/apps/README.md); use the [tools directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/tools/README.md) for developer building blocks. Read the full page for platform, availability, accounts/keys/costs, and the exact Jev-powered feature. Distinguish a hosted app, a downloadable release, a source build, and a developer starter. Do not assume every feature uses Jev or every listed app is free or ready to install.
+
+Apply the current [app tags and disclosure rules](https://github.com/AppitStudio/awesome-jev/blob/main/community/APP_TAGS.md) to every app recommendation. Show the source and pricing tags beside the app's name, not only in a linked page. A paid recommendation must visibly say **Commercial · Paid** or **Commercial · Freemium**, identify the paid access/features, and link the official pricing page (or vendor access/contact page), product homepage, and full guide. Open-source code may still have paid hosting; state both. Show **Pricing unverified** if current terms cannot be established, and keep provider/hosting charges separate from app price.
+
+For **Closed source**, explicitly state that the implementation was not inspected and identify whether Jev use is supported by vendor documentation, public demos, or independent checks. Do not present vendor claims as source-audited facts. Show any disclosed affiliation and avoid implying endorsement. Respect free-only, open-source-only, local-only, and no-account constraints; do not silently substitute a paid or closed-source product. A temporary trial is not a permanent free tier, and possession of a public repository does not establish an open-source license.
 
 Read [resource selection](references/solutions.md) and choose among using a resource, adapting an example, composing patterns, or building a small custom starter. Treat its map as a starting point and verify the current catalog before claiming availability.
 
@@ -38,6 +42,7 @@ A short recommendation should identify:
 - The user's desired outcome and the recommended starting point.
 - The flow: input → code preparation → Jev judgment → code policy → output/review.
 - The needed adaptation, uncertainty behavior, and first runnable command.
+- For an app, visible source/pricing tags, product and pricing/access links, separate provider costs, and any closed-source review limitation.
 - A few directly relevant resources, with current-read versus unverified status.
 
 ## Guide setup to a visible result

@@ -1,6 +1,6 @@
 # Jev for Home Assistant
 
-[All projects](../README.md) · [Home automation](../README.md#home-automation)
+[All projects](../README.md) · [Home automation](README.md#home-automation)
 
 Turn a small selection of household readings into a judgment sensor, inspect its answer, then use an ordinary Home Assistant automation to send a reminder.
 
@@ -94,4 +94,4 @@ Reviewed on **2026-09-19**, integration **1.8.0**, commit [`1b48f2fa1e94d076b540
 
 Offline checks compiled 28 Python files and parsed 15 YAML examples. Targeted execution of extracted usage-accounting code checked budget crossing, persistence restoration and rollover; `jevclient==1.1.0` serialized the laundry question and parsed a synthetic response. These checks did not run HA schemas or the full integration suite. HA installation, live inference, devices and model quality were not tested.
 
-Related: [Decision patterns](../../docs/decision-patterns.md) explains typed judgments and application policy before you connect them to household events.
+Related: [Decision patterns](../../../docs/decision-patterns.md) explains typed judgments and application policy before you connect them to household events.
