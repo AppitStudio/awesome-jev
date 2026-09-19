@@ -59,4 +59,4 @@ Tool names/arguments, redacted transcript/context projections, and screened outp
 
 Reviewed on **2026-09-20** at [commit eeee966](https://github.com/harshwasan/pi-jev-sentinel/tree/eeee966a40257646c0193d386bb64228bfc2739e): package **0.1.0**, MIT. AI-assisted source review of `guard.ts`, `hook.ts`, `index.ts`, README, hooks examples, and license. On Node.js 22.19.0, **`npm test`: 106 passed** (2 files) and **`npm run check`** (`tsc --noEmit`) passed. No live TypeSafe calls or host installs were performed.
 
-Related: [pi-jev](pi-jev.md), [pi-warden](pi-warden.md), [toolgate](toolgate.md).
+Related: [pi-jev](pi-jev.md), [pi-warden](pi-warden.md).
