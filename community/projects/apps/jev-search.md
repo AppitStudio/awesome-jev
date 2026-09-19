@@ -71,6 +71,8 @@ when choosing an alternate provider; those routes have no execution evidence her
 
 ## Get started
 
+**Use the hosted app:** open [Jev Search](https://jev.s1.dev/) in your browser. The homepage presents a search box and example queries without a sign-in or API-key prompt. A browser inspection on **2026-09-20** verified that interface and its source-code link; no search was submitted, so hosted search availability, quotas, and pricing remain unverified. Submitted searches use the hosted deployment's configured providers. The `BYOK` setup below applies to self-hosting.
+
 **First result: offline tests, no provider keys.** Clone and dependency installation need internet access; the tests themselves mock providers. Use an installed pnpm rather than changing global tool settings.
 
 ```sh

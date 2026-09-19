@@ -26,7 +26,7 @@ Search across selected sources and explore ranked links with editable filters. J
 
 **Access:** use the [hosted application](https://jev.s1.dev) or self-host from source with Search1API and a configured Jev provider (TypeSafe by default; newer source also supports Vercel AI Gateway or Cloudflare Workers AI). Self-hosting can incur provider and hosting charges. The hosted homepage was checked; live search and hosted access limits were not tested.
 
-[Full Jev Search guide](jev-search.md) · [Source](https://github.com/superagents-lab/jev-search)
+[Try Jev Search](https://jev.s1.dev/) · [Full Jev Search guide](jev-search.md) · [Source](https://github.com/superagents-lab/jev-search)
 
 ### Notra
 
