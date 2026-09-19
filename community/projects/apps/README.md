@@ -30,6 +30,16 @@ Track how AI answers describe and position your brand. Jev judges brand sentimen
 
 ## macOS apps
 
+### Jev Voice
+
+`Open source` · `Free source build` · `BYOK`
+
+Talk to your Mac with local whisper.cpp transcription. Jev selects a typed action and arguments in one fan-out; code executes via Accessibility/AppleScript.
+
+**Access:** run the [MIT source](https://github.com/kevinbadi/jev-voice) on Apple Silicon–oriented macOS with Python 3.12+, the setup script, a TypeSafe key, and Microphone / Accessibility / Input Monitoring permissions. No app purchase fee; provider usage can incur charges. Live voice and desktop actions were not tested on the Linux review host.
+
+[Full Jev Voice guide](jev-voice.md) · [Source](https://github.com/kevinbadi/jev-voice)
+
 ### macbrow
 
 `Open source` · `Free source build` · `BYOK`
