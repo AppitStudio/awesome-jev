@@ -27,6 +27,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Voice Browser](jev-voice-browser.md) | Study partial speech, target disambiguation, and browser actions with an inspectable decision policy. | JavaScript · Playwright voice-control reference |
 | [Jev-cu](jev-cu.md) | Study experimental Jev decisions over macOS Accessibility text in Codex; review the execution-policy limitations before use. | JavaScript · Codex skill and runtime |
 | [Mobile Jev](mobile-jev.md) | Navigate an Android device and verify a dark-theme task. | JavaScript / React · Mobilerun agent and studio |
+| [pi-Jev-browser](pi-jev-browser.md) | Let Jev choose each Playwright browser action over a structured DOM observation inside Pi. | TypeScript · Pi extension (npm) |
 | [typesafe-computer-use](typesafe-computer-use.md) | Study OCR and Accessibility driven native macOS control. | Python · desktop CLI |
 
 ## Customer feedback and marketing
