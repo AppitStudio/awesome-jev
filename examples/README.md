@@ -54,6 +54,16 @@ The client uses a 30-second per-attempt timeout and at most three attempts. It r
 
 The input and response fixtures are original synthetic material. They are not captured Jev output, and the confidence values are illustrative. Offline tests verify request construction, response validation, and application branches; they do not establish live API compatibility, model accuracy, reliability, or latency. Before using real data, evaluate representative cases, check current provider requirements, and define your own fallback policy.
 
+## Computer-use decision cycle
+
+The standalone [computer-use example](computer-use/README.md) adds a synthetic UI executor and independent assertions around form-field selection and exact source extraction. It prints raw answers, rejects stale observations, and catches incorrect completion. It does not launch or drive a browser or device.
+
+```sh
+python3 examples/computer-use/run.py
+```
+
+Its optional `--live` mode makes at most one HTTP attempt while keeping UI execution simulated. The shared runner above still supports the original four recipes. See the [computer-use guide](../docs/computer-use.md) for actual browser and native implementations.
+
 ## Check changes
 
 ```sh

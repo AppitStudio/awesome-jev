@@ -19,6 +19,7 @@ It prints a routing decision from fixtures without sending data or assigning a t
 | I want to… | Start with | What to explore first |
 | --- | --- | --- |
 | Guide a browser through a task | [Jev Ultrafast](../community/projects/jev-ultrafast.md) | How one observed element table supports both an operation and its possible targets. A text model supplies typed text when needed. |
+| Fill forms, extract records, or test browser/native interfaces | [Computer and browser use](computer-use.md) | Compare Playwright, native macOS, Android, and driver recipes; distinguish iOS demonstrations from available integrations. Start with the offline form/extraction cycle. |
 | Reduce an agent's old tool history | [fast-jev-compaction](../community/projects/fast-jev-compaction.md) | The library's keep, truncate, and remove decisions; inspect the synthetic demo before connecting a real conversation. |
 | Ask semantic questions of database rows | [pg-jev](../community/projects/pg-jev.md) | How SQL calls become typed judgments, and why read-ahead and ordinary SQL filters affect what data is sent. |
 | Search across sources with editable filters | [Jev Search](../community/projects/jev-search.md) | Query/source selection, retrieval, and relevance ranking as separate stages. |

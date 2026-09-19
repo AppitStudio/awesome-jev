@@ -8,18 +8,24 @@ Browse Jev applications, developer tools, and integrations by what you want to d
 
 ## Categories
 
-- [Browser automation](#browser-automation)
+- [Browser and computer use](#browser-and-computer-use)
 - [Customer feedback and marketing](#customer-feedback-and-marketing)
 - [Developer tools](#developer-tools)
 - [Home automation](#home-automation)
 - [SDKs and integrations](#sdks-and-integrations)
 - [Search and retrieval](#search-and-retrieval)
 
-## Browser automation
+## Browser and computer use
+
+See the [computer-use guide](../docs/computer-use.md) for a comparison, form/extraction examples, native-app testing designs, and the evidence boundary around iOS demonstrations.
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [Cua jev-use](projects/cua-jev-use.md) | Compose a bounded chooser with Driver and independent fixture verification. | Python / TypeScript · integration recipe |
+| [Jev Browser (tontoko)](projects/jev-browser-tontoko.md) | Fill forms, extract records with evidence, and add semantic selection to Playwright tests. | TypeScript · SDK, CLI and MCP |
 | [Jev Ultrafast](projects/jev-ultrafast.md) | Select browser operations and targets from the current page. | Python · browser agent and inspector |
+| [Mobile Jev](projects/mobile-jev.md) | Navigate an Android device and verify a dark-theme task. | JavaScript / React · Mobilerun agent and studio |
+| [typesafe-computer-use](projects/typesafe-computer-use.md) | Study OCR and Accessibility driven native macOS control. | Python · desktop CLI |
 
 ## Customer feedback and marketing
 
@@ -60,7 +66,7 @@ Browse Jev applications, developer tools, and integrations by what you want to d
 
 ## Try a smaller example
 
-The repository also maintains its own [four teaching examples](../examples/README.md), [Support Router](../projects/support-router/README.md), and [routing evaluation runner](../evaluations/README.md). These are useful when you want a small offline starting point before adopting a community project.
+The repository also maintains its own [teaching examples](../examples/README.md), [Support Router](../projects/support-router/README.md), and [routing evaluation runner](../evaluations/README.md). These are useful when you want a small offline starting point before adopting a community project.
 
 ## Share or improve a project
 
