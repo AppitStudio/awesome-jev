@@ -124,6 +124,16 @@ Review draft X posts, replies, and quote posts with a scorecard inside the compo
 
 ## Command-line apps
 
+### Jev Mail Classifier
+
+`Open source` · `Free source build` · `BYOK`
+
+Classify IMAP mail with Jev yes/no category judgments, then tag, move, flag, or notify from a Textual TUI and cron-friendly CLI.
+
+**Access:** clone and run the [MIT source](https://github.com/parth-kp/jev-mail-classifier) (Python 3.10+) with `./install.sh`, a Jev provider key (TypeSafe, OpenRouter, or Vercel AI Gateway), and IMAP credentials (often an app password). No app purchase fee; provider and mailbox-host usage can incur charges. Offline pytest: 61 passed on the review host; live mailbox classification not run.
+
+[Full Jev Mail Classifier guide](jev-mail-classifier.md) · [Source](https://github.com/parth-kp/jev-mail-classifier)
+
 ### Jevmeter
 
 `Open source` · `Free source build` · `BYOK`
