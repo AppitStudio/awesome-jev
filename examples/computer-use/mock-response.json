@@ -1,0 +1,9 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "operation": {"type": "choice", "choice": "fill", "confidence": 0.95, "probabilities": {"fill": 0.97, "done": 0.01, "wait": 0.01, "blocked": 0.01}},
+    "field": {"type": "choice", "choice": "e2", "confidence": 0.94, "probabilities": {"e1": 0.02, "e2": 0.97, "none": 0.01}},
+    "amount": {"type": "choice", "choice": "t2", "confidence": 0.94, "probabilities": {"t1": 0.02, "t2": 0.97, "none": 0.01}}
+  },
+  "usage": {"input_tokens": 0, "output_tokens": 0}
+}

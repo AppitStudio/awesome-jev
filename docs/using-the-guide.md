@@ -46,6 +46,14 @@ python3 skills/awesome-jev-guide/scripts/try_example.py support-routing
 
 You should see JSON marked as synthetic and a computed routing decision. No Python packages, account, or API key are needed. The other choices are `quality-rubric`, `span-selection`, and `rag-triage`.
 
+For browser or native-app workflows, start with the [computer-use walkthrough](computer-use.md). Its standalone demo uses a different command:
+
+```sh
+python3 examples/computer-use/run.py
+```
+
+Expect `simulated_verified` and five passing checks. This simulates a form edit and exact source extraction without controlling a device. Follow the walkthrough to choose a real implementation with its own installation and first-task guide.
+
 If you want a real request, first follow the [guided key setup](../skills/awesome-jev-guide/references/setup.md#2-obtain-and-configure-a-key-when-live-access-is-wanted). Then run:
 
 ```sh
