@@ -6,6 +6,8 @@ Describe the reader benefit and category. For a resource, include the canonical 
 
 For a community project, link the new or updated project page and its category index entry. Keep the existing README upstream link and add its Project guide link. Use community/PROJECT_TEMPLATE.md for the page contents.
 
+For an app, use Apps powered by Jev in the directory and README. State platforms, release/access requirements, costs or pricing link, and the specific Jev-powered feature with integration evidence. Identify other models and any source-only or unverified access path.
+
 ## Verification
 
 Explain what you read or ran, relevant API/model versions, and any access requirements or limitations. For code, include offline check results and label any live testing accurately.

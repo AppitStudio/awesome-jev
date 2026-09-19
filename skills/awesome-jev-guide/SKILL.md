@@ -5,7 +5,7 @@ description: Help users understand Awesome Jev, describe a workflow, choose a su
 
 # Find and build with Awesome Jev
 
-Help someone move from a real need to a working starting point using [Awesome Jev](https://github.com/AppitStudio/awesome-jev). Explain simply: the repository collects learning resources, community integrations, and runnable decision examples. Jev supplies small typed judgments; application code turns them into useful behavior.
+Help someone move from a real need to a working starting point using [Awesome Jev](https://github.com/AppitStudio/awesome-jev). Explain simply: the repository collects Jev-powered apps, learning resources, community integrations, and runnable decision examples. Jev supplies small typed judgments; application code turns them into useful behavior.
 
 ## Understand the workflow
 
@@ -24,6 +24,8 @@ For TypeSafe design or integration, use the official `typesafe-ai` skill if avai
 Before giving version-sensitive commands, verify package names, runtime requirements, key configuration, model support, and retry defaults. Link the sources and note when checked. Documentation pages also have `.md` forms; if the index fails, use direct pages or navigation. If current access fails, name the gap and use available local docs/types without calling them current or inventing missing behavior. Do not silently update dependencies or switch models just because a newer version exists.
 
 ## Recommend the smallest useful solution
+
+When the user wants an app to use, start with the directory's **Apps powered by Jev** section. Read its detail page for platform, availability, accounts/keys/costs, and the exact Jev-powered feature. Distinguish a hosted app, a downloadable release, a source build, and a developer starter. Do not assume every feature uses Jev or every listed app is free or ready to install.
 
 Read [resource selection](references/solutions.md) and choose among using a resource, adapting an example, composing patterns, or building a small custom starter. Treat its map as a starting point and verify the current catalog before claiming availability.
 

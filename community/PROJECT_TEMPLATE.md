@@ -4,6 +4,8 @@ Use this for an external application, starter kit, tool, or integration. Copy th
 
 Keep the page useful on its own: explain the fit, show a real starting path, and link to actual examples. Summarize in your own words rather than copying the upstream README. Missing demos or live validation should be stated honestly, not invented. Closed-source or paid resources can use their canonical product page as the Source and describe their access terms.
 
+For an app, follow [List a Jev-powered app](../CONTRIBUTING.md#list-a-jev-powered-app), use **Apps powered by Jev** as its primary category, and keep the platform/availability and Jev-role rows below. Identify source-build requirements, account or paid access, release stage, and other models without implying Jev powers the entire product. For developer resources, adapt or omit those rows as appropriate.
+
 ````markdown
 # Project name
 
@@ -16,6 +18,8 @@ One sentence describing the problem this project solves and who it helps.
 | Source | [Source](https://example.com) |
 | Maintainer | Name, upstream link, and contributor affiliation/commercial relationship. |
 | Format | Application, starter kit, library, CLI, MCP server, or another accurate type. |
+| Platform and availability | Supported platforms, release stage, launch/download/source-build link, free/paid access or pricing link, and unverified access limits. |
+| Jev's role | Concrete feature/decisions, integration evidence link, other models involved, and whether Jev use is optional. |
 | Requirements | Language/runtime, dependencies, accounts, and key-variable names. |
 | License | Link to the license, or clearly describe access/commercial terms. |
 

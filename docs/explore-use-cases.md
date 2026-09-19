@@ -31,6 +31,10 @@ It prints a routing decision from fixtures without sending data or assigning a t
 
 These are complementary starting points, not a ranking of model performance. Each guide identifies its reviewed revision, prerequisites, license, data recipients, tests, and remaining gaps. Most real workflows use hosted inference; an offline test or mock demo does not run Jev locally.
 
+## Find an app to use
+
+The [app directory](../community/README.md#apps-powered-by-jev) lists user-facing products separately from developer tools. Start there for a macOS click assistant, a search interface, or a brand-visibility application. Each listing explains what Jev powers, what other components do, supported platforms, and whether access is hosted or requires a source build. Makers can [share their own apps](../CONTRIBUTING.md#list-a-jev-powered-app).
+
 ## Follow one decision through the system
 
 Consider a fictional support message: “My export has failed twice since this morning.” A useful application could ask which team should inspect it and separately whether it reports a blocked task. It would retain the answers and apply its routing policy. If the evidence is missing or the answer is uncertain, it could put the message in a review queue.

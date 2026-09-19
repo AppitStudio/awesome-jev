@@ -1,10 +1,12 @@
 # Working on Awesome Jev
 
-Keep this repository a selective resource list with small, runnable reference projects. Read `CONTRIBUTING.md` before changing entries and `docs/maintaining.md` before preparing a release.
+Keep this repository a selective directory of Jev-powered apps and developer resources, with small, runnable reference projects. Read `CONTRIBUTING.md` before changing entries and `docs/maintaining.md` before preparing a release.
 
-For project or starter-kit submissions, use the [contributor skill](skills/awesome-jev-contributor/SKILL.md). Keep its guidance aligned with `CONTRIBUTING.md`; it must work when installed outside this checkout.
+For app, project, or starter-kit submissions, use the [contributor skill](skills/awesome-jev-contributor/SKILL.md). Keep its guidance aligned with `CONTRIBUTING.md`; it must work when installed outside this checkout.
 
 Every Community projects entry needs a [detail page and category listing](community/README.md) alongside its original README link. Follow the [page template](community/PROJECT_TEMPLATE.md); a skill resource-map mention alone does not complete a submission.
+
+List user-facing apps under **Apps powered by Jev**, following the [app listing rules](CONTRIBUTING.md#list-a-jev-powered-app). Explain platforms, access/costs, and Jev's actual role even when other models power part of the product. External app pages live in `community/projects/`; root `projects/` is for code maintained here.
 
 For workflow discovery, resource selection, guided setup, or adapting a starter for a user, use the [Awesome Jev Guide skill](skills/awesome-jev-guide/SKILL.md). Keep its references current and user-specific projects outside this public catalog unless the user requests a contribution.
 

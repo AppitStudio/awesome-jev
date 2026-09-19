@@ -1,19 +1,32 @@
-# Explore community projects
+# Jev apps and community projects
 
 [Back to Awesome Jev](../README.md) · [Get help choosing a project](../docs/using-the-guide.md) · [Share your project](../CONTRIBUTING.md#add-a-community-project)
 
-Browse Jev applications, developer tools, and integrations by what you want to do. Open a project page to see when it fits, how to get started, examples, and what has actually been checked. The original [README list](../README.md#community-projects) remains a quick way to reach each upstream repository.
+Discover apps powered by Jev, then browse developer tools and integrations by what you want to build. Open a project page to see when it fits, how to get started, examples, and what has actually been checked. The original [README list](../README.md#community-projects) remains a quick way to reach each upstream project.
 
 **[Choose by the outcome you want](../docs/explore-use-cases.md)** for a guided tour with practical scenarios and guidance for a first experiment.
 
 ## Categories
 
+- [Apps powered by Jev](#apps-powered-by-jev)
 - [Browser and computer use](#browser-and-computer-use)
 - [Customer feedback and marketing](#customer-feedback-and-marketing)
 - [Developer tools](#developer-tools)
 - [Home automation](#home-automation)
 - [SDKs and integrations](#sdks-and-integrations)
 - [Search and retrieval](#search-and-retrieval)
+
+## Apps powered by Jev
+
+Applications you can use through their own interface, with Jev powering a concrete part of the experience. An app can use other models too; each listing explains Jev's role. Source-built apps belong here alongside hosted products. Availability describes the reviewed version, not a guarantee of service or production readiness.
+
+| App | What you can do | What Jev powers | Platform and access |
+| --- | --- | --- | --- |
+| [Jev Search](projects/jev-search.md) | Search selected sources and inspect ranked links and filters. | Query/source selection and relevance judgments. | Web · hosted app or self-host; self-hosting needs TypeSafe and Search1API keys. |
+| [Notra](projects/notra.md) | Track how AI answers describe and position your brand. | Brand sentiment and list-position judgments within a larger analytics app. | Web · hosted account or self-host; database, auth, and provider setup required for self-hosting. |
+| [TipTour](projects/tiptour.md) | Type a request to click controls in a macOS app. | Target and click-type selection, completion and missing-target judgments. | macOS 14.2+ · build with Xcode; bring a TypeSafe key. Gemini key for optional voice mode. |
+
+**[Share your app](../CONTRIBUTING.md#list-a-jev-powered-app)** — self-submissions are welcome. Include a working product or source link, platform, access/cost requirements, evidence of Jev use, and your affiliation. Open-source, closed-source, free, and paid apps can qualify under the same review criteria.
 
 ## Browser and computer use
 
@@ -31,7 +44,6 @@ See the [computer-use guide](../docs/computer-use.md) for a comparison, form/ext
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
-| [Notra](projects/notra.md) | Inspect brand mentions and placement in AI answers. | TypeScript · brand visibility application |
 | [Testimonial miner](projects/testimonial-miner.md) | Find and review verbatim praise in email, grouped by product. | Python · CLI and local dashboard |
 
 ## Developer tools
@@ -59,7 +71,6 @@ See the [computer-use guide](../docs/computer-use.md) for a comparison, form/ext
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
-| [Jev Search](projects/jev-search.md) | Search selected sources and inspect ranked links and filters. | TypeScript · TanStack Start and Cloudflare Workers |
 | [llama-index-jev](projects/llama-index-jev.md) | Rerank retrieved passages or choose a query engine in LlamaIndex. | Python · integration packages |
 | [neo4jev](projects/neo4jev.md) | Explore graph paths with typed next-hop and goal judgments. | Python · Neo4j, notebooks and Streamlit |
 | [pg-jev](projects/pg-jev.md) | Ask semantic questions from SQL over database rows. | PostgreSQL · PL/Python extension |

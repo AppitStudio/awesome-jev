@@ -14,6 +14,8 @@ Use [CONTRIBUTING.md](../CONTRIBUTING.md) as the acceptance standard. First-part
 
 For community projects, review the [detail page](../community/PROJECT_TEMPLATE.md), [category index](../community/README.md), and original README entry together. Verify setup and examples against the cited upstream version, distinguish executed checks from reported results, and keep all three surfaces consistent when updating or removing a project. `check:community` checks their connections, not factual accuracy. Keep the contributor and guide skills aligned with these conventions.
 
+For the [app directory](../community/README.md#apps-powered-by-jev), verify a usable product or source-build path, platform and release stage, account/key/cost requirements, and evidence for Jev's specific role. Other models may power other features. Public evidence can support a closed-source listing, but record the inspection limits. Check that the README app entry and directory row agree with the detail page; do not present source-only access as a downloadable release or a homepage check as a tested app.
+
 ## Maintain links and relevance
 
 Review the scheduled link-check results weekly. A 403 or 429 may be a host blocking automated checks; inspect it manually before removing an otherwise useful resource. Retry transient failures. Fix moved links, replace misleading descriptions, and remove persistently unavailable or unsuitable resources with an explanation in the pull request.

@@ -1,6 +1,6 @@
 # Notra
 
-[All projects](../README.md) · [Customer feedback and marketing](../README.md#customer-feedback-and-marketing)
+[All projects](../README.md) · [Apps powered by Jev](../README.md#apps-powered-by-jev)
 
 Track whether AI answers mention your brand, where it appears in a recommendation list, and how the answer describes it. Notra shows how narrow Jev judgments can become useful fields inside a larger analytics product.
 
@@ -9,6 +9,8 @@ Track whether AI answers mention your brand, where it appears in a recommendatio
 | Source | [Source](https://github.com/usenotra/notra) |
 | Maintainer | [Notra](https://github.com/usenotra); independently curated here, not submitted on the maintainer's behalf. |
 | Format | TypeScript application: Bun/Turborepo, Next.js dashboard, Hono API, PostgreSQL and Drizzle. |
+| Platform and availability | Web · [hosted product](https://www.usenotra.com) requires an account; self-hosting requires database, authentication, and provider setup. Hosted pricing and account access were not tested. |
+| Jev's role | Judges brand sentiment and list position in AI answers; other models handle scans, general judging, and drafting. |
 | Requirements | Reviewed checkout pins Bun **1.4.0**, Node.js **24.11.1**, `ai@7.0.105` and `@ai-sdk/gateway@4.0.85`. The small offline example below needs only Bun and the source. |
 | Live access | Server-side `AI_GATEWAY_API_KEY` or Vercel OIDC for `typesafe-ai/jev`; separate model access for scans and the general judge. Full dashboard setup also needs database/auth configuration. |
 | License | Main application: [AGPL-3.0](https://github.com/usenotra/notra/blob/59ddfa6b58503d0f02b44b3dfd0dcb2f18c9cb7d/LICENSE). The separately [MIT-licensed traffic SDK](https://github.com/usenotra/notra/blob/59ddfa6b58503d0f02b44b3dfd0dcb2f18c9cb7d/packages/geo/LICENSE) is a different component. |

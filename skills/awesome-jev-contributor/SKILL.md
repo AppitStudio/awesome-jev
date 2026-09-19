@@ -1,6 +1,6 @@
 ---
 name: awesome-jev-contributor
-description: Review and prepare Jev projects or starter kits for Awesome Jev, or submit them when requested. Use for contribution readiness checks, resource entries, and example or reference-project pull requests to AppitStudio/awesome-jev.
+description: Review and prepare Jev-powered apps, developer projects, or starter kits for Awesome Jev, or submit them when requested. Use for app directory listings, contribution readiness checks, resource entries, and example or reference-project pull requests to AppitStudio/awesome-jev.
 ---
 
 # Contribute to Awesome Jev
@@ -13,7 +13,8 @@ Identify the project URL or local path, its Jev-specific benefit, and the reques
 
 Choose the appropriate route:
 
-- **External project or starter kit:** add a project detail page, list it in the community directory's closest category, and retain a concise entry in the README. Keep its code in its own repository. A starter kit does not have to be copied into Awesome Jev to qualify.
+- **External app:** use the current app listing rules and **Apps powered by Jev** category. Add its detail page under `community/projects/`, a directory row, and a README app entry; keep the application code upstream. Apps may be hosted, source-built, paid, or closed-source, and may combine Jev with other models.
+- **External developer project or starter kit:** add a project detail page, list it in the community directory's closest developer category, and retain a concise entry in the README. Keep its code in its own repository. A starter kit does not have to be copied into Awesome Jev to qualify.
 - **Code contributed to Awesome Jev:** use `examples/` for a small teaching workflow or the existing `projects/` conventions for a more complete tool. Apply the repository's example requirements to either, scaled to the contribution.
 - **Existing entry:** make a focused correction or update instead of adding a duplicate.
 
@@ -49,6 +50,8 @@ Assess these requirements against evidence:
 
 Self-submissions, new projects, and paid or closed-source resources can qualify. Do not invent star-count, age, open-source, or live-evaluation requirements. Reject paid placement, referral/tracking links, placeholders, and unsupported claims under the current contribution rules. A missing test run is a disclosed evidence gap, not automatically proof that the project is unsuitable.
 
+For apps, inspect the user-facing workflow and identify exactly what Jev powers, whether that feature is optional, and what other models/components do. Record platforms, release stage, a working launch/download/source-build link, account and API-key requirements, free/paid access or pricing link, separate provider costs, permissions, and data recipients. Link implementation or public technical/demo evidence of Jev use; a badge alone is insufficient. For closed-source products, state the evidence boundary. A waitlist alone is not a working artifact, and a developer example with a demo UI is not automatically an app listing.
+
 Use documented offline checks when practical. Inspect commands before running them, avoid exposing ambient credentials to candidate code, and distinguish source inspection, mocked execution, and live evaluation. Do not load private `.env` files just to review a submission. Live calls require the user's authorization, suitable data, and a request bound; never treat mock outputs as measured Jev results.
 
 For compatibility questions or implementation changes, consult the [current TypeSafe documentation](https://docs.typesafe.ai/llms.txt); use the official `typesafe-ai` skill if available. Do not require that skill to write a catalog entry. Typed questions express narrow judgments; code owns parsing, arithmetic, policy, permissions, and downstream effects. Identify consequential problems in those boundaries without demanding unrelated redesigns.
@@ -68,8 +71,8 @@ Choose the narrowest existing category and alphabetize within it unless it expli
 For an external application, starter kit, tool, or integration, prepare all three connected parts:
 
 1. **Project page:** create `community/projects/<slug>.md` from the current page template. Explain when to use it, how Jev fits, prerequisites and setup, real examples/demos, data handling and costs, limitations, license, affiliation, and version-specific review evidence. Include one canonical HTTPS link labeled `Source` and a link back to its directory category. Distinguish inspected instructions from commands you actually ran.
-2. **Category index:** link the page once under its primary category in `community/README.md`, with a concise use case and stack/format. Reuse an existing category when it fits.
-3. **README entry:** keep the canonical upstream link and factual sentence in `Community projects`, and append a link to the local project page. Do not replace the original list with the directory.
+2. **Category index:** link the page once under its primary category in `community/README.md`, with a concise use case and stack/format. For apps, use **Apps powered by Jev** and include Jev's role, platform, and access requirements. Reuse an existing developer category for other projects.
+3. **README entry:** keep the canonical upstream link and factual sentence in `Community projects`, under **Apps powered by Jev** for apps or **Developer projects and integrations** for developer resources, and append a link to the local project page. Do not replace the original list with the directory.
 
 Articles and cookbook links do not need project pages. Update the guide's resource map when it helps discovery, but a `solutions.md` mention alone is not a complete project submission. For corrections or removals, keep the README, directory, and detail page consistent.
 

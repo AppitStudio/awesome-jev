@@ -20,10 +20,13 @@ The four shared-runner recipes and standalone computer-use example use Python 3.
 
 Browse the current [community directory](https://github.com/AppitStudio/awesome-jev/blob/main/community/README.md) for categorized project pages. Each page provides fit, setup, examples, and review evidence; verify its upstream source before giving version-sensitive instructions.
 
+For an application to use, start with [Apps powered by Jev](https://github.com/AppitStudio/awesome-jev/blob/main/community/README.md#apps-powered-by-jev). Check the product's platform and access path before suggesting developer setup; hosted access, source builds, and small demo interfaces are different offerings.
+
 For open-ended exploration, start with the [use-case tour](https://github.com/AppitStudio/awesome-jev/blob/main/docs/explore-use-cases.md). It maps desired outcomes to implementation guides and explains how to run a first experiment without confusing synthetic tests with model evaluation.
 
 | User's need | Project guide | What to check before setup |
 | --- | --- | --- |
+| Use a macOS app for typed click commands | [TipTour](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/tiptour.md) | Source build with Xcode, TypeSafe key, and desktop permissions. Jev selects clicks; the separate Gemini mode handles voice/writing. Isolated decision tests do not validate desktop actions. |
 | Find praise in customer emails | [Testimonial miner](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/testimonial-miner.md) | Python/Gmail workflow; a Gmail dry run still reads the mailbox, and publishing selected text needs separate permission. |
 | Add quality feedback to an AI coding workflow | [Jev Review](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/jev-review.md) | Experimental MCP server; uses `JEV_API_KEY`; scores need interpretation and are not proof of correctness. |
 | Integrate typed judgments in a .NET application | [TypeSafeAI.Net](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/typesafeai-net.md) | Community client; runtime support differs from sample prerequisites; key configuration is explicit in application code. |

@@ -1,11 +1,22 @@
-name: Suggest a resource
-description: Propose one useful Jev resource for review.
+name: Share an app or suggest a resource
+description: Submit a Jev-powered app, developer project, or learning resource for review.
 title: "Resource: "
 body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What are you sharing?
+      options:
+        - Jev-powered app (desktop, mobile, web, or hosted service)
+        - Developer tool, library, or integration
+        - Starter kit or reference project
+        - Article, tutorial, or other resource
+    validations:
+      required: true
   - type: input
     id: url
     attributes:
-      label: Canonical resource URL
+      label: Canonical product or source URL
       placeholder: https://...
     validations:
       required: true
@@ -13,14 +24,19 @@ body:
     id: value
     attributes:
       label: Jev-specific value and suggested category
-      description: Who benefits, and what does this add beyond existing entries?
+      description: Who benefits, and what does this add beyond existing entries? For apps, name the feature Jev powers, what other models do, and link implementation, technical documentation, or a reproducible demo as evidence.
     validations:
       required: true
+  - type: textarea
+    id: app_access
+    attributes:
+      label: App platform and availability (for apps)
+      description: State supported platforms, release stage, and a working launch/download/source-build link. Include free/paid access or a pricing link, accounts, API keys, separate provider charges, and any beta restrictions. Mark unverified details honestly. See CONTRIBUTING.md#list-a-jev-powered-app.
   - type: textarea
     id: project_page
     attributes:
       label: Project guide details (for an application, starter kit, library, or tool)
-      description: Describe when to use it, setup and expected output, and real example/demo links. State prerequisites, key variables, data flow, costs, license, and limitations. Accepted projects need a detail page and category listing; see community/PROJECT_TEMPLATE.md. Write "Not applicable" for an article or other non-project resource.
+      description: Describe when to use it, setup and expected output, and real example/demo links. State prerequisites, key variables, permissions, data recipients, costs, license/access terms, and limitations. Accepted projects need a detail page and category listing; see community/PROJECT_TEMPLATE.md. Write "Not applicable" for an article or other non-project resource.
   - type: textarea
     id: review
     attributes:

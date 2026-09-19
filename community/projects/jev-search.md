@@ -1,6 +1,6 @@
 # Jev Search
 
-[All projects](../README.md) · [Search and retrieval](../README.md#search-and-retrieval)
+[All projects](../README.md) · [Apps powered by Jev](../README.md#apps-powered-by-jev)
 
 Turn a request such as “Find TypeSafe Jev implementations on GitHub this month” into editable search filters and ranked links you can inspect yourself.
 
@@ -9,6 +9,8 @@ Turn a request such as “Find TypeSafe Jev implementations on GitHub this month
 | Source | [Source](https://github.com/superagents-lab/jev-search) |
 | Maintainer | [Search1API / superagents-lab](https://github.com/superagents-lab); built by the search-provider team. Independently curated here, not an upstream submission or TypeSafe endorsement. |
 | Format | TypeScript web application using React 19, TanStack Start, and Cloudflare Workers. |
+| Platform and availability | Web · [hosted app](https://jev.s1.dev) or self-host from source. Homepage reachability was checked; live search and hosted access limits were not tested. |
+| Jev's role | Selects queries, sources, and time windows, then judges result relevance; Search1API retrieves the links. |
 | Requirements | Upstream recommends Node.js 22.12+ and pins pnpm 10.8.0. Live local searches need `TYPESAFE_API_KEY` and `SEARCH1API_API_KEY` in private `.dev.vars`; deployment needs a Cloudflare account. |
 | License | [MIT application code](https://github.com/superagents-lab/jev-search/blob/522868762f0637b20bf533f136e930cceb83b9f3/LICENSE); TypeSafe names and brand assets are excluded from that license. |
 

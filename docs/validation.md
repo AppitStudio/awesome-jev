@@ -47,6 +47,12 @@ All nine guides received a second source review against their pinned revisions b
 | [Notra](../community/projects/notra.md) | The guide's composition example and 10 separate synthetic assertions ran against unmodified utilities. No monorepo dependency installation, upstream test suite, database bootstrap, or live scans. |
 | [pg-jev](../community/projects/pg-jev.md) | Three extracted PL/Python bodies compiled and five loopback mock requests passed. No PostgreSQL execution: tools were unavailable and Docker was not running. Full SQL regressions, example SQL, and permission isolation remain untested. |
 
+## App directory review
+
+The [apps section](../community/README.md#apps-powered-by-jev) identifies user-facing applications and records their platforms, access paths, and Jev's specific role. Jev Search and Notra retain the review evidence above; regrouping them does not establish new installation, hosted-access, or live-use results.
+
+[TipTour](../community/projects/tiptour.md) was reviewed with AI assistance on **2026-09-19** at [d192c21](https://github.com/milind-soni/tiptour-macos/commit/d192c21f0fbefa578191e6c329a874142d11fa64). Source inspection covered licensing, build/setup, the Jev integration, stopping policy, data flow, and tests. `bash scripts/test-jev.sh` passed **8 isolated Swift Testing tests** using Apple Swift 6.2.3 and synthetic answers in a sanitized environment. There were no provider requests, app launches, permission changes, or desktop actions. Full app builds, packaged releases, pointer-loop behavior, live inference, and model quality remain untested. Source and test artifacts stayed outside the catalog.
+
 ## Evaluating an application
 
 Use the [evaluation runner](../evaluations/README.md) with labels written before inspecting responses. Keep development and holdout cases separate, count service failures and review decisions, and report errors among automatic decisions alongside their coverage. A small synthetic dataset is useful for finding integration and policy mistakes; it is not representative production evidence.

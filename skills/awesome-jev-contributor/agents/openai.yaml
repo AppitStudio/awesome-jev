@@ -1,4 +1,4 @@
 interface:
   display_name: "Awesome Jev Contributor"
-  short_description: "Prepare Jev projects for an evidence-backed submission"
+  short_description: "Prepare Jev apps and projects for directory submission"
   default_prompt: "Use $awesome-jev-contributor to review my Jev project against Awesome Jev's current guidelines and prepare a focused contribution."
