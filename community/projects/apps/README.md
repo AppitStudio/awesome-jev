@@ -30,6 +30,16 @@ Track how AI answers describe and position your brand. Jev judges brand sentimen
 
 ## macOS apps
 
+### macbrow
+
+`Open source` · `Free source build` · `BYOK`
+
+Control macOS apps and perform Chrome tasks through an experimental voice assistant. Jev routes requests, selects tool arguments, and judges follow-ups; Gradium handles speech and a separate LLM supplies generated scripts and text.
+
+**Access:** run the [MIT source](https://github.com/timpratim/macbrow#setup) on macOS with Python 3.12+, `uv`, TypeSafe and Gradium keys, and desktop permissions. The default LLM backend also needs LiveKit credentials; LM Studio is an alternative. No app purchase fee applies to the source build; provider usage can incur charges. Browser tasks require Chrome remote debugging. All 26 upstream tests passed with network access denied; live voice, desktop actions, and browser automation were not tested.
+
+[Full macbrow guide](macbrow.md) · [Source](https://github.com/timpratim/macbrow)
+
 ### TipTour
 
 `Open source` · `Free source build` · `BYOK`
