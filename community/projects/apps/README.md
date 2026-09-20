@@ -28,6 +28,16 @@ Search across selected sources and explore ranked links with editable filters. J
 
 [Try Jev Search](https://jev.s1.dev/) · [Full Jev Search guide](jev-search.md) · [Source](https://github.com/superagents-lab/jev-search)
 
+### Jev Social
+
+`Open source` · `Free source build` · `BYOK`
+
+Run local Instagram, TikTok, and LinkedIn research from a goal. TypeSafe Jev (via OpenRouter) chooses each read-only socai CLI operation; Chrome evidence feeds the next decision and cited reports.
+
+**Access:** clone the [MIT source](https://github.com/socai-io/jev-social) (Node.js 20+), install the socai CLI, and set `OPENROUTER_API_KEY`. Loopback UI at `http://127.0.0.1:8766`. No app purchase fee; OpenRouter/Jev and platform access are separate. Live social browsing was not tested on the review host.
+
+[Live site](https://socai-io.github.io/jev-social/) · [Full Jev Social guide](jev-social.md) · [Source](https://github.com/socai-io/jev-social)
+
 ### Jevmail
 
 `Open source` · `Free source build` · `BYOK`
