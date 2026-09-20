@@ -102,6 +102,16 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 ## Browser extensions
 
+### Jev for Chrome
+
+`Open source` · `Free source build` · `BYOK`
+
+Drive the Chrome tab you already have open with TypeSafe Jev. Community Manifest V3 port of browser-use/jev-ultrafast: Jev picks each click/keystroke/dropdown; a small text model fills TYPE_TEXT.
+
+**Access:** build or load the [MIT source / releases](https://github.com/chy4pro/jev-for-chrome) as an unpacked Chromium extension with a TypeSafe (or OpenRouter/Cloudflare) key plus an OpenAI-compatible text helper. No app purchase fee; provider usage can incur charges. Offline vitest: 73 passed; Chrome install and live driving not tested on the review host.
+
+[Full Jev for Chrome guide](jev-for-chrome.md) · [Source](https://github.com/chy4pro/jev-for-chrome)
+
 ### Smart Paste
 
 `Open source` · `Free source build` · `BYOK`
