@@ -63,6 +63,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Eutrya](eutrya.md) | Run a CLI agent loop where TypeSafe Jev picks attention modes and scores candidates; text model proposes; offline demo included (alpha). | Node.js · CLI (`eutrya` 0.4.9) |
 | [fast-jev-compaction](fast-jev-compaction.md) | Select which old tool calls and results remain in agent context. | TypeScript · library and Claude Code plugin |
 | [Foreman](foreman.md) | Experiment with Jev supervision of Codex workers and inspect steering, retry, and verification decisions. | Python · CLI and supervision runtime |
+| [git-jev-stage](git-jev-stage.md) | Classify Git hunks against a plain-language staging intent with TypeSafe Jev, then stage confirmed blocks. | TypeScript · CLI (`git-jev-stage` 0.1.1) + skill |
 | [Graphlin](graphlin.md) | Live architecture/activity diagrams for Claude Code or Codex; optional TypeSafe Jev classification of graph evidence. | Node.js · CLI/viewer (`npx graphlin`), plugins |
 | [Grok Bot Jev](grok-bot-jev.md) | Gate Grok Bot research/browser/retry/subagent work with TypeSafe Jev actions (shadow or active skill mode). | Python · router, skill template and dry-run CLI |
 | [Hermes Jev Skills](hermes-jev-skills.md) | Add Jev model routing, memory filter, compaction, skill pick, triage, and computer/browser choices to Hermes, Claude Code, and Codex. | Python · skills, `jev` CLI and Hermes plugin |
