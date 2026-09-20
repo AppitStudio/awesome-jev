@@ -105,6 +105,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-jev-sentinel](pi-jev-sentinel.md) | Check Pi/Claude/Codex tool calls, outputs, and replies with Jev intent/risk and injection screens (fail-closed without a key). | TypeScript · Pi extension and host hooks |
 | [pi-typesafe-bash-guard](pi-typesafe-bash-guard.md) | Classify Pi bash tool calls and user `!` shells with TypeSafe Jev before execution. | TypeScript · Pi extension (npm `@gowthamgts/pi-typesafe-bash-guard` 0.1.0) |
 | [pi-warden](pi-warden.md) | Add configurable action holds, project-rule feedback and context checks to Pi using local policy and Jev judgments. | TypeScript · Pi extension |
+| [Responsible AI Harness](responsible-ai-harness.md) | Assess AI systems with hard rules plus optional TypeSafe Jev judge; checksummed evidence bundles and offline report UI. | TypeScript · assessment harness + static UI (`responsible-ai-harness` 0.1.0) |
 | [SemDecide](semdecide.md) | Run TypeSafe Jev predicates, routes, scores, and JSONL filters as Unix CLI exit codes for pipelines and CI. | Python · CLI (`semdecide` 0.2.1) |
 | [SkillRanker](skillranker.md) | Rank which agent skills fit the next step from live session context using Jev wide/re-rank stages. | Rust · CLI (`sr`), hooks and TUI |
 | [Skillbox](skillbox.md) | Share versioned agent skills and use optional Jev scores to recommend authorized skills for a task. | TypeScript / Bun / PostgreSQL · skill library, MCP and CLI |
