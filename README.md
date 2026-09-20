@@ -281,6 +281,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [Typed Evals](https://github.com/TrustifAI/typed_evals) - Evaluate LLM/RAG/agent outputs with TypeSafe Jev judges, optional calibration, and tool guards. [Project guide](community/projects/tools/typed-evals.md).
 - [VexJoy Agent](https://github.com/notque/vexjoy-agent) - Agent toolkit for Claude Code/Codex: `/do` routes work to specialist agents/skills; optional `/d` uses TypeSafe Jev to classify and gate intent before dispatch. [Project guide](community/projects/tools/vexjoy-agent.md).
 - [winnow](https://github.com/GhalebDweikat/winnow) - Claude Code context sieve: TypeSafe Jev (or System One adapter) judges tool-result blocks before they enter context; hidden text stays recallable. [Project guide](community/projects/tools/winnow.md).
+- [webctl](https://github.com/dorkitude/webctl) - Agent web-search CLI that scores and judges multi-provider results (optional scrape chunks) with TypeSafe Jev. [Project guide](community/projects/tools/webctl.md).
 - [Yoshi](https://github.com/compozy/yoshi) - Experimental local context-pruning proxy for Claude Code and Codex; TypeSafe Jev (Vercel AI Gateway) judges which history spans to omit. [Project guide](community/projects/tools/yoshi.md).
 
 ## Computer and browser use
