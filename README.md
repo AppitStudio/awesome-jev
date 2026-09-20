@@ -133,6 +133,7 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 The [independent model research](community/projects/tools/README.md#independent-model-research) category explores related typed-decision interfaces with other models. Their local inference uses those models, and they do not provide official Jev weights.
 
 - [Advocaat](https://github.com/pithings/advocaat) - TypeScript `ask` client that batches typed Jev choice, score, and yes/no questions about structured data, with optional Vercel AI Gateway support. [Project guide](community/projects/tools/advocaat.md).
+- [feelings](https://github.com/BoundaryML/feelings) - BAML `.feels()` / `.how()` / `.matches<T>()` typed AI-if methods powered by TypeSafe Jev; upstream licensing unspecified. [Project guide](community/projects/tools/feelings.md).
 - [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) - Hermes skill that asks TypeSafe Jev for typed Choice/Score/Noul tiebreaks when paths remain plausible. [Project guide](community/projects/tools/ask-jev-skill.md).
 - [bitrate-advisor](https://github.com/affirmitv/bitrate-advisor) - Live-stream encoder settings from telemetry/history using TypeSafe Jev (OpenRouter) inside a deterministic safety envelope. [Project guide](community/projects/tools/bitrate-advisor.md).
 - [Cua jev-use](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use) - Composes a bounded Jev chooser with Cua Driver and an independently verified browser fixture. [Project guide](community/projects/tools/cua-jev-use.md).
