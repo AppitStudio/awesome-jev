@@ -75,6 +75,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [tokengate](jev-model-tokengate.md) | Buffer streamed LLM tokens and gate each window with TypeSafe Jev before the client sees them. | Node.js · OpenAI-compatible proxy (`tokengate` 0.1.0) |
 | [Jev Review](jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
 | [Jev Review (Dev Agrawal)](jev-review-devagrawal.md) | Screen JavaScript/TypeScript diffs or codebases and inspect staged review findings. | TypeScript · CLI and local dashboard |
+| [Jev Review Action](jev-review-action.md) | Review catalog submissions or PR diffs with TypeSafe Jev only; one template PR comment (GitHub Action). | Node.js · GitHub Action (`jev-review-action` 0.2.0) |
 | [Jev Sift](jev-sift.md) | Screen candidate content before reading it into agent context; requires a TypeSafe key, with upstream licensing unspecified. | Node.js · MCP server and agent plugin |
 | [JevScope](jevscope.md) | Edit Jev projects visually, batch JSONL regression cases, and compare definitions locally. | TypeScript · Studio + local API (pnpm) |
 | [Jev Trader](jev-trader.md) | Study Jev market-direction choices, simulated fills, and on-chain order execution through a Bun trading experiment. | TypeScript / Bun · trading reference and dashboard |
