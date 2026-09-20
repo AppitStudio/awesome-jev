@@ -76,6 +76,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-gateway](jev-gateway.md) | Let Jev choose each tool call for Codex, Claude Code, OpenCode, or Gemini through a local LLM gateway. | TypeScript · npm launchers and dashboard |
 | [jev-guard](jev-guard.md) | Risk-score coding-agent tool calls with TypeSafe Jev (deny/ask/allow), flag injection in results, and scan skills across many agents. | Node.js · npm CLI/hooks (`jev-guard` 0.3.1) |
 | [jev-in-codex](jev-in-codex.md) | Rank Codex capabilities, search hits, and output excerpts with TypeSafe Jev via local MCP. | TypeScript · MCP server + Codex plugin (0.1.0) |
+| [jev-issue-radar](jev-issue-radar.md) | Find duplicate/related GitHub issues with TypeSafe Jev evidence choices in a local read-only dashboard. | Node.js · loopback server + static UI (0.1.1) |
 | [jev-layer](jev-layer.md) | Route harness capability choices with receipts/replay; host keeps execution (demo/OpenRouter/TypeSafe). | TypeScript · CLI, MCP and harness installers (`jev-layer` 0.1.0) |
 | [jev-oas-sentinel](jev-oas-sentinel.md) | Compare OpenAPI specs with structural diffs plus TypeSafe Jev semantic contract questions. | Python · CLI (`jev-oas-sentinel`) |
 | [jev-pii-checker](jev-pii-checker.md) | Scan text/files for PII with TypeSafe Jev presence/sensitivity judgments plus regex and segmentation layers. | TypeScript/Bun · CLI (`@coo-quack/jev-pii-checker` 0.3.1) |
