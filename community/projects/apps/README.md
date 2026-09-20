@@ -88,6 +88,16 @@ Explore a local 3D gallery of image and short-video references from a prompt. Je
 
 [Full RefGarden guide](refgarden.md) · [Source](https://github.com/AlbionaHoti/refgarden)
 
+### Transcript Lens
+
+`Open source` · `Free source build` · `BYOK`
+
+Explore YouTube transcripts by meaning with a Turkish UI: TypeSafe Jev classifies caption blocks for kind, value, and signals without rewriting the text.
+
+**Access:** clone the [MIT source](https://github.com/sensahin/transcript-lens) (Node.js 22+) with a Vercel AI Gateway or TypeSafe key for analysis. No app purchase fee; provider usage is separate. Keyless mode still opens/pastes/exports sample text. Live analysis was not tested on the review host.
+
+[Full Transcript Lens guide](transcript-lens.md) · [Source](https://github.com/sensahin/transcript-lens)
+
 ## macOS apps
 
 ### Jev Voice
