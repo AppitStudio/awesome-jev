@@ -131,6 +131,7 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 The [independent model research](community/projects/tools/README.md#independent-model-research) category explores related typed-decision interfaces with other models. Their local inference uses those models, and they do not provide official Jev weights.
 
 - [Advocaat](https://github.com/pithings/advocaat) - TypeScript `ask` client that batches typed Jev choice, score, and yes/no questions about structured data, with optional Vercel AI Gateway support. [Project guide](community/projects/tools/advocaat.md).
+- [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) - Hermes skill that asks TypeSafe Jev for typed Choice/Score/Noul tiebreaks when paths remain plausible. [Project guide](community/projects/tools/ask-jev-skill.md).
 - [bitrate-advisor](https://github.com/affirmitv/bitrate-advisor) - Live-stream encoder settings from telemetry/history using TypeSafe Jev (OpenRouter) inside a deterministic safety envelope. [Project guide](community/projects/tools/bitrate-advisor.md).
 - [Cua jev-use](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use) - Composes a bounded Jev chooser with Cua Driver and an independently verified browser fixture. [Project guide](community/projects/tools/cua-jev-use.md).
 - [doc-router](https://github.com/misbahsy/doc-router) - Routes PDF pages between local text extraction and OCR using optional Jev judgments, with a Rust CLI and Python bindings. [Project guide](community/projects/tools/doc-router.md).
