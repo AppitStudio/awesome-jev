@@ -266,6 +266,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [TypeSafeAI.Net](https://github.com/Hawxy/TypeSafeAI.Net) - Community .NET client with typed questions, dependency injection, and Microsoft.Extensions.AI adapters. [Project guide](community/projects/tools/typesafeai-net.md).
 - [VexJoy Agent](https://github.com/notque/vexjoy-agent) - Agent toolkit for Claude Code/Codex: `/do` routes work to specialist agents/skills; optional `/d` uses TypeSafe Jev to classify and gate intent before dispatch. [Project guide](community/projects/tools/vexjoy-agent.md).
 - [winnow](https://github.com/GhalebDweikat/winnow) - Claude Code context sieve: TypeSafe Jev (or System One adapter) judges tool-result blocks before they enter context; hidden text stays recallable. [Project guide](community/projects/tools/winnow.md).
+- [Yoshi](https://github.com/compozy/yoshi) - Experimental local context-pruning proxy for Claude Code and Codex; TypeSafe Jev (Vercel AI Gateway) judges which history spans to omit. [Project guide](community/projects/tools/yoshi.md).
 
 ## Computer and browser use
 
