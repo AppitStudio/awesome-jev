@@ -88,6 +88,16 @@ Explore a local 3D gallery of image and short-video references from a prompt. Je
 
 [Full RefGarden guide](refgarden.md) · [Source](https://github.com/AlbionaHoti/refgarden)
 
+### JEV Document Classification
+
+`Open source` · `Free source build` · `BYOK`
+
+File a local document folder into configured categories with TypeSafe Jev (Vercel AI Gateway): local extraction, typed category/confidentiality/injection/subject choices, audit preview and undo.
+
+**Access:** clone the [MIT source](https://github.com/Charlyhno-eng/jev-document-classification) (Node.js + npm) with a Vercel AI Gateway key for classification. No app purchase fee; provider usage is separate. Live classification was not tested on the review host.
+
+[Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
+
 ### Transcript Lens
 
 `Open source` · `Free source build` · `BYOK`
