@@ -132,6 +132,16 @@ Drive the Chrome tab you already have open with TypeSafe Jev. Community Manifest
 
 [Full Jev for Chrome guide](jev-for-chrome.md) · [Source](https://github.com/chy4pro/jev-for-chrome)
 
+### PageGrade
+
+`Open source` · `Free source build` · `BYOK`
+
+Grade readable page sections for clarity, writing, and on-page SEO with TypeSafe Jev Score rubrics via the Vercel AI Gateway; inspect an A–E page summary in Chrome's side panel.
+
+**Access:** [build with Bun and load unpacked](https://github.com/kitze/pagegrade#install-locally) (`.output/chrome-mv3`) with a Vercel AI Gateway API key. No app purchase fee; Gateway/Jev usage can incur charges. Source inspected; Chrome install and live grading not tested on the review host.
+
+[Full PageGrade guide](pagegrade.md) · [Source](https://github.com/kitze/pagegrade)
+
 ### Smart Paste
 
 `Open source` · `Free source build` · `BYOK`
