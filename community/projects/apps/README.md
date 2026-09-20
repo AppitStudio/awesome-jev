@@ -8,6 +8,16 @@ Read the [tag guide](../../APP_TAGS.md): **Open source** describes source licens
 
 ## Web apps
 
+### Jev Call Screener
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-host a call-screening backend that classifies caller transcripts with TypeSafe Jev and forwards or rejects under a fail-open Go policy. Twilio adapter included; REST classify works without telephony.
+
+**Access:** clone the [MIT source](https://github.com/SuchintK/jev-call-screener) (Go 1.27.1+) with `TYPESAFE_API_KEY`. No app purchase fee; Twilio/telephony minutes and TypeSafe usage are separate. Live Twilio and live Jev were not tested on the review host.
+
+[Full Jev Call Screener guide](jev-call-screener.md) · [Source](https://github.com/SuchintK/jev-call-screener)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
