@@ -10,14 +10,14 @@ Local web UI and CLI that uses TypeSafe Jev (via OpenRouter) to choose read-only
 | Tags | `Open source` · `Free source build` · `BYOK` |
 | Product homepage | [Product homepage](https://socai-io.github.io/jev-social/) |
 | Pricing and access | No app purchase fee for the MIT source build. Requires Node 20+, installed socai CLI, and an OpenRouter key with Jev access (`OPENROUTER_API_KEY`). Provider usage and any social-platform account rules are separate. Checked **2026-09-20**. |
-| Jev evidence | [`src/classifier.js`](https://github.com/socai-io/jev-social/blob/c06651eba85267fed7ec5edeeb8ad7b84b9c7d81/src/classifier.js) posts Choice questions to OpenRouter `https://openrouter.ai/api/alpha/decisions` (default model `~typesafe/jev-latest`) to pick platform routes and later loop operations. |
-| Disclosure | Independently curated listing; not an upstream submission or endorsement. AI-assisted source review; live browser/social sessions and live Jev calls were not run. |
-| Maintainer | [socai-io](https://github.com/socai-io). Contributor affiliation/commercial relationships were not supplied. |
-| Format | Node.js **jev-social 0.1.0** local HTTP UI (`http://127.0.0.1:8766`) and CLI (`npm start -- search …`). |
-| Platform and availability | Source-built local web app + CLI; loopback-only server. Release stage early (0.1.0). |
+| Jev evidence | [`src/classifier.js`](https://github.com/socai-io/jev-social/blob/f5a36e4ae4c17b5df4992b3a4077c8fba9213111/src/classifier.js) posts Choice questions to OpenRouter `https://openrouter.ai/api/alpha/decisions` (default model `~typesafe/jev-latest`) to pick platform routes and later loop operations. |
+| Disclosure | Independently curated listing; not an endorsement. This factual update was submitted by a Jev Social maintainer with AI assistance. No live browser/social session or live Jev call was run for the update. |
+| Maintainer | [socai-io](https://github.com/socai-io). This correction was submitted by project maintainer [IRONICBo](https://github.com/IRONICBo). |
+| Format | Node.js local HTTP UI (`http://127.0.0.1:8766`) and CLI; package version **0.1.1** at reviewed commit `f5a36e4`, runnable from GitHub with `npx` or from a source checkout. |
+| Platform and availability | Local web app + CLI; loopback-only server. The reviewed `main` commit follows the `v0.1.1` tag and provides GitHub-backed `npx` startup plus a source-checkout path. |
 | Jev's role | Chooses platform route and each next read-only socai operation (search, open profile/post, comments, optional TikTok download, finish). socai owns browser automation; an LLM is not used to invent DOM coordinates or shell. |
 | Requirements | Node ≥ 20; socai CLI; `OPENROUTER_API_KEY`; Chrome for socai. |
-| License | [MIT](https://github.com/socai-io/jev-social/blob/c06651eba85267fed7ec5edeeb8ad7b84b9c7d81/LICENSE). |
+| License | [MIT](https://github.com/socai-io/jev-social/blob/f5a36e4ae4c17b5df4992b3a4077c8fba9213111/LICENSE). |
 
 ## When to use
 
@@ -32,22 +32,21 @@ Use it for bounded, cited social research where Jev picks among concrete CLI ope
 ## Get started
 
 ```sh
-# install socai per upstream, then:
-git clone https://github.com/socai-io/jev-social.git
-cd jev-social
-git checkout c06651eba85267fed7ec5edeeb8ad7b84b9c7d81
-npm install
-cp .env.example .env   # OPENROUTER_API_KEY=…
-npm test               # offline node:test
-# Live (billable + browser): npm start
+# Node.js 20+ required. This contacts OpenRouter to validate the key and
+# stores a key entered at the prompt in ~/.jev-social/config.json.
+# On macOS/Windows it can download and run the official socai installer.
+npx --yes github:socai-io/jev-social onboard
+
+# Live (provider usage may be billable; reuses local Chrome):
+npx --yes github:socai-io/jev-social
 ```
 
-This listing did not start the UI, drive social sites, or call OpenRouter/Jev.
+On Linux, install socai from source, set `SOCAI_BIN`, and use the source-checkout path documented in the [upstream README](https://github.com/socai-io/jev-social/tree/f5a36e4ae4c17b5df4992b3a4077c8fba9213111#run-it). This catalog update did not run onboarding, start the UI, drive social sites, or call OpenRouter/Jev.
 
 ## Examples and demos
 
-- Docs GIF and platform notes under [`docs/`](https://github.com/socai-io/jev-social/tree/c06651eba85267fed7ec5edeeb8ad7b84b9c7d81/docs).
-- CLI examples in the README (`npm start -- search "…" --platform auto --limit 4`).
+- Historical routing-only prototype GIF under [`docs/`](https://github.com/socai-io/jev-social/tree/f5a36e4ae4c17b5df4992b3a4077c8fba9213111/docs); it predates the current per-operation Jev loop.
+- Current operation table, CLI examples, and selectable research prompts in the [README](https://github.com/socai-io/jev-social/tree/f5a36e4ae4c17b5df4992b3a4077c8fba9213111#available-operations) and local UI.
 - Upstream GitHub Actions test workflow badge.
 
 ## Limits and data handling
@@ -56,6 +55,6 @@ Goal text, operation options, and observed result summaries go to OpenRouter→J
 
 ## Review and maintenance
 
-Reviewed on **2026-09-20** at [commit c06651e](https://github.com/socai-io/jev-social/tree/c06651eba85267fed7ec5edeeb8ad7b84b9c7d81): **0.1.0**, MIT. AI-assisted review of README, `classifier.js`, and `package.json`. `npm test` / live runs not executed on the review host.
+Updated on **2026-09-20** against post-tag `main` [commit f5a36e4](https://github.com/socai-io/jev-social/tree/f5a36e4ae4c17b5df4992b3a4077c8fba9213111): package version **0.1.1**, MIT. The maintainer contributor inspected the README, license, `classifier.js`, `package.json`, and release metadata, then ran `npm ci`, `npm run check`, and `npm test` (**53/53 offline tests passed**). These checks cover application control flow; the update did not run the app through `npx`, drive a social site, make a live Jev call, or establish model accuracy or end-to-end speed.
 
 Related: [Jev Ultrafast](../tools/jev-ultrafast.md), [Jev Browser (tontoko)](../tools/jev-browser-tontoko.md).
