@@ -28,6 +28,16 @@ Self-host a call-screening backend that classifies caller transcripts with TypeS
 
 [Full Jev Call Screener guide](jev-call-screener.md) · [Source](https://github.com/SuchintK/jev-call-screener)
 
+### JevEye
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser vision probes report calibrated facts (or abstain); TypeSafe Jev plans what to look for and judges the text fact sheet—never pixels.
+
+**Access:** clone the [MIT source](https://github.com/Adityakhalkar/JevEye) (Node.js 20+) with `TYPESAFE_API_KEY` on the server, or deploy to Vercel with that env var. No app purchase fee; TypeSafe usage is separate. Offline `npm test`: 12 passed; live image judgment not run on the review host.
+
+[Full JevEye guide](jeveye.md) · [Source](https://github.com/Adityakhalkar/JevEye)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
