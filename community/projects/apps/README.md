@@ -152,6 +152,16 @@ Grade readable page sections for clarity, writing, and on-page SEO with TypeSafe
 
 [Full PageGrade guide](pagegrade.md) · [Source](https://github.com/kitze/pagegrade)
 
+### Polymorph
+
+`Open source` · `Free source build` · `BYOK`
+
+Collapse posts that match English rules you wrote; TypeSafe Jev via OpenRouter Decisions is the judge. Matched posts become your images/GIFs or a compact card—Show original restores them.
+
+**Access:** [build with pnpm and load unpacked](https://github.com/moomooskycow/polymorph#load) (`dist/`) with an OpenRouter API key. No app purchase fee; Decisions/Jev usage can incur charges. Not Chrome Web Store listed. Source inspected; Chrome install and live feed judging not tested on the review host.
+
+[Full Polymorph guide](polymorph.md) · [Source](https://github.com/moomooskycow/polymorph)
+
 ### Smart Paste
 
 `Open source` · `Free source build` · `BYOK`
