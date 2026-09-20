@@ -48,4 +48,4 @@ Request state and questions leave the host on live calls. Default model alias `j
 
 Reviewed on **2026-09-20** at [commit 143f5c0](https://github.com/typesafe-sdk-csharp/typesafe-sdk/tree/143f5c043fd32cec5f79433c382d7bdeb143de42) / tag **v1.0.0**: MIT. AI-assisted source review of `TypeSafeClient`, `SystemOne`, options, README, and LICENSE. Review host lacked `dotnet`; upstream **CI & Beta Preview** and **Release GA** workflows succeeded on this SHA. No live TypeSafe calls.
 
-Related: [TypeSafeAI.Net](typesafeai-net.md), [TypeSafe (Swift)](typesafe-swift.md), [typesafe-api (Rust)](typesafe-api-rs.md).
+Related: [TypeSafeAI.Net](typesafeai-net.md), [TypeSafe (Swift)](typesafe-swift.md), [Advocaat](advocaat.md).
