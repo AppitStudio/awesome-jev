@@ -53,7 +53,7 @@ The example commands above were checked against source and documentation. The su
 
 ## Limits and data handling
 
-Semantic mode sends selected passage text and the task to TypeSafe, OpenRouter, or a configured gateway. The default semantic scan scores all eligible passages, while explicit shortlist mode can miss evidence outside its candidates. Local mode is lexical retrieval. Scores and indexes are cached locally. The output token budget does not apply to all JSON metadata. The estimated spend guard is not a provider-enforced billing cap.
+Semantic mode sends the passage text being scored and the task to TypeSafe, OpenRouter, or a configured gateway. The default semantic scan scores all eligible passages, while explicit shortlist mode can miss evidence outside its candidates. Local mode is lexical retrieval. Scores and indexes are cached locally. The output token budget does not apply to all JSON metadata. The estimated spend guard is not a provider-enforced billing cap.
 
 ## Review and maintenance
 
