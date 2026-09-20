@@ -44,7 +44,7 @@ Search across selected sources and explore ranked links with editable filters. J
 
 Run local Instagram, TikTok, and LinkedIn research from a goal. TypeSafe Jev (via OpenRouter) chooses each read-only socai CLI operation; Chrome evidence feeds the next decision and cited reports.
 
-**Access:** clone the [MIT source](https://github.com/socai-io/jev-social) (Node.js 20+), install the socai CLI, and set `OPENROUTER_API_KEY`. Loopback UI at `http://127.0.0.1:8766`. No app purchase fee; OpenRouter/Jev and platform access are separate. Live social browsing was not tested on the review host.
+**Access:** with Node.js 20+, run `npx --yes github:socai-io/jev-social onboard`, then `npx --yes github:socai-io/jev-social`; cloning the [MIT source](https://github.com/socai-io/jev-social) remains an alternative. Onboarding validates the OpenRouter key, stores a key entered at its prompt, and can offer the official socai installer on macOS or Windows; Linux users install socai from source and set `SOCAI_BIN`. A usable Chrome login is required for the selected platform. No app purchase fee; provider and platform access are separate. Live social browsing was not tested on the review host.
 
 [Live site](https://socai-io.github.io/jev-social/) · [Full Jev Social guide](jev-social.md) · [Source](https://github.com/socai-io/jev-social)
 
