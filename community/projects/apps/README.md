@@ -48,6 +48,16 @@ Track how AI answers describe and position your brand. Jev judges brand sentimen
 
 [Full Notra guide](notra.md) · [Source](https://github.com/usenotra/notra)
 
+### RefGarden
+
+`Open source` · `Free source build` · `BYOK`
+
+Explore a local 3D gallery of image and short-video references from a prompt. Jev chooses search phrases and highlights catalog items from titles/descriptions; Met, NASA, Cosmos, and Internet Archive supply media.
+
+**Access:** clone and run the [MIT source](https://github.com/AlbionaHoti/refgarden#run-locally) (Node.js 22+) with a TypeSafe key for local Explore. No app purchase fee; provider usage can incur charges. Hosted preview is keyword-only (no Jev). Offline bun tests: 74 passed on the review host; live Explore not run.
+
+[Full RefGarden guide](refgarden.md) · [Source](https://github.com/AlbionaHoti/refgarden)
+
 ## macOS apps
 
 ### Jev Voice
