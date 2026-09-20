@@ -192,6 +192,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [typesafeai-cli](https://github.com/maddygoround/typesafeai-cli) - Python `typesafe` CLI for TypeSafe Jev ask/decide/screen/verify flows for humans and agents. [Project guide](community/projects/tools/typesafeai-cli.md).
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) - Combines local OCR and Accessibility observations with Jev decisions to operate macOS, with an optional writing model. [Project guide](community/projects/tools/typesafe-computer-use.md).
 - [TypeSafeAI.Net](https://github.com/Hawxy/TypeSafeAI.Net) - Community .NET client with typed questions, dependency injection, and Microsoft.Extensions.AI adapters. [Project guide](community/projects/tools/typesafeai-net.md).
+- [VexJoy Agent](https://github.com/notque/vexjoy-agent) - Agent toolkit for Claude Code/Codex: `/do` routes work to specialist agents/skills; optional `/d` uses TypeSafe Jev to classify and gate intent before dispatch. [Project guide](community/projects/tools/vexjoy-agent.md).
 
 ## Computer and browser use
 
