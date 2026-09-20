@@ -182,6 +182,16 @@ Find sponsor reads on YouTube using Jev judgments over transcript lines or live 
 
 [Full Sponsor Skip guide](sponsor-skip.md) · [Source](https://github.com/trungdq88/youtube-sponsor-detection)
 
+### Tab Bouncer
+
+`Open source` · `Free source build` · `BYOK`
+
+Rate open tabs for a task you type with TypeSafe Jev, then close the ones that do not belong. Distinct from Jev for Chrome (computer-use driver): bulk triage with keep noul + kind choice per tab, batches of up to 120.
+
+**Access:** [load the MIT source as an unpacked Chromium extension](https://github.com/MANISH007700/tab-bouncer#install) and paste a TypeSafe key in options. No app purchase fee; inference usage can incur charges. Offline `node --test`: 7 passed; Chrome install and live TypeSafe calls not tested on the review host.
+
+[Full Tab Bouncer guide](tab-bouncer.md) · [Source](https://github.com/MANISH007700/tab-bouncer)
+
 ### TypeSafe Fun AdBlocker
 
 `Open source` · `Free source build` · `BYOK`
