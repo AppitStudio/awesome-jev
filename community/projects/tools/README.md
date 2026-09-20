@@ -95,6 +95,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Supercov](supercov.md) | Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first. | Rust · CLI via npm, Homebrew, Go or crates.io |
 | [super-jev](super-jev.md) | Run evidence → typed Jev judgments → permitted actions → verified outcomes with local JSONL traces. | TypeScript · harness (Node ≥ 24) |
 | [tax-doc-classifier](tax-doc-classifier.md) | Classify tax PDF page text into IRS form ids and page kinds with TypeSafe Jev Choice over shipped criteria. | TypeScript · library (`tax-doc-classifier`) |
+| [todo-jev](todo-jev.md) | Classify requests into a 3-tier path (local rule / Jev skill / foundation model) with skill profiles and preflight. | Python · Typer CLI (`todo-jev` 0.1.0) |
 | [toolgate](toolgate.md) | Gate Claude Code and MCP tool calls with static rules plus TypeSafe Jev risk judgments and a local audit log. | TypeScript · CLI, Claude Code hook and MCP proxy |
 | [typesafe-agent-gates](typesafe-agent-gates.md) | Gate unattended LangChain/Deep Agents shell commands and triage with TypeSafe Jev middleware. | Python · LangChain middleware |
 | [VexJoy Agent](vexjoy-agent.md) | Route plain-English requests to specialist agents/skills; optional `/d` uses TypeSafe Jev classification and intent gates. | Python · agent toolkit (Claude Code / Codex hooks) |
