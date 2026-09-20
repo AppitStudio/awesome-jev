@@ -8,6 +8,16 @@ Read the [tag guide](../../APP_TAGS.md): **Open source** describes source licens
 
 ## Web apps
 
+### Apparite (jev2ui)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local design-mock lab where TypeSafe Jev chooses information architecture and component anatomy, Gemini writes copy, and code assembles A2UI-inspired mocks painted by a DESIGN.md.
+
+**Access:** clone the [Apache-2.0 source](https://github.com/dglazkov/jev2ui) (Node.js) with `JEV_API_KEY` / TypeSafe credentials and a Gemini key for full mock generation. No app purchase fee; provider usage is separate. Offline `npm run typecheck` and `npm run build` passed on the review host; live mock generation was not run.
+
+[Full Apparite (jev2ui) guide](jev2ui.md) · [Source](https://github.com/dglazkov/jev2ui)
+
 ### Jev Call Screener
 
 `Open source` · `Free source build` · `BYOK`
