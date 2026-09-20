@@ -76,6 +76,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Typed Evals](typed-evals.md) | Evaluate RAG/agent outputs and guard tools with TypeSafe Jev judges and optional calibration. | Python · library/CLI (`typed_evals`) |
 | [Jev Logs](jevlogs.md) | Prioritize logs for deeper analysis alongside your archive. | TypeScript · library, CLI and OpenTelemetry integration |
 | [jevmetrics](jevmetrics.md) | Assess unfamiliar OTel metrics for retention with TypeSafe Jev, then apply deterministic keep/reduce policy. | Go · OpenTelemetry Collector processor (0.1.0-dev alpha) |
+| [jevmory](jevmory.md) | Build quote-backed agent memory with TypeSafe Jev grading and audit MEMORY.md with receipts. | Python · CLI (`jevmory`) + Claude/Codex hooks |
 | [Jev Model Router](jev-model-router.md) | Route Claude Code subagent models and main-conversation reasoning effort using Jev assessments; requires early-access function hooks. | TypeScript · Claude Code mod |
 | [tokengate](jev-model-tokengate.md) | Buffer streamed LLM tokens and gate each window with TypeSafe Jev before the client sees them. | Node.js · OpenAI-compatible proxy (`tokengate` 0.1.0) |
 | [Jev Review](jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
