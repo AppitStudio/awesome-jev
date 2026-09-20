@@ -152,6 +152,16 @@ Review draft X posts, replies, and quote posts with a scorecard inside the compo
 
 [Full Vibe Check guide](vibecheck.md) · [Source](https://github.com/RafalWilinski/vibecheck)
 
+### Xtags
+
+`Open source` · `Free source build` · `BYOK`
+
+Label each X timeline post with intent and thresholded risk signals. Jev answers four typed questions per post; the extension renders tags in the timeline.
+
+**Access:** load the [MIT `extension/` folder unpacked](https://github.com/manifoldor/xtags#安装) (or the Tampermonkey userscript) and paste a TypeSafe key. No app purchase fee; provider usage can incur charges. Independent of X Corp. Source inspected; Chrome install and live labeling not tested.
+
+[Full Xtags guide](xtags.md) · [Source](https://github.com/manifoldor/xtags)
+
 ## Command-line apps
 
 ### Jev Mail Classifier
