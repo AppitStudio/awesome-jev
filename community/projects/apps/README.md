@@ -60,6 +60,16 @@ Talk to your Mac with local whisper.cpp transcription. Jev selects a typed actio
 
 [Full Jev Voice guide](jev-voice.md) · [Source](https://github.com/kevinbadi/jev-voice)
 
+### Live Jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Control Ableton Live from a ⌘⇧Space bar: TypeSafe Jev chooses typed mixer, transport, clip, note, and device actions from short English or Japanese phrases; a Remote Script applies them on localhost.
+
+**Access:** build the [MIT source](https://github.com/okinaaudio/live-jev) on Apple Silicon macOS 14+ with Python 3.13, Xcode CLT, Ableton Live 12, and a TypeSafe key. Early **0.1x** source distribution (no packaged installer). No app purchase fee; provider usage can incur charges. Live Ableton control was not tested on the Linux review host.
+
+[Full Live Jev guide](live-jev.md) · [Source](https://github.com/okinaaudio/live-jev)
+
 ### macbrow
 
 `Open source` · `Free source build` · `BYOK`
