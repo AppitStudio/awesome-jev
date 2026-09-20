@@ -48,6 +48,16 @@ Run local Instagram, TikTok, and LinkedIn research from a goal. TypeSafe Jev (vi
 
 [Live site](https://socai-io.github.io/jev-social/) · [Full Jev Social guide](jev-social.md) · [Source](https://github.com/socai-io/jev-social)
 
+### JevSlop
+
+`Open source` · `Free source build` · `BYOK`
+
+Score note articles for AI-slop writing patterns with TypeSafe Jev (multi-axis Score plus overall Choice). Bring your own TypeSafe key on the hosted Pages app or a source build.
+
+**Access:** open [jevslop.pages.dev](https://jevslop.pages.dev/) or build from the [MIT source](https://github.com/TKY-27/JevSlop). No app purchase fee; TypeSafe inference is separate. Live TypeSafe evaluation was not tested on the review host.
+
+[Try JevSlop](https://jevslop.pages.dev/) · [Full JevSlop guide](jevslop.md) · [Source](https://github.com/TKY-27/JevSlop)
+
 ### Jevmail
 
 `Open source` · `Free source build` · `BYOK`
