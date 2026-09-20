@@ -44,6 +44,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [doc-router](doc-router.md) | Select which PDF pages need OCR using optional Jev judgments, then merge local extraction and provider results. | Rust · library and CLI, Python bindings |
 | [fast-jev-compaction](fast-jev-compaction.md) | Select which old tool calls and results remain in agent context. | TypeScript · library and Claude Code plugin |
 | [Foreman](foreman.md) | Experiment with Jev supervision of Codex workers and inspect steering, retry, and verification decisions. | Python · CLI and supervision runtime |
+| [Hermes Jev Skills](hermes-jev-skills.md) | Add Jev model routing, memory filter, compaction, skill pick, triage, and computer/browser choices to Hermes, Claude Code, and Codex. | Python · skills, `jev` CLI and Hermes plugin |
 | [Jev Logs](jevlogs.md) | Prioritize logs for deeper analysis alongside your archive. | TypeScript · library, CLI and OpenTelemetry integration |
 | [Jev Model Router](jev-model-router.md) | Route Claude Code subagent models and main-conversation reasoning effort using Jev assessments; requires early-access function hooks. | TypeScript · Claude Code mod |
 | [Jev Review](jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
