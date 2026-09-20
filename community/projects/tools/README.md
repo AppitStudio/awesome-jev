@@ -109,6 +109,7 @@ These projects study related typed-decision patterns using other models. They ar
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
 | [Advocaat](advocaat.md) | Batch typed Jev choice, score, and yes/no questions about structured data from TypeScript. | TypeScript · client library and agent skill |
+| [jev-prompt-sentry](jev-prompt-sentry.md) | Reverse-proxy Anthropic Messages through one batched TypeSafe Jev jailbreak/injection/exfil screen (PolyForm Noncommercial). | Python · FastAPI proxy |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
 | [n8n-nodes-typesafe](n8n-nodes-typesafe.md) | Ask TypeSafe Jev noul/choice/score questions about workflow text or JSON inside n8n. | TypeScript · n8n community node |
 | [ruby_decision_model](ruby-decision-model.md) | Ask Noul, Choice, and Score questions from Ruby via Typesafe or OpenRouter. | Ruby · gem (stdlib HTTP) |
