@@ -148,6 +148,16 @@ Explore YouTube transcripts by meaning with a Turkish UI: TypeSafe Jev classifie
 
 [Full Transcript Lens guide](transcript-lens.md) · [Source](https://github.com/sensahin/transcript-lens)
 
+### Watermelon
+
+`Open source` · `Free source build` · `BYOK`
+
+Status-update honesty auditor: TypeSafe Jev judges language while local code parses dates/slippage, then reports whether the health label matches the facts and whether escalation is warranted.
+
+**Access:** public demo at [watermelon.shashwatchavan.com](https://watermelon.shashwatchavan.com) or clone the [MIT source](https://github.com/shashwatc12/watermelon) with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. Offline `npm test`: 22 passed; live TypeSafe calls not run on the review host.
+
+[Full Watermelon guide](watermelon.md) · [Source](https://github.com/shashwatc12/watermelon) · [Product homepage](https://watermelon.shashwatchavan.com)
+
 ## macOS apps
 
 ### Jev Voice
