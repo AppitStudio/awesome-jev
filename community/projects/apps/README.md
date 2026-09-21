@@ -98,6 +98,16 @@ Six local side-by-side TypeSafe Jev demos (router, triage, inbox, slop filter, t
 
 [Full Jev demos guide](jev-demos.md) · [Source](https://github.com/mayank953/Jev)
 
+### Jev Grand Prix
+
+`Open source` · `Free source build` · `BYOK`
+
+Local F1 race where TypeSafe Jev picks racing line and pedals; code steers, brake-by-wires, and plans the next lap from corner history.
+
+**Access:** clone the [MIT source](https://github.com/enoyola/jev-grand-prix) (`uv run server.py`) with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. Offline `server.py` AST parse OK; live race not run on the review host.
+
+[Full Jev Grand Prix guide](jev-grand-prix.md) · [Source](https://github.com/enoyola/jev-grand-prix)
+
 ### JevEye
 
 `Open source` · `Free source build` · `BYOK`
