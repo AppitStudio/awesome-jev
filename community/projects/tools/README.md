@@ -125,6 +125,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-table](jev-table.md) | Add TypeSafe Jev AI columns to CSV/JSONL with confidence, review queue, resume, and dry-run cost preview. | Python · CLI (`jev-table` 0.1.1, Apache-2.0) |
 | [jev-use (shitianfang)](jev-use.md) | Route the no-text steps of a Claude Code, Codex or pi loop to Jev, with an opt-in PreToolUse gate and typed handbacks to the LLM. | TypeScript · MCP server, CLI and agent plugin |
 | [jevc](jevc.md) | Compile agent rules/JSON Schema into TypeSafe Jev programs (typed questions + code reducers) with offline fixture checks. | TypeScript · npm CLI (`jevc` 0.1.0, Apache-2.0) |
+| [jevkit](jevkit.md) | Ask TypeSafe Jev from a Rust CLI and lint question sets offline before spending on inference. | Rust · CLI (`jevkit` 0.3.0, rustc ≥ 1.88) |
 | [jevcache](jevcache.md) | Reuse chat completions when TypeSafe Jev (via OpenRouter) admits paraphrased prompts as same-intent. | TypeScript · OpenAI-compatible proxy CLI (`@kushalicious/jevcache` 0.1.5) |
 | [jeval](jeval.md) | Measure classifier confidence calibration and set cost-optimal human hand-off thresholds (Jev-motivated, provider-neutral). | Python · CLI (`jeval` 0.1.0, Apache-2.0) |
 | [jevals](jevals.md) | Author and run TypeSafe Jev Noul/Choice/Score evaluations locally; compare saved results in a browser workbench. | TypeScript · local server/UI (`jevals` 0.1.1) |
