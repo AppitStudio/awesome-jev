@@ -158,6 +158,16 @@ Local read-only Gmail triage into Needs reply / Updates / Promos / Sales / Spam 
 
 [Full Jevmail guide](jevmail.md) · [Source](https://github.com/fazlerocks/jevmail)
 
+### JevZero
+
+`Open source` · `Free source build` · `BYOK`
+
+Local Gmail inbox helper: TypeSafe Jev classifies category/priority/signals; you review exact proposed labels, then apply with verified receipts and undo. Demo mode works without keys.
+
+**Access:** clone and run the [MIT source](https://github.com/jayozer/jevzero) with `uv run jevzero` (Python ≥ 3.12, Node.js 22+). Needs your TypeSafe key and Google OAuth loopback client for live mail; TypeSafe/Google billed separately. Offline `uv run pytest`: 62 passed on this review; live Gmail/TypeSafe not run.
+
+[Full JevZero guide](jevzero.md) · [Source](https://github.com/jayozer/jevzero)
+
 ### Notra
 
 `Open source` · `Commercial` · `Paid`
