@@ -93,6 +93,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevLint](jevlint.md) | Lint source against plain-English conventions with file-level TypeSafe Jev Noul judgments (magic-strings, descriptive-names). | TypeScript · npm CLI (`@jevlint/cli`) |
 | [jev-codex-router](jev-codex-router.md) | Route each Codex turn's model and thinking depth with Jev via a Codex Router generic provider. | Python · local server and Codex Router integration |
 | [jev-codex-token-saver](jev-codex-token-saver.md) | Gather local workspace/log evidence and let TypeSafe Jev select exact excerpts for Codex (MCP plugin; local fallback). | Node.js · Codex plugin + MCP (`jev-codex-token-saver` 0.3.2) |
+| [jev-compact](jev-compact.md) | Score Codex tool calls with TypeSafe Jev before compaction and re-inject critical outputs the summary dropped. | TypeScript · Codex plugin (`jev-compact` 0.1.0) |
 | [jev-gateway](jev-gateway.md) | Let Jev choose each tool call for Codex, Claude Code, OpenCode, or Gemini through a local LLM gateway. | TypeScript · npm launchers and dashboard |
 | [jev-gates](jev-gates.md) | Compose three-valued TRUE/FALSE/UNKNOWN circuits from TypeSafe Jev judgments plus exact rules (auditable traces). | TypeScript · library/CLI (`jev-gates` 0.1.0) |
 | [jev-harness](jev-harness.md) | Map TypeSafe Jev answers to actions with confidence gates, shadow mode, recipes, and an eval CLI. | TypeScript · npm library/CLI (`jev-harness` 0.1.0) |
