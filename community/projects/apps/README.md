@@ -242,6 +242,16 @@ Browser extension that uses TypeSafe Jev (via OpenRouter Decisions) to classify 
 
 [Full Focus guide](focus.md) · [Source](https://github.com/bramtechs/Focus)
 
+### HookMeter
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension (optional FastAPI / Cloudflare Worker) that scores social-post drafts as you type with TypeSafe Jev—curiosity, emotional arousal, hook pattern, and clickbait risk—then shows a short rewrite hint. Distinct from jevx and Vibe Check for X.
+
+**Access:** [load the MIT source unpacked](https://github.com/ehui1226/hookmeter-jev) (`extension/`) with a TypeSafe or OpenRouter key; optional local server or Cloudflare Worker. No app purchase fee; inference can incur charges. Source inspected; Chrome install and live calls not tested on the review host; bundled engine unit tests were not green without live mocks.
+
+[Full HookMeter guide](hookmeter.md) · [Source](https://github.com/ehui1226/hookmeter-jev)
+
 ### Jev for Chrome
 
 `Open source` · `Free source build` · `BYOK`
