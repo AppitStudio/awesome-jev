@@ -374,6 +374,16 @@ Paste a block of text into supported web form fields with undo. Jev chooses rele
 
 [Full Smart Paste guide](smart-paste.md) · [Source](https://github.com/nomanjack/smart-paste)
 
+### Slop Mop
+
+`Open source` · `Free` · `BYOK`
+
+Judge LinkedIn post writing with TypeSafe Jev (11–12 typed questions), then fold or highlight suspected slop with inspectable scores and local overrides. Not an AI detector. Distinct from JevSlop (note/article scoring).
+
+**Access:** free hosted use via [slopmop.lol](https://slopmop.lol) (no signup; daily check limits on the maintainer's server, default 250/install/UTC day) or [self-host the MIT source](https://github.com/tomfrazier/slopmop) with your own TypeSafe/AI Gateway key. Desktop Chromium / LinkedIn only; load unpacked from a local build. No Chrome Web Store listing verified. Source and offline vitest inspected; Chrome install and live LinkedIn/Jev not tested on the review host.
+
+[Full Slop Mop guide](slop-mop.md) · [Source](https://github.com/tomfrazier/slopmop)
+
 ### Sponsor Skip
 
 `Source unverified` · `Pricing unverified` · `BYOK`
