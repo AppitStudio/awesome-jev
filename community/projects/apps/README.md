@@ -48,6 +48,16 @@ Explore Italian Camera amendments: identical texts grouped in code, TypeSafe Jev
 
 [Full Fotocopiatrice guide](fotocopiatrice.md) · [Source](https://github.com/bnistor4/fotocopiatrice) · [Product homepage](https://fotocopiatrice.vercel.app/)
 
+### Hearth
+
+`Open source` · `Free source build` · `BYOK`
+
+Local multi-marketplace rental search (Craigslist, Facebook Marketplace, Redfin, Zillow): TypeSafe Jev chooses browser actions; the app only reads and shortlists—never messages sellers.
+
+**Access:** clone the [MIT source](https://github.com/Nancy-Chauhan/hearth-jev-rental-search) (Python ≥ 3.12, `uv`, Chrome CDP) with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. Offline `pytest`: 63 passed; live Chrome/marketplace runs not executed. Distinct from browser-use/jev-ultrafast despite a shared package folder name.
+
+[Full Hearth guide](hearth.md) · [Source](https://github.com/Nancy-Chauhan/hearth-jev-rental-search)
+
 ### Hx
 
 `Open source` · `Free source build` · `BYOK`
