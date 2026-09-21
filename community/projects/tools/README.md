@@ -196,6 +196,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [System One Harness](systemone-harness.md) | Drive finite-action environments with TypeSafe Jev (OpenRouter/TypeSafe): one typed decision per step, confidence gates, full traces. | Python · CLI `s1` (`systemone-harness` 0.4.0) |
 | [tax-doc-classifier](tax-doc-classifier.md) | Classify tax PDF page text into IRS form ids and page kinds with TypeSafe Jev Choice over shipped criteria. | TypeScript · library (`tax-doc-classifier`) |
 | [The Jev-enator](the-jev-enator.md) | Claude Code hooks: TypeSafe Jev danger gate, failure notice, and log-only completion check. | Python · stdlib hooks + install scripts |
+| [tink-route](tink-route.md) | Gate Agent Skills with TypeSafe Jev (specialist Noul + Choice), then optionally install via Tink. | Python · CLI (`tink-route` 0.3.1) |
 | [todo-jev](todo-jev.md) | Classify requests into a 3-tier path (local rule / Jev skill / foundation model) with skill profiles and preflight. | Python · Typer CLI (`todo-jev` 0.1.0) |
 | [toolgate](toolgate.md) | Gate Claude Code and MCP tool calls with static rules plus TypeSafe Jev risk judgments and a local audit log. | TypeScript · CLI, Claude Code hook and MCP proxy |
 | [Tripwire](tripwire.md) | Abort bad streaming completions mid-flight using TypeSafe Jev (or an offline heuristic) inside an OpenAI-compatible proxy. | Python · package (`tripwire` 0.1.0) |
