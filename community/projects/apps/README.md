@@ -18,6 +18,16 @@ Local design-mock lab where TypeSafe Jev chooses information architecture and co
 
 [Full Apparite (jev2ui) guide](jev2ui.md) · [Source](https://github.com/dglazkov/jev2ui)
 
+### Call Coach
+
+`Open source` · `Free source build` · `BYOK`
+
+Local live sales-call coach: TypeSafe Jev judges next-best actions and buying stage from transcript turns; UI applies confidence gates (mic or sample call).
+
+**Access:** clone the [MIT source](https://github.com/ZeroGold/call-coach-ai) (Node.js ≥ 18) with `TYPESAFE_API_KEY` and run `node server.mjs` → `http://localhost:3000`. No app purchase fee; TypeSafe usage is separate. Optional Electron overlay not required for the web demo. `node --check server.mjs` clean on the review host; live mic/TypeSafe not run.
+
+[Full Call Coach guide](call-coach-ai.md) · [Source](https://github.com/ZeroGold/call-coach-ai)
+
 ### Clean Code Review
 
 `Open source` · `Free source build` · `BYOK`
