@@ -116,6 +116,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-preflight](jev-preflight.md) | Score eight risk axes on a Claude Code turn diff with one TypeSafe Jev request; optional assist reinspection. | Go · Claude Code plugin (v0.1.0) |
 | [jev-pruner](jev-pruner.md) | Prune eligible Bash stdout with Jev before Claude Code or an opt-in Codex wrapper returns it to the model. | TypeScript · library, Claude Code plugin and Codex wrapper |
 | [jev-router](jev-router.md) | Route Claude Code and Codex turns through Jev model selection and inspect stored routing exchanges. | JavaScript · CLI launchers and HTTP proxies |
+| [JevRouter](jevrouter.md) | Route among models/subagents/skills/MCP/CLIs with TypeSafe Jev Choice plus permissions, risk, confirmation, and receipts. | TypeScript · SDK/CLI/MCP (`jevrouter` 0.1.0) |
 | [jev-rules](jev-rules.md) | Select project rules and codebase-map documents for Claude Code prompts and file changes. | JavaScript · Claude Code plugin |
 | [jev-shell-history](jev-shell-history.md) | Recall zsh history commands with optional acceptance of Jev-ranked inline suggestions; selected history is sent to TypeSafe. | TypeScript / zsh · shell plugin and CLI |
 | [jev-shield](jev-shield.md) | Semantic MCP firewall: screen tool calls/results/descriptions with TypeSafe Jev via Vercel AI Gateway. | Node.js · CLI, MCP wrap, opt-in hooks (`jev-shield` 0.1.0) |
