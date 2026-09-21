@@ -260,6 +260,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jegrep](jegrep.md) | Find code by natural-language intent using TypeSafe Jev (or OpenRouter→Jev) without embeddings. | Rust · CLI (`jegrep`) and release binaries |
 | [jev-corrective-rag](jev-corrective-rag.md) | Corrective RAG with TypeSafe Jev typed gates for triage, chunk grading, and answer verification (LLM only generates). | Python · Streamlit app, CLI and bench |
 | [jev-reranker](jev-reranker.md) | Rerank, filter, or compress JSON search candidates with TypeSafe Jev via a stdin/stdout Rust CLI. | Rust · npm CLI (`jev-reranker` 0.1.1) |
+| [jev-reranker (hotchpotch)](hotchpotch-jev-reranker.md) | Score/filter RAG candidates with TypeSafe Jev in Python (listwise/pointwise/pairwise; PyPI). Distinct from the Rust CLI. | Python · library (`jev-reranker` 0.1.2) |
 | [jev-semgrep](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). | Node.js · CLI (`@uehaj/semgrep`) |
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [JevSQL](jevsql.md) | Add TypeSafe Jev match/pick/rank/bool/choice helpers to SQLite SQL with batching, caches, and review queues. | TypeScript · library and CLI |
