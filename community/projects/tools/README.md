@@ -243,6 +243,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev MCP (Freepik)](freepik-jev-mcp.md) | Go MCP server for typed decide/classify/verify/rerank via OpenRouter or TypeSafe (binary/container). | Go · MCP binary (`jev-mcp` v0.3.0) |
 | [Jev Studio](jev-studio.md) | Experiment with TypeSafe Jev via a `jev` CLI (verify/screen/classify/…) and an MCP server with cookbook tools. | Python · CLI + MCP (`jev-studio` 0.1.0 Alpha) |
 | [TypeSafe MCP](typesafe-mcp.md) | Give agents a general-purpose Jev evaluation tool with raw provider responses. | Go · MCP server and pi extension |
+| [TypeSafe-as-a-Judge](typesafe-as-a-judge.md) | Give Codex/Claude Code bounded TypeSafe Jev route/rank/extract/verify/judge MCP tools (unofficial). | Node.js · MCP plugin + skills (`0.1.0`) |
 | [TypeSafe AI for Agent Zero](a0-typesafe-ai.md) | Ask TypeSafe Jev Choice/Noul/Score from Agent Zero chat with probability cards; bundles the official agent skill. | Python · Agent Zero plugin (`typesafe_ai` 1.0.0) |
 | [Spring AI TypeSafe](spring-ai-typesafe.md) | Call System One from Java/Spring AI (client, JevJudge, guardrail/RAG/tool-search advisors). | Java · Maven (`org.springaicommunity`, 0.1.0) |
 | [TypeSafe Go](typesafe-go.md) | Call System One from Go with explicit auth options and no implicit env reads (Stacklok; unofficial). | Go · module (`github.com/stacklok/typesafe-go`) |
