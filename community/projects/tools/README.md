@@ -105,6 +105,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-shell-history](jev-shell-history.md) | Recall zsh history commands with optional acceptance of Jev-ranked inline suggestions; selected history is sent to TypeSafe. | TypeScript / zsh · shell plugin and CLI |
 | [jev-shield](jev-shield.md) | Semantic MCP firewall: screen tool calls/results/descriptions with TypeSafe Jev via Vercel AI Gateway. | Node.js · CLI, MCP wrap, opt-in hooks (`jev-shield` 0.1.0) |
 | [jev-skill-gate](jev-skill-gate.md) | Score Claude Code skills with TypeSafe Jev and write `skillOverrides` so only relevant skills reach context. | Node.js · CLI (`jev-skill-gate` 0.2.0) |
+| [jev-table](jev-table.md) | Add TypeSafe Jev AI columns to CSV/JSONL with confidence, review queue, resume, and dry-run cost preview. | Python · CLI (`jev-table` 0.1.1, Apache-2.0) |
 | [jev-use (shitianfang)](jev-use.md) | Route the no-text steps of a Claude Code, Codex or pi loop to Jev, with an opt-in PreToolUse gate and typed handbacks to the LLM. | TypeScript · MCP server, CLI and agent plugin |
 | [jevc](jevc.md) | Compile agent rules/JSON Schema into TypeSafe Jev programs (typed questions + code reducers) with offline fixture checks. | TypeScript · npm CLI (`jevc` 0.1.0, Apache-2.0) |
 | [jevcache](jevcache.md) | Reuse chat completions when TypeSafe Jev (via OpenRouter) admits paraphrased prompts as same-intent. | TypeScript · OpenAI-compatible proxy CLI (`@kushalicious/jevcache` 0.1.5) |
