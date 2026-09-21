@@ -220,6 +220,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
 | [jev-prompt-sentry](jev-prompt-sentry.md) | Reverse-proxy Anthropic Messages through one batched TypeSafe Jev jailbreak/injection/exfil screen (PolyForm Noncommercial). | Python · FastAPI proxy |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
+| [Jev Symfony Bundle](jev-symfony-bundle.md) | Wire TypeSafe Jev into Symfony via typed client, validator attributes, Messenger, Workflow guards, and profiler. | PHP · Symfony bundle (Apache-2.0) |
 | [n8n-nodes-typesafe](n8n-nodes-typesafe.md) | Ask TypeSafe Jev noul/choice/score questions about workflow text or JSON inside n8n. | TypeScript · n8n community node |
 | [NeuroLink](neurolink.md) | Call generate/stream across many providers and use TypeSafe Jev `decide` for typed boolean/choice/score judgments. | TypeScript · SDK/CLI (`@juspay/neurolink`) |
 | [nf-jev](nf-jev.md) | Call TypeSafe Jev noul/choice/score from Nextflow pipelines and gate on returned probabilities. | Groovy · Nextflow plugin (`nf-jev` 0.1.0, Apache-2.0) |
