@@ -155,6 +155,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Metis](metis.md) | Triage new GitHub issues with TypeSafe Jev labels and missing-detail comments via a reusable Action/CLI. | Python · GitHub Action + `metis-triage` 0.1.0 |
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
 | [openclaw-typesafe-ai](openclaw-typesafe-ai.md) | Add an optional OpenClaw `typesafe_decide` tool for explicit TypeSafe Jev judgments without lifecycle hooks. | TypeScript · OpenClaw plugin (`openclaw-typesafe-ai` 0.1.3) |
+| [omp-jev-compaction](omp-jev-compaction.md) | Reduce omp tool context with sticky TypeSafe/OpenRouter Jev scores while keeping retained text verbatim. | TypeScript · omp plugin (`omp-jev-compaction` 0.1.0) |
 | [patdown](patdown.md) | Lint a tree against fuzzy markdown rules with a swappable judge; default backend is TypeSafe Jev. | TypeScript · npm CLI (`patdown`) and Effect packages |
 | [pi-follow-through](pi-follow-through.md) | Nudge Pi after agent_settled only when TypeSafe Jev cites unfinished work above a probability threshold. | TypeScript · Pi extension (`pi-follow-through`) |
 | [pi-heed](pi-heed.md) | Enforce evolving conversational constraints on Pi tool calls; TypeSafe Jev classifies policy changes, code owns the ledger. | TypeScript · Pi extension (`pi-heed`) |
