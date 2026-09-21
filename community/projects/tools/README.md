@@ -223,6 +223,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-corrective-rag](jev-corrective-rag.md) | Corrective RAG with TypeSafe Jev typed gates for triage, chunk grading, and answer verification (LLM only generates). | Python · Streamlit app, CLI and bench |
 | [jev-reranker](jev-reranker.md) | Rerank, filter, or compress JSON search candidates with TypeSafe Jev via a stdin/stdout Rust CLI. | Rust · npm CLI (`jev-reranker` 0.1.1) |
 | [jev-semgrep](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). | Node.js · CLI (`@uehaj/semgrep`) |
+| [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [JevSQL](jevsql.md) | Add TypeSafe Jev match/pick/rank/bool/choice helpers to SQLite SQL with batching, caches, and review queues. | TypeScript · library and CLI |
 | [jgrep](jgrep.md) | Filters text, structured records, functions, and diff hunks against plain-English descriptions using Jev Noul judgments. | Python · library and CLI (`jev-grep`) |
 | [jlink](jlink.md) | Links records under a plain-English match rule using Jev Noul pair judgments, with local candidate blocking and match resolution. | Python · library and CLI (`jlink`) |
