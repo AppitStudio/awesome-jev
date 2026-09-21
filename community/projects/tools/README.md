@@ -172,6 +172,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Stanley Code](stanley-code.md) | Review code changes, triage failures, and extend Jev workflows; optional Pi delegation can edit the repository. | TypeScript · source-built CLI and workflow runtime |
 | [Supercov](supercov.md) | Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first. | Rust · CLI via npm, Homebrew, Go or crates.io |
 | [super-jev](super-jev.md) | Run evidence → typed Jev judgments → permitted actions → verified outcomes with local JSONL traces. | TypeScript · harness (Node ≥ 24) |
+| [System One Harness](systemone-harness.md) | Drive finite-action environments with TypeSafe Jev (OpenRouter/TypeSafe): one typed decision per step, confidence gates, full traces. | Python · CLI `s1` (`systemone-harness` 0.4.0) |
 | [tax-doc-classifier](tax-doc-classifier.md) | Classify tax PDF page text into IRS form ids and page kinds with TypeSafe Jev Choice over shipped criteria. | TypeScript · library (`tax-doc-classifier`) |
 | [The Jev-enator](the-jev-enator.md) | Claude Code hooks: TypeSafe Jev danger gate, failure notice, and log-only completion check. | Python · stdlib hooks + install scripts |
 | [todo-jev](todo-jev.md) | Classify requests into a 3-tier path (local rule / Jev skill / foundation model) with skill profiles and preflight. | Python · Typer CLI (`todo-jev` 0.1.0) |
