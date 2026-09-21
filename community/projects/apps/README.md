@@ -38,6 +38,16 @@ Self-host a call-screening backend that classifies caller transcripts with TypeS
 
 [Full Jev Call Screener guide](jev-call-screener.md) · [Source](https://github.com/SuchintK/jev-call-screener)
 
+### Jev demos
+
+`Open source` · `Free source build` · `BYOK`
+
+Six local side-by-side TypeSafe Jev demos (router, triage, inbox, slop filter, title scorer, cost) with Claude/Kimi as interchangeable LLMs; simulated mode works without keys.
+
+**Access:** clone the [MIT source](https://github.com/mayank953/Jev) (Node 22.6+) and `npm start` on localhost:3000. Optional `TYPESAFE_API_KEY` / Anthropic / Moonshot keys. No app purchase fee; provider usage is separate. Offline `npm run typecheck` passed; live UI/providers not run on the review host.
+
+[Full Jev demos guide](jev-demos.md) · [Source](https://github.com/mayank953/Jev)
+
 ### JevEye
 
 `Open source` · `Free source build` · `BYOK`
