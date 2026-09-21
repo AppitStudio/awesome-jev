@@ -139,6 +139,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Metis](metis.md) | Triage new GitHub issues with TypeSafe Jev labels and missing-detail comments via a reusable Action/CLI. | Python · GitHub Action + `metis-triage` 0.1.0 |
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
 | [patdown](patdown.md) | Lint a tree against fuzzy markdown rules with a swappable judge; default backend is TypeSafe Jev. | TypeScript · npm CLI (`patdown`) and Effect packages |
+| [pi-heed](pi-heed.md) | Enforce evolving conversational constraints on Pi tool calls; TypeSafe Jev classifies policy changes, code owns the ledger. | TypeScript · Pi extension (`pi-heed`) |
 | [pi-jev](pi-jev.md) | Add a Jev pre-tool gate, output judge, and jev_ask tool to the Pi coding agent (shadow mode default, fail-open). | TypeScript · Pi extension (npm) |
 | [pi-jev-context](pi-jev-context.md) | Trim long pi tool outputs before they enter context (comparison first; TypeSafe Jev only when needed) with lossless recall. | TypeScript · Pi extension (`pi-jev-context`) |
 | [pi-jev-effort](pi-jev-effort.md) | Set Pi thinking level per prompt from a TypeSafe Jev difficulty score, capped by remaining quota. | TypeScript · Pi extension (`pi-jev-effort` 0.1.0) |
