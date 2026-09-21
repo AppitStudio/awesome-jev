@@ -294,6 +294,16 @@ Drive the Chrome tab you already have open with TypeSafe Jev. Community Manifest
 
 [Full Jev for Chrome guide](jev-for-chrome.md) · [Source](https://github.com/chy4pro/jev-for-chrome)
 
+### Jevfill
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that autofills web forms from unstructured personal notes with TypeSafe Jev field-to-line matching. Distinct from Smart Paste (exact clipboard paste/verify).
+
+**Access:** [build and load unpacked](https://github.com/imohitmayank/jevfill) (`npm run build` → `dist/`) with a TypeSafe API key in options. No app purchase fee; TypeSafe usage can incur charges. Offline vitest: 7 passed; Chrome install and live calls not tested on the review host.
+
+[Full Jevfill guide](jevfill.md) · [Source](https://github.com/imohitmayank/jevfill)
+
 ### jevx
 
 `Open source` · `Free source build` · `BYOK`
