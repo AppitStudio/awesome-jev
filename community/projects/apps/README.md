@@ -240,6 +240,16 @@ Status-update honesty auditor: TypeSafe Jev judges language while local code par
 
 ## macOS apps
 
+### Jaste
+
+`Source unverified` · `Pricing unverified` · `BYOK`
+
+Smart copy/paste beta with clipboard history and an optional Direct Jev mode that selects a saved text value for the focused field.
+
+**Access:** [download the Mac beta](https://jaste.app/) for Apple silicon and macOS 14+. The inspected bundle offers a Direct Jev key setting; that mode requires a TypeSafe key and may incur inference charges. App pricing and hosted access limits are unverified. No public source or license was linked; review covered the homepage and release metadata/strings, without launching the app or testing live matching.
+
+[Full Jaste guide](jaste.md) · [Product and access](https://jaste.app/)
+
 ### Jev Voice
 
 `Open source` · `Free source build` · `BYOK`
