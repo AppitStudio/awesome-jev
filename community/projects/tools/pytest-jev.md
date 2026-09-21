@@ -9,7 +9,7 @@ Pytest plugin for semantic assertions: ask whether text *holds* or *lacks* plain
 | Source | [Source](https://github.com/allebee/pytest-jev) |
 | Maintainer | [allebee](https://github.com/allebee). Independently curated; this entry is not an upstream submission or endorsement. |
 | Format | PyPI package **`pytest-jev` 0.1.0** (pytest11 entry point `jev`). |
-| Requirements | Python ≥ 3.10; depends on `pytest` and `typesafe-sdk`. Live judgments need `TYPESAFE_API_KEY` or `OPENROUTER_API_KEY` (`--jev-provider auto|typesafe|openrouter`). Offline unit tests use a fake Jev. |
+| Requirements | Python ≥ 3.10; depends on `pytest` and `typesafe-sdk`. Live judgments need `TYPESAFE_API_KEY` or `OPENROUTER_API_KEY` (`--jev-provider` auto, typesafe, or openrouter). Offline unit tests use a fake Jev. |
 | License | [MIT](https://github.com/allebee/pytest-jev/blob/aa163e448706477ec69998c1784fa6ccef157e84/LICENSE). TypeSafe/OpenRouter usage billed separately. |
 | Disclosure | AI-assisted catalog review; no affiliation. Listing is not an endorsement. Offline `uv run pytest`: **36 passed**. No live TypeSafe calls here. |
 
