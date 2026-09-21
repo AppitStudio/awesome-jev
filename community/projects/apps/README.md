@@ -98,6 +98,16 @@ Six local side-by-side TypeSafe Jev demos (router, triage, inbox, slop filter, t
 
 [Full Jev demos guide](jev-demos.md) · [Source](https://github.com/mayank953/Jev)
 
+### Jev 2048
+
+`Open source` · `Free` · `BYOK`
+
+Instrumented 2048 web lab: every move is a TypeSafe Jev Choice (no heuristic fallback); probability, confidence, latency, and cost are shown live.
+
+**Access:** try the [hosted demo](https://jev-2048-ultra.vercel.app) (limited free trial) or clone the [MIT source](https://github.com/ARCJ137442/jev-2048) (Node.js ≥ 20, `./start.sh`) with optional BYOK TypeSafe/OpenRouter. No app purchase fee; TypeSafe/OpenRouter usage is separate. Source inspected; live play not run on the review host.
+
+[Try Jev 2048](https://jev-2048-ultra.vercel.app) · [Full Jev 2048 guide](jev-2048.md) · [Source](https://github.com/ARCJ137442/jev-2048)
+
 ### Jev Grand Prix
 
 `Open source` · `Free source build` · `BYOK`
