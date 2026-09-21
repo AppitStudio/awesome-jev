@@ -58,6 +58,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dbt_jev](dbt-jev.md) | Classify SQL values with TypeSafe Jev (or OpenRouter→Jev) from dbt macros on DuckDB/ClickHouse. | Python · dbt package + DuckDB/ClickHouse runtime |
 | [decision-first](decision-first.md) | Spot bounded judgments, try TypeSafe Jev first, and log adopt/decline cases for reuse. | Python · agent skill + stdlib scripts |
 | [doc-router](doc-router.md) | Select which PDF pages need OCR using optional Jev judgments, then merge local extraction and provider results. | Rust · library and CLI, Python bindings |
+| [dsh-jev](dsh-jev.md) | Register `jev_ask` on DeepSeek Harness so agents can send typed noul/choice/score questions to TypeSafe Jev (install from GitHub pin). | TypeScript · DSH plugin (`dsh-jev` 0.1.0) |
 | [demo-expanso-jev](demo-expanso-jev.md) | Run Expanso Edge pipelines that bypass routine lines and ask TypeSafe Jev only on the rest (boards + mock server). | Demo suite · Expanso YAML, Python boards, `just` recipes |
 | [Distill](distill.md) | Route coding-agent model/effort and utility/retention choices with TypeSafe Jev (or OpenRouter decisions) inside a local TUI harness. | Rust · coding agent CLI/TUI (Distill 2.0) |
 | [ExcelPilot](excelpilot.md) | Drive live Excel workbooks with Qwen planning and TypeSafe Jev intent/tool gates (cascade to OpenRouter/offline). | Python · Office.js add-in + FastMCP agent (`excelpilot` 1.0.0) |
