@@ -56,6 +56,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [beam-cli](beam-cli.md) | Local AgentBeam hooks/policy for coding agents; optional TypeSafe Jev Noul/Score action judging (off by default). | TypeScript · npm CLI (`@agent-beam/beam` 0.2.16, AGPL-3.0) |
 | [bitrate-advisor](bitrate-advisor.md) | Choose live-stream encoder bitrate/resolution/next-step with TypeSafe Jev via OpenRouter inside deterministic guardrails. | TypeScript · Deno/Node library (`@affirmi/bitrate-advisor` 0.2.7) |
 | [Canny](canny.md) | Stop Claude Code/Codex “done” claims without ledger evidence; TypeSafe Jev advises, only facts block. | TypeScript · CLI (`canny-warden` 0.1.0), zero runtime deps |
+| [chinese-workflow-decision-bench](chinese-workflow-decision-bench.md) | Benchmark Feishu-style Chinese message triage with frozen Choice/four-Noul tracks and published Jev vs Laya results. | Python · bench harness + adapters |
 | [claude-code-jev](claude-code-jev.md) | Claude Code PreToolUse gate: TypeSafe Jev via OpenRouter Decisions classifies allow/block/ask with fixture benchmarks. | Python · CLI/hook (`jev-auto-mode` 0.1.0) |
 | [clear-head](clear-head.md) | Claude Code Stop hook: TypeSafe Jev checks answer claims against what was read this session. | Python · Stop hook + install scripts |
 | [daf-jev](daf-jev.md) | Build typed Jev questions, gates, batch evaluation, and optional MCP tools in Python. | Python · library/CLI (`daf-jev` 0.3.0) |
@@ -106,6 +107,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Sift](jev-sift.md) | Screen candidate content before reading it into agent context; requires a TypeSafe key, with upstream licensing unspecified. | Node.js · MCP server and agent plugin |
 | [Jev Score](jev-score.md) | Score document revisions against criteria with TypeSafe Jev (OpenRouter Decisions) and keep revision history. | Node.js · CLI + local web UI (`jev-score` 1.0.0) |
 | [JevScope](jevscope.md) | Edit Jev projects visually, batch JSONL regression cases, and compare definitions locally. | TypeScript · Studio + local API (pnpm) |
+| [JevTape](jevtape.md) | Record and replay TypeSafe Jev HTTP decisions from JSON cassettes with contract fingerprint misses. | Java 21 · Maven CLI (`jevtape` 0.5.0) |
 | [Jev Trader](jev-trader.md) | Study Jev market-direction choices, simulated fills, and on-chain order execution through a Bun trading experiment. | TypeScript / Bun · trading reference and dashboard |
 | [jev-lint](jev-lint.md) | Ast-grep selects subjects; TypeSafe Jev Noul scores one-sentence semantic rules (distinct from huntedman/JevLint). | TypeScript · npm CLI (`jev-lint` 0.4.1) |
 | [jev-linter-action](jev-linter-action.md) | Gate CI on yes/no TypeSafe Jev review questions over selected repo files (thresholds in `.jev-lint.json`). | Node.js · GitHub Action (`jev-linter-action` 1.0.0) |
@@ -155,6 +157,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Metis](metis.md) | Triage new GitHub issues with TypeSafe Jev labels and missing-detail comments via a reusable Action/CLI. | Python · GitHub Action + `metis-triage` 0.1.0 |
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
 | [openclaw-typesafe-ai](openclaw-typesafe-ai.md) | Add an optional OpenClaw `typesafe_decide` tool for explicit TypeSafe Jev judgments without lifecycle hooks. | TypeScript · OpenClaw plugin (`openclaw-typesafe-ai` 0.1.3) |
+| [omp-jev-compaction](omp-jev-compaction.md) | Reduce omp tool context with sticky TypeSafe/OpenRouter Jev scores while keeping retained text verbatim. | TypeScript · omp plugin (`omp-jev-compaction` 0.1.0) |
 | [patdown](patdown.md) | Lint a tree against fuzzy markdown rules with a swappable judge; default backend is TypeSafe Jev. | TypeScript · npm CLI (`patdown`) and Effect packages |
 | [pi-follow-through](pi-follow-through.md) | Nudge Pi after agent_settled only when TypeSafe Jev cites unfinished work above a probability threshold. | TypeScript · Pi extension (`pi-follow-through`) |
 | [pi-heed](pi-heed.md) | Enforce evolving conversational constraints on Pi tool calls; TypeSafe Jev classifies policy changes, code owns the ledger. | TypeScript · Pi extension (`pi-heed`) |
@@ -184,6 +187,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [todo-jev](todo-jev.md) | Classify requests into a 3-tier path (local rule / Jev skill / foundation model) with skill profiles and preflight. | Python · Typer CLI (`todo-jev` 0.1.0) |
 | [toolgate](toolgate.md) | Gate Claude Code and MCP tool calls with static rules plus TypeSafe Jev risk judgments and a local audit log. | TypeScript · CLI, Claude Code hook and MCP proxy |
 | [Tripwire](tripwire.md) | Abort bad streaming completions mid-flight using TypeSafe Jev (or an offline heuristic) inside an OpenAI-compatible proxy. | Python · package (`tripwire` 0.1.0) |
+| [triagedy](triagedy.md) | Triage JSONL security alerts with TypeSafe Jev typed questions; route outcomes in ordinary Rust code. | Rust · CLI (`triagedy` 0.1.0) |
 | [typesafe-agent-gates](typesafe-agent-gates.md) | Gate unattended LangChain/Deep Agents shell commands and triage with TypeSafe Jev middleware. | Python · LangChain middleware |
 | [VexJoy Agent](vexjoy-agent.md) | Route plain-English requests to specialist agents/skills; optional `/d` uses TypeSafe Jev classification and intent gates. | Python · agent toolkit (Claude Code / Codex hooks) |
 | [winnow](winnow.md) | Hide confident-irrelevant Claude Code tool-result blocks with TypeSafe Jev (or adapter) judgments; recall stubs on demand. | Python · Claude Code hooks + sidecar CLI (`winnow` 0.5.0) |
