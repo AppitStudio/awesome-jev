@@ -26,6 +26,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Browser (Ying-Kai-Liao)](jev-browser-ying-kai-liao.md) | Run small browser goals with Jev action/target selection and direct inspection; page data and supplied values reach TypeSafe. | JavaScript · Playwright library, CLI and MCP |
 | [Jev Browser Skill](jev-browser-skill.md) | Learn a minimal Jev-driven browser loop as a Claude Code/Codex skill (reference; see Ultrafast for fuller agents). | Agent skill + CDP scripts (`scripts/*.mjs`); explainer site |
 | [JevOnly](jevonly.md) | Drive a browser with pure Jev choices over code-built options—no planner or helper LLM. | Python · CLI, local viewer and Playwright |
+| [jevnav](jevnav.md) | Automate browsers with Jev element choice, JSONL traces, risk gates, and offline CI replay. | Python · CLI/PyPI (`jevnav` 0.1.0, Apache-2.0) |
 | [Jev Ultrafast](jev-ultrafast.md) | Select browser operations and targets from the current page. | Python · browser agent and inspector |
 | [Jev Voice Browser](jev-voice-browser.md) | Study partial speech, target disambiguation, and browser actions with an inspectable decision policy. | JavaScript · Playwright voice-control reference |
 | [Jev-cu](jev-cu.md) | Study experimental Jev decisions over macOS Accessibility text in Codex; review the execution-policy limitations before use. | JavaScript · Codex skill and runtime |
