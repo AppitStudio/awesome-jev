@@ -82,6 +82,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [invalidate](invalidate.md) | Check every stored agent memory against new evidence with TypeSafe Jev; mark superseded facts without rewriting text. | Python · library, CLI and memory adapters |
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [PerfectRecall](perfectrecall.md) | Hermes/Python agent memory: TypeSafe/OpenRouter Jev evidence questions over local SQLite (Mnemosyne-compatible; no embeddings). | Python · Hermes provider + library |
+| [prompt2jev](prompt2jev.md) | Convert natural language, an LLM prompt, or prompt-running code into a TypeSafe Jev decision package. | Python · agent skill + stdlib CLI |
 | [is-malicious](is-malicious.md) | Scan a codebase for deceptive or data-stealing behavior with TypeSafe Jev file/line findings. | TypeScript · npm CLI (`is-malicious` 0.1.0) |
 | [jev-sec-bench](jev-sec-bench.md) | Run or browse blind TypeSafe Jev prompt-injection and vulnerable-code benchmarks (jev-go + results TUI). | Go · CLI/TUI |
 | [J++](jpp.md) | Experimental language/Rust runtime composing Jev questions with exact methods; offline fixtures and Towow demos. | Rust · `jpp-cli` + Python reference |
