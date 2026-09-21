@@ -62,6 +62,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [doc-router](doc-router.md) | Select which PDF pages need OCR using optional Jev judgments, then merge local extraction and provider results. | Rust · library and CLI, Python bindings |
 | [DocJev](docjev.md) | Classify or split PDF/DOCX/PPTX packets with LiteParse text and TypeSafe Jev category/boundary judgments. | Python · CLI/library (`docjev`, Apache-2.0) |
 | [dsh-jev](dsh-jev.md) | Register `jev_ask` on DeepSeek Harness so agents can send typed noul/choice/score questions to TypeSafe Jev (install from GitHub pin). | TypeScript · DSH plugin (`dsh-jev` 0.1.0) |
+| [dsh-jev-verify](dsh-jev-verify.md) | Call TypeSafe Jev choice/score/noul from DSH and run a live labeled verification benchmark (honest, no mock mode). | JavaScript · DSH plugin (`dsh-jev-verify` 0.1.0) |
 | [demo-expanso-jev](demo-expanso-jev.md) | Run Expanso Edge pipelines that bypass routine lines and ask TypeSafe Jev only on the rest (boards + mock server). | Demo suite · Expanso YAML, Python boards, `just` recipes |
 | [Distill](distill.md) | Route coding-agent model/effort and utility/retention choices with TypeSafe Jev (or OpenRouter decisions) inside a local TUI harness. | Rust · coding agent CLI/TUI (Distill 2.0) |
 | [discoprint](discoprint.md) | Classify an artist discography for theme/mood/lyrical complexity with TypeSafe Jev and render an Ink terminal dashboard. | TypeScript · npm CLI (`discoprint` 0.1.0) |
