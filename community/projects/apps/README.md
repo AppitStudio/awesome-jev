@@ -18,6 +18,16 @@ Local design-mock lab where TypeSafe Jev chooses information architecture and co
 
 [Full Apparite (jev2ui) guide](jev2ui.md) · [Source](https://github.com/dglazkov/jev2ui)
 
+### Crush Monitor
+
+`Open source` · `Free source build` · `BYOK`
+
+Local WeChat-style chat analyzer: TypeSafe Jev labels emotion and intent, scores affinity, and rates replies on localhost with your own key.
+
+**Access:** clone the [MIT source](https://github.com/FerryCorleone/crush-monitor) (Node.js 22.12+) with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. Offline `npm test`: 36 passed; live analysis not run on the review host.
+
+[Full Crush Monitor guide](crush-monitor.md) · [Source](https://github.com/FerryCorleone/crush-monitor)
+
 ### Hx
 
 `Open source` · `Free source build` · `BYOK`
