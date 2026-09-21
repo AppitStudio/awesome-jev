@@ -222,6 +222,16 @@ Drive the Chrome tab you already have open with TypeSafe Jev. Community Manifest
 
 [Full Jev for Chrome guide](jev-for-chrome.md) · [Source](https://github.com/chy4pro/jev-for-chrome)
 
+### jevx
+
+`Open source` · `Free source build` · `BYOK`
+
+Find relevant X posts for your interests and optionally score unpublished drafts with TypeSafe Jev. Chrome/Firefox BYOK extension with no backend—local profile/key storage; consented text goes only to TypeSafe.
+
+**Access:** [build and load unpacked](https://github.com/hawkyre/jevx#install) (Chrome MV3 / Firefox temporary) with a TypeSafe API key. No app purchase fee; TypeSafe usage can incur charges. Offline vitest: 87 passed; browser install and live calls not tested on the review host.
+
+[Full jevx guide](jevx.md) · [Source](https://github.com/hawkyre/jevx)
+
 ### PageGrade
 
 `Open source` · `Free source build` · `BYOK`
