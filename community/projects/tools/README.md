@@ -94,6 +94,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JMP](jmp.md) | Local coding workspace: TypeSafe Jev picks the next tool action; DeepSeek/Codex/Bonsai supply arguments; OpenHands/MCP execute. | Python · desktop (pywebview) + CLI (MIT) |
 | [JCR](jcr.md) | Resolve deterministic commands from a nested capability tree with TypeSafe Jev (MCP + Claude/Codex harnesses). | TypeScript · resolver, MCP and harnesses (`jcr` 1.0.0) |
 | [jev-align](jev-align.md) | Build calibrated classifiers/AI Functions from human feedback with TypeSafe Jev + GEPA (`jeva`). | Python · CLI (`jev-align` / `jeva`) |
+| [Jev Atlas](jev-atlas.md) | Map a repo’s semantic decisions, reject weak Jev fits with published gates, then validate/implement survivors from `.jev-atlas/` state. | Agent skill + Claude/Codex plugin (`jev-atlas` 0.2.0) |
 | [jev-calibrate](jev-calibrate.md) | Calibrate Jev questions against labelled examples; per-question gate/ranker/unusable verdicts. | TypeScript · npm CLI (`jev-calibrate` 0.1.11) |
 | [Jev Checkpoint](jev-checkpoint.md) | Ask TypeSafe Jev for an advisory, confidence-gated next-step route over a fixed Choice set (MCP; never executes). | TypeScript · local MCP server (`jev-checkpoint` 0.1.0) |
 | [jev-ci-selector](jev-ci-selector.md) | Select which described CI jobs apply to a PR diff with TypeSafe Jev (shadow or enforce). | Node.js · GitHub Action (`jev-ci-selector` 0.1.0) |
