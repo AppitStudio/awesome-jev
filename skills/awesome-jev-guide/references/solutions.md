@@ -68,6 +68,8 @@ Check the actual revision, runtime, key variable, license, data handling, and fa
 
 For research on local typed-decision models, use the separate [independent model research category](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/tools/README.md#independent-model-research). Their local inference uses other models; separate comparison scripts may call Jev, but these projects do not supply its weights. Check hardware, model and dataset terms, downloads, calibration, and checkpoint trust separately; do not carry official Jev API, accuracy, or performance claims into these recommendations.
 
+For browser-local experiments specifically, [open-jev](https://github.com/AppitStudio/awesome-jev/blob/main/community/projects/tools/open-jev.md) wraps independent Kev and DeBERTa ONNX models with Transformers.js. It requires no TypeSafe key, but initial model/runtime downloads need network access and local memory/compute. It does not run official Jev weights, and its confidence and Noul fields differ from TypeSafe's API. Start with the guide's offline question construction; treat model loading as a separate opt-in and evaluate quality on the intended inputs.
+
 ## When a custom starter fits better
 
 Use official SDKs in the user's stack, and borrow the nearest example's decision structure. For Python, read the [Python SDK](https://docs.typesafe.ai/sdk/python); for JavaScript/TypeScript, read the [JavaScript SDK](https://docs.typesafe.ai/sdk/javascript). For another stack, inspect a suitable community client or the [HTTP API](https://docs.typesafe.ai/api). Do not promise an official SDK where there is none.
