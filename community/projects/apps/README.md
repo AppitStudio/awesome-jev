@@ -38,6 +38,16 @@ Local WeChat-style chat analyzer: TypeSafe Jev labels emotion and intent, scores
 
 [Full Crush Monitor guide](crush-monitor.md) · [Source](https://github.com/FerryCorleone/crush-monitor)
 
+### Fotocopiatrice
+
+`Open source` · `Free source build` · `BYOK`
+
+Explore Italian Camera amendments: identical texts grouped in code, TypeSafe Jev judges attributes and near-duplicate pairs; static site plus reusable exports.
+
+**Access:** open [fotocopiatrice.vercel.app](https://fotocopiatrice.vercel.app/) (committed JSON, no server key) or clone the [MIT source](https://github.com/bnistor4/fotocopiatrice) (Node.js) with `TYPESAFE_API_KEY` only to regenerate the pipeline. No app purchase fee; TypeSafe usage is separate. `tsc --noEmit` clean on the review host; live pipeline not run.
+
+[Full Fotocopiatrice guide](fotocopiatrice.md) · [Source](https://github.com/bnistor4/fotocopiatrice) · [Product homepage](https://fotocopiatrice.vercel.app/)
+
 ### Hx
 
 `Open source` · `Free source build` · `BYOK`
