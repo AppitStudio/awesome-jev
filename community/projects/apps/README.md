@@ -192,6 +192,16 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 ## Browser extensions
 
+### Focus
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser extension that uses TypeSafe Jev (via OpenRouter Decisions) to classify domains as productive or distracting and block distracting navigations, with local allow/block lists and cache.
+
+**Access:** [load the GPL-3.0 source unpacked](https://github.com/bramtechs/Focus#install-chrome--edge--brave) (Chrome/Edge/Brave; Firefox temporary; Safari packaging script) with an OpenRouter API key. No app purchase fee; Decisions/Jev usage can incur charges. Source inspected; browser install and live calls not tested on the review host.
+
+[Full Focus guide](focus.md) · [Source](https://github.com/bramtechs/Focus)
+
 ### Jev for Chrome
 
 `Open source` · `Free source build` · `BYOK`
