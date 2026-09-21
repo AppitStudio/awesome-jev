@@ -18,6 +18,16 @@ Local design-mock lab where TypeSafe Jev chooses information architecture and co
 
 [Full Apparite (jev2ui) guide](jev2ui.md) · [Source](https://github.com/dglazkov/jev2ui)
 
+### Clean Code Review
+
+`Open source` · `Free source build` · `BYOK`
+
+Hosted and source-built PR reviewer: TypeSafe Jev judges changed files against Clean Code questions; Luna writes evidence-first prose; MCP endpoint for agents.
+
+**Access:** try [clean-code-review.vercel.app](https://clean-code-review.vercel.app) (operator budgets) or clone the [MIT source](https://github.com/frostney/clean-code-review) with Bun and provider keys. No app purchase fee; provider usage is separate. Offline `bun test`: 70 passed on the review host; live PR review not run.
+
+[Full Clean Code Review guide](clean-code-review.md) · [Source](https://github.com/frostney/clean-code-review) · [Product homepage](https://clean-code-review.vercel.app)
+
 ### Crush Monitor
 
 `Open source` · `Free source build` · `BYOK`
