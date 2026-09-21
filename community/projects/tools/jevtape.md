@@ -8,7 +8,7 @@ Record / replay / inspect tool for TypeSafe Jev HTTP decisions: a local proxy wr
 | --- | --- |
 | Source | [Source](https://github.com/Hugo-DDT/JevTape) |
 | Maintainer | [Hugo-DDT](https://github.com/Hugo-DDT). Independently curated; this entry is not an upstream submission or endorsement. |
-| Format | Java 21 Maven CLI **`io.jevtape:jevtape` 0.5.0** (`jevtape record|replay|inspect|verify|diff|simulate`). |
+| Format | Java 21 Maven CLI **`io.jevtape:jevtape` 0.5.0** (CLI: record, replay, inspect, verify, diff, simulate). |
 | Requirements | JDK 21+ and Maven to build. Record mode needs a live TypeSafe key and network; replay defaults to offline cassette hits. |
 | License | [Apache-2.0](https://github.com/Hugo-DDT/JevTape/blob/71d8ff42b96e907140dea400bb8bff250c10d7c8/LICENSE). TypeSafe usage billed separately when recording. |
 | Disclosure | AI-assisted catalog review; no affiliation. Listing is not an endorsement. Source + fixtures inspected; `mvn verify` was not run (no JDK in this environment). |
