@@ -134,6 +134,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
 | [patdown](patdown.md) | Lint a tree against fuzzy markdown rules with a swappable judge; default backend is TypeSafe Jev. | TypeScript · npm CLI (`patdown`) and Effect packages |
 | [pi-jev](pi-jev.md) | Add a Jev pre-tool gate, output judge, and jev_ask tool to the Pi coding agent (shadow mode default, fail-open). | TypeScript · Pi extension (npm) |
+| [pi-jev-context](pi-jev-context.md) | Trim long pi tool outputs before they enter context (comparison first; TypeSafe Jev only when needed) with lossless recall. | TypeScript · Pi extension (`pi-jev-context`) |
 | [pi-jev-effort](pi-jev-effort.md) | Set Pi thinking level per prompt from a TypeSafe Jev difficulty score, capped by remaining quota. | TypeScript · Pi extension (`pi-jev-effort` 0.1.0) |
 | [pi-jev-permit](pi-jev-permit.md) | Gate Pi bash/write/edit calls with TypeSafe Jev allow judgments after local hard-deny and read-only fast paths. | TypeScript · Pi extension (`pi-jev-permit` 0.2.0) |
 | [pi-jev-router](pi-jev-router.md) | Route pi tasks across OpenRouter models with TypeSafe Jev classification and local Pareto/role policy (shadow default). | TypeScript · Pi extension (`pi-jev-router` 0.1.0) |
