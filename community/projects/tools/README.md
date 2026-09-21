@@ -143,6 +143,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-shield](jev-shield.md) | Semantic MCP firewall: screen tool calls/results/descriptions with TypeSafe Jev via Vercel AI Gateway. | Node.js · CLI, MCP wrap, opt-in hooks (`jev-shield` 0.1.0) |
 | [JevShield](jevshield.md) | Wrap Python/LangChain tool calls with a TypeSafe Jev dual-factor risk gate and keyless local heuristic fallback. | Python · library/PyPI (`jevshield`, Apache-2.0) |
 | [jev-skill-gate](jev-skill-gate.md) | Score Claude Code skills with TypeSafe Jev and write `skillOverrides` so only relevant skills reach context. | Node.js · CLI (`jev-skill-gate` 0.2.0) |
+| [jev-skill-scout](jev-skill-scout.md) | Audit Claude Code skill misses with TypeSafe Jev; optional live mod suggests a skill without changing the roster. | Node.js ≥ 20 · npm CLI/mod (`jev-skill-scout` 0.1.0) |
 | [jev-table](jev-table.md) | Add TypeSafe Jev AI columns to CSV/JSONL with confidence, review queue, resume, and dry-run cost preview. | Python · CLI (`jev-table` 0.1.1, Apache-2.0) |
 | [jev-test-filter](jev-test-filter.md) | Score repository tests against a git diff with TypeSafe Jev and emit runner-native filter arguments. | TypeScript · npm CLI (`jev-test-filter` 0.1.0; Node ≥ 24) |
 | [jev-toolkit](jev-toolkit.md) | Serve TypeSafe Jev asks/verify/review over MCP plus CLI triage, audit, skill routing, and local impact metrics. | TypeScript · CLI/MCP (`jev`, Effect; Node ≥ 26) |
