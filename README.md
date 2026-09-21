@@ -86,10 +86,11 @@ See the [full onboarding guide](docs/using-the-guide.md) for installation option
 
 These resources are maintained by TypeSafe.
 
-- [Agent skill](https://docs.typesafe.ai/agent-skill) - Give a coding agent the official API context and guidance for designing narrow decision questions.
+- [Agent skill](https://docs.typesafe.ai/agent-skill) - Official docs for giving a coding agent API context and guidance when designing narrow System One / Jev decision questions (Claude Code plugin and skills.sh install paths).
 - [JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js) - JavaScript and TypeScript client that infers answer types from the supplied questions.
 - [Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) - Synchronous and asynchronous clients with typed answers and configurable retries.
 - [System One Adapter](https://github.com/typesafe-ai/system-one-adapter-python) - Run a similar typed-question interface against other LLM providers for comparisons; those responses do not come from Jev.
+- [TypeSafe Agent Skills](https://github.com/typesafe-ai/skills) - Official Claude Code / skills.sh agent skill for designing typed System One / Jev decisions; [docs](https://docs.typesafe.ai/agent-skill).
 
 ## Community projects
 
@@ -155,6 +156,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [Advocaat](https://github.com/pithings/advocaat) - TypeScript `ask` client that batches typed Jev choice, score, and yes/no questions about structured data, with optional Vercel AI Gateway support. [Project guide](community/projects/tools/advocaat.md).
 - [Agent Router](https://github.com/nidhi-singh02/agent-router) - Quota-aware Herdr launcher that uses TypeSafe System One (Jev) to pick Cursor/Claude Code/Codex/OpenCode model and effort after local eligibility rules. [Project guide](community/projects/tools/agent-router.md).
 - [agent-chaperone](https://github.com/agent-chaperone/agent-chaperone) - Calibrated firewall for agent tool calls: MCP proxy plus hooks adapter; TypeSafe Jev screening with shadow mode and a local judgment log. [Project guide](community/projects/tools/agent-chaperone.md).
+- [agent-desktop](https://github.com/lahfir/agent-desktop) - Rust macOS accessibility CLI for desktop computer use; optional jev-desktop skill/scripts use TypeSafe Jev for target/command choice without putting the a11y tree in agent context (BYOK). [Project guide](community/projects/tools/agent-desktop.md).
 - [feelings](https://github.com/BoundaryML/feelings) - BAML `.feels()` / `.how()` / `.matches<T>()` typed AI-if methods powered by TypeSafe Jev; upstream licensing unspecified. [Project guide](community/projects/tools/feelings.md).
 - [jev-feels](https://github.com/Qew7/jev-feels) - Ruby gem for TypeSafe Jev as `feels?` / `decide` / `score` and Rails validations (distinct from BAML feelings and ruby_decision_model). [Project guide](community/projects/tools/jev-feels.md).
 - [jev-foundation-models](https://github.com/peterfriese/jev-foundation-models) - Swift 6 bridge: TypeSafe Jev as an Apple Foundation Models `LanguageModel` for `@Generable` decisions (distinct from TypeSafe Swift client). [Project guide](community/projects/tools/jev-foundation-models.md).
