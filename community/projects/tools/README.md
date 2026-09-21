@@ -170,6 +170,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [The Jev-enator](the-jev-enator.md) | Claude Code hooks: TypeSafe Jev danger gate, failure notice, and log-only completion check. | Python · stdlib hooks + install scripts |
 | [todo-jev](todo-jev.md) | Classify requests into a 3-tier path (local rule / Jev skill / foundation model) with skill profiles and preflight. | Python · Typer CLI (`todo-jev` 0.1.0) |
 | [toolgate](toolgate.md) | Gate Claude Code and MCP tool calls with static rules plus TypeSafe Jev risk judgments and a local audit log. | TypeScript · CLI, Claude Code hook and MCP proxy |
+| [Tripwire](tripwire.md) | Abort bad streaming completions mid-flight using TypeSafe Jev (or an offline heuristic) inside an OpenAI-compatible proxy. | Python · package (`tripwire` 0.1.0) |
 | [typesafe-agent-gates](typesafe-agent-gates.md) | Gate unattended LangChain/Deep Agents shell commands and triage with TypeSafe Jev middleware. | Python · LangChain middleware |
 | [VexJoy Agent](vexjoy-agent.md) | Route plain-English requests to specialist agents/skills; optional `/d` uses TypeSafe Jev classification and intent gates. | Python · agent toolkit (Claude Code / Codex hooks) |
 | [winnow](winnow.md) | Hide confident-irrelevant Claude Code tool-result blocks with TypeSafe Jev (or adapter) judgments; recall stubs on demand. | Python · Claude Code hooks + sidecar CLI (`winnow` 0.5.0) |
