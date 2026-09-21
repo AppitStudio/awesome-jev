@@ -258,7 +258,7 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 Non-invasive Android overlay: Accessibility reads on-screen chat; TypeSafe Jev (OpenRouter Decisions) judges intent/danger/action and ranks drafted replies; fill-only paste (never auto-send). WeChat first.
 
-**Access:** build the [MIT source](https://github.com/Finderchangchang/jev-chat-JARVIS) (JDK 17, Android SDK 35) with an OpenRouter API key plus Accessibility/overlay permissions. No app purchase fee; OpenRouter/Jev usage is separate. Source inspected; APK build and live calls not run on the Linux review host. Distinct from [Crush Monitor](crush-monitor.md) (desktop pasted logs) and [jev-android](../tools/jev-android.md) (UI-agent SDK).
+**Access:** build the [MIT source](https://github.com/Finderchangchang/jev-chat-JARVIS) (JDK 17, Android SDK 35) with an OpenRouter API key plus Accessibility/overlay permissions. No app purchase fee; OpenRouter/Jev usage is separate. Source inspected; APK build and live calls not run on the Linux review host. Distinct from desktop WeChat-log analyzers and the separate Android UI-agent SDK listed under Developer tools.
 
 [Full Jev Chat Assistant guide](jev-chat-jarvis.md) · [Source](https://github.com/Finderchangchang/jev-chat-JARVIS)
 
