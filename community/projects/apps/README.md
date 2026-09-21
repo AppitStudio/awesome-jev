@@ -334,6 +334,16 @@ Drive the Chrome tab you already have open with TypeSafe Jev. Community Manifest
 
 [Full Jev for Chrome guide](jev-for-chrome.md) · [Source](https://github.com/chy4pro/jev-for-chrome)
 
+### Jev × WebMCP
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome side panel that uses TypeSafe Jev to select and populate WebMCP tool calls from keystrokes on the current page; converts page tool schemas into Jev questions and shows confidence/latency, with per-site permissions and confirmation for non-readOnly/consequential tools.
+
+**Access:** [load the Apache-2.0 source unpacked](https://github.com/sdras/jev-webmcp-extension#set-it-up) on Chrome 149+ with WebMCP (origin trial or `chrome://flags/#enable-webmcp-testing`) and a TypeSafe API key in extension settings (`chrome.storage.local`). No app purchase fee; TypeSafe usage can incur charges. Not verified on the Chrome Web Store. Offline `npm test`: 16 passed on the review host; Chrome install and live TypeSafe/WebMCP not tested.
+
+[Full Jev × WebMCP guide](jev-webmcp-extension.md) · [Source](https://github.com/sdras/jev-webmcp-extension)
+
 ### Jevfill
 
 `Open source` · `Free source build` · `BYOK`
