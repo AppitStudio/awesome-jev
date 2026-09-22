@@ -466,6 +466,16 @@ Find sponsor reads on YouTube using Jev judgments over transcript lines or live 
 
 [Full Sponsor Skip guide](sponsor-skip.md) · [Source](https://github.com/trungdq88/youtube-sponsor-detection)
 
+### ScrollPatrol
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that mutes feed posts by meaning: TypeSafe Jev scores each post against your mute rules on LinkedIn, Reddit, Hacker News, and selected short-video surfaces.
+
+**Access:** build and [load the MIT source unpacked](https://github.com/ennsharma/scrollpatrol) (`npm run build`, Chromium) with a TypeSafe API key. No app purchase fee; TypeSafe usage can incur charges. Offline vitest 40 passed after build; Chrome install and live calls not run on the review host.
+
+[Full ScrollPatrol guide](scrollpatrol.md) · [Source](https://github.com/ennsharma/scrollpatrol)
+
 ### Tab Bouncer
 
 `Open source` · `Free source build` · `BYOK`
