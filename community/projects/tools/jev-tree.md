@@ -8,7 +8,7 @@ Recursive TypeSafe Jev Choice over a JSON taxonomy so you can select among more 
 | --- | --- |
 | Source | [Source](https://github.com/reachjalil/jev-tree) |
 | Maintainer | [reachjalil](https://github.com/reachjalil). Independently curated; this entry is not an upstream submission or endorsement. |
-| Format | npm package **`jev-tree` 0.1.0** (library + CLI); explainer at https://reachjalil.github.io/jev-tree/. |
+| Format | npm package **`jev-tree` 0.1.0** (library + CLI); explainer at [reachjalil.github.io/jev-tree](https://reachjalil.github.io/jev-tree/). |
 | Requirements | Node.js ≥ 22; `AI_GATEWAY_API_KEY` for live `typesafe-ai/jev` via Vercel AI Gateway. |
 | License | [MIT](https://github.com/reachjalil/jev-tree/blob/95bff63bd653fee4dc71f33f9431dce0f81e2ca3/LICENSE). |
 | Disclosure | AI-assisted catalog review; no affiliation. Listing is not endorsement. Offline tests inspected; live Gateway/Jev not run on the review host. Same author stack as [Jev Logs](jevlogs.md). |
