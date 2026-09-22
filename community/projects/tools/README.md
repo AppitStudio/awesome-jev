@@ -175,6 +175,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevtriage](jevtriage.md) | Triage PRs with TypeSafe Jev Choice (`ready` / `needs_review` / `risky`) plus confidence-gated exit codes and optional labels. | Python · PyPI/Action (`jevtriage` 0.1.0) |
 | [jev-use (shitianfang)](jev-use.md) | Route the no-text steps of a Claude Code, Codex or pi loop to Jev, with an opt-in PreToolUse gate and typed handbacks to the LLM. | TypeScript · MCP server, CLI and agent plugin |
 | [jevc](jevc.md) | Compile agent rules/JSON Schema into TypeSafe Jev programs (typed questions + code reducers) with offline fixture checks. | TypeScript · npm CLI (`jevc` 0.1.0, Apache-2.0) |
+| [Jevidence](jevidence.md) | Replay typed judgments through an advisory issue-routing policy; compare thresholds and test fallbacks without an API key. | Python 3.10+ · CLI/reference sandbox |
 | [jevkit](jevkit.md) | Ask TypeSafe Jev from a Rust CLI and lint question sets offline before spending on inference. | Rust · CLI (`jevkit` 0.3.0, rustc ≥ 1.88) |
 | [jevcache](jevcache.md) | Reuse chat completions when TypeSafe Jev (via OpenRouter) admits paraphrased prompts as same-intent. | TypeScript · OpenAI-compatible proxy CLI (`@kushalicious/jevcache` 0.1.5) |
 | [jeval](jeval.md) | Measure classifier confidence calibration and set cost-optimal human hand-off thresholds (Jev-motivated, provider-neutral). | Python · CLI (`jeval` 0.1.0, Apache-2.0) |
