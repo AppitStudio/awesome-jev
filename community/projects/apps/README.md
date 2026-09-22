@@ -208,6 +208,16 @@ Run local Instagram, TikTok, and LinkedIn research from a goal. TypeSafe Jev (vi
 
 [Live site](https://socai-io.github.io/jev-social/) · [Full Jev Social guide](jev-social.md) · [Source](https://github.com/socai-io/jev-social)
 
+### Jev Songwriter
+
+`Open source` · `Free` · `BYOK`
+
+Composable song lab: code enumerates legal musical options; TypeSafe Jev picks mode, tempo, form, chords, and notes with replayable demos.
+
+**Access:** try [jev-songwriter.chardonn.ai](https://jev-songwriter.chardonn.ai) (static replays) or clone the [MIT source](https://github.com/beingcognitive/jev-songwriter) (Node ≥ 22.15). Live compose needs `TYPESAFE_API_KEY`; mock works offline. No app purchase fee; TypeSafe usage is separate. Offline `npm test` **32 pass** on the review host; live compose not run.
+
+[Try Jev Songwriter](https://jev-songwriter.chardonn.ai) · [Full Jev Songwriter guide](jev-songwriter.md) · [Source](https://github.com/beingcognitive/jev-songwriter)
+
 ### JevSlop
 
 `Open source` · `Free source build` · `BYOK`
