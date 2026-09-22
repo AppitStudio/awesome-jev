@@ -88,6 +88,16 @@ Twenty-questions style web game: keeps asking until TypeSafe Jev’s calibrated 
 
 [Try Jev Asks Until Sure](https://jev.mintan.org/) · [Full Jev Asks Until Sure guide](jev-asks-until-sure.md) · [Source](https://github.com/mintannn/jev-asks-until-sure)
 
+### Jevatar
+
+`Open source` · `Free source build` · `BYOK`
+
+Local companion that replies only with facial expressions: TypeSafe Jev picks one of 16 moods; blobatar morphs the face (no text replies).
+
+**Access:** clone the [MIT source](https://github.com/AppChainAI/Jevatar) (Bun + Vite) with `TYPESAFE_API_KEY` on the server. No app purchase fee; TypeSafe usage is separate. Offline `bun test` **1 pass** on the review host; live companion session not run.
+
+[Full Jevatar guide](jevatar.md) · [Source](https://github.com/AppChainAI/Jevatar)
+
 ### Jev Call Screener
 
 `Open source` · `Free source build` · `BYOK`
