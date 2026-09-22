@@ -188,6 +188,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-warden](pi-warden.md) | Add configurable action holds, project-rule feedback and context checks to Pi using local policy and Jev judgments. | TypeScript · Pi extension |
 | [Responsible AI Harness](responsible-ai-harness.md) | Assess AI systems with hard rules plus optional TypeSafe Jev judge; checksummed evidence bundles and offline report UI. | TypeScript · assessment harness + static UI (`responsible-ai-harness` 0.1.0) |
 | [riff](riff.md) | Lint prose with ruff-style rule codes; deterministic static rules plus optional TypeSafe Jev judgment rules. | Python · CLI (`riff` / `riff-lint` 0.1.0) |
+| [wellposed](wellposed.md) | Lint TypeSafe Jev requests for broken paths, missing Choice escape hatches, and other structural smells before calling the API. | TypeScript · npm CLI (`wellposed` 0.4.0, zero deps) |
 | [SemDecide](semdecide.md) | Run TypeSafe Jev predicates, routes, scores, and JSONL filters as Unix CLI exit codes for pipelines and CI. | Python · CLI (`semdecide` 0.2.1) |
 | [semantic-assert](semantic-assert.md) | Assert plain-English claims about UI/text state with TypeSafe Jev (Playwright helpers; thresholds in code). | TypeScript · npm packages + Playwright adapter |
 | [Skill Dash](skill-dash.md) | Judge Claude Code/Codex skills with TypeSafe Jev (usefulness/redundancy/clarity/action) in a local dashboard. | Python · stdlib loopback server + SQLite |
