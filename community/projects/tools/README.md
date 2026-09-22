@@ -277,6 +277,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [NeuroLink](neurolink.md) | Call generate/stream across many providers and use TypeSafe Jev `decide` for typed boolean/choice/score judgments. | TypeScript · SDK/CLI (`@juspay/neurolink`) |
 | [nf-jev](nf-jev.md) | Call TypeSafe Jev noul/choice/score from Nextflow pipelines and gate on returned probabilities. | Groovy · Nextflow plugin (`nf-jev` 0.1.0, Apache-2.0) |
 | [ruby_decision_model](ruby-decision-model.md) | Ask Noul, Choice, and Score questions from Ruby via Typesafe or OpenRouter. | Ruby · gem (stdlib HTTP) |
+| [s1 (s1-rs)](s1-rs.md) | Derive Choice/Score/Noul question sets in Rust; optional `typesafe-rs` backend (distinct from typesafe-api). | Rust · workspace crates (`s1` 0.1.0, MSRV 1.85) |
 | [hono-jev-router](hono-jev-router.md) | Route Hono HTTP requests by plain-English meaning with TypeSafe Jev Noul judgments (experimental). | TypeScript · Hono router (`hono-jev-router`) |
 | [hunch](hunch.md) | Call TypeSafe Jev classify/score/check/pick/rank/where over scalars, lists, and pandas columns (`hunch-jev`). | Python · PyPI library (`hunch-jev` 0.6.0) |
 | [jevframe](jevframe.md) | Classify/score pandas and Polars rows with TypeSafe Jev via a `.jev` accessor and full probability columns. | Python · PyPI (`jevframe` 0.1.0; pandas/polars extras) |
