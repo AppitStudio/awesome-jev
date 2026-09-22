@@ -322,6 +322,18 @@ Non-invasive Android overlay: Accessibility reads on-screen chat; TypeSafe Jev (
 
 [Full Jev Chat Assistant guide](jev-chat-jarvis.md) · [Source](https://github.com/Finderchangchang/jev-chat-JARVIS)
 
+## Windows apps
+
+### Jev Chat Windows
+
+`Open source` · `Free source build` · `BYOK`
+
+Windows WeChat (4.x) side panel: local offline OCR reads the chat window; TypeSafe Jev (OpenRouter Decisions) judges intent/emotion and ranks three fill-only reply candidates; send stays manual.
+
+**Access:** download the [MIT Release zip](https://github.com/jev-chat/jev-chat-windows/releases) (`jev-chat-windows.exe`) or run the [source](https://github.com/jev-chat/jev-chat-windows) on Windows with an OpenRouter API key (optional DeepSeek). No app purchase fee; provider usage is separate. Source inspected on Linux; Windows GUI/OCR/live calls not run on the review host. Distinct from the Android Jev Chat Assistant listing.
+
+[Full Jev Chat Windows guide](jev-chat-windows.md) · [Source](https://github.com/jev-chat/jev-chat-windows)
+
 ## Browser extensions
 
 ### Focus
