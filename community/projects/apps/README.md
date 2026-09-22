@@ -308,6 +308,16 @@ Explore YouTube transcripts by meaning with a Turkish UI: TypeSafe Jev classifie
 
 [Full Transcript Lens guide](transcript-lens.md) · [Source](https://github.com/sensahin/transcript-lens)
 
+### Vicaura
+
+`Closed source` · `Pricing unverified`
+
+Hosted product-to-markdown tool: turn a product URL or description into a markdown repo of features, ICP, messaging, and pricing strategy for coding agents. Vendor states the product is powered by Jev.
+
+**Access:** use [vicaura.com](https://vicaura.com). No public pricing page found (checked 2026-09-22); [Terms](https://vicaura.com/terms-privacy) mention guest searches and possible Stripe-billed plans. Closed source — implementation not inspected; Jev evidence is the author's [X post](https://x.com/mmmikhaeel/status/2102105486501822826). Live generate not run. Not an endorsement.
+
+[Full Vicaura guide](vicaura.md) · [Source](https://vicaura.com) · [Product homepage](https://vicaura.com)
+
 ### Watermelon
 
 `Open source` · `Free source build` · `BYOK`

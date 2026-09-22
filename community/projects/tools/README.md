@@ -265,6 +265,7 @@ These projects study related typed-decision patterns using other models. They ar
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [Jev-Omni](jev-omni.md) | Run an open multimodal System One–style classifier (text/image/audio/video → option probabilities) on Gemma 4 12B IT; independent of official Jev. | Python / PyTorch · HF weights (CUDA, ~50 GB FP32) |
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
 | [NanoJev](nanojev.md) | Study independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. | Python / PyTorch · model research and replay |
 | [Open Alternative to Jev](open-alternative-jev.md) | Compare packed and separate typed decisions from open models and fit calibration on labeled data; not a Jev reproduction. | Python · Transformers/vLLM research library |
@@ -317,6 +318,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [TypeSafe (Swift)](typesafe-swift.md) | Call System One Noul/Choice/Score from SwiftPM apps and servers. | Swift · SwiftPM library (`TypeSafe`) |
 | [jev (okooo5km)](okooo5km-jev.md) | Stdlib Python CLI + Agent Skill for TypeSafe Jev yes/pick/score via TypeSafe API or OpenRouter (distinct from typesafe-cli / typesafeai-cli). | Python · CLI 0.3.2 + skill |
 | [jev-cli (tumf)](tumf-jev-cli.md) | Ask TypeSafe Jev noul/choice/score from a PyPI CLI plus bundled stdio MCP (`jev` / `jev-mcp`). | Python · PyPI CLI/MCP (`jev-cli` 0.6.2) |
+| [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
 | [typesafe-cli](typesafe-cli.md) | Ask Jev noul/choice/score questions from the shell (`jev`); answers are numbers, not prose. | TypeScript · npm CLI / Nix |
 | [typesafe-api (Rust)](typesafe-api-rs.md) | Call System One from Rust with typed questions/answers (`typesafe-api` 0.1.0, MSRV 1.88). | Rust · crates.io client |
 | [typesafeai-cli](typesafeai-cli.md) | Run TypeSafe Jev ask/decide/screen/verify flows from a Python `typesafe` CLI for humans or agents. | Python · CLI (`typesafe`) |
