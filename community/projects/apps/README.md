@@ -298,6 +298,16 @@ Explore a local 3D gallery of image and short-video references from a prompt. Je
 
 [Full RefGarden guide](refgarden.md) · [Source](https://github.com/AlbionaHoti/refgarden)
 
+### Refix
+
+`Closed source` · `Paid` · `Commercial`
+
+Hosted growth teammate that investigates product, search, content, and ad signals against a goal, then proposes and runs growth work with a person approving each change.
+
+**Access:** sign up and work a goal at [refix.ai](https://www.refix.ai); review [pricing](https://www.refix.ai/pricing/) (Free launch-week plan, Pro $150/month, Enterprise). An account is required, there is no bring-your-own-key path, and paid plans apply. Closed source — implementation not inspected. Checked 2026-09-23.
+
+[Full Refix guide](refix.md) · [Source](https://www.refix.ai) · [Product homepage](https://www.refix.ai)
+
 ### JEV Document Classification
 
 `Open source` · `Free source build` · `BYOK`
