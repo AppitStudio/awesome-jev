@@ -225,6 +225,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | --- | --- | --- |
 | [jev-drone](jev-drone.md) | Study typed maneuver judgments alongside deterministic simulated flight control and inspect a separate tunnel experiment. | Python / MuJoCo · simulation and replay |
 | [jev-libero](jev-libero.md) | Study fine-grained LIBERO robot actions with TypeSafe Jev layered choices and local physics previews. | Python · CLI and MuJoCo/LIBERO extras |
+| [jev-plays](jev-plays.md) | Watch TypeSafe Jev play Craftax (macro/raw actions) with optional LLM planner-as-facts and a local web UI. | Python · Craftax harness + viewer |
 | [quackd](quackd.md) | Drive multi-robot goals with LLM pilots; optional `--jev` TypeSafe stepper for closed-set verb choices. | Python · CLI (`quackd`) and robot extras |
 | [JevPilot](jevpilot.md) | Inspect sampled driving paths, Jev choices and local braking in a browser simulation; application licensing is unspecified. | JavaScript / Three.js · simulation demo |
 | [JevPokerBench](jev-poker-bench.md) | Compare official Jev and other agents on Texas Hold'em (cash/SNG boards, replay, BYOK tables). | Python/React · FastAPI playground (`pokerbench` 0.1.0) |
