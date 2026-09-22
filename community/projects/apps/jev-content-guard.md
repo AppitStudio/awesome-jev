@@ -10,14 +10,14 @@ A Manifest V3 Chrome extension that filters fraud, advertising, AI slop, spam, c
 | Tags | `Open source` · `Free source build` · `BYOK` |
 | Product homepage | [Project README](https://github.com/serejkaaa512/jev-content-guard-ext) |
 | Pricing and access | No app purchase fee; TypeSafe inference costs are separate. No hosted product; source build only. |
-| Jev evidence | [background.js](https://github.com/serejkaaa512/jev-content-guard-ext/blob/main/background.js) proxies analysis requests to the TypeSafe API (`https://api.typesafe.ai/v1/systemone`) with model `jev-latest`. Seven typed `noul` questions per text block. |
+| Jev evidence | [`background.js`](https://github.com/serejkaaa512/jev-content-guard-ext/blob/b89c99fa1f84f4d672b8d79a4683a7931cfcd9d8/background.js) proxies analysis to `https://api.typesafe.ai/v1/systemone` with model `jev-latest`. Seven typed `noul` questions per text block. |
 | Disclosure | Open source (MIT license). No affiliate relationship. Implementation inspected on Linux review host. |
 | Maintainer | [serejkaaa512](https://github.com/serejkaaa512) — self-submission, no commercial relationship. |
 | Format | Application (browser extension) |
 | Platform and availability | Chrome (Chromium Manifest V3); version 1.3. Source-build link: clone the MIT source. |
 | Jev's role | Classifies DOM text snippets into 7 categories (fraud, advertising, AI-generated, spam, clickbait, infobusiness, toxicity) with probability scores. Lower threshold flags elements; upper limit triggers hard-mode blur overlay, otherwise soft-mode badge. |
 | Requirements | Chrome extension APIs, `chrome.storage.local`, TypeSafe API key (`JEV_API_KEY`). No external JS dependencies beyond Chrome APIs. |
-| License | [MIT](https://github.com/serejkaaa512/jev-content-guard-ext/blob/main/LICENSE) |
+| License | [MIT](https://github.com/serejkaaa512/jev-content-guard-ext/blob/b89c99fa1f84f4d672b8d79a4683a7931cfcd9d8/LICENSE) |
 
 ## When to use
 
@@ -37,14 +37,14 @@ Jev returns calibrated probabilities per category. Text below the lower threshol
 
 ## Get started
 
-1. Clone the [MIT source](https://github.com/serejkaaa512/jev-content-guard-ext) (Node.js / npm).
-2. Obtain a TypeSafe API key (`JEV_API_KEY`).
-3. Build the Chrome extension from source and load it into Chrome.
-4. Set your API key via the popup UI (stored in `chrome.storage.local`).
-5. Configure thresholds via the popup if desired (defaults are safe for general browsing).
-6. Browse any page — the extension scans text automatically.
+1. Clone the [MIT source](https://github.com/serejkaaa512/jev-content-guard-ext) at the reviewed revision below (no Node build step; load unpacked).
+2. Obtain a TypeSafe API key.
+3. Open `chrome://extensions`, enable Developer mode, **Load unpacked**, and select the repo folder.
+4. Set your API key via the popup UI (stored in `chrome.storage.local` as `jevApiKey`).
+5. Optionally configure per-category lower/upper thresholds in the popup.
+6. Browse any page — the content script scans qualifying text blocks automatically.
 
-Expected result: flagged elements display badges or blur overlays. Source build only; no hosted product.
+Expected result: flagged elements display badges or blur overlays. Source build only; no hosted product. Live analysis sends page text to TypeSafe and can incur charges.
 
 ## Examples and demos
 
@@ -62,6 +62,6 @@ No separate hosted demo exists. The extension must be loaded as a Chrome MV3 ext
 
 ## Review and maintenance
 
-Reviewed: 2026-09-22. Upstream commit: version 1.3 of `jev-content-guard-ext`. Source files (`background.js`, `content.js`, `popup.js`, `manifest.json`) inspected on Linux review host. Chrome extension install and live page analysis were not tested.
+Reviewed on **2026-09-22** at [commit b89c99f](https://github.com/serejkaaa512/jev-content-guard-ext/tree/b89c99fa1f84f4d672b8d79a4683a7931cfcd9d8) (manifest version 1.3, MIT). Community PR plus maintainer pass: source files (`background.js`, `content.js`, `popup.js`, `manifest.json`, `LICENSE`) inspected on Linux review host. Chrome extension install and live page analysis were not tested. No live TypeSafe spend.
 
-Related: See other [browser extensions powered by Jev](README.md#browser-extensions).
+Related: See other [browser extensions powered by Jev](README.md#browser-extensions). Distinct from [TypeSafe Fun AdBlocker](typesafe-adblock.md) and [Unclutter](unclutter.md).
