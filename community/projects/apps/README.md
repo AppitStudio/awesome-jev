@@ -48,6 +48,16 @@ Local WeChat-style chat analyzer: TypeSafe Jev labels emotion and intent, scores
 
 [Full Crush Monitor guide](crush-monitor.md) · [Source](https://github.com/FerryCorleone/crush-monitor)
 
+### tg-crush
+
+`Open source` · `Free source build` · `BYOK`
+
+Local real-time Telegram coach: TypeSafe Jev judges partner messages and your drafts (quality + timing) before send on localhost.
+
+**Access:** clone the [MIT source](https://github.com/BrickerP/tg-crush) (Node.js ≥ 22.12) with `TYPESAFE_API_KEY` and Telegram API id/hash. No app purchase fee; TypeSafe usage is separate. Offline `npm run check` clean; live smoke/Telegram not run on the review host.
+
+[Full tg-crush guide](tg-crush.md) · [Source](https://github.com/BrickerP/tg-crush)
+
 ### Fotocopiatrice
 
 `Open source` · `Free source build` · `BYOK`
