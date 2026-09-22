@@ -58,6 +58,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-chaperone](agent-chaperone.md) | Calibrated MCP + hooks firewall: TypeSafe Jev screens tool calls/results with policy thresholds and a shadow log. | TypeScript · npm CLI (`agent-chaperone` 0.3.1, Apache-2.0) |
 | [agent-fastpath](agent-fastpath.md) | MCP decision layer: rules then TypeSafe Jev for ship/risk/triage/browser gates (files stay out of agent context). | TypeScript · npm CLI (`agent-fastpath` 0.2.0) |
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
+| [AlphaOptimizer](alphaoptimizer.md) | Compact large Codex/tool outputs locally and optionally rank chunks with TypeSafe Jev. | Node.js · TypeScript package (`alphaoptimizer` 0.1.0) |
 | [ask-jev-skill](ask-jev-skill.md) | Call TypeSafe Jev as a Hermes typed tiebreaker (Choice/Score/Noul) when multiple paths remain. | Python · Hermes skill + stdlib CLI |
 | [askjev](askjev.md) | Ask TypeSafe Jev via MCP (local or hosted) for calibrated Noul/Choice/Score over agent-held context. | TypeScript · MCP server (`askjev` 0.2.0) |
 | [Auto Mode for Paseo](auto-mode-for-paseo.md) | Paseo plugin: TypeSafe Jev (or local Laya) picks Codex model/effort/mode/speed per turn. | TypeScript · Paseo plugin 0.2.0 |
