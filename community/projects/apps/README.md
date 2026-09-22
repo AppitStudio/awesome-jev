@@ -88,6 +88,16 @@ Self-host a call-screening backend that classifies caller transcripts with TypeS
 
 [Full Jev Call Screener guide](jev-call-screener.md) · [Source](https://github.com/SuchintK/jev-call-screener)
 
+### Jev Chess
+
+`Open source` · `Free` · `BYOK`
+
+One-page web app where TypeSafe Jev plays chess against OpenRouter LLMs, Stockfish, or you—with live move probabilities, clocks, and saved games (hosted key-lending demo available).
+
+**Access:** try [jevchess.xera.ac](https://jevchess.xera.ac) (site-lent keys capped, or BYOK) or clone the [MIT source](https://github.com/choxos/jevchess) (`npm start`, Node ≥ 20.3). No app purchase fee; live games need TypeSafe/OpenRouter keys. Offline `npm test` 12 passed; live games not run on the review host.
+
+[Try Jev Chess](https://jevchess.xera.ac) · [Full Jev Chess guide](jevchess.md) · [Source](https://github.com/choxos/jevchess)
+
 ### Jev Column Race
 
 `Open source` · `Free source build` · `BYOK`
