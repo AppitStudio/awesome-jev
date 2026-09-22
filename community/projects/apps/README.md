@@ -88,6 +88,16 @@ Self-host a call-screening backend that classifies caller transcripts with TypeS
 
 [Full Jev Call Screener guide](jev-call-screener.md) · [Source](https://github.com/SuchintK/jev-call-screener)
 
+### Jev Column Race
+
+`Open source` · `Free source build` · `BYOK`
+
+Race UI that labels 1,000 withheld-star app reviews: TypeSafe Jev typed questions versus a Gemini JSON lane, with free replay of recorded runs.
+
+**Access:** try the [hosted demo](https://jev-column-race.vercel.app) (BYOK live or free replay) or clone the [MIT source](https://github.com/goodrahstar/jev-column-race) (`node server.mjs`, Node ≥ 20). No app purchase fee; live races need TypeSafe and Gemini keys. Offline verify-data/replay/byok OK; live races not run on the review host.
+
+[Try Jev Column Race](https://jev-column-race.vercel.app) · [Full Jev Column Race guide](jev-column-race.md) · [Source](https://github.com/goodrahstar/jev-column-race)
+
 ### Jev demos
 
 `Open source` · `Free source build` · `BYOK`
