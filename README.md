@@ -159,6 +159,7 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 - [Vibe Check for X](https://github.com/RafalWilinski/vibecheck) - `Source unverified` · `Pricing unverified` · `BYOK`. Chrome extension that uses Jev to score draft X posts and display a verdict, with optional OpenAI media descriptions. [Project guide](community/projects/apps/vibecheck.md).
 - [Watermelon](https://github.com/shashwatc12/watermelon) - `Open source` · `Free source build` · `BYOK`. Status-update honesty auditor: TypeSafe Jev judges language while code parses slip signals; live demo available. [Try app](https://watermelon.shashwatchavan.com) · [Project guide](community/projects/apps/watermelon.md).
 - [Xtags](https://github.com/manifoldor/xtags) - `Open source` · `Free source build` · `BYOK`. Chrome extension/userscript that tags X posts with TypeSafe Jev intent and risk signals for personal local browsing. [Project guide](community/projects/apps/xtags.md).
+- [Jev Content Guard](https://github.com/serejkaaa512/jev-content-guard-ext) - `Open source` · `Free source build` · `BYOK`. Chrome extension that scans web pages for fraud, advertising, AI slop, spam, clickbait, infobusiness, and toxicity using TypeSafe Jev with configurable two-tier thresholds. [Project guide](community/projects/apps/jev-content-guard.md).
 
 ### Developer projects and integrations
 
