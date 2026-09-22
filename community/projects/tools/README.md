@@ -221,6 +221,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevPokerBench](jev-poker-bench.md) | Compare official Jev and other agents on Texas Hold'em (cash/SNG boards, replay, BYOK tables). | Python/React · FastAPI playground (`pokerbench` 0.1.0) |
 | [TypeSafe Mario](typesafe-mario.md) | Study Jev action choices over emulator telemetry with a synthetic state demo and decision logs; licensing is unspecified. | Python · emulator controller and dashboard |
 | [Jev Lab](jev-lab.md) | Run Hundred NPC-town and Jev Shogi labs where Jev picks the next legal action (Rules mode offline). | TypeScript · pnpm monorepo (`jev-lab` 0.2.0) |
+| [jev-zork](jev-zork.md) | Watch TypeSafe Jev play Zork I (Choice over Jericho actions) with anti-loop policy and a French replay dashboard. | Python · CLI (`jev-zork` 0.1.0) + replay UI |
 
 ## Home automation
 
