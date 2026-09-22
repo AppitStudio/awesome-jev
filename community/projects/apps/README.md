@@ -128,6 +128,16 @@ Browser vision probes report calibrated facts (or abstain); TypeSafe Jev plans w
 
 [Full JevEye guide](jeveye.md) · [Source](https://github.com/Adityakhalkar/JevEye)
 
+### Jevflix
+
+`Open source` · `Free source build` · `BYOK`
+
+Hybrid movie recommender: FAISS + BM25 shortlist ~4,800 films, then TypeSafe Jev parses constraints and picks one title with a confidence gate.
+
+**Access:** clone the [MIT source](https://github.com/ArielBubis/Jevflix) and run Streamlit (`app.py`) with `TYPESAFE_API_KEY` (optional Anthropic/template generator). No app purchase fee; TypeSafe usage is separate. Offline lightweight pytest: 12 passed / 26 skipped; live recommend not run on the review host.
+
+[Full Jevflix guide](jevflix.md) · [Source](https://github.com/ArielBubis/Jevflix)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
