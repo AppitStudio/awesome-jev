@@ -96,6 +96,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Grok Bot Jev](grok-bot-jev.md) | Gate Grok Bot research/browser/retry/subagent work with TypeSafe Jev actions (shadow or active skill mode). | Python · router, skill template and dry-run CLI |
 | [Hermes Jev Skills](hermes-jev-skills.md) | Add Jev model routing, memory filter, compaction, skill pick, triage, and computer/browser choices to Hermes, Claude Code, and Codex. | Python · skills, `jev` CLI and Hermes plugin |
 | [hermes-jev-curator](hermes-jev-curator.md) | Typed Jev skill-relationship judgments and safe archive/guard plans for Hermes Agent’s background skill curator. | Python · Hermes plugin (experimental 0.1.0) |
+| [hookgate](hookgate.md) | Gate Claude Code/Codex shell and Stop hooks with TypeSafe Jev (audit mode, fail-open). | Node.js ≥ 18 · CLI/plugin (`hookgate` 0.0.2) |
 | [invalidate](invalidate.md) | Check every stored agent memory against new evidence with TypeSafe Jev; mark superseded facts without rewriting text. | Python · library, CLI and memory adapters |
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [PerfectRecall](perfectrecall.md) | Hermes/Python agent memory: TypeSafe/OpenRouter Jev evidence questions over local SQLite (Mnemosyne-compatible; no embeddings). | Python · Hermes provider + library |
@@ -248,6 +249,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [TypeSafe Mario](typesafe-mario.md) | Study Jev action choices over emulator telemetry with a synthetic state demo and decision logs; licensing is unspecified. | Python · emulator controller and dashboard |
 | [Jev Lab](jev-lab.md) | Run Hundred NPC-town and Jev Shogi labs where Jev picks the next legal action (Rules mode offline). | TypeScript · pnpm monorepo (`jev-lab` 0.2.0) |
 | [jev-zork](jev-zork.md) | Watch TypeSafe Jev play Zork I (Choice over Jericho actions) with anti-loop policy and a French replay dashboard. | Python · CLI (`jev-zork` 0.1.0) + replay UI |
+| [system-one-chess](system-one-chess.md) | Play chess against TypeSafe Jev (Gateway/OpenRouter) with Stockfish analysis; optional local Laya. | Python ≥ 3.11 · web/Docker (`system-one-chess` 0.5.0, GPL-3.0) |
 
 ## Home automation
 
