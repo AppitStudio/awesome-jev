@@ -37,7 +37,7 @@ Live hooks send task text to TypeSafe and can incur charges. This listing did no
 ## Examples and demos
 
 - Offline on the review host: `python3 -m pytest -q` → **27 passed**.
-- Docs/demo site: https://wellkilo.github.io/codex-jev-preflight/
+- Docs/demo site: [wellkilo.github.io/codex-jev-preflight](https://wellkilo.github.io/codex-jev-preflight/)
 
 ## Limits and data handling
 
