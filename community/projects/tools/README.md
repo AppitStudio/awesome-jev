@@ -77,6 +77,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dsh-jev-prune](dsh-jev-prune.md) | Replace DSH size-only pruning and model summaries with TypeSafe Jev keep/drop judgments plus deterministic receipts. | JavaScript · DSH plugin (`dsh-jev-prune` 0.1.0) |
 | [dsh-jev-verify](dsh-jev-verify.md) | Call TypeSafe Jev choice/score/noul from DSH and run a live labeled verification benchmark (honest, no mock mode). | JavaScript · DSH plugin (`dsh-jev-verify` 0.1.0) |
 | [demo-expanso-jev](demo-expanso-jev.md) | Run Expanso Edge pipelines that bypass routine lines and ask TypeSafe Jev only on the rest (boards + mock server). | Demo suite · Expanso YAML, Python boards, `just` recipes |
+| [deslop](deslop.md) | Score page bodies with TypeSafe Jev probabilities for ad/slop/seo/derivative (caller sets thresholds). | Python · agent skill + stdlib CLI |
 | [Discern](discern.md) | Build Effect Decision/DecisionModel patterns, policies, and procedures; optional TypeSafe Jev provider. | TypeScript · npm (`@doeixd/discern` 0.4.0) |
 | [Distill](distill.md) | Route coding-agent model/effort and utility/retention choices with TypeSafe Jev (or OpenRouter decisions) inside a local TUI harness. | Rust · coding agent CLI/TUI (Distill 2.0) |
 | [discoprint](discoprint.md) | Classify an artist discography for theme/mood/lyrical complexity with TypeSafe Jev and render an Ink terminal dashboard. | TypeScript · npm CLI (`discoprint` 0.1.0) |
