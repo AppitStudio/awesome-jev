@@ -58,6 +58,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-chaperone](agent-chaperone.md) | Calibrated MCP + hooks firewall: TypeSafe Jev screens tool calls/results with policy thresholds and a shadow log. | TypeScript · npm CLI (`agent-chaperone` 0.3.1, Apache-2.0) |
 | [agent-fastpath](agent-fastpath.md) | MCP decision layer: rules then TypeSafe Jev for ship/risk/triage/browser gates (files stay out of agent context). | TypeScript · npm CLI (`agent-fastpath` 0.2.0) |
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
+| [AlphaOptimizer](alphaoptimizer.md) | Compact large Codex/tool outputs locally and optionally rank chunks with TypeSafe Jev. | Node.js · TypeScript package (`alphaoptimizer` 0.1.0) |
 | [ask-jev-skill](ask-jev-skill.md) | Call TypeSafe Jev as a Hermes typed tiebreaker (Choice/Score/Noul) when multiple paths remain. | Python · Hermes skill + stdlib CLI |
 | [askjev](askjev.md) | Ask TypeSafe Jev via MCP (local or hosted) for calibrated Noul/Choice/Score over agent-held context. | TypeScript · MCP server (`askjev` 0.2.0) |
 | [Auto Mode for Paseo](auto-mode-for-paseo.md) | Paseo plugin: TypeSafe Jev (or local Laya) picks Codex model/effort/mode/speed per turn. | TypeScript · Paseo plugin 0.2.0 |
@@ -276,6 +277,7 @@ These projects study related typed-decision patterns using other models. They ar
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [adk-go-typesafe](adk-go-typesafe.md) | Call System One from Go and Google ADK-Go with OpenAPI-generated types (Choice/Score/Noul). | Go · module + ADK tool (`adk-go-typesafe`) |
 | [Advocaat](advocaat.md) | Batch typed Jev choice, score, and yes/no questions about structured data from TypeScript. | TypeScript · client library and agent skill |
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
 | [Jev Classification for n8n](jev-classification-n8n.md) | Route workflow items with typed Jev decisions, configurable review handling, and multi-item batching. | TypeScript · self-hosted n8n community node |
@@ -300,9 +302,11 @@ These projects study related typed-decision patterns using other models. They ar
 | [scala-jev-sdk](scala-jev-sdk.md) | Call System One from Scala 3.3 LTS with typed Question/answer lookup over an sttp 4 backend (Maven Central). | Scala 3 · Maven (`io.github.ticofab:scala-jev-sdk_3` 0.1.0, Apache-2.0) |
 | [jevonian](jevonian.md) | Local OpenAI/Anthropic/Responses proxy: one Jev call picks the model and the thinking level after code has filtered candidates; pinned models skip Jev. | Node.js ≥ 22 · CLI and local server (`jevonian` 0.0.1, AGPL-3.0-only) |
 | [jev4k](jev4k.md) | Declare TypeSafe Jev Noul/Choice/Score questions in a Kotlin DSL and read typed answers. | Kotlin · Maven (`com.pambrose:jev4k` 0.1.0) |
+| [JevClient.jl](jevclient-jl.md) | Call System One from Julia with Noul/Choice/Score sets and endpoint policy locks to api.typesafe.ai. | Julia · package (`JevClient` 0.1.0) |
 | [jevgo](jevgo.md) | Call TypeSafe System One from Go with typed Noul/Choice/Score (unofficial stdlib client). | Go · module (`github.com/devbackend/jevgo`) |
 | [jev-recipes](jev-recipes.md) | 66 TypeScript recipes for TypeSafe Jev decisions (rerank/verify/clarify/route/…) via `@typesafe-ai/sdk`. | TypeScript · npm (`jev-recipes` 0.2.0) |
 | [jev-mcp](jev-mcp.md) | Give agents ten purpose-built TypeSafe Jev judgment MCP tools (verify, screen, find, classify, review, gate, …). | TypeScript · npm MCP server (`@jkudish/jev-mcp`) |
+| [Jevs](jevs.md) | Call TypeSafe Jev classify/score/check/batch from Bun MCP / Codex plugin via the official JS SDK. | TypeScript · Bun MCP / Codex plugin (`jevs` 0.1.0) |
 | [Jev MCP (Freepik)](freepik-jev-mcp.md) | Go MCP server for typed decide/classify/verify/rerank via OpenRouter or TypeSafe (binary/container). | Go · MCP binary (`jev-mcp` v0.3.0) |
 | [Jev Studio](jev-studio.md) | Experiment with TypeSafe Jev via a `jev` CLI (verify/screen/classify/…) and an MCP server with cookbook tools. | Python · CLI + MCP (`jev-studio` 0.1.0 Alpha) |
 | [TypeSafe MCP](typesafe-mcp.md) | Give agents a general-purpose Jev evaluation tool with raw provider responses. | Go · MCP server and pi extension |
