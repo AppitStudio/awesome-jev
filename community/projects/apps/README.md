@@ -228,6 +228,16 @@ Composable song lab: code enumerates legal musical options; TypeSafe Jev picks m
 
 [Try Jev Songwriter](https://jev-songwriter.chardonn.ai) · [Full Jev Songwriter guide](jev-songwriter.md) · [Source](https://github.com/beingcognitive/jev-songwriter)
 
+### Jev Trip
+
+`Open source` · `Free source build` · `BYOK`
+
+Explainable day-trip planner: LLM drafts; TypeSafe Jev screens/compares/reviews; controller owns routes, timing, and validation (offline replay demo).
+
+**Access:** run the [MIT Next.js source](https://github.com/liaoyuhua/jev-trip) locally. Replay needs no keys; live mode needs TypeSafe, LLM, and Amap keys. No app purchase fee; provider/map usage is separate. Offline vitest 35 passed + typecheck on review host; live planning not run.
+
+[Full Jev Trip guide](jev-trip.md) · [Source](https://github.com/liaoyuhua/jev-trip)
+
 ### JevSlop
 
 `Open source` · `Free source build` · `BYOK`
