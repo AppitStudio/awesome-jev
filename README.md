@@ -168,6 +168,7 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 
 The [independent model research](community/projects/tools/README.md#independent-model-research) category explores related typed-decision interfaces with other models. Their local inference uses those models, and they do not provide official Jev weights.
 
+- [adk-go-typesafe](https://github.com/craigh33/adk-go-typesafe) - TypeSafe System One Go client and Google ADK-Go function tool (OpenAPI-generated types; Apache-2.0). [Project guide](community/projects/tools/adk-go-typesafe.md).
 - [Advocaat](https://github.com/pithings/advocaat) - TypeScript `ask` client that batches typed Jev choice, score, and yes/no questions about structured data, with optional Vercel AI Gateway support. [Project guide](community/projects/tools/advocaat.md).
 - [Agent Router](https://github.com/nidhi-singh02/agent-router) - Quota-aware Herdr launcher that uses TypeSafe System One (Jev) to pick Cursor/Claude Code/Codex/OpenCode model and effort after local eligibility rules. [Project guide](community/projects/tools/agent-router.md).
 - [agent-chaperone](https://github.com/agent-chaperone/agent-chaperone) - Calibrated firewall for agent tool calls: MCP proxy plus hooks adapter; TypeSafe Jev screening with shadow mode and a local judgment log. [Project guide](community/projects/tools/agent-chaperone.md).
