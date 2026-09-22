@@ -24,6 +24,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-desktop](agent-desktop.md) | Drive macOS apps via accessibility refs; optional jev-desktop skill/scripts ask TypeSafe Jev for target/command without putting the a11y tree in agent context (CLI works without Jev). | Rust · CLI/npm (`agent-desktop` 0.9.2) + Node jev scripts |
 | [Cua jev-use](cua-jev-use.md) | Compose a bounded chooser with Driver and independent fixture verification. | Python / TypeScript · integration recipe |
 | [Footwork](footwork.md) | Dual-process browser agent: TypeSafe Jev as System 1 in front of browser-use System 2, with a code-owned arbiter and evidence verification. | Python/Rust · package (`jevdual` 0.0.1) |
+| [gpui-agent](gpui-agent.md) | Drive instrumented GPUI apps via accessibility: TypeSafe Jev chooses typed actions/targets (no screenshots to the model). | Rust/Python/TypeScript · experimental native toolkit |
 | [Jev Browser (tontoko)](jev-browser-tontoko.md) | Fill forms, extract records with evidence, and add semantic selection to Playwright tests. | TypeScript · SDK, CLI and MCP |
 | [Jev Browser (Ying-Kai-Liao)](jev-browser-ying-kai-liao.md) | Run small browser goals with Jev action/target selection and direct inspection; page data and supplied values reach TypeSafe. | JavaScript · Playwright library, CLI and MCP |
 | [Jev Browser Skill](jev-browser-skill.md) | Learn a minimal Jev-driven browser loop as a Claude Code/Codex skill (reference; see Ultrafast for fuller agents). | Agent skill + CDP scripts (`scripts/*.mjs`); explainer site |
@@ -167,6 +168,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevShield](jevshield.md) | Wrap Python/LangChain tool calls with a TypeSafe Jev dual-factor risk gate and keyless local heuristic fallback. | Python · library/PyPI (`jevshield`, Apache-2.0) |
 | [jev-skill-gate](jev-skill-gate.md) | Score Claude Code skills with TypeSafe Jev and write `skillOverrides` so only relevant skills reach context. | Node.js · CLI (`jev-skill-gate` 0.2.0) |
 | [jev-skill-scout](jev-skill-scout.md) | Audit Claude Code skill misses with TypeSafe Jev; optional live mod suggests a skill without changing the roster. | Node.js ≥ 20 · npm CLI/mod (`jev-skill-scout` 0.1.0) |
+| [jev-skill-router-bench](jev-skill-router-bench.md) | Independent reproducible scorecard of a Jev skill router on an 84-skill Hermes roster (81 labelled turns). | Python · bench artifacts + scripts |
 | [jev-switchboard](jev-switchboard.md) | Gate cross-agent messages with TypeSafe Jev: interrupt vs drop plus selected evidence injection. | Node.js ≥ 20 · CLI/hooks (`jev-switchboard` 0.1.0) |
 | [jev-table](jev-table.md) | Add TypeSafe Jev AI columns to CSV/JSONL with confidence, review queue, resume, and dry-run cost preview. | Python · CLI (`jev-table` 0.1.1, Apache-2.0) |
 | [jev-test-filter](jev-test-filter.md) | Score repository tests against a git diff with TypeSafe Jev and emit runner-native filter arguments. | TypeScript · npm CLI (`jev-test-filter` 0.1.0; Node ≥ 24) |
