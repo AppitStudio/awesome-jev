@@ -412,6 +412,16 @@ Non-invasive Android overlay: Accessibility reads on-screen chat; TypeSafe Jev (
 
 [Full Jev Chat Assistant guide](jev-chat-jarvis.md) · [Source](https://github.com/Finderchangchang/jev-chat-JARVIS)
 
+### JevIntent
+
+`Open source` · `Free source build` · `BYOK`
+
+FkWeChat/LSPosed WeChat plugin: long-press a message for TypeSafe Jev intent/emotion/urgency/stance overlays—no reply text, no send.
+
+**Access:** copy the [MIT plugin files](https://github.com/Nisaka520/JevIntent) into FkWeChat with a TypeSafe API key. No app purchase fee; TypeSafe usage is separate. Source inspected; device/live calls not run on the Linux review host. Sister of JevBystander; distinct from reply-drafting Jev Chat Assistant.
+
+[Full JevIntent guide](jev-intent.md) · [Source](https://github.com/Nisaka520/JevIntent)
+
 ## Windows apps
 
 ### Jev Chat Windows
