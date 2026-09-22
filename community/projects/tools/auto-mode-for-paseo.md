@@ -47,4 +47,4 @@ Laya quality for this routing task is experimental. Oversized Laya context stops
 
 Reviewed on **2026-09-22** at [commit d09232d](https://github.com/obetomuniz/auto-mode-for-paseo/tree/d09232d556dba010f49abd1b9575cb9083ce3f18): MIT **0.2.0**. AI-assisted source review of README, LICENSE, `server/jev.ts`, and routing/settings. Offline tests **50 passed**. No live TypeSafe spend.
 
-Related: [codex-jev-router](codex-jev-router.md), [codex-jev-preflight](codex-jev-preflight.md), [Jev Model Router](jev-model-router.md).
+Related: [codex-jev-router](codex-jev-router.md), [Jev Model Router](jev-model-router.md), [mayi](mayi.md).
