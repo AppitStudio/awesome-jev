@@ -476,6 +476,16 @@ Find relevant X posts for your interests and optionally score unpublished drafts
 
 [Full jevx guide](jevx.md) · [Source](https://github.com/hawkyre/jevx)
 
+### LinkedIn Slop Filter
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension + local Node proxy: TypeSafe Jev stamps LinkedIn posts Bait/Corp/Brag/Slop (distinct from Slop Mop writing scores).
+
+**Access:** clone the [MIT source](https://github.com/Arpit-Khandelwal/jev-linkedin-slop-filter) (Node ≥ 20 for `server/`), put a TypeSafe key in `.env`, run the localhost proxy, load `extension/` unpacked. No Chrome Web Store listing (key stays local). Source inspected; Chrome/live Jev not run on the review host.
+
+[Full LinkedIn Slop Filter guide](jev-linkedin-slop-filter.md) · [Source](https://github.com/Arpit-Khandelwal/jev-linkedin-slop-filter)
+
 ### PageGrade
 
 `Open source` · `Free source build` · `BYOK`
