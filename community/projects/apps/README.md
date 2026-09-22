@@ -402,6 +402,16 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 ## Android apps
 
+### JevBystander
+
+`Open source` · `Free source build` · `BYOK`
+
+Android Accessibility WeChat reader: TypeSafe Jev judges intent/emotion/urgency/stance and shows three Toasts only (~861 KB APK, zero third-party deps).
+
+**Access:** install the [MIT Release APK](https://github.com/Nisaka520/JevBystander/releases/latest) or build the [source](https://github.com/Nisaka520/JevBystander) (JDK 17, Android SDK 35) with a TypeSafe key and Accessibility enabled. No app purchase fee; TypeSafe usage is separate. Source inspected; APK/device/live not run on the Linux review host. Sister of JevIntent; judgment-only vs reply-drafting Jev Chat Assistant.
+
+[Full JevBystander guide](jev-bystander.md) · [Source](https://github.com/Nisaka520/JevBystander) · [Product page](https://nisaka520.github.io/JevBystander/)
+
 ### Jev Chat Assistant
 
 `Open source` · `Free source build` · `BYOK`
@@ -411,6 +421,16 @@ Non-invasive Android overlay: Accessibility reads on-screen chat; TypeSafe Jev (
 **Access:** build the [MIT source](https://github.com/Finderchangchang/jev-chat-JARVIS) (JDK 17, Android SDK 35) with an OpenRouter API key plus Accessibility/overlay permissions. No app purchase fee; OpenRouter/Jev usage is separate. Source inspected; APK build and live calls not run on the Linux review host. Distinct from desktop WeChat-log analyzers and the separate Android UI-agent SDK listed under Developer tools.
 
 [Full Jev Chat Assistant guide](jev-chat-jarvis.md) · [Source](https://github.com/Finderchangchang/jev-chat-JARVIS)
+
+### JevIntent
+
+`Open source` · `Free source build` · `BYOK`
+
+FkWeChat/LSPosed WeChat plugin: long-press a message for TypeSafe Jev intent/emotion/urgency/stance overlays—no reply text, no send.
+
+**Access:** copy the [MIT plugin files](https://github.com/Nisaka520/JevIntent) into FkWeChat with a TypeSafe API key. No app purchase fee; TypeSafe usage is separate. Source inspected; device/live calls not run on the Linux review host. Sister of JevBystander; distinct from reply-drafting Jev Chat Assistant.
+
+[Full JevIntent guide](jev-intent.md) · [Source](https://github.com/Nisaka520/JevIntent)
 
 ## Windows apps
 
