@@ -61,6 +61,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
 | [AlphaOptimizer](alphaoptimizer.md) | Compact large Codex/tool outputs locally and optionally rank chunks with TypeSafe Jev. | Node.js · TypeScript package (`alphaoptimizer` 0.1.0) |
 | [ask-jev-skill](ask-jev-skill.md) | Call TypeSafe Jev as a Hermes typed tiebreaker (Choice/Score/Noul) when multiple paths remain. | Python · Hermes skill + stdlib CLI |
+| [Astra-Ares](astra-ares.md) | Adapt GPT-6 Astra reasoning effort mid-Codex-task with TypeSafe Jev Choice (patched Codex CLI preview). | Node.js ≥ 22 · CLI (`astra-ares` / `ares` 0.2.1) |
 | [askjev](askjev.md) | Ask TypeSafe Jev via MCP (local or hosted) for calibrated Noul/Choice/Score over agent-held context. | TypeScript · MCP server (`askjev` 0.2.0) |
 | [Auto Mode for Paseo](auto-mode-for-paseo.md) | Paseo plugin: TypeSafe Jev (or local Laya) picks Codex model/effort/mode/speed per turn. | TypeScript · Paseo plugin 0.2.0 |
 | [beam-cli](beam-cli.md) | Local AgentBeam hooks/policy for coding agents; optional TypeSafe Jev Noul/Score action judging (off by default). | TypeScript · npm CLI (`@agent-beam/beam` 0.2.16, AGPL-3.0) |
