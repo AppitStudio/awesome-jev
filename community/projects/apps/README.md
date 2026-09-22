@@ -300,6 +300,16 @@ Smart copy/paste beta with clipboard history and an optional Direct Jev mode tha
 
 [Full Jaste guide](jaste.md) · [Product and access](https://jaste.app/)
 
+### JevPaste
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS menu bar Smart Paste: TypeSafe Jev picks which exact value from a copied multi-field block fits the focused input.
+
+**Access:** build the [MIT source](https://github.com/taiki510/JevPaste) on macOS 14+ with Swift/Xcode CLT, Accessibility permission, and a TypeSafe key in Keychain. No app purchase fee; provider usage can incur charges. Linux review cited upstream CI; live paste not run here. Distinct from closed-source Jaste.
+
+[Full JevPaste guide](jevpaste.md) · [Source](https://github.com/taiki510/JevPaste)
+
 ### Jev Voice
 
 `Open source` · `Free source build` · `BYOK`
