@@ -78,6 +78,16 @@ Clinical documentation aid: as a doctor types or dictates, Hx opens the checklis
 
 [Full Hx guide](hx.md) · [Source](https://github.com/doitrous/hx) · [Product homepage](https://hx.semicoded.com)
 
+### Jev Asks Until Sure
+
+`Open source` · `Free` · `BYOK`
+
+Twenty-questions style web game: keeps asking until TypeSafe Jev’s calibrated confidence crosses a threshold—or gives up. Hosted demo available.
+
+**Access:** try [jev.mintan.org](https://jev.mintan.org/) or clone the [MIT source](https://github.com/mintannn/jev-asks-until-sure) (Next.js) with `TYPESAFE_API_KEY` in `.env.local`. No app purchase fee; TypeSafe usage is separate. Hosted demo HTTP 200 on the review host; live diagnose not run; upstream eslint reported react-hooks issues at review time.
+
+[Try Jev Asks Until Sure](https://jev.mintan.org/) · [Full Jev Asks Until Sure guide](jev-asks-until-sure.md) · [Source](https://github.com/mintannn/jev-asks-until-sure)
+
 ### Jev Call Screener
 
 `Open source` · `Free source build` · `BYOK`
