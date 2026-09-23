@@ -102,6 +102,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [fast-jev-opencode](fast-jev-opencode.md) | Prune stale OpenCode V2 tool calls/results on the outgoing request with TypeSafe Jev (fail-open; does not rewrite history). | TypeScript · OpenCode plugin (`fast-jev-opencode` 0.1.0) |
 | [grok-jev-guard](grok-jev-guard.md) | Prefight Grok Bot tool sequences: local hard rules + TypeSafe Jev ambiguity judgments (shadow-first). | Python · CLI + skill (`grok-jev-guard` 0.1.0, MIT) |
 | [Intent-Router](intent-router.md) | Compile vague agent requests into typed IntentSpec contracts (probe, ask, or halt) before Jev/Laya routing. | Agent Skill (`intent-router` 0.3.0, MIT) |
+| [Jev WCAG Auditor](jev-wcag-auditor.md) | Audit public URLs with axe-core plus optional TypeSafe Jev judgement-call adjudication and uncertainty band. | Next.js · web app (`jev-wcag-auditor` 0.1.0, MIT) |
 | [jev-opus](jev-opus.md) | Re-pick Claude Opus 5.5 effort each step with TypeSafe Jev without breaking the prompt cache. | Node.js · CLI + Claude Code plugin (`jev-opus` 0.3.0, MIT) |
 | [jevmem](jevmem.md) | Shared JEVMEM.md memory across Claude Code/Cursor/Codex; TypeSafe Jev gates what to save. | Node.js · CLI/hooks/MCP (`jevmem` 0.4.2, MIT) |
 | [Juardrails](juardrails.md) | Manage TypeSafe Jev guardrail policies (YAML/UI), batch questions, apply rules via REST/CLI with audit. | Go · server + CLI (license unspecified at review) |
