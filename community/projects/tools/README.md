@@ -134,6 +134,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Review (Dev Agrawal)](jev-review-devagrawal.md) | Screen JavaScript/TypeScript diffs or codebases and inspect staged review findings. | TypeScript · CLI and local dashboard |
 | [Jev Review Action](jev-review-action.md) | Review catalog submissions or PR diffs with TypeSafe Jev only; one template PR comment (GitHub Action). | Node.js · GitHub Action (`jev-review-action` 0.2.0) |
 | [Jev Sift](jev-sift.md) | Screen candidate content before reading it into agent context; requires a TypeSafe key, with upstream licensing unspecified. | Node.js · MCP server and agent plugin |
+| [jev-suite](jev-suite.md) | Four Java decision-quality apps on one Jev kernel: structured questions; code keeps thresholds/vetoes. | Java · Maven suite (`jev-suite` 0.1.0, MIT) |
 | [Jev Score](jev-score.md) | Score document revisions against criteria with TypeSafe Jev (OpenRouter Decisions) and keep revision history. | Node.js · CLI + local web UI (`jev-score` 1.0.0) |
 | [JevScope](jevscope.md) | Edit Jev projects visually, batch JSONL regression cases, and compare definitions locally. | TypeScript · Studio + local API (pnpm) |
 | [JevTape](jevtape.md) | Record and replay TypeSafe Jev HTTP decisions from JSON cassettes with contract fingerprint misses. | Java 21 · Maven CLI (`jevtape` 0.5.0) |
