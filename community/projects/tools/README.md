@@ -231,6 +231,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [super-jev](super-jev.md) | Run evidence → typed Jev judgments → permitted actions → verified outcomes with local JSONL traces. | TypeScript · harness (Node ≥ 24) |
 | [System One Harness](systemone-harness.md) | Drive finite-action environments with TypeSafe Jev (OpenRouter/TypeSafe): one typed decision per step, confidence gates, full traces. | Python · CLI `s1` (`systemone-harness` 0.4.0) |
 | [System One Playground](system-one-playground.md) | Write SysOneScript, use a Go System One client, semlint, and Studio/VS Code—offline first, optional live Jev. | Go · CLI/extension (`sysone`/`sos`) + `typesafe` module |
+| [Taste Lint](taste-lint.md) | Catch AI-sloppy UI motion/copy/typography before ship; optional TypeSafe Jev under-review judgments via Gateway or direct. | Node.js ≥ 24.11 · npm CLI (`taste-lint` 0.3.0) |
 | [tax-doc-classifier](tax-doc-classifier.md) | Classify tax PDF page text into IRS form ids and page kinds with TypeSafe Jev Choice over shipped criteria. | TypeScript · library (`tax-doc-classifier`) |
 | [The Jev-enator](the-jev-enator.md) | Claude Code hooks: TypeSafe Jev danger gate, failure notice, and log-only completion check. | Python · stdlib hooks + install scripts |
 | [tink-route](tink-route.md) | Gate Agent Skills with TypeSafe Jev (specialist Noul + Choice), then optionally install via Tink. | Python · CLI (`tink-route` 0.3.1) |
