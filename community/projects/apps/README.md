@@ -338,6 +338,16 @@ File a local document folder into configured categories with TypeSafe Jev (Verce
 
 [Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
 
+### SiteClarity
+
+`Open source` · `Free` · `BYOK`
+
+Evidence-backed AI answer-readiness page audit: TypeSafe Jev meaning judgments plus deterministic structure/language checks; every finding includes a verbatim page quote.
+
+**Access:** use the [hosted demo](https://siteclarity.sanjay-shankar.workers.dev) (appears free; limits unchecked) or self-host the [MIT source](https://github.com/sanjuacodez/siteclarity) with your own System One / Workers AI keys. Source inspected; live audit not run on the review host.
+
+[Try SiteClarity](https://siteclarity.sanjay-shankar.workers.dev) · [Full SiteClarity guide](siteclarity.md) · [Source](https://github.com/sanjuacodez/siteclarity)
+
 ### Transcript Lens
 
 `Open source` · `Free source build` · `BYOK`
