@@ -48,16 +48,6 @@ Local WeChat-style chat analyzer: TypeSafe Jev labels emotion and intent, scores
 
 [Full Crush Monitor guide](crush-monitor.md) · [Source](https://github.com/FerryCorleone/crush-monitor)
 
-### tg-crush
-
-`Open source` · `Free source build` · `BYOK`
-
-Local real-time Telegram coach: TypeSafe Jev judges partner messages and your drafts (quality + timing) before send on localhost.
-
-**Access:** clone the [MIT source](https://github.com/BrickerP/tg-crush) (Node.js ≥ 22.12) with `TYPESAFE_API_KEY` and Telegram API id/hash. No app purchase fee; TypeSafe usage is separate. Offline `npm run check` clean; live smoke/Telegram not run on the review host.
-
-[Full tg-crush guide](tg-crush.md) · [Source](https://github.com/BrickerP/tg-crush)
-
 ### Fotocopiatrice
 
 `Open source` · `Free source build` · `BYOK`
@@ -88,6 +78,16 @@ Clinical documentation aid: as a doctor types or dictates, Hx opens the checklis
 
 [Full Hx guide](hx.md) · [Source](https://github.com/doitrous/hx) · [Product homepage](https://hx.semicoded.com)
 
+### Jev 2048
+
+`Open source` · `Free` · `BYOK`
+
+Instrumented 2048 web lab: every move is a TypeSafe Jev Choice (no heuristic fallback); probability, confidence, latency, and cost are shown live.
+
+**Access:** try the [hosted demo](https://jev-2048-ultra.vercel.app) (limited free trial) or clone the [MIT source](https://github.com/ARCJ137442/jev-2048) (Node.js ≥ 20, `./start.sh`) with optional BYOK TypeSafe/OpenRouter. No app purchase fee; TypeSafe/OpenRouter usage is separate. Source inspected; live play not run on the review host.
+
+[Try Jev 2048](https://jev-2048-ultra.vercel.app) · [Full Jev 2048 guide](jev-2048.md) · [Source](https://github.com/ARCJ137442/jev-2048)
+
 ### Jev Asks Until Sure
 
 `Open source` · `Free` · `BYOK`
@@ -97,16 +97,6 @@ Twenty-questions style web game: keeps asking until TypeSafe Jev’s calibrated 
 **Access:** try [jev.mintan.org](https://jev.mintan.org/) or clone the [MIT source](https://github.com/mintannn/jev-asks-until-sure) (Next.js) with `TYPESAFE_API_KEY` in `.env.local`. No app purchase fee; TypeSafe usage is separate. Hosted demo HTTP 200 on the review host; live diagnose not run; upstream eslint reported react-hooks issues at review time.
 
 [Try Jev Asks Until Sure](https://jev.mintan.org/) · [Full Jev Asks Until Sure guide](jev-asks-until-sure.md) · [Source](https://github.com/mintannn/jev-asks-until-sure)
-
-### Jevatar
-
-`Open source` · `Free source build` · `BYOK`
-
-Local companion that replies only with facial expressions: TypeSafe Jev picks one of 16 moods; blobatar morphs the face (no text replies).
-
-**Access:** clone the [MIT source](https://github.com/AppChainAI/Jevatar) (Bun + Vite) with `TYPESAFE_API_KEY` on the server. No app purchase fee; TypeSafe usage is separate. Offline `bun test` **1 pass** on the review host; live companion session not run.
-
-[Full Jevatar guide](jevatar.md) · [Source](https://github.com/AppChainAI/Jevatar)
 
 ### Jev Call Screener
 
@@ -148,15 +138,15 @@ Six local side-by-side TypeSafe Jev demos (router, triage, inbox, slop filter, t
 
 [Full Jev demos guide](jev-demos.md) · [Source](https://github.com/mayank953/Jev)
 
-### Jev 2048
+### JEV Document Classification
 
-`Open source` · `Free` · `BYOK`
+`Open source` · `Free source build` · `BYOK`
 
-Instrumented 2048 web lab: every move is a TypeSafe Jev Choice (no heuristic fallback); probability, confidence, latency, and cost are shown live.
+File a local document folder into configured categories with TypeSafe Jev (Vercel AI Gateway): local extraction, typed category/confidentiality/injection/subject choices, audit preview and undo.
 
-**Access:** try the [hosted demo](https://jev-2048-ultra.vercel.app) (limited free trial) or clone the [MIT source](https://github.com/ARCJ137442/jev-2048) (Node.js ≥ 20, `./start.sh`) with optional BYOK TypeSafe/OpenRouter. No app purchase fee; TypeSafe/OpenRouter usage is separate. Source inspected; live play not run on the review host.
+**Access:** clone the [MIT source](https://github.com/Charlyhno-eng/jev-document-classification) (Node.js + npm) with a Vercel AI Gateway key for classification. No app purchase fee; provider usage is separate. Live classification was not tested on the review host.
 
-[Try Jev 2048](https://jev-2048-ultra.vercel.app) · [Full Jev 2048 guide](jev-2048.md) · [Source](https://github.com/ARCJ137442/jev-2048)
+[Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
 
 ### Jev Grand Prix
 
@@ -168,26 +158,6 @@ Local F1 race where TypeSafe Jev picks racing line and pedals; code steers, brak
 
 [Full Jev Grand Prix guide](jev-grand-prix.md) · [Source](https://github.com/enoyola/jev-grand-prix)
 
-### JevEye
-
-`Open source` · `Free source build` · `BYOK`
-
-Browser vision probes report calibrated facts (or abstain); TypeSafe Jev plans what to look for and judges the text fact sheet—never pixels.
-
-**Access:** clone the [MIT source](https://github.com/Adityakhalkar/JevEye) (Node.js 20+) with `TYPESAFE_API_KEY` on the server, or deploy to Vercel with that env var. No app purchase fee; TypeSafe usage is separate. Offline `npm test`: 12 passed; live image judgment not run on the review host.
-
-[Full JevEye guide](jeveye.md) · [Source](https://github.com/Adityakhalkar/JevEye)
-
-### Jevflix
-
-`Open source` · `Free source build` · `BYOK`
-
-Hybrid movie recommender: FAISS + BM25 shortlist ~4,800 films, then TypeSafe Jev parses constraints and picks one title with a confidence gate.
-
-**Access:** clone the [MIT source](https://github.com/ArielBubis/Jevflix) and run Streamlit (`app.py`) with `TYPESAFE_API_KEY` (optional Anthropic/template generator). No app purchase fee; TypeSafe usage is separate. Offline lightweight pytest: 12 passed / 26 skipped; live recommend not run on the review host.
-
-[Full Jevflix guide](jevflix.md) · [Source](https://github.com/ArielBubis/Jevflix)
-
 ### Jev Inbox Queue
 
 `Open source` · `Free source build` · `BYOK`
@@ -198,15 +168,17 @@ Local inbox action queue: TypeSafe Jev answers seven typed questions per email t
 
 [Full Jev Inbox Queue guide](jev-inbox-queue.md) · [Source](https://github.com/tusharck/jev-inbox-queue)
 
-### JevPDF
+### Jev Kitchen
 
-`Open source` · `Free` · `BYOK`
+`Closed source` · `Free`
 
-Ask a PDF in your own words: pdf.js extracts lines in the browser, TypeSafe Jev answers one yes/no question per line, and matching lines highlight on the page ranked by probability.
+Name a dish or cocktail and watch ingredient stickers rise; maker states TypeSafe Jev judges membership.
 
-**Access:** try the [hosted app](https://jevpdf.fly.dev) (no account; on 2026-09-23 it held no server key, so meaning search needs your own TypeSafe key, while exact-text search needs none) or self-host the [MIT source](https://github.com/kylemclaren/jevpdf) with Bun and `TYPESAFE_API_KEY`. No app fee; TypeSafe usage is billed to the key's owner. Offline `bun install && bun run build` passed on the review host; live searches not run.
+**Jev's role:** judges which stickers belong (implementation not inspected).
 
-[Try JevPDF](https://jevpdf.fly.dev) · [Full JevPDF guide](jevpdf.md) · [Source](https://github.com/kylemclaren/jevpdf)
+**Access:** free public demo, no signup — [recipe](https://jev-kitchen.vercel.app/recipe) / [cocktail](https://jev-kitchen.vercel.app/cocktail). Closed source. Checked 2026-09-23.
+
+[Try Jev Kitchen](https://jev-kitchen.vercel.app/recipe) · [Full Jev Kitchen guide](jev-kitchen.md) · [Source](https://jev-kitchen.vercel.app)
 
 ### Jev Radar
 
@@ -258,15 +230,35 @@ Explainable day-trip planner: LLM drafts; TypeSafe Jev screens/compares/reviews;
 
 [Full Jev Trip guide](jev-trip.md) · [Source](https://github.com/liaoyuhua/jev-trip)
 
-### JevSlop
+### Jevatar
 
 `Open source` · `Free source build` · `BYOK`
 
-Score note articles for AI-slop writing patterns with TypeSafe Jev (multi-axis Score plus overall Choice). Bring your own TypeSafe key on the hosted Pages app or a source build.
+Local companion that replies only with facial expressions: TypeSafe Jev picks one of 16 moods; blobatar morphs the face (no text replies).
 
-**Access:** open [jevslop.pages.dev](https://jevslop.pages.dev/) or build from the [MIT source](https://github.com/TKY-27/JevSlop). No app purchase fee; TypeSafe inference is separate. Live TypeSafe evaluation was not tested on the review host.
+**Access:** clone the [MIT source](https://github.com/AppChainAI/Jevatar) (Bun + Vite) with `TYPESAFE_API_KEY` on the server. No app purchase fee; TypeSafe usage is separate. Offline `bun test` **1 pass** on the review host; live companion session not run.
 
-[Try JevSlop](https://jevslop.pages.dev/) · [Full JevSlop guide](jevslop.md) · [Source](https://github.com/TKY-27/JevSlop)
+[Full Jevatar guide](jevatar.md) · [Source](https://github.com/AppChainAI/Jevatar)
+
+### JevEye
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser vision probes report calibrated facts (or abstain); TypeSafe Jev plans what to look for and judges the text fact sheet—never pixels.
+
+**Access:** clone the [MIT source](https://github.com/Adityakhalkar/JevEye) (Node.js 20+) with `TYPESAFE_API_KEY` on the server, or deploy to Vercel with that env var. No app purchase fee; TypeSafe usage is separate. Offline `npm test`: 12 passed; live image judgment not run on the review host.
+
+[Full JevEye guide](jeveye.md) · [Source](https://github.com/Adityakhalkar/JevEye)
+
+### Jevflix
+
+`Open source` · `Free source build` · `BYOK`
+
+Hybrid movie recommender: FAISS + BM25 shortlist ~4,800 films, then TypeSafe Jev parses constraints and picks one title with a confidence gate.
+
+**Access:** clone the [MIT source](https://github.com/ArielBubis/Jevflix) and run Streamlit (`app.py`) with `TYPESAFE_API_KEY` (optional Anthropic/template generator). No app purchase fee; TypeSafe usage is separate. Offline lightweight pytest: 12 passed / 26 skipped; live recommend not run on the review host.
+
+[Full Jevflix guide](jevflix.md) · [Source](https://github.com/ArielBubis/Jevflix)
 
 ### Jevmail
 
@@ -277,6 +269,26 @@ Local read-only Gmail triage into Needs reply / Updates / Promos / Sales / Spam 
 **Access:** clone and run the [MIT source](https://github.com/fazlerocks/jevmail) with pnpm, Google OAuth (Gmail API), `AI_GATEWAY_API_KEY`, and `AUTH_SECRET`. No app purchase fee; Gateway free-tier limits and Gmail quotas apply. Offline `pnpm test` skips without a Gateway key; live Gmail classification not run.
 
 [Full Jevmail guide](jevmail.md) · [Source](https://github.com/fazlerocks/jevmail)
+
+### JevPDF
+
+`Open source` · `Free` · `BYOK`
+
+Ask a PDF in your own words: pdf.js extracts lines in the browser, TypeSafe Jev answers one yes/no question per line, and matching lines highlight on the page ranked by probability.
+
+**Access:** try the [hosted app](https://jevpdf.fly.dev) (no account; on 2026-09-23 it held no server key, so meaning search needs your own TypeSafe key, while exact-text search needs none) or self-host the [MIT source](https://github.com/kylemclaren/jevpdf) with Bun and `TYPESAFE_API_KEY`. No app fee; TypeSafe usage is billed to the key's owner. Offline `bun install && bun run build` passed on the review host; live searches not run.
+
+[Try JevPDF](https://jevpdf.fly.dev) · [Full JevPDF guide](jevpdf.md) · [Source](https://github.com/kylemclaren/jevpdf)
+
+### JevSlop
+
+`Open source` · `Free source build` · `BYOK`
+
+Score note articles for AI-slop writing patterns with TypeSafe Jev (multi-axis Score plus overall Choice). Bring your own TypeSafe key on the hosted Pages app or a source build.
+
+**Access:** open [jevslop.pages.dev](https://jevslop.pages.dev/) or build from the [MIT source](https://github.com/TKY-27/JevSlop). No app purchase fee; TypeSafe inference is separate. Live TypeSafe evaluation was not tested on the review host.
+
+[Try JevSlop](https://jevslop.pages.dev/) · [Full JevSlop guide](jevslop.md) · [Source](https://github.com/TKY-27/JevSlop)
 
 ### JevZero
 
@@ -348,16 +360,6 @@ Hosted growth teammate that investigates product, search, content, and ad signal
 
 [Full Refix guide](refix.md) · [Source](https://www.refix.ai) · [Product homepage](https://www.refix.ai)
 
-### JEV Document Classification
-
-`Open source` · `Free source build` · `BYOK`
-
-File a local document folder into configured categories with TypeSafe Jev (Vercel AI Gateway): local extraction, typed category/confidentiality/injection/subject choices, audit preview and undo.
-
-**Access:** clone the [MIT source](https://github.com/Charlyhno-eng/jev-document-classification) (Node.js + npm) with a Vercel AI Gateway key for classification. No app purchase fee; provider usage is separate. Live classification was not tested on the review host.
-
-[Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
-
 ### Shapeshift
 
 `Open source` · `Free` · `BYOK`
@@ -377,6 +379,16 @@ Evidence-backed AI answer-readiness page audit: TypeSafe Jev meaning judgments p
 **Access:** use the [hosted demo](https://siteclarity.sanjay-shankar.workers.dev) (appears free; limits unchecked) or self-host the [MIT source](https://github.com/sanjuacodez/siteclarity) with your own System One / Workers AI keys. Source inspected; live audit not run on the review host.
 
 [Try SiteClarity](https://siteclarity.sanjay-shankar.workers.dev) · [Full SiteClarity guide](siteclarity.md) · [Source](https://github.com/sanjuacodez/siteclarity)
+
+### tg-crush
+
+`Open source` · `Free source build` · `BYOK`
+
+Local real-time Telegram coach: TypeSafe Jev judges partner messages and your drafts (quality + timing) before send on localhost.
+
+**Access:** clone the [MIT source](https://github.com/BrickerP/tg-crush) (Node.js ≥ 22.12) with `TYPESAFE_API_KEY` and Telegram API id/hash. No app purchase fee; TypeSafe usage is separate. Offline `npm run check` clean; live smoke/Telegram not run on the review host.
+
+[Full tg-crush guide](tg-crush.md) · [Source](https://github.com/BrickerP/tg-crush)
 
 ### Transcript Lens
 
