@@ -34,6 +34,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-ra](jev-ra.md) | Drive Chrome from Claude Code/Codex/MCP with TypeSafe Jev choosing each operation and target. | Python · MCP server, CLI and PyPI (`jev-ra` 0.1.1) |
 | [Jev Voice Browser](jev-voice-browser.md) | Study partial speech, target disambiguation, and browser actions with an inspectable decision policy. | JavaScript · Playwright voice-control reference |
 | [Jev-cu](jev-cu.md) | Study experimental Jev decisions over macOS Accessibility text in Codex; review the execution-policy limitations before use. | JavaScript · Codex skill and runtime |
+| [jev-dom](jev-dom.md) | Drive any web page via DOM action space with TypeSafe Jev—no WebMCP required (Playwright peer). | TypeScript · research package (`jev-dom` 0.1.0, Apache-2.0) |
 | [jev-macos-loop](jev-macos-loop.md) | Automate native macOS GUI apps with local OmniParser/Vision perception and text-only Jev action choice. | TypeScript/Node · Apple silicon CLI |
 | [jev-android](jev-android.md) | Drive Android UI via accessibility with TypeSafe Jev or DeepSeek action choice (Kotlin SDK + sample). | Kotlin · Android SDK (`core`/`sdk`/`sample` 0.2.0) |
 | [jevdevice](jevdevice.md) | MCP harness for Android (adb) or local shell: TypeSafe Jev (or local Laya) picks one runtime-discovered target per goal; code gates and executes. | Python · MCP server (`jevdevice` 0.1.0) |
