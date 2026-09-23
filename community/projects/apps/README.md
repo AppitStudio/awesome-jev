@@ -430,6 +430,16 @@ Talk to your Mac with local whisper.cpp transcription. Jev selects a typed actio
 
 [Full Jev Voice guide](jev-voice.md) · [Source](https://github.com/kevinbadi/jev-voice)
 
+### Jev Voice (CUA)
+
+`Source available` · `Free source build` · `BYOK`
+
+Native macOS floating bar for continuous voice and text. Jev selects the next live Accessibility action; Swift runs observe–act–verify with no LLM planner. Distinct from kevinbadi/jev-voice and Cua jev-use.
+
+**Access:** build the [public source](https://github.com/ronadin2002/jev-cua) on Apple silicon macOS 14+ with Xcode CLT and an OpenRouter or TypeSafe key (Keychain). No app purchase fee; provider usage can incur charges. **No LICENSE file** in the reviewed tree (not Open source). Live voice/desktop control were not tested on the Linux review host.
+
+[Full Jev Voice (CUA) guide](jev-cua.md) · [Source](https://github.com/ronadin2002/jev-cua)
+
 ### Live Jev
 
 `Open source` · `Free source build` · `BYOK`
