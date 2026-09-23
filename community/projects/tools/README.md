@@ -229,6 +229,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Stanley Code](stanley-code.md) | Review code changes, triage failures, and extend Jev workflows; optional Pi delegation can edit the repository. | TypeScript · source-built CLI and workflow runtime |
 | [Supercov](supercov.md) | Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first. | Rust · CLI via npm, Homebrew, Go or crates.io |
 | [super-jev](super-jev.md) | Run evidence → typed Jev judgments → permitted actions → verified outcomes with local JSONL traces. | TypeScript · harness (Node ≥ 24) |
+| [stuntd](stuntd.md) | Local Jev-compatible proxy: serve/learn typed System One decisions on a Laya head (or zero-shot), optional OpenAI/Jev upstream. | Python ≥ 3.10 · PyPI (`stuntd` 0.1.0, Apache-2.0) |
 | [System One Harness](systemone-harness.md) | Drive finite-action environments with TypeSafe Jev (OpenRouter/TypeSafe): one typed decision per step, confidence gates, full traces. | Python · CLI `s1` (`systemone-harness` 0.4.0) |
 | [System One Playground](system-one-playground.md) | Write SysOneScript, use a Go System One client, semlint, and Studio/VS Code—offline first, optional live Jev. | Go · CLI/extension (`sysone`/`sos`) + `typesafe` module |
 | [Taste Lint](taste-lint.md) | Catch AI-sloppy UI motion/copy/typography before ship; optional TypeSafe Jev under-review judgments via Gateway or direct. | Node.js ≥ 24.11 · npm CLI (`taste-lint` 0.3.0) |
