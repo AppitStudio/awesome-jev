@@ -353,6 +353,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [JevSQL](jevsql.md) | Add TypeSafe Jev match/pick/rank/bool/choice helpers to SQLite SQL with batching, caches, and review queues. | TypeScript · library and CLI |
 | [jgrep](jgrep.md) | Filters text, structured records, functions, and diff hunks against plain-English descriptions using Jev Noul judgments. | Python · library and CLI (`jev-grep`) |
+| [jgrep (npm: jevgrep)](jgrep-jevgrep.md) | Gate a diff in CI on an English rule (`--diff`, grep exit codes), list the test files a diff can affect (`--tests`), or grep code and CSV rows by description with one TypeSafe Jev Noul per chunk. Distinct from the Python jgrep. | TypeScript · npm CLI (`jevgrep` 0.4.0, Node ≥ 18) |
 | [jlink](jlink.md) | Links records under a plain-English match rule using Jev Noul pair judgments, with local candidate blocking and match resolution. | Python · library and CLI (`jlink`) |
 | [jselect](jselect.md) | Selects source-linked evidence within a token budget using Jev Noul relevance judgments and local diversity-aware selection. | Python · library and CLI (`jev-select`) |
 | [jsort](jsort.md) | Order lines/paragraphs/files along a plain-English dimension using pairwise TypeSafe Jev comparisons. | Python · CLI (`jsort` / jev-sort) |
