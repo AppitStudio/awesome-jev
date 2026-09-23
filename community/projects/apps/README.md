@@ -360,6 +360,16 @@ Smart copy/paste beta with clipboard history and an optional Direct Jev mode tha
 
 [Full Jaste guide](jaste.md) · [Product and access](https://jaste.app/)
 
+### Jevcast
+
+`Open source` · `Free source build` · `BYOK`
+
+Native macOS launcher/window manager (Option–Space). Optional TypeSafe Jev matches loose natural-language requests to known actions; core search stays local.
+
+**Access:** build the [MIT source](https://github.com/RyanErkal/jevcast) on macOS 14+ with Xcode 26+. Launcher works without Jev; optional NL matching needs a TypeSafe or OpenRouter key in Keychain. No app purchase fee; provider usage is separate. Source inspected; macOS build/live Jev not run on the Linux review host.
+
+[Full Jevcast guide](jevcast.md) · [Source](https://github.com/RyanErkal/jevcast) · [Product homepage](https://jevcast.vercel.app)
+
 ### JevPaste
 
 `Open source` · `Free source build` · `BYOK`
