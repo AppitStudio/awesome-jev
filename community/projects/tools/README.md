@@ -139,6 +139,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-calibrate](jev-calibrate.md) | Calibrate Jev questions against labelled examples; per-question gate/ranker/unusable verdicts. | TypeScript · npm CLI (`jev-calibrate` 0.1.11) |
 | [jev-certify](jev-certify.md) | Turn Jev probabilities into conformal routing certificates and PPI audits (offline math + OpenRouter Decisions client). | Python · CLI/library (`jev-certify` 0.1.0) |
 | [jev-ci-selector](jev-ci-selector.md) | Select which described CI jobs apply to a PR diff with TypeSafe Jev (shadow or enforce). | Node.js · GitHub Action (`jev-ci-selector` 0.1.0) |
+| [jev-claude-router (Flam1ngFir3ball)](jev-claude-router.md) | Claude Code plugin: Jev picks tier/effort with cost-aware switches and optional Jev compaction. | TypeScript · Claude Code plugin (MIT) |
 | [jev-cmdline-classifier](jev-cmdline-classifier.md) | Classify shell commands with TypeSafe Jev Choice (`allow`/`prompt`/`forbidden`) plus fail-closed local rules for agent skills. | Python/JS skill + CLI (`jev-command-classifier` 0.1.0) |
 | [jev-codex-router](jev-codex-router.md) | Route each Codex turn's model and thinking depth with Jev via a Codex Router generic provider. | Python · local server and Codex Router integration |
 | [jev-codex-token-saver](jev-codex-token-saver.md) | Gather local workspace/log evidence and let TypeSafe Jev select exact excerpts for Codex (MCP plugin; local fallback). | Node.js · Codex plugin + MCP (`jev-codex-token-saver` 0.3.2) |
