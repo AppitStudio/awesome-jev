@@ -230,6 +230,16 @@ Explainable day-trip planner: LLM drafts; TypeSafe Jev screens/compares/reviews;
 
 [Full Jev Trip guide](jev-trip.md) · [Source](https://github.com/liaoyuhua/jev-trip)
 
+### Jev/ui (jev-genui)
+
+`Source available` · `Free source build` · `BYOK`
+
+**Jev's role:** answers parallel Choice questions that fill a page→section→tile grammar; code maps onto shadcn/ui (no JSX from Jev).
+
+**Access:** clone the [public source](https://github.com/claudfuen/jev-genui) with Bun and `AI_GATEWAY_API_KEY`. No app purchase fee; Gateway/TypeSafe usage is separate. **No LICENSE** at reviewed commit—not open source. Source inspected; live compose not run.
+
+[Full Jev/ui guide](jev-genui.md) · [Source](https://github.com/claudfuen/jev-genui)
+
 ### Jevatar
 
 `Open source` · `Free source build` · `BYOK`
