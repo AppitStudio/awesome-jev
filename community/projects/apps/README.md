@@ -546,6 +546,16 @@ Drive the Chrome tab you already have open with TypeSafe Jev. Community Manifest
 
 [Full Jev for Chrome guide](jev-for-chrome.md) · [Source](https://github.com/chy4pro/jev-for-chrome)
 
+### Jev Inbox
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that reorders Gmail’s list: unread first, critical on top, with your label chips—TypeSafe Jev (or Vercel AI Gateway) over row metadata only. Distinct from Jev Inbox Queue.
+
+**Access:** [build and load unpacked](https://github.com/iamomiid/jev-inbox#install-from-source) (`npm run build` → `dist/`) with a TypeSafe or Vercel AI Gateway key. No app purchase fee; inference can incur charges. Source inspected; Chrome install and live Gmail/Jev not tested on the review host.
+
+[Full Jev Inbox guide](jev-inbox.md) · [Source](https://github.com/iamomiid/jev-inbox)
+
 ### Jev × WebMCP
 
 `Open source` · `Free source build` · `BYOK`
