@@ -338,6 +338,16 @@ File a local document folder into configured categories with TypeSafe Jev (Verce
 
 [Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
 
+### Shapeshift
+
+`Open source` · `Free` · `BYOK`
+
+One text box that morphs into the right UI (event, checklist, timer, split, …) as you type: TypeSafe Jev classifies intent; deterministic parsers fill values. Offline by default; optional live Jev.
+
+**Access:** try [shapeshiftui.vercel.app](https://shapeshiftui.vercel.app) (appears free; limits unchecked) or clone the [MIT source](https://github.com/anishfn/shapeshift) with Bun; optional `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. Source inspected; live demo/Jev not run on the review host.
+
+[Try Shapeshift](https://shapeshiftui.vercel.app) · [Full Shapeshift guide](shapeshift.md) · [Source](https://github.com/anishfn/shapeshift)
+
 ### SiteClarity
 
 `Open source` · `Free` · `BYOK`
