@@ -198,6 +198,16 @@ Local inbox action queue: TypeSafe Jev answers seven typed questions per email t
 
 [Full Jev Inbox Queue guide](jev-inbox-queue.md) · [Source](https://github.com/tusharck/jev-inbox-queue)
 
+### JevPDF
+
+`Open source` · `Free` · `BYOK`
+
+Ask a PDF in your own words: pdf.js extracts lines in the browser, TypeSafe Jev answers one yes/no question per line, and matching lines highlight on the page ranked by probability.
+
+**Access:** try the [hosted app](https://jevpdf.fly.dev) (no account; on 2026-09-23 it held no server key, so meaning search needs your own TypeSafe key, while exact-text search needs none) or self-host the [MIT source](https://github.com/kylemclaren/jevpdf) with Bun and `TYPESAFE_API_KEY`. No app fee; TypeSafe usage is billed to the key's owner. Offline `bun install && bun run build` passed on the review host; live searches not run.
+
+[Try JevPDF](https://jevpdf.fly.dev) · [Full JevPDF guide](jevpdf.md) · [Source](https://github.com/kylemclaren/jevpdf)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
