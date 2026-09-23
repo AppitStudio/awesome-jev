@@ -288,6 +288,16 @@ Track how AI answers describe and position your brand. Jev judges brand sentimen
 
 [Full Notra guide](notra.md) · [Source](https://github.com/usenotra/notra)
 
+### Paper Radar
+
+`Open source` · `Free source build` · `BYOK`
+
+Daily arXiv paper radar: TypeSafe Jev judges every new paper against plain-English interests; publish GitHub Pages + RSS (optional chat/email digests). Offline `paper-radar demo` needs no key.
+
+**Access:** fork the [MIT source](https://github.com/Eliot5566/JEV-Paper-Radar) and enable Actions/Pages with `TYPESAFE_API_KEY` or OpenRouter, or `pip install` the CLI. No app purchase fee; provider usage is separate. Source inspected; live arXiv/Jev and author cost claims not verified on the review host. Distinct from Jev Radar (research workspace).
+
+[Full Paper Radar guide](paper-radar.md) · [Source](https://github.com/Eliot5566/JEV-Paper-Radar)
+
 ### QuantDinger
 
 `Open source` · `Free source build` · `BYOK`
