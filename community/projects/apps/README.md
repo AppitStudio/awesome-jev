@@ -308,6 +308,16 @@ Daily arXiv paper radar: TypeSafe Jev judges every new paper against plain-Engli
 
 [Full Paper Radar guide](paper-radar.md) · [Source](https://github.com/Eliot5566/JEV-Paper-Radar)
 
+### Pastewise
+
+`Source unverified` · `Free` · `BYOK`
+
+One paste box that recognizes JSON, JWTs, cron, stack traces, colors, and more, then morphs into the matching tool. TypeSafe Jev classifies ambiguous pastes; deterministic helpers format and decode.
+
+**Access:** try [pastewise.vercel.app](https://pastewise.vercel.app) (HTTP 200 on review; limits unchecked) or clone the [public source](https://github.com/Nuu-maan/pastewise) with Bun; optional `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. **No LICENSE** at reviewed commit—not open source. Source inspected; live demo/Jev not run. Distinct from JevPaste and Shapeshift.
+
+[Try Pastewise](https://pastewise.vercel.app) · [Full Pastewise guide](pastewise.md) · [Source](https://github.com/Nuu-maan/pastewise)
+
 ### QuantDinger
 
 `Open source` · `Free source build` · `BYOK`
