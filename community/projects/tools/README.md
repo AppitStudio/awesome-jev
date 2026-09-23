@@ -52,6 +52,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [AnchorLint](anchorlint.md) | Audit internal links in built HTML: deterministic checks plus optional TypeSafe Jev promise/relevance judgments. | Python · CLI (`anchorlint`) |
 | [Clay JEV People Ranker](clay-jev-people-ranker.md) | Qualify Clay people-search candidates with TypeSafe Jev Choice/Noul before enrichment (Agent Skill + Python script). | Python · Agent Skill + CLI script (`rank_clay_people.py`) |
 | [jev-seo](jev-seo.md) | Local SEO/GEO CLI and MCP: DuckDuckGo SERP/audits plus optional TypeSafe Jev intent and visibility judgments. | Rust · CLI (`jev-seo`) and MCP |
+| [jev-seo (AgriciDaniel)](agrici-jev-seo.md) | Live site SEO audit from one URL: crawl/rules/PageSpeed plus TypeSafe Jev judgments; PDF/XLSX/Markdown (distinct from Rust jev-seo). | Python · CLI (`jevseo` 0.1.1, MIT) + Claude skill |
 
 ## Developer tools
 
