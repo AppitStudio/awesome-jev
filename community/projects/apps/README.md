@@ -188,6 +188,16 @@ Hybrid movie recommender: FAISS + BM25 shortlist ~4,800 films, then TypeSafe Jev
 
 [Full Jevflix guide](jevflix.md) · [Source](https://github.com/ArielBubis/Jevflix)
 
+### Jev Inbox Queue
+
+`Open source` · `Free source build` · `BYOK`
+
+Local inbox action queue: TypeSafe Jev answers seven typed questions per email thread; plain Python policy decides To do / Check these / Filtered out.
+
+**Access:** clone the [MIT source](https://github.com/tusharck/jev-inbox-queue) (Python 3.10+, uv) with `TYPESAFE_API_KEY`; optional Gmail IMAP app password. No app purchase fee; TypeSafe usage is separate. Source inspected; live demo/IMAP/Jev not run on the review host. Distinct from Jevmail.
+
+[Full Jev Inbox Queue guide](jev-inbox-queue.md) · [Source](https://github.com/tusharck/jev-inbox-queue)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
