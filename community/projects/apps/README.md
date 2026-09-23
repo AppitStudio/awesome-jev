@@ -566,6 +566,16 @@ Collapse posts that match English rules you wrote; TypeSafe Jev via OpenRouter D
 
 [Full Polymorph guide](polymorph.md) · [Source](https://github.com/moomooskycow/polymorph)
 
+### Regret Check
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension + local FastAPI server that pauses commit-like clicks when TypeSafe Jev (OpenRouter) scores high regret risk.
+
+**Access:** run the [MIT source](https://github.com/danilocecilia/sleep-on-it) server (`uvicorn` :8001) with an OpenRouter key as `TYPESAFE_API_KEY`, then Load unpacked `extension/`. No app purchase fee; provider usage is separate. Keep keys on the server only. Source inspected; Chrome/live scoring not run on the review host.
+
+[Full Regret Check guide](regret-check.md) · [Source](https://github.com/danilocecilia/sleep-on-it)
+
 ### Smart Paste
 
 `Open source` · `Free source build` · `BYOK`
