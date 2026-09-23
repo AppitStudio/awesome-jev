@@ -152,6 +152,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-gateway](jev-gateway.md) | Let Jev choose each tool call for Codex, Claude Code, OpenCode, or Gemini through a local LLM gateway. | TypeScript · npm launchers and dashboard |
 | [jev-gates](jev-gates.md) | Compose three-valued TRUE/FALSE/UNKNOWN circuits from TypeSafe Jev judgments plus exact rules (auditable traces). | TypeScript · library/CLI (`jev-gates` 0.1.0) |
 | [jev-harness](jev-harness.md) | Map TypeSafe Jev answers to actions with confidence gates, shadow mode, recipes, and an eval CLI. | TypeScript · npm library/CLI (`jev-harness` 0.1.0) |
+| [jev-harness (TypeSafeAI)](typesafeai-jev-harness.md) | Research proposal-review contract: LLM proposes, Jev answers four narrow questions, code emits host evidence (distinct from AntonioCoppe/jev-harness). | TypeScript · source-only (`jev-harness` 0.0.0, MIT) |
 | [jev-guard](jev-guard.md) | Risk-score coding-agent tool calls with TypeSafe Jev (deny/ask/allow), flag injection in results, and scan skills across many agents. | Node.js · npm CLI/hooks (`jev-guard` 0.3.1) |
 | [JevGuard](jevguard.md) | Enforce CLAUDE.md/AGENTS.md-derived rules on Claude Code/Codex via TypeSafe Jev PreToolUse/Stop hooks (distinct from jev-guard risk firewall). | TypeScript · Claude/Codex plugin (`jevguard` 0.1.0) |
 | [jev-in-codex](jev-in-codex.md) | Rank Codex capabilities, search hits, and output excerpts with TypeSafe Jev via local MCP. | TypeScript · MCP server + Codex plugin (0.1.0) |
