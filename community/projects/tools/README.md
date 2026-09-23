@@ -139,6 +139,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-agent-failure-benchmark](jev-agent-failure-benchmark.md) | Score TypeSafe Jev on Who&When Pro text traces for responsible agent, step, and error type; compare to paper LLMs. | Python · CLI (`jevbench`, Apache-2.0) |
 | [jev-agent-kit](jev-agent-kit.md) | Zero-dependency CLI + MCP tools (check/choose/score/judge/route/triage/guard/grep/rank/compact) on TypeSafe Jev — distinct from the Rust jevkit CLI. | Node.js ≥ 18 · npm (`@walidboulanouar/jevkit` 0.2.0) |
 | [jev-align](jev-align.md) | Build calibrated classifiers/AI Functions from human feedback with TypeSafe Jev + GEPA (`jeva`). | Python · CLI (`jev-align` / `jeva`) |
+| [jev-backend-qa](jev-backend-qa.md) | Audit backend surfaces then PAL/Jev risk adjudication to BLOCK/WARN/PASS (CLI + Action). | Python · CLI/Action + Node bridge (MIT) |
 | [jev-blindspot](jev-blindspot.md) | Claude Code / Codex side panel: Jev gate then optional blind-spot analysis without editing the session. | TypeScript · npm CLI/hooks (MIT) |
 | [jev-calibrate](jev-calibrate.md) | Calibrate Jev questions against labelled examples; per-question gate/ranker/unusable verdicts. | TypeScript · npm CLI (`jev-calibrate` 0.1.11) |
 | [jev-certify](jev-certify.md) | Turn Jev probabilities into conformal routing certificates and PPI audits (offline math + OpenRouter Decisions client). | Python · CLI/library (`jev-certify` 0.1.0) |
