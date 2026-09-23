@@ -214,6 +214,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevScope](jevscope.md) | Edit Jev projects visually, batch JSONL regression cases, and compare definitions locally. | TypeScript · Studio + local API (pnpm) |
 | [jevseek](jevseek.md) | Let DeepSeek propose tokens and TypeSafe Jev (OpenRouter System One) choose the next one. | Python ≥ 3.11 · CLI (`jevseek` 0.1.0) |
 | [JevShield](jevshield.md) | Wrap Python/LangChain tool calls with a TypeSafe Jev dual-factor risk gate and keyless local heuristic fallback. | Python · library/PyPI (`jevshield`, Apache-2.0) |
+| [jevskillz](jevskillz.md) | Calibrated multi-phrasing Jev checks (claims/tests/AC/triage) as Claude Code skills + CLI. | JavaScript · CLI + skills (MIT) |
 | [JevTape](jevtape.md) | Record and replay TypeSafe Jev HTTP decisions from JSON cassettes with contract fingerprint misses. | Java 21 · Maven CLI (`jevtape` 0.5.0) |
 | [jevtok](jevtok.md) | Count Jev tokens and estimate billed request input_tokens offline before calling TypeSafe. | Python · library/CLI (`jevtok` 0.1.0) |
 | [JevTree (Chuf-H)](chuf-h-jev-tree.md) | Probability tree/graph runtime: compose TypeSafe Jev action probs into path mass and Pareto picks (distinct from taxonomy jev-tree). | Python · CLI/library (`jev-tree` 0.1.0, Apache-2.0) |
