@@ -121,6 +121,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [opencode-jev-router](opencode-jev-router.md) | OpenCode Responses proxy: TypeSafe Jev selects reasoning effort for Astra/Luna/Sol with cache lineage. | Node.js 24 · npm CLI (`@robertn702/opencode-jev-router` 0.1.0, MIT) |
 | [PerfectRecall](perfectrecall.md) | Hermes/Python agent memory: TypeSafe/OpenRouter Jev evidence questions over local SQLite (Mnemosyne-compatible; no embeddings). | Python · Hermes provider + library |
+| [Pi Adaptive Effort Router (XDeviation)](xdeviation-pi-jev-router.md) | Change Pi thinking level only with TypeSafe Jev (not the model); distinct from philippdubach pi-jev-router. | TypeScript · Pi extension (`pi-jev-router` 0.2.0, MIT) |
 | [prompt2jev](prompt2jev.md) | Convert natural language, an LLM prompt, or prompt-running code into a TypeSafe Jev decision package. | Python · agent skill + stdlib CLI |
 | [pytest-jev](pytest-jev.md) | Semantic pytest assertions (holds/lacks/choice/score) judged by TypeSafe Jev via typesafe-sdk. | Python · pytest plugin (`pytest-jev` 0.1.0) |
 | [is-malicious](is-malicious.md) | Scan a codebase for deceptive or data-stealing behavior with TypeSafe Jev file/line findings. | TypeScript · npm CLI (`is-malicious` 0.1.0) |
