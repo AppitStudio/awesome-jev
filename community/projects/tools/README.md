@@ -34,6 +34,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-ra](jev-ra.md) | Drive Chrome from Claude Code/Codex/MCP with TypeSafe Jev choosing each operation and target. | Python · MCP server, CLI and PyPI (`jev-ra` 0.1.1) |
 | [Jev Voice Browser](jev-voice-browser.md) | Study partial speech, target disambiguation, and browser actions with an inspectable decision policy. | JavaScript · Playwright voice-control reference |
 | [Jev-cu](jev-cu.md) | Study experimental Jev decisions over macOS Accessibility text in Codex; review the execution-policy limitations before use. | JavaScript · Codex skill and runtime |
+| [jev-dom](jev-dom.md) | Drive any web page via DOM action space with TypeSafe Jev—no WebMCP required (Playwright peer). | TypeScript · research package (`jev-dom` 0.1.0, Apache-2.0) |
 | [jev-macos-loop](jev-macos-loop.md) | Automate native macOS GUI apps with local OmniParser/Vision perception and text-only Jev action choice. | TypeScript/Node · Apple silicon CLI |
 | [jev-android](jev-android.md) | Drive Android UI via accessibility with TypeSafe Jev or DeepSeek action choice (Kotlin SDK + sample). | Kotlin · Android SDK (`core`/`sdk`/`sample` 0.2.0) |
 | [jevdevice](jevdevice.md) | MCP harness for Android (adb) or local shell: TypeSafe Jev (or local Laya) picks one runtime-discovered target per goal; code gates and executes. | Python · MCP server (`jevdevice` 0.1.0) |
@@ -114,6 +115,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-sec-bench](jev-sec-bench.md) | Run or browse blind TypeSafe Jev prompt-injection and vulnerable-code benchmarks (jev-go + results TUI). | Go · CLI/TUI |
 | [J++](jpp.md) | Experimental language/Rust runtime composing Jev questions with exact methods; offline fixtures and Towow demos. | Rust · `jpp-cli` + Python reference |
 | [JMP](jmp.md) | Local coding workspace: TypeSafe Jev picks the next tool action; DeepSeek/Codex/Bonsai supply arguments; OpenHands/MCP execute. | Python · desktop (pywebview) + CLI (MIT) |
+| [jeveloper](jeveloper.md) | Claude Code System-1 reflex layer: TypeSafe Jev route/gate/verify/done plus optional driver mode. | Claude Code plugin (`jeveloper` 0.2.0, MIT) |
 | [JCR](jcr.md) | Resolve deterministic commands from a nested capability tree with TypeSafe Jev (MCP + Claude/Codex harnesses). | TypeScript · resolver, MCP and harnesses (`jcr` 1.0.0) |
 | [jev-align](jev-align.md) | Build calibrated classifiers/AI Functions from human feedback with TypeSafe Jev + GEPA (`jeva`). | Python · CLI (`jev-align` / `jeva`) |
 | [Jev Atlas](jev-atlas.md) | Map a repo’s semantic decisions, reject weak Jev fits with published gates, then validate/implement survivors from `.jev-atlas/` state. | Agent skill + Claude/Codex plugin (`jev-atlas` 0.2.0) |
