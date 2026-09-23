@@ -234,6 +234,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [omp-jev-compaction](omp-jev-compaction.md) | Reduce omp tool context with sticky TypeSafe/OpenRouter Jev scores while keeping retained text verbatim. | TypeScript · omp plugin (`omp-jev-compaction` 0.1.0) |
 | [Open Jev Bridge](open-jev-bridge.md) | Zero-dep Node MCP + Claude/Codex hooks bridging hosted Jev or local Kev/Laya System One (compaction + completion gates). | Node.js · CLI/MCP (`open-jev-bridge` 0.3.0, MIT) |
 | [openclaw-typesafe-ai](openclaw-typesafe-ai.md) | Add an optional OpenClaw `typesafe_decide` tool for explicit TypeSafe Jev judgments without lifecycle hooks. | TypeScript · OpenClaw plugin (`openclaw-typesafe-ai` 0.1.3) |
+| [OpenCode Security Guard](opencode-security-guard.md) | Linux OpenCode shell guard: local read-only check + Jev Noul ≥0.90 auto-allow. | TypeScript · OpenCode plugin (MIT) |
 | [opencode-jev-guard](opencode-jev-guard.md) | OpenCode 2 plugin: TypeSafe Jev triages every local/FarHand shell command before run. | TypeScript · OpenCode plugin (`opencode-jev-guard` 0.1.0, MIT) |
 | [opencode-jev-router](opencode-jev-router.md) | OpenCode Responses proxy: TypeSafe Jev selects reasoning effort for Astra/Luna/Sol with cache lineage. | Node.js 24 · npm CLI (`@robertn702/opencode-jev-router` 0.1.0, MIT) |
 | [opencode-smart-reasoning](opencode-smart-reasoning.md) | Route OpenCode per-request reasoning effort with TypeSafe Jev via Zen SystemOne (fail-open). | TypeScript · OpenCode plugin (`opencode-smart-reasoning` 0.2.0) |
