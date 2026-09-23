@@ -337,6 +337,7 @@ These projects study related typed-decision patterns using other models. They ar
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [Agent Seek](agent-seek.md) | Cheap web recall for agents: You.com discover + TypeSafe Jev cascade ranking (REST/MCP/UI). Does not write answers. | Python 3.12+ · FastAPI/MCP (`agentseek.dev` demo) |
 | [blink](blink.md) | Search a local codebase with TypeSafe Jev via ensemble directory walkers that Choice-pick the next file or folder. | Bun · CLI (`./blink`); license unspecified |
 | [duckdb-jev](duckdb-jev.md) | Run TypeSafe Jev Noul/Choice/Score predicates natively inside DuckDB SQL (C++ extension; no Python UDF). | C++ · DuckDB extension (Apache-2.0) |
 | [jegrep](jegrep.md) | Find code by natural-language intent using TypeSafe Jev (or OpenRouter→Jev) without embeddings. | Rust · CLI (`jegrep`) and release binaries |
