@@ -196,6 +196,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-tree](jev-tree.md) | Recursive TypeSafe Jev Choice over a JSON taxonomy when a flat list exceeds the 255-option cap. | TypeScript · npm (`jev-tree` 0.1.0) |
 | [jev-triage](jev-triage.md) | GitHub Action: label issues with TypeSafe/Cloudflare Jev typed answers; low confidence escalates to needs-human. | TypeScript · Action (`cmaintz/jev-triage@v0`, MIT) |
 | [jev-use (shitianfang)](jev-use.md) | Route the no-text steps of a Claude Code, Codex or pi loop to Jev, with an opt-in PreToolUse gate and typed handbacks to the LLM. | TypeScript · MCP server, CLI and agent plugin |
+| [jev-verify (stillmarcus24)](stillmarcus-jev-verify.md) | Audit published Jev answers against the Yurin confidence identity; flag fixture violations. | JavaScript · CLI (MIT) |
 | [jeval](jeval.md) | Measure classifier confidence calibration and set cost-optimal human hand-off thresholds (Jev-motivated, provider-neutral). | Python · CLI (`jeval` 0.1.0, Apache-2.0) |
 | [jevals](jevals.md) | Author and run TypeSafe Jev Noul/Choice/Score evaluations locally; compare saved results in a browser workbench. | TypeScript · local server/UI (`jevals` 0.1.1) |
 | [Jevals.com](jevals-com.md) | Hosted independent Jev vs LLM boards (accuracy/calibration/cost/latency); open data, private harness (distinct from local jevals). | Hosted boards + [jevals-data](https://github.com/Jevals/jevals-data) (CC BY 4.0) |
