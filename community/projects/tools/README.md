@@ -323,54 +323,55 @@ These projects study related typed-decision patterns using other models. They ar
 | [Advocaat](advocaat.md) | Batch typed Jev choice, score, and yes/no questions about structured data from TypeScript. | TypeScript · client library and agent skill |
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
 | [go-jev](go-jev.md) | Call TypeSafe Jev from Go (Ask/Evaluate) and UNIX pipelines via jev-cli; explicit API key option. | Go · module + CLI (`github.com/mattn/go-jev`, MIT) |
+| [hono-jev-router](hono-jev-router.md) | Route Hono HTTP requests by plain-English meaning with TypeSafe Jev Noul judgments (experimental). | TypeScript · Hono router (`hono-jev-router`) |
+| [hunch](hunch.md) | Call TypeSafe Jev classify/score/check/pick/rank/where over scalars, lists, and pandas columns (`hunch-jev`). | Python · PyPI library (`hunch-jev` 0.6.0) |
+| [jear](jear.md) | Route NEAR AI Cloud / IronClaw choices by budget, quality, and sensitivity using TypeSafe Jev structured decisions. | Rust · CLI/library (`jear` 0.1.0) |
+| [jev (okooo5km)](okooo5km-jev.md) | Stdlib Python CLI + Agent Skill for TypeSafe Jev yes/pick/score via TypeSafe API or OpenRouter (distinct from typesafe-cli / typesafeai-cli). | Python · CLI 0.3.2 + skill |
 | [Jev Classification for n8n](jev-classification-n8n.md) | Route workflow items with typed Jev decisions, configurable review handling, and multi-item batching. | TypeScript · self-hosted n8n community node |
+| [Jev MCP (Freepik)](freepik-jev-mcp.md) | Go MCP server for typed decide/classify/verify/rerank via OpenRouter or TypeSafe (binary/container). | Go · MCP binary (`jev-mcp` v0.3.0) |
+| [Jev Studio](jev-studio.md) | Experiment with TypeSafe Jev via a `jev` CLI (verify/screen/classify/…) and an MCP server with cookbook tools. | Python · CLI + MCP (`jev-studio` 0.1.0 Alpha) |
+| [Jev Symfony Bundle](jev-symfony-bundle.md) | Wire TypeSafe Jev into Symfony via typed client, validator attributes, Messenger, Workflow guards, and profiler. | PHP · Symfony bundle (Apache-2.0) |
+| [jev-cli (tumf)](tumf-jev-cli.md) | Ask TypeSafe Jev noul/choice/score from a PyPI CLI plus bundled stdio MCP (`jev` / `jev-mcp`). | Python · PyPI CLI/MCP (`jev-cli` 0.6.2) |
 | [jev-feels](jev-feels.md) | Use TypeSafe Jev as Ruby `feels?` / `decide` / `score` and Rails validations (distinct from BAML feelings). | Ruby · gem (`jev-feels` 1.1.0) |
 | [jev-foundation-models](jev-foundation-models.md) | Use TypeSafe Jev as an Apple Foundation Models `LanguageModel` for `@Generable` Bool/enum/score fields. | Swift 6 · SwiftPM (`JevFoundationModels` 0.1.0, Apache-2.0) |
+| [jev-java](jev-java.md) | Call TypeSafe Jev (or OpenRouter/Vercel adapters) from Java 17+ with typed Choice/Noul/Score and optional Spring. | Java · Maven (`jev-typesafe` 0.1.1) |
+| [jev-mcp](jev-mcp.md) | Give agents ten purpose-built TypeSafe Jev judgment MCP tools (verify, screen, find, classify, review, gate, …). | TypeScript · npm MCP server (`@jkudish/jev-mcp`) |
+| [jev-mcp-server](jev-mcp-server.md) | MCP for official TypeSafe Jev choice/score/noul plus compare/verify/batch classify and client installer. | Python · PyPI MCP (`jev-mcp-server` 0.2.3) |
 | [jev-prompt-sentry](jev-prompt-sentry.md) | Reverse-proxy Anthropic Messages through one batched TypeSafe Jev jailbreak/injection/exfil screen (PolyForm Noncommercial). | Python · FastAPI proxy |
-| [Prompt Rejector](prompt-rejector.md) | Screen prompts, skills, and MCP tool descriptions via HTTPS/MCP with TypeSafe Jev plus deterministic checks. | TypeScript · npm (`prompt-rejector` 1.2.0, ISC) |
+| [jev-recipes](jev-recipes.md) | 66 TypeScript recipes for TypeSafe Jev decisions (rerank/verify/clarify/route/…) via `@typesafe-ai/sdk`. | TypeScript · npm (`jev-recipes` 0.2.0) |
+| [jev-sdk-java](jev-sdk-java.md) | Call System One from Java 21 with sealed Question/Answer records (TypeSafe-only; source-build until Central lists 0.1.0). | Java 21 · Maven (`com.luigivismara:jev-sdk-java`) |
+| [jev2mcp](jev2mcp.md) | Local companion + Chrome extension: TypeSafe Jev selects ChatGPT MCP/plugin/tool mentions from your catalog. | Node.js · local server + extension (`jev2mcp` 0.2.1) |
+| [jev4k](jev4k.md) | Declare TypeSafe Jev Noul/Choice/Score questions in a Kotlin DSL and read typed answers. | Kotlin · Maven (`com.pambrose:jev4k` 0.1.0) |
+| [JevApi](jevapi.md) | .NET 10 TypeSafe.Client + MCP server for typed noul/choice/score evaluate/batch. | C# · .NET library + MCP (MIT) |
+| [JevClient.jl](jevclient-jl.md) | Call System One from Julia with Noul/Choice/Score sets and endpoint policy locks to api.typesafe.ai. | Julia · package (`JevClient` 0.1.0) |
+| [jevframe](jevframe.md) | Classify/score pandas and Polars rows with TypeSafe Jev via a `.jev` accessor and full probability columns. | Python · PyPI (`jevframe` 0.1.0; pandas/polars extras) |
+| [jevgo](jevgo.md) | Call TypeSafe System One from Go with typed Noul/Choice/Score (unofficial stdlib client). | Go · module (`github.com/devbackend/jevgo`) |
+| [jevonian](jevonian.md) | Local OpenAI/Anthropic/Responses proxy: one Jev call picks the model and the thinking level after code has filtered candidates; pinned models skip Jev. | Node.js ≥ 22 · CLI and local server (`jevonian` 0.0.1, AGPL-3.0-only) |
+| [jevper](jevper.md) | Jev-shaped System One noul/choice/score over any OpenAI-compatible client (no hosted TypeSafe API). | Python · PyPI (`jevper` 0.1.2, Apache-2.0) |
+| [Jevs](jevs.md) | Call TypeSafe Jev classify/score/check/batch from Bun MCP / Codex plugin via the official JS SDK. | TypeScript · Bun MCP / Codex plugin (`jevs` 0.1.0) |
+| [Klassify](klassify.md) | Kotlin Multiplatform DSL/SDK and Native CLI/MCP for TypeSafe System One classification (distinct from jev4k). | Kotlin · KMP SDK + Native CLI (`klassify` v0.1.1, Apache-2.0) |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
-| [Jev Symfony Bundle](jev-symfony-bundle.md) | Wire TypeSafe Jev into Symfony via typed client, validator attributes, Messenger, Workflow guards, and profiler. | PHP · Symfony bundle (Apache-2.0) |
+| [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
 | [n8n-nodes-typesafe](n8n-nodes-typesafe.md) | Ask TypeSafe Jev noul/choice/score questions about workflow text or JSON inside n8n. | TypeScript · n8n community node |
 | [NeuroLink](neurolink.md) | Call generate/stream across many providers and use TypeSafe Jev `decide` for typed boolean/choice/score judgments. | TypeScript · SDK/CLI (`@juspay/neurolink`) |
 | [nf-jev](nf-jev.md) | Call TypeSafe Jev noul/choice/score from Nextflow pipelines and gate on returned probabilities. | Groovy · Nextflow plugin (`nf-jev` 0.1.0, Apache-2.0) |
+| [Prompt Rejector](prompt-rejector.md) | Screen prompts, skills, and MCP tool descriptions via HTTPS/MCP with TypeSafe Jev plus deterministic checks. | TypeScript · npm (`prompt-rejector` 1.2.0, ISC) |
 | [ruby_decision_model](ruby-decision-model.md) | Ask Noul, Choice, and Score questions from Ruby via Typesafe or OpenRouter. | Ruby · gem (stdlib HTTP) |
 | [s1 (s1-rs)](s1-rs.md) | Derive Choice/Score/Noul question sets in Rust; optional `typesafe-rs` backend (distinct from typesafe-api). | Rust · workspace crates (`s1` 0.1.0, MSRV 1.85) |
-| [hono-jev-router](hono-jev-router.md) | Route Hono HTTP requests by plain-English meaning with TypeSafe Jev Noul judgments (experimental). | TypeScript · Hono router (`hono-jev-router`) |
-| [hunch](hunch.md) | Call TypeSafe Jev classify/score/check/pick/rank/where over scalars, lists, and pandas columns (`hunch-jev`). | Python · PyPI library (`hunch-jev` 0.6.0) |
-| [jevframe](jevframe.md) | Classify/score pandas and Polars rows with TypeSafe Jev via a `.jev` accessor and full probability columns. | Python · PyPI (`jevframe` 0.1.0; pandas/polars extras) |
-| [semgate](semgate.md) | Filter and route Go HTTP requests with TypeSafe Jev noul/choice/score middlewares. | Go · net/http middleware |
-| [jear](jear.md) | Route NEAR AI Cloud / IronClaw choices by budget, quality, and sensitivity using TypeSafe Jev structured decisions. | Rust · CLI/library (`jear` 0.1.0) |
-| [jev-java](jev-java.md) | Call TypeSafe Jev (or OpenRouter/Vercel adapters) from Java 17+ with typed Choice/Noul/Score and optional Spring. | Java · Maven (`jev-typesafe` 0.1.1) |
-| [jev-sdk-java](jev-sdk-java.md) | Call System One from Java 21 with sealed Question/Answer records (TypeSafe-only; source-build until Central lists 0.1.0). | Java 21 · Maven (`com.luigivismara:jev-sdk-java`) |
 | [scala-jev-sdk](scala-jev-sdk.md) | Call System One from Scala 3.3 LTS with typed Question/answer lookup over an sttp 4 backend (Maven Central). | Scala 3 · Maven (`io.github.ticofab:scala-jev-sdk_3` 0.1.0, Apache-2.0) |
-| [jevonian](jevonian.md) | Local OpenAI/Anthropic/Responses proxy: one Jev call picks the model and the thinking level after code has filtered candidates; pinned models skip Jev. | Node.js ≥ 22 · CLI and local server (`jevonian` 0.0.1, AGPL-3.0-only) |
-| [jev4k](jev4k.md) | Declare TypeSafe Jev Noul/Choice/Score questions in a Kotlin DSL and read typed answers. | Kotlin · Maven (`com.pambrose:jev4k` 0.1.0) |
-| [Klassify](klassify.md) | Kotlin Multiplatform DSL/SDK and Native CLI/MCP for TypeSafe System One classification (distinct from jev4k). | Kotlin · KMP SDK + Native CLI (`klassify` v0.1.1, Apache-2.0) |
-| [JevClient.jl](jevclient-jl.md) | Call System One from Julia with Noul/Choice/Score sets and endpoint policy locks to api.typesafe.ai. | Julia · package (`JevClient` 0.1.0) |
-| [jevgo](jevgo.md) | Call TypeSafe System One from Go with typed Noul/Choice/Score (unofficial stdlib client). | Go · module (`github.com/devbackend/jevgo`) |
-| [jev-recipes](jev-recipes.md) | 66 TypeScript recipes for TypeSafe Jev decisions (rerank/verify/clarify/route/…) via `@typesafe-ai/sdk`. | TypeScript · npm (`jev-recipes` 0.2.0) |
-| [jev-mcp](jev-mcp.md) | Give agents ten purpose-built TypeSafe Jev judgment MCP tools (verify, screen, find, classify, review, gate, …). | TypeScript · npm MCP server (`@jkudish/jev-mcp`) |
-| [jev-mcp-server](jev-mcp-server.md) | MCP for official TypeSafe Jev choice/score/noul plus compare/verify/batch classify and client installer. | Python · PyPI MCP (`jev-mcp-server` 0.2.3) |
-| [jev2mcp](jev2mcp.md) | Local companion + Chrome extension: TypeSafe Jev selects ChatGPT MCP/plugin/tool mentions from your catalog. | Node.js · local server + extension (`jev2mcp` 0.2.1) |
-| [jevper](jevper.md) | Jev-shaped System One noul/choice/score over any OpenAI-compatible client (no hosted TypeSafe API). | Python · PyPI (`jevper` 0.1.2, Apache-2.0) |
-| [Jevs](jevs.md) | Call TypeSafe Jev classify/score/check/batch from Bun MCP / Codex plugin via the official JS SDK. | TypeScript · Bun MCP / Codex plugin (`jevs` 0.1.0) |
-| [Jev MCP (Freepik)](freepik-jev-mcp.md) | Go MCP server for typed decide/classify/verify/rerank via OpenRouter or TypeSafe (binary/container). | Go · MCP binary (`jev-mcp` v0.3.0) |
-| [Jev Studio](jev-studio.md) | Experiment with TypeSafe Jev via a `jev` CLI (verify/screen/classify/…) and an MCP server with cookbook tools. | Python · CLI + MCP (`jev-studio` 0.1.0 Alpha) |
-| [swift-jev](swift-jev.md) | Call TypeSafe Jev Choice/Noul/Score from SwiftPM apps or a JSON CLI (`jev`); no free-form generation. Distinct from TypeSafe (Swift). | Swift 6.2 · SwiftPM library (`Jev`) + CLI |
-| [TypeSafe MCP](typesafe-mcp.md) | Give agents a general-purpose Jev evaluation tool with raw provider responses. | Go · MCP server and pi extension |
-| [TypeSafe-as-a-Judge](typesafe-as-a-judge.md) | Give Codex/Claude Code bounded TypeSafe Jev route/rank/extract/verify/judge MCP tools (unofficial). | Node.js · MCP plugin + skills (`0.1.0`) |
-| [TypeSafe AI for Agent Zero](a0-typesafe-ai.md) | Ask TypeSafe Jev Choice/Noul/Score from Agent Zero chat with probability cards; bundles the official agent skill. | Python · Agent Zero plugin (`typesafe_ai` 1.0.0) |
+| [semgate](semgate.md) | Filter and route Go HTTP requests with TypeSafe Jev noul/choice/score middlewares. | Go · net/http middleware |
 | [Spring AI TypeSafe](spring-ai-typesafe.md) | Call System One from Java/Spring AI (client, JevJudge, guardrail/RAG/tool-search advisors). | Java · Maven (`org.springaicommunity`, 0.1.0) |
-| [TypeSafe Go](typesafe-go.md) | Call System One from Go with explicit auth options and no implicit env reads (Stacklok; unofficial). | Go · module (`github.com/stacklok/typesafe-go`) |
+| [swift-jev](swift-jev.md) | Call TypeSafe Jev Choice/Noul/Score from SwiftPM apps or a JSON CLI (`jev`); no free-form generation. Distinct from TypeSafe (Swift). | Swift 6.2 · SwiftPM library (`Jev`) + CLI |
 | [TypeSafe (Swift)](typesafe-swift.md) | Call System One Noul/Choice/Score from SwiftPM apps and servers. | Swift · SwiftPM library (`TypeSafe`) |
-| [jev (okooo5km)](okooo5km-jev.md) | Stdlib Python CLI + Agent Skill for TypeSafe Jev yes/pick/score via TypeSafe API or OpenRouter (distinct from typesafe-cli / typesafeai-cli). | Python · CLI 0.3.2 + skill |
-| [jev-cli (tumf)](tumf-jev-cli.md) | Ask TypeSafe Jev noul/choice/score from a PyPI CLI plus bundled stdio MCP (`jev` / `jev-mcp`). | Python · PyPI CLI/MCP (`jev-cli` 0.6.2) |
-| [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
-| [typesafe-cli](typesafe-cli.md) | Ask Jev noul/choice/score questions from the shell (`jev`); answers are numbers, not prose. | TypeScript · npm CLI / Nix |
+| [TypeSafe AI for Agent Zero](a0-typesafe-ai.md) | Ask TypeSafe Jev Choice/Noul/Score from Agent Zero chat with probability cards; bundles the official agent skill. | Python · Agent Zero plugin (`typesafe_ai` 1.0.0) |
+| [TypeSafe Go](typesafe-go.md) | Call System One from Go with explicit auth options and no implicit env reads (Stacklok; unofficial). | Go · module (`github.com/stacklok/typesafe-go`) |
+| [TypeSafe MCP](typesafe-mcp.md) | Give agents a general-purpose Jev evaluation tool with raw provider responses. | Go · MCP server and pi extension |
 | [typesafe-api (Rust)](typesafe-api-rs.md) | Call System One from Rust with typed questions/answers (`typesafe-api` 0.1.0, MSRV 1.88). | Rust · crates.io client |
+| [TypeSafe-as-a-Judge](typesafe-as-a-judge.md) | Give Codex/Claude Code bounded TypeSafe Jev route/rank/extract/verify/judge MCP tools (unofficial). | Node.js · MCP plugin + skills (`0.1.0`) |
+| [typesafe-cli](typesafe-cli.md) | Ask Jev noul/choice/score questions from the shell (`jev`); answers are numbers, not prose. | TypeScript · npm CLI / Nix |
+| [TypeSafe.AI (.NET SDK)](typesafe-sdk-csharp.md) | Call System One from .NET with DI, resilience, and OTel (NuGet TypeSafe.AI; distinct from TypeSafeAI.Net). | C# · NuGet client (`TypeSafe.AI` v1.0.0) |
 | [typesafeai-cli](typesafeai-cli.md) | Run TypeSafe Jev ask/decide/screen/verify flows from a Python `typesafe` CLI for humans or agents. | Python · CLI (`typesafe`) |
 | [TypeSafeAI.Net](typesafeai-net.md) | Add typed Jev judgments to .NET applications and Microsoft.Extensions.AI pipelines. | C# · client library |
-| [TypeSafe.AI (.NET SDK)](typesafe-sdk-csharp.md) | Call System One from .NET with DI, resilience, and OTel (NuGet TypeSafe.AI; distinct from TypeSafeAI.Net). | C# · NuGet client (`TypeSafe.AI` v1.0.0) |
 
 ## Search and retrieval
 
