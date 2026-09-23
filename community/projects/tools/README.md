@@ -224,7 +224,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [wellposed](wellposed.md) | Lint TypeSafe Jev requests for broken paths, missing Choice escape hatches, and other structural smells before calling the API. | TypeScript · npm CLI (`wellposed` 0.4.0, zero deps) |
 | [SemDecide](semdecide.md) | Run TypeSafe Jev predicates, routes, scores, and JSONL filters as Unix CLI exit codes for pipelines and CI. | Python · CLI (`semdecide` 0.2.1) |
 | [semantic-assert](semantic-assert.md) | Assert plain-English claims about UI/text state with TypeSafe Jev (Playwright helpers; thresholds in code). | TypeScript · npm packages + Playwright adapter |
-| [similarity-ts-jev](similarity-ts-jev.md) | Run similarity-ts + fallow on TypeScript, then filter pairs with TypeSafe Jev down to refactor-worthy families. | TypeScript · npm CLI (`@kongyo2/similarity-ts-jev` 0.1.0) |
+| [similarity-ts-jev](similarity-ts-jev.md) | Run similarity-ts + fallow on TypeScript, keep only the pairs TypeSafe Jev judges worth merging (with copy/derive/extract shape), and calibrate the cutoff. | TypeScript · npm CLI/library (`@kongyo2/similarity-ts-jev` 0.2.0, MIT) |
 | [Skill Dash](skill-dash.md) | Judge Claude Code/Codex skills with TypeSafe Jev (usefulness/redundancy/clarity/action) in a local dashboard. | Python · stdlib loopback server + SQLite |
 | [SkillRanker](skillranker.md) | Rank which agent skills fit the next step from live session context using Jev wide/re-rank stages. | Rust · CLI (`sr`), hooks and TUI |
 | [Skillbox](skillbox.md) | Share versioned agent skills and use optional Jev scores to recommend authorized skills for a task. | TypeScript / Bun / PostgreSQL · skill library, MCP and CLI |
