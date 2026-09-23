@@ -23,23 +23,24 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | --- | --- | --- |
 | [agent-desktop](agent-desktop.md) | Drive macOS apps via accessibility refs; optional jev-desktop skill/scripts ask TypeSafe Jev for target/command without putting the a11y tree in agent context (CLI works without Jev). | Rust · CLI/npm (`agent-desktop` 0.9.2) + Node jev scripts |
 | [Cua jev-use](cua-jev-use.md) | Compose a bounded chooser with Driver and independent fixture verification. | Python / TypeScript · integration recipe |
+| [CUA-JEV (ZJU-REAL)](cua-jev-zju.md) | Constrained computer-use loop: Jev selects typed action×channel candidates with guards and verifiers. | Python · framework (Apache-2.0) |
 | [Footwork](footwork.md) | Dual-process browser agent: TypeSafe Jev as System 1 in front of browser-use System 2, with a code-owned arbiter and evidence verification. | Python/Rust · package (`jevdual` 0.0.1) |
 | [gpui-agent](gpui-agent.md) | Drive instrumented GPUI apps via accessibility: TypeSafe Jev chooses typed actions/targets (no screenshots to the model). | Rust/Python/TypeScript · experimental native toolkit |
 | [Jev Browser (openqa-cn)](openqa-jev-browser.md) | Indexed Playwright automation: TypeSafe Jev chooses control/op; replay, generate, explore, HTML reports (CodexQA skill). | TypeScript · CLI (`codexqa-jev-browser` 0.1.0, MIT) |
 | [Jev Browser (tontoko)](jev-browser-tontoko.md) | Fill forms, extract records with evidence, and add semantic selection to Playwright tests. | TypeScript · SDK, CLI and MCP |
 | [Jev Browser (Ying-Kai-Liao)](jev-browser-ying-kai-liao.md) | Run small browser goals with Jev action/target selection and direct inspection; page data and supplied values reach TypeSafe. | JavaScript · Playwright library, CLI and MCP |
 | [Jev Browser Skill](jev-browser-skill.md) | Learn a minimal Jev-driven browser loop as a Claude Code/Codex skill (reference; see Ultrafast for fuller agents). | Agent skill + CDP scripts (`scripts/*.mjs`); explainer site |
-| [jev-browser-skill (hqman)](hqman-jev-browser-skill.md) | Playwright Chromium skill/`jb` CLI: Jev chooses in-page actions (Gateway or TypeSafe); distinct from zurfyx teaching skill. | Node.js ≥ 22.18 · skill + CLI (`jb`, Apache-2.0) |
-| [JevOnly](jevonly.md) | Drive a browser with pure Jev choices over code-built options—no planner or helper LLM. | Python · CLI, local viewer and Playwright |
-| [jevnav](jevnav.md) | Automate browsers with Jev element choice, JSONL traces, risk gates, and offline CI replay. | Python · CLI/PyPI (`jevnav` 0.1.0, Apache-2.0) |
 | [Jev Ultrafast](jev-ultrafast.md) | Select browser operations and targets from the current page. | Python · browser agent and inspector |
-| [jev-ra](jev-ra.md) | Drive Chrome from Claude Code/Codex/MCP with TypeSafe Jev choosing each operation and target. | Python · MCP server, CLI and PyPI (`jev-ra` 0.1.1) |
 | [Jev Voice Browser](jev-voice-browser.md) | Study partial speech, target disambiguation, and browser actions with an inspectable decision policy. | JavaScript · Playwright voice-control reference |
+| [jev-android](jev-android.md) | Drive Android UI via accessibility with TypeSafe Jev or DeepSeek action choice (Kotlin SDK + sample). | Kotlin · Android SDK (`core`/`sdk`/`sample` 0.2.0) |
+| [jev-browser-skill (hqman)](hqman-jev-browser-skill.md) | Playwright Chromium skill/`jb` CLI: Jev chooses in-page actions (Gateway or TypeSafe); distinct from zurfyx teaching skill. | Node.js ≥ 22.18 · skill + CLI (`jb`, Apache-2.0) |
 | [Jev-cu](jev-cu.md) | Study experimental Jev decisions over macOS Accessibility text in Codex; review the execution-policy limitations before use. | JavaScript · Codex skill and runtime |
 | [jev-dom](jev-dom.md) | Drive any web page via DOM action space with TypeSafe Jev—no WebMCP required (Playwright peer). | TypeScript · research package (`jev-dom` 0.1.0, Apache-2.0) |
 | [jev-macos-loop](jev-macos-loop.md) | Automate native macOS GUI apps with local OmniParser/Vision perception and text-only Jev action choice. | TypeScript/Node · Apple silicon CLI |
-| [jev-android](jev-android.md) | Drive Android UI via accessibility with TypeSafe Jev or DeepSeek action choice (Kotlin SDK + sample). | Kotlin · Android SDK (`core`/`sdk`/`sample` 0.2.0) |
+| [jev-ra](jev-ra.md) | Drive Chrome from Claude Code/Codex/MCP with TypeSafe Jev choosing each operation and target. | Python · MCP server, CLI and PyPI (`jev-ra` 0.1.1) |
 | [jevdevice](jevdevice.md) | MCP harness for Android (adb) or local shell: TypeSafe Jev (or local Laya) picks one runtime-discovered target per goal; code gates and executes. | Python · MCP server (`jevdevice` 0.1.0) |
+| [jevnav](jevnav.md) | Automate browsers with Jev element choice, JSONL traces, risk gates, and offline CI replay. | Python · CLI/PyPI (`jevnav` 0.1.0, Apache-2.0) |
+| [JevOnly](jevonly.md) | Drive a browser with pure Jev choices over code-built options—no planner or helper LLM. | Python · CLI, local viewer and Playwright |
 | [Midscene JEV Runner](midscene-jev-runner.md) | Drive a caller-owned Playwright page with TypeSafe Jev via OpenRouter Decisions (`runJev` / Midscene `jevAct`). | TypeScript · npm (`@chlrc/midscene-jev-runner` 0.1.2, MIT) |
 | [Mobile Jev](mobile-jev.md) | Navigate an Android device and verify a dark-theme task. | JavaScript / React · Mobilerun agent and studio |
 | [pi-Jev-browser](pi-jev-browser.md) | Let Jev choose each Playwright browser action over a structured DOM observation inside Pi. | TypeScript · Pi extension (npm) |
