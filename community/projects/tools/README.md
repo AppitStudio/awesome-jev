@@ -152,6 +152,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-effort-router](jev-effort-router.md) | Hermes on Ollama:Cloud: TypeSafe Jev picks model **and** reasoning effort per turn and rewrites `llm_request`. | Python · Hermes plugin (`hermes-plugin-jev-effort-router` 0.2.1, MIT) |
 | [jev-evolve](jev-evolve.md) | Evolve agent policies with typed Jev decisions and measure how much improvement is selection luck. | Python · library (`jev-evolve` on PyPI) |
 | [jev-eyes](jev-eyes.md) | Turn images into inspectable OCR/layout `state` for TypeSafe Jev locally (`see`/`ask`, CLI, optional MCP). | Python · library/CLI/MCP (`jev-eyes` 0.1.0) |
+| [jev-for-all](jev-for-all.md) | Shared System One decision contract: Jev picks skill/tool subset/browser moves for OpenCode/Claude Code/Hermes. | TypeScript · OpenCode plugin + adapters (MIT) |
 | [jev-gates](jev-gates.md) | Compose three-valued TRUE/FALSE/UNKNOWN circuits from TypeSafe Jev judgments plus exact rules (auditable traces). | TypeScript · library/CLI (`jev-gates` 0.1.0) |
 | [jev-gateway](jev-gateway.md) | Let Jev choose each tool call for Codex, Claude Code, OpenCode, or Gemini through a local LLM gateway. | TypeScript · npm launchers and dashboard |
 | [jev-guard](jev-guard.md) | Risk-score coding-agent tool calls with TypeSafe Jev (deny/ask/allow), flag injection in results, and scan skills across many agents. | Node.js · npm CLI/hooks (`jev-guard` 0.3.1) |
