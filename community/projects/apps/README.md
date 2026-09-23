@@ -310,6 +310,16 @@ Local Gmail inbox helper: TypeSafe Jev classifies category/priority/signals; you
 
 [Full JevZero guide](jevzero.md) · [Source](https://github.com/jayozer/jevzero)
 
+### Masroufi
+
+`Source available` · `Free source build` · `BYOK`
+
+**Jev's role:** typed classification of redacted bank-statement notes (category / merchant / reducibility) with confidence; human review for unsure rows.
+
+**Access:** clone the [public source](https://github.com/wafaa-alhayek/masroufi) (Python/FastAPI); mock classifier without keys, or `CLASSIFIER_BACKEND=jev` with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. **No LICENSE** at reviewed commit—not open source. Source inspected; live classify not run.
+
+[Full Masroufi guide](masroufi.md) · [Source](https://github.com/wafaa-alhayek/masroufi)
+
 ### Notra
 
 `Open source` · `Commercial` · `Paid`
