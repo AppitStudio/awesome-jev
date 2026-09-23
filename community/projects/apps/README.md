@@ -474,6 +474,16 @@ Windows WeChat (4.x) side panel: local offline OCR reads the chat window; TypeSa
 
 [Full Jev Chat Windows guide](jev-chat-windows.md) · [Source](https://github.com/jev-chat/jev-chat-windows)
 
+### SignalLens
+
+`Open source` · `Free source build` · `BYOK`
+
+Privacy-conscious local-first chat signal analyzer: on-device redaction, then TypeSafe Jev judges emotion, intent, and engagement for a closeness index. Windows portable exe or Streamlit source.
+
+**Access:** download the [MIT Windows portable release](https://github.com/xinian5216/chat-signal-analyzer/releases) or run the [source](https://github.com/xinian5216/chat-signal-analyzer) with a TypeSafe API key. No app purchase fee; TypeSafe usage is separate. Source inspected on Linux; Windows GUI/live Jev not run. Distinct from Crush Monitor / tg-crush.
+
+[Full SignalLens guide](signal-lens.md) · [Source](https://github.com/xinian5216/chat-signal-analyzer)
+
 ## Browser extensions
 
 ### Focus
