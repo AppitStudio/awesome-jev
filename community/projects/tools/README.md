@@ -298,6 +298,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [HA Jev Autopilot](ha-jev-autopilot.md) | Per-room Jev decisions with deterministic HA actions and phone confirmation for risky devices. | Python · Home Assistant integration (MIT) |
 | [Jev for Home Assistant](ha-jev.md) | Turn household context into judgment sensors and automation responses. | Python · Home Assistant integration |
 
 ## Independent model research
