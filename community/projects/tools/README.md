@@ -206,6 +206,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-agent-browser](jev-agent-browser.md) | Confidence-gated next browser action for `agent-browser` via TypeSafe Jev (or Gateway/Cloudflare/custom). | TypeScript · npm (`@mhingston5/jev-agent-browser` 0.3.1) |
 | [jev-agent-failure-benchmark](jev-agent-failure-benchmark.md) | Score TypeSafe Jev on Who&When Pro text traces for responsible agent, step, and error type; compare to paper LLMs. | Python · CLI (`jevbench`, Apache-2.0) |
 | [jev-agent-kit](jev-agent-kit.md) | Zero-dependency CLI + MCP tools (check/choose/score/judge/route/triage/guard/grep/rank/compact) on TypeSafe Jev — distinct from the Rust jevkit CLI. | Node.js ≥ 18 · npm (`@walidboulanouar/jevkit` 0.2.0) |
+| [Jevals.com](jevals-com.md) | Hosted independent Jev vs LLM boards (accuracy/calibration/cost/latency); open data, private harness (distinct from local jevals). | Hosted boards + [jevals-data](https://github.com/Jevals/jevals-data) (CC BY 4.0) |
 | [Jevaluate](jevaluate.md) | Confidence-gated web walkthroughs with TypeSafe Jev; optional DeepSeek vision; eval/judge scripts and skill. | Node/Python · Playwright scripts (MIT) |
 | [jevbus](jevbus.md) | Route/subscribe/deliver streaming events with TypeSafe Jev (or any Judge) and policy thresholds. | Rust · crate (`jevbus` 0.1.0) |
 | [jevtok](jevtok.md) | Count Jev tokens and estimate billed request input_tokens offline before calling TypeSafe. | Python · library/CLI (`jevtok` 0.1.0) |
