@@ -165,6 +165,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-harness (TypeSafeAI)](typesafeai-jev-harness.md) | Research proposal-review contract: LLM proposes, Jev answers four narrow questions, code emits host evidence (distinct from AntonioCoppe/jev-harness). | TypeScript · source-only (`jev-harness` 0.0.0, MIT) |
 | [jev-in-codex](jev-in-codex.md) | Rank Codex capabilities, search hits, and output excerpts with TypeSafe Jev via local MCP. | TypeScript · MCP server + Codex plugin (0.1.0) |
 | [jev-issue-radar](jev-issue-radar.md) | Find duplicate/related GitHub issues with TypeSafe Jev evidence choices in a local read-only dashboard. | Node.js · loopback server + static UI (0.1.1) |
+| [jev-judge-mcp (PyModel)](pymodel-jev-judge-mcp.md) | MCP typed judgment tools (verify/screen/find/classify/rerank/decide/…); policy owns auto/review/escalate. | Python · MCP (`jev-mcp-python`, MIT) |
 | [jev-layer](jev-layer.md) | Route harness capability choices with receipts/replay; host keeps execution (demo/OpenRouter/TypeSafe). | TypeScript · CLI, MCP and harness installers (`jev-layer` 0.1.0) |
 | [jev-lint](jev-lint.md) | Ast-grep selects subjects; TypeSafe Jev Noul scores one-sentence semantic rules (distinct from huntedman/JevLint). | TypeScript · npm CLI (`jev-lint` 0.4.1) |
 | [jev-linter-action](jev-linter-action.md) | Gate CI on yes/no TypeSafe Jev review questions over selected repo files (thresholds in `.jev-lint.json`). | Node.js · GitHub Action (`jev-linter-action` 1.0.0) |
