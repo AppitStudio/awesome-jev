@@ -554,6 +554,16 @@ Non-invasive Android overlay: Accessibility reads on-screen chat; TypeSafe Jev (
 
 [Full Jev Chat Assistant guide](jev-chat-jarvis.md) · [Source](https://github.com/jev-chat/jev-chat-jarvis)
 
+### JevGuide
+
+`Open source` · `Free source build` · `BYOK`
+
+Android WeChat relationship-progress assistant: Accessibility or screenshot vision reads the chat; TypeSafe Jev scores intent/emotion/affinity; a chat model drafts three reply candidates on a sticky overlay (never auto-sends).
+
+**Access:** install the [MIT Release APK](https://github.com/Nisaka520/JevGuide/releases/latest) or build the [source](https://github.com/Nisaka520/JevGuide) (JDK 17, Android SDK 35) with a TypeSafe key plus optional chat/vision keys. No app purchase fee; provider usage is separate. Source inspected; APK/device/live not run on the Linux review host. Sister of JevBystander/JevIntent; distinct from reply-drafting Jev Chat Assistant.
+
+[Full JevGuide guide](jevguide-nisaka520.md) · [Source](https://github.com/Nisaka520/JevGuide) · [Product page](https://nisaka520.github.io/JevGuide/)
+
 ### JevIntent
 
 `Open source` · `Free source build` · `BYOK`
