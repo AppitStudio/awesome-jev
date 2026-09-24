@@ -420,6 +420,16 @@ Explore YouTube transcripts by meaning with a Turkish UI: TypeSafe Jev classifie
 
 [Full Transcript Lens guide](transcript-lens.md) · [Source](https://github.com/sensahin/transcript-lens)
 
+### undertone
+
+`Source available` · `Free source build` · `BYOK`
+
+A text box that reads how your draft sounds before you send: TypeSafe Jev scores tone, flags, urgency, formality, and boss-safety.
+
+**Access:** open [undertone-app.vercel.app](https://undertone-app.vercel.app) or build the [source](https://github.com/Nuu-maan/undertone) with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage separate. **No LICENSE** at tip—not Open source. Source inspected; live typing not run.
+
+[Full undertone guide](undertone.md) · [Source](https://github.com/Nuu-maan/undertone) · [Try app](https://undertone-app.vercel.app)
+
 ### Vicaura
 
 `Closed source` · `Pricing unverified`
