@@ -129,6 +129,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Checkpoint](jev-checkpoint.md) | Ask TypeSafe Jev for an advisory, confidence-gated next-step route over a fixed Choice set (MCP; never executes). | TypeScript · local MCP server (`jev-checkpoint` 0.1.0) |
 | [Jev Flow](jev-flow.md) | Standalone studio for typed Jev workflows (Studio, Compendium, Battle Arena, labs). | Node.js · app (MIT) |
 | [Jev Gatehouse (Kinde)](jev-gatehouse.md) | Kinde who/what plus Jev typed gate before each MCP tool call (allow/step-up/stop). | TypeScript · Convex starter (MIT) |
+| [Jev GitHub Action](jev-action.md) | Install pinned Jev CLI in Actions; run typed judgments on event/JSON; expose answers (no issue mutation). | GitHub Action (Apache-2.0) |
 | [Jev Logs](jevlogs.md) | Prioritize logs for deeper analysis alongside your archive. | TypeScript · library, CLI and OpenTelemetry integration |
 | [Jev Model Router](jev-model-router.md) | Route Claude Code subagent models and main-conversation reasoning effort using Jev assessments; requires early-access function hooks. | TypeScript · Claude Code mod |
 | [Jev Review](jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
