@@ -860,6 +860,16 @@ Classify IMAP mail with Jev yes/no category judgments, then tag, move, flag, or 
 
 [Full Jev Mail Classifier guide](jev-mail-classifier.md) · [Source](https://github.com/parth-kp/jev-mail-classifier)
 
+### Jev Personal Radar
+
+`Source unverified` · `Free source build` · `BYOK`
+
+Privacy-first daily info radar (Go): ranks GitHub Trending / Hacker News / inbox links with TypeSafe Jev into private GitHub Issues; MiniMax explains selected public items. Secrets stay in a private runner repo.
+
+**Access:** clone the [public source](https://github.com/zhazhahuiyuxiaoxiao/jev-personal-radar) (Go 1.25+) and pin it from a private Actions repo with `TYPESAFE_API_KEY` + `MINIMAX_API_KEY`. No app purchase fee; providers billed separately. **No LICENSE file at tip**—not tagged Open source. Source inspected; live Jev/MiniMax/Actions not run.
+
+[Full Jev Personal Radar guide](jev-personal-radar.md) · [Source](https://github.com/zhazhahuiyuxiaoxiao/jev-personal-radar)
+
 ### Jevmeter
 
 `Open source` · `Free source build` · `BYOK`
