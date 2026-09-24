@@ -41,6 +41,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-browser-mcp (bothuany)](bothuany-jev-browser-mcp.md) | MCP browser: host intent → TypeSafe Jev clicks + cheap reader; DOM stays out of agent context. | JavaScript · MCP/Playwright (MIT) |
 | [jev-browser-skill (ChenYCL)](chenycl-jev-browser-skill.md) | Browser/computer-use CLI+MCP: TypeSafe Jev action choice (ego lite/Chrome/Safari); distinct from zurfyx/hqman. | Node.js ≥ 22 · CLI/MCP skill (MIT) |
 | [jev-browser-skill (hqman)](hqman-jev-browser-skill.md) | Playwright Chromium skill/`jb` CLI: Jev chooses in-page actions (Gateway or TypeSafe); distinct from zurfyx teaching skill. | Node.js ≥ 22.18 · skill + CLI (`jb`, Apache-2.0) |
+| [jev-browser-use (AuroraPixel)](aurorapixel-jev-browser-use.md) | Jev browser loops for Codex/Claude: warm Chrome daemon, CLI/MCP/extension, host handoffs. | Bun/TypeScript · CLI/MCP/extension (MIT) |
 | [jev-chrome-mcp](jev-chrome-mcp.md) | MCP server wrapping jev-browser-use click loop in Google Chrome for Cursor/Codex. | JavaScript · MCP server (MIT) |
 | [Jev-cu](jev-cu.md) | Study experimental Jev decisions over macOS Accessibility text in Codex; review the execution-policy limitations before use. | JavaScript · Codex skill and runtime |
 | [jev-dom](jev-dom.md) | Drive any web page via DOM action space with TypeSafe Jev—no WebMCP required (Playwright peer). | TypeScript · research package (`jev-dom` 0.1.0, Apache-2.0) |
