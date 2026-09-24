@@ -58,6 +58,18 @@ MIT derivative of Crush Monitor: WeChat-style affinity analysis UI with TypeSafe
 
 [Full Crush Monitor with Jev guide](crush-monitor-with-jev.md) · [Source](https://github.com/zhengge6/crush-monitor-with-jev)
 
+### Find the Right API (Orthogonal × Jev)
+
+`Closed source` · `Freemium` · `Commercial`
+
+Hosted natural-language API discovery: product copy states Jev searches about 1,000 Orthogonal endpoints and returns priced matches with Orthogonal `curl` snippets.
+
+**Jev's role:** vendor/product claim—ranks Orthogonal catalog endpoints for a described goal (implementation not inspected).
+
+**Access:** public web UI at [findtherightapi.com](https://www.findtherightapi.com/) (search needed no signup during review). Executing matches uses Orthogonal pay-per-call ([pricing](https://docs.orthogonal.com/concepts/pricing); new accounts get $5 free credits). Closed source. Checked 2026-09-24. Launch: [X post](https://x.com/chrisspickett/status/2102855582969725198).
+
+[Try Find the Right API](https://www.findtherightapi.com/) · [Full Find the Right API guide](find-the-right-api.md) · [Source](https://www.findtherightapi.com/)
+
 ### Fotocopiatrice
 
 `Open source` · `Free source build` · `BYOK`
