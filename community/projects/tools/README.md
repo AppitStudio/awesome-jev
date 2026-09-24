@@ -143,7 +143,10 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-ci-pathfinder](jev-ci-pathfinder.md) | Select allowlisted CI jobs after a change with TypeSafe Jev; deterministic allowlist + dependency closure. | TypeScript · GitHub Action (MIT) |
 | [jev-cloud-cost-guardian](jev-cloud-cost-guardian.md) | FinOps CI gate: Jev scores proposed cloud spend vs budget; policy never hides cost lines. | TypeScript · GitHub Action (MIT) |
 | [jev-compaction (Waxmell114514)](waxmell114514-jev-compaction.md) | Score-only context compaction so memory cannot hold facts absent from the transcript (offline demo). | Python · library/demo (MIT) |
+| [jev-guardbench](dfranco-projects-jev-guardbench.md) | Benchmark whether System One (Jev/Kev) can replace LLM-as-judge in agent guardrail callbacks. | Python · uv package (license unspecified) |
+| [jev-guardrails (deepansh-saxena)](deepansh-saxena-jev-guardrails.md) | Compare LLM-as-judge vs TypeSafe Jev on identical 25 guardrail rules for a mock support agent (cost/latency/calibration). | Python · LangChain/LangGraph eval (license unspecified) |
 | [jev-security-sentinel](jev-security-sentinel.md) | Security CI gate over SAST/SCA/IaC/secrets/container findings via TypeSafe Jev; findings stay visible. | TypeScript · GitHub Action (MIT) |
+| [jev-support-agents](jev-support-agents.md) | FastAPI support orchestrator: LLM specialists write text; TypeSafe Jev routes and evaluates with retry/escalation. | Python · FastAPI + Ollama reference (MIT) |
 | [Jev_validation_agent](jev-validation-agent.md) | Python Jev Guard validating agent outputs via TypeSafe Jev with reports and a local demo UI. | Python · package + demo (MIT) |
 | [JevRepoTriage](jevrepo-triage.md) | Self-hosted GitHub issue/PR triage with TypeSafe Jev classifications and operator-approved actions. | TypeScript · web UI + workers (MIT) |
 | [Jev Review](jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
