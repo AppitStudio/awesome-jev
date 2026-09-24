@@ -343,6 +343,7 @@ These projects study related typed-decision patterns using other models. They ar
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
 | [AnyJev (Nokia Applied Research)](nokia-anyjev.md) | Turn an open LLM into Jev-style typed decisions with probabilities (L0–L2); independent of official Jev. | Python · PyPI (`anyjev` 0.1.0, Apache-2.0) |
+| [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
 | [Jev-Omni](jev-omni.md) | Run an open multimodal System One–style classifier (text/image/audio/video → option probabilities) on Gemma 4 12B IT; independent of official Jev. | Python / PyTorch · HF weights (CUDA, ~50 GB FP32) |
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
 | [NanoJev](nanojev.md) | Study independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. | Python / PyTorch · model research and replay |
