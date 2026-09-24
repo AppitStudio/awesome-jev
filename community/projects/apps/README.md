@@ -666,7 +666,7 @@ Chrome extension (optional FastAPI / Cloudflare Worker) that scores social-post 
 
 Chrome Manifest V3 extension that scans page text for fraud, advertising, AI slop, spam, clickbait, infobusiness, and toxicity with TypeSafe Jev (`jev-latest`), then shows badges or blur overlays from two-tier thresholds.
 
-**Access:** [load the MIT source unpacked](https://github.com/serejkaaa512/jev-content-guard-ext) (Developer mode) and paste a TypeSafe API key in the popup (`chrome.storage.local`). No app purchase fee; each analyzed block can incur provider charges. Source inspected; Chrome install and live page analysis not tested on the review host. Distinct from TypeSafe Fun AdBlocker (heuristic DOM ads) and Unclutter (clutter rules).
+**Access:** install from the [Chrome Web Store](https://chromewebstore.google.com/detail/jev-content-guard/icdfmbedfjfodocdhpnecdjgofakeemn) or [load the MIT source unpacked](https://github.com/serejkaaa512/jev-content-guard-ext) (Developer mode) and paste a TypeSafe API key in the popup (`chrome.storage.local`). No app purchase fee; each analyzed block can incur provider charges. Source inspected; Chrome install and live page analysis not tested on the review host. Distinct from TypeSafe Fun AdBlocker (heuristic DOM ads) and Unclutter (clutter rules).
 
 [Full Jev Content Guard guide](jev-content-guard.md) · [Source](https://github.com/serejkaaa512/jev-content-guard-ext)
 

@@ -8,13 +8,13 @@ A Manifest V3 Chrome extension that filters fraud, advertising, AI slop, spam, c
 | --- | --- |
 | Source | [Source](https://github.com/serejkaaa512/jev-content-guard-ext) |
 | Tags | `Open source` · `Free source build` · `BYOK` |
-| Product homepage | [Project README](https://github.com/serejkaaa512/jev-content-guard-ext) |
+| Product homepage | [Chrome Web Store](https://chromewebstore.google.com/detail/jev-content-guard/icdfmbedfjfodocdhpnecdjgofakeemn) · [Project README](https://github.com/serejkaaa512/jev-content-guard-ext) |
 | Pricing and access | No app purchase fee; TypeSafe inference costs are separate. No hosted product; source build only. |
 | Jev evidence | [`background.js`](https://github.com/serejkaaa512/jev-content-guard-ext/blob/b89c99fa1f84f4d672b8d79a4683a7931cfcd9d8/background.js) proxies analysis to `https://api.typesafe.ai/v1/systemone` with model `jev-latest`. Seven typed `noul` questions per text block. |
 | Disclosure | Open source (MIT license). No affiliate relationship. Implementation inspected on Linux review host. |
 | Maintainer | [serejkaaa512](https://github.com/serejkaaa512) — self-submission, no commercial relationship. |
 | Format | Application (browser extension) |
-| Platform and availability | Chrome (Chromium Manifest V3); version 1.3. Source-build link: clone the MIT source. |
+| Platform and availability | Chrome (Chromium Manifest V3); version 1.3. [Chrome Web Store](https://chromewebstore.google.com/detail/jev-content-guard/icdfmbedfjfodocdhpnecdjgofakeemn) or source-build (clone the MIT source). |
 | Jev's role | Classifies DOM text snippets into 7 categories (fraud, advertising, AI-generated, spam, clickbait, infobusiness, toxicity) with probability scores. Lower threshold flags elements; upper limit triggers hard-mode blur overlay, otherwise soft-mode badge. |
 | Requirements | Chrome extension APIs, `chrome.storage.local`, TypeSafe API key (`JEV_API_KEY`). No external JS dependencies beyond Chrome APIs. |
 | License | [MIT](https://github.com/serejkaaa512/jev-content-guard-ext/blob/b89c99fa1f84f4d672b8d79a4683a7931cfcd9d8/LICENSE) |
