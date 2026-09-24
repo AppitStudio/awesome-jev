@@ -456,6 +456,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-semgrep](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). | Node.js · CLI (`@uehaj/semgrep`) |
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [jevql](jevql.md) | Add `jev()` / `jev_prob` / `jev_choice` / `jev_score` to queries against vanilla PostgreSQL without an extension, from a psql-style CLI, MCP server, or SDKs. | Go · CLI, MCP server and Go/TypeScript/Python SDKs (MIT) |
+| [jevql (hemanth)](hemanth-jevql.md) | npm `jev-ql` semantic/cognitive SQL over unstructured data via TypeSafe Jev (distinct from kylemclaren/jevql). | JavaScript · npm (`jev-ql`, MIT) |
 | [jevsearch](jevsearch.md) | Add a ⌘K site-search palette to a shadcn/ui site: keyword hits on the first keystroke, then one TypeSafe Jev request re-ranks the top 20 by intent, with no embeddings. | TypeScript · shadcn registry block (React component, Fetch-API handler; MIT) |
 | [JevSQL](jevsql.md) | Add TypeSafe Jev match/pick/rank/bool/choice helpers to SQLite SQL with batching, caches, and review queues. | TypeScript · library and CLI |
 | [jgrep](jgrep.md) | Filters text, structured records, functions, and diff hunks against plain-English descriptions using Jev Noul judgments. | Python · library and CLI (`jev-grep`) |
