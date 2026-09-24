@@ -262,6 +262,16 @@ Explainable day-trip planner: LLM drafts; TypeSafe Jev screens/compares/reviews;
 
 [Full Jev Trip guide](jev-trip.md) · [Source](https://github.com/liaoyuhua/jev-trip)
 
+### jev-mail (vynnlee)
+
+`Open source` · `Free source build` · `BYOK`
+
+Config-driven Gmail zero-inbox triage powered by TypeSafe Jev System One judgments under local policy.
+
+**Access:** [configure and run the MIT source](https://github.com/vynnlee/jev-mail) with Gmail OAuth + TypeSafe key (`jev-mail.example.yaml`). No app purchase fee; provider/Gmail usage separate. Source inspected; live Gmail/Jev not tested. Distinct from Jevmail / Jev for Gmail / Inbox Triage.
+
+[Full jev-mail (vynnlee) guide](vynnlee-jev-mail.md) · [Source](https://github.com/vynnlee/jev-mail)
+
 ### Jev/ui (jev-genui)
 
 `Source available` · `Free source build` · `BYOK`
