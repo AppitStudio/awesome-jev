@@ -830,6 +830,16 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 
 ## Command-line apps
 
+### Gmail Classifier
+
+`Open source` · `Free source build` · `BYOK`
+
+Local Gmail triage CLI (uv): TypeSafe Jev classifies threads (category/priority), with phishing/unsubscribe helpers, confirm-then-apply labels, undo, and an optional Chrome sidebar panel.
+
+**Access:** clone the [MIT source](https://github.com/leomfu/gmail-classifier) (`uv sync`) with Google OAuth desktop credentials and `TYPESAFE_API_KEY`. No app purchase fee; Google/TypeSafe billed separately. Source inspected; live Gmail/Jev not run. Distinct from Inbox Triage / JevZero.
+
+[Full Gmail Classifier guide](gmail-classifier.md) · [Source](https://github.com/leomfu/gmail-classifier)
+
 ### Inbox Triage
 
 `Open source` · `Free source build` · `BYOK`
