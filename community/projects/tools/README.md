@@ -37,6 +37,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-android](jev-android.md) | Drive Android UI via accessibility with TypeSafe Jev or DeepSeek action choice (Kotlin SDK + sample). | Kotlin · Android SDK (`core`/`sdk`/`sample` 0.2.0) |
 | [jev-browse (cooper667)](cooper667-jev-browse.md) | Claude Code plain-English Playwright QA checklist judged by TypeSafe Jev on Cloudflare Workers AI. | TypeScript · Claude Code plugin/skill (MIT) |
 | [jev-browser-bridge](jev-browser-bridge.md) | Plug any CDP browser (cloud/local/self-hosted, incl. no-render) into Jev browser automation. | Python · bridge (Apache-2.0) |
+| [jev-browser-mcp (bothuany)](bothuany-jev-browser-mcp.md) | MCP browser: host intent → TypeSafe Jev clicks + cheap reader; DOM stays out of agent context. | JavaScript · MCP/Playwright (MIT) |
 | [jev-browser-skill (ChenYCL)](chenycl-jev-browser-skill.md) | Browser/computer-use CLI+MCP: TypeSafe Jev action choice (ego lite/Chrome/Safari); distinct from zurfyx/hqman. | Node.js ≥ 22 · CLI/MCP skill (MIT) |
 | [jev-browser-skill (hqman)](hqman-jev-browser-skill.md) | Playwright Chromium skill/`jb` CLI: Jev chooses in-page actions (Gateway or TypeSafe); distinct from zurfyx teaching skill. | Node.js ≥ 22.18 · skill + CLI (`jb`, Apache-2.0) |
 | [jev-chrome-mcp](jev-chrome-mcp.md) | MCP server wrapping jev-browser-use click loop in Google Chrome for Cursor/Codex. | JavaScript · MCP server (MIT) |
