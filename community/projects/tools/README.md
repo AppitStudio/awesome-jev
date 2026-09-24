@@ -26,6 +26,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Cua jev-use](cua-jev-use.md) | Compose a bounded chooser with Driver and independent fixture verification. | Python / TypeScript · integration recipe |
 | [CUA-JEV (ZJU-REAL)](cua-jev-zju.md) | Constrained computer-use loop: Jev selects typed action×channel candidates with guards and verifiers. | Python · framework (Apache-2.0) |
 | [DepthJev](depthjev.md) | Embodied navigation with depth/text facts; TypeSafe Jev chooses EB-Navigation actions. | Python · EmbodiedBench agent (Apache-2.0) |
+| [firefox-jev-mcp](firefox-jev-mcp.md) | Claude plans; TypeSafe Jev picks Firefox element actions via MCP + WebExtension. | TypeScript · MCP + Firefox extension (MIT) |
 | [Footwork](footwork.md) | Dual-process browser agent: TypeSafe Jev as System 1 in front of browser-use System 2, with a code-owned arbiter and evidence verification. | Python/Rust · package (`jevdual` 0.0.1) |
 | [gpui-agent](gpui-agent.md) | Drive instrumented GPUI apps via accessibility: TypeSafe Jev chooses typed actions/targets (no screenshots to the model). | Rust/Python/TypeScript · experimental native toolkit |
 | [Jev Browser (openqa-cn)](openqa-jev-browser.md) | Indexed Playwright automation: TypeSafe Jev chooses control/op; replay, generate, explore, HTML reports (CodexQA skill). | TypeScript · CLI (`codexqa-jev-browser` 0.1.0, MIT) |
