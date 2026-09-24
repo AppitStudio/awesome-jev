@@ -97,6 +97,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Codex Jev Preflight](codex-jev-preflight.md) | Fail-open Codex UserPromptSubmit hook: TypeSafe Jev advisory task_type/complexity/risk/execution_mode. | Python · stdlib hook + installer |
 | [Codex Jev Router (suenot)](codex-jev-router-suenot.md) | Choose Codex subagent model and reasoning effort with Jev Choice/Noul decisions and local confidence gates. | Node.js · CLI + installer |
 | [codex-jev-router](codex-jev-router.md) | Route OpenAI Codex CLI turns through TypeSafe Jev model/effort selection via a local Responses proxy (fail-open). | Node.js · CLI (`codex-jev` 0.1.0) |
+| [codex-triage](codex-triage.md) | Local Codex task triage dashboard with human-reviewed archiving and optional TypeSafe Jev analysis. | TypeScript · local app (MIT) |
 | [compact-adviser](compact-adviser.md) | Ask TypeSafe Jev whether a coding session is at a safe `/compact` boundary; hint or optional auto-compact on Pi/Claude Code. | Node.js ≥ 22 · npm plugins (`compact-adviser` 0.1.6) |
 | [daf-jev](daf-jev.md) | Build typed Jev questions, gates, batch evaluation, and optional MCP tools in Python. | Python · library/CLI (`daf-jev` 0.3.0) |
 | [DataJev](datajev.md) | Control a data-analysis agent trajectory with TypeSafe Jev verbs while an LLM analyst and Python execute steps. | Python · CLI/package (`datajev` 0.1.0; Python 3.12 / uv) |
