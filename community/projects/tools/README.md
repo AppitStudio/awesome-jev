@@ -423,6 +423,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jselect](jselect.md) | Selects source-linked evidence within a token budget using Jev Noul relevance judgments and local diversity-aware selection. | Python · library and CLI (`jev-select`) |
 | [jsort](jsort.md) | Order lines/paragraphs/files along a plain-English dimension using pairwise TypeSafe Jev comparisons. | Python · CLI (`jsort` / jev-sort) |
 | [llama-index-jev](llama-index-jev.md) | Rerank retrieved passages or choose a query engine in LlamaIndex. | Python · integration packages |
+| [Milvus Model](milvus-model.md) | Score candidate documents with Jev Noul and return sorted results with original indices. | Python · PyMilvus model adapter |
 | [mysql-ailike](mysql-ailike.md) | Filter and join MySQL rows with natural-language conditions via TypeSafe Jev (`AILIKE`). | MySQL · native UDF/plugin (v0.2.0, GPL-2.0) |
 | [neo4jev](neo4jev.md) | Explore graph paths with typed next-hop and goal judgments. | Python · Neo4j, notebooks and Streamlit |
 | [Note Filer](obsidian-note-filer.md) | Classify Obsidian notes with TypeSafe Jev and move them into Thema or IAB taxonomy folders after confirmation. | TypeScript · Obsidian desktop plugin (0BSD) |
