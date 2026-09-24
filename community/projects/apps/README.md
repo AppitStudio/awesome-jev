@@ -822,6 +822,16 @@ Moderate Discord messages with Jev classifications, configurable escalation and 
 
 [Full Jev Moderation Bot guide](jev-moderation-bot.md) · [Source](https://github.com/brainstormity/Jev-Moderation-Bot)
 
+### Soter
+
+`Open source` · `Free source build` · `BYOK`
+
+Automated Discord moderation: TypeSafe Jev (OpenRouter Decisions) scores hate speech and spam; code deletes clear hits, flags borderline cases, and can timeout repeat violators.
+
+**Access:** self-host the [MIT Bun source](https://github.com/frolleks/soter) with `DISCORD_TOKEN` + `OPENROUTER_API_KEY`, or try the early hosted invite (not 24/7). No app purchase fee; OpenRouter/Jev usage separate. Source inspected; live moderation accuracy not measured.
+
+[Full Soter guide](soter.md) · [Source](https://github.com/frolleks/soter) · [Product page](https://soter.frolleks.site)
+
 ## Telegram bots
 
 ### Jev Anti-Spam Bot
