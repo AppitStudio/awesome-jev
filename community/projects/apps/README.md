@@ -442,6 +442,16 @@ One text box that morphs into the right UI (event, checklist, timer, split, …)
 
 [Try Shapeshift](https://shapeshiftui.vercel.app) · [Full Shapeshift guide](shapeshift.md) · [Source](https://github.com/anishfn/shapeshift)
 
+### Should I Jev?
+
+`Open source` · `Free` · `BYOK`
+
+Describe a feature; get a verdict—plain code, TypeSafe Jev, LLM, Jev+LLM, classical ML, or not enough—via nineteen parallel Jev questions.
+
+**Access:** try [shouldijev.vercel.app](https://shouldijev.vercel.app) or run the [MIT source](https://github.com/yakubmurcek/should-i-jev) with `TYPESAFE_API_KEY`. No app purchase fee; provider usage separate. Source inspected; live hosted verdicts not measured.
+
+[Full Should I Jev? guide](should-i-jev.md) · [Source](https://github.com/yakubmurcek/should-i-jev) · [Try app](https://shouldijev.vercel.app)
+
 ### SiteClarity
 
 `Open source` · `Free` · `BYOK`
