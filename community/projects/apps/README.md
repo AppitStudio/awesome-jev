@@ -760,6 +760,16 @@ Chrome side panel that uses TypeSafe Jev to select and populate WebMCP tool call
 
 [Full Jev × WebMCP guide](jev-webmcp-extension.md) · [Source](https://github.com/sdras/jev-webmcp-extension)
 
+### jev-x-filter
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome MV3 extension: TypeSafe Jev filters X timeline spam (six classes) with high-confidence mute/block and default dry-run.
+
+**Access:** load the [MIT source](https://github.com/harodggg/jev-x-filter) unpacked in Chrome with a TypeSafe key. No app purchase fee; provider usage separate. Source inspected; live X filtering not tested.
+
+[Full jev-x-filter guide](jev-x-filter.md) · [Source](https://github.com/harodggg/jev-x-filter)
+
 ### Jevfill
 
 `Open source` · `Free source build` · `BYOK`
