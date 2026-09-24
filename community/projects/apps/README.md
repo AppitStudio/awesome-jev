@@ -648,6 +648,16 @@ Drive the Chrome tab you already have open with TypeSafe Jev. Community Manifest
 
 [Full Jev for Chrome guide](jev-for-chrome.md) · [Source](https://github.com/chy4pro/jev-for-chrome)
 
+### Jev for Gmail
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension: TypeSafe Jev priority-score badges on Gmail Primary (7-day window) with local redaction and patient-mail locks—does not change labels or read state.
+
+**Access:** [load the MIT source unpacked](https://github.com/JeonKH81/jev-for-gmail) (Developer mode) with a TypeSafe API key in options. No app purchase fee; TypeSafe usage can incur charges. Source inspected; Chrome install and live Gmail/Jev not tested on the review host. Distinct from Jev Inbox (reorder) and Inbox Triage (label writes).
+
+[Full Jev for Gmail guide](jev-for-gmail.md) · [Source](https://github.com/JeonKH81/jev-for-gmail)
+
 ### Jev Inbox
 
 `Open source` · `Free source build` · `BYOK`
