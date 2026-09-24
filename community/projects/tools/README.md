@@ -399,6 +399,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [TypeSafe AI for Agent Zero](a0-typesafe-ai.md) | Ask TypeSafe Jev Choice/Noul/Score from Agent Zero chat with probability cards; bundles the official agent skill. | Python · Agent Zero plugin (`typesafe_ai` 1.0.0) |
 | [systemone (justintout)](systemone-justintout.md) | Unofficial Go System One/Jev client with compile-time typed questions (distinct from TypeSafe Go). | Go · module (`github.com/justintout/systemone`, MIT) |
 | [TypeSafe Go](typesafe-go.md) | Call System One from Go with explicit auth options and no implicit env reads (Stacklok; unofficial). | Go · module (`github.com/stacklok/typesafe-go`) |
+| [typesafe-sdk-go (jmelahman)](typesafe-sdk-go-jmelahman.md) | Stdlib-only Go client for TypeSafe System One (Noul/Choice/Score helpers). | Go · module (`github.com/jmelahman/typesafe-sdk-go`, MIT) |
 | [TypeSafe MCP](typesafe-mcp.md) | Give agents a general-purpose Jev evaluation tool with raw provider responses. | Go · MCP server and pi extension |
 | [typesafe-api (Rust)](typesafe-api-rs.md) | Call System One from Rust with typed questions/answers (`typesafe-api` 0.1.0, MSRV 1.88). | Rust · crates.io client |
 | [TypeSafe-as-a-Judge](typesafe-as-a-judge.md) | Give Codex/Claude Code bounded TypeSafe Jev route/rank/extract/verify/judge MCP tools (unofficial). | Node.js · MCP plugin + skills (`0.1.0`) |
