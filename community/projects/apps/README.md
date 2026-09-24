@@ -512,6 +512,18 @@ Status-update honesty auditor: TypeSafe Jev judges language while local code par
 
 [Full Watermelon guide](watermelon.md) · [Source](https://github.com/shashwatc12/watermelon) · [Product homepage](https://watermelon.shashwatchavan.com)
 
+## Desktop apps
+
+### Jev Sheets (OpenHarness)
+
+`Open source` · `Free source build` · `BYOK`
+
+OpenHarness desktop sheet pane: TypeSafe Jev answers typed `noul` / `choice` / `score` column headers for every row, with confidence, review gates, and Question Lab wording trials.
+
+**Access:** [download OpenHarness](https://harness.autonomous.ai/desktop) for macOS or Linux (or build the [MIT source](https://github.com/autonomous-ai/openharness)), then open the bundled Jev Sheets harness from the Store. No app purchase fee observed on the download page (checked 2026-09-24); live answers need a TypeSafe, OpenRouter, or Cloudflare key (BYOK). Offline practice works without a key (word-matching only). Source and harness README inspected; desktop install and live Jev not run on the review host. Lists **Jev Sheets only**, not other OpenHarness DSHs.
+
+[Full Jev Sheets guide](jev-sheets.md) · [Source](https://github.com/autonomous-ai/openharness) · [Product homepage](https://harness.autonomous.ai/desktop)
+
 ## macOS apps
 
 ### Jaste
