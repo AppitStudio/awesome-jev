@@ -720,6 +720,16 @@ Chrome extension that reorders Gmail’s list: unread first, critical on top, wi
 
 [Full Jev Inbox guide](jev-inbox.md) · [Source](https://github.com/iamomiid/jev-inbox)
 
+### Jev Slop Guard
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that scores and stamps AI slop on X and LinkedIn feeds with TypeSafe Jev as you scroll.
+
+**Access:** [build/load the MIT source unpacked](https://github.com/davertor/jev-slop-guard) (Chrome MV3) with a TypeSafe API key. No app purchase fee; inference can incur charges. Source inspected; Chrome install and live feed scoring not tested on the review host. Distinct from LinkedIn Slop Filter and JevSlop.
+
+[Full Jev Slop Guard guide](jev-slop-guard.md) · [Source](https://github.com/davertor/jev-slop-guard)
+
 ### Jev × WebMCP
 
 `Open source` · `Free source build` · `BYOK`
