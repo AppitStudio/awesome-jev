@@ -350,6 +350,16 @@ One paste box that recognizes JSON, JWTs, cron, stack traces, colors, and more, 
 
 [Try Pastewise](https://pastewise.vercel.app) · [Full Pastewise guide](pastewise.md) · [Source](https://github.com/Nuu-maan/pastewise)
 
+### Preguntale a Jev
+
+`Source unverified` · `Free` · `BYOK`
+
+No-login Spanish yes/no chat: TypeSafe Jev Choice probabilities (Sí / No / No aplica) via Vercel AI Gateway or direct TypeSafe key. Hosted demo on Vercel.
+
+**Access:** try [jev-chat-ten.vercel.app](https://jev-chat-ten.vercel.app) or run the [source](https://github.com/dariozfold6-wez2/JEV-CHAT) on Vercel/local. Gateway auth on Vercel; optional `TYPESAFE_API_KEY`. **No LICENSE at tip**—not Open source. Source inspected; live chat not exercised as a measured eval.
+
+[Full Preguntale a Jev guide](preguntale-a-jev.md) · [Source](https://github.com/dariozfold6-wez2/JEV-CHAT) · [Try app](https://jev-chat-ten.vercel.app)
+
 ### QuantDinger
 
 `Open source` · `Free source build` · `BYOK`
