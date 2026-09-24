@@ -790,6 +790,16 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 
 ## Command-line apps
 
+### Inbox Triage
+
+`Open source` · `Free source build` · `BYOK`
+
+Private-by-default Gmail labeler: local policy asks TypeSafe Jev (or OpenAI/Anthropic/rules) focused yes/no questions over trimmed excerpts, then adds triage labels only.
+
+**Access:** clone the [MIT source](https://github.com/shimoverse/inbox-triage) (Python 3.11+, uv) with your Google OAuth desktop client; `TYPESAFE_API_KEY` for `--provider jev`. No app purchase fee; Google/TypeSafe billed separately. Source inspected; live Gmail/Jev not run.
+
+[Full Inbox Triage guide](inbox-triage.md) · [Source](https://github.com/shimoverse/inbox-triage)
+
 ### Jev Mail Classifier
 
 `Open source` · `Free source build` · `BYOK`
