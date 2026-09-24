@@ -110,6 +110,16 @@ Instrumented 2048 web lab: every move is a TypeSafe Jev Choice (no heuristic fal
 
 [Try Jev 2048](https://jev-2048-ultra.vercel.app) · [Full Jev 2048 guide](jev-2048.md) · [Source](https://github.com/ARCJ137442/jev-2048)
 
+### Jev as LLM
+
+`Open source` · `Free` · `BYOK`
+
+Experimental web chat where TypeSafe Jev picks the next word via Choice questions, with inspectable alternatives and replay.
+
+**Access:** open [jev-as-llm.vercel.app](https://jev-as-llm.vercel.app) for recorded examples (no key) or paste an OpenRouter key for live BYOK; or [run the MIT source](https://github.com/damienen/jev-as-llm). No app fee; live Decisions can incur charges. Source inspected; live BYOK chat not tested on the review host.
+
+[Full Jev as LLM guide](jev-as-llm.md) · [Source](https://github.com/damienen/jev-as-llm)
+
 ### Jev Asks Until Sure
 
 `Open source` · `Free` · `BYOK`
