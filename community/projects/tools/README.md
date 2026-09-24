@@ -382,6 +382,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jevper](jevper.md) | Jev-shaped System One noul/choice/score over any OpenAI-compatible client (no hosted TypeSafe API). | Python · PyPI (`jevper` 0.1.2, Apache-2.0) |
 | [Jevs](jevs.md) | Call TypeSafe Jev classify/score/check/batch from Bun MCP / Codex plugin via the official JS SDK. | TypeScript · Bun MCP / Codex plugin (`jevs` 0.1.0) |
 | [Klassify](klassify.md) | Kotlin Multiplatform DSL/SDK and Native CLI/MCP for TypeSafe System One classification (distinct from jev4k). | Kotlin · KMP SDK + Native CLI (`klassify` v0.1.1, Apache-2.0) |
+| [kotlin-jev](kotlin-jev.md) | Kotlin SDK + CLI for TypeSafe Jev (port of mattn/go-jev patterns). | Kotlin/JVM · library + `jev-cli` (MIT) |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
 | [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
 | [n8n-nodes-typesafe](n8n-nodes-typesafe.md) | Ask TypeSafe Jev noul/choice/score questions about workflow text or JSON inside n8n. | TypeScript · n8n community node |
