@@ -41,6 +41,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev-cu](jev-cu.md) | Study experimental Jev decisions over macOS Accessibility text in Codex; review the execution-policy limitations before use. | JavaScript · Codex skill and runtime |
 | [jev-dom](jev-dom.md) | Drive any web page via DOM action space with TypeSafe Jev—no WebMCP required (Playwright peer). | TypeScript · research package (`jev-dom` 0.1.0, Apache-2.0) |
 | [jev-macos-loop](jev-macos-loop.md) | Automate native macOS GUI apps with local OmniParser/Vision perception and text-only Jev action choice. | TypeScript/Node · Apple silicon CLI |
+| [jev-mcp (legostin)](legostin-jev-mcp.md) | Drive real Chrome via MCP: TypeSafe Jev picks elements/actions with calibrated confidence and HITL asks (distinct from jkudish judgment MCP). | TypeScript · MCP server (MIT) |
 | [jev-phone](jev-phone.md) | Drive iOS/Android/cloud phones: TypeSafe Jev picks indexed UI actions; phone-use executes. | Bun/TypeScript · phone agent (MIT) |
 | [jev-ra](jev-ra.md) | Drive Chrome from Claude Code/Codex/MCP with TypeSafe Jev choosing each operation and target. | Python · MCP server, CLI and PyPI (`jev-ra` 0.1.1) |
 | [jevbrief](jevbrief.md) | Filter Playwright elements with drop reasons; Jev Choice picks next click; local JSONL viewer. | Python · PyPI CLI (MIT) |
