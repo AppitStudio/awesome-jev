@@ -636,6 +636,7 @@ Selected official and community guides, organized by what you want to build. Coo
 - [Double-checking citations](https://docs.typesafe.ai/cookbooks/citation_check) - Judge whether a supplied source supports a claim and flag uncertain decisions for review.
 - [Line-by-line search](https://docs.typesafe.ai/cookbooks/semantic_find) - Select relevant source lines and separately check whether the document contains an answer.
 - [Milvus reranking notebook](https://github.com/milvus-io/bootcamp/blob/master/bootcamp/RAG/search_with_jev/rerank_search_results.ipynb) - Community cookbook using Gemini embeddings and Milvus retrieval, then Jev Noul relevance scores to reorder the candidate passages in Python.
+- [Milvus search-stopping notebook](https://github.com/milvus-io/bootcamp/blob/master/bootcamp/RAG/search_with_jev/decide_search_stopping.ipynb) - Community cookbook using Gemini query generation, Milvus retrieval, and Jev evidence-sufficiency judgments to decide whether a bounded search loop continues.
 - [Re-ranking](https://docs.typesafe.ai/cookbooks/rerank_typesafe) - Apply semantic judgments to a shortlist produced by an existing retriever.
 
 ### Extraction and structured data
