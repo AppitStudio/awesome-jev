@@ -298,6 +298,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pytest-jev](pytest-jev.md) | Semantic pytest assertions (holds/lacks/choice/score) judged by TypeSafe Jev via typesafe-sdk. | Python · pytest plugin (`pytest-jev` 0.1.0) |
 | [Responsible AI Harness](responsible-ai-harness.md) | Assess AI systems with hard rules plus optional TypeSafe Jev judge; checksummed evidence bundles and offline report UI. | TypeScript · assessment harness + static UI (`responsible-ai-harness` 0.1.0) |
 | [riff](riff.md) | Lint prose with ruff-style rule codes; deterministic static rules plus optional TypeSafe Jev judgment rules. | Python · CLI (`riff` / `riff-lint` 0.1.0) |
+| [RLCD Gateway](rlcd-gateway.md) | Self-hosted Go gateway: LLM routing with context pruning plus Jev/open-rlcd System One audit/calibration dashboard. | Go · binary/npm/PyPI (`rlcd-gateway`, Apache-2.0) |
 | [semantic-assert](semantic-assert.md) | Assert plain-English claims about UI/text state with TypeSafe Jev (Playwright helpers; thresholds in code). | TypeScript · npm packages + Playwright adapter |
 | [SemDecide](semdecide.md) | Run TypeSafe Jev predicates, routes, scores, and JSONL filters as Unix CLI exit codes for pipelines and CI. | Python · CLI (`semdecide` 0.2.1) |
 | [similarity-ts-jev](similarity-ts-jev.md) | Run similarity-ts + fallow on TypeScript, keep only the pairs TypeSafe Jev judges worth merging (with copy/derive/extract shape), and calibrate the cutoff. | TypeScript · npm CLI/library (`@kongyo2/similarity-ts-jev` 0.2.0, MIT) |
