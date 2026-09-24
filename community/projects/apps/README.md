@@ -262,6 +262,16 @@ Explainable day-trip planner: LLM drafts; TypeSafe Jev screens/compares/reviews;
 
 [Full Jev Trip guide](jev-trip.md) · [Source](https://github.com/liaoyuhua/jev-trip)
 
+### jev-demofast
+
+`Open source` · `Free source build` · `BYOK`
+
+One sentence in, a narrated product demo video out: TypeSafe Jev drives your real product in a browser, guided by an optional index built from your source code.
+
+**Access:** try replays at [onecentdemo.com](https://onecentdemo.com) or clone the [MIT source](https://github.com/q3learners/jev-demofast) (Python 3.12+, uv, ffmpeg, Chrome) with Cloudflare Workers AI credentials. Optional Deepgram voice is paid separately. No app purchase fee for the source build; provider usage is separate. Live Cloudflare/Deepgram demo path not run on the review host.
+
+[Full jev-demofast guide](jev-demofast.md) · [Source](https://github.com/q3learners/jev-demofast) · [Product homepage](https://onecentdemo.com)
+
 ### jev-mail (vynnlee)
 
 `Open source` · `Free source build` · `BYOK`
