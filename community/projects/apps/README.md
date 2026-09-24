@@ -534,6 +534,16 @@ Native macOS floating bar for continuous voice and text. Jev selects the next li
 
 [Full Jev Voice (CUA) guide](jev-cua.md) · [Source](https://github.com/ronadin2002/jev-cua)
 
+### Keel
+
+`Open source` · `Free source build` · `BYOK`
+
+Local-first macOS coding workspace with sessions, composer, terminal, and ACP agents. Default selector is local Laya; hosted TypeSafe Jev is opt-in for fresh unpinned tasks.
+
+**Access:** [build the MIT source](https://github.com/codejunkie99/keel) on macOS Apple Silicon (`docs/build.md`) with optional TypeSafe credential for Jev mode. No app purchase fee; Laya is local; coding providers and optional Jev are separate. Source inspected; macOS build/UI not run on the Linux review host.
+
+[Full Keel guide](keel.md) · [Source](https://github.com/codejunkie99/keel)
+
 ### Live Jev
 
 `Open source` · `Free source build` · `BYOK`
