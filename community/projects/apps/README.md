@@ -564,6 +564,16 @@ FkWeChat/LSPosed WeChat plugin: long-press a message for TypeSafe Jev intent/emo
 
 [Full JevIntent guide](jev-intent.md) · [Source](https://github.com/Nisaka520/JevIntent)
 
+### Notiq
+
+`Source available` · `Free source build` · `BYOK`
+
+Native Android notification filter: natural-language rules plus TypeSafe Jev (or self-hosted FastJev) Choice keep/filter/uncertain.
+
+**Access:** build the [source](https://github.com/chengyongru/notiq) (JDK/Android SDK) with Notification Access and a TypeSafe or FastJev endpoint/key. No app purchase fee; inference separate. **No LICENSE** at tip—not Open source. Source inspected; device/live not run on Linux review host.
+
+[Full Notiq guide](notiq.md) · [Source](https://github.com/chengyongru/notiq)
+
 ## Windows apps
 
 ### Jev Chat Windows
