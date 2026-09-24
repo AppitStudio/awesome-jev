@@ -276,6 +276,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-thinking-router-jev](pi-thinking-router-jev.md) | Pi extension: TypeSafe Jev (or local rules) picks thinking level low/medium/high/xhigh from task feedback. | TypeScript · Pi extension (license unspecified) |
 | [pi-typesafe-bash-guard](pi-typesafe-bash-guard.md) | Classify Pi bash tool calls and user `!` shells with TypeSafe Jev before execution. | TypeScript · Pi extension (npm `@gowthamgts/pi-typesafe-bash-guard` 0.1.0) |
 | [pi-warden](pi-warden.md) | Add configurable action holds, project-rule feedback and context checks to Pi using local policy and Jev judgments. | TypeScript · Pi extension |
+| [plain-language-gate](plain-language-gate.md) | Jev plain-language readability gate (six checks → pass/review/rewrite) for agent writing. | Python · skill/CLI (MIT) |
 | [prompt2jev](prompt2jev.md) | Convert natural language, an LLM prompt, or prompt-running code into a TypeSafe Jev decision package. | Python · agent skill + stdlib CLI |
 | [pytest-jev](pytest-jev.md) | Semantic pytest assertions (holds/lacks/choice/score) judged by TypeSafe Jev via typesafe-sdk. | Python · pytest plugin (`pytest-jev` 0.1.0) |
 | [Responsible AI Harness](responsible-ai-harness.md) | Assess AI systems with hard rules plus optional TypeSafe Jev judge; checksummed evidence bundles and offline report UI. | TypeScript · assessment harness + static UI (`responsible-ai-harness` 0.1.0) |
