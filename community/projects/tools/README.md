@@ -146,6 +146,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Logs](jevlogs.md) | Prioritize logs for deeper analysis alongside your archive. | TypeScript · library, CLI and OpenTelemetry integration |
 | [Jev Model Router](jev-model-router.md) | Route Claude Code subagent models and main-conversation reasoning effort using Jev assessments; requires early-access function hooks. | TypeScript · Claude Code mod |
 | [JEV Reasoning Navigator](jev-reasoning-navigator.md) | Supervise agents: TypeSafe Jev semantic judgment ≠ PolicyEngine ≠ capability receipts ≠ sandboxed execution. | Python · middleware runtime (license unspecified) |
+| [Jev Runway](jev-runway.md) | Local Codex proxy: TypeSafe Jev keeps needed tool output and trims the rest between turns. | TypeScript · npm CLI (`jev-runway`, MIT) |
 | [jev-ci-pathfinder](jev-ci-pathfinder.md) | Select allowlisted CI jobs after a change with TypeSafe Jev; deterministic allowlist + dependency closure. | TypeScript · GitHub Action (MIT) |
 | [jev-cloud-cost-guardian](jev-cloud-cost-guardian.md) | FinOps CI gate: Jev scores proposed cloud spend vs budget; policy never hides cost lines. | TypeScript · GitHub Action (MIT) |
 | [jev-compaction (Waxmell114514)](waxmell114514-jev-compaction.md) | Score-only context compaction so memory cannot hold facts absent from the transcript (offline demo). | Python · library/demo (MIT) |
