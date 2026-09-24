@@ -275,6 +275,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [llmbridge](llmbridge.md) | OpenAI-compatible LLM gateway with L1 rules / L2 TypeSafe Jev / L3 fallback routing. | Python/FastAPI + Vue · gateway (Apache-2.0) |
 | [mayi](mayi.md) | Tool-call gate for Claude Code/Cursor/Codex: TypeSafe Jev scores each call; dialog on unsafe (fail-deny on errors). | Rust · CLI (`mayi` 0.1.0) |
 | [Metis](metis.md) | Triage new GitHub issues with TypeSafe Jev labels and missing-detail comments via a reusable Action/CLI. | Python · GitHub Action + `metis-triage` 0.1.0 |
+| [mobai-ci](mobai-ci.md) | Run MobAI `.mob` / Maestro mobile UI flows in CI; `.mobflow` steps are judged/acted by TypeSafe Jev. | CLI · GitHub Action |
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
 | [omp-jev-compaction](omp-jev-compaction.md) | Reduce omp tool context with sticky TypeSafe/OpenRouter Jev scores while keeping retained text verbatim. | TypeScript · omp plugin (`omp-jev-compaction` 0.1.0) |
 | [Open Jev Bridge](open-jev-bridge.md) | Zero-dep Node MCP + Claude/Codex hooks bridging hosted Jev or local Kev/Laya System One (compaction + completion gates). | Node.js · CLI/MCP (`open-jev-bridge` 0.3.0, MIT) |
