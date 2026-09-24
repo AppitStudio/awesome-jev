@@ -189,6 +189,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-preflight](jev-preflight.md) | Score eight risk axes on a Claude Code turn diff with one TypeSafe Jev request; optional assist reinspection. | Go · Claude Code plugin (v0.1.0) |
 | [jev-project-context](jev-project-context.md) | Keep evidence-first experiment memory for coding agents; optional TypeSafe Jev triage on doctor/context loads. | Agent skill + stdlib Python scripts |
 | [jev-pruner](jev-pruner.md) | Prune eligible Bash stdout with Jev before Claude Code or an opt-in Codex wrapper returns it to the model. | TypeScript · library, Claude Code plugin and Codex wrapper |
+| [jev-reflex (xnuonux)](jev-reflex-xnuonux.md) | Portable Jev decision sidecar: MCP/CLI/pi recipes with durable budgets and source-bound context plans. | Python · MCP/CLI (`jev-reflex`, MIT) |
 | [jev-router](jev-router.md) | Route Claude Code and Codex turns through Jev model selection and inspect stored routing exchanges. | JavaScript · CLI launchers and HTTP proxies |
 | [jev-rules](jev-rules.md) | Select project rules and codebase-map documents for Claude Code prompts and file changes. | JavaScript · Claude Code plugin |
 | [jev-sec-bench](jev-sec-bench.md) | Run or browse blind TypeSafe Jev prompt-injection and vulnerable-code benchmarks (jev-go + results TUI). | Go · CLI/TUI |
