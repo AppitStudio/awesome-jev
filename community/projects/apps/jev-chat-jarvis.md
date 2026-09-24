@@ -6,18 +6,18 @@ Non-invasive Android overlay that reads on-screen chat via Accessibility, uses T
 
 | At a glance | Details |
 | --- | --- |
-| Source | [Source](https://github.com/Finderchangchang/jev-chat-JARVIS) |
+| Source | [Source](https://github.com/jev-chat/jev-chat-jarvis) |
 | Tags | `Open source` · `Free source build` · `BYOK` |
-| Product homepage | [Project homepage](https://github.com/Finderchangchang/jev-chat-JARVIS#readme) — source-built Android APK; no separate hosted product. |
+| Product homepage | [Project homepage](https://github.com/jev-chat/jev-chat-jarvis#readme) — source-built Android APK; no separate hosted product. |
 | Pricing and access | MIT source has no app purchase fee, checked **2026-09-21**. Requires an OpenRouter API key for Jev Decisions and a generative reply model. OpenRouter/TypeSafe usage can incur charges. |
-| Jev evidence | Inspected [`JevClient.kt`](https://github.com/Finderchangchang/jev-chat-JARVIS/blob/6d36bcd9a45fe00a7dcc01c452f2eae4cca95b92/app/src/main/java/com/jev/probe/jev/JevClient.kt): posts typed questions to `https://openrouter.ai/api/alpha/decisions` with model `typesafe/jev-1.13` (seven judgment questions plus candidate ranking). Generative drafting uses a separate chat-completions model (default DeepSeek). |
+| Jev evidence | Inspected [`JevClient.kt`](https://github.com/jev-chat/jev-chat-jarvis/blob/28db6eb275183c36cc5fbe11b2aba0d5ff1e6e08/app/src/main/java/com/jev/probe/jev/JevClient.kt): posts typed questions to `https://openrouter.ai/api/alpha/decisions` with model `typesafe/jev-1.13` (seven judgment questions plus candidate ranking). Generative drafting uses a separate chat-completions model (default DeepSeek). |
 | Disclosure | AI-assisted catalog review; no affiliation with the maintainer, WeChat/Tencent, Feishu/Lark, OpenRouter, or TypeSafe. Listing is not an endorsement. Source inspected; Android SDK build, device install, Accessibility enablement, and live OpenRouter calls were **not** run on the Linux review host. Accessibility disguise for WeChat node reading is documented upstream—review platform ToS and privacy implications yourself. |
-| Maintainer | [Finderchangchang](https://github.com/Finderchangchang). |
+| Maintainer | [jev-chat](https://github.com/jev-chat) (moved from Finderchangchang). |
 | Format | Kotlin Android app (Gradle); debug APK via `./gradlew assembleDebug`. |
 | Platform and availability | Android (WeChat 8.0.78 reported working); Feishu/Lark and other IM surfaces described as in progress. Early source distribution—no Play Store listing reviewed here. |
 | Jev's role | Judges on-screen conversation (intent, danger score, needs, whether to reply, best action, tension/literal signals) and ranks three drafted replies. Code owns capture, overlay UI, and fill-only paste; send stays manual. A separate generative model drafts candidates. |
 | Requirements | JDK 17, Android SDK (platform/build-tools 35), OpenRouter key, Accessibility + overlay + OEM background permissions. |
-| License | [MIT](https://github.com/Finderchangchang/jev-chat-JARVIS/blob/6d36bcd9a45fe00a7dcc01c452f2eae4cca95b92/LICENSE). |
+| License | [MIT](https://github.com/jev-chat/jev-chat-jarvis/blob/28db6eb275183c36cc5fbe11b2aba0d5ff1e6e08/LICENSE). |
 
 ## When to use
 
@@ -30,9 +30,9 @@ An Accessibility service reads visible chat bubbles, builds a snapshot, and call
 ## Get started
 
 ```sh
-git clone https://github.com/Finderchangchang/jev-chat-JARVIS.git
-cd jev-chat-JARVIS
-git checkout 6d36bcd9a45fe00a7dcc01c452f2eae4cca95b92
+git clone https://github.com/jev-chat/jev-chat-jarvis.git
+cd jev-chat-jarvis
+git checkout 28db6eb275183c36cc5fbe11b2aba0d5ff1e6e08
 # Requires JDK 17 + Android SDK (sdk.dir in local.properties)
 ./gradlew assembleDebug
 # Install app/build/outputs/apk/debug/app-debug.apk, set OpenRouter key in Settings,
@@ -43,7 +43,7 @@ Live analysis sends on-screen chat text and drafted replies to OpenRouter (Jev +
 
 ## Examples and demos
 
-- Upstream overlay and settings screenshots under [`docs/images/`](https://github.com/Finderchangchang/jev-chat-JARVIS/tree/6d36bcd9a45fe00a7dcc01c452f2eae4cca95b92/docs/images).
+- Upstream overlay and settings screenshots under [`docs/images/`](https://github.com/jev-chat/jev-chat-jarvis/tree/28db6eb275183c36cc5fbe11b2aba0d5ff1e6e08/docs/images).
 - Settings connectivity test path in `SettingsActivity` (live OpenRouter).
 - No separate offline fixture suite was found in the reviewed tree.
 
@@ -53,6 +53,6 @@ Chat text and relationship prompts leave the device on live analysis. Group chat
 
 ## Review and maintenance
 
-Reviewed on **2026-09-21** at [commit 6d36bcd](https://github.com/Finderchangchang/jev-chat-JARVIS/tree/6d36bcd9a45fe00a7dcc01c452f2eae4cca95b92): MIT. AI-assisted source review of README, LICENSE, `JevClient.kt`, capture/overlay activities. Android Gradle build, device install, and live OpenRouter calls were not run.
+Canonical URL updated **2026-09-24**; originally reviewed **2026-09-21** at [commit 28db6eb](https://github.com/jev-chat/jev-chat-jarvis/tree/28db6eb275183c36cc5fbe11b2aba0d5ff1e6e08): MIT. AI-assisted source review of README, LICENSE, `JevClient.kt`, capture/overlay activities. Android Gradle build, device install, and live OpenRouter calls were not run.
 
 Related: [Crush Monitor](crush-monitor.md), [jev-android](../tools/jev-android.md) (developer UI-agent SDK—not this end-user overlay).
