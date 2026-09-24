@@ -151,6 +151,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-ci-pathfinder](jev-ci-pathfinder.md) | Select allowlisted CI jobs after a change with TypeSafe Jev; deterministic allowlist + dependency closure. | TypeScript · GitHub Action (MIT) |
 | [jev-cloud-cost-guardian](jev-cloud-cost-guardian.md) | FinOps CI gate: Jev scores proposed cloud spend vs budget; policy never hides cost lines. | TypeScript · GitHub Action (MIT) |
 | [jev-compaction (Waxmell114514)](waxmell114514-jev-compaction.md) | Score-only context compaction so memory cannot hold facts absent from the transcript (offline demo). | Python · library/demo (MIT) |
+| [jev-fuse](jev-fuse.md) | Governed System One proxy: policy actions, AST guards, singleflight, and WAL audit for TypeSafe Jev/local Laya. | Python · proxy/PyPI (`jev-fuse`, Apache-2.0) |
 | [jev-guard (muratcakmak)](muratcakmak-jev-guard.md) | Claude Code hooks: regex + TypeSafe Jev rules deny bad edits/deploys; fail-open if scorer down (distinct from leepokai/CMaintz). | TypeScript · Claude Code plugin (MIT) |
 | [jev-guardbench](dfranco-projects-jev-guardbench.md) | Benchmark whether System One (Jev/Kev) can replace LLM-as-judge in agent guardrail callbacks. | Python · uv package (license unspecified) |
 | [jev-guardrails (deepansh-saxena)](deepansh-saxena-jev-guardrails.md) | Compare LLM-as-judge vs TypeSafe Jev on identical 25 guardrail rules for a mock support agent (cost/latency/calibration). | Python · LangChain/LangGraph eval (license unspecified) |
