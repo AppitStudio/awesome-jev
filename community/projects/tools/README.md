@@ -155,6 +155,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-codex-router](jev-codex-router.md) | Route each Codex turn's model and thinking depth with Jev via a Codex Router generic provider. | Python · local server and Codex Router integration |
 | [jev-codex-token-saver](jev-codex-token-saver.md) | Gather local workspace/log evidence and let TypeSafe Jev select exact excerpts for Codex (MCP plugin; local fallback). | Node.js · Codex plugin + MCP (`jev-codex-token-saver` 0.3.2) |
 | [jev-compact](jev-compact.md) | Score Codex tool calls with TypeSafe Jev before compaction and re-inject critical outputs the summary dropped. | TypeScript · Codex plugin (`jev-compact` 0.1.0) |
+| [jevcompat](jevcompat.md) | Spec + conformance suite for Jev-compatible `/v1/systemone` servers (proxy, mock, Action). | Python · suite + GitHub Action (MIT) |
 | [jev-debtgate](jev-debtgate.md) | Gate agents/CI on technical-debt risk with TypeSafe Jev over local git/file metrics. | Node.js · CLI/MCP/Action (`jev-debtgate` 0.3.0) |
 | [jev-effort-router](jev-effort-router.md) | Hermes on Ollama:Cloud: TypeSafe Jev picks model **and** reasoning effort per turn and rewrites `llm_request`. | Python · Hermes plugin (`hermes-plugin-jev-effort-router` 0.2.1, MIT) |
 | [jev-evolve](jev-evolve.md) | Evolve agent policies with typed Jev decisions and measure how much improvement is selection luck. | Python · library (`jev-evolve` on PyPI) |
