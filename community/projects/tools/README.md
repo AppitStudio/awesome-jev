@@ -346,6 +346,7 @@ These projects study related typed-decision patterns using other models. They ar
 | --- | --- | --- |
 | [adk-go-typesafe](adk-go-typesafe.md) | Call System One from Go and Google ADK-Go with OpenAPI-generated types (Choice/Score/Noul). | Go · module + ADK tool (`adk-go-typesafe`) |
 | [Advocaat](advocaat.md) | Batch typed Jev choice, score, and yes/no questions about structured data from TypeScript. | TypeScript · client library and agent skill |
+| [datafusion-jev](datafusion-jev.md) | DataFusion SQL `prompt_jev` UDF for typed TypeSafe Jev answers over row text (bring HTTP client). | Rust · DataFusion 55 crate (MIT OR Apache-2.0) |
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
 | [go-jev](go-jev.md) | Call TypeSafe Jev from Go (Ask/Evaluate) and UNIX pipelines via jev-cli; explicit API key option. | Go · module + CLI (`github.com/mattn/go-jev`, MIT) |
 | [hono-jev-router](hono-jev-router.md) | Route Hono HTTP requests by plain-English meaning with TypeSafe Jev Noul judgments (experimental). | TypeScript · Hono router (`hono-jev-router`) |
