@@ -48,6 +48,16 @@ Local WeChat-style chat analyzer: TypeSafe Jev labels emotion and intent, scores
 
 [Full Crush Monitor guide](crush-monitor.md) · [Source](https://github.com/FerryCorleone/crush-monitor)
 
+### Crush Monitor with Jev
+
+`Open source` · `Free source build` · `BYOK`
+
+MIT derivative of Crush Monitor: WeChat-style affinity analysis UI with TypeSafe Jev emotion/intent/affinity judgments, plus productized trial/account surfaces described upstream.
+
+**Access:** clone the [MIT source](https://github.com/zhengge6/crush-monitor-with-jev) (Node.js 22.12+) and configure a TypeSafe (or compatible) key via `npm run setup`. No app purchase fee for the source build; provider/trial features billed per upstream docs. Source inspected; live analysis not run. Distinct from the original Crush Monitor listing (FerryCorleone).
+
+[Full Crush Monitor with Jev guide](crush-monitor-with-jev.md) · [Source](https://github.com/zhengge6/crush-monitor-with-jev)
+
 ### Fotocopiatrice
 
 `Open source` · `Free source build` · `BYOK`
