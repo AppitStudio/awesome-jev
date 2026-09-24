@@ -137,6 +137,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev GitHub Action](jev-action.md) | Install pinned Jev CLI in Actions; run typed judgments on event/JSON; expose answers (no issue mutation). | GitHub Action (Apache-2.0) |
 | [Jev Logs](jevlogs.md) | Prioritize logs for deeper analysis alongside your archive. | TypeScript · library, CLI and OpenTelemetry integration |
 | [Jev Model Router](jev-model-router.md) | Route Claude Code subagent models and main-conversation reasoning effort using Jev assessments; requires early-access function hooks. | TypeScript · Claude Code mod |
+| [jev-cloud-cost-guardian](jev-cloud-cost-guardian.md) | FinOps CI gate: Jev scores proposed cloud spend vs budget; policy never hides cost lines. | TypeScript · GitHub Action (MIT) |
 | [JevRepoTriage](jevrepo-triage.md) | Self-hosted GitHub issue/PR triage with TypeSafe Jev classifications and operator-approved actions. | TypeScript · web UI + workers (MIT) |
 | [Jev Review](jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
 | [Jev Review (Dev Agrawal)](jev-review-devagrawal.md) | Screen JavaScript/TypeScript diffs or codebases and inspect staged review findings. | TypeScript · CLI and local dashboard |
