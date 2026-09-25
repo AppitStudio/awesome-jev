@@ -48,3 +48,9 @@ Depends on alpha `langchain-typesafe`; pin and re-probe after criterion changes.
 Reviewed on **2026-09-20** at [commit 04a4bc9](https://github.com/ThiagaoBR/typesafe_agent_gates/tree/04a4bc94f3506c12a2acfea5371f0dee5fab3f65): **0.1.0**, Apache-2.0. AI-assisted source review of `toolgate.py`, judgments/triage modules, README, and license. **`pytest -q`: 36 passed** with fake classifiers on the review host. No live TypeSafe probes were run.
 
 Related: [toolgate](toolgate.md), [pi-jev](pi-jev.md), [pi-warden](pi-warden.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Independently suggested by JevList; not an endorsement by Matt Van Horn. Pattern 3: screen an agent's shell commands before they run.
+<!-- knowledge:backlinks:end -->

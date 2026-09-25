@@ -55,3 +55,9 @@ Thread text leaves the host on live Jev calls; IMAP credentials stay in `.env`. 
 Reviewed on **2026-09-23** at [commit c5203bb](https://github.com/tusharck/jev-inbox-queue/tree/c5203bb06ae3446e757c312bb02a4cfea9d39fe0) (MIT). AI-assisted review of README, LICENSE, classify/questions/policy. No live TypeSafe/IMAP.
 
 Related: [Jevmail](jevmail.md), [Crush Monitor](crush-monitor.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Independently suggested by JevList; not an endorsement by Matt Van Horn. Pattern 7: triage email by asking several typed questions per thread.
+<!-- knowledge:backlinks:end -->

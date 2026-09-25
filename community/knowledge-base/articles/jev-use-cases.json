@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "id": "jev-use-cases",
+  "slug": "jev-use-cases",
+  "title": "Jev use cases: nine patterns developers are building",
+  "description": "What Jev is and what developers build with it: nine community use cases, from browser agents to RAG filtering, with evidence, limits and open projects for each.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-25",
+  "modified_at": "2026-09-25",
+  "topics": [
+    "use-cases",
+    "retrieval",
+    "agent-harnesses"
+  ],
+  "source": {
+    "title": "WTF Is Jev? 9 Things People Are Already Building With It",
+    "url": "https://x.com/mvanhorn/article/2100784142850097482",
+    "author": {
+      "name": "Matt Van Horn",
+      "url": "https://x.com/mvanhorn"
+    },
+    "published_at": "2026-09-18",
+    "accessed_at": "2026-09-25"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and implementation"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-ultrafast.md",
+      "origin": "source-mentioned",
+      "purpose": "teaching-example",
+      "step": "Pattern 1: let Jev pick a browser agent's next action from the controls on the page",
+      "why": "The article links Browser Use's repository as the payload for its first pattern. Each step lists observed controls, asks several Choice questions in one request, and uses a separate text model only when a field needs typing.",
+      "evidence": [
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/agent.py",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/docs/design.md"
+      ],
+      "limitations": "MIT experimental browser agent with no confidence threshold. Live runs need a TypeSafe key, a separate text-model key and Chrome through Browser Harness, and can incur charges. No frames, shadow DOM, canvas or uploads; it finds flights without booking them."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/fast-jev-compaction.md",
+      "origin": "source-mentioned",
+      "purpose": "implements-step",
+      "step": "Pattern 2: drop tool calls that no longer matter instead of summarizing an agent's context",
+      "why": "The article's compaction pick installs this repository. It asks two Noul questions per tool call and result pair and keeps, shortens or drops the pair at a 0.5 threshold, with an optional Claude Code hook.",
+      "evidence": [
+        "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts",
+        "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/state.ts",
+        "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/hooks/README.md"
+      ],
+      "limitations": "MIT TypeScript library. Jev sees result status and length, not result bodies. Library errors throw, so callers must keep the original transcript. Live calls send transcript text to TypeSafe and cost money; the Claude Code install was not tested."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/typesafe-agent-gates.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Pattern 3: screen an agent's shell commands before they run",
+      "why": "Open LangChain and Deep Agents middleware that asks four Noul questions about each execute command and holds commands when TypeSafe is unreachable by default, matching the article's LangChain framing of the safety reviewer.",
+      "evidence": [
+        "https://github.com/ThiagaoBR/typesafe_agent_gates/blob/04a4bc94f3506c12a2acfea5371f0dee5fab3f65/typesafe_agent_gates/toolgate.py",
+        "https://github.com/ThiagaoBR/typesafe_agent_gates/blob/04a4bc94f3506c12a2acfea5371f0dee5fab3f65/LICENSE"
+      ],
+      "limitations": "Apache-2.0 package at 0.1.0 that depends on the alpha langchain-typesafe package. Its tests use fake classifiers and no live judgment was run. Keep deterministic permission checks in front of destructive actions."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/hotchpotch-jev-reranker.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Pattern 5: use a packaged library to drop irrelevant retrieved passages instead of writing the filter",
+      "why": "relevance_rerank() scores passages with Noul questions, drops those below a threshold and returns an empty list when nothing passes; it supports listwise and pointwise requests, retries with backoff and raises errors instead of scoring failures as zero.",
+      "evidence": [
+        "https://github.com/hotchpotch/jev-reranker/blob/d58594b393b29b7ee6398cc9337dc5e9d6c6691e/src/jev_reranker/reranker.py",
+        "https://github.com/hotchpotch/jev-reranker/blob/d58594b393b29b7ee6398cc9337dc5e9d6c6691e/LICENSE"
+      ],
+      "limitations": "MIT Python 3.11+ package at 0.1.2 with a default threshold of 0.2. Offline tests passed in catalog review; live calls were not run. Passages go to TypeSafe and usage is billed separately."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/apps/jev-inbox-queue.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Pattern 7: triage email by asking several typed questions per thread",
+      "why": "Asks seven typed questions per email thread in one request and lets a local policy sort threads into queues, so thresholds change without another API call.",
+      "evidence": [
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/questions.py",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/policy.py",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/LICENSE"
+      ],
+      "limitations": "MIT Python app; needs a TypeSafe key and optionally a Gmail IMAP app password. Source inspected in catalog review without a live run. Email content goes to TypeSafe on live runs."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-table.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Pattern 8: apply one set of questions to every row of a CSV or JSONL file",
+      "why": "Adds Jev answer columns to rows from a YAML spec using the async TypeSafe SDK, routes low-confidence answers to a review column and previews cost with a dry run.",
+      "evidence": [
+        "https://github.com/dtduc-git/jev-table/blob/94c5cce8d1d342478f643daddd00d44de985cccd/src/jev_table/transport.py",
+        "https://github.com/dtduc-git/jev-table/blob/94c5cce8d1d342478f643daddd00d44de985cccd/LICENSE"
+      ],
+      "limitations": "Apache-2.0 CLI at 0.1.1. Offline tests passed in catalog review; live labelling was not run. Row fields named in the spec leave the machine on live runs; README cost figures are illustrative."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevlike.md",
+      "origin": "source-mentioned",
+      "purpose": "teaching-example",
+      "step": "Pattern 9: learn how a local option scorer imitates Jev's interface",
+      "why": "The article links jevlike among the local look-alikes. It is a trainable model that scores a changing list of options in one pass, useful for understanding the interface without TypeSafe.",
+      "evidence": [
+        "https://github.com/vinnylarouge/jevlike/blob/94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452/jevlike/model.py",
+        "https://github.com/vinnylarouge/jevlike/blob/94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452/LICENSE"
+      ],
+      "limitations": "Not Jev and not affiliated with TypeSafe. MIT code; scores are uncalibrated and context is truncated to 192 bytes. Checkpoints load with torch.load(weights_only=False), which can run code from an untrusted file. Source-only catalog review."
+    }
+  ],
+  "verification": {
+    "source": "Full X article body, code blocks, embedded posts and linked pages read on 2026-09-25 in a logged-in Chrome session; link targets and created/modified timestamps (identical, no edit) confirmed from the public post API. No republication by the author found; an aggregator site mirrors the X article.",
+    "offline": "Installed typesafe-sdk 0.7.1 in a scratch environment and ran the guide's RAG filter with fake SystemOneResponse objects: mixed relevance, nothing passing, empty input and a simulated service error produced the intended results. The article's own draft also ran against the SDK. Confirmed from the SDK schema and docs that Noul answers carry no confidence value. No API call.",
+    "live": "No TypeSafe call, latency, cost or accuracy measurement, and no run of any of the seven linked projects. None of the article's reported figures was reproduced.",
+    "review": "AI-assisted editorial and technical review against the article, current TypeSafe documentation and the pinned catalog reviews of the seven projects; Ahrefs keyword data unavailable on the current plan, so wording was chosen by reader intent from current search results; no human reviewer recorded."
+  },
+  "faqs": [
+    {
+      "question": "What is Jev?",
+      "answer": "Jev is TypeSafe's System One model. Instead of writing text, it answers typed questions about data you send: it picks one of your options, scores on a scale you define, or gives a yes-or-no probability. Software uses those answers to decide what to do next."
+    },
+    {
+      "question": "What can you build with Jev?",
+      "answer": "Developers use it for the small decisions inside larger systems: choosing a browser agent's next action, pruning an agent's context, screening commands, routing requests between models, filtering retrieved passages, triaging email and labelling rows in bulk. It works best when code supplies the candidates."
+    },
+    {
+      "question": "Is Jev an LLM?",
+      "answer": "No. Jev does not generate prose, plan or explain. It returns structured answers with probabilities that code can threshold. Keep a language model for writing and reasoning, and use Jev for the judgments in between."
+    },
+    {
+      "question": "How much does Jev cost?",
+      "answer": "TypeSafe lists Jev 1.13 at $0.042 per million input tokens, and output is free. Several questions about the same state share one request, so extra questions add only their own input tokens. Retries, human review and wrong decisions add real cost, so measure per completed task."
+    },
+    {
+      "question": "Can I run Jev locally?",
+      "answer": "No. The official model is available only through TypeSafe's hosted API and the gateways that resell it. Local projects such as Reflex, jevlike and mini-jev copy the interface on other models; they are not Jev and don't match its calibration."
+    },
+    {
+      "question": "How do I filter RAG results with Jev?",
+      "answer": "Ask one yes-or-no Noul question per retrieved passage, such as whether it contains information the answer needs, and keep passages above a threshold you calibrate on labelled examples. If the service fails, fall back to the retriever's original list."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-use-cases.png",
+    "alt": "Diagram: code supplies state and candidates, Jev answers Choice, Score or Noul questions with probabilities, and code acts; nine use cases are listed underneath",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
