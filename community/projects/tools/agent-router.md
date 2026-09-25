@@ -56,5 +56,5 @@ Related: [jev-router](jev-router.md), [Jev Model Router](jev-model-router.md), [
 <!-- knowledge:backlinks:start -->
 ## Knowledge guides
 
-- [Add a reviewable Jev decision gate to a LangChain agent](../../knowledge-base/articles/building-a-jev-agent-harness.md) — Independently suggested by JevList; not an endorsement by Sydney Runkle. Explore model selection after the tool gate works.
+- [Guard LangChain agent tool calls with Jev and human approval](../../knowledge-base/articles/building-a-jev-agent-harness.md) — Independently suggested by JevList; not an endorsement by Sydney Runkle. Explore model selection after the tool gate works.
 <!-- knowledge:backlinks:end -->

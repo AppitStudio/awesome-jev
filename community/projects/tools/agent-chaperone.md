@@ -53,5 +53,5 @@ Related: [jev-shield](jev-shield.md), [JevShield](jevshield.md), [toolgate](tool
 <!-- knowledge:backlinks:start -->
 ## Knowledge guides
 
-- [Add a reviewable Jev decision gate to a LangChain agent](../../knowledge-base/articles/building-a-jev-agent-harness.md) — Independently suggested by JevList; not an endorsement by Sydney Runkle. Compare a separate MCP/hook screening layer with the LangChain middleware path.
+- [Guard LangChain agent tool calls with Jev and human approval](../../knowledge-base/articles/building-a-jev-agent-harness.md) — Independently suggested by JevList; not an endorsement by Sydney Runkle. Compare a separate MCP/hook screening layer with the LangChain middleware path.
 <!-- knowledge:backlinks:end -->
