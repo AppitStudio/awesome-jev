@@ -32,6 +32,27 @@ function requireHttps(value, label) {
   if (typeof value !== 'string' || !/^https:\/\/[^\s/]+/i.test(value)) errors.push(`${label} must be an HTTPS URL`);
 }
 
+// Reads raster dimensions from file headers so the validator needs no image dependency.
+function imageSize(file) {
+  const data = fs.readFileSync(file);
+  if (data.length >= 24 && data.toString('latin1', 1, 4) === 'PNG') return { width: data.readUInt32BE(16), height: data.readUInt32BE(20) };
+  if (data.length >= 30 && data.toString('latin1', 0, 4) === 'RIFF' && data.toString('latin1', 8, 12) === 'WEBP') {
+    const format = data.toString('latin1', 12, 16);
+    if (format === 'VP8X') return { width: 1 + data.readUIntLE(24, 3), height: 1 + data.readUIntLE(27, 3) };
+    if (format === 'VP8 ') return { width: data.readUInt16LE(26) & 0x3fff, height: data.readUInt16LE(28) & 0x3fff };
+    if (format === 'VP8L') { const bits = data.readUInt32LE(21); return { width: (bits & 0x3fff) + 1, height: ((bits >> 14) & 0x3fff) + 1 }; }
+  }
+  if (data[0] === 0xff && data[1] === 0xd8) {
+    for (let offset = 2; offset + 9 < data.length;) {
+      if (data[offset] !== 0xff) { offset++; continue; }
+      const marker = data[offset + 1];
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) return { width: data.readUInt16BE(offset + 7), height: data.readUInt16BE(offset + 5) };
+      offset += 2 + data.readUInt16BE(offset + 2);
+    }
+  }
+  return null;
+}
+
 function managedBlock(content, kind, body, file) {
   const start = `<!-- knowledge:${kind}:start -->`;
   const end = `<!-- knowledge:${kind}:end -->`;
@@ -87,10 +108,23 @@ for (const slug of slugs) {
   requireDate(source.published_at, `${label}.source.published_at`);
   requireDate(source.accessed_at, `${label}.source.accessed_at`);
   if (!Array.isArray(metadata.credits?.guide_authors) || metadata.credits.guide_authors.length === 0) errors.push(`${label}: guide_authors required`);
-  for (const author of metadata.credits?.guide_authors ?? []) { requireText(author.name, `${label}.guide_author.name`); requireText(author.role, `${label}.guide_author.role`); }
+  for (const author of metadata.credits?.guide_authors ?? []) {
+    requireText(author.name, `${label}.guide_author.name`); requireText(author.role, `${label}.guide_author.role`);
+    if (!['Person', 'Organization'].includes(author.type)) errors.push(`${label}.guide_author.type must be Person or Organization`);
+  }
   if (!Array.isArray(metadata.credits?.reviewers)) errors.push(`${label}: reviewers must be an array (empty when none)`);
   for (const reviewer of metadata.credits?.reviewers ?? []) requireText(reviewer.name, `${label}.reviewer.name`);
   for (const key of ['source', 'offline', 'live', 'review']) requireText(metadata.verification?.[key], `${label}.verification.${key}`);
+  if (metadata.image !== undefined) {
+    const image = metadata.image ?? {};
+    if (typeof image.path !== 'string' || !/^community\/knowledge-base\/images\/[a-z0-9]+(?:-[a-z0-9]+)*\.(?:png|jpe?g|webp)$/.test(image.path) || !fs.existsSync(path.join(root, image.path))) errors.push(`${label}.image.path must be an existing PNG, JPEG or WebP in community/knowledge-base/images/`);
+    else {
+      const size = imageSize(path.join(root, image.path));
+      if (!size || size.width < 1200) errors.push(`${label}.image must be a readable image at least 1200 pixels wide`);
+    }
+    for (const key of ['alt', 'credit', 'license']) requireText(image[key], `${label}.image.${key}`);
+    for (const key of ['license_url', 'source_url']) if (image[key] !== undefined) requireHttps(image[key], `${label}.image.${key}`);
+  }
   if (!markdown.startsWith(`# ${metadata.title}\n`)) errors.push(`${label}: Markdown H1 must match title`);
   for (const heading of ['Key takeaways', 'Validation and limits', 'Adoption questions', 'Sources, credits and corrections']) if (!markdown.includes(`## ${heading}`)) errors.push(`${label}: missing ${heading} section`);
   if (!markdown.includes(source.url) || !markdown.includes(source.author?.url ?? '\u0000')) errors.push(`${label}: source and author links must be visible`);

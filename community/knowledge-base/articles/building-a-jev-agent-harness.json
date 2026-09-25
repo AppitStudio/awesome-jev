@@ -17,7 +17,7 @@
     "accessed_at": "2026-09-25"
   },
   "credits": {
-    "guide_authors": [{"name": "Appit Studio", "url": "https://appitstudio.com", "role": "Editorial guide; AI-assisted drafting and implementation"}],
+    "guide_authors": [{"type": "Organization", "name": "Appit Studio", "url": "https://appitstudio.com", "role": "Editorial guide; AI-assisted drafting and implementation"}],
     "reviewers": []
   },
   "connections": [
