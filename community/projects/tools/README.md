@@ -176,6 +176,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-seatbelts](jev-seatbelts.md) | Seven Claude Code hooks catching expensive agent mistakes; TypeSafe Jev on judgment tiers. | Python · Claude hooks (MIT) |
 | [jev-security-sentinel](jev-security-sentinel.md) | Security CI gate over SAST/SCA/IaC/secrets/container findings via TypeSafe Jev; findings stay visible. | TypeScript · GitHub Action (MIT) |
 | [jev-support-agents](jev-support-agents.md) | FastAPI support orchestrator: LLM specialists write text; TypeSafe Jev routes and evaluates with retry/escalation. | Python · FastAPI + Ollama reference (MIT) |
+| [jev-swap](jev-swap.md) | Find LLM→Jev decision swaps; shadow-test on traffic. | Node · CLI (MIT) |
 | [Jev_validation_agent](jev-validation-agent.md) | Python Jev Guard validating agent outputs via TypeSafe Jev with reports and a local demo UI. | Python · package + demo (MIT) |
 | [JevCore Agent](carter1111-jevcore.md) | Coding harness: TypeSafe Jev classifies task/risk/mode; hard-policy Guard; MCP + `npx jevcoreagent`. | JavaScript · npm CLI/MCP (Apache-2.0) |
 | [JevRepoTriage](jevrepo-triage.md) | Self-hosted GitHub issue/PR triage with TypeSafe Jev classifications and operator-approved actions. | TypeScript · web UI + workers (MIT) |
