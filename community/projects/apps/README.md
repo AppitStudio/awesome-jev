@@ -482,6 +482,16 @@ Evidence-backed AI answer-readiness page audit: TypeSafe Jev meaning judgments p
 
 [Try SiteClarity](https://siteclarity.sanjay-shankar.workers.dev) · [Full SiteClarity guide](siteclarity.md) · [Source](https://github.com/sanjuacodez/siteclarity)
 
+### talktojev (Jev Prime)
+
+`Open source` · `Free` · `BYOK`
+
+Research/demo web chatbot with no LLM in the loop: TypeSafe Jev picks every word via OpenRouter Decisions (Choice), with confidence-driven lookahead. Free hosted communal budget or BYOK.
+
+**Access:** open [talktojev.com](https://talktojev.com) (free communal limits) or run the [MIT source](https://github.com/xucian/talktojev) with an OpenRouter key. No app purchase fee; OpenRouter/Jev usage is separate. Source inspected; live hosted chat not measured on the review host. Community submission #533.
+
+[Try talktojev](https://talktojev.com) · [Full talktojev guide](talktojev.md) · [Source](https://github.com/xucian/talktojev)
+
 ### tg-crush
 
 `Open source` · `Free source build` · `BYOK`
