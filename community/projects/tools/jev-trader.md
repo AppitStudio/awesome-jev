@@ -78,3 +78,9 @@ Inspected README, MIT license, package manifests, example configuration, model q
 Source inspection only: no dependencies installed, scripts executed, provider calls made, wallet accessed, or orders signed/submitted. No conventional test suite was identified; diagnostic scripts are not evidence of passing tests. No financial or performance claims were validated.
 
 Related: [offline decision examples](../../../examples/README.md) for simpler synthetic workflows.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Guard LangChain agent tool calls with Jev and human approval](../../knowledge-base/articles/building-a-jev-agent-harness.md) — Mentioned in the source article. Study how code limits sit between a Jev judgment and an irreversible action.
+<!-- knowledge:backlinks:end -->

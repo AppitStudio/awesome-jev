@@ -14,7 +14,7 @@ function fixture(t) {
   fs.mkdirSync(path.join(root, 'scripts'), { recursive: true });
   fs.copyFileSync(path.join(source, 'scripts/knowledge-base.mjs'), path.join(root, 'scripts/knowledge-base.mjs'));
   fs.cpSync(path.join(source, 'community/knowledge-base'), path.join(root, 'community/knowledge-base'), { recursive: true });
-  for (const name of ['agent-chaperone', 'agent-router']) {
+  for (const name of ['agent-chaperone', 'agent-router', 'jev-trader']) {
     const dir = path.join(root, 'community/projects/tools');
     fs.mkdirSync(dir, { recursive: true });
     fs.copyFileSync(path.join(source, `community/projects/tools/${name}.md`), path.join(dir, `${name}.md`));
