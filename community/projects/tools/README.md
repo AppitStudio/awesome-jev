@@ -180,6 +180,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-swap](jev-swap.md) | Find LLM→Jev decision swaps; shadow-test on traffic. | Node · CLI (MIT) |
 | [Jev_validation_agent](jev-validation-agent.md) | Python Jev Guard validating agent outputs via TypeSafe Jev with reports and a local demo UI. | Python · package + demo (MIT) |
 | [JevCore Agent](carter1111-jevcore.md) | Coding harness: TypeSafe Jev classifies task/risk/mode; hard-policy Guard; MCP + `npx jevcoreagent`. | JavaScript · npm CLI/MCP (Apache-2.0) |
+| [JeVerifier](jeverifier.md) | Jev reading lists + doc/code checks under Claude sessions. | Python · harness (MIT) |
 | [JevRepoTriage](jevrepo-triage.md) | Self-hosted GitHub issue/PR triage with TypeSafe Jev classifications and operator-approved actions. | TypeScript · web UI + workers (MIT) |
 | [Jev Review](jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
 | [Jev Review (Dev Agrawal)](jev-review-devagrawal.md) | Screen JavaScript/TypeScript diffs or codebases and inspect staged review findings. | TypeScript · CLI and local dashboard |
