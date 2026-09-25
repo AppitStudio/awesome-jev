@@ -168,6 +168,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-guardrails (deepansh-saxena)](deepansh-saxena-jev-guardrails.md) | Compare LLM-as-judge vs TypeSafe Jev on identical 25 guardrail rules for a mock support agent (cost/latency/calibration). | Python · LangChain/LangGraph eval (license unspecified) |
 | [jev-healthcare-lab](jev-healthcare-lab.md) | Open Jev vs DeepSeek comparison on 96 healthcare tasks / 12 scenarios (quality/latency/cost). | Python · research lab (MIT) |
 | [jev-loop (King4s)](king4s-jev-loop.md) | Build loop where TypeSafe Jev decides and Claude Code/Hermes executes (MCP + skill; ≠ lvzhaobo/jev-loop). | Python · MCP/skill (MIT) |
+| [jev-playwright (arthurfiorette)](arthurfiorette-jev-playwright.md) | Jev-powered Playwright test selection from changed files. | TypeScript · Playwright (MIT) |
 | [jev-pr-profiler](jev-pr-profiler.md) | GitHub Action: TypeSafe Jev PR risk profile + review-depth outputs (never merges alone). | TypeScript · GitHub Action (MIT) |
 | [jev-sap-commerce](emenowicz-jev-sap-commerce.md) | SAP Commerce extension: TypeSafe Jev review moderation + category suggestions (dry runs, audits). | Java · Commerce extension (Apache-2.0) |
 | [jev-seatbelts](jev-seatbelts.md) | Seven Claude Code hooks catching expensive agent mistakes; TypeSafe Jev on judgment tiers. | Python · Claude hooks (MIT) |
