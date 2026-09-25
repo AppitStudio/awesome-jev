@@ -50,3 +50,9 @@ Row state fields named in the pack leave the machine on live runs. Low-confidenc
 Reviewed on **2026-09-21** at [commit 94c5cce](https://github.com/dtduc-git/jev-table/tree/94c5cce8d1d342478f643daddd00d44de985cccd): **0.1.1**, Apache-2.0. AI-assisted source review of README, `transport.py`, CLI/engine, and LICENSE. **51** offline tests passed. No live TypeSafe calls.
 
 Related: [jeval](jeval.md), [Typed Evals](typed-evals.md), [dbt_jev](dbt-jev.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Independently suggested by JevList; not an endorsement by Matt Van Horn. Pattern 8: apply one set of questions to every row of a CSV or JSONL file.
+<!-- knowledge:backlinks:end -->

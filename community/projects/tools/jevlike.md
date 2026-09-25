@@ -80,3 +80,9 @@ Reviewed **2026-09-19**, commit [`94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452`](htt
 Inspected README, MIT license, dependency/CLI manifest, attention-head and encoder implementation, checkpoint loading, data validation, train/eval arguments, prediction output, and the synthetic smoke test. Recorded the exact revision with `git rev-parse HEAD`.
 
 Source inspection only: no installation, training, checkpoint deserialization, games, tests, or benchmarks were run. Published performance/quality figures and selected gameplay outcomes were not independently verified.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Mentioned in the source article. Pattern 9: learn how a local option scorer imitates Jev's interface.
+<!-- knowledge:backlinks:end -->

@@ -62,3 +62,9 @@ Query and candidate document strings leave the host on live calls. Thresholds an
 Reviewed on **2026-09-21** at [commit d58594b](https://github.com/hotchpotch/jev-reranker/tree/d58594b393b29b7ee6398cc9337dc5e9d6c6691e): **0.1.2**, MIT. AI-assisted source review of README, LICENSE, `src/jev_reranker/*`, and offline pytest. No live provider calls.
 
 Related: [jev-reranker (shinpr)](jev-reranker.md), [llama-index-jev](llama-index-jev.md), [jegrep](jegrep.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Independently suggested by JevList; not an endorsement by Matt Van Horn. Pattern 5: use a packaged library to drop irrelevant retrieved passages instead of writing the filter.
+<!-- knowledge:backlinks:end -->
