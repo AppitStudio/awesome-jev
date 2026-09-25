@@ -394,6 +394,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [RYOTIDE](ryotide.md) | Local LLM one-forward-pass typed decisions (MLX/PyTorch) measured on JevBench; independent of official Jev. | Python · research (MIT) |
 | [SemIf](semif.md) | Explore typed option scoring and shared-state reuse with local open models; independent of official Jev. | Python / PyTorch / MLX · research and browser lab |
 | [Sureband](sureband.md) | Conformal coverage wrappers for System One outputs (Jev/Laya/…) from labeled calibration sets. | Python · library (`sureband`, Apache-2.0) |
+| [vLLM Jev](vllm-jev.md) | Serve Jev-compatible decision models through vLLM. | Python · server (Apache-2.0) |
 
 ## SDKs and integrations
 
