@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "jev-decision-gate",
+  "slug": "jev-decision-gate",
+  "title": "Replace LLM decision calls with a Jev gate in Python",
+  "description": "Move routing, scoring and approval calls from a frontier LLM to Jev: build a Python ship/return/escalate gate with code-owned thresholds and a shadow-mode rollout.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-25",
+  "modified_at": "2026-09-25",
+  "topics": [
+    "decision-gates",
+    "calibration",
+    "agent-harnesses"
+  ],
+  "source": {
+    "title": "Jev Engineering: How to Stop Paying a Frontier Model to Make Yes-or-No Decisions (full course)",
+    "url": "https://x.com/hanakoxbt/article/2101709924828934222",
+    "author": {
+      "name": "Hanako",
+      "url": "https://x.com/hanakoxbt"
+    },
+    "published_at": "2026-09-20",
+    "accessed_at": "2026-09-25"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and implementation"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-ultrafast.md",
+      "origin": "source-mentioned",
+      "purpose": "teaching-example",
+      "step": "Rebuild the option list from what exists each turn and verify outcomes outside Jev",
+      "why": "The article names Browser Use's Jev flight-search agent: it offers Jev a fresh table of observed controls each step, uses a separate text model only for typing, and checks the result independently after Jev reports done.",
+      "evidence": [
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/README.md",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/examples/flights.py"
+      ],
+      "limitations": "MIT experimental browser agent, not a merge gate. The article names Browser Use but does not link the repository. Live runs need a TypeSafe key, a separate text-model key and Chrome through Browser Harness, and can incur charges. It finds flights; it does not book them."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevlens.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Shadow-run the gate on labelled changes and set thresholds from stored probabilities",
+      "why": "Uses the same Python SDK to run labelled Choice, Noul and Score cases, stores every probability and confidence as JSONL, and replays threshold changes without another API call; unlabelled shadow records can be stored too.",
+      "evidence": [
+        "https://github.com/k4its1t/jevlens/blob/cd21fce0bdde16f02856a55c792645bd3b18605b/README.md",
+        "https://github.com/k4its1t/jevlens/blob/cd21fce0bdde16f02856a55c792645bd3b18605b/src/jevlens/runner.py"
+      ],
+      "limitations": "MIT 0.1.0 package; offline tests passed in catalog review, live evaluation not run. Live runs send your cases to TypeSafe and can incur charges. Suggested thresholds are starting points, not policy."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-pr-profiler.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Use a GitHub Action for pull-request risk signals instead of writing your own Python gate",
+      "why": "Applies a deterministic risk floor Jev cannot lower, sends compact PR metadata rather than patch hunks, and exposes review-depth outputs with a low-confidence policy; it never approves, merges or blocks on its own.",
+      "evidence": [
+        "https://github.com/JevForge/jev-pr-profiler/blob/482b916c7f2c5fb78b9c4e8e7b53e432f00c73de/README.md"
+      ],
+      "limitations": "MIT GitHub Action; catalog-reviewed from README and license without a live run. Needs a TypeSafe or AI Gateway key, and provider usage can incur charges. Downstream workflow jobs own every merge decision."
+    }
+  ],
+  "verification": {
+    "source": "Full X article body, code blocks and both embedded posts read on 2026-09-25 through a public post API after the connected browser session dropped; no edit indicator present. Checked for republished versions; only the author's paid course site repeats the material, and it was not reviewed.",
+    "offline": "Installed typesafe-sdk 0.7.1 in a scratch environment and ran the guide's gate policy with fake SystemOneResponse objects: confident ship, close race, wide blast radius, needs-a-person, both hard rules and a service error produced the intended decisions. The article's Score(legend=...) form failed SDK validation. No API call.",
+    "live": "No TypeSafe call, latency, cost or accuracy measurement, and no run of Jev Ultrafast, jevlens or jev-pr-profiler.",
+    "review": "AI-assisted editorial and technical review against the article, current TypeSafe documentation and pinned upstream sources for the three catalog projects; Ahrefs keyword data unavailable on the current plan, so wording was chosen by reader intent from current search results; no human reviewer recorded."
+  },
+  "faqs": [
+    {
+      "question": "When should I use Jev instead of an LLM in an agent?",
+      "answer": "Use Jev when the answer space is known before you ask: pick an option, score on a scale you define, or answer yes or no. Keep an LLM for writing, planning and explanation, and keep code for anything it can compute exactly."
+    },
+    {
+      "question": "How do I choose confidence thresholds for a Jev gate?",
+      "answer": "Run the gate in shadow mode on real, labelled cases, plot accuracy against confidence and set each threshold from that curve and the cost of being wrong. The numbers in examples are placeholders, and confidence is not an accuracy percentage."
+    },
+    {
+      "question": "Can Jev hallucinate or return an invalid answer?",
+      "answer": "Jev cannot return an option outside the schema you define. It can still choose the wrong valid option with high confidence, so keep hard rules in code and route uncertain answers to a person."
+    },
+    {
+      "question": "How much does a Jev decision cost?",
+      "answer": "TypeSafe lists Jev 1.13 at $0.042 per million input tokens with free output. A decision with about 1,000 input tokens costs about $0.000042 in inference. Retries, human reviews and wrong decisions cost more, so measure cost per completed task."
+    },
+    {
+      "question": "Must I install all the linked projects?",
+      "answer": "No. The primary recipe needs only the TypeSafe Python SDK. Jev Ultrafast is a source-mentioned teaching example of rebuilding options each turn; jevlens is a suggested tool for shadow-mode calibration; jev-pr-profiler is a suggested CI alternative."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-decision-gate.png",
+    "alt": "Diagram: code builds the state and applies hard rules, Jev answers three typed questions in one call, and code thresholds route the change to ship, return or escalate",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

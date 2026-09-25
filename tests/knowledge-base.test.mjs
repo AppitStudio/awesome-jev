@@ -8,18 +8,27 @@ import test from 'node:test';
 
 const source = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
+function connectedProjects() {
+  const articles = path.join(source, 'community/knowledge-base/articles');
+  const paths = fs.readdirSync(articles)
+    .filter((name) => name.endsWith('.json'))
+    .flatMap((name) => JSON.parse(fs.readFileSync(path.join(articles, name), 'utf8')).connections)
+    .filter((connection) => connection.kind === 'project')
+    .map((connection) => connection.path);
+  return [...new Set(paths)];
+}
+
 function fixture(t) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'jev-knowledge-check-'));
   t.after(() => fs.rmSync(root, { recursive: true, force: true }));
   fs.mkdirSync(path.join(root, 'scripts'), { recursive: true });
   fs.copyFileSync(path.join(source, 'scripts/knowledge-base.mjs'), path.join(root, 'scripts/knowledge-base.mjs'));
   fs.cpSync(path.join(source, 'community/knowledge-base'), path.join(root, 'community/knowledge-base'), { recursive: true });
-  for (const name of ['agent-chaperone', 'agent-router', 'jev-trader']) {
-    const dir = path.join(root, 'community/projects/tools');
-    fs.mkdirSync(dir, { recursive: true });
-    fs.copyFileSync(path.join(source, `community/projects/tools/${name}.md`), path.join(dir, `${name}.md`));
-  }
+  fs.mkdirSync(path.join(root, 'community/projects/tools'), { recursive: true });
   fs.mkdirSync(path.join(root, 'community/projects/apps'), { recursive: true });
+  for (const project of connectedProjects()) {
+    fs.copyFileSync(path.join(source, project), path.join(root, project));
+  }
   fs.mkdirSync(path.join(root, 'projects/support-router'), { recursive: true });
   for (const name of ['README.md', 'run.py']) fs.copyFileSync(path.join(source, 'projects/support-router', name), path.join(root, 'projects/support-router', name));
   return root;
