@@ -52,3 +52,9 @@ Task text leaves the host on every live TypeSafe call; there is no non-TypeSafe 
 Reviewed on **2026-09-20** at [commit e1cc3c1](https://github.com/nidhi-singh02/agent-router/tree/e1cc3c1bf11b52f845422ef38f9fa190f9fc16fb): **@agent-router/router 0.1.0**, MIT. AI-assisted source review of README, LICENSE, `packages/router/src/semantic/typesafe-client.ts`, `decision-engine.ts`, `task-classifier.ts`, and `effort-selector.ts`. Ran `npm install`, `npm run build`, and `npm test -- --run` in the upstream checkout: **42** test files, **270** tests passed. Live TypeSafe/Herdr paths not executed.
 
 Related: [jev-router](jev-router.md), [Jev Model Router](jev-model-router.md), [jev-codex-router](jev-codex-router.md), [pi-jev-router](pi-jev-router.md), [Distill](distill.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Add a reviewable Jev decision gate to a LangChain agent](../../knowledge-base/articles/building-a-jev-agent-harness.md) — Independently suggested by JevList; not an endorsement by Sydney Runkle. Explore model selection after the tool gate works.
+<!-- knowledge:backlinks:end -->

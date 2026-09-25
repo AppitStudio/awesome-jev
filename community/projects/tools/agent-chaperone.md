@@ -49,3 +49,9 @@ Not a sandbox and not a replacement for client permission prompts. Adaptive atta
 Reviewed on **2026-09-21** at [commit 4220149](https://github.com/agent-chaperone/agent-chaperone/tree/4220149bed35d4c9402adb9a0b9a5d41874cf144) (`agent-chaperone` 0.3.1, Apache-2.0). AI-assisted source review of README, LICENSE, `src/backends/typesafe.ts`, CLI/hooks docs. Offline `pnpm test`: 1160 passed / 44 files. No live provider calls.
 
 Related: [jev-shield](jev-shield.md), [JevShield](jevshield.md), [toolgate](toolgate.md), [pi-jev-permit](pi-jev-permit.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Add a reviewable Jev decision gate to a LangChain agent](../../knowledge-base/articles/building-a-jev-agent-harness.md) — Independently suggested by JevList; not an endorsement by Sydney Runkle. Compare a separate MCP/hook screening layer with the LangChain middleware path.
+<!-- knowledge:backlinks:end -->

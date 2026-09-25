@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "building-a-jev-agent-harness",
+  "slug": "building-a-jev-agent-harness",
+  "title": "Add a reviewable Jev decision gate to a LangChain agent",
+  "description": "Build an agent harness that checks proposed tool calls, preserves human approval, and records uncertain Jev decisions.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-25",
+  "modified_at": "2026-09-25",
+  "topics": ["agent-harnesses", "tool-safety", "model-routing"],
+  "source": {
+    "title": "Building a Harness with Jev",
+    "url": "https://x.com/sydneyrunkle/article/2100754364545761643",
+    "author": {"name": "Sydney Runkle", "url": "https://x.com/sydneyrunkle"},
+    "published_at": "2026-09-18",
+    "accessed_at": "2026-09-25"
+  },
+  "credits": {
+    "guide_authors": [{"name": "Appit Studio", "url": "https://appitstudio.com", "role": "Editorial guide; AI-assisted drafting and implementation"}],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/agent-chaperone.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Compare a separate MCP/hook screening layer with the LangChain middleware path",
+      "why": "Screens tool calls and results through a proxy or hooks, with shadow mode and policy thresholds; useful when the agent is not a LangChain application.",
+      "evidence": ["https://github.com/agent-chaperone/agent-chaperone/blob/4220149bed35d4c9402adb9a0b9a5d41874cf144/README.md", "https://github.com/agent-chaperone/agent-chaperone/blob/4220149bed35d4c9402adb9a0b9a5d41874cf144/src/backends/typesafe.ts"],
+      "limitations": "Apache-2.0 source; live screening sends selected tool content to TypeSafe and can incur charges. Shadow mode blocks nothing. Not a sandbox or a substitute for approval."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/agent-router.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Explore model selection after the tool gate works",
+      "why": "Filters eligible coding-agent models with deterministic quota and policy rules before Jev ranks a route; it illustrates the article's model-routing idea outside LangChain.",
+      "evidence": ["https://github.com/nidhi-singh02/agent-router/blob/e1cc3c1bf11b52f845422ef38f9fa190f9fc16fb/README.md", "https://github.com/nidhi-singh02/agent-router/blob/e1cc3c1bf11b52f845422ef38f9fa190f9fc16fb/packages/router/src/semantic/decision-engine.ts"],
+      "limitations": "MIT pre-release CLI; live use requires TypeSafe and a supported agent login, and Herdr for launches. It routes coding-agent runs, not arbitrary LangChain model calls."
+    },
+    {
+      "kind": "resource",
+      "path": "projects/support-router/README.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Practice keeping typed judgments separate from deterministic actions",
+      "why": "Its offline fixtures show a complete request, response, review queue and failure policy before any live provider call.",
+      "evidence": ["projects/support-router/README.md", "projects/support-router/run.py"],
+      "limitations": "MIT repository example, not a community project record; synthetic fixtures do not measure Jev accuracy or tool safety."
+    }
+  ],
+  "verification": {
+    "source": "Full X article body and visible code examples inspected in browser on 2026-09-25; edited indicator visible, edit history unavailable.",
+    "offline": "Ran python3 projects/support-router/run.py with six authored synthetic tickets: three automatic suggestions, three human-review records, zero errors. This tests that example's policy flow, not the LangChain harness or model quality.",
+    "live": "No LangChain/TypeSafe API call, real agent execution, or representative risk evaluation was run.",
+    "review": "AI-assisted editorial and technical review against the article, official LangChain/TypeSafe documentation, and pinned catalog pages; no human reviewer recorded."
+  },
+  "faqs": [
+    {"question": "Does Auto Mode ask a person to approve a risky call?", "answer": "No. The documented middleware refuses risky calls; use a separate approval flow when a person must decide. Keep explicit permissions in code."},
+    {"question": "Can I rely on a Jev probability as proof that a tool call is safe?", "answer": "No. Typed output constrains shape, not correctness. Evaluate false allows and false blocks on representative traces, and maintain sandbox and permission boundaries."},
+    {"question": "Must I install all linked projects?", "answer": "No. The primary recipe uses LangChain's TypeSafe integration. Agent Chaperone is an alternative screening layer; Agent Router addresses model choice; Support Router demonstrates an offline decision-policy pattern."}
+  ]
+}
