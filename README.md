@@ -15,6 +15,7 @@
   - [Explore practical use cases](docs/explore-use-cases.md)
 - [Official SDKs and tools](#official-sdks-and-tools)
 - [Community projects](#community-projects)
+  - [Community knowledge base](community/knowledge-base/README.md)
   - [Apps powered by Jev](#apps-powered-by-jev)
   - [Browse the project directory](community/projects/README.md)
   - [Tools and integrations](community/projects/tools/README.md)
@@ -93,6 +94,8 @@ These resources are maintained by TypeSafe.
 - [TypeSafe Agent Skills](https://github.com/typesafe-ai/skills) - Official Claude Code / skills.sh agent skill for designing typed System One / Jev decisions; [docs](https://docs.typesafe.ai/agent-skill).
 
 ## Community projects
+
+The [community knowledge base](community/knowledge-base/README.md) turns credited articles into original implementation guides with source links, project connections and stated validation limits.
 
 **[Browse the project directory](community/projects/README.md)** for separate app and tool directories, each with full project pages covering use cases, setup, examples, limitations, and review evidence. The links below still take you directly to the upstream projects.
 

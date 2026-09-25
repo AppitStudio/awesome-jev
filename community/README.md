@@ -4,6 +4,8 @@
 
 The [project directory](projects/README.md) separates applications you can use from tools you can build with. Each project has a full page with setup, examples, Jev's role, and review evidence.
 
+Read the [community knowledge base](knowledge-base/README.md) for credited, practical guides that connect articles to project choices and implementation steps.
+
 ## Apps powered by Jev
 
 **[Open the app directory](projects/apps/README.md)** to explore Jev Search, Notra, and TipTour. Browse web and macOS apps, see their access requirements, and open a full guide for each product.
