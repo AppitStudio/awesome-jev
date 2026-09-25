@@ -52,6 +52,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-phone](jev-phone.md) | Drive iOS/Android/cloud phones: TypeSafe Jev picks indexed UI actions; phone-use executes. | Bun/TypeScript · phone agent (MIT) |
 | [jev-qa (moonshot-partners)](moonshot-partners-jev-qa.md) | Parallel browser QA: TypeSafe Jev-driven acceptance, adversarial, and smoke checks on web changes. | TypeScript · CLI (MIT) |
 | [jev-ra](jev-ra.md) | Drive Chrome from Claude Code/Codex/MCP with TypeSafe Jev choosing each operation and target. | Python · MCP server, CLI and PyPI (`jev-ra` 0.1.1) |
+| [jev-sim-use](jev-sim-use.md) | Jev-speed mobile UI navigation on sim-use (iOS/Android). | CLI · mobile (MIT) |
 | [jevbrief](jevbrief.md) | Filter Playwright elements with drop reasons; Jev Choice picks next click; local JSONL viewer. | Python · PyPI CLI (MIT) |
 | [jevdevice](jevdevice.md) | MCP harness for Android (adb) or local shell: TypeSafe Jev (or local Laya) picks one runtime-discovered target per goal; code gates and executes. | Python · MCP server (`jevdevice` 0.1.0) |
 | [jevnav](jevnav.md) | Automate browsers with Jev element choice, JSONL traces, risk gates, and offline CI replay. | Python · CLI/PyPI (`jevnav` 0.1.0, Apache-2.0) |
