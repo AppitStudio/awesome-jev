@@ -476,6 +476,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [taurus-jev-sdk-go](taurus-jev-sdk-go.md) | Hard-failing stdlib Go System One client (unofficial). | Go · library (MIT) |
 | [TypeSafe (Swift)](typesafe-swift.md) | Call System One Noul/Choice/Score from SwiftPM apps and servers. | Swift · SwiftPM library (`TypeSafe`) |
 | [TypeSafe AI for Agent Zero](a0-typesafe-ai.md) | Ask TypeSafe Jev Choice/Noul/Score from Agent Zero chat with probability cards; bundles the official agent skill. | Python · Agent Zero plugin (`typesafe_ai` 1.0.0) |
+| [TypeSafe C++ SDK](typesafe-sdk-cpp.md) | Call TypeSafe System One (Choice/Score/Noul) from C++20 with a builder-configured client. | C++20 · library (MIT) |
 | [TypeSafe Go](typesafe-go.md) | Call System One from Go with explicit auth options and no implicit env reads (Stacklok; unofficial). | Go · module (`github.com/stacklok/typesafe-go`) |
 | [TypeSafe MCP](typesafe-mcp.md) | Give agents a general-purpose Jev evaluation tool with raw provider responses. | Go · MCP server and pi extension |
 | [typesafe-api (Rust)](typesafe-api-rs.md) | Call System One from Rust with typed questions/answers (`typesafe-api` 0.1.0, MSRV 1.88). | Rust · crates.io client |
