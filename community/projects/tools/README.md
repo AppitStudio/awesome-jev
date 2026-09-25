@@ -327,6 +327,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-jev-sentinel](pi-jev-sentinel.md) | Check Pi/Claude/Codex tool calls, outputs, and replies with Jev intent/risk and injection screens (fail-closed without a key). | TypeScript · Pi extension and host hooks |
 | [pi-shift-router](pi-shift-router.md) | Route Pi turns between cheap and strong model tiers; optional TypeSafe Jev probability judge. | TypeScript · Pi npm extension (MIT) |
 | [pi-thinking-router-jev](pi-thinking-router-jev.md) | Pi extension: TypeSafe Jev (or local rules) picks thinking level low/medium/high/xhigh from task feedback. | TypeScript · Pi extension (license unspecified) |
+| [pi-typesafe-approve](pi-typesafe-approve.md) | Pi extension: System One/Jev triage auto-approves routine Bash; escalates the rest to a human. | TypeScript · Pi extension (MIT) |
 | [pi-typesafe-bash-guard](pi-typesafe-bash-guard.md) | Classify Pi bash tool calls and user `!` shells with TypeSafe Jev before execution. | TypeScript · Pi extension (npm `@gowthamgts/pi-typesafe-bash-guard` 0.1.0) |
 | [pi-warden](pi-warden.md) | Add configurable action holds, project-rule feedback and context checks to Pi using local policy and Jev judgments. | TypeScript · Pi extension |
 | [plain-language-gate](plain-language-gate.md) | Jev plain-language readability gate (six checks → pass/review/rewrite) for agent writing. | Python · skill/CLI (MIT) |
