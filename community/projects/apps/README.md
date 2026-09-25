@@ -544,6 +544,16 @@ Status-update honesty auditor: TypeSafe Jev judges language while local code par
 
 ## Desktop apps
 
+### Goutoujunshi Jev Chat
+
+`Open source` · `Free source build` · `BYOK`
+
+WeChat companion (Mac source preview + Windows preview ZIP): OCR the chat, optional TypeSafe Jev strategy judgment, ranked reply drafts—you always send.
+
+**Access:** download [GitHub Releases](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat/releases/latest) or build the [MIT source](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat). DeepSeek (or compatible) for drafts; optional TypeSafe Jev key. No app purchase fee; provider usage separate. Windows device validation still pending upstream. Source inspected; GUI/OCR/live not run on the Linux review host.
+
+[Full Goutoujunshi Jev Chat guide](goutoujunshi-jev-chat.md) · [Source](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat)
+
 ### Jev Sheets (OpenHarness)
 
 `Open source` · `Free source build` · `BYOK`
