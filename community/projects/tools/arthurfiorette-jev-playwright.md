@@ -42,4 +42,4 @@ Diff/test metadata go to TypeSafe. Do not treat an empty selection as a full-sui
 
 Reviewed **2026-09-25** (Europe/Sofia) at [commit 96bdcc6](https://github.com/arthurfiorette/jev-playwright/tree/96bdcc6bdf2dd0a9194c302e84eb6c87abb4f398). AI-assisted README and LICENSE inspection; live TypeSafe/provider integration paths not run.
 
-Related: [JevForge jev-pr-profiler](jev-pr-profiler.md), [jev-flaky-detective](jev-flaky-detective.md).
+Related: [jev-pr-profiler](jev-pr-profiler.md).
