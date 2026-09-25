@@ -399,6 +399,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-omni.js](jev-omni-js.md) | Run independent Jev-Omni multimodal decisions in-browser on WebGPU (text+images; WIP video/audio). | JavaScript · onnxruntime-web (Apache-2.0) |
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
 | [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
+| [lev (Abhinavexists)](lev.md) | Run an open Qwen3.5-4B LoRA System One model over `/v1/systemone` (independent of hosted Jev). | Python · model + harness (Apache-2.0) |
 | [Malkuth](malkuth.md) | Multilingual open decision models (Choice/Noul/Score) via Kev. | Weights · research (Apache-2.0) |
 | [NanoJev](nanojev.md) | Study independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. | Python / PyTorch · model research and replay |
 | [Open Alternative to Jev](open-alternative-jev.md) | Compare packed and separate typed decisions from open models and fit calibration on labeled data; not a Jev reproduction. | Python · Transformers/vLLM research library |
