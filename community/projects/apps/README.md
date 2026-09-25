@@ -342,6 +342,16 @@ Ask a PDF in your own words: pdf.js extracts lines in the browser, TypeSafe Jev 
 
 [Try JevPDF](https://jevpdf.fly.dev) · [Full JevPDF guide](jevpdf.md) · [Source](https://github.com/kylemclaren/jevpdf)
 
+### Jevry
+
+`Open source` · `Free source build` · `BYOK`
+
+Desktop browser agent for website tasks, research, and supported games: the page offers real controls; TypeSafe Jev chooses; a separate text/vision model plans and writes.
+
+**Access:** clone the [MIT Electron source](https://github.com/michaelswissa/jevry) (Node.js 22.12+; `npm ci && npm run dev`). Needs TypeSafe plus a planning/vision provider. No app purchase fee; provider usage is separate. Live desktop runs not executed on the review host.
+
+[Full Jevry guide](jevry.md) · [Source](https://github.com/michaelswissa/jevry)
+
 ### JevSlop
 
 `Open source` · `Free source build` · `BYOK`
