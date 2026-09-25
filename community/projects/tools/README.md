@@ -180,6 +180,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-certify](jev-certify.md) | Turn Jev probabilities into conformal routing certificates and PPI audits (offline math + OpenRouter Decisions client). | Python · CLI/library (`jev-certify` 0.1.0) |
 | [jev-ci-pathfinder](jev-ci-pathfinder.md) | Select allowlisted CI jobs after a change with TypeSafe Jev; deterministic allowlist + dependency closure. | TypeScript · GitHub Action (MIT) |
 | [jev-ci-selector](jev-ci-selector.md) | Select which described CI jobs apply to a PR diff with TypeSafe Jev (shadow or enforce). | Node.js · GitHub Action (`jev-ci-selector` 0.1.0) |
+| [jev-claude-code (DarioFontanel)](dariofontanel-jev-claude-code.md) | Paste-in Claude Code prompts for TypeSafe Jev model routing, context compaction, and 14-question diff review. | Markdown prompts (MIT) |
 | [jev-claude-router (Flam1ngFir3ball)](jev-claude-router.md) | Claude Code plugin: Jev picks tier/effort with cost-aware switches and optional Jev compaction. | TypeScript · Claude Code plugin (MIT) |
 | [jev-cloud-cost-guardian](jev-cloud-cost-guardian.md) | FinOps CI gate: Jev scores proposed cloud spend vs budget; policy never hides cost lines. | TypeScript · GitHub Action (MIT) |
 | [jev-cmdline-classifier](jev-cmdline-classifier.md) | Classify shell commands with TypeSafe Jev Choice (`allow`/`prompt`/`forbidden`) plus fail-closed local rules for agent skills. | Python/JS skill + CLI (`jev-command-classifier` 0.1.0) |
