@@ -97,6 +97,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Cairn Jev Lab](cairn-jev-lab.md) | Test memory-admission policies with TypeSafe Jev judgments and inspectable save/skip/defer recommendations. | Node.js ≥ 22 · lab/CLI/playground (`cairn-jev-lab` 0.1.0) |
 | [Canny](canny.md) | Stop Claude Code/Codex “done” claims without ledger evidence; TypeSafe Jev advises, only facts block. | TypeScript · CLI (`canny-warden` 0.1.0), zero runtime deps |
 | [chinese-workflow-decision-bench](chinese-workflow-decision-bench.md) | Benchmark Feishu-style Chinese message triage with frozen Choice/four-Noul tracks and published Jev vs Laya results. | Python · bench harness + adapters |
+| [Claude x Jev](claude-x-jev.md) | Claude Code skill: Jev classify/route/gate via OpenRouter; Claude deep-reads only unsure items. | Python/npm · Claude Code skill (`claude-x-jev`, MIT) |
 | [claude-code-jev](claude-code-jev.md) | Claude Code PreToolUse gate: TypeSafe Jev via OpenRouter Decisions classifies allow/block/ask with fixture benchmarks. | Python · CLI/hook (`jev-auto-mode` 0.1.0) |
 | [claude-jev (darwintechlab)](darwintechlab-claude-jev.md) | Claude Code plugin/MCP: live TypeSafe Jev Choice/Noul/Score with auto/escalate confidence labels. | TypeScript · Claude plugin/MCP (MIT) |
 | [claude-jev-funnel](claude-jev-funnel.md) | Bulk TypeSafe Jev funnel for Claude Code: resolve confident YES/NO in code; escalate only the uncertain band. | Python · Claude plugin + CLI (Apache-2.0) |
