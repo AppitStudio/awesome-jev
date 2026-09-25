@@ -47,3 +47,9 @@ Sends compact PR metadata (not full patch hunks) to the configured Jev provider.
 ## Review and maintenance
 
 Reviewed **2026-09-25** (Europe/Sofia) at [commit 482b916](https://github.com/JevForge/jev-pr-profiler/tree/482b916c7f2c5fb78b9c4e8e7b53e432f00c73de). AI-assisted README and LICENSE inspection; Marketplace Action not executed here.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Replace LLM decision calls with a Jev gate in Python](../../knowledge-base/articles/jev-decision-gate.md) — Independently suggested by JevList; not an endorsement by Hanako. Use a GitHub Action for pull-request risk signals instead of writing your own Python gate.
+<!-- knowledge:backlinks:end -->

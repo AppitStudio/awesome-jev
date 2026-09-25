@@ -55,3 +55,9 @@ Live evaluation sends dataset states/questions to TypeSafe. Treat suggested thre
 Reviewed on **2026-09-21** at [commit cd21fce](https://github.com/k4its1t/jevlens/tree/cd21fce0bdde16f02856a55c792645bd3b18605b): MIT; AI-assisted source review of README, LICENSE, runner/metrics/cli; pytest **10 pass**. No live TypeSafe call.
 
 Related: [jevals](jevals.md), [Typed Evals](typed-evals.md), [jeval](jeval.md), [daf-jev](daf-jev.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Replace LLM decision calls with a Jev gate in Python](../../knowledge-base/articles/jev-decision-gate.md) — Independently suggested by JevList; not an endorsement by Hanako. Shadow-run the gate on labelled changes and set thresholds from stored probabilities.
+<!-- knowledge:backlinks:end -->
