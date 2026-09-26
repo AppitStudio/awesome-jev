@@ -525,6 +525,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-reranker](jev-reranker.md) | Rerank, filter, or compress JSON search candidates with TypeSafe Jev via a stdin/stdout Rust CLI. | Rust · npm CLI (`jev-reranker` 0.1.1) |
 | [jev-reranker (hotchpotch)](hotchpotch-jev-reranker.md) | Score/filter RAG candidates with TypeSafe Jev in Python (listwise/pointwise/pairwise; PyPI). Distinct from the Rust CLI. | Python · library (`jev-reranker` 0.1.2) |
 | [jev-semgrep](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). | Node.js · CLI (`@uehaj/semgrep`) |
+| [jevfilter](damiensmith1-jevfilter.md) | Filter/classify text with plain-English rules via TypeSafe Jev (`choose`/`check`/`rate`); PyPI. | Python · PyPI (`jevfilter`, MIT) |
 | [jevql](jevql.md) | Add `jev()` / `jev_prob` / `jev_choice` / `jev_score` to queries against vanilla PostgreSQL without an extension, from a psql-style CLI, MCP server, or SDKs. | Go · CLI, MCP server and Go/TypeScript/Python SDKs (MIT) |
 | [jevql (hemanth)](hemanth-jevql.md) | npm `jev-ql` semantic/cognitive SQL over unstructured data via TypeSafe Jev (distinct from kylemclaren/jevql). | JavaScript · npm (`jev-ql`, MIT) |
 | [jevsearch](jevsearch.md) | Add a ⌘K site-search palette to a shadcn/ui site: keyword hits on the first keystroke, then one TypeSafe Jev request re-ranks the top 20 by intent, with no embeddings. | TypeScript · shadcn registry block (React component, Fetch-API handler; MIT) |
