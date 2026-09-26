@@ -243,4 +243,5 @@ Related: [computer-use comparison](../../../docs/computer-use.md) · [Jev Browse
 
 - [Replace LLM decision calls with a Jev gate in Python](../../knowledge-base/articles/jev-decision-gate.md) — Mentioned in the source article. Rebuild the option list from what exists each turn and verify outcomes outside Jev.
 - [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Mentioned in the source article. Pattern 1: let Jev pick a browser agent's next action from the controls on the page.
+- [Jev decision audits: validate the business case](../../knowledge-base/articles/jev-decision-audit.md) — Mentioned in the source article. Check the full outcome after a cheap decision.
 <!-- knowledge:backlinks:end -->

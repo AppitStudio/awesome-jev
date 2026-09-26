@@ -47,3 +47,9 @@ Calibration quality depends on honest labels and enough per-bin samples; wide Wi
 Reviewed on **2026-09-20** at [commit 783b824](https://github.com/rlaope/jeval/tree/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7): **0.1.0**, Apache-2.0. AI-assisted source review of README, LICENSE, and package layout. Ran `uv sync --group dev`, `uv run pytest` (**488** collected tests, all passed), and `uv run jeval demo` (report written). No TypeSafe calls.
 
 Related: [jev-align](jev-align.md), [JevScope](jevscope.md), [Advocaat](advocaat.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev decision audits: validate the business case](../../knowledge-base/articles/jev-decision-audit.md) — Independently suggested by JevList; not an endorsement by barnyx. Join outcomes to predictions and compare threshold policies.
+<!-- knowledge:backlinks:end -->
