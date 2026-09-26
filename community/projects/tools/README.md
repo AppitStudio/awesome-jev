@@ -530,6 +530,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-rerank-bench](jev-rerank-bench.md) | Reproduce TypeSafe Jev vs Cohere/zerank reranker experiments on shared BM25 candidate sets. | Python · benchmark suite (MIT) |
 | [jev-reranker](jev-reranker.md) | Rerank, filter, or compress JSON search candidates with TypeSafe Jev via a stdin/stdout Rust CLI. | Rust · npm CLI (`jev-reranker` 0.1.1) |
 | [jev-reranker (hotchpotch)](hotchpotch-jev-reranker.md) | Score/filter RAG candidates with TypeSafe Jev in Python (listwise/pointwise/pairwise; PyPI). Distinct from the Rust CLI. | Python · library (`jev-reranker` 0.1.2) |
+| [jev-search (AnthonyDavidAdams)](anthonydavidadams-jev-search.md) | Decision-only agentic search: fetch/parse locally; score/rank candidates with Jev or local Laya. | Python · library/CLI + skill (MIT) |
 | [jev-semgrep](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). | Node.js · CLI (`@uehaj/semgrep`) |
 | [jevfilter](damiensmith1-jevfilter.md) | Filter/classify text with plain-English rules via TypeSafe Jev (`choose`/`check`/`rate`); PyPI. | Python · PyPI (`jevfilter`, MIT) |
 | [jevql](jevql.md) | Add `jev()` / `jev_prob` / `jev_choice` / `jev_score` to queries against vanilla PostgreSQL without an extension, from a psql-style CLI, MCP server, or SDKs. | Go · CLI, MCP server and Go/TypeScript/Python SDKs (MIT) |
