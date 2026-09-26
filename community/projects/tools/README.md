@@ -41,6 +41,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-browse (danielnc)](danielnc-jev-browse.md) | Fast Jev browser sub-tasks on browser-harness for coding agents. | Python · harness (MIT) |
 | [jev-browser-bridge](jev-browser-bridge.md) | Plug any CDP browser (cloud/local/self-hosted, incl. no-render) into Jev browser automation. | Python · bridge (Apache-2.0) |
 | [jev-browser-mcp (bothuany)](bothuany-jev-browser-mcp.md) | MCP browser: host intent → TypeSafe Jev clicks + cheap reader; DOM stays out of agent context. | JavaScript · MCP/Playwright (MIT) |
+| [jev-browser-sidekick-mcp](jev-browser-sidekick-mcp.md) | Run plain-language browser steps via MCP; Jev picks the control; pairs with agentic-playwright-mcp for a shared Chrome session. | TypeScript · npm MCP (`jev-browser-sidekick-mcp` / `jev-bro`) |
 | [jev-browser-skill (ChenYCL)](chenycl-jev-browser-skill.md) | Browser/computer-use CLI+MCP: TypeSafe Jev action choice (ego lite/Chrome/Safari); distinct from zurfyx/hqman. | Node.js ≥ 22 · CLI/MCP skill (MIT) |
 | [jev-browser-skill (hqman)](hqman-jev-browser-skill.md) | Playwright Chromium skill/`jb` CLI: Jev chooses in-page actions (Gateway or TypeSafe); distinct from zurfyx teaching skill. | Node.js ≥ 22.18 · skill + CLI (`jb`, Apache-2.0) |
 | [jev-browser-use (AuroraPixel)](aurorapixel-jev-browser-use.md) | Jev browser loops for Codex/Claude: warm Chrome daemon, CLI/MCP/extension, host handoffs. | Bun/TypeScript · CLI/MCP/extension (MIT) |
