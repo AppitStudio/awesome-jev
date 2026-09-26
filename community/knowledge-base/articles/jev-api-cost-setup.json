@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "jev-api-cost-setup",
+  "slug": "jev-api-cost-setup",
+  "title": "Jev setup guide: batch questions to cut API costs",
+  "description": "Set up Jev for the lowest cost per decision: ask every question in one call, trim the state, pin jev-1.13.0, route on confidence and keep math and dates in code.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-26",
+  "modified_at": "2026-09-26",
+  "topics": [
+    "cost-optimization",
+    "calibration",
+    "decision-gates"
+  ],
+  "source": {
+    "title": "The Jev Setup Guide: How to Get Maximum Quality for Minimum Cost (Exact Config Inside)",
+    "url": "https://x.com/zodchiii/article/2101243146596384854",
+    "author": {
+      "name": "darkzodchi",
+      "url": "https://x.com/zodchiii"
+    },
+    "published_at": "2026-09-19",
+    "accessed_at": "2026-09-26"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and implementation"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevtok.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Estimate each request's input tokens and catch over-limit state before calling Jev",
+      "why": "Reproduces Jev's input tokenizer offline and predicts a whole request's billed input_tokens from state and questions, raising an error before a request would exceed the context limit.",
+      "evidence": [
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/README.md",
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/src/jevtok/request.py"
+      ],
+      "limitations": "MIT 0.1.0 package; ran offline on this guide's request, no live comparison with billed usage. Fidelity is the author's claim against recorded jev-1.13 usage and needs re-checking if TypeSafe changes its tokenizer."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/wellposed.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Lint the request for a missing escape option, unused state and single-question calls before paying for it",
+      "why": "Walks a Jev request JSON offline and reports structural problems with TypeSafe documentation links; on the article's category question it flagged the missing escape option and the single-question request.",
+      "evidence": [
+        "https://github.com/suraj-phanindra/wellposed/blob/86e6f8cb17e464eab33dcf44a0015fdb616b1fc2/README.md",
+        "https://github.com/suraj-phanindra/wellposed/blob/86e6f8cb17e464eab33dcf44a0015fdb616b1fc2/skills/wellposed/scripts/structural.mjs"
+      ],
+      "limitations": "MIT npm package 0.4.0; structural lint only was run. Its rules are heuristics, not proof of question quality. Optional semantic checks call TypeSafe and can incur charges."
+    },
+    {
+      "kind": "resource",
+      "path": "projects/support-router/README.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Study a complete ticket router with one request per ticket, a pinned model and a review queue",
+      "why": "Sends one request per ticket with a Choice that includes other and a Noul, pins jev-1.13.0, keeps only the message in state and records token usage and returned models in its summary.",
+      "evidence": [
+        "projects/support-router/README.md",
+        "projects/support-router/run.py"
+      ],
+      "limitations": "MIT repository example, not a community project record; its offline fixtures are authored, not measured Jev results. Live runs send messages to TypeSafe and can incur charges."
+    }
+  ],
+  "verification": {
+    "source": "Full X article body, code blocks and six images read on 2026-09-26 in a logged-in Chrome session; no edit indicator, and the public post API reported identical created and modified times. The author's Substack republication of 2026-09-21 was read in full and matches.",
+    "offline": "Installed typesafe-sdk 0.7.1 in a scratch environment and ran the guide's triage with fake SystemOneResponse objects: nine routing cases and a rate-limit error produced the intended routes, and the article's score >= 2 rule sent a 1.9 severity to the backlog. Ran jevtok 698c53b and wellposed 86e6f8c offline on the request, and the Support router offline demo (three automatic, three review, zero errors). No API call.",
+    "live": "No TypeSafe call, billed cost, latency or accuracy measurement; token figures are jevtok estimates and the frontier-model price is the article's claim.",
+    "review": "AI-assisted editorial and technical review against the article, current TypeSafe documentation, the installed SDK and pinned upstream sources for the connected projects; Ahrefs keyword data unavailable on the current plan, so wording was chosen by reader intent from current search results; no human reviewer recorded."
+  },
+  "faqs": [
+    {
+      "question": "Is it cheaper to ask Jev several questions in one call?",
+      "answer": "Yes. Jev bills input tokens, and a batched request sends the state and the fixed request overhead once instead of once per question. TypeSafe measured 12.2x cheaper for 13 questions over a long article; a short state with a few questions saves less."
+    },
+    {
+      "question": "Should I use jev-latest or pin a version?",
+      "answer": "Pin a versioned ID such as jev-1.13.0 once you have tuned thresholds, and log the model each response reports. The jev-latest alias moves when TypeSafe ships a new release, which can change answers without a change on your side."
+    },
+    {
+      "question": "How large can the Jev state be?",
+      "answer": "TypeSafe lists 64,000 tokens per request for Jev 1.13, with 32,000 for the state plus the longest single question. Stay well below that: irrelevant detail costs accuracy as well as tokens, so filter the state in code first."
+    },
+    {
+      "question": "What confidence threshold should I use with Jev?",
+      "answer": "Start with 0.5 as a floor below which a person decides, and require more for destructive actions. Then set each threshold from your own labelled cases. Confidence exists only on Choice and Score answers and says nothing about whether an action succeeded."
+    },
+    {
+      "question": "What should I not ask Jev to do?",
+      "answer": "Don't ask it to count, calculate, compare dates or write text. TypeSafe's jaggedness page lists those as weak spots for Jev 1.13, along with very literal reading, large irrelevant state and instructions injected into the state."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-api-cost-setup.png",
+    "alt": "Diagram: code trims the ticket to the fields the questions read, Jev answers a Choice, a Score and a Noul in one call, and code routes on answer and confidence to act, queue or a person",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

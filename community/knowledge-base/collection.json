@@ -1,5 +1,5 @@
 {
   "schema_version": 1,
-  "articles": ["building-a-jev-agent-harness", "jev-decision-gate", "jev-use-cases"],
+  "articles": ["building-a-jev-agent-harness", "jev-decision-gate", "jev-use-cases", "jev-api-cost-setup"],
   "retire_all": false
 }

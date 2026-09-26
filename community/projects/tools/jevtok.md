@@ -59,3 +59,9 @@ Encoder fidelity is claimed against a recorded oracle; re-verify if TypeSafe cha
 Reviewed on **2026-09-21** at [commit 698c53b](https://github.com/LabGuy94/jevtok/tree/698c53b778ce901be82c166d809e4b1f7948a465): MIT; AI-assisted source review of README, LICENSE, tokenizer/request modules; pytest **2626 pass**. No live TypeSafe call.
 
 Related: [jevkit](jevkit.md), [typesafeai-cli](typesafeai-cli.md), [jevals](jevals.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev setup guide: batch questions to cut API costs](../../knowledge-base/articles/jev-api-cost-setup.md) — Independently suggested by JevList; not an endorsement by darkzodchi. Estimate each request's input tokens and catch over-limit state before calling Jev.
+<!-- knowledge:backlinks:end -->
