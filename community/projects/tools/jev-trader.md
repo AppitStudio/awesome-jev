@@ -83,4 +83,5 @@ Related: [offline decision examples](../../../examples/README.md) for simpler sy
 ## Knowledge guides
 
 - [Guard LangChain agent tool calls with Jev and human approval](../../knowledge-base/articles/building-a-jev-agent-harness.md) — Mentioned in the source article. Study how code limits sit between a Jev judgment and an irreversible action.
+- [Jev decision audits: validate the business case](../../knowledge-base/articles/jev-decision-audit.md) — Mentioned in the source article. Account for the cost of a wrong action.
 <!-- knowledge:backlinks:end -->

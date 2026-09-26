@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "jev-decision-audit",
+  "slug": "jev-decision-audit",
+  "title": "Jev decision audits: validate the business case",
+  "description": "Build a Jev decision audit with paired outcomes, reviewed thresholds and a complete cost ledger before claiming automation savings or a product opportunity.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-26",
+  "modified_at": "2026-09-26",
+  "topics": ["decision-audits", "calibration", "cost-optimization"],
+  "source": {
+    "title": "Jev Engineering - How to make money with Jev: Best repos",
+    "url": "https://x.com/me_barnyx/article/2101976764779999381",
+    "author": {
+      "name": "barnyx",
+      "url": "https://x.com/me_barnyx"
+    },
+    "published_at": "2026-09-21",
+    "accessed_at": "2026-09-26"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical review"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/fast-jev-compaction.md",
+      "origin": "source-mentioned",
+      "purpose": "teaching-example",
+      "step": "Find a bounded, repeated agent step to replace",
+      "why": "Barnyx names this repository in cluster A. Its code asks two Noul questions about each eligible tool call and result, then applies keep, truncate or drop rules in code; it illustrates a replaceable step, not an audit product.",
+      "evidence": [
+        "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts",
+        "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/state.ts"
+      ],
+      "limitations": "MIT TypeScript library, Node.js 18+, optional Claude Code hook. Live use needs a TypeSafe key and sends fitted transcript material to TypeSafe, with usage charges. The source article's Score-based pseudocode is not this project's implementation; no live savings were measured here."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-ultrafast.md",
+      "origin": "source-mentioned",
+      "purpose": "teaching-example",
+      "step": "Check the full outcome after a cheap decision",
+      "why": "Barnyx names Browser Use's repository in cluster A. It maps a Jev Choice to observed browser controls and separately verifies the completed task, showing why a cheap decision is not the same as a successful workflow.",
+      "evidence": [
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/agent.py"
+      ],
+      "limitations": "MIT experimental Python browser agent; Python 3.12+, Chrome/Browser Harness and a TypeSafe key for live decisions, plus a separate text-model key when typing. Page text and goals leave the machine. Offline catalog checks do not verify live task success or the article's star and cost figures."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jeval.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Join outcomes to predictions and compare threshold policies",
+      "why": "This independent Apache-2.0 CLI ingests labeled decisions and reports reliability and mistake-cost tradeoffs. It supplies part of the evaluation layer Barnyx asks for, but the article does not name it and it does not run an organization's approval workflow.",
+      "evidence": [
+        "https://github.com/rlaope/jeval/blob/61bdcccf9038ff898e82f9465d1a979f5d68bc6e/README.md",
+        "https://github.com/rlaope/jeval/blob/61bdcccf9038ff898e82f9465d1a979f5d68bc6e/jeval/cli.py",
+        "https://github.com/rlaope/jeval/blob/61bdcccf9038ff898e82f9465d1a979f5d68bc6e/LICENSE"
+      ],
+      "limitations": "Python 3.10+ CLI, Apache-2.0, local data processing; no TypeSafe key for offline reports. Its recommendations require trustworthy labels and user-supplied costs. It writes reports and threshold files, but the application must own runtime routing, policy approval, storage and privacy. Current upstream was inspected; no live Jev audit was performed here."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-trader.md",
+      "origin": "source-mentioned",
+      "purpose": "evaluation",
+      "step": "Account for the cost of a wrong action",
+      "why": "Barnyx names the repository as a vertical bet. Its optional Jev mode selects buy or sell while application code handles orders, making the consequence of a wrong decision concrete; it is not the guide's recommended pilot.",
+      "evidence": [
+        "https://github.com/jarrodwatts/jev-trader/blob/b587759e459ea049590102e54a0b07800864cdc3/src/model.ts",
+        "https://github.com/jarrodwatts/jev-trader/blob/b587759e459ea049590102e54a0b07800864cdc3/src/trader.ts"
+      ],
+      "limitations": "MIT Bun/TypeScript experiment with live RPC even in mock dry run. Jev mode sends market data to TypeSafe; live trading requires a funded wallet and can lose money. The project has no uncertainty-based abstention and its simulation does not establish profitability. Not run or endorsed here."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article and its code blocks in the user's logged-in Chrome on 2026-09-26. The article itself embeds images and names repositories but has no outbound project or post links in its body; named repositories were followed separately. Exact-title and opening-line searches found no verified author republication.",
+    "offline": "Checked source claims against current TypeSafe primitives and confidence docs, four catalog pages and pinned upstream source. The article's code blocks are illustrative pseudocode, not verified SDK calls. Public validator and local site checks are reported separately; no decision audit application was built.",
+    "live": "No TypeSafe requests, browser-agent sessions, compaction of real transcripts, live trading, buyer interviews or measured business results. Source star counts and vendor speed/cost figures remain dated author or vendor claims.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console were unavailable, so title and FAQs follow reader intent and current search results without volume or difficulty claims."
+  },
+  "faqs": [
+    {
+      "question": "What is a Jev decision audit?",
+      "answer": "A Jev decision audit joins a typed model answer and its policy decision to a later verified outcome. It records the question, model and policy versions so a team can measure errors, review load and full workflow cost."
+    },
+    {
+      "question": "Does Jev confidence tell me how often a decision is correct?",
+      "answer": "No. Choice and Score confidence summarizes how concentrated the returned distribution is; it is not an observed accuracy rate. Pair predictions with independently checked outcomes and evaluate your own cases before setting action thresholds."
+    },
+    {
+      "question": "How should I choose a Jev action threshold?",
+      "answer": "Use labeled cases and explicit costs for wrong actions and human review. Choose a candidate on one set, check it on untouched cases, then run it in shadow mode; keep deterministic permissions and a human route for errors or consequential actions."
+    },
+    {
+      "question": "Do GitHub stars prove a Jev product has buyers?",
+      "answer": "No. Stars show developer attention, not purchase intent or willingness to pay. Validate the buyer, the costly workflow and the value of an outcome audit through direct evidence before forecasting revenue."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-decision-audit.png",
+    "alt": "Diagram showing a typed Jev decision joined with a later verified outcome, then evaluated against a versioned action policy",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
