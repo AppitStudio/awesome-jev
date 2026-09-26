@@ -280,6 +280,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevGuard](jevguard.md) | Enforce CLAUDE.md/AGENTS.md-derived rules on Claude Code/Codex via TypeSafe Jev PreToolUse/Stop hooks (distinct from jev-guard risk firewall). | TypeScript · Claude/Codex plugin (`jevguard` 0.1.0) |
 | [JevGuard (blacksinisterx)](blacksinisterx-jev-guard.md) | Hard-rule prefilter then Jev allow/review/block between agent and tools (mock-first). | TypeScript/Python · FastAPI + Vite demo (no LICENSE) |
 | [jevkit](jevkit.md) | Ask TypeSafe Jev from a Rust CLI and lint question sets offline before spending on inference. | Rust · CLI (`jevkit` 0.3.0, rustc ≥ 1.88) |
+| [jevlang (RoyWiggins)](roywiggins-jevlang.md) | Rewrite Python if/while/match so TypeSafe Jev decides each condition (English or Python); distinct from TimMikeladze/JevLang. | Python · codec preprocessor (license file not found) |
 | [JevLang (TimMikeladze)](timmikeladze-jevlang.md) | Declare routes/gates/actions once; Jev answers only needed questions; signed journal replay. | TypeScript/Python · library `jevlang` (MIT) |
 | [JevLangGraph (blacksinisterx)](blacksinisterx-jev-langgraph.md) | LangGraph loop where Jev—not an LLM—chooses the next branch action (mock-first). | TypeScript/Python · FastAPI + Vite demo (no LICENSE) |
 | [jevlens](jevlens.md) | Run labeled Choice/Noul/Score evals, store full distributions, calibrate thresholds, and optionally dashboard or CI-gate. | Python · CLI (`jevlens` 0.1.0) + optional Streamlit/Action |
