@@ -170,6 +170,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Runway](jev-runway.md) | Local Codex proxy: TypeSafe Jev keeps needed tool output and trims the rest between turns. | TypeScript · npm CLI (`jev-runway`, MIT) |
 | [Jev Score](jev-score.md) | Score document revisions against criteria with TypeSafe Jev (OpenRouter Decisions) and keep revision history. | Node.js · CLI + local web UI (`jev-score` 1.0.0) |
 | [Jev Sift](jev-sift.md) | Screen candidate content before reading it into agent context; requires a TypeSafe key, with upstream licensing unspecified. | Node.js · MCP server and agent plugin |
+| [Jev Starter](yanflizi56-jev-starter.md) | Visually configure Noul/Choice/Score questions, test against TypeSafe Jev, and export ready-to-use code or example JSON. | Vue · browser console (MIT) |
 | [Jev the Janitor](jev-the-janitor.md) | Ask TypeSafe Jev to vote on markdown vault notes; code adds frontmatter or quarantines secrets (dry-run default; offline mode). | Python · CLI (`jev-janitor` 0.1.1) |
 | [Jev Trader](jev-trader.md) | Study Jev market-direction choices, simulated fills, and on-chain order execution through a Bun trading experiment. | TypeScript / Bun · trading reference and dashboard |
 | [Jev WCAG Auditor](jev-wcag-auditor.md) | Audit public URLs with axe-core plus optional TypeSafe Jev judgement-call adjudication and uncertainty band. | Next.js · web app (`jev-wcag-auditor` 0.1.0, MIT) |
