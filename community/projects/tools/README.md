@@ -65,6 +65,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Midscene JEV Runner](midscene-jev-runner.md) | Drive a caller-owned Playwright page with TypeSafe Jev via OpenRouter Decisions (`runJev` / Midscene `jevAct`). | TypeScript · npm (`@chlrc/midscene-jev-runner` 0.1.2, MIT) |
 | [Mobile Jev](mobile-jev.md) | Navigate an Android device and verify a dark-theme task. | JavaScript / React · Mobilerun agent and studio |
 | [pi-Jev-browser](pi-jev-browser.md) | Let Jev choose each Playwright browser action over a structured DOM observation inside Pi. | TypeScript · Pi extension (npm) |
+| [Theme Tab Filter (jev-tab-filter)](jev-tab-filter.md) | Score Chrome tabs against a plain-English theme with TypeSafe Jev, then group/hide/window/close matches. | JavaScript · Chrome MV3 extension (MIT) |
 | [typesafe-computer-use](typesafe-computer-use.md) | Study OCR and Accessibility driven native macOS control. | Python · desktop CLI |
 | [typesafe-computer-use-win](typesafe-computer-use-win.md) | Study OCR/UI Automation driven native Windows control with TypeSafe Jev decisions (`winclicker`). | Python · Windows desktop CLI |
 
