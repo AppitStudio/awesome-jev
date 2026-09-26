@@ -2,7 +2,7 @@
 
 [All projects](../README.md) · [Web apps](README.md#web-apps)
 
-Local web UI and CLI that uses Jev through OpenRouter or an explicit loopback System One-compatible provider to choose read-only Instagram, TikTok, and LinkedIn research operations; [socai](https://github.com/socai-io/socai) executes them in your Chrome and returns evidence for the next decision.
+Local web UI and CLI that uses Jev through OpenRouter or an explicit loopback System One-compatible provider to choose read-only Instagram, TikTok, and LinkedIn research operations; the local `socai CLI` executes them in your Chrome and returns evidence for the next decision.
 
 | At a glance | Details |
 | --- | --- |
