@@ -348,6 +348,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [plain-language-gate](plain-language-gate.md) | Jev plain-language readability gate (six checks → pass/review/rewrite) for agent writing. | Python · skill/CLI (MIT) |
 | [prompt2jev](prompt2jev.md) | Convert natural language, an LLM prompt, or prompt-running code into a TypeSafe Jev decision package. | Python · agent skill + stdlib CLI |
 | [pytest-jev](pytest-jev.md) | Semantic pytest assertions (holds/lacks/choice/score) judged by TypeSafe Jev via typesafe-sdk. | Python · pytest plugin (`pytest-jev` 0.1.0) |
+| [Qualixar Jev Decision Layer](qualixar-jev-decision-layer.md) | Route bounded task/tool/skill/review choices through TypeSafe Jev (optional Laya) via one MCP server shared across five hosts. | Python · MCP plugin (`qualixar-jev-decision-layer` 1.0.7, MIT) |
 | [Quicksilver](quicksilver.md) | Hand bulk judgment/shortlist calls from Claude Code to TypeSafe Jev (parallel typed verdicts). | JavaScript · Claude Code skill/plugin (MIT) |
 | [Responsible AI Harness](responsible-ai-harness.md) | Assess AI systems with hard rules plus optional TypeSafe Jev judge; checksummed evidence bundles and offline report UI. | TypeScript · assessment harness + static UI (`responsible-ai-harness` 0.1.0) |
 | [riff](riff.md) | Lint prose with ruff-style rule codes; deterministic static rules plus optional TypeSafe Jev judgment rules. | Python · CLI (`riff` / `riff-lint` 0.1.0) |
