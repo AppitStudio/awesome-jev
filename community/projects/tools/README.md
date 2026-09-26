@@ -420,6 +420,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Decis](chaitin-decis.md) | Self-host a Jev-compatible `/v1/systemone` API with open Laya/kev engines in Docker (independent of hosted Jev). | Python · Docker inference server (Apache-2.0) |
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
 | [jev-browsecomp](jev-browsecomp.md) | Measure Jev document screening vs RLM/LLM arms on BrowseComp-Plus with id→span citation checks. | Python · research harness (Apache-2.0) |
+| [jev-fanout-bench](jev-fanout-bench.md) | Measure Jev multi-question fan-out billing linearity and savings vs separate calls. | Python · benchmark + raw results (MIT) |
 | [jev-frontier-bench](jev-frontier-bench.md) | Reproduce Jev vs frontier LLM typed-decision accuracy/calibration/cost on shared 200-item set. | Python · benchmark suite (MIT) |
 | [Jev-LCT](jev-lct.md) | Looped Calibration Transformer System One engine with Jev-shaped Choice/Noul/Score serving; independent of hosted Jev. | Python · research engine + HF weights (Apache-2.0) |
 | [Jev-Omni](jev-omni.md) | Run an open multimodal System One–style classifier (text/image/audio/video → option probabilities) on Gemma 4 12B IT; independent of official Jev. | Python / PyTorch · HF weights (CUDA, ~50 GB FP32) |
