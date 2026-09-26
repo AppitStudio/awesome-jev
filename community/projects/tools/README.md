@@ -527,6 +527,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jevql (hemanth)](hemanth-jevql.md) | npm `jev-ql` semantic/cognitive SQL over unstructured data via TypeSafe Jev (distinct from kylemclaren/jevql). | JavaScript · npm (`jev-ql`, MIT) |
 | [jevsearch](jevsearch.md) | Add a ⌘K site-search palette to a shadcn/ui site: keyword hits on the first keystroke, then one TypeSafe Jev request re-ranks the top 20 by intent, with no embeddings. | TypeScript · shadcn registry block (React component, Fetch-API handler; MIT) |
 | [JevSQL](jevsql.md) | Add TypeSafe Jev match/pick/rank/bool/choice helpers to SQLite SQL with batching, caches, and review queues. | TypeScript · library and CLI |
+| [jevzf](jevzf.md) | Rank piped text by meaning with TypeSafe Jev — plain filter or stock fzf Ctrl-R reload. | Node.js · CLI (`jevzf`, Apache-2.0) |
 | [jgrep](jgrep.md) | Filters text, structured records, functions, and diff hunks against plain-English descriptions using Jev Noul judgments. | Python · library and CLI (`jev-grep`) |
 | [jgrep (npm: jevgrep)](jgrep-jevgrep.md) | Gate a diff in CI on an English rule (`--diff`, grep exit codes), list the test files a diff can affect (`--tests`), or grep code and CSV rows by description with one TypeSafe Jev Noul per chunk. Distinct from the Python jgrep. | TypeScript · npm CLI (`jevgrep` 0.4.0, Node ≥ 18) |
 | [jlink](jlink.md) | Links records under a plain-English match rule using Jev Noul pair judgments, with local candidate blocking and match resolution. | Python · library and CLI (`jlink`) |
