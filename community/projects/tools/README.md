@@ -225,6 +225,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-ood-calibration](jev-ood-calibration.md) | Independent calibration study of TypeSafe Jev with published raw dumps: public benches plus 900 OOD synthetic support tickets. | Node/Python · research scripts + committed results |
 | [jev-opus](jev-opus.md) | Re-pick Claude Opus 5.5 effort each step with TypeSafe Jev without breaking the prompt cache. | Node.js · CLI + Claude Code plugin (`jev-opus` 0.3.0, MIT) |
 | [jev-packs](jev-packs.md) | Evidence-gated registry of Jev question packs with golden cases and an offline multi-backend scoreboard. | Pack data + Python scripts (CC0-1.0) |
+| [jev-pi-token-reduction](jev-pi-token-reduction.md) | Trim Pi tool outputs with TypeSafe Jev visibility levels before the model sees them; expand on demand. | Python · Pi extension (MIT) |
 | [jev-pii-checker](jev-pii-checker.md) | Scan text/files for PII with TypeSafe Jev presence/sensitivity judgments plus regex and segmentation layers. | TypeScript/Bun · CLI (`@coo-quack/jev-pii-checker` 0.3.1) |
 | [jev-pilot (Akramovic1)](akramovic1-jev-pilot.md) | Claude Code plugin: TypeSafe Jev routes effort, subagent model, strategy advice, and one skill per prompt. | TypeScript · Claude Code plugin (`jev-pilot` 0.4.4, MIT) |
 | [jev-playwright (arthurfiorette)](arthurfiorette-jev-playwright.md) | Jev-powered Playwright test selection from changed files. | TypeScript · Playwright (MIT) |
