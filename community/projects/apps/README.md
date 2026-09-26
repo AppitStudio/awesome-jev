@@ -18,6 +18,16 @@ Local design-mock lab where TypeSafe Jev chooses information architecture and co
 
 [Full Apparite (jev2ui) guide](jev2ui.md) · [Source](https://github.com/dglazkov/jev2ui)
 
+### AskJev (openconstruct)
+
+`Open source` · `Free` · `BYOK`
+
+Tiny static web app for yes/no questions via TypeSafe Jev Noul through OpenRouter Decisions. Key stored in browser `localStorage`; no backend. Distinct from the [askjev MCP (pZacca)](https://github.com/pZacca/askjev) MCP server.
+
+**Access:** open or host the MIT [`index.html`](https://github.com/openconstruct/askjev) and paste an OpenRouter key. No app purchase fee; Decisions/Jev usage can incur charges. Source inspected; live OpenRouter calls not run on the review host.
+
+[Full AskJev (openconstruct) guide](openconstruct-askjev.md) · [Source](https://github.com/openconstruct/askjev)
+
 ### Call Coach
 
 `Open source` · `Free source build` · `BYOK`
