@@ -762,6 +762,16 @@ Chrome Manifest V3 extension that scans page text for fraud, advertising, AI slo
 
 [Full Jev Content Guard guide](jev-content-guard.md) · [Source](https://github.com/serejkaaa512/jev-content-guard-ext)
 
+### Jev Focus Guard
+
+`Open source` · `Free source build` · `BYOK`
+
+Local Chrome MV3 extension that asks TypeSafe Jev whether heuristically selected page elements are ads or distractions, then hides matches. Candidate state is metadata-only (no page body text). Distinct from Focus (domain block) and TypeSafe Fun AdBlocker.
+
+**Access:** [load the MIT source unpacked](https://github.com/tx-smitht/jev-focus-guard) (Developer mode) with a TypeSafe API key. No app purchase fee; each judgment can incur provider charges. Source inspected; Chrome install and live browsing not tested on the review host.
+
+[Full Jev Focus Guard guide](jev-focus-guard.md) · [Source](https://github.com/tx-smitht/jev-focus-guard)
+
 ### Jev for Chrome
 
 `Open source` · `Free source build` · `BYOK`
@@ -882,15 +892,15 @@ Chrome extension + local FastAPI server that pauses commit-like clicks when Type
 
 [Full Regret Check guide](regret-check.md) · [Source](https://github.com/danilocecilia/sleep-on-it)
 
-### Smart Paste
+### ScrollPatrol
 
 `Open source` · `Free source build` · `BYOK`
 
-Paste a block of text into supported web form fields with undo. Jev chooses relevant passages, selects value boundaries, and verifies the proposed matches; JavaScript copies exact source text and checks that the page retains it.
+Chrome extension that mutes feed posts by meaning: TypeSafe Jev scores each post against your mute rules on LinkedIn, Reddit, Hacker News, and selected short-video surfaces.
 
-**Access:** load the [MIT source as an unpacked Chrome extension](https://github.com/nomanjack/smart-paste#install), add a TypeSafe key, and enable matching. No app purchase is required for this source distribution; each paste can make up to three potentially billable provider requests. The extension is experimental, sends pasted text and limited form context to TypeSafe, and can replace the focused field. Source and mocked tests were checked; Chrome installation and live matching were not tested.
+**Access:** build and [load the MIT source unpacked](https://github.com/ennsharma/scrollpatrol) (`npm run build`, Chromium) with a TypeSafe API key. No app purchase fee; TypeSafe usage can incur charges. Offline vitest 40 passed after build; Chrome install and live calls not run on the review host.
 
-[Full Smart Paste guide](smart-paste.md) · [Source](https://github.com/nomanjack/smart-paste)
+[Full ScrollPatrol guide](scrollpatrol.md) · [Source](https://github.com/ennsharma/scrollpatrol)
 
 ### Slop Mop
 
@@ -902,6 +912,16 @@ Judge LinkedIn post writing with TypeSafe Jev (11–12 typed questions), then fo
 
 [Full Slop Mop guide](slop-mop.md) · [Source](https://github.com/tomfrazier/slopmop)
 
+### Smart Paste
+
+`Open source` · `Free source build` · `BYOK`
+
+Paste a block of text into supported web form fields with undo. Jev chooses relevant passages, selects value boundaries, and verifies the proposed matches; JavaScript copies exact source text and checks that the page retains it.
+
+**Access:** load the [MIT source as an unpacked Chrome extension](https://github.com/nomanjack/smart-paste#install), add a TypeSafe key, and enable matching. No app purchase is required for this source distribution; each paste can make up to three potentially billable provider requests. The extension is experimental, sends pasted text and limited form context to TypeSafe, and can replace the focused field. Source and mocked tests were checked; Chrome installation and live matching were not tested.
+
+[Full Smart Paste guide](smart-paste.md) · [Source](https://github.com/nomanjack/smart-paste)
+
 ### Sponsor Skip
 
 `Source unverified` · `Pricing unverified` · `BYOK`
@@ -911,16 +931,6 @@ Find sponsor reads on YouTube using Jev judgments over transcript lines or live 
 **Access:** [load the Chrome extension from source](https://github.com/trungdq88/youtube-sponsor-detection#chrome-extension) with a TypeSafe key; audio modes also need Deepgram. Auto-skip defaults on. Provider fees apply; no license or app pricing terms were found. Source inspected only; live playback and accuracy untested.
 
 [Full Sponsor Skip guide](sponsor-skip.md) · [Source](https://github.com/trungdq88/youtube-sponsor-detection)
-
-### ScrollPatrol
-
-`Open source` · `Free source build` · `BYOK`
-
-Chrome extension that mutes feed posts by meaning: TypeSafe Jev scores each post against your mute rules on LinkedIn, Reddit, Hacker News, and selected short-video surfaces.
-
-**Access:** build and [load the MIT source unpacked](https://github.com/ennsharma/scrollpatrol) (`npm run build`, Chromium) with a TypeSafe API key. No app purchase fee; TypeSafe usage can incur charges. Offline vitest 40 passed after build; Chrome install and live calls not run on the review host.
-
-[Full ScrollPatrol guide](scrollpatrol.md) · [Source](https://github.com/ennsharma/scrollpatrol)
 
 ### Tab Bouncer
 
