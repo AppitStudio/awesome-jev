@@ -282,6 +282,16 @@ One sentence in, a narrated product demo video out: TypeSafe Jev drives your rea
 
 [Full jev-demofast guide](jev-demofast.md) · [Source](https://github.com/q3learners/jev-demofast) · [Product homepage](https://onecentdemo.com)
 
+### jev-gmail-filter
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted local web UI that filters Gmail with plain-English topics using [jevfilter](https://github.com/damiensmith1/jevfilter) and TypeSafe Jev—labels, tracked items, and quiet-item flags. Distinct from Jev for Gmail / Gmail Classifier extensions.
+
+**Access:** clone the [MIT source](https://github.com/damiensmith1/jev-gmail-filter), `uv sync`, run `uv run jev-gmail-filter ui` with your own Google OAuth client and TypeSafe key. No app purchase fee; TypeSafe usage separate. Early development. Source inspected; live Gmail/Jev not run on the review host.
+
+[Full jev-gmail-filter guide](jev-gmail-filter.md) · [Source](https://github.com/damiensmith1/jev-gmail-filter)
+
 ### jev-mail (vynnlee)
 
 `Open source` · `Free source build` · `BYOK`
