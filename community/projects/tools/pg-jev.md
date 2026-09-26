@@ -112,3 +112,9 @@ Reviewed **2026-09-19**, version **0.2.0**, commit [`afd11fa`](https://github.co
 Offline checks compiled all three PL/Python bodies and passed five loopback mock requests covering Noul, Score, Choice, HTTP 401, and HTTP 422. These did not execute the extension in PostgreSQL. The full regression suite and example SQL remain unrun: PostgreSQL tools were absent from PATH and the Docker daemon was unavailable. No installation, live inference, performance evaluation, or permission-isolation test was performed.
 
 Related: [Support routing](../../../examples/support-routing/README.md) provides a smaller offline introduction with explicit review behavior. See [catalog validation scope](../../../docs/validation.md#community-project-checks).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [10 Jev project ideas with practical starting points](../../knowledge-base/articles/jev-project-ideas.md) — Independently suggested by JevList; not an endorsement by rody. Build 7: classify selected PostgreSQL rows by semantic predicate.
+<!-- knowledge:backlinks:end -->

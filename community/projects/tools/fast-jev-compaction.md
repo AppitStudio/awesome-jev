@@ -119,4 +119,5 @@ Related: [RAG triage](../../../examples/rag-triage/README.md) selects context be
 ## Knowledge guides
 
 - [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Mentioned in the source article. Pattern 2: drop tool calls that no longer matter instead of summarizing an agent's context.
+- [10 Jev project ideas with practical starting points](../../knowledge-base/articles/jev-project-ideas.md) — Independently suggested by JevList; not an endorsement by rody. Build 5: prune stale agent tool call and result pairs.
 <!-- knowledge:backlinks:end -->

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "jev-project-ideas",
+  "slug": "jev-project-ideas",
+  "title": "10 Jev project ideas with practical starting points",
+  "description": "Ten Jev project ideas with verified starting points: inbox triage, RAG filtering, model routing, SQL classification and PR review, plus costs and limits.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-26",
+  "modified_at": "2026-09-26",
+  "topics": ["project-ideas", "use-cases", "decision-gates"],
+  "source": {
+    "title": "Top 10 Jev Builds You Can Ship in an Afternoon",
+    "url": "https://x.com/0x_rody/article/2103165281149354256",
+    "author": {
+      "name": "rody",
+      "url": "https://x.com/0x_rody"
+    },
+    "published_at": "2026-09-24",
+    "accessed_at": "2026-09-26"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical review"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/apps/jev-inbox-queue.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Build 1: route email into a reviewable action queue",
+      "why": "The Python app asks seven typed questions per thread and applies queue rules in code. It illustrates the article's inbox pattern, but does not implement Hassan's fraud cascade.",
+      "evidence": [
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/questions.py",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/policy.py"
+      ],
+      "limitations": "MIT source-build app; Python 3.10+, uv and a TypeSafe key; optional Gmail IMAP credentials. Live mail text goes to TypeSafe and incurs provider charges. Source reviewed, no live inbox or model test."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/hotchpotch-jev-reranker.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Build 3: filter retrieved passages before answer generation",
+      "why": "The Python library's relevance_rerank filters candidate passages by a score threshold, matching the article's delete rather than reorder idea.",
+      "evidence": [
+        "https://github.com/hotchpotch/jev-reranker/blob/d58594b393b29b7ee6398cc9337dc5e9d6c6691e/src/jev_reranker/reranker.py"
+      ],
+      "limitations": "MIT Python 3.11+ package, separate TypeSafe key and usage charges. Query and passages go to TypeSafe. It cannot fix missed retrieval; errors must be handled by the caller. No live calls here."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/fast-jev-compaction.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Build 5: prune stale agent tool call and result pairs",
+      "why": "The MIT TypeScript library implements keep, truncate and drop decisions for paired tool records; the article names Tamara Tran's idea but not this repository.",
+      "evidence": [
+        "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts",
+        "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/state.ts"
+      ],
+      "limitations": "Live use needs TypeSafe access and sends transcript excerpts. Jev does not see result bodies and the library does not summarize prose; cache rewrites and repeated work need separate evaluation. Optional host hook not tested here."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-router.md",
+      "origin": "source-mentioned",
+      "purpose": "implements-step",
+      "step": "Build 6: choose a model for a coding-agent turn",
+      "why": "Rody names jev-router. Its local proxy sends prompt and model candidates to TypeSafe and applies code-owned fallback policy before forwarding a turn to Claude Code or Codex.",
+      "evidence": [
+        "https://github.com/gargpratyush/jev-router/blob/38da6b84ea01241bfc41fbddc0928d0f40a703f0/src/router.mjs",
+        "https://github.com/gargpratyush/jev-router/blob/38da6b84ea01241bfc41fbddc0928d0f40a703f0/src/policy.mjs"
+      ],
+      "limitations": "MIT Node.js proxy; requires authenticated coding CLI and a TypeSafe key, with separate provider costs. Prompt and routing metadata leave the machine. CLI compatibility and savings were not tested here."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/pg-jev.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Build 7: classify selected PostgreSQL rows by semantic predicate",
+      "why": "The extension's jev and jev_prob SQL functions show how to apply TypeSafe decisions to selected rows, related to the Zachi example the article describes.",
+      "evidence": [
+        "https://github.com/realZachi/pg-jev/blob/afd11fa856d7a2b831a1bfd8ee7f869ce8efcd62/sql/jev--0.2.0.sql",
+        "https://github.com/realZachi/pg-jev/blob/afd11fa856d7a2b831a1bfd8ee7f869ce8efcd62/LICENSE"
+      ],
+      "limitations": "PostgreSQL License; PostgreSQL 14–17, PL/Python, server installation privilege, HTTPS and a TypeSafe key required. Live selected row data leaves the server; read-ahead can submit more rows than the final LIMIT. No live SQL run here."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-pr-judge.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Build 10: label pull requests for human review",
+      "why": "This separate MIT app and GitHub Action asks typed PR questions and applies a code-owned policy. It is not DiffJury or the unnamed Action in the article.",
+      "evidence": [
+        "https://github.com/juanegido/jev-pr-judge/blob/c7ec7b2ea089863514292d6e6100214213720935/src/lib/judge/policy.ts",
+        "https://github.com/juanegido/jev-pr-judge/blob/c7ec7b2ea089863514292d6e6100214213720935/action.yml"
+      ],
+      "limitations": "MIT TypeScript app/Action; requires TypeSafe key and sends PR title, body and selected diff evidence. It can post a comment and fail CI when configured. Source reviewed; no live model or Action test here."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article body and code blocks in the user's logged-in Chrome on 2026-09-26. Followed its Made with Jev directory link to selected builder posts and inspected pinned project files. Search found no author republication; exact article title had no indexed match elsewhere.",
+    "offline": "Guide claims checked against TypeSafe's current Python SDK, primitive, confidence and model documentation and six catalog detail pages with pinned source. No new Jev client or project runtime was executed; repository and local presentation checks are reported separately.",
+    "live": "No TypeSafe request, private inbox access, project run, reproducible cost/latency benchmark or representative accuracy evaluation was performed. Article figures remain their builders' claims.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console connectors were unavailable, so title and FAQ wording followed reader intent and current web results; no search volume or difficulty was inferred."
+  },
+  "faqs": [
+    {
+      "question": "What is the easiest Jev project to build first?",
+      "answer": "Start with a synthetic inbox triage queue. A fixed team menu, a deadline question and a review fallback let you inspect every answer before connecting private mail or taking an action."
+    },
+    {
+      "question": "Can every Jev project here be shipped in an afternoon?",
+      "answer": "No. The article's time claim is a prompt to prototype, not a verified delivery estimate. Database extensions, agent hooks, inbox permissions and review workflows may require substantially more setup and evaluation."
+    },
+    {
+      "question": "Does a high confidence score make an automatic action safe?",
+      "answer": "No. Confidence measures how concentrated a Choice or Score answer is, not whether the answer is correct. Test the decision against labeled cases, keep deterministic rules in code and route uncertain or consequential cases to review."
+    },
+    {
+      "question": "How much will these projects cost to run?",
+      "answer": "Cost depends on input tokens, request volume, retries and any fallback model or human review. TypeSafe listed Jev 1.13 at $0.042 per million input tokens on 26 September 2026, with free output tokens; the article's project figures are their builders' reports, not your forecast."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-project-ideas.png",
+    "alt": "Diagram showing an app sending state and options to Jev, then code routing the typed judgment or asking for review",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
