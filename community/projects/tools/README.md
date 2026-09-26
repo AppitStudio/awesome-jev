@@ -237,6 +237,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-pruner](jev-pruner.md) | Prune eligible Bash stdout with Jev before Claude Code or an opt-in Codex wrapper returns it to the model. | TypeScript · library, Claude Code plugin and Codex wrapper |
 | [jev-reflex (xnuonux)](jev-reflex-xnuonux.md) | Portable Jev decision sidecar: MCP/CLI/pi recipes with durable budgets and source-bound context plans. | Python · MCP/CLI (`jev-reflex`, MIT) |
 | [jev-req-gate](jev-req-gate.md) | Gate AI-written requirements with TypeSafe Jev (PASS/REVIEW/BLOCK); CLI, skill, CI Action, offline demo. | Python · CLI/API/skill + GH Action (MIT) |
+| [jev-research-pipeline](jev-research-pipeline.md) | Schedule daily research harvests where TypeSafe Jev screens sources per standing question and an LLM writes vault notes. | Python · pipeline + Obsidian notes (MIT) |
 | [jev-router](jev-router.md) | Route Claude Code and Codex turns through Jev model selection and inspect stored routing exchanges. | JavaScript · CLI launchers and HTTP proxies |
 | [jev-router (Ex8-ca)](ex8-ca-jev-router.md) | Hermes Jev skill router + session-start pre-route. | Python · plugin (MIT) |
 | [jev-rules](jev-rules.md) | Select project rules and codebase-map documents for Claude Code prompts and file changes. | JavaScript · Claude Code plugin |
