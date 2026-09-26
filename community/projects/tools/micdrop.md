@@ -50,6 +50,7 @@ Classifier-only (no full voice stack): `npm install @micdrop/typesafe` and use `
 
 ## Examples and demos
 
+- Author demo on X: [Jev vs Claude, same agent, same instructions](https://x.com/Godefroy/status/2103583148575768597) — public side-by-side latency/personality demo (Blip voice-controlled agents; Jev claimed ~233 ms vs Claude ~2 s in the post). Separate from the Micdrop repo UI; linked here because it is the same author's public Jev showcase.
 - [`examples/demo-support`](https://github.com/Godefroy/micdrop/tree/d85f771b0aa4322ee06fd87c0ef73e380217a6cc/examples/demo-support) — Nova Fiber support line: six Jev questions per turn; routes before the LLM. Needs live `TYPESAFE_API_KEY` and `OPENAI_API_KEY`.
 - Package and site docs: [typesafe integration](https://micdrop.dev/docs/ai-integration/provided-integrations/typesafe), [examples index](https://micdrop.dev/docs/examples).
 - Upstream also links a general Micdrop/voice-AI talk on YouTube; that is product context, not a measured Jev latency study for this listing.
