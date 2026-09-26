@@ -812,6 +812,16 @@ Chrome extension that scores and stamps AI slop on X and LinkedIn feeds with Typ
 
 [Full Jev Slop Guard guide](jev-slop-guard.md) · [Source](https://github.com/davertor/jev-slop-guard)
 
+### Jev Tweet Radar
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome MV3 (optional iOS Safari Web Extension) that scores each visible X post with one TypeSafe Jev System One call—worth engaging, buzz, spam, AI-ish, and related tags—shown in the avatar column. Distinct from Jev Slop Guard and jev-x-filter.
+
+**Access:** [load the MIT source unpacked](https://github.com/DDnim/jev-tweet-radar) with a TypeSafe API key in options; optional Xcode Safari project for iOS. No app purchase fee; each judgment can incur provider charges. Source inspected; Chrome/Safari install and live X scoring not tested on the review host.
+
+[Full Jev Tweet Radar guide](jev-tweet-radar.md) · [Source](https://github.com/DDnim/jev-tweet-radar)
+
 ### Jev × WebMCP
 
 `Open source` · `Free source build` · `BYOK`
