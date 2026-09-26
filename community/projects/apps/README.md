@@ -282,6 +282,16 @@ One sentence in, a narrated product demo video out: TypeSafe Jev drives your rea
 
 [Full jev-demofast guide](jev-demofast.md) · [Source](https://github.com/q3learners/jev-demofast) · [Product homepage](https://onecentdemo.com)
 
+### jev-ercot
+
+`Open source` · `Free source build` · `BYOK`
+
+Texas retail electric plan shopper over the Power to Choose corpus: TypeSafe Jev classifies Electricity Facts Label spans; Next.js ranks plans by projected 12-month cost.
+
+**Access:** Clone the MIT source under `web/`, `npm install`, run the committed static dataset. Live `/classify` needs `TYPESAFE_API_KEY` on the server. No app purchase fee; TypeSafe usage separate. Early development. Source inspected; live classify not run on the review host.
+
+[Full jev-ercot guide](jev-ercot.md) · [Source](https://github.com/cdubiel08/jev-ercot)
+
 ### jev-gmail-filter
 
 `Open source` · `Free source build` · `BYOK`
