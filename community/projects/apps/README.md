@@ -236,9 +236,9 @@ Search across selected sources and explore ranked links with editable filters. J
 
 `Open source` · `Free source build` · `BYOK`
 
-Run local Instagram, TikTok, and LinkedIn research from a goal. TypeSafe Jev (via OpenRouter) chooses each read-only socai CLI operation; Chrome evidence feeds the next decision and cited reports.
+Run local Instagram, TikTok, and LinkedIn research from a goal. Jev, through OpenRouter or an explicit loopback System One-compatible provider, chooses each read-only socai CLI operation; Chrome evidence feeds the next decision and cited reports.
 
-**Access:** with Node.js 20+, run `npx github:socai-io/jev-social#v0.1.5 onboard`, then `npx github:socai-io/jev-social#v0.1.5`; cloning the [MIT source](https://github.com/socai-io/jev-social) remains an alternative. Onboarding validates the OpenRouter key, stores a key entered at its prompt, and can offer the official socai installer on macOS or Windows; Linux users install socai from source and set `SOCAI_BIN`. A usable Chrome login is required for the selected platform. No app purchase fee; provider and platform access are separate. Live social browsing was not tested on the review host.
+**Access:** with Node.js 20+, run `npx github:socai-io/jev-social#v0.1.8 onboard`, then `npx github:socai-io/jev-social#v0.1.8`; cloning the [MIT source](https://github.com/socai-io/jev-social) remains an alternative. The default onboarding path validates a user-provided OpenRouter key and can offer the official socai installer on macOS or Windows. An explicitly configured loopback `/v1/systemone` provider can make the typed decisions without an OpenRouter key; disable optional OpenRouter report synthesis for a fully local decision/report path. Linux users install socai from source and set `SOCAI_BIN`. A usable Chrome login is required for the selected platform. No app purchase fee; provider and platform access are separate. Live social browsing was not tested on the review host.
 
 [Live site](https://socai-io.github.io/jev-social/) · [Full Jev Social guide](jev-social.md) · [Source](https://github.com/socai-io/jev-social)
 
