@@ -48,3 +48,9 @@ Structural lint is local. Semantic/live agreement paths depend on keys and are o
 Reviewed on **2026-09-22** at [commit 86e6f8c](https://github.com/suraj-phanindra/wellposed/tree/86e6f8cb17e464eab33dcf44a0015fdb616b1fc2): **0.4.0**, MIT. AI-assisted source review of README, LICENSE, `skills/wellposed/scripts/`. Offline structural suite 35 passed; example lint OK. No live TypeSafe on the review host.
 
 Related: [jev-calibrate](jev-calibrate.md), [riff](riff.md), [japanese-jev-lint](japanese-jev-lint.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev setup guide: batch questions to cut API costs](../../knowledge-base/articles/jev-api-cost-setup.md) — Independently suggested by JevList; not an endorsement by darkzodchi. Lint the request for a missing escape option, unused state and single-question calls before paying for it.
+<!-- knowledge:backlinks:end -->
