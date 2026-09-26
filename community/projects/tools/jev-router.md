@@ -81,3 +81,9 @@ Reviewed on **2026-09-19** at [commit `38da6b84ea01241bfc41fbddc0928d0f40a703f0`
 Inspected the README, package manifest, MIT license, launchers, routing questions/client/policy, both proxy implementations, status persistence, and representative policy/proxy/Codex tests. This was a **source-only review**: no dependency installation, test execution, authenticated CLI launch, provider request, cross-platform validation, or routing-quality evaluation was performed.
 
 See the [catalog validation scope](../../../docs/validation.md#community-project-checks) for the distinction between directory checks and upstream behavior.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [10 Jev project ideas with practical starting points](../../knowledge-base/articles/jev-project-ideas.md) — Mentioned in the source article. Build 6: choose a model for a coding-agent turn.
+<!-- knowledge:backlinks:end -->

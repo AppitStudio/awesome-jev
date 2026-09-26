@@ -50,3 +50,9 @@ PR text and selected diff evidence leave CI/dev machines for TypeSafe. Action co
 Reviewed on **2026-09-20** at [commit c7ec7b2](https://github.com/juanegido/jev-pr-judge/tree/c7ec7b2ea089863514292d6e6100214213720935): **0.1.0**, MIT. AI-assisted source review of README, `action.yml`, judge policy module, `package.json`, and license. No `npm test` / live TypeSafe or GitHub Action run on the review host.
 
 Related: [Moongate](moongate.md), [Jev Review](jev-review.md), [patdown](patdown.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [10 Jev project ideas with practical starting points](../../knowledge-base/articles/jev-project-ideas.md) — Independently suggested by JevList; not an endorsement by rody. Build 10: label pull requests for human review.
+<!-- knowledge:backlinks:end -->

@@ -67,4 +67,5 @@ Related: [jev-reranker (shinpr)](jev-reranker.md), [llama-index-jev](llama-index
 ## Knowledge guides
 
 - [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Independently suggested by JevList; not an endorsement by Matt Van Horn. Pattern 5: use a packaged library to drop irrelevant retrieved passages instead of writing the filter.
+- [10 Jev project ideas with practical starting points](../../knowledge-base/articles/jev-project-ideas.md) — Independently suggested by JevList; not an endorsement by rody. Build 3: filter retrieved passages before answer generation.
 <!-- knowledge:backlinks:end -->
