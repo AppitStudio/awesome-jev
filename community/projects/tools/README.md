@@ -566,6 +566,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [jev-corrective-rag](jev-corrective-rag.md) | Corrective RAG with TypeSafe Jev typed gates for triage, chunk grading, and answer verification (LLM only generates). | Python · Streamlit app, CLI and bench |
 | [jev-rag](jev-rag.md) | Index local files with SQLite BM25, rerank evidence with TypeSafe Jev, optionally stream grounded answers. | Python · local RAG CLI/UI (MIT) |
+| [jev-rag-gate](jev-rag-gate.md) | Gate RAG retrieval candidates with TypeSafe Jev for relevance, premise contradiction, and prompt-injection risk. | Python · library/CLI (MIT) |
 | [jev-rerank-bench](jev-rerank-bench.md) | Reproduce TypeSafe Jev vs Cohere/zerank reranker experiments on shared BM25 candidate sets. | Python · benchmark suite (MIT) |
 | [jev-reranker](jev-reranker.md) | Rerank, filter, or compress JSON search candidates with TypeSafe Jev via a stdin/stdout Rust CLI. | Rust · npm CLI (`jev-reranker` 0.1.1) |
 | [jev-reranker (hotchpotch)](hotchpotch-jev-reranker.md) | Score/filter RAG candidates with TypeSafe Jev in Python (listwise/pointwise/pairwise; PyPI). Distinct from the Rust CLI. | Python · library (`jev-reranker` 0.1.2) |
