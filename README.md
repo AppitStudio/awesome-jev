@@ -776,6 +776,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [webctl](https://github.com/dorkitude/webctl) - Agent web-search CLI that scores and judges multi-provider results (optional scrape chunks) with TypeSafe Jev. [Project guide](community/projects/tools/webctl.md).
 - [wellposed](https://github.com/suraj-phanindra/wellposed) - Zero-dependency linter for TypeSafe Jev requests: broken state paths, missing Choice escape hatches, bundled judgments (`wellposed` 0.4.0). [Project guide](community/projects/tools/wellposed.md).
 - [winnow](https://github.com/GhalebDweikat/winnow) - Claude Code context sieve: TypeSafe Jev (or System One adapter) judges tool-result blocks before they enter context; hidden text stays recallable. [Project guide](community/projects/tools/winnow.md).
+- [XavierJev](https://github.com/liu-x27/XavierJev) - Local Jev-shaped decision layer (yes/no, choice, rubric) from one-token logprobs with measured gates and a Claude Code permission hook; does not call hosted Jev. [Project guide](community/projects/tools/xavierjev.md).
 - [Yoshi](https://github.com/compozy/yoshi) - Experimental local context-pruning proxy for Claude Code and Codex; TypeSafe Jev (Vercel AI Gateway) judges which history spans to omit. [Project guide](community/projects/tools/yoshi.md).
 - [ZeroAlloc.Jev](https://github.com/ZeroAlloc-Net/ZeroAlloc.Jev) - Unofficial .NET client for TypeSafe's Jev System One API — source-generated, Native AOT, allocation-conscious. [Project guide](community/projects/tools/zeroalloc-jev.md).
 
