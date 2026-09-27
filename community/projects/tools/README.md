@@ -232,6 +232,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-lint](jev-lint.md) | Ast-grep selects subjects; TypeSafe Jev Noul scores one-sentence semantic rules (distinct from huntedman/JevLint). | TypeScript · npm CLI (`jev-lint` 0.4.1) |
 | [jev-linter-action](jev-linter-action.md) | Gate CI on yes/no TypeSafe Jev review questions over selected repo files (thresholds in `.jev-lint.json`). | Node.js · GitHub Action (`jev-linter-action` 1.0.0) |
 | [jev-loop (King4s)](king4s-jev-loop.md) | Build loop where TypeSafe Jev decides and Claude Code/Hermes executes (MCP + skill; ≠ lvzhaobo/jev-loop). | Python · MCP/skill (MIT) |
+| [jev-mcp (pyck-ai)](pyck-ai-jev-mcp.md) | Expose batched Jev Noul/Choice/Score framings as MCP tools for OpenCode and other MCP clients, reusing OpenRouter login when present. | Go · MCP server for OpenCode/MCP clients |
 | [Jev-Mem](jev-mem.md) | Control agentic memory admission/linking/retrieval with TypeSafe Jev over a multi-view graph. | Python · library/CLI (`jev-mem` 0.1.0) |
 | [jev-oas-sentinel](jev-oas-sentinel.md) | Compare OpenAPI specs with structural diffs plus TypeSafe Jev semantic contract questions. | Python · CLI (`jev-oas-sentinel`) |
 | [jev-ood-calibration](jev-ood-calibration.md) | Independent calibration study of TypeSafe Jev with published raw dumps: public benches plus 900 OOD synthetic support tickets. | Node/Python · research scripts + committed results |
