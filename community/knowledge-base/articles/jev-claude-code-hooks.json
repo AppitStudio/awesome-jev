@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "jev-claude-code-hooks",
+  "slug": "jev-claude-code-hooks",
+  "title": "Use Jev in Claude Code hooks and loops",
+  "description": "Build a reviewable Jev gate for Claude Code hooks, then consider stop checks and issue triage. Includes failure paths and a careful reading of the cost claims.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-27",
+  "modified_at": "2026-09-27",
+  "topics": ["agent-harnesses", "tool-safety", "decision-gates", "cost-optimization"],
+  "source": {
+    "title": "Loop Engineering Meets Jev Engineering: How to Cut Your Claude Bill From $765 to $3 a Month",
+    "url": "https://x.com/polydao/article/2103689373774483815",
+    "author": {
+      "name": "Mr. Buzzoni",
+      "url": "https://x.com/polydao"
+    },
+    "published_at": "2026-09-26",
+    "accessed_at": "2026-09-27"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical review"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/the-jev-enator.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Explore a Claude Code PreToolUse gate and Stop check with offline fixtures",
+      "why": "Its Python hooks make TypeSafe Jev judgments at tool and stop events, directly matching two of the article's implementation steps. The Stop hook is log-only by default.",
+      "evidence": [
+        "https://github.com/jakenbear/the-jev-enator/blob/d85b6229b7d5892fa406df90b465b186d0b75490/src/jev_gate.py",
+        "https://github.com/jakenbear/the-jev-enator/blob/d85b6229b7d5892fa406df90b465b186d0b75490/src/jev_finish.py",
+        "https://github.com/jakenbear/the-jev-enator/blob/d85b6229b7d5892fa406df90b465b186d0b75490/LICENSE"
+      ],
+      "limitations": "MIT Python 3.10+ source and Claude Code install scripts. Live hooks require a TypeSafe key, send selected tool arguments, output and transcript evidence to TypeSafe, and incur provider charges. Missing-key behavior is no-op; the Stop check is not an enforcing gate by default. Catalog cassette replays are not a live Claude Code or TypeSafe evaluation. Buzzoni did not mention or endorse this repository."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/ghtriage.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Classify GitHub issues before deciding which work merits an agent run",
+      "why": "The Python classifier asks typed Jev questions and uses code-owned write guards for issue labels, corresponding to the article's trigger stage. It does not launch Claude Code or open PRs.",
+      "evidence": [
+        "https://github.com/KalyanM45/GitHub-Issue-Classification-Using-Jev/blob/e1994acf727d6fa6599cb1093b9e91e13dfa2beb/src/ghtriage/core/questions.py",
+        "https://github.com/KalyanM45/GitHub-Issue-Classification-Using-Jev/blob/e1994acf727d6fa6599cb1093b9e91e13dfa2beb/LICENSE"
+      ],
+      "limitations": "MIT Python 3.10+ package. A TypeSafe key and separate inference charges are needed for live classification; issue text leaves the host. GitHub label writes additionally need a token and opt-in --apply. Catalog tests were offline; no live GitHub or TypeSafe run is claimed. Buzzoni did not mention or endorse it."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article and all three code blocks in the user's logged-in Chrome on 2026-09-27. Followed its embedded Diogo Almeida launch post, linked 1kpapers site, official TypeSafe and Claude hook docs, and checked exact-title results for republication. Thread Navigator mirrors the X article; no author republication was verified. The source images have no stated reuse license.",
+    "offline": "Checked TypeSafe SDK 0.7.1 request and response shapes in a scratch Python 3.13 environment with synthetic answers; reproduced the source gate's allow, deny and ask branches and its Stop threshold branches without a network request. Recomputed the article's cost assumptions. Inspected two catalog detail pages and pinned upstream code. Public validator and local site results are reported separately.",
+    "live": "No TypeSafe request, Claude Code hook installation, unattended loop, GitHub label write, automatic issue-to-PR run or provider bill was tested. The article's latency, calibration and savings figures are source or provider claims, not results reproduced here.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console tools were unavailable, so the title and FAQs follow reader intent and current search results without invented volume or difficulty."
+  },
+  "faqs": [
+    {
+      "question": "Can a Jev hook replace Claude Code permissions?",
+      "answer": "No. A PreToolUse command hook can add an allow, deny or ask judgment, but a hook timeout does not block the tool call. Keep Claude Code permissions, deterministic deny rules and human approval for consequential actions."
+    },
+    {
+      "question": "Does Jev cut a Claude Code bill from $765 to $3?",
+      "answer": "Those are the article's modeled monthly prices for 600 assumed small decisions per night, not measured bills. They exclude Claude's coding turns, hook maintenance, retries and other work; measure real token usage and cache behavior before claiming savings."
+    },
+    {
+      "question": "Should a Stop hook trust a high Jev score?",
+      "answer": "Only after exact checks pass and the evidence covers the goal. A high Noul value is not proof of completion; keep a continuation limit, expose unresolved work for review and evaluate mistakes on representative tasks."
+    },
+    {
+      "question": "How should a Jev issue trigger handle uncertain or failed answers?",
+      "answer": "Leave the issue in a human review queue. A missing, low-confidence, malformed or timed-out answer should not launch an unattended coding run or change labels silently. Limit input size, requests and agent runs separately."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-claude-code-hooks.png",
+    "alt": "Three-stage Claude Code loop with a Jev trigger, a reviewable tool gate and an evidence-based stop check; deterministic rules and human review surround every stage",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
