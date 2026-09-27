@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "jev-devops-decisions",
+  "slug": "jev-devops-decisions",
+  "title": "Jev for DevOps: logs, incidents and CI",
+  "description": "See where Jev's typed decisions fit in DevOps telemetry, incident response and CI, with project examples, measurable limits and an audit-first CI pilot.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-27",
+  "modified_at": "2026-09-27",
+  "topics": [
+    "devops",
+    "decision-gates",
+    "use-cases"
+  ],
+  "source": {
+    "title": "JevOps: Early Signs Decision Models Are Transforming DevOps",
+    "url": "https://x.com/JoshARosen/article/2104201747732271519",
+    "author": {
+      "name": "Josh Rosen",
+      "url": "https://x.com/JoshARosen"
+    },
+    "published_at": "2026-09-27",
+    "accessed_at": "2026-09-27"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical review"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevlogs.md",
+      "origin": "source-mentioned",
+      "purpose": "implements-step",
+      "step": "Annotate OpenTelemetry logs and recommend which records enter a separate analysis queue",
+      "why": "The article directly names and links Jev Logs for log triage. Its library protects severe records in code, evaluates remaining logs and returns a routing recommendation while the archive remains separate.",
+      "evidence": [
+        "https://github.com/reachjalil/jevlogs/blob/b1ff60079c30d50a7f93dbfa09848f9539665d44/src/index.ts",
+        "https://github.com/reachjalil/jevlogs/blob/b1ff60079c30d50a7f93dbfa09848f9539665d44/LICENSE",
+        "https://huggingface.co/datasets/reachjalil/jevlogs-log-triage-benchmark"
+      ],
+      "limitations": "MIT TypeScript preview; Node.js 22+ and OpenTelemetry dependencies. Live calls need Vercel AI Gateway/TypeSafe access, send redacted log content off host and incur inference charges. Every record needs an independent archive. Offline catalog tests do not verify live anomaly recall or savings."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevernetes.md",
+      "origin": "source-mentioned",
+      "purpose": "implements-step",
+      "step": "Inspect live Kubernetes logs and prepare bounded evidence for an investigation",
+      "why": "The article directly links the catalog's jevernetes page. The tool provides read-only kubectl collection, optional Jev highlighting and local dashboard/context handoff.",
+      "evidence": [
+        "https://github.com/sunil-sadasivan/jevernetes/blob/b0be7ebbf5d2215f8dd5930ad3984ebe06026fac/jevernetes/jev.py",
+        "https://github.com/sunil-sadasivan/jevernetes/blob/b0be7ebbf5d2215f8dd5930ad3984ebe06026fac/LICENSE"
+      ],
+      "limitations": "Apache-2.0 Python 3.11+ source; requires kubectl read access. Live Jev sends best-effort-redacted logs to TypeSafe and incurs charges; offline keyword mode needs no key. Catalog pytest had 82 passes and one failure; no live cluster or TypeSafe run was verified."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevmetrics.md",
+      "origin": "source-mentioned",
+      "purpose": "implements-step",
+      "step": "Annotate metric metadata and review proposed primary-storage retention",
+      "why": "The article directly names jevmetrics. Its OpenTelemetry Collector processor keeps an unseen metric batch, obtains asynchronous typed assessments and applies an operator-owned keep policy to later batches.",
+      "evidence": [
+        "https://github.com/ishantanu/jevmetrics/blob/ca8d73aaa3985071a9859a1b51f338f359cb9730/otelprocessor/jev.go",
+        "https://github.com/ishantanu/jevmetrics/blob/ca8d73aaa3985071a9859a1b51f338f359cb9730/internal/evaluator/jev.go",
+        "https://github.com/ishantanu/jevmetrics/blob/ca8d73aaa3985071a9859a1b51f338f359cb9730/LICENSE"
+      ],
+      "limitations": "Apache-2.0 alpha Go Collector processor; custom build and TypeSafe key for live assessment. Metric metadata and attribute keys leave the host; inference and storage may incur separate costs. Cached decisions can stale and retention effectiveness is unverified."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-ci-pathfinder.md",
+      "origin": "source-mentioned",
+      "purpose": "implements-step",
+      "step": "Propose relevant optional CI jobs from a fixed allowlist",
+      "why": "The article directly links the catalog page. The GitHub Action evaluates changed paths against known jobs, validates answers and preserves always-on jobs, path hits and dependency closure in code.",
+      "evidence": [
+        "https://github.com/JevForge/jev-ci-pathfinder/blob/0684c72ea009e77ef5edd365c561a46842de5a64/README.md",
+        "https://github.com/JevForge/jev-ci-pathfinder/blob/0684c72ea009e77ef5edd365c561a46842de5a64/LICENSE"
+      ],
+      "limitations": "MIT TypeScript GitHub Action. Live selection needs a Jev provider secret; diff/config evidence leaves GitHub for the provider and incurs charges. Default dry_run true suppresses step failure but may still call the provider. Catalog inspection did not run live Actions or Jev."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article in the user's logged-in Chrome on 2026-09-27, including its links to telemetry, SRE, gate, incident, CI and deployment examples. Checked relevant linked primary pages and exact-title searches for republication; no author republication was verified. The X cover had no stated reuse permission.",
+    "offline": "Compared four catalog pages with pinned upstream evidence; checked Cribl task distinctions, the Jev Logs dataset's recall and routing rates, SREGym's per-problem results and the CI project's documented behavior. No provider or project execution was performed for this guide. Public validation and local site checks are recorded separately.",
+    "live": "No live TypeSafe/Gateway call, GitHub Actions run, Kubernetes cluster, deployment controller, incident response or real production-log evaluation was tested. All quoted experimental results belong to their source authors.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console tools were unavailable. Checked current results for Jev DevOps automation decision models, TypeSafe Jev DevOps incident automation, JevOps decision models DevOps, and AI decision models DevOps workflows; results were broad and did not establish measured demand. Title and FAQs follow reader intent without invented volume or difficulty."
+  },
+  "faqs": [
+    {
+      "question": "How can Jev be used in DevOps?",
+      "answer": "Use Jev for one bounded semantic question over telemetry, an incident or a code change, then apply a typed answer through code-owned policy. Start by logging the recommendation beside existing rules and operator decisions before letting it affect routing."
+    },
+    {
+      "question": "Does high anomaly recall mean Jev Logs saves analysis cost?",
+      "answer": "No. Its published HDFS sample routed 99.3% of labeled anomalies to analysis while also routing 99.16% of all sampled records there. Measure both missed anomalies and the share of downstream calls actually avoided on your own logs."
+    },
+    {
+      "question": "Can Jev approve a production remediation or rollback?",
+      "answer": "A Jev judgment can flag whether a proposed action appears proportional to supplied evidence, but it cannot grant permission or prove recovery. Keep authorization, deployment invariants, retries and human approval in deterministic controls."
+    },
+    {
+      "question": "What is a safe first Jev CI pilot?",
+      "answer": "Use a fixed optional-job allowlist, keep mandatory jobs on, and compare Jev's proposed skips with historical or synthetic changes in audit mode. On missing or invalid answers, run the conservative job set or request review."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-devops-decisions.png",
+    "alt": "Four DevOps decision points feed a bounded Jev judgment while deterministic policy and human review control actions",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

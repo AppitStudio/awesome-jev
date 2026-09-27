@@ -100,3 +100,9 @@ Reviewed on **2026-09-19** at [b1ff600](https://github.com/reachjalil/jevlogs/co
 Live inference, production delivery, incident recall, latency, billing, and retention enforcement were not tested. These checks establish application behavior, not model quality. See [catalog validation scope](../../../docs/validation.md).
 
 Related: [RAG triage](../../../examples/rag-triage/README.md) teaches the same judgment-to-routing boundary with a smaller, dependency-free offline example.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev for DevOps: logs, incidents and CI](../../knowledge-base/articles/jev-devops-decisions.md) — Mentioned in the source article. Annotate OpenTelemetry logs and recommend which records enter a separate analysis queue.
+<!-- knowledge:backlinks:end -->
