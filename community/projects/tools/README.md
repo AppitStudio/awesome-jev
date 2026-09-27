@@ -226,6 +226,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-harness](jev-harness.md) | Map TypeSafe Jev answers to actions with confidence gates, shadow mode, recipes, and an eval CLI. | TypeScript · npm library/CLI (`jev-harness` 0.1.0) |
 | [jev-harness (TypeSafeAI)](typesafeai-jev-harness.md) | Research proposal-review contract: LLM proposes, Jev answers four narrow questions, code emits host evidence (distinct from AntonioCoppe/jev-harness). | TypeScript · source-only (`jev-harness` 0.0.0, MIT) |
 | [jev-healthcare-lab](jev-healthcare-lab.md) | Open Jev vs DeepSeek comparison on 96 healthcare tasks / 12 scenarios (quality/latency/cost). | Python · research lab (MIT) |
+| [jev-hooks](jev-hooks.md) | Review Claude Code commits with typed System One questions (self-hosted rizzo-flow or TypeSafe Jev) via PreToolUse hooks. | TypeScript · Claude Code plugins (MIT, 0.1.0-dev preview) |
 | [jev-in-codex](jev-in-codex.md) | Rank Codex capabilities, search hits, and output excerpts with TypeSafe Jev via local MCP. | TypeScript · MCP server + Codex plugin (0.1.0) |
 | [jev-issue-radar](jev-issue-radar.md) | Find duplicate/related GitHub issues with TypeSafe Jev evidence choices in a local read-only dashboard. | Node.js · loopback server + static UI (0.1.1) |
 | [jev-judge-mcp (PyModel)](pymodel-jev-judge-mcp.md) | MCP typed judgment tools (verify/screen/find/classify/rerank/decide/…); policy owns auto/review/escalate. | Python · MCP (`jev-mcp-python`, MIT) |
