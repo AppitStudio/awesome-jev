@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "jev-agent-triage-desk",
+  "slug": "jev-agent-triage-desk",
+  "title": "Jev agent triage desk: routes, audits and total cost",
+  "description": "Build a Jev event triage desk with four lanes, human review and a silent-lane audit. Price the writing and review work that cheap decisions do not remove.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-27",
+  "modified_at": "2026-09-27",
+  "topics": ["agent-harnesses", "decision-audits", "cost-optimization"],
+  "source": {
+    "title": "Jev Desk: How to Build a 24/7 AI Agent That Decides for Free and Only Pays to Write (Full Guide)",
+    "url": "https://x.com/gippp69/article/2103394701063737504",
+    "author": {
+      "name": "Gipp 🦅",
+      "url": "https://x.com/gippp69"
+    },
+    "published_at": "2026-09-25",
+    "accessed_at": "2026-09-27"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical review"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/typesafeai-jev-harness.md",
+      "origin": "source-mentioned",
+      "purpose": "evaluation",
+      "step": "Interpret the cited threshold sweep and separate validation from model review",
+      "why": "Gipp names the TypeSafeAI community jev-harness to argue that a confidence threshold changes review load. Its historical proposal-review report is a useful example of recording deterministic catches, model judgments and held proposals separately; it is not an implementation of the event desk.",
+      "evidence": [
+        "https://github.com/TypeSafeAI/jev-harness/blob/82c083c556a6d30b86972dde7b1e4a6b2ae73928/README.md",
+        "https://github.com/TypeSafeAI/jev-harness#historical-measurements-upstream-not-new-results-from-this-repository",
+        "https://github.com/TypeSafeAI/jev-harness/blob/82c083c556a6d30b86972dde7b1e4a6b2ae73928/LICENSE"
+      ],
+      "limitations": "Independent TypeSafeAI community organization, not the official TypeSafe AI SDK. MIT source-only TypeScript research harness (Node 22+, pnpm). The article's 20/20 figure concerns a different coding-agent proposal gate on synthetic fixtures; seven bad proposals were rejected before Jev, and the threshold sweep reused the same cases. Current offline benchmark uses labeled mock transport. It does not calibrate this desk's ignore lane or run its feeds."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/apps/jev-inbox-queue.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Study an email-only queue that separates parallel Jev judgments from code-owned routing",
+      "why": "Its Python implementation sends several typed questions about each thread in one request, caches selected answer fields and maps them into reviewable queue buckets in separate policy code. It illustrates one bounded input source for the desk, but Gipp does not mention or endorse it.",
+      "evidence": [
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/classify.py",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/policy.py",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/LICENSE"
+      ],
+      "limitations": "MIT Python 3.10+ source build with uv; TypeSafe key and billed provider calls for live classification, optional IMAP credentials for a real inbox. It has no X, Telegram, on-chain or Grok Bot integration, no continuous 24/7 runner and no validated false-ignore audit. Source inspected; live IMAP and Jev were not run here."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevtok.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Estimate whole-request Jev input tokens before forecasting the daily bill",
+      "why": "Its local request estimator counts structured state and questions, a closer preflight than the article's character-count heuristic. Compare estimates with the provider's actual usage field when live calls are authorized; Gipp does not mention the project.",
+      "evidence": [
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/src/jevtok/request.py",
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/README.md",
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/LICENSE"
+      ],
+      "limitations": "MIT Python 3.10+ package; offline estimates need no TypeSafe key. Its encoder fit is an upstream claim against recorded Jev 1.13 usage, not a guaranteed future billing oracle. Recheck against response.usage.input_tokens when the model or serialization changes."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete 13-section X article, code blocks and article diagrams in the user's logged-in Chrome on 2026-09-27. The visible article was published 2026-09-25. Exact-title and opening-line searches found no verified author republication. The article has no direct outbound links to the demo posts or named repositories; those primary sources were sought separately.",
+    "offline": "Checked current TypeSafe model, SDK, confidence and exception documentation; installed typesafe-sdk 0.7.2 in an isolated scratch environment and exercised the article's route order with synthetic SystemOneResponse objects. Verified the stated $0.84 and $24 arithmetic. Confirmed that TypeSafeAPIConnectionError is not a TypeSafeAPIError and that a high-confidence ignore with missing evidence is ignored by the article's code. Inspected catalog pages and pinned upstream files; no live feed or Jev call was run.",
+    "live": "No TypeSafe call, Grok Bot setup, deployed desk, real invoices, latency or triage-accuracy measurement. The article calls its 20,000-event day an estimate based on assumptions; its promotional post describes that day as a run. This guide treats it only as arithmetic. Human review and audit costs remain unknown.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console keyword data were not available in this session. Title, description and FAQs follow reader intent and current search results without volume or difficulty claims."
+  },
+  "faqs": [
+    {
+      "question": "How do I build a Jev agent triage desk?",
+      "answer": "Start with one input source and four code-owned lanes: ignore, log, draft and human. Ask Jev bounded routing questions, keep generation in a separate writer, record every outcome, and review a sample of ignored events before adding more feeds."
+    },
+    {
+      "question": "What does a Jev desk cost per day?",
+      "answer": "At the article's assumed 20,000 events, 1,000 Jev input tokens per event, 4% drafts and $0.03 per draft, model charges are $0.84 for Jev plus $24 for writing. Human review, ignored-event audits, hosting, retries and mistakes are additional and were not measured."
+    },
+    {
+      "question": "Does a higher Jev confidence floor make ignored events safe?",
+      "answer": "No threshold guarantees that. Raising the floor sends more low-confidence events to review, but confident wrong ignores can remain silent. Label a representative sample of ignored events and measure misses at each candidate floor before changing the policy."
+    },
+    {
+      "question": "What happens if Jev is unavailable?",
+      "answer": "Send the event to a durable human-review queue and record the error. Handle HTTP failures, timeouts, connection failures and malformed responses; never turn an unavailable judgment into an automatic ignore or send a draft without review."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-agent-triage-desk.png",
+    "alt": "Diagram of an event flowing through Jev into ignore, log, draft or human lanes, with sampled ignore review and separate cost totals",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
