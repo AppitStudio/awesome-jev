@@ -200,6 +200,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-codex-token-saver](jev-codex-token-saver.md) | Gather local workspace/log evidence and let TypeSafe Jev select exact excerpts for Codex (MCP plugin; local fallback). | Node.js · Codex plugin + MCP (`jev-codex-token-saver` 0.3.2) |
 | [jev-compact](jev-compact.md) | Score Codex tool calls with TypeSafe Jev before compaction and re-inject critical outputs the summary dropped. | TypeScript · Codex plugin (`jev-compact` 0.1.0) |
 | [jev-compaction (Waxmell114514)](waxmell114514-jev-compaction.md) | Score-only context compaction so memory cannot hold facts absent from the transcript (offline demo). | Python · library/demo (MIT) |
+| [jev-controller](ac-kurniawan-jev-controller.md) | After each tool result, ask Jev which next step to append as a one-line directive; fail-open if the key/timeout fails. | TypeScript · OMP (`oh-my-pi`) post-tool hook |
 | [jev-debtgate](jev-debtgate.md) | Gate agents/CI on technical-debt risk with TypeSafe Jev over local git/file metrics. | Node.js · CLI/MCP/Action (`jev-debtgate` 0.3.0) |
 | [jev-effort](jev-effort.md) | Claude Code: TypeSafe Jev picks per-step reasoning effort + lease (OpenRouter/TypeSafe/Vercel). | Node.js · hooks/setup (MIT) |
 | [jev-effort-router](jev-effort-router.md) | Hermes on Ollama:Cloud: TypeSafe Jev picks model **and** reasoning effort per turn and rewrites `llm_request`. | Python · Hermes plugin (`hermes-plugin-jev-effort-router` 0.2.1, MIT) |
