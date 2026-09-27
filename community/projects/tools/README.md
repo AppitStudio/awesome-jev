@@ -439,6 +439,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-omni.js](jev-omni-js.md) | Run independent Jev-Omni multimodal decisions in-browser on WebGPU (text+images; WIP video/audio). | JavaScript · onnxruntime-web (Apache-2.0) |
 | [jev-router (peptidehackers)](peptidehackers-jev-router.md) | Train/serve schema-typed probability heads with Wilson-certified act-or-escalate routing (numpy-only; independent of hosted Jev). | Python · numpy library + infer/approve/monitor (MIT) |
 | [Jev-Style](jev-style.md) | Local System One–compatible decision models + skills/guard/MCP tooling; independent of hosted Jev. | Python · local server + skills/MCP (Apache-2.0) |
+| [jev-switch](arcj137442-jev-switch.md) | Expose `/v1/systemone` locally and route/failover across configured upstream adapters (Vercel, Laya) via an editable DAG; dashboard + Tauri shell. | Rust (axum) · React UI · Tauri · Docker |
 | [JevEmbed](jevembed.md) | Turn embedding models into Choice/Score/Noul decisions via a Jev-shaped Python API/CLI/HTTP server. | Python · framework + HF configs (Apache-2.0) |
 | [Jevlet](jevlet.md) | From-scratch System One–style decision model research + Windows command palette; independent of hosted Jev. | Python · research model + desktop app (MIT) |
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
