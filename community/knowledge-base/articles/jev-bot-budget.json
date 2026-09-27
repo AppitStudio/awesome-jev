@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "jev-bot-budget",
+  "slug": "jev-bot-budget",
+  "title": "Build a budget-aware Jev bot",
+  "description": "Estimate a Jev bot's full running cost, route expensive analysis only when warranted, and validate decision thresholds before automating actions.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-27",
+  "modified_at": "2026-09-27",
+  "topics": ["cost-optimization", "calibration"],
+  "source": {
+    "title": "Jev Bot: The AI That Has to Pay for Its Own Brain",
+    "url": "https://x.com/paonx_eth/article/2103881060878533066",
+    "author": {
+      "name": "Paone",
+      "url": "https://x.com/paonx_eth"
+    },
+    "published_at": "2026-09-26",
+    "accessed_at": "2026-09-27"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical review"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevtok.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Estimate complete Jev request size before a bounded replay",
+      "why": "The independent Python encoder estimates input tokens for structured state and all questions together, so the article's one-thought cost can be tested against the proposed request rather than a bare text length.",
+      "evidence": [
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/README.md",
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/src/jevtok/request.py",
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/LICENSE"
+      ],
+      "limitations": "MIT Python 3.10+ source; local estimates need no TypeSafe key and send no data. Its reconstructed Jev 1.13 encoder is not a provider billing guarantee. Recheck against response.usage.input_tokens after model changes; live provider calls carry separate charges. Paone did not mention or endorse this project."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jeval.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Compare labeled outcomes and review thresholds offline",
+      "why": "The provider-neutral Python CLI evaluates recorded probabilities and user-supplied mistake and hand-off costs. It can help check a candidate gate, while the application still owns the budget, actions and outcome log.",
+      "evidence": [
+        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/README.md",
+        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/LICENSE"
+      ],
+      "limitations": "Apache-2.0 Python 3.10+ CLI. Offline reports need labeled decisions and honest cost inputs, not a TypeSafe key; no inference is performed. Synthetic demos do not establish calibration for a bot or trading edge. It does not fit a calibrator, debit a wallet or execute a policy. Paone did not mention or endorse this project."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article, its code blocks and chart footnotes in the user's logged-in Chrome on 2026-09-27. Also read Paone's 2026-09-23 survival-mode post in Chrome and followed the named Conway Automaton, Anthus calibration study and AY Automate pricing test to their primary pages. Exact-title searches found no verified author republication. The article body has no outbound project or post links; its images have no reusable license stated.",
+    "offline": "Recomputed the article's Jev-only 10,000-decision and $65 runway examples from the published input rate; checked the model, primitives and confidence docs, and the two catalog pages with pinned upstream files. The article's charts omit hosting, downstream model calls, fees and failed actions. Public validator and local site checks are reported separately.",
+    "live": "No Jev API calls, bot run, market-data feed, orders, wallet, realized revenue or P&L were tested. The earlier post's 24-hour survival and the article's future live run were not reconciled by a public audited ledger. This guide does not claim a profitable or self-funding bot.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console tools were not connected, so the title and FAQs follow reader intent and current search results without invented volume or difficulty."
+  },
+  "faqs": [
+    {
+      "question": "How much does a Jev bot cost per day?",
+      "answer": "At one 1,000-input-token Jev call per second and TypeSafe's listed $0.042 per million input tokens, the Jev inference estimate is $3.63 per day. Add hosting, larger-model calls, retries, data, reviews, transaction fees and mistakes separately; measure actual usage before budgeting."
+    },
+    {
+      "question": "Does a $65 budget let a Jev bot run for 18 days?",
+      "answer": "Only in the article's model-only scenario: one 1,000-input-token Jev call each second at the listed rate. The calculation omits hosting and every other cost, and it does not show revenue or a live 18-day run."
+    },
+    {
+      "question": "Can Jev confidence decide when a bot should trade?",
+      "answer": "No raw confidence value proves that a trade is correct or profitable. Choice confidence summarizes the option distribution; a threshold needs task-specific labeled outcomes, a held-out check and code-owned risk limits. Keep trading disabled in the pilot."
+    },
+    {
+      "question": "What happens when a Jev budget or service fails?",
+      "answer": "Stop paid calls before the reserved budget is exhausted, record the reason and leave the item for review. An unavailable, malformed or late model answer must not become an automatic action; reconcile estimated charges with provider usage when service returns."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-bot-budget.png",
+    "alt": "Flow diagram showing a candidate event passing through Jev classification, a code-owned budget and evidence gate, then skip, watch or reviewed analysis routes",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

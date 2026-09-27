@@ -52,4 +52,5 @@ Related: [jev-align](jev-align.md), [JevScope](jevscope.md), [Advocaat](advocaat
 ## Knowledge guides
 
 - [Jev decision audits: validate the business case](../../knowledge-base/articles/jev-decision-audit.md) — Independently suggested by JevList; not an endorsement by barnyx. Join outcomes to predictions and compare threshold policies.
+- [Build a budget-aware Jev bot](../../knowledge-base/articles/jev-bot-budget.md) — Independently suggested by JevList; not an endorsement by Paone. Compare labeled outcomes and review thresholds offline.
 <!-- knowledge:backlinks:end -->
