@@ -312,6 +312,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevmory](jevmory.md) | Build quote-backed agent memory with TypeSafe Jev grading and audit MEMORY.md with receipts. | Python · CLI (`jevmory`) + Claude/Codex hooks |
 | [jevq](who-jevq.md) | Read JSONL on stdin, ask Jev a yes/no claim about each value, pass through those above threshold (optional `--score` / `--pass`). | Python · CLI (`jevq` via uv/pipx) |
 | [JevRepoTriage](jevrepo-triage.md) | Self-hosted GitHub issue/PR triage with TypeSafe Jev classifications and operator-approved actions. | TypeScript · web UI + workers (MIT) |
+| [JevRoute (suncirkles)](suncirkles-jev-router.md) | Route coding tasks to a model id via decision-only JevRoute, with a separate eval harness and recorded evidence. | Python · router library + eval harness (MIT) |
 | [JevRouter](jevrouter.md) | Route among models/subagents/skills/MCP/CLIs with TypeSafe Jev Choice plus permissions, risk, confirmation, and receipts. | TypeScript · SDK/CLI/MCP (`jevrouter` 0.1.0) |
 | [JevScope](jevscope.md) | Edit Jev projects visually, batch JSONL regression cases, and compare definitions locally. | TypeScript · Studio + local API (pnpm) |
 | [jevseek](jevseek.md) | Let DeepSeek propose tokens and TypeSafe Jev (OpenRouter System One) choose the next one. | Python ≥ 3.11 · CLI (`jevseek` 0.1.0) |
