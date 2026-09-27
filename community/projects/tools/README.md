@@ -352,6 +352,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-follow-through](pi-follow-through.md) | Nudge Pi after agent_settled only when TypeSafe Jev cites unfinished work above a probability threshold. | TypeScript · Pi extension (`pi-follow-through`) |
 | [pi-heed](pi-heed.md) | Enforce evolving conversational constraints on Pi tool calls; TypeSafe Jev classifies policy changes, code owns the ledger. | TypeScript · Pi extension (`pi-heed`) |
 | [pi-jev](pi-jev.md) | Add a Jev pre-tool gate, output judge, and jev_ask tool to the Pi coding agent (shadow mode default, fail-open). | TypeScript · Pi extension (npm) |
+| [pi-jev (kurowashi)](kurowashi-pi-jev.md) | Add TypeSafe Jev semantic checks for Pi file edits and new-file placement (content-guard + placement plugins). | TypeScript · Pi extensions monorepo (MIT) |
 | [pi-jev-context](pi-jev-context.md) | Trim long pi tool outputs before they enter context (comparison first; TypeSafe Jev only when needed) with lossless recall. | TypeScript · Pi extension (`pi-jev-context`) |
 | [pi-jev-effort](pi-jev-effort.md) | Set Pi thinking level per prompt from a TypeSafe Jev difficulty score, capped by remaining quota. | TypeScript · Pi extension (`pi-jev-effort` 0.1.0) |
 | [pi-jev-permit](pi-jev-permit.md) | Gate Pi bash/write/edit calls with TypeSafe Jev allow judgments after local hard-deny and read-only fast paths. | TypeScript · Pi extension (`pi-jev-permit` 0.2.0) |
