@@ -64,4 +64,5 @@ Related: [jevkit](jevkit.md), [typesafeai-cli](typesafeai-cli.md), [jevals](jeva
 ## Knowledge guides
 
 - [Jev setup guide: batch questions to cut API costs](../../knowledge-base/articles/jev-api-cost-setup.md) — Independently suggested by JevList; not an endorsement by darkzodchi. Estimate each request's input tokens and catch over-limit state before calling Jev.
+- [Jev agent triage desk: routes, audits and total cost](../../knowledge-base/articles/jev-agent-triage-desk.md) — Independently suggested by JevList; not an endorsement by Gipp 🦅. Estimate whole-request Jev input tokens before forecasting the daily bill.
 <!-- knowledge:backlinks:end -->

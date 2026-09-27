@@ -49,3 +49,9 @@ Nothing in-package applies patches or grants permission. Live Jev sends proposal
 Reviewed on **2026-09-23** at [commit 82c083c](https://github.com/TypeSafeAI/jev-harness/tree/82c083c556a6d30b86972dde7b1e4a6b2ae73928) (MIT). AI-assisted review of README and LICENSE. No live TypeSafe spend.
 
 Related: [jev-harness](jev-harness.md), [System One Harness](systemone-harness.md), [jev-layer](jev-layer.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev agent triage desk: routes, audits and total cost](../../knowledge-base/articles/jev-agent-triage-desk.md) — Mentioned in the source article. Interpret the cited threshold sweep and separate validation from model review.
+<!-- knowledge:backlinks:end -->
