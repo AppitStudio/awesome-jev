@@ -121,6 +121,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dbt_jev](dbt-jev.md) | Classify SQL values with TypeSafe Jev (or OpenRouter→Jev) from dbt macros on DuckDB/ClickHouse. | Python · dbt package + DuckDB/ClickHouse runtime |
 | [DecideKit](decidekit.md) | Define typed decision policies and evaluate them with Jev via OpenRouter or TypeSafe, with offline fixtures and fallbacks. | TypeScript/Python · library/CLI (`decidekit` 0.1.0) |
 | [decision-first](decision-first.md) | Spot bounded judgments, try TypeSafe Jev first, and log adopt/decline cases for reuse. | Python · agent skill + stdlib scripts |
+| [deepseek-harness-jev (luobosibing2)](luobosibing2-deepseek-harness-jev.md) | DSH plugin: TypeSafe Jev for skill/file ranking, supervision, corrections, and workspace approval (off by default; ≠ wjw66 pre-compaction). | TypeScript · DSH/Cordis plugin (MIT) |
 | [demo-expanso-jev](demo-expanso-jev.md) | Run Expanso Edge pipelines that bypass routine lines and ask TypeSafe Jev only on the rest (boards + mock server). | Demo suite · Expanso YAML, Python boards, `just` recipes |
 | [deslop](deslop.md) | Score page bodies with TypeSafe Jev probabilities for ad/slop/seo/derivative (caller sets thresholds). | Python · agent skill + stdlib CLI |
 | [Discern](discern.md) | Build Effect Decision/DecisionModel patterns, policies, and procedures; optional TypeSafe Jev provider. | TypeScript · npm (`@doeixd/discern` 0.4.0) |
