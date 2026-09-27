@@ -441,6 +441,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [JevEmbed](jevembed.md) | Turn embedding models into Choice/Score/Noul decisions via a Jev-shaped Python API/CLI/HTTP server. | Python · framework + HF configs (Apache-2.0) |
 | [Jevlet](jevlet.md) | From-scratch System One–style decision model research + Windows command palette; independent of hosted Jev. | Python · research model + desktop app (MIT) |
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
+| [jevos](jevos.md) | Serve yes/no (Noul) decisions from a CPU-only, offline 1B GGUF model behind a Jev-compatible `/v1/systemone` API. | Python/FastAPI · llama.cpp GGUF weights (MIT) |
 | [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
 | [laya-guardrails](laya-guardrails.md) | Fast input/tool/output guardrails using self-hosted laya-pt-es-typed System One (not hosted Jev). | Python · FastAPI + HF model (Apache-2.0) |
 | [lev (Abhinavexists)](lev.md) | Run an open Qwen3.5-4B LoRA System One model over `/v1/systemone` (independent of hosted Jev). | Python · model + harness (Apache-2.0) |
