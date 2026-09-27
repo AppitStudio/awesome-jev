@@ -750,6 +750,16 @@ Windows WeChat (4.x) side panel: local offline OCR reads the chat window; TypeSa
 
 [Full Jev Chat Windows guide](jev-chat-windows.md) · [Source](https://github.com/jev-chat/jev-chat-windows)
 
+### jev-desktop
+
+`Open source` · `Free source build` · `BYOK`
+
+Windows desktop agent: UI Automation observes controls, TypeSafe Jev chooses the next action, and a small LLM types text when needed (`jevd`).
+
+**Access:** Windows PowerShell install script or clone the MIT source; requires TypeSafe + OpenRouter keys. Experimental—moves the real mouse/keyboard. No app purchase fee; provider usage separate. Source inspected on Linux; Windows GUI/live paths not run on the review host.
+
+[Full jev-desktop guide](ehtan-smaltai-jev-desktop.md) · [Source](https://github.com/ehtan-smaltai/jev-desktop)
+
 ### SignalLens
 
 `Open source` · `Free source build` · `BYOK`
