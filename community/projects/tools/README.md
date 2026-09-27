@@ -492,6 +492,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev Classification for n8n](jev-classification-n8n.md) | Route workflow items with typed Jev decisions, configurable review handling, and multi-item batching. | TypeScript · self-hosted n8n community node |
 | [Jev for Splunk](jev-for-splunk.md) | Ask TypeSafe Jev typed questions about Splunk events (the `jev` search command) and cache answers in the KV store. | Python · Splunk app (`jev_for_splunk`, Apache-2.0 file) |
 | [Jev MCP (Freepik)](freepik-jev-mcp.md) | Go MCP server for typed decide/classify/verify/rerank via OpenRouter or TypeSafe (binary/container). | Go · MCP binary (`jev-mcp` v0.3.0) |
+| [Jev MCP Server (keysersoft)](keysersoft-jev-mcp-server.md) | Install a remote/self-hosted AnythingMCP Jev connector (yes/no, classify, score + probabilities) for Claude/ChatGPT MCP hosts. | JavaScript · AnythingMCP connector (AGPL-3.0) |
 | [Jev Studio](jev-studio.md) | Experiment with TypeSafe Jev via a `jev` CLI (verify/screen/classify/…) and an MCP server with cookbook tools. | Python · CLI + MCP (`jev-studio` 0.1.0 Alpha) |
 | [Jev Symfony Bundle](jev-symfony-bundle.md) | Wire TypeSafe Jev into Symfony via typed client, validator attributes, Messenger, Workflow guards, and profiler. | PHP · Symfony bundle (Apache-2.0) |
 | [jev-cli (shaharia-lab)](shaharia-lab-jev-cli.md) | Rust `jev` CLI + MCP: typed TypeSafe Jev questions with shell exit codes and JSON (distinct from tumf). | Rust · crates.io CLI/MCP (Apache-2.0 OR MIT) |
