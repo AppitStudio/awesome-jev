@@ -502,6 +502,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev Symfony Bundle](jev-symfony-bundle.md) | Wire TypeSafe Jev into Symfony via typed client, validator attributes, Messenger, Workflow guards, and profiler. | PHP · Symfony bundle (Apache-2.0) |
 | [jev-cli (shaharia-lab)](shaharia-lab-jev-cli.md) | Rust `jev` CLI + MCP: typed TypeSafe Jev questions with shell exit codes and JSON (distinct from tumf). | Rust · crates.io CLI/MCP (Apache-2.0 OR MIT) |
 | [jev-cli (tumf)](tumf-jev-cli.md) | Ask TypeSafe Jev noul/choice/score from a PyPI CLI plus bundled stdio MCP (`jev` / `jev-mcp`). | Python · PyPI CLI/MCP (`jev-cli` 0.6.2) |
+| [jev-code-mode](jev-code-mode.md) | Expose typed Jev judgments as two MCP tools (`search` and `execute`) for agent cheap-checks before heavier work. | TypeScript · MCP server (MIT) |
 | [jev-feels](jev-feels.md) | Use TypeSafe Jev as Ruby `feels?` / `decide` / `score` and Rails validations (distinct from BAML feelings). | Ruby · gem (`jev-feels` 1.1.0) |
 | [jev-foundation-models](jev-foundation-models.md) | Use TypeSafe Jev as an Apple Foundation Models `LanguageModel` for `@Generable` Bool/enum/score fields. | Swift 6 · SwiftPM (`JevFoundationModels` 0.1.0, Apache-2.0) |
 | [jev-java](jev-java.md) | Call TypeSafe Jev (or OpenRouter/Vercel adapters) from Java 17+ with typed Choice/Noul/Score and optional Spring. | Java · Maven (`jev-typesafe` 0.1.1) |
