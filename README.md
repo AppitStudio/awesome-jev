@@ -760,6 +760,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [wellposed](https://github.com/suraj-phanindra/wellposed) - Zero-dependency linter for TypeSafe Jev requests: broken state paths, missing Choice escape hatches, bundled judgments (`wellposed` 0.4.0). [Project guide](community/projects/tools/wellposed.md).
 - [winnow](https://github.com/GhalebDweikat/winnow) - Claude Code context sieve: TypeSafe Jev (or System One adapter) judges tool-result blocks before they enter context; hidden text stays recallable. [Project guide](community/projects/tools/winnow.md).
 - [Yoshi](https://github.com/compozy/yoshi) - Experimental local context-pruning proxy for Claude Code and Codex; TypeSafe Jev (Vercel AI Gateway) judges which history spans to omit. [Project guide](community/projects/tools/yoshi.md).
+- [ZeroAlloc.Jev](https://github.com/ZeroAlloc-Net/ZeroAlloc.Jev) - Unofficial .NET client for TypeSafe's Jev System One API — source-generated, Native AOT, allocation-conscious. [Project guide](community/projects/tools/zeroalloc-jev.md).
 
 ## Computer and browser use
 
