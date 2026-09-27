@@ -190,6 +190,16 @@ File a local document folder into configured categories with TypeSafe Jev (Verce
 
 [Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
 
+### Jev Fraud Shield
+
+`Open source` · `Free source build` · `BYOK`
+
+Explainable card-fraud triage demo/library: per-factor TypeSafe Jev judgments with a self-hosted dashboard (honest about prior failed iterations).
+
+**Access:** Clone the MIT source; run locally with `TYPESAFE_API_KEY`. Open `dashboard.html` for the sample run UI. No app purchase fee; TypeSafe usage separate. Source inspected; live fraud API paths not run on the review host.
+
+[Full Jev Fraud Shield guide](jonny5isalive5-jev-fraud-shield.md) · [Source](https://github.com/jonny5isalive5/jev-fraud-shield)
+
 ### Jev Grand Prix
 
 `Open source` · `Free source build` · `BYOK`
