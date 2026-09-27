@@ -822,6 +822,16 @@ Local Chrome MV3 extension that asks TypeSafe Jev whether heuristically selected
 
 [Full Jev Focus Guard guide](jev-focus-guard.md) · [Source](https://github.com/tx-smitht/jev-focus-guard)
 
+### Jev Investment Forecast (jev-investment-forecast)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that inspects any displayed web page and uses TypeSafe Jev to forecast investment potential across 27 category judgments (50% positive-value threshold, 25% risk threshold) plus 2 choice questions (investment amount and duration).
+
+**Access:** clone or load the MIT source (or the Chrome Web Store listing linked from the root README) with a TypeSafe Jev API key. No app purchase fee; API usage costs are separate. Source inspected; live calls not run on the review host.
+
+[Full Jev Investment Forecast guide](jev-investment-forecast.md) · [Source](https://github.com/serejkaaa512/jev-investment-forecast)
+
 ### Jev for Chrome
 
 `Open source` · `Free source build` · `BYOK`
