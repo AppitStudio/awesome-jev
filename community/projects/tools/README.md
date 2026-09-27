@@ -560,6 +560,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Agent Seek](agent-seek.md) | Cheap web recall for agents: You.com discover + TypeSafe Jev cascade ranking (REST/MCP/UI). Does not write answers. | Python 3.12+ · FastAPI/MCP (`agentseek.dev` demo) |
 | [blink](blink.md) | Search a local codebase with TypeSafe Jev via ensemble directory walkers that Choice-pick the next file or folder. | Bun · CLI (`./blink`); license unspecified |
 | [duckdb-jev](duckdb-jev.md) | Run TypeSafe Jev Noul/Choice/Score predicates natively inside DuckDB SQL (C++ extension; no Python UDF). | C++ · DuckDB extension (Apache-2.0) |
+| [FastGate](fastgate-jev.md) | Gate a multilingual EN/UZ/RU RAG helpdesk with TypeSafe Jev decisions before the LLM writes; includes an independent benchmark. | Python · RAG helpdesk + benchmark (MIT) |
 | [graphify-jev](54lynnn-graphify-jev.md) | Build a local AST knowledge graph and use Jev System One judgments for semantic navigation/refactor guidance without a vector store. | Python 3.10+ · Tree-sitter + Jev |
 | [jegrep](jegrep.md) | Find code by natural-language intent using TypeSafe Jev (or OpenRouter→Jev) without embeddings. | Rust · CLI (`jegrep`) and release binaries |
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
