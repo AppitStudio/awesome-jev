@@ -49,3 +49,9 @@ Tool arguments, command output slices, and transcript excerpts used by hooks lea
 Reviewed on **2026-09-20** at [commit d85b622](https://github.com/jakenbear/the-jev-enator/tree/d85b6229b7d5892fa406df90b465b186d0b75490): MIT. AI-assisted source review of hooks, install scripts, and README. Cassette replay: **gate 26/26**, **notice 19/19**, **finish 12/12**. No live TypeSafe calls.
 
 Related: [Canny](canny.md), [clear-head](clear-head.md), [jev-guard](jev-guard.md), [toolgate](toolgate.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Use Jev in Claude Code hooks and loops](../../knowledge-base/articles/jev-claude-code-hooks.md) — Independently suggested by JevList; not an endorsement by Mr. Buzzoni. Explore a Claude Code PreToolUse gate and Stop check with offline fixtures.
+<!-- knowledge:backlinks:end -->

@@ -50,3 +50,9 @@ Issue text leaves the host on live classify. Writing labels is opt-in and repo-s
 Reviewed on **2026-09-22** at [commit e1994ac](https://github.com/KalyanM45/GitHub-Issue-Classification-Using-Jev/tree/e1994acf727d6fa6599cb1093b9e91e13dfa2beb): **0.1.0**, MIT. AI-assisted source review of README, LICENSE, `src/ghtriage/`. Offline ruff + pytest 56 passed / 6 skipped. No live TypeSafe or GitHub writes on the review host.
 
 Related: [jev-issue-radar](jev-issue-radar.md), [jev-pr-judge](jev-pr-judge.md), [Clean Code Review](../apps/clean-code-review.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Use Jev in Claude Code hooks and loops](../../knowledge-base/articles/jev-claude-code-hooks.md) — Independently suggested by JevList; not an endorsement by Mr. Buzzoni. Classify GitHub issues before deciding which work merits an agent run.
+<!-- knowledge:backlinks:end -->
