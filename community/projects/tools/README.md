@@ -472,6 +472,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [open-jev](open-jev.md) | Experiment with independent Kev and DeBERTa typed decisions locally in a browser; does not use official Jev weights. | TypeScript · npm library, Transformers.js / ONNX |
 | [openjev-sglang](openjev-sglang.md) | Inspect a Jev-shaped HTTP decision API using Qwen and SGLang; independent model behavior and unspecified code licensing. | Python / FastAPI / SGLang · inference research |
 | [PlayJev](playjev.md) | Study a 0.8B model that picks a game's next move from the frame alone, one forward pass, probability per listed move; independent of official Jev. | Python / PyTorch · model research and browser demo |
+| [polyjev](polyjev.md) | Turn any LLM into typed calibrated Noul/Choice/Score/Span decisions; optional Jev-compatible `/v1/systemone` server. | Python · PyPI (`polyjev`) + serve (Apache-2.0) |
 | [RSI-Jev](rsi-jev.md) | Train and serve Jev-style typed-decision checkpoints via a self-improving agent loop; independent of hosted Jev. | Python · research training + `/v1/systemone` serve (MIT code) |
 | [RYOTIDE](ryotide.md) | Local LLM one-forward-pass typed decisions (MLX/PyTorch) measured on JevBench; independent of official Jev. | Python · research (MIT) |
 | [SemIf](semif.md) | Explore typed option scoring and shared-state reuse with local open models; independent of official Jev. | Python / PyTorch / MLX · research and browser lab |
