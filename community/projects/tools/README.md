@@ -463,6 +463,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Malkuth](malkuth.md) | Multilingual open decision models (Choice/Noul/Score) via Kev. | Weights · research (Apache-2.0) |
 | [NanoJev](nanojev.md) | Study independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. | Python / PyTorch · model research and replay |
 | [Open Alternative to Jev](open-alternative-jev.md) | Compare packed and separate typed decisions from open models and fit calibration on labeled data; not a Jev reproduction. | Python · Transformers/vLLM research library |
+| [Open Medical Jev](open-medical-jev.md) | Run Jev-class medical yes/no judgments from frozen open models with dual-reader fusion, auto-release gates, and conformal sets; compare vs hosted Jev. | Python · GGUF readers + routing recipes (MIT) |
 | [open-jev](open-jev.md) | Experiment with independent Kev and DeBERTa typed decisions locally in a browser; does not use official Jev weights. | TypeScript · npm library, Transformers.js / ONNX |
 | [openjev-sglang](openjev-sglang.md) | Inspect a Jev-shaped HTTP decision API using Qwen and SGLang; independent model behavior and unspecified code licensing. | Python / FastAPI / SGLang · inference research |
 | [PlayJev](playjev.md) | Study a 0.8B model that picks a game's next move from the frame alone, one forward pass, probability per listed move; independent of official Jev. | Python / PyTorch · model research and browser demo |
