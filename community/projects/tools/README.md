@@ -512,6 +512,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Reflex-1](matu79go-reflex-1.md) | Run/study Reflex-1, a 4B open decision model for fast typed classification with latent reasoning (independent of hosted Jev). | Python · open weights + examples (Apache-2.0) |
 | [RSI-Jev](rsi-jev.md) | Train and serve Jev-style typed-decision checkpoints via a self-improving agent loop; independent of hosted Jev. | Python · research training + `/v1/systemone` serve (MIT code) |
 | [RYOTIDE](ryotide.md) | Local LLM one-forward-pass typed decisions (MLX/PyTorch) measured on JevBench; independent of official Jev. | Python · research (MIT) |
+| [SelfJev](jwuthri-selfjev.md) | Run an open Jev-shaped decisions model (typed answers with probabilities) locally on one GPU; independent of hosted Jev. | Python · Qwen3.5-4B LoRA (Apache-2.0) |
 | [SemIf](semif.md) | Explore typed option scoring and shared-state reuse with local open models; independent of official Jev. | Python / PyTorch / MLX · research and browser lab |
 | [sokudan](hiroki-abe-58-sokudan.md) | Run a Japanese System One decision model (typed answers + probabilities, no generation) with bench_ja/bench_en and a Laya position-bias repro. | Python · HF weights (`GeneLab/sokudan-ja-310m`, Apache-2.0) |
 | [Sureband](sureband.md) | Conformal coverage wrappers for System One outputs (Jev/Laya/…) from labeled calibration sets. | Python · library (`sureband`, Apache-2.0) |
