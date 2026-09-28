@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "jev-system-one-first-pilot",
+  "slug": "jev-system-one-first-pilot",
+  "title": "Jev System One model: choose and test a first pilot",
+  "description": "Learn Jev's typed answers, choose one bounded decision for a first pilot, and test full-workflow quality, cost and latency against TypeSafe's launch claims.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-28",
+  "modified_at": "2026-09-28",
+  "topics": ["decision-gates", "model-routing", "calibration"],
+  "source": {
+    "title": "Jev Masterclass",
+    "url": "https://x.com/mikenevermiss/article/2104436761032057204",
+    "author": {
+      "name": "MIKE",
+      "url": "https://x.com/mikenevermiss"
+    },
+    "published_at": "2026-09-28",
+    "accessed_at": "2026-09-28"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-harness.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Map a Jev model-tier Choice to a logged, reviewable application route during a bounded first pilot",
+      "why": "The MIT TypeScript harness calls the official TypeSafe SDK, applies a local policy and confidence gate, records intended and actual actions, and provides a shadow action and offline fixture-evaluation CLI. It fits the article's model-routing pattern but is not named by MIKE.",
+      "evidence": [
+        "https://github.com/AntonioCoppe/jev-harness/blob/2934d12e18157881440362d747d31b688a1c6ed6/src/harness.ts",
+        "https://github.com/AntonioCoppe/jev-harness/blob/2934d12e18157881440362d747d31b688a1c6ed6/src/policy.ts",
+        "https://github.com/AntonioCoppe/jev-harness/blob/2934d12e18157881440362d747d31b688a1c6ed6/LICENSE"
+      ],
+      "limitations": "Independent MIT npm library 0.1.0 for Node.js 20+. A shadow run still calls TypeSafe, transmits state and can incur charges; use a fake client for offline tests. The catalog review built the package, but this guide did not run its code or a live pilot. Integrators own provider eligibility, permission rules and outcome evaluation."
+    }
+  ],
+  "verification": {
+    "source": "Read MIKE's complete X article and visible graphics in the user's logged-in Chrome on 2026-09-28. The article body exposed no outbound links to its named posts or projects; TypeSafe, Vercel and SuperQode primary pages were found and read separately. Exact-title and phrase searches found no verified author republication. The source cover was not reused.",
+    "offline": "Inspected current TypeSafe primitives, confidence and model documentation plus the pinned jev-harness source and license and its existing catalog review. The guide's routing design and copyable prompt were not implemented or executed; no provider request was made.",
+    "live": "No TypeSafe request, agent run, billed cost, latency, calibration, routing accuracy or adoption measurement. Source and vendor figures remain attributed claims.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console keyword tools were not connected, so the title, description and FAQs were chosen from reader intent and current search results without volume or difficulty estimates."
+  },
+  "faqs": [
+    {
+      "question": "What is the Jev System One model best used for?",
+      "answer": "Jev fits a frequent judgment with known answer shapes, such as choosing a model tier, scoring urgency or deciding whether a record is relevant. Give it focused state and typed questions; keep exact rules, permissions and actions in code."
+    },
+    {
+      "question": "Does every Jev answer include a confidence score?",
+      "answer": "No. Choice and Score answers include a distribution-based confidence value. Noul returns a yes probability from 0 to 1 without a separate confidence field. Neither measure proves that an action will succeed."
+    },
+    {
+      "question": "How should I test Jev before replacing an existing router?",
+      "answer": "First test routing code with fake responses, then compare a small live shadow run with labeled cases while the old router still controls the action. Validate thresholds on untouched cases and measure downstream quality, total time and cost per completed task."
+    },
+    {
+      "question": "Does jev-harness shadow mode run Jev for free?",
+      "answer": "No. Its shadow mode still calls TypeSafe and can incur provider charges. It suppresses the application action. Use an injected fake client for offline tests and an explicit, bounded opt-in for live shadow evaluation."
+    },
+    {
+      "question": "Do TypeSafe's benchmark multiples apply to my agent?",
+      "answer": "No. They describe TypeSafe's own decision-workflow evaluations, not an entire agent with planning, tools, retries and review. Measure the complete task against your current system before claiming a speed or cost improvement."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-system-one-first-pilot.png",
+    "alt": "Diagram: an incoming request reaches code-defined candidate routes, Jev judges one typed choice, and code sends it to a permitted route or human review while logging the outcome",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
