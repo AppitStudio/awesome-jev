@@ -356,6 +356,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [oh-my-jev (apetcu)](apetcu-oh-my-jev.md) | oh-my-pi plugin: TypeSafe Jev tool-call gate (default), optional model router, and latency telemetry (≠ MassiveLabsNet/oh-my-jev). | TypeScript · oh-my-pi plugin (MIT) |
 | [omo-jev-plugin](omo-jev-plugin.md) | OmO/senpi plugin: TypeSafe Jev advises skill/tool fit, loop and completion signals (shadow/advise/act; does not replace permissions). | TypeScript · OmO/senpi npm plugin (`omo-jev-plugin`) |
 | [omp-jev-compaction](omp-jev-compaction.md) | Reduce omp tool context with sticky TypeSafe/OpenRouter Jev scores while keeping retained text verbatim. | TypeScript · omp plugin (`omp-jev-compaction` 0.1.0) |
+| [onesie](frodi-karlsson-onesie.md) | Unix-pipeable System One CLI for TypeSafe Jev (also OpenRouter/Berget): pipe text, ask a typed question, script the… | Go · CLI (MIT) |
 | [Open Jev Bridge](open-jev-bridge.md) | Zero-dep Node MCP + Claude/Codex hooks bridging hosted Jev or local Kev/Laya System One (compaction + completion gates). | Node.js · CLI/MCP (`open-jev-bridge` 0.3.0, MIT) |
 | [openclaw-typesafe-ai](openclaw-typesafe-ai.md) | Add an optional OpenClaw `typesafe_decide` tool for explicit TypeSafe Jev judgments without lifecycle hooks. | TypeScript · OpenClaw plugin (`openclaw-typesafe-ai` 0.1.3) |
 | [OpenCode Security Guard](opencode-security-guard.md) | Linux OpenCode shell guard: local read-only check + Jev Noul ≥0.90 auto-allow. | TypeScript · OpenCode plugin (MIT) |
