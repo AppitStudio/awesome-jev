@@ -807,6 +807,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [XavierJev](https://github.com/liu-x27/XavierJev) - Local Jev-shaped decision layer (yes/no, choice, rubric) from one-token logprobs with measured gates and a Claude Code permission hook; does not call hosted Jev. [Project guide](community/projects/tools/xavierjev.md).
 - [Yoshi](https://github.com/compozy/yoshi) - Experimental local context-pruning proxy for Claude Code and Codex; TypeSafe Jev (Vercel AI Gateway) judges which history spans to omit. [Project guide](community/projects/tools/yoshi.md).
 - [ZeroAlloc.Jev](https://github.com/ZeroAlloc-Net/ZeroAlloc.Jev) - Unofficial .NET client for TypeSafe's Jev System One API — source-generated, Native AOT, allocation-conscious. [Project guide](community/projects/tools/zeroalloc-jev.md).
+- [zh-decision-bench](https://github.com/CodyQin/zh-decision-bench) - Chinese-language calibration benchmark for Jev-class System One decision models (dataset CC BY 4.0; code Apache-2.0), including Jev and NeoHorse arms. [Project guide](community/projects/tools/codyqin-zh-decision-bench.md).
 
 ## Computer and browser use
 
