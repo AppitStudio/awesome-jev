@@ -552,6 +552,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev MCP Server (keysersoft)](keysersoft-jev-mcp-server.md) | Install a remote/self-hosted AnythingMCP Jev connector (yes/no, classify, score + probabilities) for Claude/ChatGPT MCP hosts. | JavaScript · AnythingMCP connector (AGPL-3.0) |
 | [Jev Studio](jev-studio.md) | Experiment with TypeSafe Jev via a `jev` CLI (verify/screen/classify/…) and an MCP server with cookbook tools. | Python · CLI + MCP (`jev-studio` 0.1.0 Alpha) |
 | [Jev Symfony Bundle](jev-symfony-bundle.md) | Wire TypeSafe Jev into Symfony via typed client, validator attributes, Messenger, Workflow guards, and profiler. | PHP · Symfony bundle (Apache-2.0) |
+| [jev-agent-tools](jkudish-jev-agent-tools.md) | Share a fail-closed multi-provider Jev transport used by jev-browser and jev-mcp. | JavaScript · library (MIT) |
 | [jev-broker](alekseiul-jev-broker.md) | Local HTTP MCP broker for Hermes agents: validate questions, call TypeSafe Jev via OpenRouter, return structured… | Go · HTTP MCP tool (MIT) |
 | [jev-cli (shaharia-lab)](shaharia-lab-jev-cli.md) | Rust `jev` CLI + MCP: typed TypeSafe Jev questions with shell exit codes and JSON (distinct from tumf). | Rust · crates.io CLI/MCP (Apache-2.0 OR MIT) |
 | [jev-cli (tumf)](tumf-jev-cli.md) | Ask TypeSafe Jev noul/choice/score from a PyPI CLI plus bundled stdio MCP (`jev` / `jev-mcp`). | Python · PyPI CLI/MCP (`jev-cli` 0.6.2) |
