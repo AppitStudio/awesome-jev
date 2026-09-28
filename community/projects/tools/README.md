@@ -114,6 +114,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [cmd-mod-jev-nudge](cmd-mod-jev-nudge.md) | Command Code stop-hook mod: TypeSafe Jev judges whether unfinished work warrants a continue nudge. | TypeScript · Command Code mod (`cmd-mod-jev-nudge` 0.1.0) |
 | [Codex Jev Preflight](codex-jev-preflight.md) | Fail-open Codex UserPromptSubmit hook: TypeSafe Jev advisory task_type/complexity/risk/execution_mode. | Python · stdlib hook + installer |
 | [Codex Jev Router (suenot)](codex-jev-router-suenot.md) | Choose Codex subagent model and reasoning effort with Jev Choice/Noul decisions and local confidence gates. | Node.js · CLI + installer |
+| [Codex-Jev](philippelhaus-codex-jev.md) | VS Code Codex plugin that shortens noisy tool results with Jev-gated evidence selection before Codex reads them. | Python · VS Code Codex plugin (MIT) |
 | [codex-jev-router](codex-jev-router.md) | Route OpenAI Codex CLI turns through TypeSafe Jev model/effort selection via a local Responses proxy (fail-open). | Node.js · CLI (`codex-jev` 0.1.0) |
 | [codex-triage](codex-triage.md) | Local Codex task triage dashboard with human-reviewed archiving and optional TypeSafe Jev analysis. | TypeScript · local app (MIT) |
 | [compact-adviser](compact-adviser.md) | Ask TypeSafe Jev whether a coding session is at a safe `/compact` boundary; hint or optional auto-compact on Pi/Claude Code. | Node.js ≥ 22 · npm plugins (`compact-adviser` 0.1.6) |
