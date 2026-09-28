@@ -195,6 +195,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-agent-failure-benchmark](jev-agent-failure-benchmark.md) | Score TypeSafe Jev on Who&When Pro text traces for responsible agent, step, and error type; compare to paper LLMs. | Python · CLI (`jevbench`, Apache-2.0) |
 | [jev-agent-kit](jev-agent-kit.md) | Zero-dependency CLI + MCP tools (check/choose/score/judge/route/triage/guard/grep/rank/compact) on TypeSafe Jev — distinct from the Rust jevkit CLI. | Node.js ≥ 18 · npm (`@walidboulanouar/jevkit` 0.2.0) |
 | [jev-agent-kit (nanoDBA)](nanodba-jev-agent-kit.md) | Evidence-layer hooks for Claude Code/Codex/Hermes: TypeSafe Jev scores risky tool calls (shadow by default; ≠ walidboulanouar/jev-agent-kit). | Python · agent hooks kit (MIT) |
+| [jev-agent-skill (RosarioDiBartolo)](rosariodibartolo-jev-agent-skill.md) | Connect Jev/Kev System One models to Codex and AI agents for tool routing, classification, and bounded decisions. | Python · agent skill (MIT) |
 | [jev-ai-use-cases (atliq)](atliq-jev-ai-use-cases.md) | LangChain notebook: TypeSafe Jev triage/routing/guards/tool-select/finance checks. | Jupyter · langchain-typesafe (MIT) |
 | [jev-align](jev-align.md) | Build calibrated classifiers/AI Functions from human feedback with TypeSafe Jev + GEPA (`jeva`). | Python · CLI (`jev-align` / `jeva`) |
 | [jev-auto-approve](basmaabouzied0-jev-auto-approve.md) | Claude Code hook: TypeSafe Jev auto-approves read-only shell commands in milliseconds; everything else still prompts… | Python · Claude Code hook (MIT) |
