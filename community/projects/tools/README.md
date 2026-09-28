@@ -539,6 +539,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-prompt-sentry](jev-prompt-sentry.md) | Reverse-proxy Anthropic Messages through one batched TypeSafe Jev jailbreak/injection/exfil screen (PolyForm Noncommercial). | Python · FastAPI proxy |
 | [jev-recipes](jev-recipes.md) | 66 TypeScript recipes for TypeSafe Jev decisions (rerank/verify/clarify/route/…) via `@typesafe-ai/sdk`. | TypeScript · npm (`jev-recipes` 0.2.0) |
 | [jev-sdk-java](jev-sdk-java.md) | Call System One from Java 21 with sealed Question/Answer records (TypeSafe-only; source-build until Central lists 0.1.0). | Java 21 · Maven (`com.luigivismara:jev-sdk-java`) |
+| [jev.zig](jakeknowlton-jev-zig.md) | Call TypeSafe System One from Zig with compile-time typed noul/choice/score questions. | Zig 0.16 · library via build.zig.zon (MIT) |
 | [jev2mcp](jev2mcp.md) | Local companion + Chrome extension: TypeSafe Jev selects ChatGPT MCP/plugin/tool mentions from your catalog. | Node.js · local server + extension (`jev2mcp` 0.2.1) |
 | [jev4j](jev4j.md) | Call TypeSafe/OpenRouter Jev from Java (noul/choice/score, multi-question, Spring starter). | Java · Maven (`jev4j-core` 0.1.0, MIT) |
 | [jev4k](jev4k.md) | Declare TypeSafe Jev Noul/Choice/Score questions in a Kotlin DSL and read typed answers. | Kotlin · Maven (`com.pambrose:jev4k` 0.1.0) |
