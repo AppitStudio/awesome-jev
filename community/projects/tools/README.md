@@ -197,6 +197,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-agent-kit (nanoDBA)](nanodba-jev-agent-kit.md) | Evidence-layer hooks for Claude Code/Codex/Hermes: TypeSafe Jev scores risky tool calls (shadow by default; ≠ walidboulanouar/jev-agent-kit). | Python · agent hooks kit (MIT) |
 | [jev-ai-use-cases (atliq)](atliq-jev-ai-use-cases.md) | LangChain notebook: TypeSafe Jev triage/routing/guards/tool-select/finance checks. | Jupyter · langchain-typesafe (MIT) |
 | [jev-align](jev-align.md) | Build calibrated classifiers/AI Functions from human feedback with TypeSafe Jev + GEPA (`jeva`). | Python · CLI (`jev-align` / `jeva`) |
+| [jev-auto-approve](basmaabouzied0-jev-auto-approve.md) | Claude Code hook: TypeSafe Jev auto-approves read-only shell commands in milliseconds; everything else still prompts… | Python · Claude Code hook (MIT) |
 | [jev-backend-qa](jev-backend-qa.md) | Audit backend surfaces then PAL/Jev risk adjudication to BLOCK/WARN/PASS (CLI + Action). | Python · CLI/Action + Node bridge (MIT) |
 | [jev-blindspot](jev-blindspot.md) | Claude Code / Codex side panel: Jev gate then optional blind-spot analysis without editing the session. | TypeScript · npm CLI/hooks (MIT) |
 | [jev-calibrate](jev-calibrate.md) | Calibrate Jev questions against labelled examples; per-question gate/ranker/unusable verdicts. | TypeScript · npm CLI (`jev-calibrate` 0.1.11) |
