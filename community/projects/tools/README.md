@@ -242,6 +242,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-judge-mcp (PyModel)](pymodel-jev-judge-mcp.md) | MCP typed judgment tools (verify/screen/find/classify/rerank/decide/…); policy owns auto/review/escalate. | Python · MCP (`jev-mcp-python`, MIT) |
 | [jev-layer](jev-layer.md) | Route harness capability choices with receipts/replay; host keeps execution (demo/OpenRouter/TypeSafe). | TypeScript · CLI, MCP and harness installers (`jev-layer` 0.1.0) |
 | [jev-lint](jev-lint.md) | Ast-grep selects subjects; TypeSafe Jev Noul scores one-sentence semantic rules (distinct from huntedman/JevLint). | TypeScript · npm CLI (`jev-lint` 0.4.1) |
+| [jev-lint (ckorhonen)](ckorhonen-jev-lint.md) | Fuzzy agent linter: hook checks agent edits against team rule packs in ~0.3s (jevlint.dev; distinct from mizchi/huntedman linters). | TypeScript/Bun · agent hooks + rule packs (MIT) |
 | [jev-linter-action](jev-linter-action.md) | Gate CI on yes/no TypeSafe Jev review questions over selected repo files (thresholds in `.jev-lint.json`). | Node.js · GitHub Action (`jev-linter-action` 1.0.0) |
 | [jev-loop (King4s)](king4s-jev-loop.md) | Build loop where TypeSafe Jev decides and Claude Code/Hermes executes (MCP + skill; ≠ lvzhaobo/jev-loop). | Python · MCP/skill (MIT) |
 | [jev-mcp (pyck-ai)](pyck-ai-jev-mcp.md) | Expose batched Jev Noul/Choice/Score framings as MCP tools for OpenCode and other MCP clients, reusing OpenRouter login when present. | Go · MCP server for OpenCode/MCP clients |
