@@ -251,6 +251,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-pi-token-reduction](jev-pi-token-reduction.md) | Trim Pi tool outputs with TypeSafe Jev visibility levels before the model sees them; expand on demand. | Python · Pi extension (MIT) |
 | [jev-pii-checker](jev-pii-checker.md) | Scan text/files for PII with TypeSafe Jev presence/sensitivity judgments plus regex and segmentation layers. | TypeScript/Bun · CLI (`@coo-quack/jev-pii-checker` 0.3.1) |
 | [jev-pilot (Akramovic1)](akramovic1-jev-pilot.md) | Claude Code plugin: TypeSafe Jev routes effort, subagent model, strategy advice, and one skill per prompt. | TypeScript · Claude Code plugin (`jev-pilot` 0.4.4, MIT) |
+| [jev-pilot (wangzhezbz)](wangzhezbz-jev-pilot.md) | Codex plugin: TypeSafe Jev for effort routing, context filtering, and workflow help (macOS/Windows/Linux; distinct from Akramovic1/jev-pilot). | JavaScript · Codex plugin + platform launchers (MIT) |
 | [jev-playwright (arthurfiorette)](arthurfiorette-jev-playwright.md) | Jev-powered Playwright test selection from changed files. | TypeScript · Playwright (MIT) |
 | [jev-pr-judge](jev-pr-judge.md) | Typed PR verdicts with one parallel TypeSafe Jev call, TypeScript policy, Next.js UI, and GitHub Action sticky comments. | TypeScript · Next.js app and Action |
 | [jev-pr-profiler](jev-pr-profiler.md) | GitHub Action: TypeSafe Jev PR risk profile + review-depth outputs (never merges alone). | TypeScript · GitHub Action (MIT) |
