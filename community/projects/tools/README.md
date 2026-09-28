@@ -276,6 +276,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-router](jev-router.md) | Route Claude Code and Codex turns through Jev model selection and inspect stored routing exchanges. | JavaScript · CLI launchers and HTTP proxies |
 | [jev-router (Ex8-ca)](ex8-ca-jev-router.md) | Hermes Jev skill router + session-start pre-route. | Python · plugin (MIT) |
 | [jev-router (FrancoisChastel)](francoischastel-jev-router.md) | Relay that picks fast/mid/frontier model+effort per turn via tool signals and TypeSafe Jev; fails open; honest cost logs. | TypeScript · npm (`@french-castle/jev-router`, MIT) |
+| [jev-router (jjjjjjjjjjjjjjjjacob)](jjjjjjjjjjjjjjjjacob-jev-router.md) | Let TypeSafe Jev pick Claude Code effort and subagent models on demand via /jev. | TypeScript · Claude Code plugin (MIT) |
 | [jev-rules](jev-rules.md) | Select project rules and codebase-map documents for Claude Code prompts and file changes. | JavaScript · Claude Code plugin |
 | [jev-sap-commerce](emenowicz-jev-sap-commerce.md) | SAP Commerce extension: TypeSafe Jev review moderation + category suggestions (dry runs, audits). | Java · Commerce extension (Apache-2.0) |
 | [jev-seatbelts](jev-seatbelts.md) | Seven Claude Code hooks catching expensive agent mistakes; TypeSafe Jev on judgment tiers. | Python · Claude hooks (MIT) |
