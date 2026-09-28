@@ -134,6 +134,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dsh-jev-decide](dsh-jev-decide.md) | Register DSH agent tool `jev_decide` for TypeSafe Jev noul/choice/score over text state (distinct from dsh-jev / verify / prune). | TypeScript · npm plugin (`dsh-jev-decide` 0.1.1) |
 | [dsh-jev-interceptor](dsh-jev-interceptor.md) | DeepSeek Harness: Jev risk classification on tool calls plus optional semantic session-reference retention. | TypeScript · DSH plugin (MIT) |
 | [dsh-jev-kit](dsh-jev-kit.md) | DeepSeek Harness plugin: ~23 named TypeSafe Jev advisory judgments (privacy scan, scope, memory/batch triage) without hooks. | TypeScript · DSH plugin (`@dsh-external/dsh-jev-kit` 0.13.0) |
+| [dsh-jev-plugin (jackie-cqz)](jackie-cqz-dsh-jev-plugin.md) | DeepSeek Harness plugin: TypeSafe Jev noul/choice/score tools, guardrails, and Web UI result cards (distinct from other dsh-jev*). | TypeScript · DSH plugin npm package (MIT) |
 | [dsh-jev-prune](dsh-jev-prune.md) | Replace DSH size-only pruning and model summaries with TypeSafe Jev keep/drop judgments plus deterministic receipts. | JavaScript · DSH plugin (`dsh-jev-prune` 0.1.0) |
 | [dsh-jev-verify](dsh-jev-verify.md) | Call TypeSafe Jev choice/score/noul from DSH and run a live labeled verification benchmark (honest, no mock mode). | JavaScript · DSH plugin (`dsh-jev-verify` 0.1.0) |
 | [Eutrya](eutrya.md) | Run a CLI agent loop where TypeSafe Jev picks attention modes and scores candidates; text model proposes; offline demo included (alpha). | Node.js · CLI (`eutrya` 0.4.9) |
