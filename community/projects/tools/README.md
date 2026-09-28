@@ -283,6 +283,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-sec-bench](jev-sec-bench.md) | Run or browse blind TypeSafe Jev prompt-injection and vulnerable-code benchmarks (jev-go + results TUI). | Go · CLI/TUI |
 | [jev-security-prioritization](jev-security-prioritization.md) | Jev vs severity baselines for SCA/SAST triage. | Python · research (MIT) |
 | [jev-security-sentinel](jev-security-sentinel.md) | Security CI gate over SAST/SCA/IaC/secrets/container findings via TypeSafe Jev; findings stay visible. | TypeScript · GitHub Action (MIT) |
+| [jev-seo-skills](jackson7705-jev-seo-skills.md) | Run five tested SEO workflows where TypeSafe Jev judges intent, internal links, cannibalization, briefs, and AI mentions. | Python · skills pack (MIT) |
 | [jev-shell-history](jev-shell-history.md) | Recall zsh history commands with optional acceptance of Jev-ranked inline suggestions; selected history is sent to TypeSafe. | TypeScript / zsh · shell plugin and CLI |
 | [jev-shield](jev-shield.md) | Semantic MCP firewall: screen tool calls/results/descriptions with TypeSafe Jev via Vercel AI Gateway. | Node.js · CLI, MCP wrap, opt-in hooks (`jev-shield` 0.1.0) |
 | [jev-skill (marcodicesare-dev)](marcodicesare-dev-jev-skill.md) | Community Jev skill for Claude Code/Codex: guide, Python CLI, five tested recipes, and measured findings from ~19k… | Python · skill + CLI (MIT) |
