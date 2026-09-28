@@ -303,6 +303,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-toolkit](jev-toolkit.md) | Serve TypeSafe Jev asks/verify/review over MCP plus CLI triage, audit, skill routing, and local impact metrics. | TypeScript · CLI/MCP (`jev`, Effect; Node ≥ 26) |
 | [jev-tree](jev-tree.md) | Recursive TypeSafe Jev Choice over a JSON taxonomy when a flat list exceeds the 255-option cap. | TypeScript · npm (`jev-tree` 0.1.0) |
 | [jev-triage](jev-triage.md) | GitHub Action: label issues with TypeSafe/Cloudflare Jev typed answers; low confidence escalates to needs-human. | TypeScript · Action (`cmaintz/jev-triage@v0`, MIT) |
+| [jev-triage (ZephyrDeng)](zephyrdeng-jev-triage.md) | Triage GitHub/GitLab backlogs with TypeSafe Jev into an HTML report (duplicates, types, dependency order). | TypeScript · gh/glab CLI (MIT) |
 | [jev-use (shitianfang)](jev-use.md) | Route the no-text steps of a Claude Code, Codex or pi loop to Jev, with an opt-in PreToolUse gate and typed handbacks to the LLM. | TypeScript · MCP server, CLI and agent plugin |
 | [jev-verify (stillmarcus24)](stillmarcus-jev-verify.md) | Audit published Jev answers against the Yurin confidence identity; flag fixture violations. | JavaScript · CLI (MIT) |
 | [jev-web-skills](jackson7705-jev-web-skills.md) | Run five tested website-building workflows where TypeSafe Jev judges page maps, migration, silo/doorway QA, and routing. | Python · skills pack (MIT) |
