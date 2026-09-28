@@ -213,6 +213,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-cmdline-classifier](jev-cmdline-classifier.md) | Classify shell commands with TypeSafe Jev Choice (`allow`/`prompt`/`forbidden`) plus fail-closed local rules for agent skills. | Python/JS skill + CLI (`jev-command-classifier` 0.1.0) |
 | [jev-codex-router](jev-codex-router.md) | Route each Codex turn's model and thinking depth with Jev via a Codex Router generic provider. | Python · local server and Codex Router integration |
 | [jev-codex-token-saver](jev-codex-token-saver.md) | Gather local workspace/log evidence and let TypeSafe Jev select exact excerpts for Codex (MCP plugin; local fallback). | Node.js · Codex plugin + MCP (`jev-codex-token-saver` 0.3.2) |
+| [jev-community-ops](firasb9-jev-community-ops.md) | Triage developer-community messages with TypeSafe Jev typed questions, confidence gates, and a weekly digest. | Python · ops toolkit (MIT) |
 | [jev-compact](jev-compact.md) | Score Codex tool calls with TypeSafe Jev before compaction and re-inject critical outputs the summary dropped. | TypeScript · Codex plugin (`jev-compact` 0.1.0) |
 | [jev-compaction (Waxmell114514)](waxmell114514-jev-compaction.md) | Score-only context compaction so memory cannot hold facts absent from the transcript (offline demo). | Python · library/demo (MIT) |
 | [jev-controller](ac-kurniawan-jev-controller.md) | After each tool result, ask Jev which next step to append as a one-line directive; fail-open if the key/timeout fails. | TypeScript · OMP (`oh-my-pi`) post-tool hook |
