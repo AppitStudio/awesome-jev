@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "jev-agent-loops",
+  "slug": "jev-agent-loops",
+  "title": "Use Jev in AI agent loops: routing, checks and fallbacks",
+  "description": "Place Jev at bounded agent decisions, batch independent checks, keep actions and permissions in code, and test full-task speed instead of trusting headline multiples.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-28",
+  "modified_at": "2026-09-28",
+  "topics": ["agent-harnesses", "model-routing", "decision-gates", "cost-optimization"],
+  "source": {
+    "title": "Jev Engineering: How to Make AI Agent Loops 200x Faster in 10 Steps",
+    "url": "https://x.com/0xMorlex/article/2101268094387704311",
+    "author": {
+      "name": "Morlex",
+      "url": "https://x.com/0xMorlex"
+    },
+    "published_at": "2026-09-19",
+    "accessed_at": "2026-09-28"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-ultrafast.md",
+      "origin": "source-mentioned",
+      "purpose": "teaching-example",
+      "step": "Rebuild the available browser actions after each observation and verify the completed task independently",
+      "why": "Morlex embeds Gregor Zunic's Browser Use post, whose thread links the Jev Ultrafast repository; its loop makes Jev select from observed operations and targets while code executes and checks the result.",
+      "evidence": [
+        "https://x.com/gregpr07/status/2100411066966749359",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/README.md",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py"
+      ],
+      "limitations": "MIT experimental Python browser agent; not a general agent harness or safety gate. Live runs require TypeSafe, a separate text-model key and Chrome through Browser Harness. Page content is sent to providers and usage can be billed. Its flight demo is author-reported and not reproduced here."
+    }
+  ],
+  "verification": {
+    "source": "Read Morlex's complete ten-step X article and its embedded posts in the user's logged-in Chrome on 2026-09-28. Followed the recruiting, Browser Use and SEO posts; the Browser Use thread links its repository. Read the article's TypeSafe and LangChain links. Exact-title and author searches found no verified author republication. No edit indicator was visible.",
+    "offline": "Re-read the pinned Jev Ultrafast README, model adapter and MIT license and compared the guide with the current TypeSafe primitives, confidence, fan-out and model docs plus LangChain's package README. Did not rerun the project's tests or build a new agent. Public validation and local site checks are reported separately at release.",
+    "live": "No live TypeSafe call, Browser Use run, recruiting or SEO workflow, latency comparison, cost measurement or accuracy evaluation was performed. All builder figures are attributed claims.",
+    "review": "AI-assisted editorial and technical review with no human reviewer recorded. Ahrefs and Search Console keyword tools were not connected, so title and FAQs were chosen from reader intent and current search results; no search volume or difficulty is claimed."
+  },
+  "faqs": [
+    {
+      "question": "Where should Jev sit in an AI agent loop?",
+      "answer": "Put Jev at a repeated judgment with a known answer space, such as choosing an eligible route or checking a stated condition after a tool result. Keep planning and prose with an LLM, and keep permissions, actions, stop rules and outcome checks in code or human review."
+    },
+    {
+      "question": "Does Jev make an entire agent loop 200x faster?",
+      "answer": "No such end-to-end result is established by Morlex's article. The headline draws on TypeSafe decision-workload evaluations and individual demos. Measure your full task, including LLM calls, tools, retries and review, before claiming a gain."
+    },
+    {
+      "question": "Can Jev decide whether a tool call is safe?",
+      "answer": "It can supply a bounded risk judgment, but that judgment is not authorization. Code must still enforce permissions and hard rules, and a person must approve actions your policy reserves for human review."
+    },
+    {
+      "question": "What happens when Jev is uncertain or unavailable?",
+      "answer": "Do not silently execute the proposed action. Send uncertain cases to the defined fallback or a person, and make a provider error visible so the loop can stop or use a reviewed safe path."
+    },
+    {
+      "question": "Is Jev Ultrafast required to use this pattern?",
+      "answer": "No. Jev Ultrafast is a source-mentioned browser example, not a dependency of every Jev agent. Use it to study how a fresh action list, typed choice and independent outcome check fit together."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-agent-loops.png",
+    "alt": "Diagram of an agent loop: an LLM plans, code builds allowed choices, Jev judges the current state, code validates and executes one action, then an independent check decides whether to continue or escalate",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
