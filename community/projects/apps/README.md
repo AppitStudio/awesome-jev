@@ -200,6 +200,16 @@ Explainable card-fraud triage demo/library: per-factor TypeSafe Jev judgments wi
 
 [Full Jev Fraud Shield guide](jonny5isalive5-jev-fraud-shield.md) · [Source](https://github.com/jonny5isalive5/jev-fraud-shield)
 
+### Jev FSD
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser driving simulator on real OpenStreetMap streets where TypeSafe Jev makes every maneuver choice, with a decision inspector and benchmark.
+
+**Access:** run the [MIT source](https://github.com/BrendanH18/jev_fsd) with `uv` + a WebGL desktop browser. Rules driver works offline; Jev autopilot needs `TYPESAFE_API_KEY`. Research/demo only — not a real vehicle controller.
+
+[Full Jev FSD guide](jev-fsd.md) · [Source](https://github.com/BrendanH18/jev_fsd)
+
 ### Jev Grand Prix
 
 `Open source` · `Free source build` · `BYOK`
