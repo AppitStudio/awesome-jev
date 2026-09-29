@@ -519,6 +519,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [SemIf](semif.md) | Explore typed option scoring and shared-state reuse with local open models; independent of official Jev. | Python / PyTorch / MLX · research and browser lab |
 | [sokudan](hiroki-abe-58-sokudan.md) | Run a Japanese System One decision model (typed answers + probabilities, no generation) with bench_ja/bench_en and a Laya position-bias repro. | Python · HF weights (`GeneLab/sokudan-ja-310m`, Apache-2.0) |
 | [Sureband](sureband.md) | Conformal coverage wrappers for System One outputs (Jev/Laya/…) from labeled calibration sets. | Python · library (`sureband`, Apache-2.0) |
+| [TetraJev](tetrajev.md) | Run a zero-training local decision layer: four readings from two frozen readers, fit-free fusion, agreement routing, and published coverage–accuracy across eight decision suites plus a RAG reranking pass. | Python · runners + llama.cpp GGUF readers (MIT) |
 | [TinyJev](tinyjev.md) | Run an offline ~0.6B System One–compatible Choice/Noul/Score model (MLX/PyTorch); independent of hosted Jev. | Python · package + HF weights (MIT) |
 | [typed-lm](typed-lm.md) | Serve Jev-style Choice/Noul/Score from dense LLMs in Rust (single forward pass; independent of hosted Jev). | Rust · Candle serve + training (Apache-2.0) |
 | [Valen](valen.md) | Train/serve a multimodal System One–style decision model (text/image/video → probabilities); independent of hosted Jev. | Python · training/inference + HF weights (Apache-2.0) |
