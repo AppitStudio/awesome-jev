@@ -493,6 +493,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Decis](chaitin-decis.md) | Self-host a Jev-compatible `/v1/systemone` API with open Laya/kev engines in Docker (independent of hosted Jev). | Python · Docker inference server (Apache-2.0) |
 | [Decision Index (apolinario)](apolinario-decision-index.md) | Reproduce the Decision Index typed-decision benchmark suite locally or as one Hugging Face Job (not affiliated with TypeSafe). | Python · Decision Index kit + HF Jobs (MIT) |
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
+| [Jeeves (PostHog)](posthog-jeeves.md) | Run a 9B Jev-like reasoning decision model (noul/choice/score) via a Jev-compatible API; independent of hosted TypeSafe Jev. | Python · open weights + serving (MIT) |
 | [jev-browsecomp](jev-browsecomp.md) | Measure Jev document screening vs RLM/LLM arms on BrowseComp-Plus with id→span citation checks. | Python · research harness (Apache-2.0) |
 | [jev-fanout-bench](jev-fanout-bench.md) | Measure Jev multi-question fan-out billing linearity and savings vs separate calls. | Python · benchmark + raw results (MIT) |
 | [jev-frontier-bench](jev-frontier-bench.md) | Reproduce Jev vs frontier LLM typed-decision accuracy/calibration/cost on shared 200-item set. | Python · benchmark suite (MIT) |
