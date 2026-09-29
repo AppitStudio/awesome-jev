@@ -100,6 +100,16 @@ Local multi-marketplace rental search (Craigslist, Facebook Marketplace, Redfin,
 
 [Full Hearth guide](hearth.md) · [Source](https://github.com/Nancy-Chauhan/hearth-jev-rental-search)
 
+### Heihua Translator
+
+`Open source` · `Free source build` · `BYOK`
+
+Workplace jargon (职场黑话) reader: guess first, then reveal TypeSafe Jev’s typed reading with confidence bands—including “I don’t understand.”
+
+**Access:** run the [MIT Python stdlib server](https://github.com/casperkwok/heihua-translator) locally (`python3 server.py`) with a TypeSafe key in `.env`. No app purchase fee; TypeSafe usage separate.
+
+[Full Heihua Translator guide](heihua-translator.md) · [Source](https://github.com/casperkwok/heihua-translator)
+
 ### Hx
 
 `Open source` · `Free source build` · `BYOK`
@@ -1175,6 +1185,16 @@ Moderate Discord messages with Jev classifications, configurable escalation and 
 **Access:** [self-host the Python bot](https://github.com/brainstormity/Jev-Moderation-Bot#setup) with Discord bot permissions and a TypeSafe key. Starting it enables automatic message deletion and escalating timeouts; no review-only mode was established. Inference/hosting costs apply. README declares MIT but a complete license was not found. Source reviewed; live moderation and accuracy untested.
 
 [Full Jev Moderation Bot guide](jev-moderation-bot.md) · [Source](https://github.com/brainstormity/Jev-Moderation-Bot)
+
+### Jev-Mod (undeemed)
+
+`Open source` · `Free source build` · `BYOK`
+
+Discord moderation bot powered by TypeSafe Jev rules: hosted dashboard or self-host on Cloudflare/Docker with your own API key.
+
+**Access:** use the [hosted dashboard](https://app.jevmod.us) (Discord sign-in + your TypeSafe key) or self-host the [MIT source](https://github.com/undeemed/jev-mod) via Docker/Cloudflare. No bot-token setup needed for the hosted path. TypeSafe usage separate. Distinct from brainstormity/Jev-Moderation-Bot and Soter.
+
+[Full Jev-Mod (undeemed) guide](undeemed-jev-mod.md) · [Source](https://github.com/undeemed/jev-mod) · [Product page](https://jevmod.us)
 
 ### Soter
 
