@@ -559,6 +559,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [ask-jev (Aether-254)](aether-254-ask-jev.md) | MCP + Codex/Claude plugin for TypeSafe Jev evaluate/batch/ping (Choice/Score/Noul). | TypeScript · MCP/plugin (MIT) |
 | [datafusion-jev](datafusion-jev.md) | DataFusion SQL `prompt_jev` UDF for typed TypeSafe Jev answers over row text (bring HTTP client). | Rust · DataFusion 55 crate (MIT OR Apache-2.0) |
 | [decide (vsekhar)](vsekhar-decide.md) | Ask TypeSafe Jev yes/no, choice, and scored decisions from the command line, scripts, and agent skills. | Go · brew CLI (Apache-2.0) |
+| [DecisionKit](decisionkit.md) | Model Jev decisions in .NET domain terms and keep the Jev protocol in a separate provider package (Choice/Score/Noul). | C# · NuGet packages (DecisionKit.* 0.1.0, MIT) |
 | [ex_typesafe_ai](iamtalha-arshad-ex-typesafe-ai.md) | Call TypeSafe AI Jev from Elixir with typed structs and noul/choice/score helpers (unofficial). | Elixir · library (MIT) |
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
 | [go-jev](go-jev.md) | Call TypeSafe Jev from Go (Ask/Evaluate) and UNIX pipelines via jev-cli; explicit API key option. | Go · module + CLI (`github.com/mattn/go-jev`, MIT) |
