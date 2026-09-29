@@ -614,6 +614,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Mechanical Jev](mechanical-jev.md) | Ask System One Noul/Choice/Score from Rust (`mjev`) against local Intel Phi Jev or compatible endpoints. | Rust · library/CLI (Apache-2.0) |
 | [Micdrop](micdrop.md) | Build real-time TypeScript voice agents; optional `@micdrop/typesafe` classifies each user turn with TypeSafe Jev (choice/score/noul) before the LLM answers. | TypeScript · voice SDK + `@micdrop/typesafe` 1.0.1 (MIT) |
 | [Moreno.Jev](morenoland-moreno-jev.md) | Cross-platform MCP server and agent skill for TypeSafe Jev structured code review and debugging (review_code /… | Python · MCP server + skill (MIT) |
+| [n8n-nodes-jev](n8n-nodes-jev.md) | Classify, route, and score n8n workflow items with TypeSafe Jev questions. | TypeScript · n8n community node `n8n-nodes-jev` (MIT) |
 | [n8n-nodes-typesafe](n8n-nodes-typesafe.md) | Ask TypeSafe Jev noul/choice/score questions about workflow text or JSON inside n8n. | TypeScript · n8n community node |
 | [n8n-nodes-typesafe-ai](n8n-nodes-typesafe-ai.md) | Official TypeSafe n8n nodes: Evaluate answers or Route items with System One (Jev) noul/choice/score questions. | TypeScript · n8n community node `@typesafe-ai/n8n-nodes-typesafe-ai` (MIT) |
 | [naturalcodz](naturalcodz.md) | Natural-logic npm helpers (classify/guard/route/score) on TypeSafe Jev with confidence thresholds. | TypeScript · npm (`naturalcodz`, MIT) |
