@@ -626,6 +626,16 @@ OpenHarness desktop sheet pane: TypeSafe Jev answers typed `noul` / `choice` / `
 
 ## macOS apps
 
+### Capture (sgaabdu4)
+
+`Open source` · `Free source build` · `BYOK`
+
+Private Mac voice diary: local Parakeet transcription, TypeSafe Jev sorting into typed buckets, then Notion after you approve.
+
+**Access:** build the [MIT source](https://github.com/sgaabdu4/capture) on macOS. Needs TypeSafe key for sorting and Notion OAuth. Audio stays on-device for transcription. No app purchase fee; provider usage separate.
+
+[Full Capture guide](capture.md) · [Source](https://github.com/sgaabdu4/capture)
+
 ### Jaste
 
 `Source unverified` · `Pricing unverified` · `BYOK`
