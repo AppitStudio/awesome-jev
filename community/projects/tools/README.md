@@ -24,6 +24,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-desktop](agent-desktop.md) | Drive macOS apps via accessibility refs; optional jev-desktop skill/scripts ask TypeSafe Jev for target/command without putting the a11y tree in agent context (CLI works without Jev). | Rust · CLI/npm (`agent-desktop` 0.9.2) + Node jev scripts |
 | [ajevt-browser](ajevt-browser.md) | Bounded System One browser loop for Pi/OpenCode/Amp/MCP via agent-browser (observe→Jev→act). | TypeScript · npm (`ajevt-browser` / `ajevt-browser-mcp`, AGPL-3.0) |
 | [android-jev (FZ2000)](fz2000-android-jev.md) | Drive an Android phone over adb via MCP; TypeSafe Jev chooses each next action (distinct from jev-android/jevdevice). | Python · MCP server + skill (MIT) |
+| [CloakBrowser-Agent](cloakbrowser-agent.md) | Stealth browser agent: TypeSafe Jev decides each step; CloakBrowser executes (MCP/CLI/Python). | Python · MCP/CLI/library (MIT) |
 | [Cua jev-use](cua-jev-use.md) | Compose a bounded chooser with Driver and independent fixture verification. | Python / TypeScript · integration recipe |
 | [CUA-JEV (ZJU-REAL)](cua-jev-zju.md) | Constrained computer-use loop: Jev selects typed action×channel candidates with guards and verifiers. | Python · framework (Apache-2.0) |
 | [DepthJev](depthjev.md) | Embodied navigation with depth/text facts; TypeSafe Jev chooses EB-Navigation actions. | Python · EmbodiedBench agent (Apache-2.0) |
