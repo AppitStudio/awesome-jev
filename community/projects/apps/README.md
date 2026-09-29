@@ -572,6 +572,16 @@ Local real-time Telegram coach: TypeSafe Jev judges partner messages and your dr
 
 [Full tg-crush guide](tg-crush.md) · [Source](https://github.com/BrickerP/tg-crush)
 
+### ToS Watch
+
+`Open source` · `Free source build` · `BYOK`
+
+Email alerts when a company's data practices change: Open Terms Archive history, TypeSafe Jev classification, static site, and Cloudflare Worker.
+
+**Access:** public site [tos.watch](https://tos.watch); self-host the [Apache-2.0 source](https://github.com/watthem/tos-watch). Classification needs a TypeSafe key; Worker path needs Cloudflare credentials. No app purchase fee for the source; provider usage separate.
+
+[Full ToS Watch guide](tos-watch.md) · [Source](https://github.com/watthem/tos-watch) · [Product homepage](https://tos.watch)
+
 ### Transcript Lens
 
 `Open source` · `Free source build` · `BYOK`
