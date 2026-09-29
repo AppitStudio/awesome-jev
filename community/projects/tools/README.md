@@ -286,6 +286,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-pref](jev-pref.md) | Turn AGENTS.md preferences into a TypeSafe Jev semantic linter for coding-agent diffs (setup/review/tune + Action). | TypeScript · npm (`jev-pref` 0.4.1) |
 | [jev-preflight](jev-preflight.md) | Score eight risk axes on a Claude Code turn diff with one TypeSafe Jev request; optional assist reinspection. | Go · Claude Code plugin (v0.1.0) |
 | [jev-project-context](jev-project-context.md) | Keep evidence-first experiment memory for coding agents; optional TypeSafe Jev triage on doctor/context loads. | Agent skill + stdlib Python scripts |
+| [jev-proxy](jev-proxy.md) | Sit in front of TypeSafe /v1/systemone to record, cache, and replay Jev calls locally. | Rust · SQLite + HTMX UI (MIT) |
 | [jev-pruner](jev-pruner.md) | Prune eligible Bash stdout with Jev before Claude Code or an opt-in Codex wrapper returns it to the model. | TypeScript · library, Claude Code plugin and Codex wrapper |
 | [jev-reflex (xnuonux)](jev-reflex-xnuonux.md) | Portable Jev decision sidecar: MCP/CLI/pi recipes with durable budgets and source-bound context plans. | Python · MCP/CLI (`jev-reflex`, MIT) |
 | [jev-req-gate](jev-req-gate.md) | Gate AI-written requirements with TypeSafe Jev (PASS/REVIEW/BLOCK); CLI, skill, CI Action, offline demo. | Python · CLI/API/skill + GH Action (MIT) |
