@@ -1176,6 +1176,16 @@ Moderate Discord messages with Jev classifications, configurable escalation and 
 
 [Full Jev Moderation Bot guide](jev-moderation-bot.md) · [Source](https://github.com/brainstormity/Jev-Moderation-Bot)
 
+### Jev-Mod (undeemed)
+
+`Open source` · `Free source build` · `BYOK`
+
+Discord moderation bot powered by TypeSafe Jev rules: hosted dashboard or self-host on Cloudflare/Docker with your own API key.
+
+**Access:** use the [hosted dashboard](https://app.jevmod.us) (Discord sign-in + your TypeSafe key) or self-host the [MIT source](https://github.com/undeemed/jev-mod) via Docker/Cloudflare. No bot-token setup needed for the hosted path. TypeSafe usage separate. Distinct from brainstormity/Jev-Moderation-Bot and Soter.
+
+[Full Jev-Mod (undeemed) guide](undeemed-jev-mod.md) · [Source](https://github.com/undeemed/jev-mod) · [Product page](https://jevmod.us)
+
 ### Soter
 
 `Open source` · `Free source build` · `BYOK`
