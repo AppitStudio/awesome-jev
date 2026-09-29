@@ -654,6 +654,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [FastGate](fastgate-jev.md) | Gate a multilingual EN/UZ/RU RAG helpdesk with TypeSafe Jev decisions before the LLM writes; includes an independent benchmark. | Python · RAG helpdesk + benchmark (MIT) |
 | [graphify-jev](54lynnn-graphify-jev.md) | Build a local AST knowledge graph and use Jev System One judgments for semantic navigation/refactor guidance without a vector store. | Python 3.10+ · Tree-sitter + Jev |
 | [jegrep](jegrep.md) | Find code by natural-language intent using TypeSafe Jev (or OpenRouter→Jev) without embeddings. | Rust · CLI (`jegrep`) and release binaries |
+| [Jev Deep Research](jevdeepresearch.md) | Parallel evidence finding: GPT drives research steps; TypeSafe Jev judges document regions concurrently and returns excerpts. | TypeScript/Python research harness (Apache-2.0) |
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [jev-corrective-rag](jev-corrective-rag.md) | Corrective RAG with TypeSafe Jev typed gates for triage, chunk grading, and answer verification (LLM only generates). | Python · Streamlit app, CLI and bench |
 | [jev-rag](jev-rag.md) | Index local files with SQLite BM25, rerank evidence with TypeSafe Jev, optionally stream grounded answers. | Python · local RAG CLI/UI (MIT) |
@@ -662,7 +663,6 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-reranker](jev-reranker.md) | Rerank, filter, or compress JSON search candidates with TypeSafe Jev via a stdin/stdout Rust CLI. | Rust · npm CLI (`jev-reranker` 0.1.1) |
 | [jev-reranker (hotchpotch)](hotchpotch-jev-reranker.md) | Score/filter RAG candidates with TypeSafe Jev in Python (listwise/pointwise/pairwise; PyPI). Distinct from the Rust CLI. | Python · library (`jev-reranker` 0.1.2) |
 | [jev-search (AnthonyDavidAdams)](anthonydavidadams-jev-search.md) | Decision-only agentic search: fetch/parse locally; score/rank candidates with Jev or local Laya. | Python · library/CLI + skill (MIT) |
-| [sys1grep (jev-semgrep)](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). Renamed from jev-semgrep / `@uehaj/semgrep`. | Node.js · CLI (`@uehaj/sys1grep`) |
 | [jev-tool-search](jev-tool-search.md) | Compare BM25, embeddings, rerankers, and TypeSafe Jev for picking among hundreds of MCP tools; includes an experimental Jev search engine. | Python · benchmark + experimental search (MIT) |
 | [jevfilter](damiensmith1-jevfilter.md) | Filter/classify text with plain-English rules via TypeSafe Jev (`choose`/`check`/`rate`); PyPI. | Python · PyPI (`jevfilter`, MIT) |
 | [jevgrep (dzhng)](dzhng-jevgrep.md) | Ask a repository question; Jev judges folder/file/declaration relevance and returns files plus verbatim excerpts for coding agents (`jg`). Distinct from kyu1204/jgrep. | TypeScript · npm CLI (`@dzhng/jevgrep`, Node 22+) |
@@ -686,6 +686,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [pg_typesafe](pg-typesafe.md) | Call Choice/Noul/Score from SQL via a C+libcurl extension with batched multi-text helpers (pre-alpha; distinct from pg-jev). | PostgreSQL · C extension |
 | [sgrep](sgrep.md) | Semantic grep: chunk a repo and ask TypeSafe Jev which chunks match a plain-English query (mock offline). | Python · CLI (`sgrep`) |
 | [sieve](sieve.md) | Local MCP: enumerate repo/search candidates and score with TypeSafe Jev (`jev_grep` / `jev_rank` / `jev_search`). | Python · MCP server (`sieve` 0.1.0, uv) |
+| [sys1grep (jev-semgrep)](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). Renamed from jev-semgrep / `@uehaj/semgrep`. | Node.js · CLI (`@uehaj/sys1grep`) |
 | [Truffler](truffler.md) | Rails intent search with TypeSafe Jev index-time labels, query understanding, and optional streamed reranking. | Ruby · Rails gem (MIT) |
 | [webctl](webctl.md) | Agent web-search CLI: multi-provider results scored/judged (and optionally chunk-scored) with TypeSafe Jev. | Go · CLI (`webctl`) |
 
