@@ -103,6 +103,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [BoundedCode](boundedcode.md) | Local OpenCode coding on 8 GB GPUs with a required TypeSafe Jev decision plane and Go verification gates. | Go · OpenCode supervisor (Apache-2.0) |
 | [BrighTO Router](brighto-router.md) | Self-host a Rust LLM gateway with OpenAI/Anthropic-compatible routes plus System One/Jev/DJEV/Laya decision routing, load balancing, and budgets. | Rust · Docker gateway (`thusinh1969/brighto_airouter`, Apache-2.0) |
 | [Cairn Jev Lab](cairn-jev-lab.md) | Test memory-admission policies with TypeSafe Jev judgments and inspectable save/skip/defer recommendations. | Node.js ≥ 22 · lab/CLI/playground (`cairn-jev-lab` 0.1.0) |
+| [Candidate Experience Feedback Benchmark](candidate-experience-benchmark.md) | Compare TypeSafe Jev vs LLMs on 60 synthetic candidate-experience reviews (four typed tasks). | HTML · evidence packs + explorer (MIT) |
 | [Canny](canny.md) | Stop Claude Code/Codex “done” claims without ledger evidence; TypeSafe Jev advises, only facts block. | TypeScript · CLI (`canny-warden` 0.1.0), zero runtime deps |
 | [catherd](47vigen-catherd.md) | Autopilot coding-agent herds where TypeSafe Jev picks which model writes while Claude plans/verifies. | TypeScript · orchestrator (MIT) |
 | [chinese-workflow-decision-bench](chinese-workflow-decision-bench.md) | Benchmark Feishu-style Chinese message triage with frozen Choice/four-Noul tracks and published Jev vs Laya results. | Python · bench harness + adapters |
