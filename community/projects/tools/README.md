@@ -461,6 +461,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Typed Evals](typed-evals.md) | Evaluate RAG/agent outputs and guard tools with TypeSafe Jev judges and optional calibration. | Python · library/CLI (`typed_evals`) |
 | [typesafe-agent-gates](typesafe-agent-gates.md) | Gate unattended LangChain/Deep Agents shell commands and triage with TypeSafe Jev middleware. | Python · LangChain middleware |
 | [unsafe-c-finder](unsafe-c-finder.md) | Classify C/C++ snippets and staged hunks with TypeSafe Jev via OpenRouter (unsafe probability, then CWE when over threshold). | Python · CLI (`unsafe-c-finder`, MPL-2.0) |
+| [use-jev](use-jev.md) | Skill that lets Claude Code/Codex ask TypeSafe Jev typed questions and keep writing in the agent. | Agent skill · OpenRouter typesafe/jev-1.13 (MIT) |
 | [VexJoy Agent](vexjoy-agent.md) | Route plain-English requests to specialist agents/skills; optional `/d` uses TypeSafe Jev classification and intent gates. | Python · agent toolkit (Claude Code / Codex hooks) |
 | [voicevox-jev-proxy](voicevox-jev-proxy.md) | Fix VOICEVOX readings (and optional intonation) with TypeSafe Jev via CLI or a VOICEVOX-compatible proxy. | Python · CLI + VOICEVOX-compatible proxy (MIT) |
 | [wellposed](wellposed.md) | Lint TypeSafe Jev requests for broken paths, missing Choice escape hatches, and other structural smells before calling the API. | TypeScript · npm CLI (`wellposed` 0.4.0, zero deps) |
