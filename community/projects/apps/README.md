@@ -272,6 +272,16 @@ Composable song lab: code enumerates legal musical options; TypeSafe Jev picks m
 
 [Try Jev Songwriter](https://jev-songwriter.chardonn.ai) · [Full Jev Songwriter guide](jev-songwriter.md) · [Source](https://github.com/beingcognitive/jev-songwriter)
 
+### Jev Town
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser AI-town simulation where TypeSafe Jev makes each agent's structured next-action choices and an LLM handles dialogue and memory.
+
+**Access:** build the [MIT source](https://github.com/NevaMind-AI/JevTown) (Node.js 22 LTS). Needs LLM + `JEV_API_KEY` for the Jev-driven demo; proxy caps runs at 2000 model calls. The playable Jev demo currently lives on `feat/jev-demo-solarium` until merge to main. No app purchase fee; provider usage separate.
+
+[Full Jev Town guide](jevtown.md) · [Source](https://github.com/NevaMind-AI/JevTown)
+
 ### Jev Trip
 
 `Open source` · `Free source build` · `BYOK`
