@@ -298,6 +298,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-skill-router-bench](jev-skill-router-bench.md) | Independent reproducible scorecard of a Jev skill router on an 84-skill Hermes roster (81 labelled turns). | Python · bench artifacts + scripts |
 | [jev-skill-scout](jev-skill-scout.md) | Audit Claude Code skill misses with TypeSafe Jev; optional live mod suggests a skill without changing the roster. | Node.js ≥ 20 · npm CLI/mod (`jev-skill-scout` 0.1.0) |
 | [jev-skills](jev-skills.md) | Claude Code/Codex plugin: TypeSafe Jev picks which skills enter context each turn (0 always-on skill-list tokens). | TypeScript · Claude Code/Codex plugin (MIT) |
+| [jev-subtitle-translator](jev-subtitle-translator.md) | Translate SRT with structured LLM batches and TypeSafe Jev QC on every source–translation pair. | Python · web UI/CLI (GPL-3.0) |
 | [jev-suite](jev-suite.md) | Four Java decision-quality apps on one Jev kernel: structured questions; code keeps thresholds/vetoes. | Java · Maven suite (`jev-suite` 0.1.0, MIT) |
 | [jev-support-agents](jev-support-agents.md) | FastAPI support orchestrator: LLM specialists write text; TypeSafe Jev routes and evaluates with retry/escalation. | Python · FastAPI + Ollama reference (MIT) |
 | [jev-swap](jev-swap.md) | Find LLM→Jev decision swaps; shadow-test on traffic. | Node · CLI (MIT) |
