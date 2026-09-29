@@ -100,6 +100,16 @@ Local multi-marketplace rental search (Craigslist, Facebook Marketplace, Redfin,
 
 [Full Hearth guide](hearth.md) · [Source](https://github.com/Nancy-Chauhan/hearth-jev-rental-search)
 
+### Heihua Translator
+
+`Open source` · `Free source build` · `BYOK`
+
+Workplace jargon (职场黑话) reader: guess first, then reveal TypeSafe Jev’s typed reading with confidence bands—including “I don’t understand.”
+
+**Access:** run the [MIT Python stdlib server](https://github.com/casperkwok/heihua-translator) locally (`python3 server.py`) with a TypeSafe key in `.env`. No app purchase fee; TypeSafe usage separate.
+
+[Full Heihua Translator guide](heihua-translator.md) · [Source](https://github.com/casperkwok/heihua-translator)
+
 ### Hx
 
 `Open source` · `Free source build` · `BYOK`
