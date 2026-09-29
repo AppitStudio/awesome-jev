@@ -362,6 +362,16 @@ Local companion that replies only with facial expressions: TypeSafe Jev picks on
 
 [Full Jevatar guide](jevatar.md) · [Source](https://github.com/AppChainAI/Jevatar)
 
+### jevbar
+
+`Open source` · `Free source build` · `BYOK`
+
+Plain-language query box that uses TypeSafe Jev to compose screens (forms, confirmations, rankings, dashboards) from declared parts.
+
+**Access:** use the [MIT TypeScript source](https://github.com/marshallsfolly/jevbar). Without a TypeSafe key, exact wording still applies; live intent/screen choice needs a key. No app purchase fee; provider usage separate.
+
+[Full jevbar guide](jevbar.md) · [Source](https://github.com/marshallsfolly/jevbar)
+
 ### JevEye
 
 `Open source` · `Free source build` · `BYOK`
