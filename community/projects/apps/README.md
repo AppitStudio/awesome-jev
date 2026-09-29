@@ -1094,6 +1094,16 @@ Privacy-first daily info radar (Go): ranks GitHub Trending / Hacker News / inbox
 
 [Full Jev Personal Radar guide](jev-personal-radar.md) · [Source](https://github.com/zhazhahuiyuxiaoxiao/jev-personal-radar)
 
+### Jev Quiz Pilot
+
+`Open source` · `Free source build` · `BYOK`
+
+Python CLI that lets TypeSafe Jev navigate web quizzes in Chrome and logs every pick for measurement.
+
+**Access:** clone the [MIT source](https://github.com/juanfabrega/jev-quiz-pilot) with TypeSafe credentials and Chrome. No app purchase fee; provider usage separate. Source inspected; live quiz runs not executed on the review host.
+
+[Full Jev Quiz Pilot guide](juanfabrega-jev-quiz-pilot.md) · [Source](https://github.com/juanfabrega/jev-quiz-pilot)
+
 ### Jevmeter
 
 `Open source` · `Free source build` · `BYOK`

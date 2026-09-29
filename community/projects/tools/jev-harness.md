@@ -52,3 +52,9 @@ State and question text go to TypeSafe when the harness runs live. Shadow mode l
 Reviewed on **2026-09-21** at [commit 2934d12](https://github.com/AntonioCoppe/jev-harness/tree/2934d12e18157881440362d747d31b688a1c6ed6): **0.1.0**, MIT. AI-assisted source review of README, `src/harness.ts`, `src/policy.ts`, `package.json`, and LICENSE. Offline: `npm run build` OK. No live TypeSafe calls.
 
 Related: [super-jev](super-jev.md), [jev-layer](jev-layer.md), [daf-jev](daf-jev.md), [Responsible AI Harness](responsible-ai-harness.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev System One model: choose and test a first pilot](../../knowledge-base/articles/jev-system-one-first-pilot.md) — Independently suggested by JevList; not an endorsement by MIKE. Map a Jev model-tier Choice to a logged, reviewable application route during a bounded first pilot.
+<!-- knowledge:backlinks:end -->

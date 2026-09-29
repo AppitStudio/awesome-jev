@@ -1,5 +1,5 @@
 {
   "schema_version": 1,
-  "articles": ["building-a-jev-agent-harness", "jev-decision-gate", "jev-use-cases", "jev-api-cost-setup", "jev-project-ideas", "jev-decision-audit", "jev-agent-triage-desk", "jev-bot-budget", "jev-claude-code-hooks"],
+  "articles": ["building-a-jev-agent-harness", "jev-decision-gate", "jev-use-cases", "jev-api-cost-setup", "jev-project-ideas", "jev-decision-audit", "jev-agent-triage-desk", "jev-bot-budget", "jev-claude-code-hooks", "jev-devops-decisions", "jev-agent-loops", "jev-system-one-first-pilot"],
   "retire_all": false
 }

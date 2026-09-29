@@ -59,3 +59,9 @@ Jev mode sends redacted logs and source metadata to TypeSafe—redaction is best
 Reviewed on **2026-09-21** at [commit b0be7eb](https://github.com/sunil-sadasivan/jevernetes/tree/b0be7ebbf5d2215f8dd5930ad3984ebe06026fac): Apache-2.0; AI-assisted source review of README, LICENSE, `jevernetes/jev.py`, CLI/dashboard modules; pytest as above. No live TypeSafe or cluster session.
 
 Related: [Jev Logs](jevlogs.md), [demo-expanso-jev](demo-expanso-jev.md), [jevmetrics](jevmetrics.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev for DevOps: logs, incidents and CI](../../knowledge-base/articles/jev-devops-decisions.md) — Mentioned in the source article. Inspect live Kubernetes logs and prepare bounded evidence for an investigation.
+<!-- knowledge:backlinks:end -->

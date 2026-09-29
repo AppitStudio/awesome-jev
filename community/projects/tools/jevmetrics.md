@@ -49,3 +49,9 @@ Status is **alpha**. Filtering effectiveness and cost savings need evaluation on
 Reviewed on **2026-09-20** at [commit ca8d73a](https://github.com/ishantanu/jevmetrics/tree/ca8d73aaa3985071a9859a1b51f338f359cb9730): **0.1.0-dev**, Apache-2.0. AI-assisted source review of README, LICENSE, evaluator/processor Jev clients, and config examples. Ran `go test ./internal/...` and `go test` in `otelprocessor/` (pass). No live TypeSafe calls.
 
 Related: [Jev Logs](jevlogs.md), [typesafe-cli](typesafe-cli.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev for DevOps: logs, incidents and CI](../../knowledge-base/articles/jev-devops-decisions.md) — Mentioned in the source article. Annotate metric metadata and review proposed primary-storage retention.
+<!-- knowledge:backlinks:end -->

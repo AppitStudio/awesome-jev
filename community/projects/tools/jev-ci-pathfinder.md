@@ -45,3 +45,9 @@ Diff/config evidence goes to the Jev provider. Default `dry_run: true` softens s
 Reviewed **2026-09-24** (Europe/Sofia) at [commit 0684c72](https://github.com/JevForge/jev-ci-pathfinder/tree/0684c72ea009e77ef5edd365c561a46842de5a64). AI-assisted README + Action inspection.
 
 Related: [jev-ci-selector](jev-ci-selector.md), [Moongate](moongate.md), [Metis](metis.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev for DevOps: logs, incidents and CI](../../knowledge-base/articles/jev-devops-decisions.md) — Mentioned in the source article. Propose relevant optional CI jobs from a fixed allowlist.
+<!-- knowledge:backlinks:end -->
