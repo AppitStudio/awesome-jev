@@ -191,6 +191,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Gatehouse (Kinde)](jev-gatehouse.md) | Kinde who/what plus Jev typed gate before each MCP tool call (allow/step-up/stop). | TypeScript · Convex starter (MIT) |
 | [Jev GitHub Action](jev-action.md) | Install pinned Jev CLI in Actions; run typed judgments on event/JSON; expose answers (no issue mutation). | GitHub Action (Apache-2.0) |
 | [Jev Logs](jevlogs.md) | Prioritize logs for deeper analysis alongside your archive. | TypeScript · library, CLI and OpenTelemetry integration |
+| [JEV Mail Filtering](jev-mail-filtering.md) | Read-only local mail client that asks TypeSafe Jev to triage each message into actionable buckets. | Node.js · IMAP + TypeSafe Jev (MIT) |
 | [Jev Model Router](jev-model-router.md) | Route Claude Code subagent models and main-conversation reasoning effort using Jev assessments; requires early-access function hooks. | TypeScript · Claude Code mod |
 | [Jev Model Routing Lab](jev-model-routing.md) | Demo typed, confidence-aware Claude/Kimi routing where Jev chooses tier and code applies policy. | TypeScript · demo lab (MIT) |
 | [JEV Reasoning Navigator](jev-reasoning-navigator.md) | Supervise agents: TypeSafe Jev semantic judgment ≠ PolicyEngine ≠ capability receipts ≠ sandboxed execution. | Python · middleware runtime (license unspecified) |
