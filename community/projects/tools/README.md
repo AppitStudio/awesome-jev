@@ -143,6 +143,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dsh-jev-plugin (jackie-cqz)](jackie-cqz-dsh-jev-plugin.md) | DeepSeek Harness plugin: TypeSafe Jev noul/choice/score tools, guardrails, and Web UI result cards (distinct from other dsh-jev*). | TypeScript · DSH plugin npm package (MIT) |
 | [dsh-jev-prune](dsh-jev-prune.md) | Replace DSH size-only pruning and model summaries with TypeSafe Jev keep/drop judgments plus deterministic receipts. | JavaScript · DSH plugin (`dsh-jev-prune` 0.1.0) |
 | [dsh-jev-verify](dsh-jev-verify.md) | Call TypeSafe Jev choice/score/noul from DSH and run a live labeled verification benchmark (honest, no mock mode). | JavaScript · DSH plugin (`dsh-jev-verify` 0.1.0) |
+| [DuoMind](duomind.md) | OpenAI-compatible local LLM proxy: small local model generates; TypeSafe Jev makes System One decisions along the way. | Python · llama.cpp local server + TypeSafe Jev (MIT) |
 | [Eutrya](eutrya.md) | Run a CLI agent loop where TypeSafe Jev picks attention modes and scores candidates; text model proposes; offline demo included (alpha). | Node.js · CLI (`eutrya` 0.4.9) |
 | [ExcelPilot](excelpilot.md) | Drive live Excel workbooks with Qwen planning and TypeSafe Jev intent/tool gates (cascade to OpenRouter/offline). | Python · Office.js add-in + FastMCP agent (`excelpilot` 1.0.0) |
 | [fast-jev-compaction](fast-jev-compaction.md) | Select which old tool calls and results remain in agent context. | TypeScript · library and Claude Code plugin |
