@@ -230,6 +230,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-eyes](jev-eyes.md) | Turn images into inspectable OCR/layout `state` for TypeSafe Jev locally (`see`/`ask`, CLI, optional MCP). | Python · library/CLI/MCP (`jev-eyes` 0.1.0) |
 | [jev-for-all](jev-for-all.md) | Shared System One decision contract: Jev picks skill/tool subset/browser moves for OpenCode/Claude Code/Hermes. | TypeScript · OpenCode plugin + adapters (MIT) |
 | [jev-fuse](jev-fuse.md) | Governed System One proxy: policy actions, AST guards, singleflight, and WAL audit for TypeSafe Jev/local Laya. | Python · proxy/PyPI (`jev-fuse`, Apache-2.0) |
+| [jev-gate (MongLong0214)](monglong0214-jev-gate.md) | Claude Code plugin: Jev-backed Gate/Router/Evidence plus non-Jev Compact/Output (≠ Neoo-Blue jev-gate). | TypeScript · Claude Code plugin (no LICENSE file) |
 | [jev-gate (Neoo-Blue)](neoo-blue-jev-gate.md) | Gate Claude Code plans and stop summaries with TypeSafe Jev clause checks; block edits until the plan passes. | Python · Claude Code plugin (MIT) |
 | [jev-gates](jev-gates.md) | Compose three-valued TRUE/FALSE/UNKNOWN circuits from TypeSafe Jev judgments plus exact rules (auditable traces). | TypeScript · library/CLI (`jev-gates` 0.1.0) |
 | [jev-gateway](jev-gateway.md) | Let Jev choose each tool call for Codex, Claude Code, OpenCode, or Gemini through a local LLM gateway. | TypeScript · npm launchers and dashboard |
