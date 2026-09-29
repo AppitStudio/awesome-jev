@@ -84,7 +84,7 @@ The project is pre-release: the public API is unstable until 1.0.0, and the [roa
 
 ## Review and maintenance
 
-Reviewed by the project's own author on 2026-09-29 at [357aa84](https://github.com/iamjonatha/decisionkit-dotnet/tree/357aa849a3f714fda2eada964b6cf5ba6cd45e84), released as [v0.1.0](https://github.com/iamjonatha/decisionkit-dotnet/releases/tag/v0.1.0) on NuGet. `dotnet test --solution DecisionKit.slnx -c Release` ran 1,096 tests across `net8.0` and `net10.0` with no failures; the suite uses stubbed HTTP handlers and a controlled `TimeProvider`, so it establishes code behavior only. Live inference against the TypeSafe API, the Native AOT publish on a non-Windows runtime, and answer quality were not exercised in this check. Public CI runs the same build and test on every push with warnings treated as errors.
+Reviewed by the project's own author on 2026-09-29 at [5a3583d](https://github.com/iamjonatha/decisionkit-dotnet/tree/5a3583d092c947538314dd3a7cf3058cd892a962), released as [v0.1.0](https://github.com/iamjonatha/decisionkit-dotnet/releases/tag/v0.1.0) on NuGet. `dotnet test --solution DecisionKit.slnx -c Release` ran 1,096 tests across `net8.0` and `net10.0` with no failures; the suite uses stubbed HTTP handlers and a controlled `TimeProvider`, so it establishes code behavior only. Live inference against the TypeSafe API, the Native AOT publish on a non-Windows runtime, and answer quality were not exercised in this check. Public CI runs the same build and test on every push with warnings treated as errors.
 
 The project was substantially written with AI assistance; its author reviewed and is responsible for the result.
 
