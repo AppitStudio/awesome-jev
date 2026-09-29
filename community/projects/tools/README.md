@@ -128,6 +128,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [DataJev](datajev.md) | Control a data-analysis agent trajectory with TypeSafe Jev verbs while an LLM analyst and Python execute steps. | Python · CLI/package (`datajev` 0.1.0; Python 3.12 / uv) |
 | [dbt_jev](dbt-jev.md) | Classify SQL values with TypeSafe Jev (or OpenRouter→Jev) from dbt macros on DuckDB/ClickHouse. | Python · dbt package + DuckDB/ClickHouse runtime |
 | [DecideKit](decidekit.md) | Define typed decision policies and evaluate them with Jev via OpenRouter or TypeSafe, with offline fixtures and fallbacks. | TypeScript/Python · library/CLI (`decidekit` 0.1.0) |
+| [Decision Tagger (Obsidian)](obsidian-decision-tagger.md) | Tag Obsidian notes with TypeSafe Jev System One rules; single-note and vault/folder batch with multi-key concurrency. | JavaScript · Obsidian plugin (MIT) |
 | [decision-first](decision-first.md) | Spot bounded judgments, try TypeSafe Jev first, and log adopt/decline cases for reuse. | Python · agent skill + stdlib scripts |
 | [deepseek-harness-jev (luobosibing2)](luobosibing2-deepseek-harness-jev.md) | DSH plugin: TypeSafe Jev for skill/file ranking, supervision, corrections, and workspace approval (off by default; ≠ wjw66 pre-compaction). | TypeScript · DSH/Cordis plugin (MIT) |
 | [demo-expanso-jev](demo-expanso-jev.md) | Run Expanso Edge pipelines that bypass routine lines and ask TypeSafe Jev only on the rest (boards + mock server). | Demo suite · Expanso YAML, Python boards, `just` recipes |
