@@ -555,6 +555,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [laya-guardrails](laya-guardrails.md) | Fast input/tool/output guardrails using self-hosted laya-pt-es-typed System One (not hosted Jev). | Python · FastAPI + HF model (Apache-2.0) |
 | [laya-vs-jev](zaferayan-laya-vs-jev.md) | Head-to-head local Laya (MLX) / Ollaya vs TypeSafe Jev on ~900 cases across 3 tasks and 6 languages. | HTML / harness · multilingual bench (MIT) |
 | [lev (Abhinavexists)](lev.md) | Run an open Qwen3.5-4B LoRA System One model over `/v1/systemone` (independent of hosted Jev). | Python · model + harness (Apache-2.0) |
+| [Lichen](lichen.md) | Run a local `/v1/systemone` drop-in for typed choice/noul/score (incl. images) on open weights; independent of hosted Jev. | Python · local decision engine (MIT) |
 | [Malkuth](malkuth.md) | Multilingual open decision models (Choice/Noul/Score) via Kev. | Weights · research (Apache-2.0) |
 | [NanoJev](nanojev.md) | Study independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. | Python / PyTorch · model research and replay |
 | [OneJev](onejev.md) | Run a multimodal System One decision model (text/image/video → calibrated option probabilities); independent of hosted Jev; distinct from Jev-Omni/PlayJev. | Python / PyTorch · HF weights + System One–shaped API (Apache-2.0) |
