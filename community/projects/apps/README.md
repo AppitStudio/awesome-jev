@@ -796,6 +796,16 @@ Control macOS apps and perform Chrome tasks through an experimental voice assist
 
 [Full macbrow guide](macbrow.md) · [Source](https://github.com/timpratim/macbrow)
 
+### Switchyard
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS menu-bar app that opens every link in the right Dia/Chrome profile; TypeSafe Jev decides uncovered links and confident answers become local rules.
+
+**Access:** Build the [MIT source](https://github.com/kevinebaugh/switchyard) on macOS with a TypeSafe API key. No app purchase fee; each Jev judgment can incur provider charges. Source inspected; macOS build/live routing not run on the Linux review host. Distinct from FrancoisChastel/jev-router's Switchyard-style naming.
+
+[Full Switchyard guide](switchyard.md) · [Source](https://github.com/kevinebaugh/switchyard)
+
 ### TipTour
 
 `Open source` · `Free source build` · `BYOK`
