@@ -189,6 +189,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [J++](jpp.md) | Experimental language/Rust runtime composing Jev questions with exact methods; offline fixtures and Towow demos. | Rust · `jpp-cli` + Python reference |
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [JCR](jcr.md) | Resolve deterministic commands from a nested capability tree with TypeSafe Jev (MCP + Claude/Codex harnesses). | TypeScript · resolver, MCP and harnesses (`jcr` 1.0.0) |
+| [jev-cops](jev-cops.md) | Police coding-agent tool calls in context with graduated allow/annotate/rewrite/hold/deny/kill verdicts; optional Jev semantic judge. | TypeScript/Bun · npm (`jev-cops`, Apache-2.0) |
 | [jev (taifoon-io)](taifoon-io-jev.md) | Grade an AI agent job with TypeSafe Jev: fact checks in code, four closed questions, receipt with probabilities,… | TypeScript · npm `@taifoon/jev` (MIT) |
 | [Jev Atlas](jev-atlas.md) | Map a repo’s semantic decisions, reject weak Jev fits with published gates, then validate/implement survivors from `.jev-atlas/` state. | Agent skill + Claude/Codex plugin (`jev-atlas` 0.2.0) |
 | [Jev Bug Hunter](jev-bug-hunter.md) | Run a bounded TypeSafe Jev first-pass bug hunt over a source file (optional spec/context). | Python/CLI · bug-hunt tool (MIT) |
