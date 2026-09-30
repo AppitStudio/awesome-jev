@@ -8,6 +8,16 @@ Read the [tag guide](../../APP_TAGS.md): **Open source** describes source licens
 
 ## Web apps
 
+### 1 Million Emojis
+
+`Open source` · `Free` · `BYOK`
+
+Shared 1,000×1,000 emoji canvas where humans paint and TypeSafe Jev paints alongside them from local stroke context.
+
+**Access:** try [chriswijnia.com/lab/emoji](https://chriswijnia.com/lab/emoji) (no account) or clone the [MIT source](https://github.com/cwdx/1-million-emojis). No app purchase fee; hosted Jev strokes use the site path; self-host needs a TypeSafe key. Source inspected; live paint not run on the review host.
+
+[Try 1 Million Emojis](https://chriswijnia.com/lab/emoji) · [Full 1 Million Emojis guide](1-million-emojis.md) · [Source](https://github.com/cwdx/1-million-emojis)
+
 ### Apparite (jev2ui)
 
 `Open source` · `Free source build` · `BYOK`
