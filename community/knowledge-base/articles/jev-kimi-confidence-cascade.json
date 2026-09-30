@@ -64,7 +64,7 @@
     "source": "Read the complete thirteen-section X article and code blocks in the user's signed-in Chrome on 2026-09-30. Followed its Nutlope/jev-fraud repository and the linked demo post, checked the repository's README and VALIDATION.md, and searched for an author republication without finding a verified full copy.",
     "offline": "Compared the article with TypeSafe's current primitives, confidence and Python SDK docs, Kimi's public model/pricing page, the source-mentioned browser project's pinned adapter and the suggested inbox project's pinned questions/policy. Recomputed the article's illustrative monthly token-cost table. No provider integration was run; repository and local-site validation are reported separately at release.",
     "live": "No Jev or Kimi request, email classification run, agent task, latency benchmark, billed-cost check or accuracy evaluation was performed. The 96/100 earlier demo and the repository's later 92/100 recording are builder reports on different runs.",
-    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console keyword tools were unavailable, so title and FAQs follow reader intent and search results without volume or difficulty claims."
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs keyword metrics were unavailable in Chrome. The title and FAQs follow reader intent and current search results without volume or difficulty claims; Search Console query review is pending until this new page earns data."
   },
   "faqs": [
     {
