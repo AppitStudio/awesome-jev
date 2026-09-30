@@ -408,6 +408,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [omp-jev-compaction](omp-jev-compaction.md) | Reduce omp tool context with sticky TypeSafe/OpenRouter Jev scores while keeping retained text verbatim. | TypeScript · omp plugin (`omp-jev-compaction` 0.1.0) |
 | [onesie](frodi-karlsson-onesie.md) | Unix-pipeable System One CLI for TypeSafe Jev (also OpenRouter/Berget): pipe text, ask a typed question, script the… | Go · CLI (MIT) |
 | [Open Jev Bridge](open-jev-bridge.md) | Zero-dep Node MCP + Claude/Codex hooks bridging hosted Jev or local Kev/Laya System One (compaction + completion gates). | Node.js · CLI/MCP (`open-jev-bridge` 0.3.0, MIT) |
+| [openclaw-jev (Hyper-AI-Lab)](hyper-ai-lab-openclaw-jev.md) | OpenClaw control plane: intake routing with TypeSafe Jev (≠ yousan openclaw-jev-* plugins) | Python · OpenClaw control plane (MIT) |
 | [openclaw-jev-leakguard](openclaw-jev-leakguard.md) | Block OpenClaw posts that leak clients/credentials to the wrong channel; judged by Jev or local Kev. | TypeScript · OpenClaw plugin (MIT) |
 | [openclaw-jev-trigger](openclaw-jev-trigger.md) | Plain-language OpenClaw automation triggers judged by TypeSafe Jev (`decisionModel`) each tick. | TypeScript · OpenClaw plugin + CLI (MIT) |
 | [openclaw-typesafe-ai](openclaw-typesafe-ai.md) | Add an optional OpenClaw `typesafe_decide` tool for explicit TypeSafe Jev judgments without lifecycle hooks. | TypeScript · OpenClaw plugin (`openclaw-typesafe-ai` 0.1.3) |
