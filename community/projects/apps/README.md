@@ -200,6 +200,16 @@ Race UI that labels 1,000 withheld-star app reviews: TypeSafe Jev typed question
 
 [Try Jev Column Race](https://jev-column-race.vercel.app) · [Full Jev Column Race guide](jev-column-race.md) · [Source](https://github.com/goodrahstar/jev-column-race)
 
+### Jev Decision Lab
+
+`Open source` · `Free`
+
+Browser workbench for designing typed Jev questions from sample situations, then copying them into the TypeSafe Jev Playground.
+
+**Access:** open [nwadmark.github.io/jev-decision-lab](https://nwadmark.github.io/jev-decision-lab/) or clone the [MIT source](https://github.com/nwadmark/jev-decision-lab). No app purchase fee; Playground runs use your TypeSafe account. Source inspected; live Playground not run on the review host.
+
+[Try Jev Decision Lab](https://nwadmark.github.io/jev-decision-lab/) · [Full Jev Decision Lab guide](jev-decision-lab.md) · [Source](https://github.com/nwadmark/jev-decision-lab)
+
 ### Jev demos
 
 `Open source` · `Free source build` · `BYOK`
