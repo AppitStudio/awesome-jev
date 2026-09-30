@@ -707,6 +707,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [pg-jev](pg-jev.md) | Ask semantic questions from SQL over database rows. | PostgreSQL · PL/Python extension |
 | [pg_typesafe](pg-typesafe.md) | Call Choice/Noul/Score from SQL via a C+libcurl extension with batched multi-text helpers (pre-alpha; distinct from pg-jev). | PostgreSQL · C extension |
 | [sgrep](sgrep.md) | Semantic grep: chunk a repo and ask TypeSafe Jev which chunks match a plain-English query (mock offline). | Python · CLI (`sgrep`) |
+| [Semble + Jev (semble-jev)](semble-jev.md) | Semble retrieves local snippets; TypeSafe Jev scores relevance; CLI returns original source (`sj`). | Python · CLI via uv (Apache-2.0) |
 | [sieve](sieve.md) | Local MCP: enumerate repo/search candidates and score with TypeSafe Jev (`jev_grep` / `jev_rank` / `jev_search`). | Python · MCP server (`sieve` 0.1.0, uv) |
 | [sys1grep (jev-semgrep)](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). Renamed from jev-semgrep / `@uehaj/semgrep`. | Node.js · CLI (`@uehaj/sys1grep`) |
 | [Truffler](truffler.md) | Rails intent search with TypeSafe Jev index-time labels, query understanding, and optional streamed reranking. | Ruby · Rails gem (MIT) |
