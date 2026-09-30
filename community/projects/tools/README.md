@@ -719,6 +719,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [sys1grep (jev-semgrep)](jev-semgrep.md) | Filter lines by whether a plain-language proposition holds, with AND/OR/NOT meanings via TypeSafe Jev (not Semgrep Inc). Renamed from jev-semgrep / `@uehaj/semgrep`. | Node.js · CLI (`@uehaj/sys1grep`) |
 | [Truffler](truffler.md) | Rails intent search with TypeSafe Jev index-time labels, query understanding, and optional streamed reranking. | Ruby · Rails gem (MIT) |
 | [webctl](webctl.md) | Agent web-search CLI: multi-provider results scored/judged (and optionally chunk-scored) with TypeSafe Jev. | Go · CLI (`webctl`) |
+| [Zerikai Memory](zerikai-memory.md) | Local code-memory MCP with TypeSafe Jev semantic judgment over retrieved snippets | Python · MCP server (MIT) |
 
 ## Try a smaller example
 
