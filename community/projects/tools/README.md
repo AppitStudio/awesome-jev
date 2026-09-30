@@ -658,6 +658,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jevtok-ts](jevtok-ts.md) | Offline Jev token counting and request accounting for Node.js/TypeScript (companion to Python jevtok). | TypeScript · library (MIT) |
 | [Klassify](klassify.md) | Kotlin Multiplatform DSL/SDK and Native CLI/MCP for TypeSafe System One classification (distinct from jev4k). | Kotlin · KMP SDK + Native CLI (`klassify` v0.1.1, Apache-2.0) |
 | [kotlin-jev](kotlin-jev.md) | Kotlin SDK + CLI for TypeSafe Jev (port of mattn/go-jev patterns). | Kotlin/JVM · library + `jev-cli` (MIT) |
+| [langgraph-jev](langgraph-jev.md) | Call TypeSafe Jev typed decisions from LangGraph/LangChain graphs (distinct from JevLangGraph). | Python · LangGraph/LangChain (MIT) |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
 | [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
 | [Mechanical Jev](mechanical-jev.md) | Ask System One Noul/Choice/Score from Rust (`mjev`) against local Intel Phi Jev or compatible endpoints. | Rust · library/CLI (Apache-2.0) |
