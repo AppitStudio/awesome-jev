@@ -83,6 +83,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
 | [Jev Internal Links](jev-internal-links.md) | Claude Code skill: crawl sitemap paragraphs, TypeSafe Jev picks useful internal link targets, local rules + report. | Python · Claude Code skill (MIT) |
+| [jev-linkedin-saved-classifier](jev-linkedin-saved-classifier.md) | LinkedIn saved-posts board classified into filters by TypeSafe Jev | Python · classifier board (MIT) |
 | [Testimonial miner](testimonial-miner.md) | Find and review verbatim praise in email, grouped by product. | Python · CLI and local dashboard |
 | [AnchorLint](anchorlint.md) | Audit internal links in built HTML: deterministic checks plus optional TypeSafe Jev promise/relevance judgments. | Python · CLI (`anchorlint`) |
 | [Clay JEV People Ranker](clay-jev-people-ranker.md) | Qualify Clay people-search candidates with TypeSafe Jev Choice/Noul before enrichment (Agent Skill + Python script). | Python · Agent Skill + CLI script (`rank_clay_people.py`) |
