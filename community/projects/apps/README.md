@@ -78,6 +78,16 @@ MIT derivative of Crush Monitor: WeChat-style affinity analysis UI with TypeSafe
 
 [Full Crush Monitor with Jev guide](crush-monitor-with-jev.md) · [Source](https://github.com/zhengge6/crush-monitor-with-jev)
 
+### enigma-jev
+
+`Open source` · `Free` · `BYOK`
+
+Software Enigma/Bombe pipeline: TypeSafe Jev ranks cribs and judges whether a trial decryption is German.
+
+**Access:** try [enigma-jev.vercel.app](https://enigma-jev.vercel.app) (TypeSafe key to unlock the machine) or clone the [MIT source](https://github.com/agodoy21/enigma-jev) (Bun ≥ 1.3). No app purchase fee; TypeSafe usage is separate. Source inspected; live break not run on the review host.
+
+[Try enigma-jev](https://enigma-jev.vercel.app) · [Full enigma-jev guide](enigma-jev.md) · [Source](https://github.com/agodoy21/enigma-jev)
+
 ### Find the Right API (Orthogonal × Jev)
 
 `Closed source` · `Freemium` · `Commercial`
