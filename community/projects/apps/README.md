@@ -200,6 +200,16 @@ One-page web app where TypeSafe Jev plays chess against OpenRouter LLMs, Stockfi
 
 [Try Jev Chess](https://jevchess.xera.ac) · [Full Jev Chess guide](jevchess.md) · [Source](https://github.com/choxos/jevchess)
 
+### Jev Civilization
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser strategy game: you reshape the environment; TypeSafe Jev chooses each tribe’s next action from legal moves (mock mode without a key).
+
+**Access:** try [thunder-monocle.env-ca.veilstreamapp.com/](https://thunder-monocle.env-ca.veilstreamapp.com/) or clone the [MIT source](https://github.com/JonesSteven/jev_civilization). No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live session not run on the review host.
+
+[Try Jev Civilization](https://thunder-monocle.env-ca.veilstreamapp.com/) · [Full Jev Civilization guide](jev-civilization.md) · [Source](https://github.com/JonesSteven/jev_civilization)
+
 ### Jev Column Race
 
 `Open source` · `Free source build` · `BYOK`
