@@ -62,4 +62,5 @@ Related: [Jevmail](jevmail.md), [Crush Monitor](crush-monitor.md).
 - [Jev use cases: nine patterns developers are building](../../knowledge-base/articles/jev-use-cases.md) — Independently suggested by JevList; not an endorsement by Matt Van Horn. Pattern 7: triage email by asking several typed questions per thread.
 - [10 Jev project ideas with practical starting points](../../knowledge-base/articles/jev-project-ideas.md) — Independently suggested by JevList; not an endorsement by rody. Build 1: route email into a reviewable action queue.
 - [Jev agent triage desk: routes, audits and total cost](../../knowledge-base/articles/jev-agent-triage-desk.md) — Independently suggested by JevList; not an endorsement by Gipp 🦅. Study an email-only queue that separates parallel Jev judgments from code-owned routing.
+- [Build a Jev and Kimi K3 confidence cascade](../../knowledge-base/articles/jev-kimi-confidence-cascade.md) — Independently suggested by JevList; not an endorsement by Mr. Buzzoni. Prototype several typed inbox decisions over shared thread state with code-owned queue rules.
 <!-- knowledge:backlinks:end -->
