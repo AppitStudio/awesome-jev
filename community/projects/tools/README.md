@@ -156,6 +156,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [ExcelPilot](excelpilot.md) | Drive live Excel workbooks with Qwen planning and TypeSafe Jev intent/tool gates (cascade to OpenRouter/offline). | Python · Office.js add-in + FastMCP agent (`excelpilot` 1.0.0) |
 | [fast-jev-compaction](fast-jev-compaction.md) | Select which old tool calls and results remain in agent context. | TypeScript · library and Claude Code plugin |
 | [fast-jev-opencode](fast-jev-opencode.md) | Prune stale OpenCode V2 tool calls/results on the outgoing request with TypeSafe Jev (fail-open; does not rewrite history). | TypeScript · OpenCode plugin (`fast-jev-opencode` 0.1.0) |
+| [fast-jev-compaction-opencode](fast-jev-compaction-opencode.md) | opencode session compaction with probabilistic keep/drop (local LM Studio judge by default). | TypeScript · opencode plugin (MIT) |
 | [fast-jev-opencode (roshan-shaik-ml)](roshan-shaik-ml-fast-jev-opencode.md) | Prune stale OpenCode tool calls/results with TypeSafe Jev on the outgoing request only (v1+v2 adapters). | JavaScript · OpenCode plugin (MIT) |
 | [Foreman](foreman.md) | Experiment with Jev supervision of Codex workers and inspect steering, retry, and verification decisions. | Python · CLI and supervision runtime |
 | [Formanator](formanator.md) | Submit Forma benefit claims from CLI/MCP; optional TypeSafe Jev picks benefit/category (receipt LLM separate). | Rust · CLI/MCP (`formanator` 5.4.0) |
