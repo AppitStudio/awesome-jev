@@ -78,6 +78,16 @@ MIT derivative of Crush Monitor: WeChat-style affinity analysis UI with TypeSafe
 
 [Full Crush Monitor with Jev guide](crush-monitor-with-jev.md) · [Source](https://github.com/zhengge6/crush-monitor-with-jev)
 
+### Doom or Bloom
+
+`Open source` · `Free` · `BYOK`
+
+Free web interview that maps your AI worldview (doom↔bloom) using many TypeSafe Jev Choice/Score/Noul judgments; TypeScript owns routing and presentation.
+
+**Access:** try [www.doom-or-bloom.com](https://www.doom-or-bloom.com) or clone the [MIT source](https://github.com/transitive-bullshit/doom-or-bloom). No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live session not run on the review host.
+
+[Try Doom or Bloom](https://www.doom-or-bloom.com) · [Full Doom or Bloom guide](doom-or-bloom.md) · [Source](https://github.com/transitive-bullshit/doom-or-bloom)
+
 ### enigma-jev
 
 `Open source` · `Free` · `BYOK`
