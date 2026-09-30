@@ -174,6 +174,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [hermes-jev (ourines)](ourines-hermes-jev.md) | Add an explicit Jev decision sidekick (tools + skill) to Hermes Agent across TypeSafe, Cloudflare, and OpenRouter backends. | Python · Hermes plugin (MIT, prerelease) |
 | [hermes-jev-curator](hermes-jev-curator.md) | Typed Jev skill-relationship judgments and safe archive/guard plans for Hermes Agent’s background skill curator. | Python · Hermes plugin (experimental 0.1.0) |
 | [hermes-jev-helper](hermes-jev-helper.md) | Hermes `pre_llm_call` plugin: TypeSafe Jev (OpenRouter Decisions) classifies intent route before the agent improvises. | Python · Hermes plugin (MIT) |
+| [hermes-jev-lesson-gate](hermes-jev-lesson-gate.md) | Hermes background review gate: TypeSafe Jev decides when memory/skill review should run. | Python · Hermes plugin (MIT) |
 | [himalaya-jev-mail-classify](himalaya-jev-mail-classify.md) | CLI `mail-classify`: himalaya Gmail threads → TypeSafe Jev labels/colours via OpenRouter (dry-run default). | Python · CLI (`mail-classify` 0.1.0, MIT) |
 | [hookgate](hookgate.md) | Gate Claude Code/Codex shell and Stop hooks with TypeSafe Jev (audit mode, fail-open). | Node.js ≥ 18 · CLI/plugin (`hookgate` 0.0.2) |
 | [Intent-Router](intent-router.md) | Compile vague agent requests into typed IntentSpec contracts (probe, ask, or halt) before Jev/Laya routing. | Agent Skill (`intent-router` 0.3.0, MIT) |
