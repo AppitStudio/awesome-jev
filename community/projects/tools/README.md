@@ -556,6 +556,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [OpenDecider](opendecider.md) | Open System One choice/score/yes-no models with optional Jev-compatible `/v1/systemone` serve; independent of hosted Jev. | Python · HF weights + serve (Apache-2.0) |
 | [Open Medical Jev](open-medical-jev.md) | Run Jev-class medical yes/no judgments from frozen open models with dual-reader fusion, auto-release gates, and conformal sets; compare vs hosted Jev. | Python · GGUF readers + routing recipes (MIT) |
 | [open-jev](open-jev.md) | Experiment with independent Kev and DeBERTa typed decisions locally in a browser; does not use official Jev weights. | TypeScript · npm library, Transformers.js / ONNX |
+| [OpenJev](openjev.md) | Local Jev-compatible typed decisions via masked-logit softmax (not TypeSafe-hosted) | Python · local decision engine (MIT) |
 | [openjev-sglang](openjev-sglang.md) | Inspect a Jev-shaped HTTP decision API using Qwen and SGLang; independent model behavior and unspecified code licensing. | Python / FastAPI / SGLang · inference research |
 | [openjevx](muthuishere-openjevx.md) | Serve an open-weight Jev-compatible `/v1/systemone` endpoint locally for jevx (CPU/GPU; Apache-2.0 LICENSE in repo). | Go · local System One server + HF weights (Apache-2.0) |
 | [PlayJev](playjev.md) | Study a 0.8B model that picks a game's next move from the frame alone, one forward pass, probability per listed move; independent of official Jev. | Python / PyTorch · model research and browser demo |
