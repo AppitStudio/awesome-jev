@@ -387,6 +387,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevx (muthuishere)](muthuishere-jevx.md) | Agent skill + CLI for typed yes/no/choice/rating gut checks via System One (hosted or self-hosted); ≠ hawkyre/jevx extension. | Go CLI + npm (`@muthuishere/jevx`) · agent skill (MIT) |
 | [jevyoumean](jevyoumean.md) | Wrap any CLI so unknown subcommands get TypeSafe Jev intent-based "Did you mean?" suggestions from help text. | Go · CLI (`jym`) |
 | [JIS · PARALLELIZE](jis-parallelize.md) | Self-organising swarm: rules first; Jev for verify/adopt/dispute; LLM escalation on low confidence. | TypeScript · swarm harness (Apache-2.0) |
+| [JIT-JEV Context OS](jit-context.md) | Epistemic context runtime + TypeSafe Jev System 1 gate for tool-using coding agents | Python · context OS / gate (MIT) |
 | [JMP](jmp.md) | Local coding workspace: TypeSafe Jev picks the next tool action; DeepSeek/Codex/Bonsai supply arguments; OpenHands/MCP execute. | Python · desktop (pywebview) + CLI (MIT) |
 | [Juardrails](juardrails.md) | Manage TypeSafe Jev guardrail policies (YAML/UI), batch questions, apply rules via REST/CLI with audit. | Go · server + CLI (license unspecified at review) |
 | [laya-packet-analyser](laya-packet-analyser.md) | Triage laptop packet alerts with detectors + local Laya System One judgments and a live dashboard. | Python · stdlib analyser + dashboard (MIT) |
