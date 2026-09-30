@@ -338,6 +338,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-test-triage](jev-test-triage.md) | Rank mutation-testing survivors with TypeSafe Jev; emit summary/SARIF/agent prompts for Claude Code or Codex. | Python · CLI (`jtt`) + pre-commit/GitHub Action (MIT) |
 | [jev-ticket-triage](beese54-jev-ticket-triage.md) | Reproduce TypeSafe Jev vs LLM support-ticket triage on banking77 and customer-support datasets (WIP). | Python · eval harness (MIT) |
 | [jev-toolkit](jev-toolkit.md) | Serve TypeSafe Jev asks/verify/review over MCP plus CLI triage, audit, skill routing, and local impact metrics. | TypeScript · CLI/MCP (`jev`, Effect; Node ≥ 26) |
+| [jev-tools (CMaintz)](cmaintz-jev-tools.md) | TypeScript TypeSafe Jev tools including an agent tool-call guardrail | TypeScript · library/tools (MIT) |
 | [jev-tree](jev-tree.md) | Recursive TypeSafe Jev Choice over a JSON taxonomy when a flat list exceeds the 255-option cap. | TypeScript · npm (`jev-tree` 0.1.0) |
 | [jev-triage](jev-triage.md) | GitHub Action: label issues with TypeSafe/Cloudflare Jev typed answers; low confidence escalates to needs-human. | TypeScript · Action (`cmaintz/jev-triage@v0`, MIT) |
 | [jev-triage (ZephyrDeng)](zephyrdeng-jev-triage.md) | Triage GitHub/GitLab backlogs with TypeSafe Jev into an HTML report (duplicates, types, dependency order). | TypeScript · gh/glab CLI (MIT) |
