@@ -246,4 +246,5 @@ Related: [computer-use comparison](../../../docs/computer-use.md) · [Jev Browse
 - [Jev decision audits: validate the business case](../../knowledge-base/articles/jev-decision-audit.md) — Mentioned in the source article. Check the full outcome after a cheap decision.
 - [Use Jev in AI agent loops: routing, checks and fallbacks](../../knowledge-base/articles/jev-agent-loops.md) — Mentioned in the source article. Rebuild the available browser actions after each observation and verify the completed task independently.
 - [Build a Jev and Kimi K3 confidence cascade](../../knowledge-base/articles/jev-kimi-confidence-cascade.md) — Mentioned in the source article. Study how a live browser loop offers Jev bounded operations and observed targets.
+- [Build a Jev agent worker router](../../knowledge-base/articles/jev-agent-worker-router.md) — Mentioned in the source article. Rebuild the available action menu from the latest observation and verify the outcome after a selected action.
 <!-- knowledge:backlinks:end -->

@@ -51,3 +51,9 @@ Jev never executes a selected capability—the host must validate ids and permis
 Reviewed on **2026-09-20** at [commit 05d3cdf](https://github.com/typakon4/jev-layer/tree/05d3cdf1f1d925d7c0bf0749caebc232f749c613): **0.1.0**, MIT. AI-assisted source review of README, LICENSE, provider docs, and CLI/MCP surfaces. Ran `npm test` (92 pass). No live TypeSafe calls.
 
 Related: [jev-router](jev-router.md), [toolgate](toolgate.md), [jev-mcp](jev-mcp.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Build a Jev agent worker router](../../knowledge-base/articles/jev-agent-worker-router.md) — Independently suggested by JevList; not an endorsement by NO1ennn. Route among a host-owned closed set of currently eligible capabilities and record the execution result.
+<!-- knowledge:backlinks:end -->
