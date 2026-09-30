@@ -304,6 +304,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-router (FrancoisChastel)](francoischastel-jev-router.md) | Relay that picks fast/mid/frontier model+effort per turn via tool signals and TypeSafe Jev; fails open; honest cost logs. | TypeScript · npm (`@french-castle/jev-router`, MIT) |
 | [jev-router (jjjjjjjjjjjjjjjjacob)](jjjjjjjjjjjjjjjjacob-jev-router.md) | Let TypeSafe Jev pick Claude Code effort and subagent models on demand via /jev. | TypeScript · Claude Code plugin (MIT) |
 | [jev-rules](jev-rules.md) | Select project rules and codebase-map documents for Claude Code prompts and file changes. | JavaScript · Claude Code plugin |
+| [jev-safety-gateway](jev-safety-gateway.md) | Nginx-front reverse proxy: TypeSafe Jev judges each user input before LLM backends (AGPL-3.0) | Go · reverse-proxy gateway (AGPL-3.0) |
 | [jev-sap-commerce](emenowicz-jev-sap-commerce.md) | SAP Commerce extension: TypeSafe Jev review moderation + category suggestions (dry runs, audits). | Java · Commerce extension (Apache-2.0) |
 | [jev-seatbelts](jev-seatbelts.md) | Seven Claude Code hooks catching expensive agent mistakes; TypeSafe Jev on judgment tiers. | Python · Claude hooks (MIT) |
 | [jev-sec-audit](dhanushnehru-jev-sec-audit.md) | Lightning-fast AI supply-chain security auditor: TypeSafe Jev scores typosquatting and malicious package scripts in… | JavaScript · CLI / GitHub Action (Apache-2.0) |
