@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "jev-kimi-confidence-cascade",
+  "slug": "jev-kimi-confidence-cascade",
+  "title": "Build a Jev and Kimi K3 confidence cascade",
+  "description": "Route bounded decisions through Jev, send uncertain cases to Kimi K3, and measure the full workflow before claiming cost or accuracy gains.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-30",
+  "modified_at": "2026-09-30",
+  "topics": ["decision-gates", "calibration", "cost-optimization", "agent-harnesses"],
+  "source": {
+    "title": "How to Cut Your Agent Bill by 90% With Jev Engineering and Kimi K3",
+    "url": "https://x.com/polydao/article/2104783226833186920",
+    "author": {
+      "name": "Mr. Buzzoni",
+      "url": "https://x.com/polydao"
+    },
+    "published_at": "2026-09-29",
+    "accessed_at": "2026-09-30"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-ultrafast.md",
+      "origin": "source-mentioned",
+      "purpose": "teaching-example",
+      "step": "Study how a live browser loop offers Jev bounded operations and observed targets",
+      "why": "The article names Browser Use Jev Ultrafast; its adapter builds current DOM choices and lets Jev select an operation and target while code executes the action.",
+      "evidence": [
+        "https://x.com/polydao/article/2104783226833186920",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/README.md",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py"
+      ],
+      "limitations": "MIT experimental Python browser agent, not an email classifier or a Kimi cascade. Live use needs Chrome, TypeSafe and a separate text-model key; page data leaves the browser and provider charges may apply. The article's flight timing was not reproduced."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/apps/jev-inbox-queue.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Prototype several typed inbox decisions over shared thread state with code-owned queue rules",
+      "why": "The Python app batches seven Jev questions per thread and maps answers to queue buckets in code, making it an inspectable starting point for the article's inbox triage step.",
+      "evidence": [
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/README.md",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/questions.py",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/policy.py"
+      ],
+      "limitations": "MIT Python source-build app requiring Python 3.10+, uv and a TypeSafe key for live calls; optional IMAP. It does not implement Kimi fallback or reproduce Hassan's fraud experiment. Live email content goes to TypeSafe and inference may be billed."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete thirteen-section X article and code blocks in the user's signed-in Chrome on 2026-09-30. Followed its Nutlope/jev-fraud repository and the linked demo post, checked the repository's README and VALIDATION.md, and searched for an author republication without finding a verified full copy.",
+    "offline": "Compared the article with TypeSafe's current primitives, confidence and Python SDK docs, Kimi's public model/pricing page, the source-mentioned browser project's pinned adapter and the suggested inbox project's pinned questions/policy. Recomputed the article's illustrative monthly token-cost table. No provider integration was run; repository and local-site validation are reported separately at release.",
+    "live": "No Jev or Kimi request, email classification run, agent task, latency benchmark, billed-cost check or accuracy evaluation was performed. The 96/100 earlier demo and the repository's later 92/100 recording are builder reports on different runs.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console keyword tools were unavailable, so title and FAQs follow reader intent and search results without volume or difficulty claims."
+  },
+  "faqs": [
+    {
+      "question": "How does a Jev and Kimi K3 confidence cascade work?",
+      "answer": "Code handles exact rules first. Jev answers a bounded Choice over current state; code accepts a tested confidence band or sends uncertain and no-match cases to Kimi K3. A human reviews unresolved or consequential cases, and permissions remain in code."
+    },
+    {
+      "question": "Does a 0.95 Jev confidence mean 95% accuracy?",
+      "answer": "No. Choice confidence summarizes how concentrated Jev's answer distribution is; it is not the measured chance that this particular answer is correct. Set thresholds against labeled outcomes from your own workflow and check them on untouched cases."
+    },
+    {
+      "question": "Did the Jev and Kimi fraud demo score 96 or 92 out of 100?",
+      "answer": "The article quotes an earlier 96/100 run. The linked repository's later recorded Together AI run reports 92/100 on a balanced 100-email sample. They are different builder-reported runs, and neither establishes production accuracy."
+    },
+    {
+      "question": "Can the cascade cut an agent bill by 90%?",
+      "answer": "The article's roughly 90% figure is a token-price scenario: $9.42 for Jev plus 10% Kimi escalation versus $90 for Kimi on every email. It excludes retries, review, infrastructure, incorrect routes and other agent calls. Measure your own full workflow before claiming savings."
+    },
+    {
+      "question": "What if Jev, Kimi K3 or the answer schema fails?",
+      "answer": "Record the error and place the item in a review queue or a previously approved safe fallback. Do not treat a timeout, malformed answer, unknown category or low confidence as permission to act."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-kimi-confidence-cascade.png",
+    "alt": "Decision flow with exact code checks, Jev's bounded choice, a tested confidence gate, Kimi K3 review for uncertain cases, and human review for unresolved actions",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
