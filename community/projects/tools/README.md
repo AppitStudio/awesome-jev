@@ -446,6 +446,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [opencode-jev-router](opencode-jev-router.md) | OpenCode Responses proxy: TypeSafe Jev selects reasoning effort for Astra/Luna/Sol with cache lineage. | Node.js 24 · npm CLI (`@robertn702/opencode-jev-router` 0.1.0, MIT) |
 | [opencode-smart-reasoning](opencode-smart-reasoning.md) | Route OpenCode per-request reasoning effort with TypeSafe Jev via Zen SystemOne (fail-open). | TypeScript · OpenCode plugin (`opencode-smart-reasoning` 0.2.0) |
 | [openjev-mcp (markylaredo)](markylaredo-openjev-mcp.md) | Expose OpenJEV System One judgments over MCP with shared context and multi-question batches. | TypeScript · MCP stdio server (`openjev-mcp`) |
+| [openwebui-jev-style-decisions](openwebui-jev-style-decisions.md) | Open WebUI plugin for JEV-style typed decisions via local Ollama (unofficial). | Open WebUI plugin (MIT) |
 | [orca-jev-advisor](orca-jev-advisor.md) | Orca Lab plugin: local rules + TypeSafe Jev gate agent commands (ask before force-push/merge/apply). | TypeScript · Orca/Electron plugin (license unspecified) |
 | [patdown](patdown.md) | Lint a tree against fuzzy markdown rules with a swappable judge; default backend is TypeSafe Jev. | TypeScript · npm CLI (`patdown`) and Effect packages |
 | [PDF Race](pdf-race.md) | Race Docling→TypeSafe Jev vs Gemini on the same PDFs with committed keyless replays. | Node.js ≥ 20 · local/Vercel bench (`pdf-race` 1.0.0) |
