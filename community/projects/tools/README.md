@@ -583,6 +583,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jevlet](jevlet.md) | From-scratch System One–style decision model research + Windows command palette; independent of hosted Jev. | Python · research model + desktop app (MIT) |
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
 | [jevos](jevos.md) | Serve yes/no (Noul) decisions from a CPU-only, offline 1B GGUF model behind a Jev-compatible `/v1/systemone` API. | Python/FastAPI · llama.cpp GGUF weights (MIT) |
+| [JevOss](jevoss.md) | Probe suite for Jev-API decision models: accuracy, calibration, adversarial recipes. | Python · eval harness (Apache-2.0) |
 | [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
 | [L2S1](l2s1.md) | Turn local GGUF model scores into typed binary/choice/ordinal decisions with abstention policy (not TypeSafe-hosted). | Rust · CLI/runtime + SDKs (MIT) |
 | [laya-candle](laya-candle.md) | Run local Laya typed Choice/Score/Noul in pure Rust via Candle (no Python; not TypeSafe-hosted). | Rust · Candle crate (Apache-2.0) |
