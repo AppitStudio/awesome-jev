@@ -1254,6 +1254,16 @@ Annotate videos with Jev judgments about sentence-level rhetoric, then render ov
 
 [Full Jevmeter guide](jevmeter.md) · [Source](https://github.com/ChetasLua/jevmeter)
 
+### Omarchy Mail
+
+`Open source` · `Free source build` · `BYOK`
+
+Terminal Gmail client for Omarchy; TypeSafe Jev files inbox into labels.
+
+**Access:** Clone the [MIT source](https://github.com/petrzpav/omarchy-mail) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Omarchy Mail guide](omarchy-mail.md) · [Source](https://github.com/petrzpav/omarchy-mail)
+
 ## Discord bots
 
 ### Jev Moderation Bot
