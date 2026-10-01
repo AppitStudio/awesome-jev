@@ -636,6 +636,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jear](jear.md) | Route NEAR AI Cloud / IronClaw choices by budget, quality, and sensitivity using TypeSafe Jev structured decisions. | Rust · CLI/library (`jear` 0.1.0) |
 | [jev (drpaneas)](drpaneas-jev.md) | Call TypeSafe Jev System One from Go with a small client package. | Go · module (`github.com/drpaneas/jev`, MIT) |
 | [jev (okooo5km)](okooo5km-jev.md) | Stdlib Python CLI + Agent Skill for TypeSafe Jev yes/pick/score via TypeSafe API or OpenRouter (distinct from typesafe-cli / typesafeai-cli). | Python · CLI 0.3.2 + skill |
+| [jev-php (f-lombardo)](f-lombardo-jev-php.md) | Call TypeSafe Jev System One APIs from PHP applications. | PHP · library (LGPL-2.1) |
 | [jev (polidog)](polidog-jev.md) | Pipe state on stdin and run jev noul/choice/score against TypeSafe, Cloudflare Workers AI, or Vercel AI Gateway. | Rust · CLI (`cargo install --git`) |
 | [jev (stefafafan)](stefafafan-jev.md) | Unix/Go CLI for typed TypeSafe Jev questions across TypeSafe, Cloudflare, and Vercel providers. | Go · CLI (`go install`, MIT) |
 | [JEV ADK](jev-adk.md) | Build System One agent pipelines with TypeSafe Jev primitives: bash guardrails, dual-brain routing, PR triage blueprints. | Python · ADK / examples (MIT) |
