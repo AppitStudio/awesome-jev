@@ -336,6 +336,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-subtitle-translator](jev-subtitle-translator.md) | Translate SRT with structured LLM batches and TypeSafe Jev QC on every source–translation pair. | Python · web UI/CLI (GPL-3.0) |
 | [jev-suite](jev-suite.md) | Four Java decision-quality apps on one Jev kernel: structured questions; code keeps thresholds/vetoes. | Java · Maven suite (`jev-suite` 0.1.0, MIT) |
 | [jev-support-agents](jev-support-agents.md) | FastAPI support orchestrator: LLM specialists write text; TypeSafe Jev routes and evaluates with retry/escalation. | Python · FastAPI + Ollama reference (MIT) |
+| [jev-support-desk](jev-support-desk.md) | Developer-support queue tooling on TypeSafe Jev: confidence-gated triage and request doctor. | TypeScript · support desk (MIT) |
 | [jev-swap](jev-swap.md) | Find LLM→Jev decision swaps; shadow-test on traffic. | Node · CLI (MIT) |
 | [jev-switchboard](jev-switchboard.md) | Gate cross-agent messages with TypeSafe Jev: interrupt vs drop plus selected evidence injection. | Node.js ≥ 20 · CLI/hooks (`jev-switchboard` 0.1.0) |
 | [jev-table](jev-table.md) | Add TypeSafe Jev AI columns to CSV/JSONL with confidence, review queue, resume, and dry-run cost preview. | Python · CLI (`jev-table` 0.1.1, Apache-2.0) |
