@@ -42,3 +42,9 @@ Live synthetic states/questions go to the provider. Fixed overhead findings are 
 ## Review and maintenance
 
 Reviewed **2026-09-26** (Europe/Sofia) at [commit e5a761e](https://github.com/blowxian/jev-fanout-bench/tree/e5a761eacc1dc41756af368331ebfca4802a1fe7). AI-assisted README and LICENSE inspection of bench scripts and results; install/live paths not executed.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Batch-review parallel agent results with Jev](../../knowledge-base/articles/jev-batch-agent-review.md) — Independently suggested by JevList; not an endorsement by Ricker. Compare batched versus separate Jev request accounting and latency claims.
+<!-- knowledge:backlinks:end -->
