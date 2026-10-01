@@ -727,6 +727,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [TypeSafe-as-a-Judge](typesafe-as-a-judge.md) | Give Codex/Claude Code bounded TypeSafe Jev route/rank/extract/verify/judge MCP tools (unofficial). | Node.js · MCP plugin + skills (`0.1.0`) |
 | [typesafe-cli](typesafe-cli.md) | Ask Jev noul/choice/score questions from the shell (`jev`); answers are numbers, not prose. | TypeScript · npm CLI / Nix |
 | [typesafe-client (haileyok)](haileyok-typesafe-client.md) | Call TypeSafe System One (Noul/Choice/Score) from Go (stdlib) or Rust (async reqwest) with typed errors and retry policy matching the official SDKs. | Go 1.22+ · Rust 1.88+ (`typesafe-system-one` crate) |
+| [typesafe-sdk-csharp (tylerwarner33)](tylerwarner33-typesafe-sdk-csharp.md) | Unofficial C# TypeSafe API client (≠ listed TypeSafe.AI NuGet / CMaintz jev-dotnet). | C# · .NET client (MIT) |
 | [typesafe-sdk-go (jmelahman)](typesafe-sdk-go-jmelahman.md) | Stdlib-only Go client for TypeSafe System One (Noul/Choice/Score helpers). | Go · module (`github.com/jmelahman/typesafe-sdk-go`, MIT) |
 | [typesafe-sdk-rust (zchee)](zchee-typesafe-sdk-rust.md) | Async Rust client for TypeSafe System One with derive(QuestionSet) macros (unofficial port of the Python SDK). | Rust · crates.io `typesafe-sdk-rust` (Apache-2.0) |
 | [TypeSafe.AI (.NET SDK)](typesafe-sdk-csharp.md) | Call System One from .NET with DI, resilience, and OTel (NuGet TypeSafe.AI; distinct from TypeSafeAI.Net). | C# · NuGet client (`TypeSafe.AI` v1.0.0) |
