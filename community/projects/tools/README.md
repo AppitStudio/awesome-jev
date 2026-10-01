@@ -727,6 +727,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [blink](blink.md) | Search a local codebase with TypeSafe Jev via ensemble directory walkers that Choice-pick the next file or folder. | Bun · CLI (`./blink`); license unspecified |
 | [duckdb-jev](duckdb-jev.md) | Run TypeSafe Jev Noul/Choice/Score predicates natively inside DuckDB SQL (C++ extension; no Python UDF). | C++ · DuckDB extension (Apache-2.0) |
 | [FastGate](fastgate-jev.md) | Gate a multilingual EN/UZ/RU RAG helpdesk with TypeSafe Jev decisions before the LLM writes; includes an independent benchmark. | Python · RAG helpdesk + benchmark (MIT) |
+| [genigrep](genigrep.md) | Retrieve answering source for a codebase question; TypeSafe Jev ranks/filters candidates. | TypeScript · search tool (Apache-2.0) |
 | [graphify-jev](54lynnn-graphify-jev.md) | Build a local AST knowledge graph and use Jev System One judgments for semantic navigation/refactor guidance without a vector store. | Python 3.10+ · Tree-sitter + Jev |
 | [jegrep](jegrep.md) | Find code by natural-language intent using TypeSafe Jev (or OpenRouter→Jev) without embeddings. | Rust · CLI (`jegrep`) and release binaries |
 | [Jev Deep Research](jevdeepresearch.md) | Parallel evidence finding: GPT drives research steps; TypeSafe Jev judges document regions concurrently and returns excerpts. | TypeScript/Python research harness (Apache-2.0) |
