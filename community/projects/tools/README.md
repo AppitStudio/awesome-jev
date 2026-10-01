@@ -517,6 +517,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [wellposed](wellposed.md) | Lint TypeSafe Jev requests for broken paths, missing Choice escape hatches, and other structural smells before calling the API. | TypeScript · npm CLI (`wellposed` 0.4.0, zero deps) |
 | [winnow](winnow.md) | Hide confident-irrelevant Claude Code tool-result blocks with TypeSafe Jev (or adapter) judgments; recall stubs on demand. | Python · Claude Code hooks + sidecar CLI (`winnow` 0.5.0) |
 | [Yoshi](yoshi.md) | Local Claude Code/Codex context-pruning proxy: TypeSafe Jev via AI Gateway judges omit/keep spans (experimental POC). | Bun/TypeScript · loopback proxy (`yoshi` 0.1.0) |
+| [your-cto-jev](your-cto-jev.md) | CTO-style agent guard: Jev blocks leaked secrets and destructive commands. | Agent hook / guard (MIT) |
 
 ## Games and simulation
 
