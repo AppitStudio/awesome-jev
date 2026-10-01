@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "jev-batch-agent-review",
+  "slug": "jev-batch-agent-review",
+  "title": "Batch-review parallel agent results with Jev",
+  "description": "Review independent Kimi swarm results with bounded Jev questions, fit requests to the context budget, and send uncertain or failed checks to a human.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-01",
+  "modified_at": "2026-10-01",
+  "topics": ["agent-harnesses", "decision-gates", "cost-optimization"],
+  "source": {
+    "title": "Jev Engineering: Parallel Decisions for a 300-Agent Kimi Swarm",
+    "url": "https://x.com/0xRicker/article/2104935716492869999",
+    "author": {
+      "name": "Ricker",
+      "url": "https://x.com/0xRicker"
+    },
+    "published_at": "2026-09-29",
+    "accessed_at": "2026-10-01"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevtok.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Estimate each structured review request before choosing a chunk size",
+      "why": "jevtok estimates whole-request input tokens locally, which helps test whether shared evidence and per-result questions fit TypeSafe's context budget before a live call. Ricker does not mention it.",
+      "evidence": [
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/README.md",
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/src/jevtok/request.py"
+      ],
+      "limitations": "Independent MIT Python package requiring Python 3.10+ and local tokenizer dependencies. Estimates follow the reviewed Jev 1.13 encoder and must be rechecked after provider changes; it does not judge results. Local counting sends no data, but the separate TypeSafe review call sends selected evidence and may incur charges."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-fanout-bench.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Compare batched versus separate Jev request accounting and latency claims",
+      "why": "Its published request records and report show how to measure fan-out billing and serial-call timing. This is a benchmark reference, not a Kimi adapter or a review-quality test, and Ricker does not name it.",
+      "evidence": [
+        "https://github.com/blowxian/jev-fanout-bench/blob/e5a761eacc1dc41756af368331ebfca4802a1fe7/README.md",
+        "https://github.com/blowxian/jev-fanout-bench/blob/e5a761eacc1dc41756af368331ebfca4802a1fe7/results/summary.md"
+      ],
+      "limitations": "Independent MIT Python benchmark with CC0 inputs/results at the reviewed revision. Published figures use synthetic English tickets and OpenRouter's TypeSafe-compatible endpoint; separate requests were timed serially. We inspected the report but did not reproduce its live provider run, and it does not measure whether swarm outputs were judged correctly. Live reruns require provider access and incur charges."
+    }
+  ],
+  "verification": {
+    "source": "Read Ricker's complete X article and both code blocks in the user's logged-in Chrome on 2026-10-01. The article has no external project links. Exact-title and author searches found an earlier, differently titled Ricker Kimi/Jev article, but no verified republication of this one. The X cover's reuse rights were not established; this guide uses an original CC0 diagram.",
+    "offline": "Checked TypeSafe's current state, Noul, model and fan-out documentation and Kimi's Agent Swarm help page. Inspected both catalog pages and their pinned upstream README/implementation evidence. Installed typesafe-sdk 0.7.2 in a scratch Python 3.12 environment and exercised the guide's mapping and review bands with synthetic SystemOneResponse data; no provider request was sent. The source's jev.batch and kimi.run forms are pseudocode, not verified SDK or Kimi integration APIs.",
+    "live": "No Kimi export or 300-agent run, TypeSafe request, review accuracy study, billed-cost comparison, or end-to-end latency measurement. The 300-result and shrinking-rerun examples are Ricker's scenarios, not independently observed results.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs required sign-in in Chrome and no Ahrefs tool was connected. Search Console for jevlist.ai was available: its Web query report through 2026-09-28 returned no data for queries containing 'batch'. This short history cannot establish search demand. The title and questions follow reader intent and a current search-results check, with no invented volume or difficulty."
+  },
+  "faqs": [
+    {
+      "question": "Can Jev review 300 agent results in one request?",
+      "answer": "Possibly, if the shared state plus the longest question fits 32k tokens and the entire request fits 64k. Estimate the real payload first; split larger sets into bounded chunks and keep one answer ID for each result."
+    },
+    {
+      "question": "Does a Jev Noul answer have a confidence score?",
+      "answer": "No. Noul returns the probability of yes from 0 to 1, without a separate confidence field. Treat a value near 0.5 as ambiguous and validate any keep or requeue threshold on labeled results."
+    },
+    {
+      "question": "Should every failed swarm result be rerun automatically?",
+      "answer": "No. Rerun only a result with a recoverable failure after checking its source evidence and retry budget. Send ambiguous, missing or malformed answers to review, and stop after a fixed number of attempts."
+    },
+    {
+      "question": "Is this a working Kimi Agent Swarm integration?",
+      "answer": "No. The article sketches a review loop but does not document a Kimi result-export API. Supply an authorized result feed or export, then test the adapter separately before connecting a live swarm."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-batch-agent-review.png",
+    "alt": "Parallel agent results enter bounded review batches; Jev returns typed answers that code routes to keep, human review or a limited rerun",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
