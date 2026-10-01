@@ -1224,6 +1224,16 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 
 ## Command-line apps
 
+### arJev
+
+`Open source` · `Free source build` · `BYOK`
+
+Daily arXiv digest engine: lexical front-line plus TypeSafe Jev confidence-gated rerank against an Obsidian vault.
+
+**Access:** Clone the [Apache-2.0 source](https://github.com/harmoniqs/arjev) and follow upstream setup with a TypeSafe/provider key when live. No app purchase fee for the source build; provider usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full arJev guide](arjev.md) · [Source](https://github.com/harmoniqs/arjev)
+
 ### Gmail Classifier
 
 `Open source` · `Free source build` · `BYOK`
