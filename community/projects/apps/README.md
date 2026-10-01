@@ -512,6 +512,16 @@ Local Gmail inbox helper: TypeSafe Jev classifies category/priority/signals; you
 
 [Full JevZero guide](jevzero.md) · [Source](https://github.com/jayozer/jevzero)
 
+### Mailroom
+
+`Open source` · `Free source build` · `BYOK`
+
+Gmail sorter with readable rules plus TypeSafe Jev typed judgments, receipts, and undo.
+
+**Access:** Clone the [MIT source](https://github.com/Kevin-Liu-01/mailroom) and follow upstream setup with a TypeSafe/provider key when live. No app purchase fee for the source build; provider usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Mailroom guide](mailroom.md) · [Source](https://github.com/Kevin-Liu-01/mailroom)
+
 ### Masroufi
 
 `Source available` · `Free source build` · `BYOK`
