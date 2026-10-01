@@ -582,6 +582,16 @@ Hosted growth teammate that investigates product, search, content, and ad signal
 
 [Full Refix guide](refix.md) · [Source](https://www.refix.ai) · [Product homepage](https://www.refix.ai)
 
+### Resurface
+
+`Open source` · `Free source build` · `BYOK`
+
+Resume screening: LLM writes questions; TypeSafe Jev System One classifies answers.
+
+**Access:** Clone the [MIT source](https://github.com/dolevhayut/resurface) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Resurface guide](resurface.md) · [Source](https://github.com/dolevhayut/resurface)
+
 ### Shapeshift
 
 `Open source` · `Free` · `BYOK`
