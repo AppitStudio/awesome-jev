@@ -686,6 +686,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [pi-jev-extension (rioliu)](rioliu-pi-jev-extension.md) | Pi extension: `jev_decide` asks TypeSafe Jev choice/score/noul; falls back to the session model if Jev is unavailable. | TypeScript · Pi extension (Bun, MIT) |
 | [Prompt Rejector](prompt-rejector.md) | Screen prompts, skills, and MCP tool descriptions via HTTPS/MCP with TypeSafe Jev plus deterministic checks. | TypeScript · npm (`prompt-rejector` 1.2.0, ISC) |
 | [ruby_decision_model](ruby-decision-model.md) | Ask Noul, Choice, and Score questions from Ruby via Typesafe or OpenRouter. | Ruby · gem (stdlib HTTP) |
+| [ruby_llm-typesafe](ruby-llm-typesafe.md) | Call TypeSafe Jev Choice/Noul/Score from RubyLLM 2 apps via a `:typesafe` provider. | Ruby · gem (`ruby_llm-typesafe`, MIT) |
 | [s1 (s1-rs)](s1-rs.md) | Derive Choice/Score/Noul question sets in Rust; optional `typesafe-rs` backend (distinct from typesafe-api). | Rust · workspace crates (`s1` 0.1.0, MSRV 1.85) |
 | [scala-jev-sdk](scala-jev-sdk.md) | Call System One from Scala 3.3 LTS with typed Question/answer lookup over an sttp 4 backend (Maven Central). | Scala 3 · Maven (`io.github.ticofab:scala-jev-sdk_3` 0.1.0, Apache-2.0) |
 | [semgate](semgate.md) | Filter and route Go HTTP requests with TypeSafe Jev noul/choice/score middlewares. | Go · net/http middleware |
