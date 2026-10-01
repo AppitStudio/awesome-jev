@@ -1224,6 +1224,16 @@ Private-by-default Gmail labeler: local policy asks TypeSafe Jev (or OpenAI/Anth
 
 [Full Inbox Triage guide](inbox-triage.md) · [Source](https://github.com/shimoverse/inbox-triage)
 
+### jevelry
+
+`Open source` · `Free source build` · `BYOK`
+
+Terminal app to make and track everyday decisions with TypeSafe Jev, storing reusable “jevels” locally.
+
+**Access:** Install from the [MIT npm/source](https://github.com/backant-io/jevelry) (Node ≥22) with a TypeSafe API key. No app purchase fee; TypeSafe usage may incur charges. Source inspected; live Jev not run.
+
+[Full jevelry guide](jevelry.md) · [Source](https://github.com/backant-io/jevelry)
+
 ### Jev Mail Classifier
 
 `Open source` · `Free source build` · `BYOK`
