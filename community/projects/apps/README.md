@@ -512,6 +512,16 @@ Local Gmail inbox helper: TypeSafe Jev classifies category/priority/signals; you
 
 [Full JevZero guide](jevzero.md) · [Source](https://github.com/jayozer/jevzero)
 
+### Liuyao
+
+`Source available` · `Free source build` · `BYOK`
+
+Chinese-style I Ching (六爻) site with programmatic casting plus TypeSafe Jev semantic judgment (sixyao.app; non-commercial source).
+
+**Access:** Clone the [source](https://github.com/masonweb3/liuyao) (non-commercial terms per upstream) with a TypeSafe API key for live judgment. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Liuyao guide](liuyao.md) · [Source](https://github.com/masonweb3/liuyao)
+
 ### Mailroom
 
 `Open source` · `Free source build` · `BYOK`
