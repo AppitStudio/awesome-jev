@@ -108,6 +108,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [AutoJev](autojev.md) | Route agent requests through a local AutoJev gateway; optional OpenRouter Jev model selection with local fallback. | Tauri/React/Rust · desktop gateway (AGPL-3.0-only) |
 | [Auto Mode for Paseo](auto-mode-for-paseo.md) | Paseo plugin: TypeSafe Jev (or local Laya) picks Codex model/effort/mode/speed per turn. | TypeScript · Paseo plugin 0.2.0 |
 | [beam-cli](beam-cli.md) | Local AgentBeam hooks/policy for coding agents; optional TypeSafe Jev Noul/Score action judging (off by default). | TypeScript · npm CLI (`@agent-beam/beam` 0.2.16, AGPL-3.0) |
+| [bekko-system-one](bekko-system-one.md) | Small System One decision models (17M–400M) for Yes/No, Choice, and Score (independent open weights). | Python · local models (MIT) |
 | [bitrate-advisor](bitrate-advisor.md) | Choose live-stream encoder bitrate/resolution/next-step with TypeSafe Jev via OpenRouter inside deterministic guardrails. | TypeScript · Deno/Node library (`@affirmi/bitrate-advisor` 0.2.7) |
 | [Blackrose](blackrose.md) | Run typed TypeSafe System One checks and return allow/review/block with scores in app code. | Python + JS packages (MIT) · TypeSafe Jev |
 | [BoundedCode](boundedcode.md) | Local OpenCode coding on 8 GB GPUs with a required TypeSafe Jev decision plane and Go verification gates. | Go · OpenCode supervisor (Apache-2.0) |
