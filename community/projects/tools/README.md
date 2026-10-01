@@ -378,6 +378,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jeveloper](jeveloper.md) | Claude Code System-1 reflex layer: TypeSafe Jev route/gate/verify/done plus optional driver mode. | Claude Code plugin (`jeveloper` 0.2.0, MIT) |
 | [JeVerifier](jeverifier.md) | Jev reading lists + doc/code checks under Claude sessions. | Python · harness (MIT) |
 | [jevernetes](jevernetes.md) | Tail and triage Kubernetes logs with optional TypeSafe Jev analysis, local review rules, and coding-agent prompts. | Python · CLI/dashboard (`jevernetes`, Apache-2.0) |
+| [jevex-cli](jevex-cli.md) | Jev-powered per-turn Codex model router with a terminal UI. | TypeScript · CLI (MIT) |
 | [jevface](jevface.md) | Typed judgments for Java: declare questions as an interface and let Jev answer them. | Java · interface client (Apache-2.0) |
 | [JevFlow](parth1811-jevflow.md) | Claude Code plugin that keeps agents honest: plans as phases with checks; when Claude tries to stop, JevFlow asks… | Python · Claude Code plugin (MIT) |
 | [jevgate (craxrev)](craxrev-jevgate.md) | Claude Code Bash/Write gate from Jev risk facts with allow/ask/deny rules. | TypeScript · Claude Code plugin (MIT) |
