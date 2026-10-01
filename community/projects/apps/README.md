@@ -724,6 +724,16 @@ OpenHarness desktop sheet pane: TypeSafe Jev answers typed `noul` / `choice` / `
 
 [Full Jev Sheets guide](jev-sheets.md) · [Source](https://github.com/autonomous-ai/openharness) · [Product homepage](https://harness.autonomous.ai/desktop)
 
+### Modex
+
+`Open source` · `Free source build` · `BYOK`
+
+Open Codex-App–style desktop coding agent (Electron+React) driving Claude Code/Codex CLIs; optional TypeSafe Jev Auto routing picks model/effort per turn.
+
+**Access:** Build from the [MIT source](https://github.com/TypeSafeAI/modex). No app purchase fee. Optional TypeSafe key for Auto routing (OS keychain); Claude/Codex keep their own logins/costs. Source inspected; desktop/live paths not run on the Linux review host.
+
+[Full Modex guide](modex.md) · [Source](https://github.com/TypeSafeAI/modex)
+
 ## macOS apps
 
 ### Capture (sgaabdu4)
