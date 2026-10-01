@@ -1052,6 +1052,16 @@ Chrome side panel that uses TypeSafe Jev to select and populate WebMCP tool call
 
 [Full Jev × WebMCP guide](jev-webmcp-extension.md) · [Source](https://github.com/sdras/jev-webmcp-extension)
 
+### jev-email-classifier
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome MV3 extension that classifies Gmail rows with TypeSafe Jev (Choice/Score/Noul); metadata-only, BYOK.
+
+**Access:** Clone the [MIT source](https://github.com/AkashNaickar/jev-email-classifier) and follow upstream setup with a TypeSafe/provider key when live. No app purchase fee for the source build; provider usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full jev-email-classifier guide](jev-email-classifier.md) · [Source](https://github.com/AkashNaickar/jev-email-classifier)
+
 ### jev-x-filter
 
 `Open source` · `Free source build` · `BYOK`
