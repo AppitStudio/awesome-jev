@@ -607,6 +607,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [TinyJev](tinyjev.md) | Run an offline ~0.6B System One–compatible Choice/Noul/Score model (MLX/PyTorch); independent of hosted Jev. | Python · package + HF weights (MIT) |
 | [typed-lm](typed-lm.md) | Serve Jev-style Choice/Noul/Score from dense LLMs in Rust (single forward pass; independent of hosted Jev). | Rust · Candle serve + training (Apache-2.0) |
 | [Valen](valen.md) | Train/serve a multimodal System One–style decision model (text/image/video → probabilities); independent of hosted Jev. | Python · training/inference + HF weights (Apache-2.0) |
+| [vev](vev.md) | Run open multimodal System One–style decisions (text+images) locally via `/v1/systemone`; not TypeSafe-hosted. | Python · HF open weights (Apache-2.0) |
 | [vLLM Jev](vllm-jev.md) | Serve Jev-compatible decision models through vLLM. | Python · server (Apache-2.0) |
 | [vLLM Jev (mode-io)](mode-io-vllm-jev.md) | Serve Jev-style Choice/Noul/Score checkpoints through vLLM (distinct from Egbertjing/vllm-jev). | Python · server (Apache-2.0) |
 | [v1-decisions-vllm](v1-decisions-vllm.md) | Modular vLLM `/v1/decisions` typed API with `/v1/systemone` projection; pluggable backends. | Python · vLLM overlay (Apache-2.0); not hosted Jev |
