@@ -952,6 +952,16 @@ Chrome Manifest V3 extension that scans page text for fraud, advertising, AI slo
 
 [Full Jev Content Guard guide](jev-content-guard.md) · [Source](https://github.com/serejkaaa512/jev-content-guard-ext)
 
+### Jev Focus (MateusRogien)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension: keep YouTube for focus music/learning while TypeSafe Jev hides the rest (distinct from Focus / jev-focus-guard).
+
+**Access:** Clone the [MIT source](https://github.com/MateusRogien/jev-focus) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Jev Focus (MateusRogien) guide](mateusrogien-jev-focus.md) · [Source](https://github.com/MateusRogien/jev-focus)
+
 ### Jev Focus Guard
 
 `Open source` · `Free source build` · `BYOK`
