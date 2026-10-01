@@ -363,6 +363,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JEVals (duberblock)](duberblock-jevals.md) | Evaluate SystemOneRequest payloads vs JEV baseline and OpenAI-compatible judges; inspect fidelity/divergence in a web UI. | TypeScript · apps/packages playground (MIT) |
 | [Jevals.com](jevals-com.md) | Hosted independent Jev vs LLM boards (accuracy/calibration/cost/latency); open data, private harness (distinct from local jevals). | Hosted boards + [jevals-data](https://github.com/Jevals/jevals-data) (CC BY 4.0) |
 | [Jevaluate](jevaluate.md) | Confidence-gated web walkthroughs with TypeSafe Jev; optional DeepSeek vision; eval/judge scripts and skill. | Node/Python · Playwright scripts (MIT) |
+| [JevAny](jevany.md) | Open infrastructure for training, evaluating, and deploying System 1 decision models (independent of hosted TypeSafe Jev). | Python · System 1 infra (Apache-2.0) |
 | [jevbus](jevbus.md) | Route/subscribe/deliver streaming events with TypeSafe Jev (or any Judge) and policy thresholds. | Rust · crate (`jevbus` 0.1.0) |
 | [jevc](jevc.md) | Compile agent rules/JSON Schema into TypeSafe Jev programs (typed questions + code reducers) with offline fixture checks. | TypeScript · npm CLI (`jevc` 0.1.0, Apache-2.0) |
 | [jevcache](jevcache.md) | Reuse chat completions when TypeSafe Jev (via OpenRouter) admits paraphrased prompts as same-intent. | TypeScript · OpenAI-compatible proxy CLI (`@kushalicious/jevcache` 0.1.5) |
