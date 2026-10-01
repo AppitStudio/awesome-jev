@@ -672,6 +672,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [kotlin-jev](kotlin-jev.md) | Kotlin SDK + CLI for TypeSafe Jev (port of mattn/go-jev patterns). | Kotlin/JVM · library + `jev-cli` (MIT) |
 | [langgraph-jev](langgraph-jev.md) | Call TypeSafe Jev typed decisions from LangGraph/LangChain graphs (distinct from JevLangGraph). | Python · LangGraph/LangChain (MIT) |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
+| [laya-php](laya-php.md) | Classify/route text in PHP with local Laya typed decisions (Choice/Score/Noul); Laravel-ready; independent of hosted Jev. | PHP · Composer (`marcreichel/laya-php`, Apache-2.0) |
 | [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
 | [Mechanical Jev](mechanical-jev.md) | Ask System One Noul/Choice/Score from Rust (`mjev`) against local Intel Phi Jev or compatible endpoints. | Rust · library/CLI (Apache-2.0) |
 | [Micdrop](micdrop.md) | Build real-time TypeScript voice agents; optional `@micdrop/typesafe` classifies each user turn with TypeSafe Jev (choice/score/noul) before the LLM answers. | TypeScript · voice SDK + `@micdrop/typesafe` 1.0.1 (MIT) |
