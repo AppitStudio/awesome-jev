@@ -344,6 +344,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-skills](jev-skills.md) | Claude Code/Codex plugin: TypeSafe Jev picks which skills enter context each turn (0 always-on skill-list tokens). | TypeScript · Claude Code/Codex plugin (MIT) |
 | [jev-subtitle-translator](jev-subtitle-translator.md) | Translate SRT with structured LLM batches and TypeSafe Jev QC on every source–translation pair. | Python · web UI/CLI (GPL-3.0) |
 | [jev-suite](jev-suite.md) | Four Java decision-quality apps on one Jev kernel: structured questions; code keeps thresholds/vetoes. | Java · Maven suite (`jev-suite` 0.1.0, MIT) |
+| [jev-supervisor](jev-supervisor.md) | DeepSeek Harness macOS Jev execution-supervisor plugin (own TypeSafe key + budgets). | DeepSeek Harness plugin (MIT) |
 | [jev-support-agents](jev-support-agents.md) | FastAPI support orchestrator: LLM specialists write text; TypeSafe Jev routes and evaluates with retry/escalation. | Python · FastAPI + Ollama reference (MIT) |
 | [jev-support-desk](jev-support-desk.md) | Developer-support queue tooling on TypeSafe Jev: confidence-gated triage and request doctor. | TypeScript · support desk (MIT) |
 | [jev-swap](jev-swap.md) | Find LLM→Jev decision swaps; shadow-test on traffic. | Node · CLI (MIT) |
