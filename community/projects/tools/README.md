@@ -575,6 +575,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
 | [jevos](jevos.md) | Serve yes/no (Noul) decisions from a CPU-only, offline 1B GGUF model behind a Jev-compatible `/v1/systemone` API. | Python/FastAPI · llama.cpp GGUF weights (MIT) |
 | [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
+| [L2S1](l2s1.md) | Turn local GGUF model scores into typed binary/choice/ordinal decisions with abstention policy (not TypeSafe-hosted). | Rust · CLI/runtime + SDKs (MIT) |
 | [laya-candle](laya-candle.md) | Run local Laya typed Choice/Score/Noul in pure Rust via Candle (no Python; not TypeSafe-hosted). | Rust · Candle crate (Apache-2.0) |
 | [laya-guardrails](laya-guardrails.md) | Fast input/tool/output guardrails using self-hosted laya-pt-es-typed System One (not hosted Jev). | Python · FastAPI + HF model (Apache-2.0) |
 | [layajev](layajev.md) | Serve a local `/v1/systemone` subset on verified Laya (in-process Go/ONNX); not TypeSafe-hosted. | Go · npm (`@metalagman/layajev`, MIT) |
