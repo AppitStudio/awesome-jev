@@ -164,6 +164,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [fast-jev-opencode (roshan-shaik-ml)](roshan-shaik-ml-fast-jev-opencode.md) | Prune stale OpenCode tool calls/results with TypeSafe Jev on the outgoing request only (v1+v2 adapters). | JavaScript · OpenCode plugin (MIT) |
 | [Foreman](foreman.md) | Experiment with Jev supervision of Codex workers and inspect steering, retry, and verification decisions. | Python · CLI and supervision runtime |
 | [Formanator](formanator.md) | Submit Forma benefit claims from CLI/MCP; optional TypeSafe Jev picks benefit/category (receipt LLM separate). | Rust · CLI/MCP (`formanator` 5.4.0) |
+| [fusion-jev](fusion-jev.md) | Local coding evidence plus optional guarded TypeSafe Jev choices for MCP hosts. | TypeScript · MCP (MIT) |
 | [Gatekeeper](gatekeeper.md) | Route Claude Code prompts to the right skill/agent with YAML rules plus TypeSafe Jev Choice verdicts. | Python · Claude Code hooks (MIT) |
 | [ghtriage](ghtriage.md) | Classify GitHub issues with TypeSafe Jev typed labels/confidence and code-owned write guards (`ghtriage`). | Python · CLI (`ghtriage` / `jev-issue-classifier` 0.1.0) |
 | [git-jev-stage](git-jev-stage.md) | Classify Git hunks against a plain-language staging intent with TypeSafe Jev, then stage confirmed blocks. | TypeScript · CLI (`git-jev-stage` 0.1.1) + skill |
