@@ -192,6 +192,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-answers](jev-answers.md) | Ask TypeSafe Jev about files via MCP/CLI and keep each request's raw answer in a session folder. | TypeScript · MCP + CLI (MIT) |
 | [jev-cc-codex-router](jev-cc-codex-router.md) | Route each Codex turn via TypeSafe Jev tier choice, rewrite the model, and retry flaky upstream errors. | TypeScript · Codex proxy (MIT) |
 | [jev-cops](jev-cops.md) | Police coding-agent tool calls in context with graduated allow/annotate/rewrite/hold/deny/kill verdicts; optional Jev semantic judge. | TypeScript/Bun · npm (`jev-cops`, Apache-2.0) |
+| [jev-dotnet](jev-dotnet.md) | Unofficial typed C# client for the Jev System One API (Choice/Score/Noul). | C# · .NET client (MIT) |
 | [jev-llm-guard](jev-llm-guard.md) | Guard LLM inputs/outputs against OWASP LLM risks with TypeSafe Jev judgments (Turkish demo). | TypeScript · web demo (MIT) |
 | [jev (taifoon-io)](taifoon-io-jev.md) | Grade an AI agent job with TypeSafe Jev: fact checks in code, four closed questions, receipt with probabilities,… | TypeScript · npm `@taifoon/jev` (MIT) |
 | [Jev Atlas](jev-atlas.md) | Map a repo’s semantic decisions, reject weak Jev fits with published gates, then validate/implement survivors from `.jev-atlas/` state. | Agent skill + Claude/Codex plugin (`jev-atlas` 0.2.0) |
