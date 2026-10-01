@@ -18,6 +18,16 @@ Shared 1,000×1,000 emoji canvas where humans paint and TypeSafe Jev paints alon
 
 [Try 1 Million Emojis](https://chriswijnia.com/lab/emoji) · [Full 1 Million Emojis guide](1-million-emojis.md) · [Source](https://github.com/cwdx/1-million-emojis)
 
+### Airtale
+
+`Open source` · `Free source build` · `BYOK`
+
+Inbound lead ingestion and AI qualification pipeline using TypeSafe Jev System One.
+
+**Access:** Clone the [MIT source](https://github.com/SebassContreras/airtale) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Airtale guide](airtale.md) · [Source](https://github.com/SebassContreras/airtale)
+
 ### Apparite (jev2ui)
 
 `Open source` · `Free source build` · `BYOK`
