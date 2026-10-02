@@ -1344,6 +1344,16 @@ Private-by-default Gmail labeler: local policy asks TypeSafe Jev (or OpenAI/Anth
 
 [Full Inbox Triage guide](inbox-triage.md) · [Source](https://github.com/shimoverse/inbox-triage)
 
+### jev-crypto-scout
+
+`Open source` · `Free source build` · `BYOK`
+
+Crypto screening pipeline: quant signals from CoinGecko stay in code; TypeSafe Jev System One judges news for sentiment/catalyst/confirmed labels. Explicitly not a trading bot.
+
+**Access:** Clone the [MIT source](https://github.com/yasdelayu/jev-crypto-scout) and follow README/USAGE with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe and market-data usage are separate. Source inspected; live scout runs not executed on the review host.
+
+[Full jev-crypto-scout guide](jev-crypto-scout.md) · [Source](https://github.com/yasdelayu/jev-crypto-scout)
+
 ### jevelry
 
 `Open source` · `Free source build` · `BYOK`
