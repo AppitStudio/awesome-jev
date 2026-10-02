@@ -660,6 +660,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Advocaat](advocaat.md) | Batch typed Jev choice, score, and yes/no questions about structured data from TypeScript. | TypeScript · client library and agent skill |
 | [anofox-decide](anofox-decide.md) | Evaluate NL predicates/choices in DuckDB SQL via TypeSafe Jev or local open decision models (remote opt-in). | C++ · DuckDB extension (MIT) |
 | [ask-jev (Aether-254)](aether-254-ask-jev.md) | MCP + Codex/Claude plugin for TypeSafe Jev evaluate/batch/ping (Choice/Score/Noul). | TypeScript · MCP/plugin (MIT) |
+| [Backdrop AI Provider TypeSafe AI](backdrop-ai-provider-typesafeai.md) | Backdrop CMS AI module provider for TypeSafe System One decisions and moderation checks. | PHP · Backdrop module (GPL-2.0) |
 | [Camunda Jev AI Decision Connector](camunda-jev-ai-decision-connector.md) | Call TypeSafe Jev noul/choice/score from Camunda 8 BPMN for typed AI decisions over lists. | Java · Camunda 8 connector (Apache-2.0) |
 | [datafusion-jev](datafusion-jev.md) | DataFusion SQL `prompt_jev` UDF for typed TypeSafe Jev answers over row text (bring HTTP client). | Rust · DataFusion 55 crate (MIT OR Apache-2.0) |
 | [decide (vsekhar)](vsekhar-decide.md) | Ask TypeSafe Jev yes/no, choice, and scored decisions from the command line, scripts, and agent skills. | Go · brew CLI (Apache-2.0) |
