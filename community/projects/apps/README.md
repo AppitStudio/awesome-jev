@@ -622,6 +622,16 @@ One paste box that recognizes JSON, JWTs, cron, stack traces, colors, and more, 
 
 [Try Pastewise](https://pastewise.vercel.app) · [Full Pastewise guide](pastewise.md) · [Source](https://github.com/Nuu-maan/pastewise)
 
+### patrol-jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Upload patrol photos and get Korean patrol-log text (or HWPX). OpenAI reads the photo; TypeSafe Jev classifies the write-up into one of four branches; code owns bundling and formatting. Manual mode works without keys.
+
+**Access:** Clone the [MIT source](https://github.com/patrol-jev/patrol-jev) and run `npm install && npm run dev`, or try the limited [patrol.ai.kr](https://patrol.ai.kr) demo. No app purchase fee; OpenAI and TypeSafe usage are separate (BYOK). Photos stay local in manual mode. Source inspected; live UI not run on the review host.
+
+[Full patrol-jev guide](patrol-jev.md) · [Source](https://github.com/patrol-jev/patrol-jev)
+
 ### Preguntale a Jev
 
 `Source unverified` · `Free` · `BYOK`
