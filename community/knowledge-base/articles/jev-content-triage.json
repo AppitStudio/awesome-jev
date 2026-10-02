@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "jev-content-triage",
+  "slug": "jev-content-triage",
+  "title": "Build a Jev content triage gate",
+  "description": "Filter social posts before an LLM drafts replies: use typed Jev decisions, review uncertainty, save drafts once, and keep publishing under human control.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-02",
+  "modified_at": "2026-10-02",
+  "topics": [
+    "decision-gates",
+    "use-cases",
+    "calibration"
+  ],
+  "source": {
+    "title": "JEV: YOUR LLM’S SECOND BRAIN (Use Cases)",
+    "url": "https://x.com/thegreatest_sv/article/2102802378378621355",
+    "author": {
+      "name": "kiosa",
+      "url": "https://x.com/thegreatest_sv"
+    },
+    "published_at": "2026-09-23",
+    "accessed_at": "2026-10-02"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical review"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-content-triage.png",
+    "alt": "A social post passes through code eligibility, Jev draft triage, an LLM draft and a human review; only the human can authorize publishing",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/apps/jev-slop-guard.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Screen social-feed text before deciding what deserves attention",
+      "why": "Jev Slop Guard demonstrates bounded Choice classification and reversible feed labels on X and LinkedIn. It implements a screening step, not the article’s full content desk or drafting queue; kiosa does not name this repository.",
+      "evidence": [
+        "https://github.com/davertor/jev-slop-guard/blob/6b4557033caf547a4f885e0193bb30abd5e727a2/README.md",
+        "https://github.com/davertor/jev-slop-guard/blob/6b4557033caf547a4f885e0193bb30abd5e727a2/chrome-mv3/background.js",
+        "https://github.com/davertor/jev-slop-guard/blob/6b4557033caf547a4f885e0193bb30abd5e727a2/LICENSE"
+      ],
+      "limitations": "MIT, open source, free source build, BYOK Chrome extension. Live post text and author handles go to TypeSafe or OpenRouter and usage can be billed. It neither drafts nor provides a human approval queue. Its slop label is subjective, not proof of AI authorship; browser installation and live inference were not run for this guide."
+    }
+  ],
+  "verification": {
+    "source": "Read kiosa’s complete X article and code blocks through its final disclaimer in logged-in Chrome on 2026-10-02. Followed the linked TypeSafe account; chief.py links are bare filename autolinks, not a verified downloadable repository. Exact-title/author search did not establish an author republication. Source images were not reused. The linked official account’s 2026-09-28 post announced reopened signups; provisioning was not tested.",
+    "offline": "Installed typesafe-sdk 0.7.2 in a scratch Python 3.12 environment. Nine synthetic SystemOneResponse JSON cases checked the guide’s draft route, uncertainty, unknown choice, missing answer and invalid numeric values. Checked rejection of the source’s Score(labels=...), Noul field shape and HTTP/connection/timeout exception hierarchy. Inspected catalog and pinned upstream README, bundled classifier and MIT license. No live provider call.",
+    "live": "No live TypeSafe or gateway inference, extension installation, drafting model, queue consumer, X publishing, calibration study, measured billing or end-to-end speed test. Synthetic policy checks do not establish model quality or a completed integration.",
+    "review": "AI-assisted editorial review; no human reviewer recorded. Ahrefs opened at sign-in in Chrome, with no connector available, so plan eligibility and keyword volume/difficulty were not established. Search Console Web queries containing content had no data for 18–29 September 2026, checked 2 October across all countries. Candidate intents were Jev content triage, Jev social media filtering, Jev draft review gate and Jev viral post scoring. Current search results emphasize social scoring/filtering; chose draft triage to distinguish it from existing worker-router and project-idea guides. No demand metrics are claimed."
+  },
+  "faqs": [
+    {
+      "question": "How can Jev filter posts before an LLM drafts replies?",
+      "answer": "Send a bounded post and an editorial brief with a Choice over skip, short draft, full draft and human review. Code applies eligibility and uncertainty rules before a writing model runs, then saves any draft for a person to review."
+    },
+    {
+      "question": "Can Jev predict whether a post will go viral?",
+      "answer": "A rubric can rate supplied text for relevance, specificity or hook strength. That does not establish future reach, which also depends on the account, audience, timing and distribution. Evaluate the rubric on your own held-out posts."
+    },
+    {
+      "question": "Does Noul return a confidence field?",
+      "answer": "No. Noul returns the probability of yes in its noul field. Choice and Score have a separate confidence field. A Noul value near 0.5 signals ambiguity; threshold it directly according to the question and review policy."
+    },
+    {
+      "question": "Does a high-confidence draft route authorize posting to X?",
+      "answer": "No. A draft route only selects writing work. Publication requires a separate human decision on the exact saved draft, with the publishing credential and action outside the classifier and writer."
+    },
+    {
+      "question": "What should the content gate do when TypeSafe fails?",
+      "answer": "Save the candidate with a review status and the failure reason, or leave it pending for an existing reviewed fallback. Handle HTTP errors, connection failures, timeouts and missing or malformed answers; none is a skip verdict or permission to publish."
+    }
+  ]
+}
