@@ -249,8 +249,6 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 
 ### Developer projects and integrations
 
-The [independent model research](community/projects/tools/README.md#independent-model-research) category explores related typed-decision interfaces with other models. Their local inference uses those models, and they do not provide official Jev weights.
-
 - [adecider](https://github.com/Agents365-ai/adecider) - Typed System One decisions for coding agents: one call, many Noul/Choice/Score questions, pluggable local Laya / TypeSafe Jev / OpenAI-compatible backends. [Project guide](community/projects/tools/adecider.md).
 - [adk-go-typesafe](https://github.com/craigh33/adk-go-typesafe) - TypeSafe System One Go client and Google ADK-Go function tool (OpenAPI-generated types; Apache-2.0). [Project guide](community/projects/tools/adk-go-typesafe.md).
 - [Advocaat](https://github.com/pithings/advocaat) - TypeScript `ask` client that batches typed Jev choice, score, and yes/no questions about structured data, with optional Vercel AI Gateway support. [Project guide](community/projects/tools/advocaat.md).
@@ -407,6 +405,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [jear](https://github.com/iJ03l/jear) - Rust Jev-routed client for NEAR AI Cloud inference and IronClaw agents using budget/quality/sensitivity decisions. [Project guide](community/projects/tools/jear.md).
 - [Jeeves (PostHog)](https://github.com/PostHog/jeeves) - Open 9B Jev-like reasoning classifier (noul/choice/score) with a Jev-compatible API and training code; independent of TypeSafe-hosted Jev. [Project guide](community/projects/tools/posthog-jeeves.md).
 - [jegrep](https://github.com/can1357/jegrep) - Semantic grep CLI: describe code intent and get Jev-ranked matches via TypeSafe or OpenRouter, without an embedding index. [Project guide](community/projects/tools/jegrep.md).
+- [jev-doc-search](https://github.com/VectifyAI/jev-doc-search) - Find answering pages in long PDFs with TypeSafe Jev Choice over a PageIndex tree (no vector DB). [Project guide](community/projects/tools/jev-doc-search.md).
 - [jev-dotnet (CMaintz)](https://github.com/CMaintz/jev-dotnet) - Unofficial zero-dependency .NET client for TypeSafe Jev Choice/Score/Noul (distinct from ukashanoor/jev-dotnet). [Project guide](community/projects/tools/cmaintz-jev-dotnet.md).
 - [Jev for Claude Code (brookcs3)](https://github.com/brookcs3/jev--system-one-for-claude) - Unofficial Claude Code plugin exposing TypeSafe Jev typed judgments (noul/choice/score) plus corpus→eval loops. [Project guide](community/projects/tools/brookcs3-jev-system-one-for-claude.md).
 - [Jev Mode](https://github.com/tiffygk/jev-mode) - Claude Code skills and study course for building with TypeSafe Jev (PolyForm Noncommercial; not all skills call Jev). [Project guide](community/projects/tools/tiffygk-jev-mode.md).
@@ -998,6 +997,7 @@ The [independent model research](community/projects/tools/README.md#independent-
 - [Zerikai Memory](https://github.com/KikeVen/zerikai_memory) - Local code-memory MCP with TypeSafe Jev semantic judgment over retrieved snippets. [Project guide](community/projects/tools/zerikai-memory.md).
 - [ZeroAlloc.Jev](https://github.com/ZeroAlloc-Net/ZeroAlloc.Jev) - Unofficial .NET client for TypeSafe's Jev System One API — source-generated, Native AOT, allocation-conscious. [Project guide](community/projects/tools/zeroalloc-jev.md).
 - [zh-decision-bench](https://github.com/CodyQin/zh-decision-bench) - Chinese-language calibration benchmark for Jev-class System One decision models (dataset CC BY 4.0; code Apache-2.0), including Jev and NeoHorse arms. [Project guide](community/projects/tools/codyqin-zh-decision-bench.md).
+The [independent model research](community/projects/tools/README.md#independent-model-research) category explores related typed-decision interfaces with other models. Their local inference uses those models, and they do not provide official Jev weights.
 
 ## Computer and browser use
 
