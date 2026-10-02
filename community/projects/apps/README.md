@@ -270,6 +270,16 @@ Six local side-by-side TypeSafe Jev demos (router, triage, inbox, slop filter, t
 
 [Full Jev demos guide](jev-demos.md) · [Source](https://github.com/mayank953/Jev)
 
+### Jev demos (mani-aiml)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-contained Jev/System One demo folders (fetch-then-write, Laya-vs-Jev judge, prompt-injection gate) behind Agentic Enterprise videos.
+
+**Access:** Clone the [MIT source](https://github.com/mani-aiml/jev-demos) and follow each folder README. No app purchase fee; TypeSafe/Laya usage is separate. Distinct from [mayank953/Jev](https://github.com/mayank953/Jev). Source inspected; live demos not run on the review host.
+
+[Full Jev demos (mani-aiml) guide](mani-aiml-jev-demos.md) · [Source](https://github.com/mani-aiml/jev-demos)
+
 ### JEV Document Classification
 
 `Open source` · `Free source build` · `BYOK`
