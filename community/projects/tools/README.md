@@ -758,6 +758,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [TypeSafe.AI (.NET SDK)](typesafe-sdk-csharp.md) | Call System One from .NET with DI, resilience, and OTel (NuGet TypeSafe.AI; distinct from TypeSafeAI.Net). | C# · NuGet client (`TypeSafe.AI` v1.0.0) |
 | [typesafeai-cli](typesafeai-cli.md) | Run TypeSafe Jev ask/decide/screen/verify flows from a Python `typesafe` CLI for humans or agents. | Python · CLI (`typesafe`) |
 | [TypeSafeAI.Net](typesafeai-net.md) | Add typed Jev judgments to .NET applications and Microsoft.Extensions.AI pipelines. | C# · client library |
+| [wagtail-jev](wagtail-jev.md) | Wagtail CMS editor buttons: TypeSafe Jev suggests page tags and rates fields on custom scales. | Python · Wagtail/Django package (MIT) |
 | [ZeroAlloc.Jev](zeroalloc-jev.md) | Call TypeSafe Jev System One from .NET with a source-generated, Native AOT–friendly unofficial client. | .NET · library (MIT) |
 
 ## Search and retrieval
