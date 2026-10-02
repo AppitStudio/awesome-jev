@@ -606,6 +606,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [OpenDecider](opendecider.md) | Open System One choice/score/yes-no models with optional Jev-compatible `/v1/systemone` serve; independent of hosted Jev. | Python · HF weights + serve (Apache-2.0) |
 | [OpenJev-Cactus](siliconlabai-openjev-cactus.md) | Serve OpenAI-compatible chat + `/v1/systemone` typed decisions on CPU via cactus-needle (not TypeSafe-hosted). | Python · FastAPI edge server (MIT) |
 | [OpenJev (ejhshen)](ejhshen-openjev.md) | Study OpenJev-4B open-vocabulary probabilistic decisions from Qwen3.5-4B; independent of hosted Jev; distinct from lookski/openjev. | Python · HF OpenJev-4B + training (MIT) |
+| [openjev-server (abhishekgahlot2)](abhishekgahlot2-openjev-server.md) | Serve OpenJev-style choice/noul/score decisions from open models via vLLM or MLX (not TypeSafe-hosted). | Python · vLLM/MLX server (Apache-2.0) |
 | [Open Medical Jev](open-medical-jev.md) | Run Jev-class medical yes/no judgments from frozen open models with dual-reader fusion, auto-release gates, and conformal sets; compare vs hosted Jev. | Python · GGUF readers + routing recipes (MIT) |
 | [open-jev](open-jev.md) | Experiment with independent Kev and DeBERTa typed decisions locally in a browser; does not use official Jev weights. | TypeScript · npm library, Transformers.js / ONNX |
 | [OpenJev](openjev.md) | Local Jev-compatible typed decisions via masked-logit softmax (not TypeSafe-hosted) | Python · local decision engine (MIT) |
