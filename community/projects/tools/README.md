@@ -460,6 +460,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [PDF Race](pdf-race.md) | Race Docling→TypeSafe Jev vs Gemini on the same PDFs with committed keyless replays. | Node.js ≥ 20 · local/Vercel bench (`pdf-race` 1.0.0) |
 | [PerfectRecall](perfectrecall.md) | Hermes/Python agent memory: TypeSafe/OpenRouter Jev evidence questions over local SQLite (Mnemosyne-compatible; no embeddings). | Python · Hermes provider + library |
 | [Pi Adaptive Effort Router (XDeviation)](xdeviation-pi-jev-router.md) | Change Pi thinking level only with TypeSafe Jev (not the model); distinct from philippdubach pi-jev-router. | TypeScript · Pi extension (`pi-jev-router` 0.2.0, MIT) |
+| [pi-advisor](pi-advisor.md) | Configurable Advisor/Executor Pi flow with optional TypeSafe Jev consultation filter and turn gate. | TypeScript · Pi plugin (`pi-advisor-flow`, MIT) |
 | [pi-follow-through](pi-follow-through.md) | Nudge Pi after agent_settled only when TypeSafe Jev cites unfinished work above a probability threshold. | TypeScript · Pi extension (`pi-follow-through`) |
 | [pi-heed](pi-heed.md) | Enforce evolving conversational constraints on Pi tool calls; TypeSafe Jev classifies policy changes, code owns the ledger. | TypeScript · Pi extension (`pi-heed`) |
 | [pi-jev](pi-jev.md) | Add a Jev pre-tool gate, output judge, and jev_ask tool to the Pi coding agent (shadow mode default, fail-open). | TypeScript · Pi extension (npm) |
