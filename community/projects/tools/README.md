@@ -613,6 +613,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [lev (Abhinavexists)](lev.md) | Run an open Qwen3.5-4B LoRA System One model over `/v1/systemone` (independent of hosted Jev). | Python · model + harness (Apache-2.0) |
 | [Lichen](lichen.md) | Run a local `/v1/systemone` drop-in for typed choice/noul/score (incl. images) on open weights; independent of hosted Jev. | Python · local decision engine (MIT) |
 | [Malkuth](malkuth.md) | Multilingual open decision models (Choice/Noul/Score) via Kev. | Weights · research (Apache-2.0) |
+| [mcp-agent-openjev](christofmilius-mcp-agent-openjev.md) | Local OpenJev Choice/Noul/Score decision service for agents via MCP + CLI (LM Studio logprobs; not TypeSafe-hosted). | Python · MCP/CLI (MIT) |
 | [NanoJev](nanojev.md) | Study independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. | Python / PyTorch · model research and replay |
 | [OneJev](onejev.md) | Run a multimodal System One decision model (text/image/video → calibrated option probabilities); independent of hosted Jev; distinct from Jev-Omni/PlayJev. | Python / PyTorch · HF weights + System One–shaped API (Apache-2.0) |
 | [Open Alternative to Jev](open-alternative-jev.md) | Compare packed and separate typed decisions from open models and fit calibration on labeled data; not a Jev reproduction. | Python · Transformers/vLLM research library |
