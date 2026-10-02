@@ -814,6 +814,16 @@ OpenHarness desktop sheet pane: TypeSafe Jev answers typed `noul` / `choice` / `
 
 [Full Jev Sheets guide](jev-sheets.md) · [Source](https://github.com/autonomous-ai/openharness) · [Product homepage](https://harness.autonomous.ai/desktop)
 
+### JevDash
+
+`Open source` · `Free source build` · `BYOK`
+
+100% clean-room 2D platformer for benchmarking TypeSafe Jev in real-time control at 60 FPS. Mock decision engine works without keys; live path can use Vercel AI Gateway.
+
+**Access:** Clone the [MIT source](https://github.com/Sunwood-ai-labs/jevdash) and follow README (Pygame). Mock mode needs no key; live Jev/Gateway is BYOK. No app purchase fee. Docs: [jevdash site](https://sunwood-ai-labs.github.io/jevdash/). Source inspected; live gameplay not run on the Linux review host.
+
+[Full JevDash guide](jevdash.md) · [Source](https://github.com/Sunwood-ai-labs/jevdash)
+
 ### Modex
 
 `Open source` · `Free source build` · `BYOK`
