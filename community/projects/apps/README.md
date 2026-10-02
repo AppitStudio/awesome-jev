@@ -352,6 +352,16 @@ Name a dish or cocktail and watch ingredient stickers rise; maker states TypeSaf
 
 [Try Jev Kitchen](https://jev-kitchen.vercel.app/recipe) · [Full Jev Kitchen guide](jev-kitchen.md) · [Source](https://jev-kitchen.vercel.app)
 
+### Jev Lab (BrendanH18)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local interactive workbench with small demos showing TypeSafe Jev System One capabilities (playground + Workbench).
+
+**Access:** Clone the [MIT source](https://github.com/BrendanH18/jev-lab), `uv sync --locked`, and `uv run --locked server.py` on localhost:8321. No app purchase fee; TypeSafe usage is separate. Distinct from [jammaru/jev-lab](https://github.com/jammaru/jev-lab). Source inspected; live UI not run on the review host.
+
+[Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
