@@ -310,6 +310,16 @@ Local F1 race where TypeSafe Jev picks racing line and pedals; code steers, brak
 
 [Full Jev Grand Prix guide](jev-grand-prix.md) · [Source](https://github.com/enoyola/jev-grand-prix)
 
+### Jev Guess Who
+
+`Open source` · `Free source build` · `BYOK`
+
+Server-authoritative Guess Who (human vs TypeSafe Jev) with 24 original SVG portraits, local practice without credentials, and analytics hooks.
+
+**Access:** Clone the [MIT source](https://github.com/jevplays-games/jev-guess-who) (`npm start`, Node ≥22.13). Local practice works without credentials; live Jev needs your configured accounts. No app purchase fee; provider usage may incur charges. Source inspected; live Jev not run.
+
+[Full Jev Guess Who guide](jev-guess-who.md) · [Source](https://github.com/jevplays-games/jev-guess-who)
+
 ### Jev Inbox Queue
 
 `Open source` · `Free source build` · `BYOK`
