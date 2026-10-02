@@ -88,6 +88,16 @@ MIT derivative of Crush Monitor: WeChat-style affinity analysis UI with TypeSafe
 
 [Full Crush Monitor with Jev guide](crush-monitor-with-jev.md) · [Source](https://github.com/zhengge6/crush-monitor-with-jev)
 
+### Decision Lab
+
+`Open source` · `Free source build` · `BYOK`
+
+Local visual System One playground for building decisions, comparing Jev, OpenJEV, and Laya, and exploring what-if evidence changes.
+
+**Access:** Clone the [MIT source](https://github.com/Amine-LG/decision-lab); demos run without a key. Connect hosted Jev/OpenJEV or local Laya for live models. No app purchase fee; live providers may charge. Source inspected; live Jev not run.
+
+[Full Decision Lab guide](decision-lab.md) · [Source](https://github.com/Amine-LG/decision-lab)
+
 ### Doom or Bloom
 
 `Open source` · `Free` · `BYOK`
