@@ -160,6 +160,16 @@ Clinical documentation aid: as a doctor types or dictates, Hx opens the checklis
 
 [Full Hx guide](hx.md) · [Source](https://github.com/doitrous/hx) · [Product homepage](https://hx.semicoded.com)
 
+### IntentSQL
+
+`Open source` · `Free source build` · `BYOK`
+
+Local natural-language SQLite playground: inspectable semantic decisions, typed plans, deterministic SQL, and guarded writes via TypeSafe Jev / System One.
+
+**Access:** Clone the [MIT source](https://github.com/Amine-LG/IntentSQL) and run the local uvicorn app; bring a TypeSafe (or compatible) key for live Jev. No app purchase fee; provider usage may incur charges. Source inspected; live Jev not run.
+
+[Full IntentSQL guide](intentsql.md) · [Source](https://github.com/Amine-LG/IntentSQL)
+
 ### Jev 2048
 
 `Open source` · `Free` · `BYOK`
