@@ -432,6 +432,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevyoumean](jevyoumean.md) | Wrap any CLI so unknown subcommands get TypeSafe Jev intent-based "Did you mean?" suggestions from help text. | Go · CLI (`jym`) |
 | [JIS · PARALLELIZE](jis-parallelize.md) | Self-organising swarm: rules first; Jev for verify/adopt/dispute; LLM escalation on low confidence. | TypeScript · swarm harness (Apache-2.0) |
 | [JIT-JEV Context OS](jit-context.md) | Epistemic context runtime + TypeSafe Jev System 1 gate for tool-using coding agents | Python · context OS / gate (MIT) |
+| [jmc-jev-mcp](jmc-jev-mcp.md) | MCP server that judges JDK Flight Recorder recordings with TypeSafe Jev typed questions. | Java · MCP server (MIT) |
 | [JMP](jmp.md) | Local coding workspace: TypeSafe Jev picks the next tool action; DeepSeek/Codex/Bonsai supply arguments; OpenHands/MCP execute. | Python · desktop (pywebview) + CLI (MIT) |
 | [Juardrails](juardrails.md) | Manage TypeSafe Jev guardrail policies (YAML/UI), batch questions, apply rules via REST/CLI with audit. | Go · server + CLI (license unspecified at review) |
 | [Kassad](kassad.md) | Gate .NET LLM prompts/completions/tools/citations with TypeSafe Jev Allow/Flag/Review/Block verdicts. | C# · .NET library (Apache-2.0) |
