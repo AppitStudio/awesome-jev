@@ -96,6 +96,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | --- | --- | --- |
 | [adecider](adecider.md) | CLI/MCP/HTTP/pi surfaces for multi-question System One judgments (local Laya default; optional Jev). | TypeScript · CLI + MCP + HTTP + pi (MIT) |
 | [Agent Router](agent-router.md) | Quota-aware Herdr launcher: local eligibility then TypeSafe System One (Jev) picks agent/model/effort. | TypeScript · CLI (`@agent-router/router` 0.1.0) |
+| [Agent Stack](agent-stack.md) | Local multi-agent team stack (OpenRig + Claude/Codex) with TypeSafe Jev typed merge/assignment decisions. | JavaScript · local stack (license unspecified at tip) |
 | [agent-chaperone](agent-chaperone.md) | Calibrated MCP + hooks firewall: TypeSafe Jev screens tool calls/results with policy thresholds and a shadow log. | TypeScript · npm CLI (`agent-chaperone` 0.3.1, Apache-2.0) |
 | [agent-evals](agent-evals.md) | Deterministic agent eval harness: rule scorers plus optional calibrated TypeSafe Jev judge as a CI gate. | TypeScript · npm CLI (`agent-evals` 0.1.0) |
 | [agent-fastpath](agent-fastpath.md) | MCP decision layer: rules then TypeSafe Jev for ship/risk/triage/browser gates (files stay out of agent context). | TypeScript · npm CLI (`agent-fastpath` 0.2.0) |
