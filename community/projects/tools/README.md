@@ -432,6 +432,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Kassad](kassad.md) | Gate .NET LLM prompts/completions/tools/citations with TypeSafe Jev Allow/Flag/Review/Block verdicts. | C# · .NET library (Apache-2.0) |
 | [laya-packet-analyser](laya-packet-analyser.md) | Triage laptop packet alerts with detectors + local Laya System One judgments and a live dashboard. | Python · stdlib analyser + dashboard (MIT) |
 | [laya-skill](laya-skill.md) | Claude Code skill/plugin for local Laya or hosted TypeSafe Jev typed decisions (plus fine-tune helpers). | Claude Code skill/plugin (Apache-2.0) |
+| [Leash](leash.md) | Judge each coding-agent turn against un-lintable rules with TypeSafe Jev and a one-way debt ratchet. | TypeScript · CLI/npm (`leash`, MIT) |
 | [lintent](lintent.md) | Plain-language lint rules judged by TypeSafe Jev, scoped with tree-sitter. | Rust · CLI linter (MIT) |
 | [llmbridge](llmbridge.md) | OpenAI-compatible LLM gateway with L1 rules / L2 TypeSafe Jev / L3 fallback routing. | Python/FastAPI + Vue · gateway (Apache-2.0) |
 | [mayi](mayi.md) | Tool-call gate for Claude Code/Cursor/Codex: TypeSafe Jev scores each call; dialog on unsafe (fail-deny on errors). | Rust · CLI (`mayi` 0.1.0) |
