@@ -682,6 +682,16 @@ Research/demo web chatbot with no LLM in the loop: TypeSafe Jev picks every word
 
 [Try talktojev](https://talktojev.com) · [Full talktojev guide](talktojev.md) · [Source](https://github.com/xucian/talktojev)
 
+### Tavli
+
+`Open source` · `Free source build` · `BYOK`
+
+Play Tavli (Greek backgammon / Portes) against TypeSafe Jev via OpenRouter; includes a tutorial on building with typed decision models.
+
+**Access:** Try [tavli.dimi.diy](https://tavli.dimi.diy) or clone the [MIT source](https://github.com/DimisCodes/tavli). Live games need OpenRouter/TypeSafe access. No app purchase fee; provider usage may incur charges. Source inspected; live play not run on the review host.
+
+[Full Tavli guide](tavli.md) · [Source](https://github.com/DimisCodes/tavli)
+
 ### tg-crush
 
 `Open source` · `Free source build` · `BYOK`
