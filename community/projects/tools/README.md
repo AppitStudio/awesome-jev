@@ -728,6 +728,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [swift-jev](swift-jev.md) | Call TypeSafe Jev Choice/Noul/Score from SwiftPM apps or a JSON CLI (`jev`); no free-form generation. Distinct from TypeSafe (Swift). | Swift 6.2 · SwiftPM library (`Jev`) + CLI |
 | [sys1 (alvarobartt)](alvarobartt-sys1.md) | Serve open decision models (e.g. Laya) behind a System One–compatible `/v1/systemone` API in Rust. Distinct from hraness/sys1. | Rust · CLI/server (Apache-2.0) |
 | [System One Connector](system-one-connector.md) | MCP `evaluate` tool: typed Jev/Laya/System One judgments with probabilities for supported coding agents. | Go · static binary + MCP setup (MIT) |
+| [system-one (asynq-io)](asynq-io-system-one.md) | Vendor-neutral Python SDK for typed System One yes/no/choice/score (hosted or local ONNX). | Python · PyPI (`system-one`, Apache-2.0) |
 | [systemone (justintout)](systemone-justintout.md) | Unofficial Go System One/Jev client with compile-time typed questions (distinct from TypeSafe Go). | Go · module (`github.com/justintout/systemone`, MIT) |
 | [taurus-jev-sdk-go](taurus-jev-sdk-go.md) | Hard-failing stdlib Go System One client (unofficial). | Go · library (MIT) |
 | [typesafe-go (zhirschtritt)](zhirschtritt-typesafe-go.md) | Call TypeSafe System One from Go with an idiomatic unofficial SDK (≠ stacklok/typesafe-go). | Go · module (`github.com/zhirschtritt/typesafe-go`, MIT) |
