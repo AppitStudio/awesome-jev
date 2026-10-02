@@ -103,8 +103,6 @@ Checks are tied to reviewed versions; see each page and the [validation scope](d
 
 ### Apps powered by Jev
 
-Applications with a user-facing workflow powered in part or entirely by Jev. The [full app directory](community/projects/apps/README.md) shows platforms, access requirements, and Jev's specific role. [Tags](community/APP_TAGS.md) distinguish source access from pricing; commercial and closed-source apps can qualify. Makers are welcome to [submit their own apps](CONTRIBUTING.md#list-a-jev-powered-app).
-
 - [Airtale](https://github.com/SebassContreras/airtale) - `Open source` · `Free source build` · `BYOK`. Inbound lead ingestion and AI qualification pipeline using TypeSafe Jev System One. [Project guide](community/projects/apps/airtale.md).
 - [Apparite (jev2ui)](https://github.com/dglazkov/jev2ui) - `Open source` · `Free source build` · `BYOK`. Local design-mock lab: TypeSafe Jev chooses IA/anatomy; Gemini writes copy; code assembles A2UI-inspired mocks. [Project guide](community/projects/apps/jev2ui.md).
 - [1 Million Emojis](https://github.com/cwdx/1-million-emojis) - `Open source` · `Free` · `BYOK`. Shared million-emoji canvas where TypeSafe Jev paints alongside humans from stroke context. [Try app](https://chriswijnia.com/lab/emoji) · [Project guide](community/projects/apps/1-million-emojis.md).
@@ -215,6 +213,7 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 - [PageGrade](https://github.com/kitze/pagegrade) - `Open source` · `Free source build` · `BYOK`. Chrome extension that grades page sections for clarity, writing, and on-page SEO with TypeSafe Jev via Vercel AI Gateway. [Project guide](community/projects/apps/pagegrade.md).
 - [Paper Radar](https://github.com/Eliot5566/JEV-Paper-Radar) - `Open source` · `Free source build` · `BYOK`. Daily arXiv radar: TypeSafe Jev judges new papers against plain-English interests; GitHub Pages + RSS digests. [Project guide](community/projects/apps/paper-radar.md).
 - [Pastewise](https://github.com/Nuu-maan/pastewise) - `Source unverified` · `Free` · `BYOK`. One paste box morphs into JSON/JWT/cron/stack/color tools; TypeSafe Jev classifies ambiguous pastes (offline heuristic by default; live demo). [Try app](https://pastewise.vercel.app) · [Project guide](community/projects/apps/pastewise.md).
+- [patrol-jev](https://github.com/patrol-jev/patrol-jev) - `Open source` · `Free source build` · `BYOK`. Photo-to-patrol-log web app: OpenAI describes photos; TypeSafe Jev classifies the write-up. [Project guide](community/projects/apps/patrol-jev.md).
 - [Polymorph](https://github.com/moomooskycow/polymorph) - `Open source` · `Free source build` · `BYOK`. Chrome extension that collapses posts matching English rules judged by TypeSafe Jev via OpenRouter Decisions; replace with your media or restore. [Project guide](community/projects/apps/polymorph.md).
 - [Preguntale a Jev](https://github.com/dariozfold6-wez2/JEV-CHAT) - `Source unverified` · `Free` · `BYOK`. No-login yes/no chat: TypeSafe Jev Choice probabilities via Vercel AI Gateway (Spanish UI). [Try app](https://jev-chat-ten.vercel.app) · [Project guide](community/projects/apps/preguntale-a-jev.md).
 - [QuantDinger](https://github.com/OpenByteInc/QuantDinger) - `Open source` · `Free source build` · `BYOK`. Self-hosted AI trading OS with optional TypeSafe Jev pre-trade entry gates; hosted app also available. [Product](https://www.quantdinger.com) · [Try app](https://ai.quantdinger.com) · [Project guide](community/projects/apps/quantdinger.md).
@@ -246,6 +245,7 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 - [Vicaura](https://vicaura.com) - `Closed source` · `Pricing unverified`. Hosted product-to-markdown tool: extract features, ICP, messaging, and pricing strategy into md for coding agents (vendor: powered by Jev). [Project guide](community/projects/apps/vicaura.md).
 - [Watermelon](https://github.com/shashwatc12/watermelon) - `Open source` · `Free source build` · `BYOK`. Status-update honesty auditor: TypeSafe Jev judges language while code parses slip signals; live demo available. [Try app](https://watermelon.shashwatchavan.com) · [Project guide](community/projects/apps/watermelon.md).
 - [Xtags](https://github.com/manifoldor/xtags) - `Open source` · `Free source build` · `BYOK`. Chrome extension/userscript that tags X posts with TypeSafe Jev intent and risk signals for personal local browsing. [Project guide](community/projects/apps/xtags.md).
+Applications with a user-facing workflow powered in part or entirely by Jev. The [full app directory](community/projects/apps/README.md) shows platforms, access requirements, and Jev's specific role. [Tags](community/APP_TAGS.md) distinguish source access from pricing; commercial and closed-source apps can qualify. Makers are welcome to [submit their own apps](CONTRIBUTING.md#list-a-jev-powered-app).
 
 ### Developer projects and integrations
 
