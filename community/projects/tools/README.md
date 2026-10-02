@@ -120,6 +120,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [catherd](47vigen-catherd.md) | Autopilot coding-agent herds where TypeSafe Jev picks which model writes while Claude plans/verifies. | TypeScript · orchestrator (MIT) |
 | [chinese-workflow-decision-bench](chinese-workflow-decision-bench.md) | Benchmark Feishu-style Chinese message triage with frozen Choice/four-Noul tracks and published Jev vs Laya results. | Python · bench harness + adapters |
 | [claude-referee](claude-referee.md) | Gate risky Claude Code tool actions with TypeSafe Jev referee judgments. | TypeScript · Claude Code plugin (MIT) |
+| [claude-risk-router](claude-risk-router.md) | Route Claude Code tasks across Opus/Sonnet/Haiku using TypeSafe Jev risk judgments. | Python · Claude Code add-on (MIT) |
 | [Claude x Jev](claude-x-jev.md) | Claude Code skill: Jev classify/route/gate via OpenRouter; Claude deep-reads only unsure items. | Python/npm · Claude Code skill (`claude-x-jev`, MIT) |
 | [claude-code-jev](claude-code-jev.md) | Claude Code PreToolUse gate: TypeSafe Jev via OpenRouter Decisions classifies allow/block/ask with fixture benchmarks. | Python · CLI/hook (`jev-auto-mode` 0.1.0) |
 | [claude-jev (darwintechlab)](darwintechlab-claude-jev.md) | Claude Code plugin/MCP: live TypeSafe Jev Choice/Noul/Score with auto/escalate confidence labels. | TypeScript · Claude plugin/MCP (MIT) |
