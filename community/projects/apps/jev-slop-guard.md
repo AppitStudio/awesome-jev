@@ -51,3 +51,9 @@ Feed text leaves the browser to TypeSafe when scoring. Platform DOM changes can 
 Reviewed **2026-09-24** (Europe/Sofia) at [commit 6b45570](https://github.com/davertor/jev-slop-guard/tree/6b4557033caf547a4f885e0193bb30abd5e727a2). AI-assisted README and source inspection; live provider calls not run on the review host.
 
 Related: [LinkedIn Slop Filter](jev-linkedin-slop-filter.md), [Jev Content Guard](jev-content-guard.md), [JevSlop](jevslop.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Build a Jev content triage gate](../../knowledge-base/articles/jev-content-triage.md) — Independently suggested by JevList; not an endorsement by kiosa. Screen social-feed text before deciding what deserves attention.
+<!-- knowledge:backlinks:end -->

@@ -1,5 +1,22 @@
 {
   "schema_version": 1,
-  "articles": ["building-a-jev-agent-harness", "jev-decision-gate", "jev-use-cases", "jev-api-cost-setup", "jev-project-ideas", "jev-decision-audit", "jev-agent-triage-desk", "jev-bot-budget", "jev-claude-code-hooks", "jev-devops-decisions", "jev-agent-loops", "jev-system-one-first-pilot", "jev-kimi-confidence-cascade", "jev-agent-worker-router", "jev-batch-agent-review"],
+  "articles": [
+    "building-a-jev-agent-harness",
+    "jev-decision-gate",
+    "jev-use-cases",
+    "jev-api-cost-setup",
+    "jev-project-ideas",
+    "jev-decision-audit",
+    "jev-agent-triage-desk",
+    "jev-bot-budget",
+    "jev-claude-code-hooks",
+    "jev-devops-decisions",
+    "jev-agent-loops",
+    "jev-system-one-first-pilot",
+    "jev-kimi-confidence-cascade",
+    "jev-agent-worker-router",
+    "jev-batch-agent-review",
+    "jev-content-triage"
+  ],
   "retire_all": false
 }
