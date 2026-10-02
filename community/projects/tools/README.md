@@ -398,6 +398,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevface](jevface.md) | Typed judgments for Java: declare questions as an interface and let Jev answer them. | Java · interface client (Apache-2.0) |
 | [JevFlow](parth1811-jevflow.md) | Claude Code plugin that keeps agents honest: plans as phases with checks; when Claude tries to stop, JevFlow asks… | Python · Claude Code plugin (MIT) |
 | [jevgate (craxrev)](craxrev-jevgate.md) | Claude Code Bash/Write gate from Jev risk facts with allow/ask/deny rules. | TypeScript · Claude Code plugin (MIT) |
+| [JevGate (RichieLoco)](richieloco-jevgate.md) | Pure-MQL5 MetaTrader 5 module that vetoes EA trades using TypeSafe Jev calibrated judgments (≠ Claude Code jevgate). | MQL5 · MT5 include (MIT) |
 | [JevGuard](jevguard.md) | Enforce CLAUDE.md/AGENTS.md-derived rules on Claude Code/Codex via TypeSafe Jev PreToolUse/Stop hooks (distinct from jev-guard risk firewall). | TypeScript · Claude/Codex plugin (`jevguard` 0.1.0) |
 | [JevGuard (blacksinisterx)](blacksinisterx-jev-guard.md) | Hard-rule prefilter then Jev allow/review/block between agent and tools (mock-first). | TypeScript/Python · FastAPI + Vite demo (no LICENSE) |
 | [jevkit](jevkit.md) | Ask TypeSafe Jev from a Rust CLI and lint question sets offline before spending on inference. | Rust · CLI (`jevkit` 0.3.0, rustc ≥ 1.88) |
