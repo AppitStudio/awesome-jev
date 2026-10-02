@@ -206,6 +206,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-answers](jev-answers.md) | Ask TypeSafe Jev about files via MCP/CLI and keep each request's raw answer in a session folder. | TypeScript · MCP + CLI (MIT) |
 | [jev-cc-codex-router](jev-cc-codex-router.md) | Route each Codex turn via TypeSafe Jev tier choice, rewrite the model, and retry flaky upstream errors. | TypeScript · Codex proxy (MIT) |
 | [jev-cops](jev-cops.md) | Police coding-agent tool calls in context with graduated allow/annotate/rewrite/hold/deny/kill verdicts; optional Jev semantic judge. | TypeScript/Bun · npm (`jev-cops`, Apache-2.0) |
+| [jev-decision-kit (kdcadmin)](kdcadmin-jev-decision-kit.md) | Local skill/plugin cabinet: an on-device Jev head selects which skills to preface before the chat model speaks (≠ DecisionKit .NET). | Python · local web + host hooks (MIT) |
 | [jev-dotnet](jev-dotnet.md) | Unofficial typed C# client for the Jev System One API (Choice/Score/Noul). | C# · .NET client (MIT) |
 | [Jev for Claude Code (brookcs3)](brookcs3-jev-system-one-for-claude.md) | Use TypeSafe Jev as a Claude Code tool for typed judgments and corpus→eval loops (unofficial). | Claude Code plugin (MIT) |
 | [jev-gateway-bench](jev-gateway-bench.md) | Compare coding-agent cost/quality with jev-gateway Jev routing on vs off on chess-engine tasks. | JavaScript · bench harness (MIT) |
