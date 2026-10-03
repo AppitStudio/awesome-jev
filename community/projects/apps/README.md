@@ -130,6 +130,16 @@ Hosted natural-language API discovery: product copy states Jev searches about 1,
 
 [Try Find the Right API](https://www.findtherightapi.com/) · [Full Find the Right API guide](find-the-right-api.md) · [Source](https://www.findtherightapi.com/)
 
+### Fly x Jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser demo: MaleCNS fruit-fly connectome robot where TypeSafe Jev picks which descending neuron fires next.
+
+**Access:** Clone the [MIT source](https://github.com/pasangimhana/fly-x-jev) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Fly x Jev guide](fly-x-jev.md) · [Source](https://github.com/pasangimhana/fly-x-jev)
+
 ### Fotocopiatrice
 
 `Open source` · `Free source build` · `BYOK`
