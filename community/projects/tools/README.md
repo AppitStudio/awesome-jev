@@ -164,6 +164,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dsh-jev-plugin (luobosibing2)](luobosibing2-dsh-jev-plugin.md) | DeepSeek Harness: TypeSafe Jev for skill/file ranking, supervision, corrections, and workspace approvals (distinct from other dsh-jev*). | JavaScript · DSH Cordis plugin (MIT) |
 | [dsh-jev-prune](dsh-jev-prune.md) | Replace DSH size-only pruning and model summaries with TypeSafe Jev keep/drop judgments plus deterministic receipts. | JavaScript · DSH plugin (`dsh-jev-prune` 0.1.0) |
 | [dsh-jev-verify](dsh-jev-verify.md) | Call TypeSafe Jev choice/score/noul from DSH and run a live labeled verification benchmark (honest, no mock mode). | JavaScript · DSH plugin (`dsh-jev-verify` 0.1.0) |
+| [dsh-plugin-jev-compaction](dsh-plugin-jev-compaction.md) | Compact DSH context by Jev relevance scores instead of age; pin constraints/tracebacks; fall open to stock on endpoint failure. | TypeScript · DSH plugin / npm (MIT) |
 | [DuoMind](duomind.md) | OpenAI-compatible local LLM proxy: small local model generates; TypeSafe Jev makes System One decisions along the way. | Python · llama.cpp local server + TypeSafe Jev (MIT) |
 | [Eutrya](eutrya.md) | Run a CLI agent loop where TypeSafe Jev picks attention modes and scores candidates; text model proposes; offline demo included (alpha). | Node.js · CLI (`eutrya` 0.4.9) |
 | [evidence-referee](evidence-referee.md) | Evidence-over-eloquence Claude Code plugin: Jev done-gates and judgment receipts (≠ claude-referee). | Claude Code plugin (MIT) |
