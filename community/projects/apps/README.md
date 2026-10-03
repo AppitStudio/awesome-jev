@@ -1162,6 +1162,16 @@ Chrome extension that reorders Gmail’s list: unread first, critical on top, wi
 
 [Full Jev Inbox guide](jev-inbox.md) · [Source](https://github.com/iamomiid/jev-inbox)
 
+### Jev Review (Gmail)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that grades Gmail compose/reply text with TypeSafe Jev on configurable criteria and tracks which questions from the other person's email remain unanswered.
+
+**Access:** Load unpacked from the [MIT source](https://github.com/petrzpav/jev-review) in chrome://extensions; paste a TypeSafe key in options. No app purchase fee; TypeSafe usage billed separately. Source inspected; live Gmail grading not run on the review host.
+
+[Full Jev Review (Gmail) guide](petrzpav-jev-review.md) · [Source](https://github.com/petrzpav/jev-review)
+
 ### Jev Slop Guard
 
 `Open source` · `Free source build` · `BYOK`
