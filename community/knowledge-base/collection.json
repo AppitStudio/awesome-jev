@@ -17,7 +17,8 @@
     "jev-agent-worker-router",
     "jev-batch-agent-review",
     "jev-content-triage",
-    "jev-text-to-columns"
+    "jev-text-to-columns",
+    "jev-python-first-request"
   ],
   "retire_all": false
 }

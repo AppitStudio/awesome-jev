@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "jev-python-first-request",
+  "slug": "jev-python-first-request",
+  "title": "Jev Python SDK: install and inspect your first request",
+  "description": "Install the Jev Python SDK, inspect Choice, Score and Noul in one support-ticket request, and test missing answers, timeouts and version changes offline.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-03",
+  "modified_at": "2026-10-03",
+  "topics": [
+    "decision-gates",
+    "calibration"
+  ],
+  "source": {
+    "title": "Jev: $0.042 per 1M tokens, zero words written. The full setup guide",
+    "url": "https://x.com/0xMoysei/article/2102828260996362471",
+    "author": {
+      "name": "Moysei",
+      "url": "https://x.com/0xMoysei"
+    },
+    "published_at": "2026-09-23",
+    "accessed_at": "2026-10-03"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and offline technical verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/wellposed.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Lint the first request before enabling provider inference",
+      "why": "The inspected structural module checks Choice escape options, question shape and state references locally without a model request. It fits the article\u2019s focused-question setup advice but is not named by Moysei.",
+      "evidence": [
+        "https://github.com/suraj-phanindra/wellposed/blob/86e6f8cb17e464eab33dcf44a0015fdb616b1fc2/README.md",
+        "https://github.com/suraj-phanindra/wellposed/blob/86e6f8cb17e464eab33dcf44a0015fdb616b1fc2/skills/wellposed/scripts/structural.mjs",
+        "https://github.com/suraj-phanindra/wellposed/blob/86e6f8cb17e464eab33dcf44a0015fdb616b1fc2/LICENSE"
+      ],
+      "limitations": "MIT 0.4.0, Node 18+. Structural module returned zero findings for this guide\u2019s request. Its heuristics do not prove judgment quality; optional semantic evaluations send data to TypeSafe and can incur charges."
+    },
+    {
+      "kind": "resource",
+      "path": "projects/support-router/README.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Move from inspecting one answer to studying a recorded review queue",
+      "why": "Repository-owned Python example separates a Choice and Noul from routing policy and writes exact request/response records and a human-review queue. It is a later teaching step, not the three-question SDK implementation below.",
+      "evidence": [
+        "projects/support-router/README.md",
+        "projects/support-router/run.py"
+      ],
+      "limitations": "MIT repository resource, not a community Project record. The six authored fixtures produced three suggestions and three review entries with zero errors. Live mode sends ticket messages to TypeSafe and can incur charges."
+    }
+  ],
+  "verification": {
+    "source": "Read all 15 sections and code blocks in logged-in Chrome on 2026-10-03. The body exposed only a TypeSafe console link, no outbound post/project identities for its unnamed benchmark examples. Author profile and exact-title/phrase web searches found no verified republication. Source cover not reused.",
+    "offline": "Installed typesafe-sdk 0.7.2 in a scratch Python 3.12 environment. Executed the guide\u2019s fixture and eight failure cases covering missing typed answers, unexpected model/label, SDK, connection and timeout errors. Pinned wellposed structural lint returned zero findings; Support Router six-fixture demo returned three suggestions, three review and zero errors. No provider request.",
+    "live": "No TypeSafe or gateway request, account provisioning, billed token overhead, model accuracy, calibration or latency measured. Source performance and adoption figures are not reproduced.",
+    "review": "AI-assisted review against full source, current official TypeSafe documentation and pinned catalog source; no human reviewer recorded. Ahrefs Chrome was at sign-in, so plan entitlement and keyword metrics were unavailable. Search Console Web report through 2026-09-29 showed jev install (0 clicks, 24 impressions) and jev sdk (0 clicks, 6 impressions) among the first 500 rows, all countries. Title and FAQs chosen by setup reader intent and existing-guide comparison, not estimated demand."
+  },
+  "faqs": [
+    {
+      "question": "How do I install the Jev Python SDK?",
+      "answer": "Use Python 3.10 or newer and install typesafe-sdk in an isolated environment. This guide checks version 0.7.2. Import typesafe_sdk, and supply a TypeSafe key through TYPESAFE_API_KEY only when you explicitly enable a live request."
+    },
+    {
+      "question": "How do I read Choice, Score and Noul answers?",
+      "answer": "Read result.choices[name].choice, result.scores[name].score and result.nouls[name].noul. Choice and Score also have confidence and probability distributions. Noul has a yes probability without a separate confidence field; a Score can fall between rubric levels."
+    },
+    {
+      "question": "Can I test the Jev SDK without an API key?",
+      "answer": "Yes. Construct authored SystemOneResponse fixtures and test response handling locally. This checks your program and SDK compatibility, not Jev accuracy, latency or billing. A real model request needs provider access and can incur charges."
+    },
+    {
+      "question": "Why should my Choice include an other option?",
+      "answer": "A closed set forces a selection even when none of its categories fits. Add an explicit other or no-match option and retain it for review. A high confidence value cannot repair a missing category."
+    },
+    {
+      "question": "Does a valid Jev response mean I can act on it?",
+      "answer": "No. Typed output establishes its shape, not semantic correctness or permission. Inspect raw answers, evaluate a local policy on labeled cases, and keep authorization and ticket changes in deterministic code."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-python-first-request.png",
+    "alt": "Diagram showing a synthetic ticket, three typed Jev questions, raw answers and a local inspection or review record, with live provider calls explicitly enabled",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

@@ -53,4 +53,5 @@ Related: [jev-calibrate](jev-calibrate.md), [riff](riff.md), [japanese-jev-lint]
 ## Knowledge guides
 
 - [Jev setup guide: batch questions to cut API costs](../../knowledge-base/articles/jev-api-cost-setup.md) — Independently suggested by JevList; not an endorsement by darkzodchi. Lint the request for a missing escape option, unused state and single-question calls before paying for it.
+- [Jev Python SDK: install and inspect your first request](../../knowledge-base/articles/jev-python-first-request.md) — Independently suggested by JevList; not an endorsement by Moysei. Lint the first request before enabling provider inference.
 <!-- knowledge:backlinks:end -->
