@@ -48,3 +48,9 @@ Row text and constructed states leave the machine on live Jev paths. Upstream is
 Reviewed on **2026-09-20** at [commit 45f3862](https://github.com/EugeneBoondock/jevsql/tree/45f3862f679c064e371a800c2fcc0c5b8b90c6c6): `jevsql` **0.1.0**, MIT. AI-assisted source review of client/engine/control-plane modules, README, and license. On Node.js 24.8.0, **`npm test`: 400 passed, 2 skipped**. No live TypeSafe calls or external database migrations were performed.
 
 Related: [pg-jev](pg-jev.md), [pg_typesafe](pg-typesafe.md), [llama-index-jev](llama-index-jev.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Turn text into SQL decision columns with Jev](../../knowledge-base/articles/jev-text-to-columns.md) — Mentioned in the source article. Materialize bounded semantic judgments as SQLite decision columns.
+<!-- knowledge:backlinks:end -->
