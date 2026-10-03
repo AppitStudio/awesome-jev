@@ -213,6 +213,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-dotnet](jev-dotnet.md) | Unofficial typed C# client for the Jev System One API (Choice/Score/Noul). | C# · .NET client (MIT) |
 | [Jev for Claude Code (brookcs3)](brookcs3-jev-system-one-for-claude.md) | Use TypeSafe Jev as a Claude Code tool for typed judgments and corpus→eval loops (unofficial). | Claude Code plugin (MIT) |
 | [jev-gateway-bench](jev-gateway-bench.md) | Compare coding-agent cost/quality with jev-gateway Jev routing on vs off on chess-engine tasks. | JavaScript · bench harness (MIT) |
+| [jev-gateway (TexasOct)](texasoct-jev-gateway.md) | Route OpenAI-compatible chat across providers with strategies and optional typed Choice decision providers (AGPL). | Python 3.12+ · gateway + dashboard (AGPL-3.0) |
 | [jev-herdr](jev-herdr.md) | Spawn Claude Code agents in Herdr with TypeSafe Jev choosing model and effort per agent. | TypeScript · Herdr integration (MIT) |
 | [jev-llm-guard](jev-llm-guard.md) | Guard LLM inputs/outputs against OWASP LLM risks with TypeSafe Jev judgments (Turkish demo). | TypeScript · web demo (MIT) |
 | [Jev Mode](tiffygk-jev-mode.md) | Claude Code skills/study course for building with TypeSafe Jev (PolyForm Noncommercial; commercial use restricted). | Claude Code skills (PolyForm Noncommercial 1.0.0) |
