@@ -587,6 +587,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Bongard](bongard.md) | Run Bongard open System One judgments (parallel typed questions → probabilities); independent of hosted Jev. | Python · HF weights + inference (Apache-2.0) |
 | [Brier](brier.md) | Run a local MLX Jev-format choice/score/noul decision model (PT-BR training focus) on Apple Silicon. | Python · MLX LoRA decision model (Apache-2.0) |
 | [calfram-bench](calfram-bench.md) | Calibration audit of TypeSafe Jev on 25 public benchmarks with CalFram (code + paper). | Python · research harness (MIT) |
+| [Chinese-Jev](gulucaptain-chinese-jev.md) | Build/fine-tune Chinese typed-decision models with the Chinese-Jev pipeline and CJ-Bench (weights release pending; independent of hosted Jev). | Python · research pipeline (Apache-2.0) |
 | [codegraph-jev](codegraph-jev.md) | Benchmarks BM25/embeddings/call-graph + Jev judge against a coding agent on code-reading tasks. | Python research harness · TypeSafe Jev (MIT) |
 | [Decis](chaitin-decis.md) | Self-host a Jev-compatible `/v1/systemone` API with open Laya/kev engines in Docker (independent of hosted Jev). | Python · Docker inference server (Apache-2.0) |
 | [Decision Index (apolinario)](apolinario-decision-index.md) | Reproduce the Decision Index typed-decision benchmark suite locally or as one Hugging Face Job (not affiliated with TypeSafe). | Python · Decision Index kit + HF Jobs (MIT) |
