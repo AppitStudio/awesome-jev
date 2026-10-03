@@ -498,6 +498,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-warden](pi-warden.md) | Add configurable action holds, project-rule feedback and context checks to Pi using local policy and Jev judgments. | TypeScript · Pi extension |
 | [plain-language-gate](plain-language-gate.md) | Jev plain-language readability gate (six checks → pass/review/rewrite) for agent writing. | Python · skill/CLI (MIT) |
 | [playwright-jev](criguex-playwright-jev.md) | Assert UI meaning with Jev Noul/Choice/Score helpers that fail closed on ambiguity, missing keys, or timeouts. | TypeScript · `@playwright/test` ≥ 1.45 · Node ≥ 20 |
+| [playwright-jev (AdriaanVE)](adriaanve-playwright-jev.md) | Use TypeSafe Jev in Playwright for failure triage, retries, healer gating, snapshot pruning, locator healing, and test ordering. | TypeScript · Playwright helpers (MIT) |
 | [prompt2jev](prompt2jev.md) | Convert natural language, an LLM prompt, or prompt-running code into a TypeSafe Jev decision package. | Python · agent skill + stdlib CLI |
 | [pytest-jev](pytest-jev.md) | Semantic pytest assertions (holds/lacks/choice/score) judged by TypeSafe Jev via typesafe-sdk. | Python · pytest plugin (`pytest-jev` 0.1.0) |
 | [Qualixar Jev Decision Layer](qualixar-jev-decision-layer.md) | Route bounded task/tool/skill/review choices through TypeSafe Jev (optional Laya) via one MCP server shared across five hosts. | Python · MCP plugin (`qualixar-jev-decision-layer` 1.0.7, MIT) |
