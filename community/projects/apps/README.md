@@ -1152,6 +1152,16 @@ Local Chrome MV3 extension that asks TypeSafe Jev whether heuristically selected
 
 [Full Jev Focus Guard guide](jev-focus-guard.md) · [Source](https://github.com/tx-smitht/jev-focus-guard)
 
+### Jev Form Fill
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that matches clipboard/source text to form fields with TypeSafe Jev, lets you review proposals, fill selected fields in page order, read back values, and undo—you submit the form yourself.
+
+**Access:** Load unpacked from the [MIT source](https://github.com/takasek/jev-form-fill) (Chrome 116+). Bring a TypeSafe API key in the popup. No app purchase fee; TypeSafe usage billed separately. Source inspected; live form fills not run on the review host.
+
+[Full Jev Form Fill guide](jev-form-fill.md) · [Source](https://github.com/takasek/jev-form-fill)
+
 ### Jev Investment Forecast (jev-investment-forecast)
 
 `Open source` · `Free source build` · `BYOK`
