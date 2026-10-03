@@ -326,6 +326,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-playwright (arthurfiorette)](arthurfiorette-jev-playwright.md) | Jev-powered Playwright test selection from changed files. | TypeScript · Playwright (MIT) |
 | [jev-pr-judge](jev-pr-judge.md) | Typed PR verdicts with one parallel TypeSafe Jev call, TypeScript policy, Next.js UI, and GitHub Action sticky comments. | TypeScript · Next.js app and Action |
 | [jev-pr-profiler](jev-pr-profiler.md) | GitHub Action: TypeSafe Jev PR risk profile + review-depth outputs (never merges alone). | TypeScript · GitHub Action (MIT) |
+| [jev-pr-quality](jev-pr-quality.md) | Add TypeSafe Jev-assisted PR review comments/checks and a RawTree multi-repo quality dashboard. | GitHub Action + dashboard (Apache-2.0) |
 | [jev-pref](jev-pref.md) | Turn AGENTS.md preferences into a TypeSafe Jev semantic linter for coding-agent diffs (setup/review/tune + Action). | TypeScript · npm (`jev-pref` 0.4.1) |
 | [jev-preflight](jev-preflight.md) | Score eight risk axes on a Claude Code turn diff with one TypeSafe Jev request; optional assist reinspection. | Go · Claude Code plugin (v0.1.0) |
 | [jev-project-context](jev-project-context.md) | Keep evidence-first experiment memory for coding agents; optional TypeSafe Jev triage on doctor/context loads. | Agent skill + stdlib Python scripts |
