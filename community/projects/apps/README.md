@@ -402,6 +402,16 @@ Local interactive workbench with small demos showing TypeSafe Jev System One cap
 
 [Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
 
+### jev-leads
+
+`Open source` · `Free source build` · `BYOK`
+
+Multi-channel inbound lead intake (web/WhatsApp/Telegram/webhooks) buffered in SQLite WAL, qualified by OpenRouter typesafe/jev-1.13 structured decisions, then synced to Airtable with hot-reloadable per-channel configs.
+
+**Access:** Clone the [MIT source](https://github.com/SebassContreras/jev-leads) and follow upstream setup (Node 24 LTS / Hono). Bring OpenRouter and Airtable credentials. No app purchase fee; provider usage is separate. Source inspected; live intake/inference not run on the review host.
+
+[Full jev-leads guide](jev-leads.md) · [Source](https://github.com/SebassContreras/jev-leads)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
