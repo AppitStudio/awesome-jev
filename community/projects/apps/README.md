@@ -712,6 +712,16 @@ Resume screening: LLM writes questions; TypeSafe Jev System One classifies answe
 
 [Full Resurface guide](resurface.md) · [Source](https://github.com/dolevhayut/resurface)
 
+### say-hi
+
+`Open source` · `Free source build` · `BYOK`
+
+Educational demo where TypeSafe Jev (jev-1.13.0) types every reply one key at a time by choosing among keyboard options, with cost/keystroke caps and a live request inspector.
+
+**Access:** Clone the [AGPL-3.0 source](https://github.com/huemorgan2/say-hi), `npm install`, set `TYPESAFE_API_KEY`, `npm start` ([localhost:4317](http://localhost:4317)). No app purchase fee; TypeSafe usage billed separately. Source inspected; live chat not run on the review host.
+
+[Full say-hi guide](say-hi.md) · [Source](https://github.com/huemorgan2/say-hi)
+
 ### Shapeshift
 
 `Open source` · `Free` · `BYOK`
