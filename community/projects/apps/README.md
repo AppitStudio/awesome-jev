@@ -28,6 +28,16 @@ Inbound lead ingestion and AI qualification pipeline using TypeSafe Jev System O
 
 [Full Airtale guide](airtale.md) · [Source](https://github.com/SebassContreras/airtale)
 
+### Aplausômetro
+
+`Open source` · `Free source build` · `BYOK`
+
+Paste a post and watch a simulated audience react with TypeSafe Jev calibrated probabilities.
+
+**Access:** Try [aplausometro.rafaelcamillo.com.br](https://aplausometro.rafaelcamillo.com.br). Clone the [MIT source](https://github.com/rf-camillo/jev-aplausometro) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Try Aplausômetro](https://aplausometro.rafaelcamillo.com.br) · [Full Aplausômetro guide](jev-aplausometro.md) · [Source](https://github.com/rf-camillo/jev-aplausometro)
+
 ### Apparite (jev2ui)
 
 `Open source` · `Free source build` · `BYOK`

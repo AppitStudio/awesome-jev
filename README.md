@@ -104,6 +104,7 @@ Checks are tied to reviewed versions; see each page and the [validation scope](d
 ### Apps powered by Jev
 
 - [Airtale](https://github.com/SebassContreras/airtale) - `Open source` · `Free source build` · `BYOK`. Inbound lead ingestion and AI qualification pipeline using TypeSafe Jev System One. [Project guide](community/projects/apps/airtale.md).
+- [Aplausômetro](https://github.com/rf-camillo/jev-aplausometro) - `Open source` · `Free source build` · `BYOK`. Paste a social post and watch a simulated audience react in real time with TypeSafe Jev calibrated probabilities.. [Try app](https://aplausometro.rafaelcamillo.com.br) · [Project guide](community/projects/apps/jev-aplausometro.md).
 - [Apparite (jev2ui)](https://github.com/dglazkov/jev2ui) - `Open source` · `Free source build` · `BYOK`. Local design-mock lab: TypeSafe Jev chooses IA/anatomy; Gemini writes copy; code assembles A2UI-inspired mocks. [Project guide](community/projects/apps/jev2ui.md).
 - [1 Million Emojis](https://github.com/cwdx/1-million-emojis) - `Open source` · `Free` · `BYOK`. Shared million-emoji canvas where TypeSafe Jev paints alongside humans from stroke context. [Try app](https://chriswijnia.com/lab/emoji) · [Project guide](community/projects/apps/1-million-emojis.md).
 - [arJev](https://github.com/harmoniqs/arjev) - `Open source` · `Free source build` · `BYOK`. Daily arXiv digest engine: lexical front-line plus TypeSafe Jev confidence-gated rerank against an Obsidian vault. [Project guide](community/projects/apps/arjev.md).
