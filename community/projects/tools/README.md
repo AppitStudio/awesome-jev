@@ -609,6 +609,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev-Style](jev-style.md) | Local System One–compatible decision models + skills/guard/MCP tooling; independent of hosted Jev. | Python · local server + skills/MCP (Apache-2.0) |
 | [jev-switch](arcj137442-jev-switch.md) | Expose `/v1/systemone` locally and route/failover across configured upstream adapters (Vercel, Laya) via an editable DAG; dashboard + Tauri shell. | Rust (axum) · React UI · Tauri · Docker |
 | [jevbench (dhruvmehra)](dhruvmehra-jevbench.md) | Reproduce TypeSafe Jev vs LLM/BERT/Laya/NLI text-classification accuracy, calibration, latency, throughput, and cost… | Python · benchmark suite (MIT) |
+| [JevBench (metamorphic)](jevbench.md) | Run metamorphic coherence tests (50 probability/choice laws) on typed decision models; no gold labels required. | Python · PyPI (`jevbench`, Apache-2.0) |
 | [JevEmbed](jevembed.md) | Turn embedding models into Choice/Score/Noul decisions via a Jev-shaped Python API/CLI/HTTP server. | Python · framework + HF configs (Apache-2.0) |
 | [Jevlet](jevlet.md) | From-scratch System One–style decision model research + Windows command palette; independent of hosted Jev. | Python · research model + desktop app (MIT) |
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
