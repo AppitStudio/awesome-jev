@@ -251,6 +251,7 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 
 ### Developer projects and integrations
 
+- [Abide](https://github.com/coldteadotai/abide) - Enforce AGENTS.md/CLAUDE.md rules on every coding-agent edit/turn with TypeSafe Jev (or Vercel AI Gateway) per-rule probabilities on diffs. [Project guide](community/projects/tools/abide.md).
 - [adecider](https://github.com/Agents365-ai/adecider) - Typed System One decisions for coding agents: one call, many Noul/Choice/Score questions, pluggable local Laya / TypeSafe Jev / OpenAI-compatible backends. [Project guide](community/projects/tools/adecider.md).
 - [adk-go-typesafe](https://github.com/craigh33/adk-go-typesafe) - TypeSafe System One Go client and Google ADK-Go function tool (OpenAPI-generated types; Apache-2.0). [Project guide](community/projects/tools/adk-go-typesafe.md).
 - [Advocaat](https://github.com/pithings/advocaat) - TypeScript `ask` client that batches typed Jev choice, score, and yes/no questions about structured data, with optional Vercel AI Gateway support. [Project guide](community/projects/tools/advocaat.md).

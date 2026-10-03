@@ -95,6 +95,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [Abide](abide.md) | Enforce project instruction rules on agent edits/turns with TypeSafe Jev per-rule probabilities (Claude Code/Codex/OpenCode/Pi). | TypeScript · agent hooks/CLI (`@coldtea/abide`, MIT) |
 | [adecider](adecider.md) | CLI/MCP/HTTP/pi surfaces for multi-question System One judgments (local Laya default; optional Jev). | TypeScript · CLI + MCP + HTTP + pi (MIT) |
 | [Agent Router](agent-router.md) | Quota-aware Herdr launcher: local eligibility then TypeSafe System One (Jev) picks agent/model/effort. | TypeScript · CLI (`@agent-router/router` 0.1.0) |
 | [Agent Stack](agent-stack.md) | Local multi-agent team stack (OpenRig + Claude/Codex) with TypeSafe Jev typed merge/assignment decisions. | JavaScript · local stack (license unspecified at tip) |
