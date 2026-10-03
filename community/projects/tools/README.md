@@ -588,6 +588,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Decision Index (apolinario)](apolinario-decision-index.md) | Reproduce the Decision Index typed-decision benchmark suite locally or as one Hugging Face Job (not affiliated with TypeSafe). | Python · Decision Index kit + HF Jobs (MIT) |
 | [Deqio](deqio.md) | Self-host typed noul/choice/shared decisions behind one local API with swappable engines (Kev/Laya/Open-Jev, etc.). | Python · local decision server + UI (MIT) |
 | [dopp](dopp.md) | Proxy Jev-shaped decisions, capture traffic, train a small owned model, and serve hosted/offline/in-browser. | Python/TypeScript · capture + train/serve (MIT) |
+| [DriveJev](drivejev.md) | Run/study DriveJev-4B open System I driving decisions (behaviour probabilities) with the JevPilot closed-loop harness. | Python · HF weights + simulator harness (MIT) |
 | [gutsy](gutsy.md) | Run gutsy-0.8b local calibrated yes/no/choice/score decisions via Jev-compatible APIs on CPU (independent of hosted Jev). | Python · llama.cpp + HF GGUF (Apache-2.0) |
 | [imajev](imajev.md) | Open multimodal typed-decision models that answer constrained options with probabilities and can't-tell. | Open weights · local serve (Apache-2.0); not TypeSafe-hosted Jev |
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
