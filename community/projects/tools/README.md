@@ -206,6 +206,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JEV Codex Pilot](jev-codex-pilot.md) | Local Codex Kanban workspace with Jev-model routing, contextual compaction, and ticket lifecycle control. | TypeScript · desktop/workspace (MIT) |
 | [jev-answers](jev-answers.md) | Ask TypeSafe Jev about files via MCP/CLI and keep each request's raw answer in a session folder. | TypeScript · MCP + CLI (MIT) |
 | [jev-cc-codex-router](jev-cc-codex-router.md) | Route each Codex turn via TypeSafe Jev tier choice, rewrite the model, and retry flaky upstream errors. | TypeScript · Codex proxy (MIT) |
+| [jev-compaction-plus](jev-compaction-plus.md) | Claude Code compaction with TypeSafe Jev keep/drop plus a drawer file for dropped tool outputs (fork of fast-jev-compaction). | TypeScript · Claude Code plugin (MIT) |
 | [jev-cops](jev-cops.md) | Police coding-agent tool calls in context with graduated allow/annotate/rewrite/hold/deny/kill verdicts; optional Jev semantic judge. | TypeScript/Bun · npm (`jev-cops`, Apache-2.0) |
 | [jev-decision-kit (kdcadmin)](kdcadmin-jev-decision-kit.md) | Local skill/plugin cabinet: an on-device Jev head selects which skills to preface before the chat model speaks (≠ DecisionKit .NET). | Python · local web + host hooks (MIT) |
 | [jev-dotnet](jev-dotnet.md) | Unofficial typed C# client for the Jev System One API (Choice/Score/Noul). | C# · .NET client (MIT) |
