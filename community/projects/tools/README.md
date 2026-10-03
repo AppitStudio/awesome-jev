@@ -660,6 +660,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [v1-decisions-vllm](v1-decisions-vllm.md) | Modular vLLM `/v1/decisions` typed API with `/v1/systemone` projection; pluggable backends. | Python · vLLM overlay (Apache-2.0); not hosted Jev |
 | [vidjev](vidjev.md) | Typed decisions on video: CARLA drone follow + UCF-Crime anomaly detection with open VLMs. | Python · research + demos (MIT); not hosted Jev |
 | [Wald-Q4B](wald-4b.md) | Self-host Wald-Q4B open-weight 4B decisions via Jev-compatible `/v1/systemone` (independent of hosted Jev). | Python · HF weights + serve scripts (Apache-2.0) |
+| [WaterSheep](watersheep.md) | Run an Apache-2.0 decision model locally behind a Jev-compatible `/v1/systemone`: noul/choice/score plus multi-label answers with a probability per option (independent of hosted Jev). | Python · local server + HF weights + browser demo (Apache-2.0) |
 | [WorkflowEvals](workflowevals.md) | Reproduce TypeSafe workflow evals (invoice/support/traces/security) against Jev and other providers. | Python · uv harness (Apache-2.0) · official TypeSafe |
 | [XavierJev](xavierjev.md) | Local Jev-shaped yes/no/choice/rubric decisions from one-token logprobs with measured gates and a Claude Code permission hook (no hosted Jev calls). | TypeScript · local judge + Claude Code hook (MIT) |
 | [zh-decision-bench](codyqin-zh-decision-bench.md) | Chinese-language calibration benchmark for Jev-class System One decision models (dataset CC BY 4.0; code… | Python · HF dataset + eval (Apache-2.0 code; dataset CC BY 4.0) |
