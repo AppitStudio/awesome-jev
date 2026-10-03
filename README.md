@@ -1081,6 +1081,7 @@ Selected official and community guides, organized by what you want to build. Coo
 
 ## Model behavior and evaluation
 
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Study 2,170 public GitHub Jev projects to understand early ecosystem growth, application domains, and decision-use patterns.
 - [Choice self-consistency](https://docs.typesafe.ai/cookbooks/consistency_choice_cookbook) - Explore uncertain outcomes and the difference between agreement and correctness.
 - [Confidence](https://docs.typesafe.ai/confidence) - Understand how a distribution summary differs from the selected answer and its probability.
 - [Current models](https://docs.typesafe.ai/models) - Find model versions, moving aliases, supported inputs, pricing, and current limits.
