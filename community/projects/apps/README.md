@@ -210,6 +210,16 @@ Local natural-language SQLite playground: inspectable semantic decisions, typed 
 
 [Full IntentSQL guide](intentsql.md) · [Source](https://github.com/Amine-LG/IntentSQL)
 
+### Jeff
+
+`Closed source` · `Free`
+
+Hosted bookshelf search and sort: visitors ask by mood, theme, or plot; TypeSafe Jev ranks books, articles, and newsletters on the shelf. Any visitor can upload a Goodreads CSV and publish a shelf with a link and QR code.
+
+**Access:** Open [read.atharvashah.com](https://read.atharvashah.com) in a modern browser (phone layout works at 360px). Free for visitors—no account and no API key. Closed source (private repository). Operator pays Jev, capped at about $1/day and $5/month; past the cap search falls back to keyword matching. Checked 2026-10-04. Implementation not inspected; live ranked search not instrumented on the review host.
+
+[Full Jeff guide](jeff.md) · [Source](https://read.atharvashah.com)
+
 ### Jev 2048
 
 `Open source` · `Free` · `BYOK`
