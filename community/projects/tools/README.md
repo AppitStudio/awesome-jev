@@ -429,6 +429,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevTree (Chuf-H)](chuf-h-jev-tree.md) | Probability tree/graph runtime: compose TypeSafe Jev action probs into path mass and Pareto picks (distinct from taxonomy jev-tree). | Python · CLI/library (`jev-tree` 0.1.0, Apache-2.0) |
 | [jevtriage](jevtriage.md) | Triage PRs with TypeSafe Jev Choice (`ready` / `needs_review` / `risky`) plus confidence-gated exit codes and optional labels. | Python · PyPI/Action (`jevtriage` 0.1.0) |
 | [jevtrim](jevtrim.md) | LoCoMo compaction benchmark: Jev judge vs retrieval. | Python · research (MIT) |
+| [jevwright](jevwright.md) | Write Chromium business-flow tests as user steps; TypeSafe Jev finds controls once, then replay without the model. | TypeScript · Playwright (`@hazymoon/jevwright`, MIT) |
 | [jevx (muthuishere)](muthuishere-jevx.md) | Agent skill + CLI for typed yes/no/choice/rating gut checks via System One (hosted or self-hosted); ≠ hawkyre/jevx extension. | Go CLI + npm (`@muthuishere/jevx`) · agent skill (MIT) |
 | [JevX (vij-sameerb5)](vij-sameerb5-jevx.md) | Scan a codebase for judgment-shaped rules and replace strong fits with TypeSafe Jev decisions (dry-run/undo). | TypeScript · npm (`@vij-sameerb5/jevx`, MIT) |
 | [jevyoumean](jevyoumean.md) | Wrap any CLI so unknown subcommands get TypeSafe Jev intent-based "Did you mean?" suggestions from help text. | Go · CLI (`jym`) |
