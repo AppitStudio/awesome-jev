@@ -316,6 +316,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-ood-calibration](jev-ood-calibration.md) | Independent calibration study of TypeSafe Jev with published raw dumps: public benches plus 900 OOD synthetic support tickets. | Node/Python · research scripts + committed results |
 | [jev-opus](jev-opus.md) | Re-pick Claude Opus 5.5 effort each step with TypeSafe Jev without breaking the prompt cache. | Node.js · CLI + Claude Code plugin (`jev-opus` 0.3.0, MIT) |
 | [jev-packs](jev-packs.md) | Evidence-gated registry of Jev question packs with golden cases and an offline multi-backend scoreboard. | Pack data + Python scripts (CC0-1.0) |
+| [jev-permission-gate (madisonrickert)](madisonrickert-jev-permission-gate.md) | Claude Code auto-mode tool-call gate: TypeSafe Jev allow/deny/defer ahead of the built-in classifier. | Claude Code mod/plugin (MIT) |
 | [jev-pi (weiping)](weiping-jev-pi.md) | pi extension: Jev permission gate, output ladder, conditional context, agent router, and jev_ask tool (shadow default). | TypeScript · pi package (`jev-pi`, MIT) |
 | [jev-pi-token-reduction](jev-pi-token-reduction.md) | Trim Pi tool outputs with TypeSafe Jev visibility levels before the model sees them; expand on demand. | Python · Pi extension (MIT) |
 | [jev-pii-checker](jev-pii-checker.md) | Scan text/files for PII with TypeSafe Jev presence/sensitivity judgments plus regex and segmentation layers. | TypeScript/Bun · CLI (`@coo-quack/jev-pii-checker` 0.3.1) |
