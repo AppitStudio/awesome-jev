@@ -58,6 +58,16 @@ Tiny static web app for yes/no questions via TypeSafe Jev Noul through OpenRoute
 
 [Full AskJev (openconstruct) guide](openconstruct-askjev.md) · [Source](https://github.com/openconstruct/askjev)
 
+### beebots
+
+`Open source` · `Free source build` · `BYOK`
+
+Three AI trading bees on OKX perpetual futures race on paper by default: TypeSafe Jev makes every trade decision; plain code owns the risk layer and orders. OpenAI is used only to design bee personas and portraits.
+
+**Access:** Clone the [MIT source](https://github.com/imikerussell/beebots) and run via Docker Compose, or follow upstream deploy docs. Bring a TypeSafe Jev key (and OpenAI key for bee design). Paper trading is the default; live exchange use is operator-controlled and not recommended as advice. No app purchase fee; provider and infra costs are separate. Source inspected; live trading and live Jev not run on the review host.
+
+[Full beebots guide](beebots.md) · [Source](https://github.com/imikerussell/beebots)
+
 ### Call Coach
 
 `Open source` · `Free source build` · `BYOK`
