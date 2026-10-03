@@ -16,7 +16,8 @@
     "jev-kimi-confidence-cascade",
     "jev-agent-worker-router",
     "jev-batch-agent-review",
-    "jev-content-triage"
+    "jev-content-triage",
+    "jev-text-to-columns"
   ],
   "retire_all": false
 }

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "jev-text-to-columns",
+  "slug": "jev-text-to-columns",
+  "title": "Turn text into SQL decision columns with Jev",
+  "description": "Turn ticket text into queryable SQLite columns with JevSQL: preserve probabilities, review uncertainty, refresh changed records and evaluate before acting.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-03",
+  "modified_at": "2026-10-03",
+  "topics": [
+    "use-cases",
+    "decision-gates",
+    "calibration",
+    "retrieval"
+  ],
+  "source": {
+    "title": "JEV TURNS TEXT INTO COLUMNS. THAT MAY MATTER MORE THAN 200× SPEED",
+    "url": "https://x.com/fluixoo/article/2103123493567025321",
+    "author": {
+      "name": "Fluixo",
+      "url": "https://x.com/fluixoo"
+    },
+    "published_at": "2026-09-24",
+    "accessed_at": "2026-10-03"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical review"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-text-to-columns.png",
+    "alt": "Authorized ticket text becomes three Jev judgments, saved SQL columns and a review queue; deterministic code retains permissions and actions",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevsql.md",
+      "origin": "source-mentioned",
+      "purpose": "implements-step",
+      "step": "Materialize bounded semantic judgments as SQLite decision columns",
+      "why": "Fluixo explicitly names JevSQL and its SQL functions. The catalog and pinned implementation identify EugeneBoondock/jevsql, whose engine resolves typed judgments and saves queryable decision tables with refresh history. It implements this table step, not the wine feature-discovery loop or authorization.",
+      "evidence": [
+        "https://github.com/EugeneBoondock/jevsql/blob/45f3862f679c064e371a800c2fcc0c5b8b90c6c6/README.md",
+        "https://github.com/EugeneBoondock/jevsql/blob/45f3862f679c064e371a800c2fcc0c5b8b90c6c6/src/engine.mjs",
+        "https://github.com/EugeneBoondock/jevsql/blob/45f3862f679c064e371a800c2fcc0c5b8b90c6c6/src/client.mjs",
+        "https://github.com/EugeneBoondock/jevsql/blob/45f3862f679c064e371a800c2fcc0c5b8b90c6c6/src/functions.mjs",
+        "https://github.com/EugeneBoondock/jevsql/blob/45f3862f679c064e371a800c2fcc0c5b8b90c6c6/test/workflows.test.mjs",
+        "https://github.com/EugeneBoondock/jevsql/blob/45f3862f679c064e371a800c2fcc0c5b8b90c6c6/LICENSE"
+      ],
+      "limitations": "MIT Node library/CLI 0.1.0; Node >=22.16. Live row text goes to TypeSafe with an account/key and billed inference. Cost guards are estimates; mixed SQL collection clauses can widen disclosed rows, and refreshes can hold write-blocking transactions. Use authorized input and strictCollect. No live model or production dataset was tested; saved results can become stale after failure."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete ten-section Fluixo article and code blocks through its sign-off in logged-in Chrome on 2026-10-03. No outbound technical links appeared in its body; named JevSQL and the selected TypeSafe cookbooks were located independently and inspected. Exact-title/author search did not establish republication. Source images were not reused; the original diagram is CC0.",
+    "offline": "Inspected catalog page and JevSQL 0.1.0 at 45f3862f679c064e371a800c2fcc0c5b8b90c6c6: README, MIT license, client, engine, functions and workflow tests. On Node 24.14.0, 21 engine/workflow tests passed. The guide SQL passed scripted local-response checks for zero-call dry run, nine judgments over three eligible rows, exclusion of closed text, uncertain NULL routes, unchanged cache, changed-row refresh and failed-refresh rollback. No provider call. Synthetic confidence and probabilities are fixture values, not calibration evidence.",
+    "live": "No TypeSafe provisioning or live inference, customer-data run, supervised training, wine benchmark reproduction, accuracy/calibration evaluation, actual billing or speed test. The prompt is a reviewed handoff, not an executed deployment.",
+    "review": "AI-assisted editorial review; no human reviewer recorded. Ahrefs opened at sign-in in Chrome and no connector was available, so plan eligibility and keyword metrics were not established. Search Console Web query filter containing sql returned jev sql with 0 clicks and 1 impression over 18–29 September 2026, all countries, checked 3 October; too little data to establish demand. Candidate intents: Jev text to columns, JevSQL semantic SQL, Jev text feature extraction and Jev CatBoost features. Current search results emphasize project references and filtering SQLite rows by meaning; selected a saved decision-column workflow distinct from existing agent, cost and audit guides. No volume/difficulty claims."
+  },
+  "faqs": [
+    {
+      "question": "What does text to columns with Jev mean?",
+      "answer": "It means asking bounded questions about each text record and storing the returned probabilities, categories or scores as reusable fields. SQL or a supervised model can consume those fields while code keeps exact calculations and authorization separate."
+    },
+    {
+      "question": "Is JevSQL a text-to-SQL model?",
+      "answer": "No. You supply SQL and the questions. JevSQL resolves semantic functions and can save their results as ordinary SQLite tables; it does not generate an arbitrary database query from a user's request."
+    },
+    {
+      "question": "Does a Noul probability include confidence?",
+      "answer": "Noul returns a yes-probability with no separate confidence field. Choice and Score include distributions and confidence. Neither a high probability nor high confidence guarantees that the allowed answer is correct."
+    },
+    {
+      "question": "Can I train CatBoost on Jev answers?",
+      "answer": "Yes, numeric encodings can be features for a supervised model. TypeSafe's wine cookbook demonstrates means and spreads for Scores and probabilities for Nouls. Keep test labels outside feature discovery and evaluate against simpler baselines on your own data."
+    },
+    {
+      "question": "What happens when a JevSQL refresh fails?",
+      "answer": "The saved table and history remain at their previous successful revision. Record the failure and expose stale or pending status; do not interpret old data as a fresh verdict or a missing answer as permission to act."
+    }
+  ]
+}
