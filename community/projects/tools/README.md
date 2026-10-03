@@ -219,6 +219,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Mode](tiffygk-jev-mode.md) | Claude Code skills/study course for building with TypeSafe Jev (PolyForm Noncommercial; commercial use restricted). | Claude Code skills (PolyForm Noncommercial 1.0.0) |
 | [Jev Observer](jev-observer.md) | Proxy and inspect TypeSafe Jev decisions locally with history, question versions, latency, and cost estimates. | Rust · local proxy + dashboard (MIT) |
 | [jevroute](jevroute.md) | Reference: TypeSafe Jev skill hints for Claude Code; project stopped after baseline met stop rule (negative pilot findings published). | Rust · docs + eval data (MIT; no binary shipped) |
+| [Jev Router for Windows](jev-router-windows.md) | Windows GUI setup/control panel for TypeSafe Jev routing (Codex automatic; Claude Code plugin-assisted). | Windows 10/11 · portable alpha (MIT) |
 | [jev-router (hectorj2f)](hectorj2f-jev-router.md) | Score Claude Code subagent tasks with five atomic Jev questions; upgrade ungated / downgrade earned; findings included. | Python · Claude Code router (Apache-2.0) |
 | [jev (taifoon-io)](taifoon-io-jev.md) | Grade an AI agent job with TypeSafe Jev: fact checks in code, four closed questions, receipt with probabilities,… | TypeScript · npm `@taifoon/jev` (MIT) |
 | [Jev Atlas](jev-atlas.md) | Map a repo’s semantic decisions, reject weak Jev fits with published gates, then validate/implement survivors from `.jev-atlas/` state. | Agent skill + Claude/Codex plugin (`jev-atlas` 0.2.0) |
