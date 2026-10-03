@@ -607,6 +607,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-fanout-bench](jev-fanout-bench.md) | Measure Jev multi-question fan-out billing linearity and savings vs separate calls. | Python · benchmark + raw results (MIT) |
 | [jev-frontier-bench](jev-frontier-bench.md) | Reproduce Jev vs frontier LLM typed-decision accuracy/calibration/cost on shared 200-item set. | Python · benchmark suite (MIT) |
 | [Jev-LCT](jev-lct.md) | Looped Calibration Transformer System One engine with Jev-shaped Choice/Noul/Score serving; independent of hosted Jev. | Python · research engine + HF weights (Apache-2.0) |
+| [Jevometry](jevometry.md) | Analyze System One / Jevlike decision probability models with information geometry (Fisher sensitivity); does not orchestrate agents. | Python · research toolkit (MIT) |
 | [Jev-Omni](jev-omni.md) | Run an open multimodal System One–style classifier (text/image/audio/video → option probabilities) on Gemma 4 12B IT; independent of official Jev. | Python / PyTorch · HF weights (CUDA, ~50 GB FP32) |
 | [jev-omni.js](jev-omni-js.md) | Run independent Jev-Omni multimodal decisions in-browser on WebGPU (text+images; WIP video/audio). | JavaScript · onnxruntime-web (Apache-2.0) |
 | [jev-router (peptidehackers)](peptidehackers-jev-router.md) | Train/serve schema-typed probability heads with Wilson-certified act-or-escalate routing (numpy-only; independent of hosted Jev). | Python · numpy library + infer/approve/monitor (MIT) |
