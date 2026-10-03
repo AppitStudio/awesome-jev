@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "jev-agent-worker-router",
+  "slug": "jev-agent-worker-router",
+  "title": "Build a Jev agent worker router",
+  "description": "Route one agent task to research, writing or review with a typed Jev choice, a durable handoff and an explicit failure path. Test the whole workflow before scaling it.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-09-30",
+  "modified_at": "2026-09-30",
+  "topics": ["agent-harnesses", "decision-gates", "model-routing"],
+  "source": {
+    "title": "Jev in the Agent Loop: A Complete Guide to Decision-Layer Automation",
+    "url": "https://x.com/N01ennn/article/2103542021071978601",
+    "author": {
+      "name": "NO1ennn",
+      "url": "https://x.com/N01ennn"
+    },
+    "published_at": "2026-09-25",
+    "accessed_at": "2026-09-30"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and technical verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-ultrafast.md",
+      "origin": "source-mentioned",
+      "purpose": "teaching-example",
+      "step": "Rebuild the available action menu from the latest observation and verify the outcome after a selected action",
+      "why": "NO1ennn links Browser Use's Jev Ultrafast repository. Its bounded operation and target choices illustrate why a dispatcher must refresh eligible choices after state changes, although it dispatches browser actions rather than research and writing workers.",
+      "evidence": [
+        "https://x.com/N01ennn/article/2103542021071978601",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/README.md",
+        "https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py"
+      ],
+      "limitations": "MIT experimental Python browser agent, not a worker queue or permission authority. Live browser work needs Chrome, TypeSafe and a separate text-model credential for typing; observed page state can leave the host and provider usage may be billed. This guide did not execute its live loop."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-layer.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Route among a host-owned closed set of currently eligible capabilities and record the execution result",
+      "why": "jev-layer provides an optional Node/MCP route-and-receipt pattern for an existing harness. It is a separate route for readers who already have capability discovery and execution; NO1ennn does not name it, and it does not implement the article's Python file queues.",
+      "evidence": [
+        "https://github.com/typakon4/jev-layer/blob/05d3cdf1f1d925d7c0bf0749caebc232f749c613/docs/AGENT-IMPLEMENTATION.md",
+        "https://github.com/typakon4/jev-layer/blob/05d3cdf1f1d925d7c0bf0749caebc232f749c613/docs/PROVIDERS.md",
+        "https://github.com/typakon4/jev-layer/blob/05d3cdf1f1d925d7c0bf0749caebc232f749c613/LICENSE"
+      ],
+      "limitations": "Independent MIT Node.js 20+ package, not a Python dispatcher or executor. Its demo provider is offline and deterministic; TypeSafe or OpenRouter modes send bounded state to a remote provider and may incur charges. Its fail-open result hands control back to host policy, which must still enforce approvals and permissions."
+    }
+  ],
+  "verification": {
+    "source": "Read NO1ennn's complete X article, including code blocks, in the user's logged-in Chrome on 2026-09-30. Followed its Browser Use repository, LangChain article and TypeSafe documentation links. Exact-title and author search found an independent JevMade summary, not an author republication. The X source image was not reused.",
+    "offline": "Compared the source's Python Choice example with the official TypeSafe quickstart and installed typesafe-sdk 0.7.2 in an isolated Python 3.12 environment. Synthetic SystemOneResponse objects confirmed the 0.85 route branch; inspection showed TypeSafeAPIConnectionError and TypeSafeAPITimeoutError do not inherit TypeSafeAPIError. Inspected both catalog pages and pinned upstream README or implementation documentation. No worker router was built or executed.",
+    "live": "No live TypeSafe request, Browser Use run, worker execution, queue consumer, accuracy study, billed-cost check or end-to-end speed measurement. Article and vendor figures are attributed claims, not reproduced results.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs Keywords Explorer required sign-in in Chrome and no Ahrefs connector was present. Search Console for jevlist.ai was accessible: its Web query report through 2026-09-27 showed 11 queries containing 'agent' and none about worker dispatch. That short history cannot establish demand for a newly published guide. The title and questions follow reader intent and a current Google results check, without claimed search volume or difficulty."
+  },
+  "faqs": [
+    {
+      "question": "How do I route an agent task to the next worker with Jev?",
+      "answer": "Build a current list of eligible workers, send the goal and completed evidence with a Choice question, and validate the returned key in code. Save one durable handoff; send unclear, invalid or failed decisions to review."
+    },
+    {
+      "question": "Does a high Jev confidence mean the chosen worker is correct?",
+      "answer": "No. Choice confidence describes the concentration of its answer distribution, not a guarantee that the route is correct. Treat 0.85 as a starting example, then tune a review threshold on labeled cases and check untouched cases separately."
+    },
+    {
+      "question": "What happens if the TypeSafe request times out?",
+      "answer": "Record the error and keep the task in a durable review or existing fallback queue. Catch connection and timeout failures as well as API errors; do not treat a missing model answer as approval to run a worker."
+    },
+    {
+      "question": "Is Jev Ultrafast a worker router?",
+      "answer": "No. The source-mentioned Browser Use project routes among freshly observed browser operations and targets. It teaches the changing-menu pattern, while your application must still define workers, queues, permissions and completion checks."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/jev-agent-worker-router.png",
+    "alt": "Agent goal and completed evidence flow through an eligible-worker list and Jev Choice to a code-validated research, writing or review handoff",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

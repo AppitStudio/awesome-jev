@@ -8,6 +8,36 @@ Read the [tag guide](../../APP_TAGS.md): **Open source** describes source licens
 
 ## Web apps
 
+### 1 Million Emojis
+
+`Open source` · `Free` · `BYOK`
+
+Shared 1,000×1,000 emoji canvas where humans paint and TypeSafe Jev paints alongside them from local stroke context.
+
+**Access:** try [chriswijnia.com/lab/emoji](https://chriswijnia.com/lab/emoji) (no account) or clone the [MIT source](https://github.com/cwdx/1-million-emojis). No app purchase fee; hosted Jev strokes use the site path; self-host needs a TypeSafe key. Source inspected; live paint not run on the review host.
+
+[Try 1 Million Emojis](https://chriswijnia.com/lab/emoji) · [Full 1 Million Emojis guide](1-million-emojis.md) · [Source](https://github.com/cwdx/1-million-emojis)
+
+### Airtale
+
+`Open source` · `Free source build` · `BYOK`
+
+Inbound lead ingestion and AI qualification pipeline using TypeSafe Jev System One.
+
+**Access:** Clone the [MIT source](https://github.com/SebassContreras/airtale) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Airtale guide](airtale.md) · [Source](https://github.com/SebassContreras/airtale)
+
+### Aplausômetro
+
+`Open source` · `Free source build` · `BYOK`
+
+Paste a post and watch a simulated audience react with TypeSafe Jev calibrated probabilities.
+
+**Access:** Try [aplausometro.rafaelcamillo.com.br](https://aplausometro.rafaelcamillo.com.br). Clone the [MIT source](https://github.com/rf-camillo/jev-aplausometro) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Try Aplausômetro](https://aplausometro.rafaelcamillo.com.br) · [Full Aplausômetro guide](jev-aplausometro.md) · [Source](https://github.com/rf-camillo/jev-aplausometro)
+
 ### Apparite (jev2ui)
 
 `Open source` · `Free source build` · `BYOK`
@@ -27,6 +57,16 @@ Tiny static web app for yes/no questions via TypeSafe Jev Noul through OpenRoute
 **Access:** open or host the MIT [`index.html`](https://github.com/openconstruct/askjev) and paste an OpenRouter key. No app purchase fee; Decisions/Jev usage can incur charges. Source inspected; live OpenRouter calls not run on the review host.
 
 [Full AskJev (openconstruct) guide](openconstruct-askjev.md) · [Source](https://github.com/openconstruct/askjev)
+
+### beebots
+
+`Open source` · `Free source build` · `BYOK`
+
+Three AI trading bees on OKX perpetual futures race on paper by default: TypeSafe Jev makes every trade decision; plain code owns the risk layer and orders. OpenAI is used only to design bee personas and portraits.
+
+**Access:** Clone the [MIT source](https://github.com/imikerussell/beebots) and run via Docker Compose, or follow upstream deploy docs. Bring a TypeSafe Jev key (and OpenAI key for bee design). Paper trading is the default; live exchange use is operator-controlled and not recommended as advice. No app purchase fee; provider and infra costs are separate. Source inspected; live trading and live Jev not run on the review host.
+
+[Full beebots guide](beebots.md) · [Source](https://github.com/imikerussell/beebots)
 
 ### Call Coach
 
@@ -68,6 +108,36 @@ MIT derivative of Crush Monitor: WeChat-style affinity analysis UI with TypeSafe
 
 [Full Crush Monitor with Jev guide](crush-monitor-with-jev.md) · [Source](https://github.com/zhengge6/crush-monitor-with-jev)
 
+### Decision Lab
+
+`Open source` · `Free source build` · `BYOK`
+
+Local visual System One playground for building decisions, comparing Jev, OpenJEV, and Laya, and exploring what-if evidence changes.
+
+**Access:** Clone the [MIT source](https://github.com/Amine-LG/decision-lab); demos run without a key. Connect hosted Jev/OpenJEV or local Laya for live models. No app purchase fee; live providers may charge. Source inspected; live Jev not run.
+
+[Full Decision Lab guide](decision-lab.md) · [Source](https://github.com/Amine-LG/decision-lab)
+
+### Doom or Bloom
+
+`Open source` · `Free` · `BYOK`
+
+Free web interview that maps your AI worldview (doom↔bloom) using many TypeSafe Jev Choice/Score/Noul judgments; TypeScript owns routing and presentation.
+
+**Access:** try [www.doom-or-bloom.com](https://www.doom-or-bloom.com) or clone the [MIT source](https://github.com/transitive-bullshit/doom-or-bloom). No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live session not run on the review host.
+
+[Try Doom or Bloom](https://www.doom-or-bloom.com) · [Full Doom or Bloom guide](doom-or-bloom.md) · [Source](https://github.com/transitive-bullshit/doom-or-bloom)
+
+### enigma-jev
+
+`Open source` · `Free` · `BYOK`
+
+Software Enigma/Bombe pipeline: TypeSafe Jev ranks cribs and judges whether a trial decryption is German.
+
+**Access:** try [enigma-jev.vercel.app](https://enigma-jev.vercel.app) (TypeSafe key to unlock the machine) or clone the [MIT source](https://github.com/agodoy21/enigma-jev) (Bun ≥ 1.3). No app purchase fee; TypeSafe usage is separate. Source inspected; live break not run on the review host.
+
+[Try enigma-jev](https://enigma-jev.vercel.app) · [Full enigma-jev guide](enigma-jev.md) · [Source](https://github.com/agodoy21/enigma-jev)
+
 ### Find the Right API (Orthogonal × Jev)
 
 `Closed source` · `Freemium` · `Commercial`
@@ -79,6 +149,16 @@ Hosted natural-language API discovery: product copy states Jev searches about 1,
 **Access:** public web UI at [findtherightapi.com](https://www.findtherightapi.com/) (search needed no signup during review). Executing matches uses Orthogonal pay-per-call ([pricing](https://docs.orthogonal.com/concepts/pricing); new accounts get $5 free credits). Closed source. Checked 2026-09-24. Launch: [X post](https://x.com/chrisspickett/status/2102855582969725198).
 
 [Try Find the Right API](https://www.findtherightapi.com/) · [Full Find the Right API guide](find-the-right-api.md) · [Source](https://www.findtherightapi.com/)
+
+### Fly x Jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser demo: MaleCNS fruit-fly connectome robot where TypeSafe Jev picks which descending neuron fires next.
+
+**Access:** Clone the [MIT source](https://github.com/pasangimhana/fly-x-jev) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Fly x Jev guide](fly-x-jev.md) · [Source](https://github.com/pasangimhana/fly-x-jev)
 
 ### Fotocopiatrice
 
@@ -119,6 +199,16 @@ Clinical documentation aid: as a doctor types or dictates, Hx opens the checklis
 **Access:** public demo at [hx.semicoded.com](https://hx.semicoded.com) (rate/spend limited) or clone the [MIT source](https://github.com/doitrous/hx) with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. Postgres optional for accounts. Offline server unit tests partially passed without Postgres; live analyze not run on the review host.
 
 [Full Hx guide](hx.md) · [Source](https://github.com/doitrous/hx) · [Product homepage](https://hx.semicoded.com)
+
+### IntentSQL
+
+`Open source` · `Free source build` · `BYOK`
+
+Local natural-language SQLite playground: inspectable semantic decisions, typed plans, deterministic SQL, and guarded writes via TypeSafe Jev / System One.
+
+**Access:** Clone the [MIT source](https://github.com/Amine-LG/IntentSQL) and run the local uvicorn app; bring a TypeSafe (or compatible) key for live Jev. No app purchase fee; provider usage may incur charges. Source inspected; live Jev not run.
+
+[Full IntentSQL guide](intentsql.md) · [Source](https://github.com/Amine-LG/IntentSQL)
 
 ### Jev 2048
 
@@ -170,6 +260,16 @@ One-page web app where TypeSafe Jev plays chess against OpenRouter LLMs, Stockfi
 
 [Try Jev Chess](https://jevchess.xera.ac) · [Full Jev Chess guide](jevchess.md) · [Source](https://github.com/choxos/jevchess)
 
+### Jev Civilization
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser strategy game: you reshape the environment; TypeSafe Jev chooses each tribe’s next action from legal moves (mock mode without a key).
+
+**Access:** try [thunder-monocle.env-ca.veilstreamapp.com/](https://thunder-monocle.env-ca.veilstreamapp.com/) or clone the [MIT source](https://github.com/JonesSteven/jev_civilization). No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live session not run on the review host.
+
+[Try Jev Civilization](https://thunder-monocle.env-ca.veilstreamapp.com/) · [Full Jev Civilization guide](jev-civilization.md) · [Source](https://github.com/JonesSteven/jev_civilization)
+
 ### Jev Column Race
 
 `Open source` · `Free source build` · `BYOK`
@@ -180,6 +280,16 @@ Race UI that labels 1,000 withheld-star app reviews: TypeSafe Jev typed question
 
 [Try Jev Column Race](https://jev-column-race.vercel.app) · [Full Jev Column Race guide](jev-column-race.md) · [Source](https://github.com/goodrahstar/jev-column-race)
 
+### Jev Decision Lab
+
+`Open source` · `Free`
+
+Browser workbench for designing typed Jev questions from sample situations, then copying them into the TypeSafe Jev Playground.
+
+**Access:** open [nwadmark.github.io/jev-decision-lab](https://nwadmark.github.io/jev-decision-lab/) or clone the [MIT source](https://github.com/nwadmark/jev-decision-lab). No app purchase fee; Playground runs use your TypeSafe account. Source inspected; live Playground not run on the review host.
+
+[Try Jev Decision Lab](https://nwadmark.github.io/jev-decision-lab/) · [Full Jev Decision Lab guide](jev-decision-lab.md) · [Source](https://github.com/nwadmark/jev-decision-lab)
+
 ### Jev demos
 
 `Open source` · `Free source build` · `BYOK`
@@ -189,6 +299,16 @@ Six local side-by-side TypeSafe Jev demos (router, triage, inbox, slop filter, t
 **Access:** clone the [MIT source](https://github.com/mayank953/Jev) (Node 22.6+) and `npm start` on localhost:3000. Optional `TYPESAFE_API_KEY` / Anthropic / Moonshot keys. No app purchase fee; provider usage is separate. Offline `npm run typecheck` passed; live UI/providers not run on the review host.
 
 [Full Jev demos guide](jev-demos.md) · [Source](https://github.com/mayank953/Jev)
+
+### Jev demos (mani-aiml)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-contained Jev/System One demo folders (fetch-then-write, Laya-vs-Jev judge, prompt-injection gate) behind Agentic Enterprise videos.
+
+**Access:** Clone the [MIT source](https://github.com/mani-aiml/jev-demos) and follow each folder README. No app purchase fee; TypeSafe/Laya usage is separate. Distinct from [mayank953/Jev](https://github.com/mayank953/Jev). Source inspected; live demos not run on the review host.
+
+[Full Jev demos (mani-aiml) guide](mani-aiml-jev-demos.md) · [Source](https://github.com/mani-aiml/jev-demos)
 
 ### JEV Document Classification
 
@@ -230,6 +350,16 @@ Local F1 race where TypeSafe Jev picks racing line and pedals; code steers, brak
 
 [Full Jev Grand Prix guide](jev-grand-prix.md) · [Source](https://github.com/enoyola/jev-grand-prix)
 
+### Jev Guess Who
+
+`Open source` · `Free source build` · `BYOK`
+
+Server-authoritative Guess Who (human vs TypeSafe Jev) with 24 original SVG portraits, local practice without credentials, and analytics hooks.
+
+**Access:** Clone the [MIT source](https://github.com/jevplays-games/jev-guess-who) (`npm start`, Node ≥22.13). Local practice works without credentials; live Jev needs your configured accounts. No app purchase fee; provider usage may incur charges. Source inspected; live Jev not run.
+
+[Full Jev Guess Who guide](jev-guess-who.md) · [Source](https://github.com/jevplays-games/jev-guess-who)
+
 ### Jev Inbox Queue
 
 `Open source` · `Free source build` · `BYOK`
@@ -251,6 +381,16 @@ Name a dish or cocktail and watch ingredient stickers rise; maker states TypeSaf
 **Access:** free public demo, no signup — [recipe](https://jev-kitchen.vercel.app/recipe) / [cocktail](https://jev-kitchen.vercel.app/cocktail). Closed source. Checked 2026-09-23.
 
 [Try Jev Kitchen](https://jev-kitchen.vercel.app/recipe) · [Full Jev Kitchen guide](jev-kitchen.md) · [Source](https://jev-kitchen.vercel.app)
+
+### Jev Lab (BrendanH18)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local interactive workbench with small demos showing TypeSafe Jev System One capabilities (playground + Workbench).
+
+**Access:** Clone the [MIT source](https://github.com/BrendanH18/jev-lab), `uv sync --locked`, and `uv run --locked server.py` on localhost:8321. No app purchase fee; TypeSafe usage is separate. Distinct from [jammaru/jev-lab](https://github.com/jammaru/jev-lab). Source inspected; live UI not run on the review host.
+
+[Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
 
 ### Jev Radar
 
@@ -452,6 +592,26 @@ Local Gmail inbox helper: TypeSafe Jev classifies category/priority/signals; you
 
 [Full JevZero guide](jevzero.md) · [Source](https://github.com/jayozer/jevzero)
 
+### Liuyao
+
+`Source available` · `Free source build` · `BYOK`
+
+Chinese-style I Ching (六爻) site with programmatic casting plus TypeSafe Jev semantic judgment (sixyao.app; non-commercial source).
+
+**Access:** Clone the [source](https://github.com/masonweb3/liuyao) (non-commercial terms per upstream) with a TypeSafe API key for live judgment. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Liuyao guide](liuyao.md) · [Source](https://github.com/masonweb3/liuyao)
+
+### Mailroom
+
+`Open source` · `Free source build` · `BYOK`
+
+Gmail sorter with readable rules plus TypeSafe Jev typed judgments, receipts, and undo.
+
+**Access:** Clone the [MIT source](https://github.com/Kevin-Liu-01/mailroom) and follow upstream setup with a TypeSafe/provider key when live. No app purchase fee for the source build; provider usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Mailroom guide](mailroom.md) · [Source](https://github.com/Kevin-Liu-01/mailroom)
+
 ### Masroufi
 
 `Source available` · `Free source build` · `BYOK`
@@ -491,6 +651,16 @@ One paste box that recognizes JSON, JWTs, cron, stack traces, colors, and more, 
 **Access:** try [pastewise.vercel.app](https://pastewise.vercel.app) (HTTP 200 on review; limits unchecked) or clone the [public source](https://github.com/Nuu-maan/pastewise) with Bun; optional `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe usage is separate. **No LICENSE** at reviewed commit—not open source. Source inspected; live demo/Jev not run. Distinct from JevPaste and Shapeshift.
 
 [Try Pastewise](https://pastewise.vercel.app) · [Full Pastewise guide](pastewise.md) · [Source](https://github.com/Nuu-maan/pastewise)
+
+### patrol-jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Upload patrol photos and get Korean patrol-log text (or HWPX). OpenAI reads the photo; TypeSafe Jev classifies the write-up into one of four branches; code owns bundling and formatting. Manual mode works without keys.
+
+**Access:** Clone the [MIT source](https://github.com/patrol-jev/patrol-jev) and run `npm install && npm run dev`, or try the limited [patrol.ai.kr](https://patrol.ai.kr) demo. No app purchase fee; OpenAI and TypeSafe usage are separate (BYOK). Photos stay local in manual mode. Source inspected; live UI not run on the review host.
+
+[Full patrol-jev guide](patrol-jev.md) · [Source](https://github.com/patrol-jev/patrol-jev)
 
 ### Preguntale a Jev
 
@@ -532,6 +702,26 @@ Hosted growth teammate that investigates product, search, content, and ad signal
 
 [Full Refix guide](refix.md) · [Source](https://www.refix.ai) · [Product homepage](https://www.refix.ai)
 
+### Resurface
+
+`Open source` · `Free source build` · `BYOK`
+
+Resume screening: LLM writes questions; TypeSafe Jev System One classifies answers.
+
+**Access:** Clone the [MIT source](https://github.com/dolevhayut/resurface) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Resurface guide](resurface.md) · [Source](https://github.com/dolevhayut/resurface)
+
+### say-hi
+
+`Open source` · `Free source build` · `BYOK`
+
+Educational demo where TypeSafe Jev (jev-1.13.0) types every reply one key at a time by choosing among keyboard options, with cost/keystroke caps and a live request inspector.
+
+**Access:** Clone the [AGPL-3.0 source](https://github.com/huemorgan2/say-hi), `npm install`, set `TYPESAFE_API_KEY`, `npm start` ([localhost:4317](http://localhost:4317)). No app purchase fee; TypeSafe usage billed separately. Source inspected; live chat not run on the review host.
+
+[Full say-hi guide](say-hi.md) · [Source](https://github.com/huemorgan2/say-hi)
+
 ### Shapeshift
 
 `Open source` · `Free` · `BYOK`
@@ -571,6 +761,16 @@ Research/demo web chatbot with no LLM in the loop: TypeSafe Jev picks every word
 **Access:** open [talktojev.com](https://talktojev.com) (free communal limits) or run the [MIT source](https://github.com/xucian/talktojev) with an OpenRouter key. No app purchase fee; OpenRouter/Jev usage is separate. Source inspected; live hosted chat not measured on the review host. Community submission #533.
 
 [Try talktojev](https://talktojev.com) · [Full talktojev guide](talktojev.md) · [Source](https://github.com/xucian/talktojev)
+
+### Tavli
+
+`Open source` · `Free source build` · `BYOK`
+
+Play Tavli (Greek backgammon / Portes) against TypeSafe Jev via OpenRouter; includes a tutorial on building with typed decision models.
+
+**Access:** Try [tavli.dimi.diy](https://tavli.dimi.diy) or clone the [MIT source](https://github.com/DimisCodes/tavli). Live games need OpenRouter/TypeSafe access. No app purchase fee; provider usage may incur charges. Source inspected; live play not run on the review host.
+
+[Full Tavli guide](tavli.md) · [Source](https://github.com/DimisCodes/tavli)
 
 ### tg-crush
 
@@ -653,6 +853,26 @@ OpenHarness desktop sheet pane: TypeSafe Jev answers typed `noul` / `choice` / `
 **Access:** [download OpenHarness](https://harness.autonomous.ai/desktop) for macOS or Linux (or build the [MIT source](https://github.com/autonomous-ai/openharness)), then open the bundled Jev Sheets harness from the Store. No app purchase fee observed on the download page (checked 2026-09-24); live answers need a TypeSafe, OpenRouter, or Cloudflare key (BYOK). Offline practice works without a key (word-matching only). Source and harness README inspected; desktop install and live Jev not run on the review host. Lists **Jev Sheets only**, not other OpenHarness DSHs.
 
 [Full Jev Sheets guide](jev-sheets.md) · [Source](https://github.com/autonomous-ai/openharness) · [Product homepage](https://harness.autonomous.ai/desktop)
+
+### JevDash
+
+`Open source` · `Free source build` · `BYOK`
+
+100% clean-room 2D platformer for benchmarking TypeSafe Jev in real-time control at 60 FPS. Mock decision engine works without keys; live path can use Vercel AI Gateway.
+
+**Access:** Clone the [MIT source](https://github.com/Sunwood-ai-labs/jevdash) and follow README (Pygame). Mock mode needs no key; live Jev/Gateway is BYOK. No app purchase fee. Docs: [jevdash site](https://sunwood-ai-labs.github.io/jevdash/). Source inspected; live gameplay not run on the Linux review host.
+
+[Full JevDash guide](jevdash.md) · [Source](https://github.com/Sunwood-ai-labs/jevdash)
+
+### Modex
+
+`Open source` · `Free source build` · `BYOK`
+
+Open Codex-App–style desktop coding agent (Electron+React) driving Claude Code/Codex CLIs; optional TypeSafe Jev Auto routing picks model/effort per turn.
+
+**Access:** Build from the [MIT source](https://github.com/TypeSafeAI/modex). No app purchase fee. Optional TypeSafe key for Auto routing (OS keychain); Claude/Codex keep their own logins/costs. Source inspected; desktop/live paths not run on the Linux review host.
+
+[Full Modex guide](modex.md) · [Source](https://github.com/TypeSafeAI/modex)
 
 ## macOS apps
 
@@ -745,6 +965,16 @@ Control macOS apps and perform Chrome tasks through an experimental voice assist
 **Access:** run the [MIT source](https://github.com/timpratim/macbrow#setup) on macOS with Python 3.12+, `uv`, TypeSafe and Gradium keys, and desktop permissions. The default LLM backend also needs LiveKit credentials; LM Studio is an alternative. No app purchase fee applies to the source build; provider usage can incur charges. Browser tasks require Chrome remote debugging. All 26 upstream tests passed with network access denied; live voice, desktop actions, and browser automation were not tested.
 
 [Full macbrow guide](macbrow.md) · [Source](https://github.com/timpratim/macbrow)
+
+### Switchyard
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS menu-bar app that opens every link in the right Dia/Chrome profile; TypeSafe Jev decides uncovered links and confident answers become local rules.
+
+**Access:** Build the [MIT source](https://github.com/kevinebaugh/switchyard) on macOS with a TypeSafe API key. No app purchase fee; each Jev judgment can incur provider charges. Source inspected; macOS build/live routing not run on the Linux review host. Distinct from FrancoisChastel/jev-router's Switchyard-style naming.
+
+[Full Switchyard guide](switchyard.md) · [Source](https://github.com/kevinebaugh/switchyard)
 
 ### TipTour
 
@@ -872,6 +1102,16 @@ Chrome Manifest V3 extension that scans page text for fraud, advertising, AI slo
 
 [Full Jev Content Guard guide](jev-content-guard.md) · [Source](https://github.com/serejkaaa512/jev-content-guard-ext)
 
+### Jev Focus (MateusRogien)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension: keep YouTube for focus music/learning while TypeSafe Jev hides the rest (distinct from Focus / jev-focus-guard).
+
+**Access:** Clone the [MIT source](https://github.com/MateusRogien/jev-focus) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Jev Focus (MateusRogien) guide](mateusrogien-jev-focus.md) · [Source](https://github.com/MateusRogien/jev-focus)
+
 ### Jev Focus Guard
 
 `Open source` · `Free source build` · `BYOK`
@@ -922,6 +1162,16 @@ Chrome extension that reorders Gmail’s list: unread first, critical on top, wi
 
 [Full Jev Inbox guide](jev-inbox.md) · [Source](https://github.com/iamomiid/jev-inbox)
 
+### Jev Review (Gmail)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that grades Gmail compose/reply text with TypeSafe Jev on configurable criteria and tracks which questions from the other person's email remain unanswered.
+
+**Access:** Load unpacked from the [MIT source](https://github.com/petrzpav/jev-review) in chrome://extensions; paste a TypeSafe key in options. No app purchase fee; TypeSafe usage billed separately. Source inspected; live Gmail grading not run on the review host.
+
+[Full Jev Review (Gmail) guide](petrzpav-jev-review.md) · [Source](https://github.com/petrzpav/jev-review)
+
 ### Jev Slop Guard
 
 `Open source` · `Free source build` · `BYOK`
@@ -951,6 +1201,16 @@ Chrome side panel that uses TypeSafe Jev to select and populate WebMCP tool call
 **Access:** [load the Apache-2.0 source unpacked](https://github.com/sdras/jev-webmcp-extension#set-it-up) on Chrome 149+ with WebMCP (origin trial or `chrome://flags/#enable-webmcp-testing`) and a TypeSafe API key in extension settings (`chrome.storage.local`). No app purchase fee; TypeSafe usage can incur charges. Not verified on the Chrome Web Store. Offline `npm test`: 16 passed on the review host; Chrome install and live TypeSafe/WebMCP not tested.
 
 [Full Jev × WebMCP guide](jev-webmcp-extension.md) · [Source](https://github.com/sdras/jev-webmcp-extension)
+
+### jev-email-classifier
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome MV3 extension that classifies Gmail rows with TypeSafe Jev (Choice/Score/Noul); metadata-only, BYOK.
+
+**Access:** Clone the [MIT source](https://github.com/AkashNaickar/jev-email-classifier) and follow upstream setup with a TypeSafe/provider key when live. No app purchase fee for the source build; provider usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full jev-email-classifier guide](jev-email-classifier.md) · [Source](https://github.com/AkashNaickar/jev-email-classifier)
 
 ### jev-x-filter
 
@@ -1114,6 +1374,16 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 
 ## Command-line apps
 
+### arJev
+
+`Open source` · `Free source build` · `BYOK`
+
+Daily arXiv digest engine: lexical front-line plus TypeSafe Jev confidence-gated rerank against an Obsidian vault.
+
+**Access:** Clone the [Apache-2.0 source](https://github.com/harmoniqs/arjev) and follow upstream setup with a TypeSafe/provider key when live. No app purchase fee for the source build; provider usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full arJev guide](arjev.md) · [Source](https://github.com/harmoniqs/arjev)
+
 ### Gmail Classifier
 
 `Open source` · `Free source build` · `BYOK`
@@ -1133,6 +1403,26 @@ Private-by-default Gmail labeler: local policy asks TypeSafe Jev (or OpenAI/Anth
 **Access:** clone the [MIT source](https://github.com/shimoverse/inbox-triage) (Python 3.11+, uv) with your Google OAuth desktop client; `TYPESAFE_API_KEY` for `--provider jev`. No app purchase fee; Google/TypeSafe billed separately. Source inspected; live Gmail/Jev not run.
 
 [Full Inbox Triage guide](inbox-triage.md) · [Source](https://github.com/shimoverse/inbox-triage)
+
+### jev-crypto-scout
+
+`Open source` · `Free source build` · `BYOK`
+
+Crypto screening pipeline: quant signals from CoinGecko stay in code; TypeSafe Jev System One judges news for sentiment/catalyst/confirmed labels. Explicitly not a trading bot.
+
+**Access:** Clone the [MIT source](https://github.com/yasdelayu/jev-crypto-scout) and follow README/USAGE with `TYPESAFE_API_KEY`. No app purchase fee; TypeSafe and market-data usage are separate. Source inspected; live scout runs not executed on the review host.
+
+[Full jev-crypto-scout guide](jev-crypto-scout.md) · [Source](https://github.com/yasdelayu/jev-crypto-scout)
+
+### jevelry
+
+`Open source` · `Free source build` · `BYOK`
+
+Terminal app to make and track everyday decisions with TypeSafe Jev, storing reusable “jevels” locally.
+
+**Access:** Install from the [MIT npm/source](https://github.com/backant-io/jevelry) (Node ≥22) with a TypeSafe API key. No app purchase fee; TypeSafe usage may incur charges. Source inspected; live Jev not run.
+
+[Full jevelry guide](jevelry.md) · [Source](https://github.com/backant-io/jevelry)
 
 ### Jev Mail Classifier
 
@@ -1173,6 +1463,16 @@ Annotate videos with Jev judgments about sentence-level rhetoric, then render ov
 **Access:** [build the MIT Python CLI](https://github.com/ChetasLua/jevmeter#-command-line-for-power-users) with a Whisper backend, FFmpeg support and TypeSafe key. Source has no purchase fee; inference charges apply. The review inspected source only. Scores are model judgments, not fact-checks; failed sentences can be omitted.
 
 [Full Jevmeter guide](jevmeter.md) · [Source](https://github.com/ChetasLua/jevmeter)
+
+### Omarchy Mail
+
+`Open source` · `Free source build` · `BYOK`
+
+Terminal Gmail client for Omarchy; TypeSafe Jev files inbox into labels.
+
+**Access:** Clone the [MIT source](https://github.com/petrzpav/omarchy-mail) and follow upstream setup. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live install/inference not tested on the review host.
+
+[Full Omarchy Mail guide](omarchy-mail.md) · [Source](https://github.com/petrzpav/omarchy-mail)
 
 ## Discord bots
 
