@@ -412,6 +412,16 @@ Multi-channel inbound lead intake (web/WhatsApp/Telegram/webhooks) buffered in S
 
 [Full jev-leads guide](jev-leads.md) · [Source](https://github.com/SebassContreras/jev-leads)
 
+### Jev plays chess
+
+`Open source` · `Free` · `BYOK`
+
+Public chess ladder where TypeSafe Jev picks each move as a Choice over legal moves annotated with local facts (no lookahead); Maia-3 is the opponent; Stockfish eval bar is display-only.
+
+**Access:** Watch at [jev-plays-chess.view.fast](https://jev-plays-chess.view.fast/) or clone the [GPL-2.0 source](https://github.com/dmallory42/jev-plays-chess) (`npm start` with TYPESAFE_API_KEY). Hosted watch path is free for visitors; self-host needs a TypeSafe key. Source inspected; live TypeSafe games not run on the review host.
+
+[Full Jev plays chess guide](jev-plays-chess.md) · [Source](https://github.com/dmallory42/jev-plays-chess)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
