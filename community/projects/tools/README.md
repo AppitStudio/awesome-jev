@@ -488,6 +488,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [openjev-mcp (markylaredo)](markylaredo-openjev-mcp.md) | Expose OpenJEV System One judgments over MCP with shared context and multi-question batches. | TypeScript · MCP stdio server (`openjev-mcp`) |
 | [openwebui-jev-style-decisions](openwebui-jev-style-decisions.md) | Open WebUI plugin for JEV-style typed decisions via local Ollama (unofficial). | Open WebUI plugin (MIT) |
 | [orca-jev-advisor](orca-jev-advisor.md) | Orca Lab plugin: local rules + TypeSafe Jev gate agent commands (ask before force-push/merge/apply). | TypeScript · Orca/Electron plugin (license unspecified) |
+| [paperclip-jev](paperclip-jev.md) | Run Paperclip with automatic task routing by TypeSafe Jev (fork of paperclipai/paperclip). | TypeScript · Paperclip fork + Jev router (MIT) |
 | [patdown](patdown.md) | Lint a tree against fuzzy markdown rules with a swappable judge; default backend is TypeSafe Jev. | TypeScript · npm CLI (`patdown`) and Effect packages |
 | [PDF Race](pdf-race.md) | Race Docling→TypeSafe Jev vs Gemini on the same PDFs with committed keyless replays. | Node.js ≥ 20 · local/Vercel bench (`pdf-race` 1.0.0) |
 | [PerfectRecall](perfectrecall.md) | Hermes/Python agent memory: TypeSafe/OpenRouter Jev evidence questions over local SQLite (Mnemosyne-compatible; no embeddings). | Python · Hermes provider + library |
