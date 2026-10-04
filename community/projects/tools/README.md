@@ -681,6 +681,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [sokudan](hiroki-abe-58-sokudan.md) | Run a Japanese System One decision model (typed answers + probabilities, no generation) with bench_ja/bench_en and a Laya position-bias repro. | Python · HF weights (`GeneLab/sokudan-ja-310m`, Apache-2.0) |
 | [Strands Decider](strands-decider.md) | Run Strands Decider open System One–style typed decisions for agent workflows (independent of hosted Jev). | Python · open decision model (Apache-2.0) |
 | [Sureband](sureband.md) | Conformal coverage wrappers for System One outputs (Jev/Laya/…) from labeled calibration sets. | Python · library (`sureband`, Apache-2.0) |
+| [system-one-security](system-one-security.md) | Rerun security experiments on TypeSafe Jev and Cloudflare Clef (truncation, injection, fact poisoning, tripwires). | TypeScript · experiment harness (MIT) |
 | [TetraJev](tetrajev.md) | Run a zero-training local decision layer: four readings from two frozen readers, fit-free fusion, agreement routing, and published coverage–accuracy across eight decision suites plus a RAG reranking pass. | Python · runners + llama.cpp GGUF readers (MIT) |
 | [tev1 (Together)](tev1.md) | Fine-tune/study tev1-4B Jev-inspired choice decisions (Together open weights + recipe; independent of hosted Jev). | Python · HF/Together weights + recipe (MIT) |
 | [TinyJev](tinyjev.md) | Run an offline ~0.6B System One–compatible Choice/Noul/Score model (MLX/PyTorch); independent of hosted Jev. | Python · package + HF weights (MIT) |
