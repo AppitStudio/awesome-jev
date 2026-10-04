@@ -53,4 +53,5 @@ Related: [jev-align](jev-align.md), [JevScope](jevscope.md), [Advocaat](advocaat
 
 - [Jev decision audits: validate the business case](../../knowledge-base/articles/jev-decision-audit.md) — Independently suggested by JevList; not an endorsement by barnyx. Join outcomes to predictions and compare threshold policies.
 - [Build a budget-aware Jev bot](../../knowledge-base/articles/jev-bot-budget.md) — Independently suggested by JevList; not an endorsement by Paone. Compare labeled outcomes and review thresholds offline.
+- [Gero-4B: train a calibrated decision model with MLX](../../knowledge-base/articles/gero-4b-decision-model-training.md) — Independently suggested by JevList; not an endorsement by vixhaℓ (@TheVixhal). Audit observed-outcome probabilities after training or export.
 <!-- knowledge:backlinks:end -->
