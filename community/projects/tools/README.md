@@ -700,6 +700,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [DecisionKit](decisionkit.md) | Model Jev decisions in .NET domain terms and keep the Jev protocol in a separate provider package (Choice/Score/Noul). | C# · NuGet packages (DecisionKit.* 0.1.0, MIT) |
 | [ex_typesafe_ai](iamtalha-arshad-ex-typesafe-ai.md) | Call TypeSafe AI Jev from Elixir with typed structs and noul/choice/score helpers (unofficial). | Elixir · library (MIT) |
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
+| [Gavel](gavel.md) | Call TypeSafe Jev Choice/Score/Noul from Salesforce Flow/Apex/Agentforce with policy + ledger. | Salesforce · Apex/Flow packages (Apache-2.0) |
 | [go-jev](go-jev.md) | Call TypeSafe Jev from Go (Ask/Evaluate) and UNIX pipelines via jev-cli; explicit API key option. | Go · module + CLI (`github.com/mattn/go-jev`, MIT) |
 | [hono-jev-router](hono-jev-router.md) | Route Hono HTTP requests by plain-English meaning with TypeSafe Jev Noul judgments (experimental). | TypeScript · Hono router (`hono-jev-router`) |
 | [hunch](hunch.md) | Call TypeSafe Jev classify/score/check/pick/rank/where over scalars, lists, and pandas columns (`hunch-jev`). | Python · PyPI library (`hunch-jev` 0.6.0) |
