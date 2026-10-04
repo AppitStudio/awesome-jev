@@ -118,6 +118,16 @@ Local visual System One playground for building decisions, comparing Jev, OpenJE
 
 [Full Decision Lab guide](decision-lab.md) · [Source](https://github.com/Amine-LG/decision-lab)
 
+### Dice Chess bot (Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Experimental Dice Chess webhook bot: TypeSafe Jev picks among legal turns without heuristic pre-ranking (AGPL-3.0).
+
+- Full guide: [dicechess-bot-jev.md](dicechess-bot-jev.md)
+- Source: [fortemate/dicechess-bot-jev](https://github.com/fortemate/dicechess-bot-jev)
+- Access: free source build; BYOK TypeSafe/provider keys when live
+
 ### Doom or Bloom
 
 `Open source` · `Free` · `BYOK`
