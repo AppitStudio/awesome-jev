@@ -782,6 +782,16 @@ Educational demo where TypeSafe Jev (jev-1.13.0) types every reply one key at a 
 
 [Full say-hi guide](say-hi.md) · [Source](https://github.com/huemorgan2/say-hi)
 
+### ScamCheck
+
+`Open source` · `Free source build` · `BYOK`
+
+Paste a suspicious message and get a scam verdict and risk score: one TypeSafe Jev call answers about eleven typed questions, and code can only raise the risk.
+
+**Access:** clone the [MIT source](https://github.com/AkashNaickar/scamcheck) and run locally with Node.js 20+. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full ScamCheck guide](scamcheck.md) · [Source](https://github.com/AkashNaickar/scamcheck)
+
 ### Shapeshift
 
 `Open source` · `Free` · `BYOK`
