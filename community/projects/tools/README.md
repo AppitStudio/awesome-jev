@@ -788,6 +788,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [scala-jev-sdk](scala-jev-sdk.md) | Call System One from Scala 3.3 LTS with typed Question/answer lookup over an sttp 4 backend (Maven Central). | Scala 3 · Maven (`io.github.ticofab:scala-jev-sdk_3` 0.1.0, Apache-2.0) |
 | [semgate](semgate.md) | Filter and route Go HTTP requests with TypeSafe Jev noul/choice/score middlewares. | Go · net/http middleware |
 | [Spring AI TypeSafe](spring-ai-typesafe.md) | Call System One from Java/Spring AI (client, JevJudge, guardrail/RAG/tool-search advisors). | Java · Maven (`org.springaicommunity`, 0.1.0) |
+| [strapi-plugin-jev-review](strapi-plugin-jev-review.md) | Gate Strapi 5 publish with TypeSafe Jev approve/escalate/revise decisions (optional Document Service guard). | JavaScript · Strapi 5 plugin (MIT) |
 | [swift-jev](swift-jev.md) | Call TypeSafe Jev Choice/Noul/Score from SwiftPM apps or a JSON CLI (`jev`); no free-form generation. Distinct from TypeSafe (Swift). | Swift 6.2 · SwiftPM library (`Jev`) + CLI |
 | [sys1 (alvarobartt)](alvarobartt-sys1.md) | Serve open decision models (e.g. Laya) behind a System One–compatible `/v1/systemone` API in Rust. Distinct from hraness/sys1. | Rust · CLI/server (Apache-2.0) |
 | [System One Connector](system-one-connector.md) | MCP `evaluate` tool: typed Jev/Laya/System One judgments with probabilities for supported coding agents. | Go · static binary + MCP setup (MIT) |
