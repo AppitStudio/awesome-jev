@@ -226,6 +226,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-herdr](jev-herdr.md) | Spawn Claude Code agents in Herdr with TypeSafe Jev choosing model and effort per agent. | TypeScript · Herdr integration (MIT) |
 | [jev-llm-guard](jev-llm-guard.md) | Guard LLM inputs/outputs against OWASP LLM risks with TypeSafe Jev judgments (Turkish demo). | TypeScript · web demo (MIT) |
 | [jev-router-mcp](jev-router-mcp.md) | Route agent questions to tools with a Jev-compatible `/v1/systemone` MCP server (Laya-friendly). | Node.js · npm MCP (`@humayunkabir/jev-router-mcp`, MIT) |
+| [jev-secret-guard](jev-secret-guard.md) | Stop Claude Code from writing/committing secrets: local regex blocks plus masked TypeSafe Jev judgments. | JavaScript · Claude Code hook (MIT) |
 | [jevmem (illescasDaniel)](illescasdaniel-jev-mem.md) | Store/recall agent notes with Jev admission/typing/relevance; MCP + Claude Code hooks + CLI over SQLite (fails open). | Python 3.12+ · MCP/hooks/CLI (`jevmem`, MIT, beta) |
 | [Jev Mode](tiffygk-jev-mode.md) | Claude Code skills/study course for building with TypeSafe Jev (PolyForm Noncommercial; commercial use restricted). | Claude Code skills (PolyForm Noncommercial 1.0.0) |
 | [Jev Observer](jev-observer.md) | Proxy and inspect TypeSafe Jev decisions locally with history, question versions, latency, and cost estimates. | Rust · local proxy + dashboard (MIT) |
