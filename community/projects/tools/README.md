@@ -620,6 +620,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [imajev](imajev.md) | Open multimodal typed-decision models that answer constrained options with probabilities and can't-tell. | Open weights · local serve (Apache-2.0); not TypeSafe-hosted Jev |
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
 | [Jeeves (PostHog)](posthog-jeeves.md) | Run a 9B Jev-like reasoning decision model (noul/choice/score) via a Jev-compatible API; independent of hosted TypeSafe Jev. | Python · open weights + serving (MIT) |
+| [jev-imdb-benchmark](jev-imdb-benchmark.md) | Reproduce Jev IMDB review benchmarks (sentiment/spoilers/quality) with published metrics. | Python · IMDB benchmark harness (MIT) |
 | [JevAlt](jevalt.md) | Run open Jev-API–compatible Choice/Score/Noul models locally (EN/TR/DE) on CPU; not TypeSafe-hosted. | Python · HF open models (Apache-2.0) |
 | [jev-browsecomp](jev-browsecomp.md) | Measure Jev document screening vs RLM/LLM arms on BrowseComp-Plus with id→span citation checks. | Python · research harness (Apache-2.0) |
 | [jev-calibration](jev-calibration.md) | Plot and reproduce Jev calibration (reliability/ECE) on 240 labelled tool-call cases. | Python research scripts (Apache-2.0) |
