@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "gero-4b-decision-model-training",
+  "slug": "gero-4b-decision-model-training",
+  "title": "Gero-4B: train a calibrated decision model with MLX",
+  "description": "Study Gero-4B’s MLX decision-model training: shared option scoring, data shortcuts, probability rewards, calibration checks and export validation.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-04",
+  "modified_at": "2026-10-04",
+  "topics": [
+    "calibration",
+    "decision-audits"
+  ],
+  "source": {
+    "title": "Building an RL fine-tuning platform to train JEV-like decision models",
+    "url": "https://x.com/thevixhal/article/2106439792800198966",
+    "author": {
+      "name": "vixhaℓ (@TheVixhal)",
+      "url": "https://x.com/TheVixhal"
+    },
+    "published_at": "2026-10-03",
+    "accessed_at": "2026-10-04"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and offline verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jeval.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Audit observed-outcome probabilities after training or export",
+      "why": "Provider-neutral report CLI compares recorded selected probabilities with labeled correctness and review costs. It fits the article’s calibration measurement step; it is not named by the source author.",
+      "evidence": [
+        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/README.md",
+        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/jeval/schema.py",
+        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/jeval/calibration.py",
+        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/LICENSE"
+      ],
+      "limitations": "Apache-2.0 0.1.0; Python 3.10+. Pinned suite passed 488 tests and demo generated 905 synthetic records. Hard-label correctness cannot substitute for soft-target expectations; Score excluded from accuracy. No Gero training or live model evaluation. Installation uses registries; model/hardware/provider costs are separate."
+    }
+  ],
+  "verification": {
+    "source": "Complete X article and all code blocks read in logged-in Chrome on 2026-10-04; source timestamp 2026-10-03T17:42:37Z. Linked Gero model card/configuration inspected at b997deccc932639a70a06f241da389b1936b1016. No verified full republication found; source cover not reused.",
+    "offline": "Pinned jeval 0.1.0 at 783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7 passed 488 tests and generated a 905-record synthetic report in scratch Python 3.14.3. No provider call. Public and local page checks recorded in release PR.",
+    "live": "No MLX training, Gero weight download or inference, TypeSafe request, model-quality measurement, actual cost/latency benchmark or checkpoint/export reproduction. Build prompt reviewed, not executed as a full platform.",
+    "review": "AI-assisted source and pinned-code inspection; no human reviewer. Ahrefs at Chrome sign-in; entitlement and metrics unavailable. Search Console Web all countries through 2026-09-29, first 500 rows: jev mlx 0 clicks/16 impressions, jevlike 110/512. Search results and reader intent chosen before naming; no Gero demand estimate."
+  },
+  "faqs": [
+    {
+      "question": "Is Gero-4B the same model as TypeSafe Jev?",
+      "answer": "No. Gero-4B is independent research based on Qwen3-4B. Its typed decision interface resembles Jev, but this guide establishes neither shared weights nor equivalent accuracy, calibration or API compatibility."
+    },
+    {
+      "question": "Does softmax make a decision model calibrated?",
+      "answer": "No. Softmax produces a normalized distribution. Calibration requires checking those probabilities against outcomes on representative held-out data, including the subset on which your application would act."
+    },
+    {
+      "question": "Why use one shared scorer instead of fixed option slots?",
+      "answer": "A shared scorer applies the same weights to every option branch. It avoids reserving separate output weights for positions that training rarely sees. Option-order invariance still needs a test, and adding or duplicating options changes the softmax distribution."
+    },
+    {
+      "question": "How should I evaluate genuinely ambiguous examples?",
+      "answer": "When a trustworthy target distribution is known, compare the selected option probability with that option’s target probability, and compute expected log loss or Brier loss across the full distribution. Do not replace a soft target with its most likely label. On real data with one observed outcome, use that outcome and preserve its provenance."
+    },
+    {
+      "question": "Can jeval reproduce the Gero training metrics?",
+      "answer": "Not unchanged. The inspected jeval version evaluates labeled choice or binary decisions with hard correctness and excludes score records from accuracy. Use it for observed-outcome audits; retain a separate evaluator for soft-label expectations, structure probes and export parity."
+    },
+    {
+      "question": "What must be checked before using a confidence threshold?",
+      "answer": "Choose a threshold using development data and actual mistake and review costs, then evaluate accuracy and coverage on untouched cases. Empty accepted slices, missing labels, invalid distributions and failed inference remain visible review work. Keep action authorization in code."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/gero-4b-decision-model-training.png",
+    "alt": "Three stages of a decision-model experiment: shared option scorer, structure training and probability training, followed by held-out calibration and export checks",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
