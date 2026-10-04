@@ -39,7 +39,7 @@ cp .env.example .env   # add TYPESAFE_API_KEY
 # uv run python -m inbox_queue evaluate
 ```
 
-Demo inbox is synthetic (`data/demo_inbox.json`). Live demo/evaluate not run here.
+Demo inbox is synthetic (`data/demo_inbox.json`), but uncached threads in `demo` or `evaluate` still call TypeSafe and may incur charges. Inject authored responses for an offline policy replay. Live demo/evaluate not run here.
 
 ## Examples and demos
 
@@ -48,11 +48,13 @@ Demo inbox is synthetic (`data/demo_inbox.json`). Live demo/evaluate not run her
 
 ## Limits and data handling
 
-Thread text leaves the host on live Jev calls; IMAP credentials stay in `.env`. Cached answers live under `.cache/jev/`. This listing did not run the demo or call TypeSafe.
+Thread text leaves the host on live Jev calls. The API key and mailbox identity use `.env`; the README's `save-password` command stores the IMAP password in the system keychain. Cached answers live under `.cache/jev/` and rendered thread content under `out/`; these remain sensitive local artifacts. The cache hashes state and questions but omits the selected model, so invalidate it explicitly when comparing model versions. This listing did not run the demo or call TypeSafe.
 
 ## Review and maintenance
 
 Reviewed on **2026-09-23** at [commit c5203bb](https://github.com/tusharck/jev-inbox-queue/tree/c5203bb06ae3446e757c312bb02a4cfea9d39fe0) (MIT). AI-assisted review of README, LICENSE, classify/questions/policy. No live TypeSafe/IMAP.
+
+Follow-up **2026-10-04** at the same revision: re-inspected those sources, serialized seven questions with `typesafe-sdk` 0.7.2 in isolated Python 3.12, and passed eight authored policy cases including exact thresholds, promotional override and acknowledgement tie-break. This tests code branches, not model quality or email access; `uv sync`, the UI and live inference remain untested.
 
 Related: [Jevmail](jevmail.md), [Crush Monitor](crush-monitor.md).
 
@@ -63,4 +65,5 @@ Related: [Jevmail](jevmail.md), [Crush Monitor](crush-monitor.md).
 - [10 Jev project ideas with practical starting points](../../knowledge-base/articles/jev-project-ideas.md) — Independently suggested by JevList; not an endorsement by rody. Build 1: route email into a reviewable action queue.
 - [Jev agent triage desk: routes, audits and total cost](../../knowledge-base/articles/jev-agent-triage-desk.md) — Independently suggested by JevList; not an endorsement by Gipp 🦅. Study an email-only queue that separates parallel Jev judgments from code-owned routing.
 - [Build a Jev and Kimi K3 confidence cascade](../../knowledge-base/articles/jev-kimi-confidence-cascade.md) — Independently suggested by JevList; not an endorsement by Mr. Buzzoni. Prototype several typed inbox decisions over shared thread state with code-owned queue rules.
+- [OpenAI Dots and Jev: supervise an inbox workflow](../../knowledge-base/articles/openai-dots-jev-inbox.md) — Independently suggested by JevList; not an endorsement by Noisy. Screen bounded email threads into code-owned queue, check and skip buckets before preparing a morning review packet.
 <!-- knowledge:backlinks:end -->

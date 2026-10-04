@@ -19,7 +19,8 @@
     "jev-content-triage",
     "jev-text-to-columns",
     "jev-python-first-request",
-    "gero-4b-decision-model-training"
+    "gero-4b-decision-model-training",
+    "openai-dots-jev-inbox"
   ],
   "retire_all": false
 }

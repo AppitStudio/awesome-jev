@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "openai-dots-jev-inbox",
+  "slug": "openai-dots-jev-inbox",
+  "title": "OpenAI Dots and Jev: supervise an inbox workflow",
+  "description": "Supervise a Dots-assisted inbox with a separate Jev screening worker, reviewable drafts and explicit failures. Check product access, API costs and approval boundaries.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-04",
+  "modified_at": "2026-10-04",
+  "topics": [
+    "agent-harnesses",
+    "decision-gates",
+    "cost-optimization",
+    "tool-safety"
+  ],
+  "source": {
+    "title": "OpenAI Dots: Run GPT-6 Astra 24/7 and become a solo dev who Just Supervises (Full Guide)",
+    "url": "https://x.com/noisyb0y1/article/2105964235087856080",
+    "author": {
+      "name": "Noisy",
+      "url": "https://x.com/noisyb0y1"
+    },
+    "published_at": "2026-10-02",
+    "accessed_at": "2026-10-04"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and offline technical verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/apps/jev-inbox-queue.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Screen bounded email threads into code-owned queue, check and skip buckets before preparing a morning review packet",
+      "why": "The inspected Python project separates seven parallel Jev judgments from deterministic queue policy and preserves selected answer fields. It teaches the article’s inbox-screening step; Noisy does not name it, and it has no writer or Dots adapter.",
+      "evidence": [
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/README.md",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/classify.py",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/inbox_queue/policy.py",
+        "https://github.com/tusharck/jev-inbox-queue/blob/c5203bb06ae3446e757c312bb02a4cfea9d39fe0/LICENSE"
+      ],
+      "limitations": "MIT open-source, free source build, BYOK. Python 3.10+, uv and billed TypeSafe access; real inbox needs IMAP access. Synthetic demo input still triggers live requests when uncached. Cache identity omits model version; no reply writer or Dots connector. Eight authored policy fixtures passed; no mailbox or inference run."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article and code blocks in the user’s logged-in Chrome on 2026-10-04. Followed six primary links, checked LangChain issue #40694 (open), and inspected pinned Jev Inbox Queue README, questions, policy, classifier/cache and MIT license. Exact-title and author searches found no verified republication. Source artwork was not reused.",
+    "offline": "typesafe-sdk 0.7.2, isolated Python 3.12: seven question objects serialized and eight authored queue-policy cases passed, including exact boundaries and promotional override. npm run check and local JevList knowledge tests verify content structure and publication behavior, not model accuracy. No complete inbox worker or Dots adapter was built; build prompt reviewed only.",
+    "live": "No TypeSafe or OpenAI inference, IMAP read, writer, Dots provisioning, overnight execution, approval action, accuracy study, invoice verification or measured time saving. Embedded demonstrations were not reproduced. Public article and documentation were read live.",
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Candidate queries: OpenAI Dots Jev integration, Dots inbox automation, Jev email triage, OpenAI Dots API costs. Ahrefs browser required sign-in and no connector was available; plan access, volume and difficulty unestablished. Search Console jevlist.ai Web query table for 18–29 September showed no rows containing dots. Current search results emphasize Dots setup/access. Existing agent-loop, worker-router and triage guides informed the narrower product/worker supervision intent. No indexing or ranking claim."
+  },
+  "faqs": [
+    {
+      "question": "Can I add Jev directly to OpenAI Dots?",
+      "answer": "The inspected sources do not establish a built-in Jev router inside Dots. Run Jev in a separate worker and expose a bounded report or tool through a separately verified integration; Dots permissions and action review still apply."
+    },
+    {
+      "question": "Does the Jev Inbox Queue demo run offline?",
+      "answer": "Its input is synthetic, but uncached threads still call TypeSafe. Use injected response fixtures for a genuinely offline policy replay; a cached or demo run does not by itself prove no data transfer or charges."
+    },
+    {
+      "question": "Does one million Jev decisions cost $42?",
+      "answer": "Only under the assumption of 1,000 input tokens per decision at $0.042 per million tokens. Count state and questions, retries and other services separately; a decision is not a fixed billing unit."
+    },
+    {
+      "question": "Can Jev approve an email send?",
+      "answer": "No. Jev can judge supplied evidence, but application code checks permissions and binds the final action to a human approval. A high probability or confidence does not authorize sending."
+    }
+  ],
+  "image": {
+    "path": "community/knowledge-base/images/openai-dots-jev-inbox.png",
+    "alt": "A separate Jev inbox worker creates a review packet for a Dot or human supervisor; code enforces budgets and permissions, and a person approves sends",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
