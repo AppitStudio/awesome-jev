@@ -427,7 +427,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevLint](jevlint.md) | Lint source against plain-English conventions with file-level TypeSafe Jev Noul judgments (magic-strings, descriptive-names). | TypeScript · npm CLI (`@jevlint/cli`) |
 | [jevlint (Ice-Hazymoon)](ice-hazymoon-jevlint.md) | Write plain-English semantic lint rules; TypeSafe Jev returns calibrated yes/no probabilities (distinct from huntedman/JevLint). | TypeScript · npm (`@hazymoon/jevlint`, MIT) |
 | [jevmate](jevmate.md) | Coding-agent triage/test-selection/risk review via TypeSafe Jev (CLI, Claude Code plugin, MCP). | Python · CLI + plugin + MCP (MIT) |
-| [jevmem](jevmem.md) | Shared JEVMEM.md memory across Claude Code/Cursor/Codex; TypeSafe Jev gates what to save. | Node.js · CLI/hooks/MCP (`jevmem` 0.4.2, MIT) |
+| [jevmem](jevmem.md) | Git-tracked JEVMEM.md memory for Claude Code/Cursor/Codex; TypeSafe Jev decides what to save and recall, and checks tool calls against saved rules. | Node.js · Claude Code plugin + CLI/hooks + MCP (`jevmem` 0.6.4, MIT) |
 | [jevmetrics](jevmetrics.md) | Assess unfamiliar OTel metrics for retention with TypeSafe Jev, then apply deterministic keep/reduce policy. | Go · OpenTelemetry Collector processor (0.1.0-dev alpha) |
 | [jevmod](jevmod.md) | Moderation CLI/SDK/API/MCP and optional chat bots with per-category TypeSafe Jev probabilities and owned thresholds. | Python · `jevmod` 0.2.1 (MIT) |
 | [jevmory](jevmory.md) | Build quote-backed agent memory with TypeSafe Jev grading and audit MEMORY.md with receipts. | Python · CLI (`jevmory`) + Claude/Codex hooks |
