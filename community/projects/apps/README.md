@@ -904,6 +904,16 @@ Open Codex-App–style desktop coding agent (Electron+React) driving Claude Code
 
 [Full Modex guide](modex.md) · [Source](https://github.com/TypeSafeAI/modex)
 
+### Warren Duffer
+
+`Open source` · `Free source build` · `BYOK`
+
+Intraday Nifty-50 trading bot where TypeSafe Jev ranks names and code sizes/stops live broker orders (experimental; real-money risk).
+
+**Access:** Free source build; BYOK TypeSafe/Vercel AI Gateway + broker API. Places real orders—no paper mode. Checked 2026-10-04. Source inspected; live paths not run on the review host.
+
+[Full Warren Duffer guide](warrenduffer.md) · [Source](https://github.com/arimanyus/warrenduffer)
+
 ## macOS apps
 
 ### Capture (sgaabdu4)
