@@ -819,6 +819,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [graphify-jev](54lynnn-graphify-jev.md) | Build a local AST knowledge graph and use Jev System One judgments for semantic navigation/refactor guidance without a vector store. | Python 3.10+ · Tree-sitter + Jev |
 | [jegrep](jegrep.md) | Find code by natural-language intent using TypeSafe Jev (or OpenRouter→Jev) without embeddings. | Rust · CLI (`jegrep`) and release binaries |
 | [Jev Deep Research](jevdeepresearch.md) | Parallel evidence finding: GPT drives research steps; TypeSafe Jev judges document regions concurrently and returns excerpts. | TypeScript/Python research harness (Apache-2.0) |
+| [JEV Research MCP](jev-research-mcp.md) | Select web research evidence with TypeSafe Jev at search-result and content-block layers (MCP `research`). | TypeScript · MCP server (Apache-2.0) |
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [jev-corrective-rag](jev-corrective-rag.md) | Corrective RAG with TypeSafe Jev typed gates for triage, chunk grading, and answer verification (LLM only generates). | Python · Streamlit app, CLI and bench |
 | [jev-doc-search](jev-doc-search.md) | Find answering pages in long PDFs with TypeSafe Jev `Choice` over a PageIndex tree (no vector DB). | Python · PageIndex + typesafe_sdk (Apache-2.0) |
