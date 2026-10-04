@@ -542,6 +542,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [System One Harness](systemone-harness.md) | Drive finite-action environments with TypeSafe Jev (OpenRouter/TypeSafe): one typed decision per step, confidence gates, full traces. | Python · CLI `s1` (`systemone-harness` 0.4.0) |
 | [System One Playground](system-one-playground.md) | Write SysOneScript, use a Go System One client, semlint, and Studio/VS Code—offline first, optional live Jev. | Go · CLI/extension (`sysone`/`sos`) + `typesafe` module |
 | [system-one-reviewer](system-one-reviewer.md) | Review local git ranges with deterministic clustering + TypeSafe Jev/System One typed judgments and an eval harness. | Python · local CLI reviewer (MIT) |
+| [systemone-poc](systemone-poc.md) | Pre-route Pi/OpenCode/DSH coding agents with Jev/Laya before the main agent run (POC + reports). | Plugins/MCP · Pi/OpenCode/DSH (MIT) |
 | [Taste Lint](taste-lint.md) | Catch AI-sloppy UI motion/copy/typography before ship; optional TypeSafe Jev under-review judgments via Gateway or direct. | Node.js ≥ 24.11 · npm CLI (`taste-lint` 0.3.0) |
 | [tax-doc-classifier](tax-doc-classifier.md) | Classify tax PDF page text into IRS form ids and page kinds with TypeSafe Jev Choice over shipped criteria. | TypeScript · library (`tax-doc-classifier`) |
 | [tdd-gate](tdd-gate.md) | Dual-agent TDD gates: TypeSafe Jev coverage/blame/gaming/weakening/drift judgments; optional isolated orchestrator. | TypeScript · CLI (`tdd-gate` 0.1.0, MIT) |
