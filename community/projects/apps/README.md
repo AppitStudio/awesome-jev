@@ -612,6 +612,16 @@ Score note articles for AI-slop writing patterns with TypeSafe Jev (multi-axis S
 
 [Try JevSlop](https://jevslop.pages.dev/) · [Full JevSlop guide](jevslop.md) · [Source](https://github.com/TKY-27/JevSlop)
 
+### JevTRPG
+
+`Open source` · `Free` · `BYOK`
+
+Paste a résumé or backstory and get a 1920s TRPG investigator sheet judged by TypeSafe Jev (free live site; nothing stored).
+
+**Access:** Hosted path free for visitors; optional source build with TypeSafe key. Checked 2026-10-04. Source inspected; live paths not run on the review host.
+
+[Try JevTRPG](https://jevtrpg.chroniclecore.com) · [Full JevTRPG guide](jevtrpg.md) · [Source](https://github.com/Zaious/JevTRPG)
+
 ### JevZero
 
 `Open source` · `Free source build` · `BYOK`
