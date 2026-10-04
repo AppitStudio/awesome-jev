@@ -630,6 +630,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-guardrail-benchmark](jev-guardrail-benchmark.md) | Reproduce WSO2 AI Gateway TypeSafe Jev guardrail accuracy/latency/cost vs Azure Content Safety and an LLM judge. | Python · WSO2 AI Gateway benchmark (Apache-2.0) |
 | [jev-imdb-benchmark](jev-imdb-benchmark.md) | Reproduce Jev IMDB review benchmarks (sentiment/spoilers/quality) with published metrics. | Python · IMDB benchmark harness (MIT) |
 | [Jev-Lite](jev-lite.md) | Serve local System One–style Choice/Score/Noul decisions via FastAPI (Qwen backbone; independent of hosted Jev). | Python · FastAPI + PyTorch (Apache-2.0) |
+| [jev-zh-tw-eval](jev-zh-tw-eval.md) | Reproduce zh-TW System One evals (Plumb-4B/Ollama) with adversarial and calibration probes (independent of hosted Jev). | Python · Ollama `/v1/systemone` eval toolkit (MIT; docs separate) |
 | [JevAlt](jevalt.md) | Run open Jev-API–compatible Choice/Score/Noul models locally (EN/TR/DE) on CPU; not TypeSafe-hosted. | Python · HF open models (Apache-2.0) |
 | [jev-browsecomp](jev-browsecomp.md) | Measure Jev document screening vs RLM/LLM arms on BrowseComp-Plus with id→span citation checks. | Python · research harness (Apache-2.0) |
 | [jev-calibration](jev-calibration.md) | Plot and reproduce Jev calibration (reliability/ECE) on 240 labelled tool-call cases. | Python research scripts (Apache-2.0) |
