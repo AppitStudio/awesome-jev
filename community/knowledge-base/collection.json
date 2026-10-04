@@ -18,7 +18,8 @@
     "jev-batch-agent-review",
     "jev-content-triage",
     "jev-text-to-columns",
-    "jev-python-first-request"
+    "jev-python-first-request",
+    "gero-4b-decision-model-training"
   ],
   "retire_all": false
 }

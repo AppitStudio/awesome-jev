@@ -210,6 +210,16 @@ Local natural-language SQLite playground: inspectable semantic decisions, typed 
 
 [Full IntentSQL guide](intentsql.md) · [Source](https://github.com/Amine-LG/IntentSQL)
 
+### Jeff
+
+`Closed source` · `Free`
+
+Hosted bookshelf search and sort: visitors ask by mood, theme, or plot; TypeSafe Jev ranks books, articles, and newsletters on the shelf. Any visitor can upload a Goodreads CSV and publish a shelf with a link and QR code.
+
+**Access:** Open [read.atharvashah.com](https://read.atharvashah.com) in a modern browser (phone layout works at 360px). Free for visitors—no account and no API key. Closed source (private repository). Operator pays Jev, capped at about $1/day and $5/month; past the cap search falls back to keyword matching. Checked 2026-10-04. Implementation not inspected; live ranked search not instrumented on the review host.
+
+[Full Jeff guide](jeff.md) · [Source](https://read.atharvashah.com)
+
 ### Jev 2048
 
 `Open source` · `Free` · `BYOK`
@@ -391,6 +401,26 @@ Local interactive workbench with small demos showing TypeSafe Jev System One cap
 **Access:** Clone the [MIT source](https://github.com/BrendanH18/jev-lab), `uv sync --locked`, and `uv run --locked server.py` on localhost:8321. No app purchase fee; TypeSafe usage is separate. Distinct from [jammaru/jev-lab](https://github.com/jammaru/jev-lab). Source inspected; live UI not run on the review host.
 
 [Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
+
+### jev-leads
+
+`Open source` · `Free source build` · `BYOK`
+
+Multi-channel inbound lead intake (web/WhatsApp/Telegram/webhooks) buffered in SQLite WAL, qualified by OpenRouter typesafe/jev-1.13 structured decisions, then synced to Airtable with hot-reloadable per-channel configs.
+
+**Access:** Clone the [MIT source](https://github.com/SebassContreras/jev-leads) and follow upstream setup (Node 24 LTS / Hono). Bring OpenRouter and Airtable credentials. No app purchase fee; provider usage is separate. Source inspected; live intake/inference not run on the review host.
+
+[Full jev-leads guide](jev-leads.md) · [Source](https://github.com/SebassContreras/jev-leads)
+
+### Jev plays chess
+
+`Open source` · `Free` · `BYOK`
+
+Public chess ladder where TypeSafe Jev picks each move as a Choice over legal moves annotated with local facts (no lookahead); Maia-3 is the opponent; Stockfish eval bar is display-only.
+
+**Access:** Watch at [jev-plays-chess.view.fast](https://jev-plays-chess.view.fast/) or clone the [GPL-2.0 source](https://github.com/dmallory42/jev-plays-chess) (`npm start` with TYPESAFE_API_KEY). Hosted watch path is free for visitors; self-host needs a TypeSafe key. Source inspected; live TypeSafe games not run on the review host.
+
+[Full Jev plays chess guide](jev-plays-chess.md) · [Source](https://github.com/dmallory42/jev-plays-chess)
 
 ### Jev Radar
 
@@ -581,6 +611,16 @@ Score note articles for AI-slop writing patterns with TypeSafe Jev (multi-axis S
 **Access:** open [jevslop.pages.dev](https://jevslop.pages.dev/) or build from the [MIT source](https://github.com/TKY-27/JevSlop). No app purchase fee; TypeSafe inference is separate. Live TypeSafe evaluation was not tested on the review host.
 
 [Try JevSlop](https://jevslop.pages.dev/) · [Full JevSlop guide](jevslop.md) · [Source](https://github.com/TKY-27/JevSlop)
+
+### JevTRPG
+
+`Open source` · `Free` · `BYOK`
+
+Paste a résumé or backstory and get a 1920s TRPG investigator sheet judged by TypeSafe Jev (free live site; nothing stored).
+
+**Access:** Hosted path free for visitors; optional source build with TypeSafe key. Checked 2026-10-04. Source inspected; live paths not run on the review host.
+
+[Try JevTRPG](https://jevtrpg.chroniclecore.com) · [Full JevTRPG guide](jevtrpg.md) · [Source](https://github.com/Zaious/JevTRPG)
 
 ### JevZero
 
@@ -874,6 +914,16 @@ Open Codex-App–style desktop coding agent (Electron+React) driving Claude Code
 
 [Full Modex guide](modex.md) · [Source](https://github.com/TypeSafeAI/modex)
 
+### Warren Duffer
+
+`Open source` · `Free source build` · `BYOK`
+
+Intraday Nifty-50 trading bot where TypeSafe Jev ranks names and code sizes/stops live broker orders (experimental; real-money risk).
+
+**Access:** Free source build; BYOK TypeSafe/Vercel AI Gateway + broker API. Places real orders—no paper mode. Checked 2026-10-04. Source inspected; live paths not run on the review host.
+
+[Full Warren Duffer guide](warrenduffer.md) · [Source](https://github.com/arimanyus/warrenduffer)
+
 ## macOS apps
 
 ### Capture (sgaabdu4)
@@ -1121,6 +1171,16 @@ Local Chrome MV3 extension that asks TypeSafe Jev whether heuristically selected
 **Access:** [load the MIT source unpacked](https://github.com/tx-smitht/jev-focus-guard) (Developer mode) with a TypeSafe API key. No app purchase fee; each judgment can incur provider charges. Source inspected; Chrome install and live browsing not tested on the review host.
 
 [Full Jev Focus Guard guide](jev-focus-guard.md) · [Source](https://github.com/tx-smitht/jev-focus-guard)
+
+### Jev Form Fill
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that matches clipboard/source text to form fields with TypeSafe Jev, lets you review proposals, fill selected fields in page order, read back values, and undo—you submit the form yourself.
+
+**Access:** Load unpacked from the [MIT source](https://github.com/takasek/jev-form-fill) (Chrome 116+). Bring a TypeSafe API key in the popup. No app purchase fee; TypeSafe usage billed separately. Source inspected; live form fills not run on the review host.
+
+[Full Jev Form Fill guide](jev-form-fill.md) · [Source](https://github.com/takasek/jev-form-fill)
 
 ### Jev Investment Forecast (jev-investment-forecast)
 
