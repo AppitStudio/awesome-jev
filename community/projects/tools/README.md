@@ -826,6 +826,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [TypeSafeAI.Net](typesafeai-net.md) | Add typed Jev judgments to .NET applications and Microsoft.Extensions.AI pipelines. | C# · client library |
 | [wagtail-jev](wagtail-jev.md) | Wagtail CMS editor buttons: TypeSafe Jev suggests page tags and rates fields on custom scales. | Python · Wagtail/Django package (MIT) |
 | [Wingman](wingman.md) | Route System One requests through one gateway: a `typesafe` provider preserves Jev probabilities, confidence, model, and usage. | Go · server + YAML config (MIT) |
+| [zenai](zenai.md) | Call TypeSafe Jev from Zig with typed `Questions` and answers (`zenai.typesafe.Client`). | Zig · library (Apache-2.0) |
 | [ZeroAlloc.Jev](zeroalloc-jev.md) | Call TypeSafe Jev System One from .NET with a source-generated, Native AOT–friendly unofficial client. | .NET · library (MIT) |
 
 ## Search and retrieval
