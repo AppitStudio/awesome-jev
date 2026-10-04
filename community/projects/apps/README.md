@@ -582,6 +582,16 @@ Local read-only Gmail triage into Needs reply / Updates / Promos / Sales / Spam 
 
 [Full Jevmail guide](jevmail.md) · [Source](https://github.com/fazlerocks/jevmail)
 
+### jevmdb
+
+`Open source` · `Free source build` · `BYOK`
+
+Find similar movies with TypeSafe Jev over IMDb/TMDB/Wikidata metadata and where-to-watch links.
+
+- Full guide: [jevmdb.md](jevmdb.md)
+- Source: [ClaudioEden/jevmdb](https://github.com/ClaudioEden/jevmdb)
+- Access: free source build; BYOK TypeSafe/provider keys when live
+
 ### JevPDF
 
 `Open source` · `Free` · `BYOK`
