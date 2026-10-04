@@ -861,6 +861,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jselect](jselect.md) | Selects source-linked evidence within a token budget using Jev Noul relevance judgments and local diversity-aware selection. | Python · library and CLI (`jev-select`) |
 | [jsort](jsort.md) | Order lines/paragraphs/files along a plain-English dimension using pairwise TypeSafe Jev comparisons. | Python · CLI (`jsort` / jev-sort) |
 | [laya-jev-GraphRAG](laya-jev-graphrag.md) | Agentic GraphRAG with swappable Laya/Jev System One decisions across Neo4j/Memgraph/AGE/Kùzu. | Python · GraphRAG framework (Apache-2.0) |
+| [ldraw-nova](ldraw-nova.md) | Guide an agent to build LDraw LEGO models; its part/example search re-ranks candidates with Jev (falls back to full-text search without a key). | Python · Dockerized web app + agent tools (AGPL-3.0) |
 | [llama-index-jev](llama-index-jev.md) | Rerank retrieved passages or choose a query engine in LlamaIndex. | Python · integration packages |
 | [Milvus Model](milvus-model.md) | Score candidate documents with Jev Noul and return sorted results with original indices. | Python · PyMilvus model adapter |
 | [mysql-ailike](mysql-ailike.md) | Filter and join MySQL rows with natural-language conditions via TypeSafe Jev (`AILIKE`). | MySQL · native UDF/plugin (v0.2.0, GPL-2.0) |
