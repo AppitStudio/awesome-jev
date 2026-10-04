@@ -122,6 +122,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Candidate Experience Feedback Benchmark](candidate-experience-benchmark.md) | Compare TypeSafe Jev vs LLMs on 60 synthetic candidate-experience reviews (four typed tasks). | HTML · evidence packs + explorer (MIT) |
 | [Canny](canny.md) | Stop Claude Code/Codex “done” claims without ledger evidence; TypeSafe Jev advises, only facts block. | TypeScript · CLI (`canny-warden` 0.1.0), zero runtime deps |
 | [CanvasTTY Assistant](canvastty-plugin-assistant.md) | Review agent commands and triage launches in CanvasTTY with System One (Jev/Laya/Eikos) decisions. | CanvasTTY plugin · System One (MIT) |
+| [Captain Code](captaincode.md) | Route coding tasks to the cheapest capable agent; optional Jev triage/gating (`captain jev`, `captain jev shadow`). | Go · CLI (`captain`) (MIT) |
 | [catherd](47vigen-catherd.md) | Autopilot coding-agent herds where TypeSafe Jev picks which model writes while Claude plans/verifies. | TypeScript · orchestrator (MIT) |
 | [chatwoot-workers](chatwoot-workers.md) | Chatwoot Cloudflare Workers: Discord relay + TypeSafe Jev ticket triage router. | TypeScript · Cloudflare Workers (MIT) |
 | [chinese-workflow-decision-bench](chinese-workflow-decision-bench.md) | Benchmark Feishu-style Chinese message triage with frozen Choice/four-Noul tracks and published Jev vs Laya results. | Python · bench harness + adapters |
