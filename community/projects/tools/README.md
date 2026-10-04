@@ -666,6 +666,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [SelfJev](jwuthri-selfjev.md) | Run an open Jev-shaped decisions model (typed answers with probabilities) locally on one GPU; independent of hosted Jev. | Python · Qwen3.5-4B LoRA (Apache-2.0) |
 | [SemIf](semif.md) | Explore typed option scoring and shared-state reuse with local open models; independent of official Jev. | Python / PyTorch / MLX · research and browser lab |
 | [sokudan](hiroki-abe-58-sokudan.md) | Run a Japanese System One decision model (typed answers + probabilities, no generation) with bench_ja/bench_en and a Laya position-bias repro. | Python · HF weights (`GeneLab/sokudan-ja-310m`, Apache-2.0) |
+| [Strands Decider](strands-decider.md) | Run Strands Decider open System One–style typed decisions for agent workflows (independent of hosted Jev). | Python · open decision model (Apache-2.0) |
 | [Sureband](sureband.md) | Conformal coverage wrappers for System One outputs (Jev/Laya/…) from labeled calibration sets. | Python · library (`sureband`, Apache-2.0) |
 | [TetraJev](tetrajev.md) | Run a zero-training local decision layer: four readings from two frozen readers, fit-free fusion, agreement routing, and published coverage–accuracy across eight decision suites plus a RAG reranking pass. | Python · runners + llama.cpp GGUF readers (MIT) |
 | [TinyJev](tinyjev.md) | Run an offline ~0.6B System One–compatible Choice/Noul/Score model (MLX/PyTorch); independent of hosted Jev. | Python · package + HF weights (MIT) |
