@@ -1151,6 +1151,7 @@ Selected official and community guides, organized by what you want to build. Coo
 - [Confidence](https://docs.typesafe.ai/confidence) - Understand how a distribution summary differs from the selected answer and its probability.
 - [Current models](https://docs.typesafe.ai/models) - Find model versions, moving aliases, supported inputs, pricing, and current limits.
 - [How to use Jev Score](https://jev-trader.com/faq/jev-score) - Walkthrough of the Score primitive: rubrics, probability-weighted calculation, and why score/probabilities/confidence answer different questions (recorded Naruto/Slater example; educational; not a live app).
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Study 2,170 public GitHub Jev projects to understand early ecosystem growth, application domains, and decision-use patterns.
 - [Jev 1.13 limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Account for literal interpretation, numerical weaknesses, distracting state, and adversarial inputs.
 - [Milvus search-evaluation notebook](https://github.com/milvus-io/bootcamp/blob/master/bootcamp/RAG/search_with_jev/evaluation_with_jev.ipynb) - Community cookbook using Jev judgments to evaluate search evidence, with synthetic examples and application-owned evaluation calculations.
 - [Noul self-consistency](https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook) - Inspect repeated answers and see how a review interval changes automatic-decision coverage.
