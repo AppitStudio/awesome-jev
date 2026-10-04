@@ -552,6 +552,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [tdd-gate](tdd-gate.md) | Dual-agent TDD gates: TypeSafe Jev coverage/blame/gaming/weakening/drift judgments; optional isolated orchestrator. | TypeScript · CLI (`tdd-gate` 0.1.0, MIT) |
 | [Ten Levels of Jev](ten-levels-of-jev.md) | Walk ten incremental Jev levels from a smart if-statement to a pi agent that reaches for Jev itself (offline mocks + live lab). | TypeScript · Vue lab + pi agent levels (MIT) |
 | [The Jev-enator](the-jev-enator.md) | Claude Code hooks: TypeSafe Jev danger gate, failure notice, and log-only completion check. | Python · stdlib hooks + install scripts |
+| [thinkdial](thinkdial.md) | Set Claude Code reasoning effort per turn with TypeSafe Jev (main loop, subagents, Codex; fail-open). | TypeScript · Claude Code mod (MIT) |
 | [tink-route](tink-route.md) | Gate Agent Skills with TypeSafe Jev (specialist Noul + Choice), then optionally install via Tink. | Python · CLI (`tink-route` 0.3.1) |
 | [todo-jev](todo-jev.md) | Classify requests into a 3-tier path (local rule / Jev skill / foundation model) with skill profiles and preflight. | Python · Typer CLI (`todo-jev` 0.1.0) |
 | [tokengate](jev-model-tokengate.md) | Buffer streamed LLM tokens and gate each window with TypeSafe Jev before the client sees them. | Node.js · OpenAI-compatible proxy (`tokengate` 0.1.0) |
