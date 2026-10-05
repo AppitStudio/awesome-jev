@@ -1608,6 +1608,16 @@ Delete high-confidence Telegram group spam with TypeSafe Jev Noul signals and fa
 
 [Full Jev Anti-Spam Bot guide](jev-antispam-bot.md) · [Source](https://github.com/backmeupplz/jev_antispam_bot)
 
+### TG-Spam
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted Telegram anti-spam bot and Go library (maintained since 2023); its optional Jev provider asks one typed spam question (plus an optional gibberish question) and thresholds the returned probability.
+
+**Access:** build from the [MIT source](https://github.com/umputun/tg-spam), install with Homebrew, or run the Docker image, then add the bot to your group. Jev is optional (`--jev.token`), uses your own TypeSafe key, and is billed separately. Source documentation inspected; live moderation not run in this catalog review.
+
+[Full TG-Spam guide](tg-spam.md) · [Source](https://github.com/umputun/tg-spam)
+
 ## Before you get started
 
 Each guide records supported platforms, setup, accounts and keys, data recipients, costs, limitations, and the version reviewed. Follow its launch or build path. Source availability does not imply a downloadable release or free inference, and an app listing does not certify production readiness.
