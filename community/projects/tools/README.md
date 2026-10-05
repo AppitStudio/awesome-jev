@@ -487,6 +487,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [mobai-ci](mobai-ci.md) | Run MobAI `.mob` / Maestro mobile UI flows in CI; `.mobflow` steps are judged/acted by TypeSafe Jev. | CLI · GitHub Action |
 | [model-router-python](model-router-python.md) | Filter models by limits/budget, then ask TypeSafe Jev which remaining model should handle the prompt. | Python · PyPI library (MIT) |
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
+| [mu](mu.md) | Run a pi-based coding agent where Jev (or a local Laya judge, a classifier, or an LLM) makes routine calls; compare judges in shadow mode via `mu ledger` before activating a decision point. | TypeScript · npm `mu-agent` CLI + desktop app (pre-release 0.1.x, MIT) |
 | [oh-my-jev (apetcu)](apetcu-oh-my-jev.md) | oh-my-pi plugin: TypeSafe Jev tool-call gate (default), optional model router, and latency telemetry (≠ MassiveLabsNet/oh-my-jev). | TypeScript · oh-my-pi plugin (MIT) |
 | [olla-jev](olla-jev.md) | Ollama-style local server for HF System One models behind Jev /v1/systemone. | Python · CLI/server (Apache-2.0) |
 | [omo-jev-plugin](omo-jev-plugin.md) | OmO/senpi plugin: TypeSafe Jev advises skill/tool fit, loop and completion signals (shadow/advise/act; does not replace permissions). | TypeScript · OmO/senpi npm plugin (`omo-jev-plugin`) |
