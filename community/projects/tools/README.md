@@ -475,6 +475,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JMP](jmp.md) | Local coding workspace: TypeSafe Jev picks the next tool action; DeepSeek/Codex/Bonsai supply arguments; OpenHands/MCP execute. | Python · desktop (pywebview) + CLI (MIT) |
 | [Juardrails](juardrails.md) | Manage TypeSafe Jev guardrail policies (YAML/UI), batch questions, apply rules via REST/CLI with audit. | Go · server + CLI (license unspecified at review) |
 | [Kassad](kassad.md) | Gate .NET LLM prompts/completions/tools/citations with TypeSafe Jev Allow/Flag/Review/Block verdicts. | C# · .NET library (Apache-2.0) |
+| [KiroGraph](kirograph.md) | Index a codebase for symbol lookups and context; set `memoryRelationMode`, `wikiContradictionMode` or `securityAuthDetectionMode` to `'jev'` for typed judgments (or `'strands'` for a local decision server). | TypeScript/Node · CLI + MCP server (`kirograph`, MIT) |
 | [laya-packet-analyser](laya-packet-analyser.md) | Triage laptop packet alerts with detectors + local Laya System One judgments and a live dashboard. | Python · stdlib analyser + dashboard (MIT) |
 | [laya-skill](laya-skill.md) | Claude Code skill/plugin for local Laya or hosted TypeSafe Jev typed decisions (plus fine-tune helpers). | Claude Code skill/plugin (Apache-2.0) |
 | [Leash](leash.md) | Judge each coding-agent turn against un-lintable rules with TypeSafe Jev and a one-way debt ratchet. | TypeScript · CLI/npm (`leash`, MIT) |
