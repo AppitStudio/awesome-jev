@@ -809,6 +809,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [NeuroLink](neurolink.md) | Call generate/stream across many providers and use TypeSafe Jev `decide` for typed boolean/choice/score judgments. | TypeScript · SDK/CLI (`@juspay/neurolink`) |
 | [nf-jev](nf-jev.md) | Call TypeSafe Jev noul/choice/score from Nextflow pipelines and gate on returned probabilities. | Groovy · Nextflow plugin (`nf-jev` 0.1.0, Apache-2.0) |
 | [nifi-jev](nifi-jev.md) | Apache NiFi `RouteWithJev` processor: TypeSafe Jev semantic yes/no routing with yes/no/review/failure relations. | Java · NiFi NAR (MIT) |
+| [Photoshop MCP](photoshop-mcp.md) | Control Photoshop from Cursor, Claude or the bundled chat UI; with a TypeSafe key, Jev routes each prompt to Instant (known safe command), Plan, Look & iterate, or Ask first. | TypeScript · npm `@alisaitteke/photoshop-mcp` (MCP server + browser chat UI) (MIT) |
 | [pi-jev-extension (rioliu)](rioliu-pi-jev-extension.md) | Pi extension: `jev_decide` asks TypeSafe Jev choice/score/noul; falls back to the session model if Jev is unavailable. | TypeScript · Pi extension (Bun, MIT) |
 | [Prompt Rejector](prompt-rejector.md) | Screen prompts, skills, and MCP tool descriptions via HTTPS/MCP with TypeSafe Jev plus deterministic checks. | TypeScript · npm (`prompt-rejector` 1.2.0, ISC) |
 | [ruby_decision_model](ruby-decision-model.md) | Ask Noul, Choice, and Score questions from Ruby via Typesafe or OpenRouter. | Ruby · gem (stdlib HTTP) |
