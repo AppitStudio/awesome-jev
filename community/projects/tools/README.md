@@ -790,6 +790,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jevs](jevs.md) | Call TypeSafe Jev classify/score/check/batch from Bun MCP / Codex plugin via the official JS SDK. | TypeScript · Bun MCP / Codex plugin (`jevs` 0.1.0) |
 | [JevT++](jevtpp.md) | C++20 typed decision library with optional local Laya (ONNX/ggml) or remote System One backends. | C++20 · library (MIT) |
 | [jevtok-ts](jevtok-ts.md) | Offline Jev token counting and request accounting for Node.js/TypeScript (companion to Python jevtok). | TypeScript · library (MIT) |
+| [judge_rails](judge-rails.md) | Declare `judge_attribute :urgency, Judge.noul(...)` on a model and query judged records with scopes; three judgments cost one API call per record. | Ruby · gem `judge_rails` (Rails generators; plain-Ruby client) (MIT) |
 | [Kestra TypeSafe plugin](kestra-plugin-typesafe.md) | Run TypeSafe System One typed evaluations inside Kestra flows (branch on structured answers). Not Scala Typesafe. | Java · Kestra plugin (Apache-2.0) |
 | [Klassify](klassify.md) | Kotlin Multiplatform DSL/SDK and Native CLI/MCP for TypeSafe System One classification (distinct from jev4k). | Kotlin · KMP SDK + Native CLI (`klassify` v0.1.1, Apache-2.0) |
 | [kotlin-jev](kotlin-jev.md) | Kotlin SDK + CLI for TypeSafe Jev (port of mattn/go-jev patterns). | Kotlin/JVM · library + `jev-cli` (MIT) |
