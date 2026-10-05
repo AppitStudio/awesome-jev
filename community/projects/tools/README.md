@@ -755,6 +755,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [ex_typesafe_ai](iamtalha-arshad-ex-typesafe-ai.md) | Call TypeSafe AI Jev from Elixir with typed structs and noul/choice/score helpers (unofficial). | Elixir · library (MIT) |
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
 | [Gavel](gavel.md) | Call TypeSafe Jev Choice/Score/Noul from Salesforce Flow/Apex/Agentforce with policy + ledger. | Salesforce · Apex/Flow packages (Apache-2.0) |
+| [genai (maruel)](maruel-genai.md) | Use one Go API for chat, tools, streaming and typed decisions; switch the decision provider between hosted Jev and local or Cloudflare models without changing your question code. | Go · library (Apache-2.0) |
 | [go-jev](go-jev.md) | Call TypeSafe Jev from Go (Ask/Evaluate) and UNIX pipelines via jev-cli; explicit API key option. | Go · module + CLI (`github.com/mattn/go-jev`, MIT) |
 | [GoEventBus](goeventbus.md) | Route ambiguous events with rules → cache → Jev fallback, then dispatch inside the bus (local ring buffer, Redis Streams, or RabbitMQ). | Go · library (`go get github.com/Protocol-Lattice/GoEventBus`) (MIT) |
 | [Gut](gut.md) | Pick an atom/value for a subject and question in Elixir (for example route a ticket to `:billing`) using Jev as the evaluator. | Elixir · Hex package `gut` + `req_llm` (Apache-2.0) |
