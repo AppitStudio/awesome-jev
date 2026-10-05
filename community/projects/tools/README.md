@@ -110,6 +110,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [ask-jev-skill](ask-jev-skill.md) | Call TypeSafe Jev as a Hermes typed tiebreaker (Choice/Score/Noul) when multiple paths remain. | Python · Hermes skill + stdlib CLI |
 | [askjev](askjev.md) | Ask TypeSafe Jev via MCP (local or hosted) for calibrated Noul/Choice/Score over agent-held context. | TypeScript · MCP server (`askjev` 0.2.0) |
 | [Astra-Ares](astra-ares.md) | Adapt GPT-6 Astra reasoning effort mid-Codex-task with TypeSafe Jev Choice (patched Codex CLI preview). | Node.js ≥ 22 · CLI (`astra-ares` / `ares` 0.2.1) |
+| [atoma](atoma.md) | Submit a goal (report, data study, software) and watch agents produce and verify it, with Jev making bounded routing/approval decisions recorded on the timeline. | TypeScript · Node platform + web console (AGPL-3.0) |
 | [auth-audit-jev](auth-audit-jev.md) | Shadow-mode Jev audit of allowlisted OAuth/IAM events with advisory alerts only (no enforce). | Python · EventPlugin + docs (MIT) |
 | [AutoJev](autojev.md) | Route agent requests through a local AutoJev gateway; optional OpenRouter Jev model selection with local fallback. | Tauri/React/Rust · desktop gateway (AGPL-3.0-only) |
 | [Auto Mode for Paseo](auto-mode-for-paseo.md) | Paseo plugin: TypeSafe Jev (or local Laya) picks Codex model/effort/mode/speed per turn. | TypeScript · Paseo plugin 0.2.0 |
