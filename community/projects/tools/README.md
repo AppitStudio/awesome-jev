@@ -74,6 +74,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Mobile Jev](mobile-jev.md) | Navigate an Android device and verify a dark-theme task. | JavaScript / React · Mobilerun agent and studio |
 | [Movo](movo.md) | Drive a Debian-family Linux desktop with AT-SPI candidates chosen by TypeSafe Jev (floating PySide6 agent). | Python · PySide6 + AT-SPI desktop agent (MIT) |
 | [pi-Jev-browser](pi-jev-browser.md) | Let Jev choose each Playwright browser action over a structured DOM observation inside Pi. | TypeScript · Pi extension (npm) |
+| [PlayJev (filed)](filedcom-playjev.md) | Add `page.act(...)`, `page.check(...)` style natural-language steps to Playwright tests and scripts, with Jev choosing from numbered page nodes. | TypeScript · npm `@filed/playjev` + Playwright (MIT, experimental) |
 | [Surf CLI](surf-cli.md) | Drive Chrome from any agent; opt-in `semantic.find` / `semantic.act` let Jev pick the next allowed action and verify the goal (other commands never call TypeSafe). | TypeScript · npm CLI + Chrome extension + native host (MIT) |
 | [Theme Tab Filter (jev-tab-filter)](jev-tab-filter.md) | Score Chrome tabs against a plain-English theme with TypeSafe Jev, then group/hide/window/close matches. | JavaScript · Chrome MV3 extension (MIT) |
 | [tinycomputer](tinyhumansai-tinycomputer.md) | Drive desktop a11y and Chrome via a Rust TinyBus module; flows/tasks ask TypeSafe Jev many small questions (no screenshots). | Rust · TinyBus cdylib module (GPL-3.0) |
