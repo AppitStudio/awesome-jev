@@ -828,6 +828,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [s1 (s1-rs)](s1-rs.md) | Derive Choice/Score/Noul question sets in Rust; optional `typesafe-rs` backend (distinct from typesafe-api). | Rust · workspace crates (`s1` 0.1.0, MSRV 1.85) |
 | [scala-jev-sdk](scala-jev-sdk.md) | Call System One from Scala 3.3 LTS with typed Question/answer lookup over an sttp 4 backend (Maven Central). | Scala 3 · Maven (`io.github.ticofab:scala-jev-sdk_3` 0.1.0, Apache-2.0) |
 | [semgate](semgate.md) | Filter and route Go HTTP requests with TypeSafe Jev noul/choice/score middlewares. | Go · net/http middleware |
+| [Skill Router (LangChain)](langchain-skill-router.md) | Load only the relevant skills per user turn from large catalogs (rank, then verify) with tunable load/offer/skip thresholds and per-decision traces. | Python · PyPI `langchain-skill-router[jev]` (MIT) |
 | [Spring AI TypeSafe](spring-ai-typesafe.md) | Call System One from Java/Spring AI (client, JevJudge, guardrail/RAG/tool-search advisors). | Java · Maven (`org.springaicommunity`, 0.1.0) |
 | [strapi-plugin-jev-review](strapi-plugin-jev-review.md) | Gate Strapi 5 publish with TypeSafe Jev approve/escalate/revise decisions (optional Document Service guard). | JavaScript · Strapi 5 plugin (MIT) |
 | [swift-jev](swift-jev.md) | Call TypeSafe Jev Choice/Noul/Score from SwiftPM apps or a JSON CLI (`jev`); no free-form generation. Distinct from TypeSafe (Swift). | Swift 6.2 · SwiftPM library (`Jev`) + CLI |
