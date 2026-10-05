@@ -22,7 +22,7 @@ High-performance Go event bus with deterministic rules, a decision cache, and an
 
 ## How it works
 
-Selection runs rules first, then the decision cache, then `JevSelector` with a bounded candidate set; the choice is cached and the event is dispatched by GoEventBus. If a rule matches or the state is cached, Jev is never called ([README: Use Jev as the fallback](https://github.com/Protocol-Lattice/GoEventBus/blob/b22f02bdee67f092be67dddf7cb77792b67e660c/README.md)).
+Selection runs rules first, then the decision cache, then `JevSelector` with a bounded candidate set; the choice is cached and the event is dispatched by GoEventBus. If a rule matches or the state is cached, Jev is never called ([`jev.go` selector](https://github.com/Protocol-Lattice/GoEventBus/blob/b22f02bdee67f092be67dddf7cb77792b67e660c/jev.go)).
 
 ## Get started
 
