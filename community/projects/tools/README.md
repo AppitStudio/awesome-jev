@@ -853,6 +853,7 @@ These projects study related typed-decision patterns using other models. They ar
 | --- | --- | --- |
 | [Agent Seek](agent-seek.md) | Cheap web recall for agents: You.com discover + TypeSafe Jev cascade ranking (REST/MCP/UI). Does not write answers. | Python 3.12+ · FastAPI/MCP (`agentseek.dev` demo) |
 | [blink](blink.md) | Search a local codebase with TypeSafe Jev via ensemble directory walkers that Choice-pick the next file or folder. | Bun · CLI (`./blink`); license unspecified |
+| [dailypaper-skills](dailypaper-skills.md) | Install seven skills into Claude Code, Codex, Cursor, Copilot, Gemini CLI, OpenCode or OpenClaw; Jev scores each candidate paper's title/abstract for relevance, the host agent reviews and writes notes. | Python 3.10+ · agent skills + installer (Apache-2.0) |
 | [duckdb-jev](duckdb-jev.md) | Run TypeSafe Jev Noul/Choice/Score predicates natively inside DuckDB SQL (C++ extension; no Python UDF). | C++ · DuckDB extension (Apache-2.0) |
 | [FastGate](fastgate-jev.md) | Gate a multilingual EN/UZ/RU RAG helpdesk with TypeSafe Jev decisions before the LLM writes; includes an independent benchmark. | Python · RAG helpdesk + benchmark (MIT) |
 | [genigrep](genigrep.md) | Retrieve answering source for a codebase question; TypeSafe Jev ranks/filters candidates. | TypeScript · search tool (Apache-2.0) |
