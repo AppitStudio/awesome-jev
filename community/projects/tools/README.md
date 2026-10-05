@@ -503,6 +503,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [openjev-mcp (markylaredo)](markylaredo-openjev-mcp.md) | Expose OpenJEV System One judgments over MCP with shared context and multi-question batches. | TypeScript · MCP stdio server (`openjev-mcp`) |
 | [openwebui-jev-style-decisions](openwebui-jev-style-decisions.md) | Open WebUI plugin for JEV-style typed decisions via local Ollama (unofficial). | Open WebUI plugin (MIT) |
 | [orca-jev-advisor](orca-jev-advisor.md) | Orca Lab plugin: local rules + TypeSafe Jev gate agent commands (ask before force-push/merge/apply). | TypeScript · Orca/Electron plugin (license unspecified) |
+| [Pad](pad.md) | Track work for you and your coding agents on local SQLite; optionally let Jev flag `needs_human` / blocked items and route free text to playbooks (`pad playbook match`). | Go · single binary with embedded web UI + MCP/agent skill (Apache-2.0) |
 | [paperclip-jev](paperclip-jev.md) | Run Paperclip with automatic task routing by TypeSafe Jev (fork of paperclipai/paperclip). | TypeScript · Paperclip fork + Jev router (MIT) |
 | [patdown](patdown.md) | Lint a tree against fuzzy markdown rules with a swappable judge; default backend is TypeSafe Jev. | TypeScript · npm CLI (`patdown`) and Effect packages |
 | [PDF Race](pdf-race.md) | Race Docling→TypeSafe Jev vs Gemini on the same PDFs with committed keyless replays. | Node.js ≥ 20 · local/Vercel bench (`pdf-race` 1.0.0) |
