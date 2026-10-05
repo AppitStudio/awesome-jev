@@ -735,6 +735,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
 | [Gavel](gavel.md) | Call TypeSafe Jev Choice/Score/Noul from Salesforce Flow/Apex/Agentforce with policy + ledger. | Salesforce · Apex/Flow packages (Apache-2.0) |
 | [go-jev](go-jev.md) | Call TypeSafe Jev from Go (Ask/Evaluate) and UNIX pipelines via jev-cli; explicit API key option. | Go · module + CLI (`github.com/mattn/go-jev`, MIT) |
+| [GoEventBus](goeventbus.md) | Route ambiguous events with rules → cache → Jev fallback, then dispatch inside the bus (local ring buffer, Redis Streams, or RabbitMQ). | Go · library (`go get github.com/Protocol-Lattice/GoEventBus`) (MIT) |
 | [hono-jev-router](hono-jev-router.md) | Route Hono HTTP requests by plain-English meaning with TypeSafe Jev Noul judgments (experimental). | TypeScript · Hono router (`hono-jev-router`) |
 | [hunch](hunch.md) | Call TypeSafe Jev classify/score/check/pick/rank/where over scalars, lists, and pandas columns (`hunch-jev`). | Python · PyPI library (`hunch-jev` 0.6.0) |
 | [jear](jear.md) | Route NEAR AI Cloud / IronClaw choices by budget, quality, and sensitivity using TypeSafe Jev structured decisions. | Rust · CLI/library (`jear` 0.1.0) |
