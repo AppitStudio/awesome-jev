@@ -692,6 +692,16 @@ Track how AI answers describe and position your brand. Jev judges brand sentimen
 
 [Full Notra guide](notra.md) · [Source](https://github.com/usenotra/notra)
 
+### Orphaned Films
+
+`Open source` · `Free`
+
+Free movie browser and player for public-domain films on archive.org (orphanedfilms.com) where Jev decided offline which TMDB film each upload really is and which films lead each collection shelf.
+
+**Access:** use the free site at [orphanedfilms.com](https://www.orphanedfilms.com) (no account), or clone the [MIT source](https://github.com/amponce/archive-movie-browser). Visitors trigger no Jev calls; rebuilding the index uses your own OpenRouter key. Source inspected; the site is behind a Cloudflare bot check and was not loaded by the review host.
+
+[Full Orphaned Films guide](orphaned-films.md) · [Source](https://github.com/amponce/archive-movie-browser)
+
 ### Paper Radar
 
 `Open source` · `Free source build` · `BYOK`
