@@ -630,6 +630,7 @@ These projects study related typed-decision patterns using other models. They ar
 | --- | --- | --- |
 | [AnyJev (Nokia Applied Research)](nokia-anyjev.md) | Turn an open LLM into Jev-style typed decisions with probabilities (L0–L2); independent of official Jev. | Python · PyPI (`anyjev` 0.1.0, Apache-2.0) |
 | [assay](assay.md) | Run local typed Choice/Score/Noul-style decisions with calibrated confidence (assay; independent of hosted Jev). | Python · stdlib local decision engine (MIT) |
+| [basal](basal.md) | Self-host Jev-style typed decisions (probability per allowed answer) on your GPU or Mac, and compare against hosted Jev on the maintainer's Werdykt benchmark. | Python · `basal-serve` engine (vLLM/SGLang/MLX/llama.cpp backends) (Apache-2.0) |
 | [Bongard](bongard.md) | Run Bongard open System One judgments (parallel typed questions → probabilities); independent of hosted Jev. | Python · HF weights + inference (Apache-2.0) |
 | [Brier](brier.md) | Run a local MLX Jev-format choice/score/noul decision model (PT-BR training focus) on Apple Silicon. | Python · MLX LoRA decision model (Apache-2.0) |
 | [calfram-bench](calfram-bench.md) | Calibration audit of TypeSafe Jev on 25 public benchmarks with CalFram (code + paper). | Python · research harness (MIT) |
