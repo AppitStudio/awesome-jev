@@ -813,6 +813,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
 | [laya-php](laya-php.md) | Classify/route text in PHP with local Laya typed decisions (Choice/Score/Noul); Laravel-ready; independent of hosted Jev. | PHP · Composer (`marcreichel/laya-php`, Apache-2.0) |
 | [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
+| [MakerAi](makerai.md) | Call Jev from Delphi with typed Choice/Score/Noul questions, or drop in adapters such as `TAiJevRouterTool`, `TAiJevGuardrailClassifier`, `TAiJevPromptGuard`, `TAiJevRAGReranker` and `TAiJevBatchLabeler`. | Delphi (Object Pascal) · component packages, Delphi 10.4–13.1 (MIT) |
 | [Mechanical Jev](mechanical-jev.md) | Ask System One Noul/Choice/Score from Rust (`mjev`) against local Intel Phi Jev or compatible endpoints. | Rust · library/CLI (Apache-2.0) |
 | [Micdrop](micdrop.md) | Build real-time TypeScript voice agents; optional `@micdrop/typesafe` classifies each user turn with TypeSafe Jev (choice/score/noul) before the LLM answers. | TypeScript · voice SDK + `@micdrop/typesafe` 1.0.1 (MIT) |
 | [Moreno.Jev](morenoland-moreno-jev.md) | Cross-platform MCP server and agent skill for TypeSafe Jev structured code review and debugging (review_code /… | Python · MCP server + skill (MIT) |
