@@ -1056,6 +1056,16 @@ Control macOS apps and perform Chrome tasks through an experimental voice assist
 
 [Full macbrow guide](macbrow.md) · [Source](https://github.com/timpratim/macbrow)
 
+### Meraline
+
+`Open source` · `Free` · `BYOK`
+
+Mac ⌥Space assistant for any app with a Decision mode: ask yes/no, choice or level questions about selected text and get Jev (direct or via OpenRouter) or local decision-model answers with how sure they are.
+
+**Access:** download the free [MIT-licensed release](https://github.com/Meldiron/meraline/releases/latest) or `brew install --cask meldiron/tap/meraline`. Decision mode with Jev needs your own TypeSafe or OpenRouter key (usage billed separately). Source inspected; the app was not run on the Linux review host.
+
+[Full Meraline guide](meraline.md) · [Source](https://github.com/Meldiron/meraline)
+
 ### Switchyard
 
 `Open source` · `Free source build` · `BYOK`
