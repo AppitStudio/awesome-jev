@@ -122,6 +122,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [BoundedCode](boundedcode.md) | Local OpenCode coding on 8 GB GPUs with a required TypeSafe Jev decision plane and Go verification gates. | Go · OpenCode supervisor (Apache-2.0) |
 | [BrighTO Router](brighto-router.md) | Self-host a Rust LLM gateway with OpenAI/Anthropic-compatible routes plus System One/Jev/DJEV/Laya decision routing, load balancing, and budgets. | Rust · Docker gateway (`thusinh1969/brighto_airouter`, Apache-2.0) |
 | [btx-skill-jev-judge](btx-skill-jev-judge.md) | Claude Code plugin: hand repeated judgments to TypeSafe Jev from a tested script. | Claude Code plugin (MIT) |
+| [cai](cai.md) | Ask Jev yes/no, choice, score or multi-question judgments from the shell on piped text alongside cai's chat, image, OCR and other commands. | Rust · CLI (build from Git for Jev; ISC) |
 | [Cairn Jev Lab](cairn-jev-lab.md) | Test memory-admission policies with TypeSafe Jev judgments and inspectable save/skip/defer recommendations. | Node.js ≥ 22 · lab/CLI/playground (`cairn-jev-lab` 0.1.0) |
 | [Candidate Experience Feedback Benchmark](candidate-experience-benchmark.md) | Compare TypeSafe Jev vs LLMs on 60 synthetic candidate-experience reviews (four typed tasks). | HTML · evidence packs + explorer (MIT) |
 | [Canny](canny.md) | Stop Claude Code/Codex “done” claims without ledger evidence; TypeSafe Jev advises, only facts block. | TypeScript · CLI (`canny-warden` 0.1.0), zero runtime deps |
