@@ -632,6 +632,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [cleffa](cleffa.md) | Run Cloudflare Clef/Clef-Flash locally on Apple Silicon Metal and serve POST /v1/systemone typed decisions (BF16; text-only v1). | C11 + Metal 4 · clef/clef-server (MIT) |
 | [codegraph-jev](codegraph-jev.md) | Benchmarks BM25/embeddings/call-graph + Jev judge against a coding agent on code-reading tasks. | Python research harness · TypeSafe Jev (MIT) |
 | [Conjevture](conjevture.md) | Combine Boolean rules with declared probability models; convert Jev Noul/Choice answers while keeping provenance (offline example; optional live game). | TypeScript · npm library (MIT) |
+| [Cygnet recipe](cygnet-recipe.md) | Serve a self-hosted `/v1/systemone`-compatible decision endpoint from stock Gemma weights and reproduce the maintainer's JevBench public-set run. | Python · vLLM 0.30.0 + shim (`shim/decision_server.py`) (MIT) |
 | [Decis](chaitin-decis.md) | Self-host a Jev-compatible `/v1/systemone` API with open Laya/kev engines in Docker (independent of hosted Jev). | Python · Docker inference server (Apache-2.0) |
 | [Decision Index (apolinario)](apolinario-decision-index.md) | Reproduce the Decision Index typed-decision benchmark suite locally or as one Hugging Face Job (not affiliated with TypeSafe). | Python · Decision Index kit + HF Jobs (MIT) |
 | [Deqio](deqio.md) | Self-host typed noul/choice/shared decisions behind one local API with swappable engines (Kev/Laya/Open-Jev, etc.). | Python · local decision server + UI (MIT) |
