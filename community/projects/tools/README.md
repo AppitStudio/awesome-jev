@@ -735,6 +735,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [cog-typesafe](cog-typesafe.md) | Bind TypeSafe Jev as a versioned `system-one/decisions` provider Cog for decision Cogs. | Python · pixi Cog provider (Apache-2.0) |
 | [datafusion-jev](datafusion-jev.md) | DataFusion SQL `prompt_jev` UDF for typed TypeSafe Jev answers over row text (bring HTTP client). | Rust · DataFusion 55 crate (MIT OR Apache-2.0) |
 | [decide (vsekhar)](vsekhar-decide.md) | Ask TypeSafe Jev yes/no, choice, and scored decisions from the command line, scripts, and agent skills. | Go · brew CLI (Apache-2.0) |
+| [Decision Model Rust SDK](decision-model-sdk-rust.md) | Call `/v1/systemone` from Rust with compile-time question sets and typed answers; no default vendor URL, so keys go only where you point them. | Rust · crates `decision-model-sdk`, `-macros`, `decision-model-adapter` (Apache-2.0) |
 | [DecisionKit](decisionkit.md) | Model Jev decisions in .NET domain terms and keep the Jev protocol in a separate provider package (Choice/Score/Noul). | C# · NuGet packages (DecisionKit.* 0.1.0, MIT) |
 | [ex_typesafe_ai](iamtalha-arshad-ex-typesafe-ai.md) | Call TypeSafe AI Jev from Elixir with typed structs and noul/choice/score helpers (unofficial). | Elixir · library (MIT) |
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
