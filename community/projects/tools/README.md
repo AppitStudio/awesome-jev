@@ -130,6 +130,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [CanvasTTY Assistant](canvastty-plugin-assistant.md) | Review agent commands and triage launches in CanvasTTY with System One (Jev/Laya/Eikos) decisions. | CanvasTTY plugin · System One (MIT) |
 | [Captain Code](captaincode.md) | Route coding tasks to the cheapest capable agent; optional Jev triage/gating (`captain jev`, `captain jev shadow`). | Go · CLI (`captain`) (MIT) |
 | [catherd](47vigen-catherd.md) | Autopilot coding-agent herds where TypeSafe Jev picks which model writes while Claude plans/verifies. | TypeScript · orchestrator (MIT) |
+| [changelog-bot](changelog-bot.md) | Generate changelog entries from releases; add `--why --why-engine jev` (or `why-engine: jev` in the Action) so WHY notes come only from evidence Jev accepts. | TypeScript/Node · npm CLI (`@nyaomaru/changelog-bot`) + GitHub Action (MIT) |
 | [chatwoot-workers](chatwoot-workers.md) | Chatwoot Cloudflare Workers: Discord relay + TypeSafe Jev ticket triage router. | TypeScript · Cloudflare Workers (MIT) |
 | [chinese-workflow-decision-bench](chinese-workflow-decision-bench.md) | Benchmark Feishu-style Chinese message triage with frozen Choice/four-Noul tracks and published Jev vs Laya results. | Python · bench harness + adapters |
 | [classifier.dev](classifier-dev.md) | Classify text with `curl https://classifier.dev/<labels>/<text>` or the `classify` CLI; Jev returns the label and confidence (`src/jev.ts`). | TypeScript · Cloudflare Worker + npm CLI (`classifier-dev`) (MIT) |
