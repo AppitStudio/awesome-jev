@@ -609,6 +609,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [The Jev-enator](the-jev-enator.md) | Claude Code hooks: TypeSafe Jev danger gate, failure notice, and log-only completion check. | Python · stdlib hooks + install scripts |
 | [thinkdial](thinkdial.md) | Set Claude Code reasoning effort per turn with TypeSafe Jev (main loop, subagents, Codex; fail-open). | TypeScript · Claude Code mod (MIT) |
 | [Tidepool](tidepool.md) | Turn recurring agent procedures into typed Haskell programs that call Jev only where a decision depends on meaning. | Rust · Haskell · Nix/Buck (PolyForm Shield 1.0.0) |
+| [tiergear](tiergear.md) | Spend less on easy Claude Code prompts and more on hard ones by letting Jev choose the tier, changing effort mid-session and the model only on the first turn by default. | Claude Code plugin · Node 20+ CLI (npm `tiergear`) |
 | [tink-route](tink-route.md) | Gate Agent Skills with TypeSafe Jev (specialist Noul + Choice), then optionally install via Tink. | Python · CLI (`tink-route` 0.3.1) |
 | [todo-jev](todo-jev.md) | Classify requests into a 3-tier path (local rule / Jev skill / foundation model) with skill profiles and preflight. | Python · Typer CLI (`todo-jev` 0.1.0) |
 | [tokengate](jev-model-tokengate.md) | Buffer streamed LLM tokens and gate each window with TypeSafe Jev before the client sees them. | Node.js · OpenAI-compatible proxy (`tokengate` 0.1.0) |
