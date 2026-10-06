@@ -571,6 +571,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [SmartMoney-Cub](smartmoney-cub.md) | Capture offline trading-journal evidence packs and optionally ask TypeSafe Jev typed review questions (read-only; no orders). | Python · `smcub` CLI and harness |
 | [Sniff Test](snifftest.md) | Lint Markdown/prose with local countable rules plus optional confirmed TypeSafe Jev judgment rules. | TypeScript/Bun · CLI (`snifftest` 0.1.0) |
 | [specpi-jev-guard](specpi-jev-guard.md) | Gate risky Pi agent shell/file commands with local rules then TypeSafe Jev danger scores. | TypeScript · Pi npm extension (MIT) |
+| [Spotlight (Buried Signals)](spotlight.md) | Run source-backed investigations with agent skills; opt in per install and per investigation so Jev checks each finding against its quoted evidence before publication. | Python · agent skills + scripts (MIT) |
 | [Stanley Code](stanley-code.md) | Review code changes, triage failures, and extend Jev workflows; optional Pi delegation can edit the repository. | TypeScript · source-built CLI and workflow runtime |
 | [stingray](stingray.md) | Stop half-done Claude Code/Codex turns with TypeSafe Jev judgments (empty action, broken promise, watch with nothing running). | Shell · Stop hook (MIT) |
 | [stop-rules](stop-rules.md) | Coding-agent stop hook: TypeSafe Jev yes/no per changed piece against written team rules (multi-agent + optional team server). | TypeScript · CLI (`stop-rules` 0.1.0) |
