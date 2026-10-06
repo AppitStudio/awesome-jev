@@ -222,6 +222,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [himalaya-jev-mail-classify](himalaya-jev-mail-classify.md) | CLI `mail-classify`: himalaya Gmail threads → TypeSafe Jev labels/colours via OpenRouter (dry-run default). | Python · CLI (`mail-classify` 0.1.0, MIT) |
 | [HiRoute](hiroute.md) | Local-first agent routing engine with TypeSafe Jev decision extensions for branch selection | Rust · routing engine (Apache-2.0) |
 | [hookgate](hookgate.md) | Gate Claude Code/Codex shell and Stop hooks with TypeSafe Jev (audit mode, fail-open). | Node.js ≥ 18 · CLI/plugin (`hookgate` 0.0.2) |
+| [hyalo](hyalo.md) | Manage and query a Markdown knowledgebase from the CLI; during tidy, ask Jev for type/folder suggestions on chosen notes instead of letting the agent guess. | Rust · CLI (Homebrew, apt, dnf, AUR, Scoop, winget, Cargo, npm) + agent plugin/skills (MIT) |
 | [Intent-Router](intent-router.md) | Compile vague agent requests into typed IntentSpec contracts (probe, ask, or halt) before Jev/Laya routing. | Agent Skill (`intent-router` 0.3.0, MIT) |
 | [invalidate](invalidate.md) | Check every stored agent memory against new evidence with TypeSafe Jev; mark superseded facts without rewriting text. | Python · library, CLI and memory adapters |
 | [is-malicious](is-malicious.md) | Scan a codebase for deceptive or data-stealing behavior with TypeSafe Jev file/line findings. | TypeScript · npm CLI (`is-malicious` 0.1.0) |
