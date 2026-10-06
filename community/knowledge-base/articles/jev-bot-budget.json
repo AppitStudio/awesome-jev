@@ -7,8 +7,11 @@
   "language": "en",
   "status": "published",
   "published_at": "2026-09-27",
-  "modified_at": "2026-09-27",
-  "topics": ["cost-optimization", "calibration"],
+  "modified_at": "2026-10-06",
+  "topics": [
+    "cost-optimization",
+    "calibration"
+  ],
   "source": {
     "title": "Jev Bot: The AI That Has to Pay for Its Own Brain",
     "url": "https://x.com/paonx_eth/article/2103881060878533066",
@@ -17,7 +20,7 @@
       "url": "https://x.com/paonx_eth"
     },
     "published_at": "2026-09-26",
-    "accessed_at": "2026-09-27"
+    "accessed_at": "2026-10-06"
   },
   "credits": {
     "guide_authors": [
@@ -54,16 +57,17 @@
       "why": "The provider-neutral Python CLI evaluates recorded probabilities and user-supplied mistake and hand-off costs. It can help check a candidate gate, while the application still owns the budget, actions and outcome log.",
       "evidence": [
         "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/README.md",
-        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/LICENSE"
+        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/LICENSE",
+        "https://github.com/rlaope/jeval/blob/783b8241b46f2d3cb2a9b26b6b0498002f3d8fa7/jeval/schema.py"
       ],
-      "limitations": "Apache-2.0 Python 3.10+ CLI. Offline reports need labeled decisions and honest cost inputs, not a TypeSafe key; no inference is performed. Synthetic demos do not establish calibration for a bot or trading edge. It does not fit a calibrator, debit a wallet or execute a policy. Paone did not mention or endorse this project."
+      "limitations": "Apache-2.0 Python 3.10+ CLI. Offline reports need labeled decisions and honest cost inputs, not a TypeSafe key; no inference is performed. Synthetic demos do not establish calibration for a bot or trading edge. It does not fit a calibrator, debit a wallet or execute a policy. Paone did not mention or endorse this project. Its confidence input must have a defined correctness-probability meaning; preserve raw TypeSafe confidence separately and evaluate any fitted mapping on held-out cases. Its Choice normalizer overrides a supplied confidence from a probabilities map; keep raw distributions outside fitted report rows."
     }
   ],
   "verification": {
-    "source": "Read the complete X article, its code blocks and chart footnotes in the user's logged-in Chrome on 2026-09-27. Also read Paone's 2026-09-23 survival-mode post in Chrome and followed the named Conway Automaton, Anthus calibration study and AY Automate pricing test to their primary pages. Exact-title searches found no verified author republication. The article body has no outbound project or post links; its images have no reusable license stated.",
-    "offline": "Recomputed the article's Jev-only 10,000-decision and $65 runway examples from the published input rate; checked the model, primitives and confidence docs, and the two catalog pages with pinned upstream files. The article's charts omit hosting, downstream model calls, fees and failed actions. Public validator and local site checks are reported separately.",
+    "source": "Read the complete X article, its code blocks and chart footnotes in the user's logged-in Chrome on 2026-10-06. Also read Paone's 2026-09-23 survival-mode post in Chrome and followed the named Conway Automaton, Anthus calibration study and AY Automate pricing test to their primary pages. Exact-title searches found no verified author republication. The article body has no outbound project or post links; its images have no reusable license stated.",
+    "offline": "Recomputed inference-only arithmetic; inspected current provider docs, SDK 0.7.2 response schemas, pinned jevtok request implementation and both project licenses, plus Anthus study and jeval probability semantics. Eight synthetic route cases, source 0.5 boundary and missing usage passed with SDK-built JSON fixtures and zero API calls. This does not test durable accounting, overlapping reservations, full retries or accuracy. Public validator and website release checks are reported separately.",
     "live": "No Jev API calls, bot run, market-data feed, orders, wallet, realized revenue or P&L were tested. The earlier post's 24-hour survival and the article's future live run were not reconciled by a public audited ledger. This guide does not claim a profitable or self-funding bot.",
-    "review": "AI-assisted editorial and technical review; no human reviewer recorded. Ahrefs and Search Console tools were not connected, so the title and FAQs follow reader intent and current search results without invented volume or difficulty."
+    "review": "AI-assisted editorial and technical review; no human reviewer recorded. On 2026-10-06 we inspected the existing page in Chrome Search Console; its query table supplied no wording to refine the guide. Ahrefs required sign-in, so plan eligibility, volume and difficulty are unverified. Retained the established title and slug around budget, daily cost and calibration reader intent; exact-source lookup found this existing guide."
   },
   "faqs": [
     {
