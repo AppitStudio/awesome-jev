@@ -785,6 +785,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [hunch](hunch.md) | Call TypeSafe Jev classify/score/check/pick/rank/where over scalars, lists, and pandas columns (`hunch-jev`). | Python · PyPI library (`hunch-jev` 0.6.0) |
 | [JarvisCore](jarviscore.md) | Give every agent bounded Choice/Score/Noul judgments via `self.decisions.evaluate(...)`, and opt in to Jev-backed subagent selection (`KERNEL_ROUTER_PROVIDER=typesafe`) or RAG passage classification. | Python · PyPI `jarviscore-framework[typesafe]` (Apache-2.0) |
 | [jear](jear.md) | Route NEAR AI Cloud / IronClaw choices by budget, quality, and sensitivity using TypeSafe Jev structured decisions. | Rust · CLI/library (`jear` 0.1.0) |
+| [jeff (Viperwow)](viperwow-jeff.md) | Put one typed-decision API in your stack and switch between hosted Jev and local Jev-compatible models by provider/model name. | Rust · single binary (release archives; `cargo`) |
 | [jevai](jevai.md) | Call TypeSafe System One from Rust with typed noul/choice/score questions in parallel (unofficial). | Rust · async client crate (MIT) |
 | [jev-cli (shetautnetjer)](shetautnetjer-jev-cli.md) | Clean-room `jev` CLI for Decision Contracts, local search, and benchmarks against TypeSafe System One. | Python · CLI (MIT) |
 | [jev (drpaneas)](drpaneas-jev.md) | Call TypeSafe Jev System One from Go with a small client package. | Go · module (`github.com/drpaneas/jev`, MIT) |
