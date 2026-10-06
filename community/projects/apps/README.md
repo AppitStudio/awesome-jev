@@ -1432,6 +1432,16 @@ Chrome extension + local Node proxy: TypeSafe Jev stamps LinkedIn posts Bait/Cor
 
 [Full LinkedIn Slop Filter guide](jev-linkedin-slop-filter.md) · [Source](https://github.com/Arpit-Khandelwal/jev-linkedin-slop-filter)
 
+### LinkScout
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser extension plus your own Cloudflare Worker that scores Google, Bing and DuckDuckGo results before you click: pages are fetched as Markdown and TypeSafe Jev judges relevance, depth, SEO spam and category and picks a key passage.
+
+**Access:** deploy the [MIT source](https://github.com/ianTPE/linkscout) Worker with Wrangler and load the extension unpacked. No fee; your Cloudflare, TypeSafe and optional Jina usage is billed by those providers. Source inspected; not run on the review host.
+
+[Full LinkScout guide](linkscout.md) · [Source](https://github.com/ianTPE/linkscout)
+
 ### PageGrade
 
 `Open source` · `Free source build` · `BYOK`
