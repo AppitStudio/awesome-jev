@@ -1492,6 +1492,16 @@ Chrome extension that mutes feed posts by meaning: TypeSafe Jev scores each post
 
 [Full ScrollPatrol guide](scrollpatrol.md) · [Source](https://github.com/ennsharma/scrollpatrol)
 
+### Skipto
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that answers a question about a YouTube video by asking TypeSafe Jev a Choice over ~30-second transcript windows plus a yes/no “is it covered at all?” check, then highlights the progress bar and jumps to the best moment.
+
+**Access:** load the [MIT source](https://github.com/jinukuntlaakhilakumargoud-web/skipto) as an unpacked extension. No fee; bring your own key (usage billed by the provider). Source inspected; not run on the review host.
+
+[Full Skipto guide](skipto.md) · [Source](https://github.com/jinukuntlaakhilakumargoud-web/skipto)
+
 ### Slop Mop
 
 `Open source` · `Free` · `BYOK`
