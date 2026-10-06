@@ -834,6 +834,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Moreno.Jev](morenoland-moreno-jev.md) | Cross-platform MCP server and agent skill for TypeSafe Jev structured code review and debugging (review_code /… | Python · MCP server + skill (MIT) |
 | [Mule 4 TypeSafe Connector](mule4-typesafe-connector.md) | Drive Mule 4 flows with TypeSafe Jev typed noul/choice/score decisions (connector ops + DataSense). | Java · Mule 4 connector (Apache-2.0) |
 | [n8n-nodes-jev](n8n-nodes-jev.md) | Classify, route, and score n8n workflow items with TypeSafe Jev questions. | TypeScript · n8n community node `n8n-nodes-jev` (MIT) |
+| [n8n-nodes-system-one](n8n-nodes-system-one.md) | Add one decision node to an n8n workflow, pick a credential (which picks the provider), and route items on `is_urgent_yes`, `team`, confidences and probabilities. | TypeScript · npm `@diegohh0411/n8n-nodes-system-one` (MIT) |
 | [n8n-nodes-typesafe](n8n-nodes-typesafe.md) | Ask TypeSafe Jev noul/choice/score questions about workflow text or JSON inside n8n. | TypeScript · n8n community node |
 | [n8n-nodes-typesafe-ai](n8n-nodes-typesafe-ai.md) | Official TypeSafe n8n nodes: Evaluate answers or Route items with System One (Jev) noul/choice/score questions. | TypeScript · n8n community node `@typesafe-ai/n8n-nodes-typesafe-ai` (MIT) |
 | [naturalcodz](naturalcodz.md) | Natural-logic npm helpers (classify/guard/route/score) on TypeSafe Jev with confidence thresholds. | TypeScript · npm (`naturalcodz`, MIT) |
