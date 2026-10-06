@@ -258,6 +258,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-llm-guard](jev-llm-guard.md) | Guard LLM inputs/outputs against OWASP LLM risks with TypeSafe Jev judgments (Turkish demo). | TypeScript · web demo (MIT) |
 | [jev-map](jev-map.md) | Find related tests for a function (`related-tests`, MCP `serve`); `--jev` adds Jev-scored links with a call budget. | Python · CLI + MCP server (MIT) |
 | [jev-mcp-router (ini8labs)](ini8labs-jev-mcp-router.md) | Let Jev select MCP servers/tools per request instead of loading every tool schema into the LLM context. | Python · uv MCP gateway (MIT) |
+| [jev-navigator](jev-navigator.md) | Let coding agents find code through closed Jev judgments over candidates the index built, with raw probabilities and partial results, while code owns goals and stopping. | Python 3.11+ · `jvn` CLI · optional `typesafe` extra |
 | [jev-qa-demos](jev-qa-demos.md) | Learn TypeSafe Jev for QA/SDET with commented TypeScript demos (Vercel AI Gateway + local Ollama). | TypeScript · demo scripts (source available; no LICENSE file) |
 | [jev-query](jev-query.md) | Answer analytics questions over Postgres with SQL that is valid by construction, read-only and parameterized, using Jev only to choose among legal plan moves. | TypeScript · Node ≥ 20 · `pg` or PGlite |
 | [jev-router-mcp](jev-router-mcp.md) | Route agent questions to tools with a Jev-compatible `/v1/systemone` MCP server (Laya-friendly). | Node.js · npm MCP (`@humayunkabir/jev-router-mcp`, MIT) |
