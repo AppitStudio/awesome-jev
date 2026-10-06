@@ -1614,6 +1614,16 @@ Terminal Gmail client for Omarchy; TypeSafe Jev files inbox into labels.
 
 [Full Omarchy Mail guide](omarchy-mail.md) · [Source](https://github.com/petrzpav/omarchy-mail)
 
+### pitwall
+
+`Open source` · `Free` · `BYOK`
+
+Native terminal multiplexer for coding agents (live status, persistent sessions, tabs/panes) that can connect TypeSafe Jev (`pitwall jev login`) to answer quick questions about your agents: is this permission request safe, how urgent is this pane, has a hook-less agent finished, does this turn need review.
+
+**Access:** install the free [MIT binaries](https://github.com/quanticstudios/pitwall) with the upstream script (checksums verified). Jev decisions are opt-in and use your own TypeSafe key (usage billed by TypeSafe). Alpha software; source inspected, not run on the review host.
+
+[Full pitwall guide](pitwall.md) · [Source](https://github.com/quanticstudios/pitwall)
+
 ## Discord bots
 
 ### Jev Moderation Bot
