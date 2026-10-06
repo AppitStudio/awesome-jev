@@ -602,6 +602,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [toolgate](toolgate.md) | Gate Claude Code and MCP tool calls with static rules plus TypeSafe Jev risk judgments and a local audit log. | TypeScript · CLI, Claude Code hook and MCP proxy |
 | [triagedy](triagedy.md) | Triage JSONL security alerts with TypeSafe Jev typed questions; route outcomes in ordinary Rust code. | Rust · CLI (`triagedy` 0.1.0) |
 | [Tripwire](tripwire.md) | Abort bad streaming completions mid-flight using TypeSafe Jev (or an offline heuristic) inside an OpenAI-compatible proxy. | Python · package (`tripwire` 0.1.0) |
+| [trirouter](trirouter.md) | Install hooks, an MCP server and a `trirouter` command so every prompt is routed to the right agent/model/effort, with parallel agents, queue protection and shared skills. | Python · installer + hooks + MCP server (MIT) |
 | [Typed Evals](typed-evals.md) | Evaluate RAG/agent outputs and guard tools with TypeSafe Jev judges and optional calibration. | Python · library/CLI (`typed_evals`) |
 | [typesafe-agent-gates](typesafe-agent-gates.md) | Gate unattended LangChain/Deep Agents shell commands and triage with TypeSafe Jev middleware. | Python · LangChain middleware |
 | [TypeWright](typewright.md) | Compile Decision Contracts into checksummed typed Jev JSON programs (DSPy/GEPA search; runtime without DSPy). | Python 3.11+ · compiler + runtime (MIT, alpha) |
