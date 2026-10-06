@@ -178,6 +178,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dsh-jev](dsh-jev.md) | Register `jev_ask` on DeepSeek Harness so agents can send typed noul/choice/score questions to TypeSafe Jev (install from GitHub pin). | TypeScript · DSH plugin (`dsh-jev` 0.1.0) |
 | [dsh-jev-context-gate](dsh-jev-context-gate.md) | DeepSeek Harness preflight + evidence-aware review/skill gates via TypeSafe Jev. | JavaScript · DSH plugin (MIT) |
 | [dsh-jev-decide](dsh-jev-decide.md) | Register DSH agent tool `jev_decide` for TypeSafe Jev noul/choice/score over text state (distinct from dsh-jev / verify / prune). | TypeScript · npm plugin (`dsh-jev-decide` 0.1.1) |
+| [dsh-jev-gate](dsh-jev-gate.md) | Catch work that only looks finished (unreported, no evidence, skeleton, unauthorized downgrade) in DSH agent teams, with Jev as an optional external adjudicator. | TypeScript · DSH plugin (MIT) |
 | [dsh-jev-interceptor](dsh-jev-interceptor.md) | DeepSeek Harness: Jev risk classification on tool calls plus optional semantic session-reference retention. | TypeScript · DSH plugin (MIT) |
 | [dsh-jev-kit](dsh-jev-kit.md) | DeepSeek Harness plugin: ~23 named TypeSafe Jev advisory judgments (privacy scan, scope, memory/batch triage) without hooks. | TypeScript · DSH plugin (`@dsh-external/dsh-jev-kit` 0.13.0) |
 | [dsh-jev-loop](dsh-jev-loop.md) | TypeSafe Jev judgments at DeepSeek Harness agent-loop gates (no UI dependency). | TypeScript · DSH plugin (MIT) |
