@@ -579,6 +579,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [SlidePilot](slidepilot.md) | Advance Slidev decks from presenter voice when TypeSafe Jev and TypeScript policy agree the slide is complete. | TypeScript · Slidev addon + Cloudflare Worker (0.1.0) |
 | [slophound](slophound.md) | Lint Markdown or stdin for LLM-prose patterns with bite/bark/sniff tiers and CI-friendly exit codes; Jev removes false positives for rules that ask it to. | Python · CLI + Python interface + agent skill (MIT) |
 | [SmartMoney-Cub](smartmoney-cub.md) | Capture offline trading-journal evidence packs and optionally ask TypeSafe Jev typed review questions (read-only; no orders). | Python · `smcub` CLI and harness |
+| [Snapif](snapif.md) | Gate coding-agent tool calls (e.g. Claude Code PreToolUse hooks) with a calibrated verdict while the host keeps the final decision. | Rust · crate `snapif` on crates.io (MIT) |
 | [Sniff Test](snifftest.md) | Lint Markdown/prose with local countable rules plus optional confirmed TypeSafe Jev judgment rules. | TypeScript/Bun · CLI (`snifftest` 0.1.0) |
 | [specpi-jev-guard](specpi-jev-guard.md) | Gate risky Pi agent shell/file commands with local rules then TypeSafe Jev danger scores. | TypeScript · Pi npm extension (MIT) |
 | [Spotlight (Buried Signals)](spotlight.md) | Run source-backed investigations with agent skills; opt in per install and per investigation so Jev checks each finding against its quoted evidence before publication. | Python · agent skills + scripts (MIT) |
