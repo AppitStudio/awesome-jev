@@ -573,6 +573,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [skill-scanner](skill-scanner.md) | Scan Agent Skills offline before install and gate Claude Code/Codex/OpenCode/Pi/`npx skills`; optional Jev judge. | TypeScript · npm (`@french-castle/skill-scanner`, MIT) |
 | [Skylos](skylos.md) | Scan PRs for dead code, security issues, and AI-code mistakes; optionally have TypeSafe Jev review static dead-code findings. | Python · CLI (`pip install skylos`) (Apache-2.0) |
 | [SlidePilot](slidepilot.md) | Advance Slidev decks from presenter voice when TypeSafe Jev and TypeScript policy agree the slide is complete. | TypeScript · Slidev addon + Cloudflare Worker (0.1.0) |
+| [slophound](slophound.md) | Lint Markdown or stdin for LLM-prose patterns with bite/bark/sniff tiers and CI-friendly exit codes; Jev removes false positives for rules that ask it to. | Python · CLI + Python interface + agent skill (MIT) |
 | [SmartMoney-Cub](smartmoney-cub.md) | Capture offline trading-journal evidence packs and optionally ask TypeSafe Jev typed review questions (read-only; no orders). | Python · `smcub` CLI and harness |
 | [Sniff Test](snifftest.md) | Lint Markdown/prose with local countable rules plus optional confirmed TypeSafe Jev judgment rules. | TypeScript/Bun · CLI (`snifftest` 0.1.0) |
 | [specpi-jev-guard](specpi-jev-guard.md) | Gate risky Pi agent shell/file commands with local rules then TypeSafe Jev danger scores. | TypeScript · Pi npm extension (MIT) |
