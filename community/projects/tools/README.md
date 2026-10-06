@@ -218,6 +218,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [HekaJev](hekajev.md) | Ask reproducible Git-history analytics questions; TypeSafe Jev classifies commits with saved evidence/cost. | Python · CLI (`hekajev`, MIT) |
 | [here-we-go-jev](creativoma-here-we-go-jev.md) | One-page UI and scripts to run System One questions against OpenRouter/TypeSafe Jev, an LLM baseline, or a mock `/v1/systemone`. | TypeScript · Bun (`bun run dev`) |
 | [Hermes Jev Skills](hermes-jev-skills.md) | Add Jev model routing, memory filter, compaction, skill pick, triage, and computer/browser choices to Hermes, Claude Code, and Codex. | Python · skills, `jev` CLI and Hermes plugin |
+| [hermes-adaptive-model-router](hermes-adaptive-model-router.md) | Collect calibrated fast-vs-capable route decisions for human turns in Hermes Agent before ever enabling automatic switching. | Python · Hermes Agent plugin (MIT) |
 | [hermes-jev (ourines)](ourines-hermes-jev.md) | Add an explicit Jev decision sidekick (tools + skill) to Hermes Agent across TypeSafe, Cloudflare, and OpenRouter backends. | Python · Hermes plugin (MIT, prerelease) |
 | [hermes-jev-curator](hermes-jev-curator.md) | Typed Jev skill-relationship judgments and safe archive/guard plans for Hermes Agent’s background skill curator. | Python · Hermes plugin (experimental 0.1.0) |
 | [hermes-jev-helper](hermes-jev-helper.md) | Hermes `pre_llm_call` plugin: TypeSafe Jev (OpenRouter Decisions) classifies intent route before the agent improvises. | Python · Hermes plugin (MIT) |
