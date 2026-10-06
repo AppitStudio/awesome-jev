@@ -735,6 +735,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [openjevx](muthuishere-openjevx.md) | Serve an open-weight Jev-compatible `/v1/systemone` endpoint locally for jevx (CPU/GPU; Apache-2.0 LICENSE in repo). | Go · local System One server + HF weights (Apache-2.0) |
 | [PlayJev](playjev.md) | Study a 0.8B model that picks a game's next move from the frame alone, one forward pass, probability per listed move; independent of official Jev. | Python / PyTorch · model research and browser demo |
 | [polyjev](polyjev.md) | Turn any LLM into typed calibrated Noul/Choice/Score/Span decisions; optional Jev-compatible `/v1/systemone` server. | Python · PyPI (`polyjev`) + serve (Apache-2.0) |
+| [Privatemode Decisions benchmark](privatemode-decisions-benchmark.md) | Reproduce a vendor's System One comparison with identical states, options and instructions per arm, with cost forecasting and budget caps. | Python · benchmark suite (MIT) |
 | [Reflex-1](matu79go-reflex-1.md) | Run/study Reflex-1, a 4B open decision model for fast typed classification with latent reasoning (independent of hosted Jev). | Python · open weights + examples (Apache-2.0) |
 | [ReJev](rejev.md) | Reproduce a lightweight Jev-style Choice decision post-training loop on MiniCPM5-2B with sealed holdout metrics. | Python · LoRA post-training research (MIT) |
 | [RSI-Jev](rsi-jev.md) | Train and serve Jev-style typed-decision checkpoints via a self-improving agent loop; independent of hosted Jev. | Python · research training + `/v1/systemone` serve (MIT code) |
