@@ -103,6 +103,7 @@ Checks are tied to reviewed versions; see each page and the [validation scope](d
 
 ### Apps powered by Jev
 
+- [AI Plays Pokémon (kotlinds)](https://github.com/kotlinds/ai-plays-pokemon) - `Source available` · `Free source build` · `BYOK`. Kotlin desktop app that puts an AI in front of Pokémon HeartGold on a Nintendo DS emulator: the game RAM is described as JSON, and a Jev backend picks each action from a closed list with per-option probabilities, optionally with an LLM planner in hybrid mode. [Project guide](community/projects/apps/ai-plays-pokemon.md).
 - [Airtale](https://github.com/SebassContreras/airtale) - `Open source` · `Free source build` · `BYOK`. Inbound lead ingestion and AI qualification pipeline using TypeSafe Jev System One. [Project guide](community/projects/apps/airtale.md).
 - [Aplausômetro](https://github.com/rf-camillo/jev-aplausometro) - `Open source` · `Free source build` · `BYOK`. Paste a social post and watch a simulated audience react in real time with TypeSafe Jev calibrated probabilities. [Try app](https://aplausometro.rafaelcamillo.com.br) · [Project guide](community/projects/apps/jev-aplausometro.md).
 - [Apparite (jev2ui)](https://github.com/dglazkov/jev2ui) - `Open source` · `Free source build` · `BYOK`. Local design-mock lab: TypeSafe Jev chooses IA/anatomy; Gemini writes copy; code assembles A2UI-inspired mocks. [Project guide](community/projects/apps/jev2ui.md).

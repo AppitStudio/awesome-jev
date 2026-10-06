@@ -924,6 +924,16 @@ Status-update honesty auditor: TypeSafe Jev judges language while local code par
 
 ## Desktop apps
 
+### AI Plays Pokémon (kotlinds)
+
+`Source available` · `Free source build` · `BYOK`
+
+Kotlin desktop app that puts an AI in front of Pokémon HeartGold on a Nintendo DS emulator: the game RAM is described as JSON, and a Jev backend picks each action from a closed list with per-option probabilities, optionally with an LLM planner in hybrid mode.
+
+**Access:** clone the [source](https://github.com/kotlinds/ai-plays-pokemon) (no LICENSE file — source available, not Open source) and run with Gradle, or use a release build. Bring your own ROM and TypeSafe key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full AI Plays Pokémon (kotlinds) guide](ai-plays-pokemon.md) · [Source](https://github.com/kotlinds/ai-plays-pokemon)
+
 ### Goutoujunshi Jev Chat
 
 `Open source` · `Free source build` · `BYOK`
