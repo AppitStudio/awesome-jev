@@ -214,6 +214,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Graphlin](graphlin.md) | Live architecture/activity diagrams for Claude Code or Codex; optional TypeSafe Jev classification of graph evidence. | Node.js · CLI/viewer (`npx graphlin`), plugins |
 | [grev](grev.md) | Grep, label, rank, sort, and guard text by meaning in pipelines (for example a semantic pre-commit secret guard with `isv`). | Go · CLI suite with man pages and shell completions (Apache-2.0) |
 | [Grok Bot Jev](grok-bot-jev.md) | Gate Grok Bot research/browser/retry/subagent work with TypeSafe Jev actions (shadow or active skill mode). | Python · router, skill template and dry-run CLI |
+| [guardrails-md](guardrails-md.md) | Block destructive, secret-leaking or rule-breaking agent commands in about 100 ms, with the reason returned to the agent. | TypeScript · npm `@bergetai/opencode-guardrails-md` (MIT) |
 | [guesswork](guesswork.md) | zsh history autosuggestions ranked by TypeSafe Jev instead of prefix match | TypeScript/zsh · shell plugin (MIT) |
 | [hak-jev-plugin](hak-jev-plugin.md) | Hedera Agent Kit policy: TypeSafe Jev gates swaps before sign; decisions notarized to HCS. | TypeScript · npm (`hak-jev-plugin`, MIT) |
 | [grok-jev-guard](grok-jev-guard.md) | Prefight Grok Bot tool sequences: local hard rules + TypeSafe Jev ambiguity judgments (shadow-first). | Python · CLI + skill (`grok-jev-guard` 0.1.0, MIT) |
