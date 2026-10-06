@@ -862,6 +862,16 @@ Play Tavli (Greek backgammon / Portes) against TypeSafe Jev via OpenRouter; incl
 
 [Full Tavli guide](tavli.md) · [Source](https://github.com/DimisCodes/tavli)
 
+### Tessmora (MMA-RAG)
+
+`Source available` · `Free source build` · `BYOK`
+
+Tessmora (Chinese docs): self-hosted omni-modal agentic retrieval platform for documents, images, audio and video, with opt-in TypeSafe Jev semantic judgment for a simple-question intent fast path, choice reranking and citation-support diagnostics.
+
+**Access:** clone the [source](https://github.com/Champ-X/MMA-RAG) (no LICENSE file — source available, not Open source) and self-host with Docker Compose. No app fee; bring your own model keys and an optional TypeSafe key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full Tessmora (MMA-RAG) guide](tessmora.md) · [Source](https://github.com/Champ-X/MMA-RAG)
+
 ### tg-crush
 
 `Open source` · `Free source build` · `BYOK`
