@@ -721,6 +721,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Malkuth](malkuth.md) | Multilingual open decision models (Choice/Noul/Score) via Kev. | Weights · research (Apache-2.0) |
 | [mcp-agent-openjev](christofmilius-mcp-agent-openjev.md) | Local OpenJev Choice/Noul/Score decision service for agents via MCP + CLI (LM Studio logprobs; not TypeSafe-hosted). | Python · MCP/CLI (MIT) |
 | [NanoJev](nanojev.md) | Study independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. | Python / PyTorch · model research and replay |
+| [Noma](noma.md) | Self-host fast single-pass decisions (classify, route, check) with an explicit abstain signal for handing off to a reasoning model. | Python · PyPI `blackdrome-noma` (MPL-2.0 weights and code) |
 | [OneJev](onejev.md) | Run a multimodal System One decision model (text/image/video → calibrated option probabilities); independent of hosted Jev; distinct from Jev-Omni/PlayJev. | Python / PyTorch · HF weights + System One–shaped API (Apache-2.0) |
 | [Open Alternative to Jev](open-alternative-jev.md) | Compare packed and separate typed decisions from open models and fit calibration on labeled data; not a Jev reproduction. | Python · Transformers/vLLM research library |
 | [OpenDecider](opendecider.md) | Open System One choice/score/yes-no models with optional Jev-compatible `/v1/systemone` serve; independent of hosted Jev. | Python · HF weights + serve (Apache-2.0) |
