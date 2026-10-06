@@ -760,6 +760,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [ask-jev (Aether-254)](aether-254-ask-jev.md) | MCP + Codex/Claude plugin for TypeSafe Jev evaluate/batch/ping (Choice/Score/Noul). | TypeScript · MCP/plugin (MIT) |
 | [Backdrop AI Provider TypeSafe AI](backdrop-ai-provider-typesafeai.md) | Backdrop CMS AI module provider for TypeSafe System One decisions and moderation checks. | PHP · Backdrop module (GPL-2.0) |
 | [Camunda Jev AI Decision Connector](camunda-jev-ai-decision-connector.md) | Call TypeSafe Jev noul/choice/score from Camunda 8 BPMN for typed AI decisions over lists. | Java · Camunda 8 connector (Apache-2.0) |
+| [Cite](cite.md) | Declare concerns with `detect` questions and yes/no descriptions, then `Cite.judge/3` a source of passages (log lines, caption chunks, conversation turns) to get the matching passages. | Elixir · Hex package `cite` (Req + Spark) (MIT) |
 | [cog-typesafe](cog-typesafe.md) | Bind TypeSafe Jev as a versioned `system-one/decisions` provider Cog for decision Cogs. | Python · pixi Cog provider (Apache-2.0) |
 | [datafusion-jev](datafusion-jev.md) | DataFusion SQL `prompt_jev` UDF for typed TypeSafe Jev answers over row text (bring HTTP client). | Rust · DataFusion 55 crate (MIT OR Apache-2.0) |
 | [decide (vsekhar)](vsekhar-decide.md) | Ask TypeSafe Jev yes/no, choice, and scored decisions from the command line, scripts, and agent skills. | Go · brew CLI (Apache-2.0) |
