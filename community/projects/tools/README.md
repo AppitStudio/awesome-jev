@@ -34,6 +34,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Flick (flick-computer-use)](flick-computer-use.md) | MCP computer-use: Jev decides browser/macOS actions for whole goals. | TypeScript · MCP (MIT) |
 | [Footwork](footwork.md) | Dual-process browser agent: TypeSafe Jev as System 1 in front of browser-use System 2, with a code-owned arbiter and evidence verification. | Python/Rust · package (`jevdual` 0.0.1) |
 | [gpui-agent](gpui-agent.md) | Drive instrumented GPUI apps via accessibility: TypeSafe Jev chooses typed actions/targets (no screenshots to the model). | Rust/Python/TypeScript · experimental native toolkit |
+| [InspireJev](inspire-jev.md) | Hand repetitive public-website steps (search, filter, collect, fill forms) to Jev-chosen actions while the host agent keeps the goal, authorization and verification. | Node.js · Playwright · release tarball (MIT) |
 | [Jev Browser (openqa-cn)](openqa-jev-browser.md) | Indexed Playwright automation: TypeSafe Jev chooses control/op; replay, generate, explore, HTML reports (CodexQA skill). | TypeScript · CLI (`codexqa-jev-browser` 0.1.0, MIT) |
 | [Jev Browser (tontoko)](jev-browser-tontoko.md) | Fill forms, extract records with evidence, and add semantic selection to Playwright tests. | TypeScript · SDK, CLI and MCP |
 | [Jev Browser (Ying-Kai-Liao)](jev-browser-ying-kai-liao.md) | Run small browser goals with Jev action/target selection and direct inspection; page data and supplied values reach TypeSafe. | JavaScript · Playwright library, CLI and MCP |
