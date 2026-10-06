@@ -1432,6 +1432,16 @@ Collapse posts that match English rules you wrote; TypeSafe Jev via OpenRouter D
 
 [Full Polymorph guide](polymorph.md) · [Source](https://github.com/moomooskycow/polymorph)
 
+### Quiet X
+
+`Open source` · `Free source build` · `BYOK`
+
+Open-source Chrome extension that silently hides X ads and posts by account country, language or topic; optional language/topic rules are judged by TypeSafe Jev on the rendered post text through a small local proxy that holds your key.
+
+**Access:** build from the [MIT source](https://github.com/arzumanabbasov/quiet-x) or download the v1.2.2 release and load it unpacked. AI filters need your own TypeSafe key in the local proxy (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full Quiet X guide](quiet-x.md) · [Source](https://github.com/arzumanabbasov/quiet-x)
+
 ### Regret Check
 
 `Open source` · `Free source build` · `BYOK`
