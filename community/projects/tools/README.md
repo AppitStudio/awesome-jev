@@ -663,6 +663,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [dopp](dopp.md) | Proxy Jev-shaped decisions, capture traffic, train a small owned model, and serve hosted/offline/in-browser. | Python/TypeScript · capture + train/serve (MIT) |
 | [DriveJev](drivejev.md) | Run/study DriveJev-4B open System I driving decisions (behaviour probabilities) with the JevPilot closed-loop harness. | Python · HF weights + simulator harness (MIT) |
 | [EuLLM](eullm.md) | Serve Jev-shaped typed decisions locally (up to 64 questions per request) next to ordinary chat endpoints, from an ARM board to data-centre GPUs, with every decision written to an audit trail. | Rust (llama.cpp-based) · single binary engine (AGPL-3.0) |
+| [goinfer](goinfer.md) | Run Jev-shaped decisions locally from Go, scoring options with a GGUF model or a JEV-layout decision head, with published measurements of how that compares to a trained head. | Go · library + `goinfer-serve` / `goinfer-chat` binaries (MIT) |
 | [gutsy](gutsy.md) | Run gutsy-0.8b local calibrated yes/no/choice/score decisions via Jev-compatible APIs on CPU (independent of hosted Jev). | Python · llama.cpp + HF GGUF (Apache-2.0) |
 | [imajev](imajev.md) | Open multimodal typed-decision models that answer constrained options with probabilities and can't-tell. | Open weights · local serve (Apache-2.0); not TypeSafe-hosted Jev |
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
