@@ -155,6 +155,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [codex-jev-router](codex-jev-router.md) | Route OpenAI Codex CLI turns through TypeSafe Jev model/effort selection via a local Responses proxy (fail-open). | Node.js · CLI (`codex-jev` 0.1.0) |
 | [codex-triage](codex-triage.md) | Local Codex task triage dashboard with human-reviewed archiving and optional TypeSafe Jev analysis. | TypeScript · local app (MIT) |
 | [Codify (cg)](codify.md) | Plan-to-proof agent workflow CLI; `cg jev` and `cg memory classify` use Jev Noul/Choice/Score answers (advisory, never changes exit codes). | C/Go static binary · CLI + MCP tools (MIT) |
+| [Coding Router Jev](coding-router-jev.md) | Route Codex, Claude Code or Pi turns to cheaper or stronger models per request, with explicit overrides and routing notices. | TypeScript · Bun (release binaries need no Bun) |
 | [ComfyUI-ScriptFlow](comfyui-scriptflow.md) | ComfyUI script node: ask TypeSafe Jev yes/no/choice/score and branch workflows (GGUF fallback). | Python · ComfyUI custom node (GPL-3.0) |
 | [compact-adviser](compact-adviser.md) | Ask TypeSafe Jev whether a coding session is at a safe `/compact` boundary; hint or optional auto-compact on Pi/Claude Code. | Node.js ≥ 22 · npm plugins (`compact-adviser` 0.1.6) |
 | [Copilot Studio × Jev](copilot-studio-jev.md) | Gate Azure AI Search passages with four Jev Noul questions per hit so Copilot Studio answers with citations or abstains; optional Power Platform connector. | TypeScript MCP + Power Platform connector (MIT) |
