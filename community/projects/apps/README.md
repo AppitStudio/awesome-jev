@@ -1332,6 +1332,16 @@ Chrome extension that reorders Gmail’s list: unread first, critical on top, wi
 
 [Full Jev Inbox guide](jev-inbox.md) · [Source](https://github.com/iamomiid/jev-inbox)
 
+### Jev Mail (Gmail extension)
+
+`Open source` · `Free source build` · `BYOK`
+
+Open-source Chrome/Brave extension that classifies Gmail with TypeSafe Jev — category, priority, important, needs-reply and junk as separate narrow questions — then applies `Jev/...` labels and previews safe, Trash-only cleanup with Undo; runs in the browser with your TypeSafe or OpenRouter key.
+
+**Access:** load the [MIT source](https://github.com/KirtanUgreja/jev-mail) as an unpacked extension. No fee; bring your own TypeSafe or OpenRouter key (usage billed by the provider). Source inspected; not run on the review host.
+
+[Full Jev Mail (Gmail extension) guide](kirtanugreja-jev-mail.md) · [Source](https://github.com/KirtanUgreja/jev-mail)
+
 ### Jev Review (Gmail)
 
 `Open source` · `Free source build` · `BYOK`
