@@ -575,6 +575,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [rippy](rippy.md) | Gate agent shell commands with allow/ask/deny rules; with `rippy-jev`, uncertain asks (unknown command, unresolvable variable) may be auto-approved when Jev is confident and the effect class is allowed. | Rust · CLI hook (`rippy-cli`, crates.io/Homebrew; `rippy-jev` feature build) (MIT) |
 | [RLCD Gateway](rlcd-gateway.md) | Self-hosted Go gateway: LLM routing with context pruning plus Jev/open-rlcd System One audit/calibration dashboard. | Go · binary/npm/PyPI (`rlcd-gateway`, Apache-2.0) |
 | [s1-tui](s1-tui.md) | Terminal UI for System One typed decisions over laya + TypeSafe Jev backends. | TUI (MIT) |
+| [Scope (code context selector)](tjeastmond-scope.md) | Hand a coding agent or developer a compact, evidence-backed set of code chunks for a task instead of whole files. | TypeScript · Bun tooling · Node 24+ CLI |
 | [semantic-assert](semantic-assert.md) | Assert plain-English claims about UI/text state with TypeSafe Jev (Playwright helpers; thresholds in code). | TypeScript · npm packages + Playwright adapter |
 | [SemDecide](semdecide.md) | Run TypeSafe Jev predicates, routes, scores, and JSONL filters as Unix CLI exit codes for pipelines and CI. | Python · CLI (`semdecide` 0.2.1) |
 | [sensored](sensored.md) | Cut false positives in PII redaction by letting Jev confirm ambiguous detections (currently `person_name_lite`) in the async API; fails open when the provider is unavailable. | TypeScript · npm `sensored` (optional `@typesafe-ai/sdk`) |
