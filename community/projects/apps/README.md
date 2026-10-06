@@ -1138,6 +1138,16 @@ FkWeChat/LSPosed WeChat plugin: long-press a message for TypeSafe Jev intent/emo
 
 [Full JevIntent guide](jev-intent.md) · [Source](https://github.com/Nisaka520/JevIntent)
 
+### Mobile Agent (KYRIE66nb)
+
+`Open source` · `Free` · `BYOK`
+
+Open-source on-device Android AI agent (Chinese/English) that sees and taps the screen, with an optional dedicated decision backend — TypeSafe Jev or self-hosted Laya over `/v1/systemone` — for safety-gate verdicts and low-risk navigation choices; off by default, SHADOW/ENFORCE modes, explicit consent.
+
+**Access:** install the free APK from [GitHub Releases](https://github.com/KYRIE66nb/mobile-agent/releases/latest) or build the [Apache-2.0 source](https://github.com/KYRIE66nb/mobile-agent). Requires your own model key; the optional Jev backend uses your own TypeSafe key (usage billed by TypeSafe). Early-stage; source inspected, app not run on the review host.
+
+[Full Mobile Agent (KYRIE66nb) guide](mobile-agent.md) · [Source](https://github.com/KYRIE66nb/mobile-agent)
+
 ### Notiq
 
 `Source available` · `Free source build` · `BYOK`
