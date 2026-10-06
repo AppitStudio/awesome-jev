@@ -892,6 +892,16 @@ A text box that reads how your draft sounds before you send: TypeSafe Jev scores
 
 [Full undertone guide](undertone.md) · [Source](https://github.com/Nuu-maan/undertone) · [Try app](https://undertone-app.vercel.app)
 
+### Varina
+
+`Source available` · `Free source build` · `BYOK`
+
+Chinese-language multi-seat AI design-exploration workbench (local web UI + CLI) where an optional TypeSafe Jev post-gate decides START or ASK — whether a finished answer merits deeper multi-seat exploration — before any extra model spend; Jev never writes answers.
+
+**Access:** clone the [source](https://github.com/deillusion/Aha-Engine) (Business Source License 1.1 — source available, production use allowed under a revenue cap; read the terms) and run locally. Requires your own model keys; the optional Jev gate uses your own TypeSafe key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full Varina guide](varina.md) · [Source](https://github.com/deillusion/Aha-Engine)
+
 ### Vicaura
 
 `Closed source` · `Pricing unverified`
