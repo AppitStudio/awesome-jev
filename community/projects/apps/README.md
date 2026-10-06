@@ -582,6 +582,16 @@ Hybrid movie recommender: FAISS + BM25 shortlist ~4,800 films, then TypeSafe Jev
 
 [Full Jevflix guide](jevflix.md) · [Source](https://github.com/ArielBubis/Jevflix)
 
+### Jevline
+
+`Source available` · `Free` · `BYOK`
+
+Incident-timeline proof of concept for security analysts: start from one confirmed-malicious process and Jev scores, process by process, which other activity belongs to the same incident, producing a reviewable timeline (web portal, local portal or CLI).
+
+**Access:** open the [hosted portal](https://jev-incident-timeline.vercel.app/) or clone the [source](https://github.com/tsale/jevline) (no LICENSE file — source available, not Open source) and run `python3 web_app.py`. Your own telemetry needs your own TypeSafe key (usage billed by TypeSafe). Source inspected; live site not exercised on the review host.
+
+[Full Jevline guide](jevline.md) · [Source](https://github.com/tsale/jevline)
+
 ### Jevmail
 
 `Open source` · `Free source build` · `BYOK`
