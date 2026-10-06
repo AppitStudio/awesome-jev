@@ -502,6 +502,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [metajev](metajev.md) | Store typed Jev/System One distributions keyed by state+question+model; apply/change accept/review policies without re-calling the model. | Python · library + SQLite store (MIT) |
 | [Metis](metis.md) | Triage new GitHub issues with TypeSafe Jev labels and missing-detail comments via a reusable Action/CLI. | Python · GitHub Action + `metis-triage` 0.1.0 |
 | [Misogi](misogi.md) | Sidecar that asks TypeSafe Jev whether a coding agent's "done" claim is actually done (Claude Code/Codex/Kimi). | TypeScript · agent sidecar (MIT) |
+| [MM3](mm3.md) | Have an agent ask Jev focused code questions ("does this handler check the caller?") in one call, with verdicts and outcomes tracked over time. | TypeScript · npm `@mvpscale/mm3` · Claude Code plugin (Apache-2.0) |
 | [mnemon-memory-agent](mnemon-memory-agent.md) | Agent long-term memory judged with TypeSafe Jev System One over raw records | TypeScript · memory agent (MIT) |
 | [mobai-ci](mobai-ci.md) | Run MobAI `.mob` / Maestro mobile UI flows in CI; `.mobflow` steps are judged/acted by TypeSafe Jev. | CLI · GitHub Action |
 | [model-router-python](model-router-python.md) | Filter models by limits/budget, then ask TypeSafe Jev which remaining model should handle the prompt. | Python · PyPI library (MIT) |
