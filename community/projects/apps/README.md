@@ -964,6 +964,16 @@ Open Codex-App–style desktop coding agent (Electron+React) driving Claude Code
 
 [Full Modex guide](modex.md) · [Source](https://github.com/TypeSafeAI/modex)
 
+### Synax
+
+`Open source` · `Free` · `BYOK`
+
+Open-source local workspace for coding agents and codebase docs (agent chats, files, diffs, terminal) whose Electron app offers optional Jev-assisted Computer Use: with a TypeSafe key (or OpenRouter), Jev picks bounded semantic actions for the app-hosted Cua Driver instead of the default Direct Cua strategy.
+
+**Access:** download a free desktop build from [GitHub Releases](https://github.com/coldmint9/Synax/releases/latest) or build the [Apache-2.0 source](https://github.com/coldmint9/Synax). Jev-assisted Computer Use is opt-in and uses your own TypeSafe or OpenRouter key. Source inspected; app not run on the review host.
+
+[Full Synax guide](synax.md) · [Source](https://github.com/coldmint9/Synax)
+
 ### Warren Duffer
 
 `Open source` · `Free source build` · `BYOK`
