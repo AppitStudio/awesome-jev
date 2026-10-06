@@ -909,6 +909,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [typesafeai-cli](typesafeai-cli.md) | Run TypeSafe Jev ask/decide/screen/verify flows from a Python `typesafe` CLI for humans or agents. | Python · CLI (`typesafe`) |
 | [TypeSafeAI.Net](typesafeai-net.md) | Add typed Jev judgments to .NET applications and Microsoft.Extensions.AI pipelines. | C# · client library |
 | [TypeSafeSharp (.NET)](typesafesharp.md) | Call Jev from C#/.NET services, including .NET Framework 4.7.2+, with DI and tracing. | C# · NuGet `TypeSafeSharp` (MIT) |
+| [typia (`@typia/jev`)](typia-jev.md) | Keep Jev question schemas and answer validation in one TypeScript type instead of hand-written JSON. | TypeScript · npm `typia` + `@typia/jev` (MIT) |
 | [wagtail-jev](wagtail-jev.md) | Wagtail CMS editor buttons: TypeSafe Jev suggests page tags and rates fields on custom scales. | Python · Wagtail/Django package (MIT) |
 | [Wingman](wingman.md) | Route System One requests through one gateway: a `typesafe` provider preserves Jev probabilities, confidence, model, and usage. | Go · server + YAML config (MIT) |
 | [yoagent](yoagent.md) | Build Rust agents and add Jev typed decisions: advisory skill/tool hints, a fail-closed destructive-call gate, and a prompt-injection input guard. | Rust · crate `yoagent` (feature `decision`) (MIT) |
