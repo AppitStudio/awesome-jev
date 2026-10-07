@@ -1684,6 +1684,16 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 
 ## Command-line apps
 
+### Anki Review-Finder
+
+`Open source` · `Free source build` · `BYOK`
+
+Alpha CLI that audits Anki flashcards through AnkiConnect with TypeSafe Jev, flagging structural defects such as answer leaks, missing context, scope problems and binary questions, then writes priority and defect tags back to Anki (never card text) and produces an HTML report.
+
+**Access:** clone the [MIT source](https://github.com/elias170105/anki-review-finder) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full Anki Review-Finder guide](anki-review-finder.md) · [Source](https://github.com/elias170105/anki-review-finder)
+
 ### arJev
 
 `Open source` · `Free source build` · `BYOK`
