@@ -802,6 +802,16 @@ Self-host an AI trading research and execution stack. Optional TypeSafe Jev pre-
 
 [Live app](https://ai.quantdinger.com) · [Website](https://www.quantdinger.com) · [Full QuantDinger guide](quantdinger.md) · [Source](https://github.com/OpenByteInc/QuantDinger)
 
+### Railroad Route
+
+`Open source` · `Free source build` · `BYOK`
+
+Mine-cart track puzzle: lay and turn track pieces, then write the cart a one-sentence note; TypeSafe Jev-operated switches read the sentence and decide which way to send it, and each level forbids the obvious words, so you must describe the goal indirectly (English or Portuguese).
+
+**Access:** clone the [MIT source](https://github.com/vinicius-francozo/railroad-route) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full Railroad Route guide](railroad-route.md) · [Source](https://github.com/vinicius-francozo/railroad-route)
+
 ### RefGarden
 
 `Open source` · `Free source build` · `BYOK`
