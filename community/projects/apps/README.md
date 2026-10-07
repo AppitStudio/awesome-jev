@@ -702,6 +702,16 @@ Track how AI answers describe and position your brand. Jev judges brand sentimen
 
 [Full Notra guide](notra.md) · [Source](https://github.com/usenotra/notra)
 
+### open-annie
+
+`Open source` · `Free source build` · `BYOK`
+
+Voice-driven 3D character in the browser: GPT-Live-1 talks with you over WebRTC while TypeSafe Jev reads the live transcript and picks every face, gesture and dance (51 decisions at p50 118 ms and $0.0026 of Jev in the recorded session); lip-sync and rendering run in the browser behind a thin broker on fal serverless.
+
+**Access:** clone the [Apache-2.0 source](https://github.com/rehan-remade/open-annie); serve the stage locally to view the preview or replay, or run the broker with your OpenAI and TypeSafe keys for live talk. Source inspected; not run on the review host.
+
+[Full open-annie guide](open-annie.md) · [Source](https://github.com/rehan-remade/open-annie)
+
 ### Orbs
 
 `Open source` · `Free source build` · `BYOK`
