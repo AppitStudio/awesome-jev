@@ -992,6 +992,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [jev-corrective-rag](jev-corrective-rag.md) | Corrective RAG with TypeSafe Jev typed gates for triage, chunk grading, and answer verification (LLM only generates). | Python · Streamlit app, CLI and bench |
 | [jev-doc-search](jev-doc-search.md) | Find answering pages in long PDFs with TypeSafe Jev `Choice` over a PageIndex tree (no vector DB). | Python · PageIndex + typesafe_sdk (Apache-2.0) |
+| [jev-judge-rank](jev-judge-rank.md) | Rank, de-duplicate and recall lists of items with Jev judgments on written criteria. | Python · scripts + agent skill (MIT) |
 | [jev-rag](jev-rag.md) | Index local files with SQLite BM25, rerank evidence with TypeSafe Jev, optionally stream grounded answers. | Python · local RAG CLI/UI (MIT) |
 | [jev-rag-gate](jev-rag-gate.md) | Gate RAG retrieval candidates with TypeSafe Jev for relevance, premise contradiction, and prompt-injection risk. | Python · library/CLI (MIT) |
 | [jev-rerank-bench](jev-rerank-bench.md) | Reproduce TypeSafe Jev vs Cohere/zerank reranker experiments on shared BM25 candidate sets. | Python · benchmark suite (MIT) |
