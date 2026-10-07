@@ -1004,6 +1004,16 @@ Open Codex-App–style desktop coding agent (Electron+React) driving Claude Code
 
 [Full Modex guide](modex.md) · [Source](https://github.com/TypeSafeAI/modex)
 
+### omarchy-mouse-sacrifice
+
+`Open source` · `Free source build` · `BYOK`
+
+Omarchy (Hyprland) plugin: move the pointer into the bottom-right corner and a card offers up to five keyboard shortcuts that fit what is on screen, ranked by TypeSafe Jev from a list built in code (focused app, workspace windows, bar widgets, recent use, your real Hyprland binds and press counts); no screenshots or typed text are sent.
+
+**Access:** install from the [MIT source](https://github.com/ignotas/omarchy-mouse-sacrifice) with `omarchy plugin add`. No app fee; requires your own TypeSafe key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full omarchy-mouse-sacrifice guide](omarchy-mouse-sacrifice.md) · [Source](https://github.com/ignotas/omarchy-mouse-sacrifice)
+
 ### Synax
 
 `Open source` · `Free` · `BYOK`
