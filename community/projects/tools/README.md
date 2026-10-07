@@ -496,6 +496,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jevris](jevris.md) | Local control plane that uses TypeSafe Jev to decide, verify, and route AI-assisted development work. | Node.js · npm `@webventures/jevris` (MIT) |
 | [JevRoute (suncirkles)](suncirkles-jev-router.md) | Route coding tasks to a model id via decision-only JevRoute, with a separate eval harness and recorded evidence. | Python · router library + eval harness (MIT) |
 | [JevRouter](jevrouter.md) | Route among models/subagents/skills/MCP/CLIs with TypeSafe Jev Choice plus permissions, risk, confirmation, and receipts. | TypeScript · SDK/CLI/MCP (`jevrouter` 0.1.0) |
+| [JevSceneMiner](jev-scene-miner.md) | Label driving-log moments into reviewable maneuver scenes with Jev. | Python · CLI + review viewer (Apache-2.0) |
 | [JevScope](jevscope.md) | Edit Jev projects visually, batch JSONL regression cases, and compare definitions locally. | TypeScript · Studio + local API (pnpm) |
 | [jevseek](jevseek.md) | Let DeepSeek propose tokens and TypeSafe Jev (OpenRouter System One) choose the next one. | Python ≥ 3.11 · CLI (`jevseek` 0.1.0) |
 | [jevsh](jevsh.md) | Ask TypeSafe Jev the risk of a shell command (LOW–CRITICAL) before confirming execution. | Bash · single-script CLI (MIT) |
