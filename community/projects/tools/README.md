@@ -219,6 +219,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [ghtriage](ghtriage.md) | Classify GitHub issues with TypeSafe Jev typed labels/confidence and code-owned write guards (`ghtriage`). | Python · CLI (`ghtriage` / `jev-issue-classifier` 0.1.0) |
 | [git-jev-stage](git-jev-stage.md) | Classify Git hunks against a plain-language staging intent with TypeSafe Jev, then stage confirmed blocks. | TypeScript · CLI (`git-jev-stage` 0.1.1) + skill |
 | [gmail-auto-cleanup](gmail-auto-cleanup.md) | Clear and maintain a large Gmail inbox with per-email Jev judgments and reversible, rule-driven actions. | Python · CLI (MIT) |
+| [go-decide](go-decide.md) | Gate shell or CI steps on a Jev decision with explicit decided / uncertain / escalate outcomes. | Go · CLI (Apache-2.0) |
 | [Graphlin](graphlin.md) | Live architecture/activity diagrams for Claude Code or Codex; optional TypeSafe Jev classification of graph evidence. | Node.js · CLI/viewer (`npx graphlin`), plugins |
 | [grev](grev.md) | Grep, label, rank, sort, and guard text by meaning in pipelines (for example a semantic pre-commit secret guard with `isv`). | Go · CLI suite with man pages and shell completions (Apache-2.0) |
 | [Grok Bot Jev](grok-bot-jev.md) | Gate Grok Bot research/browser/retry/subagent work with TypeSafe Jev actions (shadow or active skill mode). | Python · router, skill template and dry-run CLI |
