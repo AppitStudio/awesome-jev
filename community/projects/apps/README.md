@@ -702,6 +702,16 @@ Track how AI answers describe and position your brand. Jev judges brand sentimen
 
 [Full Notra guide](notra.md) · [Source](https://github.com/usenotra/notra)
 
+### Orbs
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted multi-bot chat: rooms hold people and bots, `@mentions` wake a bot, and with no mention TypeSafe Jev scores which bot should answer; a daemon on your machine runs each bot turn through your own Pi agent.
+
+**Access:** clone the [MIT source](https://github.com/nikuscs/orbs) and run locally with Bun or deploy to your Cloudflare account. No app fee; bring your own model access through Pi and an optional TypeSafe key (usage billed by each provider). Source inspected; not run on the review host.
+
+[Full Orbs guide](orbs.md) · [Source](https://github.com/nikuscs/orbs)
+
 ### Orphaned Films
 
 `Open source` · `Free`
