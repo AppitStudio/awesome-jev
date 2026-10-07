@@ -602,6 +602,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [RLCD Gateway](rlcd-gateway.md) | Self-hosted Go gateway: LLM routing with context pruning plus Jev/open-rlcd System One audit/calibration dashboard. | Go · binary/npm/PyPI (`rlcd-gateway`, Apache-2.0) |
 | [s1-tui](s1-tui.md) | Terminal UI for System One typed decisions over laya + TypeSafe Jev backends. | TUI (MIT) |
 | [Scope (code context selector)](tjeastmond-scope.md) | Hand a coding agent or developer a compact, evidence-backed set of code chunks for a task instead of whole files. | TypeScript · Bun tooling · Node 24+ CLI |
+| [Scruple](scruple.md) | Turn named engineering standards that need interpretation into lint checks that run on every change. | TypeScript · npm packages `@scruple/*` (MIT) |
 | [semantic-assert](semantic-assert.md) | Assert plain-English claims about UI/text state with TypeSafe Jev (Playwright helpers; thresholds in code). | TypeScript · npm packages + Playwright adapter |
 | [SemDecide](semdecide.md) | Run TypeSafe Jev predicates, routes, scores, and JSONL filters as Unix CLI exit codes for pipelines and CI. | Python · CLI (`semdecide` 0.2.1) |
 | [sensored](sensored.md) | Cut false positives in PII redaction by letting Jev confirm ambiguous detections (currently `person_name_lite`) in the async API; fails open when the provider is unavailable. | TypeScript · npm `sensored` (optional `@typesafe-ai/sdk`) |
