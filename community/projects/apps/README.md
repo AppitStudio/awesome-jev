@@ -1804,6 +1804,16 @@ Turns a question into a span of King James Version verses by keying it through T
 
 [Full keyed james bible guide](keyed-james-bible.md) · [Source](https://github.com/mccartykim/keyed_james_bible)
 
+### meeting-ledger
+
+`Open source` · `Free source build` · `BYOK`
+
+Terminal app that keeps meetings on the record: Claude extracts decisions, action items, promises and open questions with cited transcript lines, a System One model (TypeSafe Jev or local Kev) checks proposed status changes across meetings, and anything the two disagree on waits for your review; stale promises are flagged.
+
+**Access:** clone the [MIT source](https://github.com/owen-alderson/meeting-ledger) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full meeting-ledger guide](meeting-ledger.md) · [Source](https://github.com/owen-alderson/meeting-ledger)
+
 ### Omarchy Mail
 
 `Open source` · `Free source build` · `BYOK`
