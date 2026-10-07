@@ -608,6 +608,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [similarity-ts-jev](similarity-ts-jev.md) | Run similarity-ts + fallow on TypeScript, keep only the pairs TypeSafe Jev judges worth merging (with copy/derive/extract shape), and calibrate the cutoff. | TypeScript · npm CLI/library (`@kongyo2/similarity-ts-jev` 0.2.0, MIT) |
 | [Skill Dash](skill-dash.md) | Judge Claude Code/Codex skills with TypeSafe Jev (usefulness/redundancy/clarity/action) in a local dashboard. | Python · stdlib loopback server + SQLite |
 | [Skillbox](skillbox.md) | Share versioned agent skills and use optional Jev scores to recommend authorized skills for a task. | TypeScript / Bun / PostgreSQL · skill library, MCP and CLI |
+| [skillmine](skillmine.md) | Turn lessons from past coding-agent sessions into skills, with Jev as the cheap 'was something reusable taught?' gate. | TypeScript · Bun CLI + Claude Code plugin (MIT) |
 | [SkillRanker](skillranker.md) | Rank which agent skills fit the next step from live session context using Jev wide/re-rank stages. | Rust · CLI (`sr`), hooks and TUI |
 | [skill-scanner](skill-scanner.md) | Scan Agent Skills offline before install and gate Claude Code/Codex/OpenCode/Pi/`npx skills`; optional Jev judge. | TypeScript · npm (`@french-castle/skill-scanner`, MIT) |
 | [Skylos](skylos.md) | Scan PRs for dead code, security issues, and AI-code mistakes; optionally have TypeSafe Jev review static dead-code findings. | Python · CLI (`pip install skylos`) (Apache-2.0) |
