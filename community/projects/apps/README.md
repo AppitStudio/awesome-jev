@@ -1166,6 +1166,16 @@ Mac ⌥Space assistant for any app with a Decision mode: ask yes/no, choice or l
 
 [Full Meraline guide](meraline.md) · [Source](https://github.com/Meldiron/meraline)
 
+### pulp
+
+`Open source` · `Free source build` · `BYOK`
+
+Personal macOS pipeline that turns Safari iCloud tabs into clean EPUBs for an e-ink reader (OPDS catalog, KOReader sync, optional reMarkable push); optional `--smart` triage asks TypeSafe Jev whether each tab the denylist kept is worth reading.
+
+**Access:** clone the [MIT source](https://github.com/danemarguglio/pulp) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full pulp guide](pulp.md) · [Source](https://github.com/danemarguglio/pulp)
+
 ### Switchyard
 
 `Open source` · `Free source build` · `BYOK`
