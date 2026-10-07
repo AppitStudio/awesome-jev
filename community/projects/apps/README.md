@@ -1302,6 +1302,16 @@ Privacy-conscious local-first chat signal analyzer: on-device redaction, then Ty
 
 ## Browser extensions
 
+### Bilibili noise filter for Firefox (JEV)
+
+`Open source` · `Free source build` · `BYOK`
+
+Firefox (and Chrome) port of littlewindy123/jev-bili-filter: toggles for spoilers, trolling, ads and partisan chants, plus your own one-sentence rules, filter Bilibili comments and danmaku with TypeSafe Jev; adds local keywords that work without a key, per-item Canvas danmaku filtering, a block log and usage tracking.
+
+**Access:** clone the [MIT source](https://github.com/Ray4AI/jev-bili-filter) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full Bilibili noise filter for Firefox (JEV) guide](ray4ai-jev-bili-filter.md) · [Source](https://github.com/Ray4AI/jev-bili-filter)
+
 ### Danmaku spoiler filter (JEV)
 
 `Open source` · `Free source build` · `BYOK`
