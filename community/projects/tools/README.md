@@ -93,6 +93,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [call-eval](call-eval.md) | Score calls for satisfaction (1–5) and sentiment with an audit trail of transcript lines per number; runs offline or live against Jev. | Python · CLI package + static demo site (MIT) |
 | [Jev Internal Links](jev-internal-links.md) | Claude Code skill: crawl sitemap paragraphs, TypeSafe Jev picks useful internal link targets, local rules + report. | Python · Claude Code skill (MIT) |
 | [jev-linkedin-saved-classifier](jev-linkedin-saved-classifier.md) | LinkedIn saved-posts board classified into filters by TypeSafe Jev | Python · classifier board (MIT) |
+| [Lynkgrids AI for Jev](lynkgrids-ai-for-jev.md) | Score leads, classify replies and check outreach drafts in a Lynkgrids pipeline with Jev, routing low-confidence calls to a person. | JavaScript · CLI + agent skill / Claude Code plugin (MIT) |
 | [Sales pipeline revival (Jev vs Gemini)](sales-pipeline-revival-jev.md) | Re-run Jev vs Gemini triage on 203 dead sales-deal threads with published metrics. | Python · benchmark harness + fixtures (MIT) |
 | [Support Ticket Router](support-ticket-router.md) | Route support tickets automatically and send only the risky ones to a person, using Jev's probabilities. | Python · FastAPI service (MIT) |
 | [Testimonial miner](testimonial-miner.md) | Find and review verbatim praise in email, grouped by product. | Python · CLI and local dashboard |
