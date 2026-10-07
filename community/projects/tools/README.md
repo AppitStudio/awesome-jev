@@ -641,6 +641,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [banterarena-engine](banterarena-engine.md) | Make a social-banter scoring formula public and testable, with Jev judging only the ambiguous replies. | Go · library (MIT, no third-party dependencies) |
 | [Honeytongue](honeytongue.md) | NPC persuasion engine: TypeSafe Jev judges whether player dialogue convinced a character. | JavaScript · library (MIT) |
 | [jev plays snake](jev-plays-snake.md) | See a closed-menu, deadline-bound control loop where code supplies exact facts and Jev only chooses among legal moves. | TypeScript · Vite/React UI · Hono proxy · `@typesafe-ai/sdk` |
 | [Jev Vampire Survivors](jev-vampire-survivors.md) | BepInEx + Python brain: TypeSafe Jev plays real Steam Vampire Survivors with a live ops dashboard. | BepInEx plugin + Python (MIT) · TypeSafe Jev |
