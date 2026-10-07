@@ -1614,6 +1614,16 @@ Private-by-default Gmail labeler: local policy asks TypeSafe Jev (or OpenAI/Anth
 
 [Full Inbox Triage guide](inbox-triage.md) · [Source](https://github.com/shimoverse/inbox-triage)
 
+### Jev Soundboard
+
+`Open source` · `Free source build` · `BYOK`
+
+Live AI soundboard that listens to a call (FaceTime, Zoom, Meet, Discord or a stream), transcribes it and lets TypeSafe Jev decide whether to react and which clip to play within about a second; 15 built-in synthesized sounds, local control panel and an optional Discord bot.
+
+**Access:** clone the [MIT source](https://github.com/Kiggsworthy/jev-soundboard) and run with uv. No app fee; bring TypeSafe and OpenAI keys (usage billed by each provider). Source inspected; not run on the review host.
+
+[Full Jev Soundboard guide](jev-soundboard.md) · [Source](https://github.com/Kiggsworthy/jev-soundboard)
+
 ### jev-crypto-scout
 
 `Open source` · `Free source build` · `BYOK`
