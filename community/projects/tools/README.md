@@ -249,6 +249,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Highlight Cutter](jev-highlight-cutter.md) | Turn a five-hour interview into an eight-minute rough cut with a reviewable scoring trail. | Python (stdlib) · Codex skill + CLI (MIT) |
 | [Jev Skills (n23eos)](n23eos-jev-skills.md) | Install skills such as `jev-skill-picker`, `jev-test-prioritizer`, `jev-bug-triage` and `jev-plan-selector`; automatic routing stays off unless you enable it. | Python 3.10+ · uv tool CLI (`jev-skills`) + agent skills (MIT) |
 | [jev-answers](jev-answers.md) | Ask TypeSafe Jev about files via MCP/CLI and keep each request's raw answer in a session folder. | TypeScript · MCP + CLI (MIT) |
+| [jev-autopilot](jev-autopilot.md) | Leave a Claude Code session running while away, with Jev handling routine prompts and a phone approval for dangerous actions. | TypeScript · Claude Code plugin (MIT) |
 | [jev-cc-codex-router](jev-cc-codex-router.md) | Route each Codex turn via TypeSafe Jev tier choice, rewrite the model, and retry flaky upstream errors. | TypeScript · Codex proxy (MIT) |
 | [jev-compaction-plus](jev-compaction-plus.md) | Claude Code compaction with TypeSafe Jev keep/drop plus a drawer file for dropped tool outputs (fork of fast-jev-compaction). | TypeScript · Claude Code plugin (MIT) |
 | [Jev Cookbook (Datawhale)](jev-cookbook.md) | Learn TypeSafe Jev / System One in Chinese via notebooks, recipes, and docs translation (CC BY-NC-SA 4.0; non-commercial). | Jupyter + docs site (CC BY-NC-SA 4.0) |
