@@ -294,6 +294,7 @@ Applications with a user-facing workflow powered in part or entirely by Jev. The
 
 ### Developer projects and integrations
 
+- [A Decision Model as a World Model](https://github.com/thddydgnl/jev-world-model) - Code, data, run logs and manuscript for a KIIS 2026 Fall Conference paper testing whether a frozen TypeSafe Jev decision model can serve as an LLM agent's world model in TextWorld, against zero-shot and LoRA-tuned Qwen3-4B in decision-style and generative set-ups; the author reports Jev near the oracle on task success without task training. English and Korean docs. [Project guide](community/projects/tools/jev-world-model.md).
 - [Abide](https://github.com/coldteadotai/abide) - Enforce AGENTS.md/CLAUDE.md rules on every coding-agent edit/turn with TypeSafe Jev (or Vercel AI Gateway) per-rule probabilities on diffs. [Project guide](community/projects/tools/abide.md).
 - [adecider](https://github.com/Agents365-ai/adecider) - Typed System One decisions for coding agents: one call, many Noul/Choice/Score questions, pluggable local Laya / TypeSafe Jev / OpenAI-compatible backends. [Project guide](community/projects/tools/adecider.md).
 - [adk-go-typesafe](https://github.com/craigh33/adk-go-typesafe) - TypeSafe System One Go client and Google ADK-Go function tool (OpenAPI-generated types; Apache-2.0). [Project guide](community/projects/tools/adk-go-typesafe.md).
