@@ -890,6 +890,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [semgate](semgate.md) | Filter and route Go HTTP requests with TypeSafe Jev noul/choice/score middlewares. | Go · net/http middleware |
 | [Skill Router (LangChain)](langchain-skill-router.md) | Load only the relevant skills per user turn from large catalogs (rank, then verify) with tunable load/offer/skip thresholds and per-decision traces. | Python · PyPI `langchain-skill-router[jev]` (MIT) |
 | [Spring AI TypeSafe](spring-ai-typesafe.md) | Call System One from Java/Spring AI (client, JevJudge, guardrail/RAG/tool-search advisors). | Java · Maven (`org.springaicommunity`, 0.1.0) |
+| [standard_model_for_jev_tasks (jev-shim)](standard-model-for-jev-tasks.md) | Point existing Jev clients at a model you serve yourself, for offline development, comparison or self-hosting. | Python (stdlib) · `jev-shim` server (Apache-2.0) |
 | [strapi-plugin-jev-review](strapi-plugin-jev-review.md) | Gate Strapi 5 publish with TypeSafe Jev approve/escalate/revise decisions (optional Document Service guard). | JavaScript · Strapi 5 plugin (MIT) |
 | [swift-jev](swift-jev.md) | Call TypeSafe Jev Choice/Noul/Score from SwiftPM apps or a JSON CLI (`jev`); no free-form generation. Distinct from TypeSafe (Swift). | Swift 6.2 · SwiftPM library (`Jev`) + CLI |
 | [sys1 (alvarobartt)](alvarobartt-sys1.md) | Serve open decision models (e.g. Laya) behind a System One–compatible `/v1/systemone` API in Rust. Distinct from hraness/sys1. | Rust · CLI/server (Apache-2.0) |
