@@ -711,6 +711,7 @@ These projects study related typed-decision patterns using other models. They ar
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [A Decision Model as a World Model](jev-world-model.md) | Reproduce a study of Jev as a frozen world model for a TextWorld LLM agent. | Python · research code + artifacts (MIT) |
 | [Albanian sentiment analysis with Jev](albanian-sentiment-jev.md) | See how zero-shot Jev compares with trained models on a low-resource-language sentiment benchmark. | Python · research code + results (MIT) |
 | [AnyJev (Nokia Applied Research)](nokia-anyjev.md) | Turn an open LLM into Jev-style typed decisions with probabilities (L0–L2); independent of official Jev. | Python · PyPI (`anyjev` 0.1.0, Apache-2.0) |
 | [assay](assay.md) | Run local typed Choice/Score/Noul-style decisions with calibrated confidence (assay; independent of hosted Jev). | Python · stdlib local decision engine (MIT) |
