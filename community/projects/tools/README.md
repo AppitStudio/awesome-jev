@@ -145,6 +145,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [classifier.dev](classifier-dev.md) | Classify text with `curl https://classifier.dev/<labels>/<text>` or the `classify` CLI; Jev returns the label and confidence (`src/jev.ts`). | TypeScript · Cloudflare Worker + npm CLI (`classifier-dev`) (MIT) |
 | [claude-auto-effort](claude-auto-effort.md) | Set Claude Code's effort per prompt from a Jev rating, applied consistently to every step of the turn. | TypeScript · Claude Code mod (MIT) |
 | [claude-jev-advisor](claude-jev-advisor.md) | Get Jev advice on when to compact/clear a Claude Code session and safer handling of file deletes. | TypeScript · npm `@delt/claude-jev-advisor` (MIT) |
+| [claude-model-guard](claude-model-guard.md) | Have Jev check, per Claude Code prompt, which model tier fits and optionally block mismatches. | JavaScript · Claude Code hooks + CLI (MIT) |
 | [claude-referee](claude-referee.md) | Gate risky Claude Code tool actions with TypeSafe Jev referee judgments. | TypeScript · Claude Code plugin (MIT) |
 | [claude-risk-router](claude-risk-router.md) | Route Claude Code tasks across Opus/Sonnet/Haiku using TypeSafe Jev risk judgments. | Python · Claude Code add-on (MIT) |
 | [Claude x Jev](claude-x-jev.md) | Claude Code skill: Jev classify/route/gate via OpenRouter; Claude deep-reads only unsure items. | Python/npm · Claude Code skill (`claude-x-jev`, MIT) |
