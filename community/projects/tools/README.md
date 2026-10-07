@@ -845,6 +845,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jeff (Viperwow)](viperwow-jeff.md) | Put one typed-decision API in your stack and switch between hosted Jev and local Jev-compatible models by provider/model name. | Rust · single binary (release archives; `cargo`) |
 | [Jev for Excel](jev-excel.md) | Classify, score or fact-check a column of text with a fill-down formula instead of code. | JavaScript Office add-in + VBA module (MIT) |
 | [Jev Moderation](jev-moderation.md) | Moderate user text with portable JSON policies where every rule is a separate Jev yes/no question, and test policy changes against labelled cases before shipping. | TypeScript + Python · shared policy schemas (MIT) |
+| [Jev.DotNet (altinburak)](jev-dotnet-altinburak.md) | Call Jev from C#/.NET services with typed questions and DI-friendly configuration. | C# · NuGet package (MIT) |
 | [jevai](jevai.md) | Call TypeSafe System One from Rust with typed noul/choice/score questions in parallel (unofficial). | Rust · async client crate (MIT) |
 | [jev-cli (shetautnetjer)](shetautnetjer-jev-cli.md) | Clean-room `jev` CLI for Decision Contracts, local search, and benchmarks against TypeSafe System One. | Python · CLI (MIT) |
 | [jev (drpaneas)](drpaneas-jev.md) | Call TypeSafe Jev System One from Go with a small client package. | Go · module (`github.com/drpaneas/jev`, MIT) |
