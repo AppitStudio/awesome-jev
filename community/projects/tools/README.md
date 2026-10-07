@@ -70,6 +70,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevOnly](jevonly.md) | Drive a browser with pure Jev choices over code-built options—no planner or helper LLM. | Python · CLI, local viewer and Playwright |
 | [JevPaper](jev-paper.md) | Mark arXiv abstract claims, delivering body sentences, and caveats with TypeSafe Jev (no summaries). | Chrome MV3 extension (GPL-3.0) |
 | [jevpilot (bloudhood)](bloudhood-jevpilot.md) | MCP server: agent sends a goal; Jev drives Chrome step-by-step and returns a verified result or a question. | MCP · Chrome automation + TypeSafe Jev (MIT) |
+| [jurl](jurl.md) | Pull just the relevant part of a web page into a terminal or agent context, with documented speed, cost and data flow. | Rust · CLI (Apache-2.0/MIT) |
 | [macos-computer-use-kit](macos-computer-use-kit.md) | AX-first macOS computer use (MCP/CLI/pi/DSH) with optional TypeSafe Jev semantic guards before irreversible actions. | Python · PyPI MCP/CLI (MIT) |
 | [Midscene JEV Runner](midscene-jev-runner.md) | Drive a caller-owned Playwright page with TypeSafe Jev via OpenRouter Decisions (`runJev` / Midscene `jevAct`). | TypeScript · npm (`@chlrc/midscene-jev-runner` 0.1.2, MIT) |
 | [Mobile Jev](mobile-jev.md) | Navigate an Android device and verify a dark-theme task. | JavaScript / React · Mobilerun agent and studio |
