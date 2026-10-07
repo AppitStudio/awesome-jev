@@ -604,6 +604,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Scope (code context selector)](tjeastmond-scope.md) | Hand a coding agent or developer a compact, evidence-backed set of code chunks for a task instead of whole files. | TypeScript · Bun tooling · Node 24+ CLI |
 | [Scruple](scruple.md) | Turn named engineering standards that need interpretation into lint checks that run on every change. | TypeScript · npm packages `@scruple/*` (MIT) |
 | [semantic-assert](semantic-assert.md) | Assert plain-English claims about UI/text state with TypeSafe Jev (Playwright helpers; thresholds in code). | TypeScript · npm packages + Playwright adapter |
+| [semantic-test-matcher](semantic-test-matcher.md) | Pick the tests most likely affected by a change before running a full suite. | TypeScript · npm CLI (MIT) |
 | [SemDecide](semdecide.md) | Run TypeSafe Jev predicates, routes, scores, and JSONL filters as Unix CLI exit codes for pipelines and CI. | Python · CLI (`semdecide` 0.2.1) |
 | [sensored](sensored.md) | Cut false positives in PII redaction by letting Jev confirm ambiguous detections (currently `person_name_lite`) in the async API; fails open when the provider is unavailable. | TypeScript · npm `sensored` (optional `@typesafe-ai/sdk`) |
 | [similarity-ts-jev](similarity-ts-jev.md) | Run similarity-ts + fallow on TypeScript, keep only the pairs TypeSafe Jev judges worth merging (with copy/derive/extract shape), and calibrate the cutoff. | TypeScript · npm CLI/library (`@kongyo2/similarity-ts-jev` 0.2.0, MIT) |
