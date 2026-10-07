@@ -752,6 +752,16 @@ Upload patrol photos and get Korean patrol-log text (or HWPX). OpenAI reads the 
 
 [Full patrol-jev guide](patrol-jev.md) · [Source](https://github.com/patrol-jev/patrol-jev)
 
+### Plasis
+
+`Open source` · `Free source build` · `BYOK`
+
+One text box that turns what you type into the right UI card (event, reminder, issue, checklist, bill split and more): one TypeSafe Jev call answers 15 typed intent questions in parallel while a deterministic parser reads dates and amounts; a free offline keyword classifier is the default, with measured agreement against Jev.
+
+**Access:** clone the [MIT source](https://github.com/shreyaspangal/plasis) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full Plasis guide](plasis.md) · [Source](https://github.com/shreyaspangal/plasis)
+
 ### Preguntale a Jev
 
 `Source unverified` · `Free` · `BYOK`
