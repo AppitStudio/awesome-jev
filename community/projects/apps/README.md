@@ -68,6 +68,16 @@ Local live sales-call coach: TypeSafe Jev judges next-best actions and buying st
 
 [Full Call Coach guide](call-coach-ai.md) · [Source](https://github.com/ZeroGold/call-coach-ai)
 
+### ChatJevPT
+
+`Open source` · `Free source build` · `BYOK`
+
+Chat app that makes TypeSafe Jev 'generate' an answer one character at a time by asking the same choice question over and over (next character or END), shows each letter's top-five probabilities, lets Jev grade its own answer, and meters cost; several 'model levels' compare naive and fuller pipelines.
+
+**Access:** clone the [MIT source](https://github.com/samkoosh/ChatJevPT) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full ChatJevPT guide](chatjevpt.md) · [Source](https://github.com/samkoosh/ChatJevPT)
+
 ### Chess with Jev
 
 `Source available` · `Free source build` · `BYOK`
