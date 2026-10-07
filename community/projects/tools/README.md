@@ -607,6 +607,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [semantic-test-matcher](semantic-test-matcher.md) | Pick the tests most likely affected by a change before running a full suite. | TypeScript · npm CLI (MIT) |
 | [SemDecide](semdecide.md) | Run TypeSafe Jev predicates, routes, scores, and JSONL filters as Unix CLI exit codes for pipelines and CI. | Python · CLI (`semdecide` 0.2.1) |
 | [sensored](sensored.md) | Cut false positives in PII redaction by letting Jev confirm ambiguous detections (currently `person_name_lite`) in the async API; fails open when the provider is unavailable. | TypeScript · npm `sensored` (optional `@typesafe-ai/sdk`) |
+| [Session Board](session-board.md) | Track open questions and tasks of a Codex chat as cards, with optional Jev matching. | Python · macOS local panel + Codex hooks (MIT) |
 | [similarity-ts-jev](similarity-ts-jev.md) | Run similarity-ts + fallow on TypeScript, keep only the pairs TypeSafe Jev judges worth merging (with copy/derive/extract shape), and calibrate the cutoff. | TypeScript · npm CLI/library (`@kongyo2/similarity-ts-jev` 0.2.0, MIT) |
 | [Skill Dash](skill-dash.md) | Judge Claude Code/Codex skills with TypeSafe Jev (usefulness/redundancy/clarity/action) in a local dashboard. | Python · stdlib loopback server + SQLite |
 | [Skillbox](skillbox.md) | Share versioned agent skills and use optional Jev scores to recommend authorized skills for a task. | TypeScript / Bun / PostgreSQL · skill library, MCP and CLI |
