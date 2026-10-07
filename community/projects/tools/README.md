@@ -118,6 +118,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
 | [AlphaOptimizer](alphaoptimizer.md) | Compact large Codex/tool outputs locally and optionally rank chunks with TypeSafe Jev. | Node.js · TypeScript package (`alphaoptimizer` 0.1.0) |
 | [ask-jev-skill](ask-jev-skill.md) | Call TypeSafe Jev as a Hermes typed tiebreaker (Choice/Score/Noul) when multiple paths remain. | Python · Hermes skill + stdlib CLI |
+| [ask-jev-skill (DiegoSalazar)](diegosalazar-ask-jev-skill.md) | Let Claude Code hand small yes/no, pick, rate and rank judgments to Jev through a CLI. | TypeScript (Bun) · CLI + Claude Code skill (no LICENSE file) |
 | [askjev](askjev.md) | Ask TypeSafe Jev via MCP (local or hosted) for calibrated Noul/Choice/Score over agent-held context. | TypeScript · MCP server (`askjev` 0.2.0) |
 | [Astra-Ares](astra-ares.md) | Adapt GPT-6 Astra reasoning effort mid-Codex-task with TypeSafe Jev Choice (patched Codex CLI preview). | Node.js ≥ 22 · CLI (`astra-ares` / `ares` 0.2.1) |
 | [atoma](atoma.md) | Submit a goal (report, data study, software) and watch agents produce and verify it, with Jev making bounded routing/approval decisions recorded on the timeline. | TypeScript · Node platform + web console (AGPL-3.0) |
