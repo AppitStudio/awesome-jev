@@ -162,7 +162,6 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [daf-jev](daf-jev.md) | Build typed Jev questions, gates, batch evaluation, and optional MCP tools in Python. | Python · library/CLI (`daf-jev` 0.3.0) |
 | [Damocles](damocles.md) | Use the coding agent with persistent memory; add a TypeSafe key so Jev decides whether a new fact supersedes an old one and grades memories for recall. | TypeScript · VS Code extension + Electron desktop app (MIT) |
 | [Data Agent MNIST (ClickHouse)](data-agent-mnist.md) | Generate and grade text-to-SQL agent tasks on your warehouse; with `--extra jev`, rank tables by how likely each is needed and label failed cells by sub-mode and preventing rule. | Python · uv project and scripts (Apache-2.0) |
-| [DataJev](datajev.md) | Control a data-analysis agent trajectory with TypeSafe Jev verbs while an LLM analyst and Python execute steps. | Python · CLI/package (`datajev` 0.1.0; Python 3.12 / uv) |
 | [dbt_jev](dbt-jev.md) | Classify SQL values with TypeSafe Jev (or OpenRouter→Jev) from dbt macros on DuckDB/ClickHouse. | Python · dbt package + DuckDB/ClickHouse runtime |
 | [DecideKit](decidekit.md) | Define typed decision policies and evaluate them with Jev via OpenRouter or TypeSafe, with offline fixtures and fallbacks. | TypeScript/Python · library/CLI (`decidekit` 0.1.0) |
 | [Decision Tagger (Obsidian)](obsidian-decision-tagger.md) | Tag Obsidian notes with TypeSafe Jev System One rules; single-note and vault/folder batch with multi-key concurrency. | JavaScript · Obsidian plugin (MIT) |
