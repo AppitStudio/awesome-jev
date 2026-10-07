@@ -292,10 +292,8 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Router for Windows](jev-router-windows.md) | Windows GUI setup/control panel for TypeSafe Jev routing (Codex automatic; Claude Code plugin-assisted). | Windows 10/11 · portable alpha (MIT) |
 | [jev-router (hectorj2f)](hectorj2f-jev-router.md) | Score Claude Code subagent tasks with five atomic Jev questions; upgrade ungated / downgrade earned; findings included. | Python · Claude Code router (Apache-2.0) |
 | [jev (taifoon-io)](taifoon-io-jev.md) | Grade an AI agent job with TypeSafe Jev: fact checks in code, four closed questions, receipt with probabilities,… | TypeScript · npm `@taifoon/jev` (MIT) |
-| [Jev Atlas](jev-atlas.md) | Map a repo’s semantic decisions, reject weak Jev fits with published gates, then validate/implement survivors from `.jev-atlas/` state. | Agent skill + Claude/Codex plugin (`jev-atlas` 0.2.0) |
 | [Jev Bug Hunter](jev-bug-hunter.md) | Run a bounded TypeSafe Jev first-pass bug hunt over a source file (optional spec/context). | Python/CLI · bug-hunt tool (MIT) |
 | [Jev by Example](jev-by-example.md) | Ten runnable lessons on agent decisions between steps (memory, completion, handoffs, …); Jev judges, code owns policy; offline fixtures by default. | JavaScript · zero-dep CLI (`jev-by-example` 0.1.0, MIT) |
-| [Jev Checkpoint](jev-checkpoint.md) | Ask TypeSafe Jev for an advisory, confidence-gated next-step route over a fixed Choice set (MCP; never executes). | TypeScript · local MCP server (`jev-checkpoint` 0.1.0) |
 | [Jev Classifier for Obsidian](obsidian-jev-classifier.md) | Fill Obsidian note properties from a guide note by asking TypeSafe Jev for allowed values. | Obsidian plugin (MIT) · TypeSafe Jev |
 | [Jev Code Reviewer (egma-ai)](egma-ai-jev-code-reviewer.md) | Local Jev priority + OpenAI NL review overlay for GitHub PRs. | Node · CLI/extension (MIT) |
 | [Jev Decision Gateway (kartikanand73)](kartikanand73-jev-decision-gateway.md) | Governed withdrawal PoC: Jev scores, code signs policy, executor accepts signed decisions only; bench vs LLM/rules (≠ kuldeepsinh19). | Python · PoC + bench harness (MIT) |
@@ -354,7 +352,6 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-effort](jev-effort.md) | Claude Code: TypeSafe Jev picks per-step reasoning effort + lease (OpenRouter/TypeSafe/Vercel). | Node.js · hooks/setup (MIT) |
 | [jev-effort-router](jev-effort-router.md) | Hermes on Ollama:Cloud: TypeSafe Jev picks model **and** reasoning effort per turn and rewrites `llm_request`. | Python · Hermes plugin (`hermes-plugin-jev-effort-router` 0.2.1, MIT) |
 | [jev-enforce](jev-enforce.md) | Claude Code plugin: TypeSafe Jev checks replies and edits against CLAUDE.md/AGENTS.md and blocks broken rules in the same turn. | TypeScript · Claude Code plugin / npm (`jev-enforce`) |
-| [jev-evolve](jev-evolve.md) | Evolve agent policies with typed Jev decisions and measure how much improvement is selection luck. | Python · library (`jev-evolve` on PyPI) |
 | [jev-eyes](jev-eyes.md) | Turn images into inspectable OCR/layout `state` for TypeSafe Jev locally (`see`/`ask`, CLI, optional MCP). | Python · library/CLI/MCP (`jev-eyes` 0.1.0) |
 | [jev-filter (ByteBell)](bytebell-jev-filter.md) | Claude Code plugin: TypeSafe Jev keeps relevant files after grep so the coding LLM reads a shortlist. | Python · Claude Code plugin / MCP (MIT) |
 | [jev-for-all](jev-for-all.md) | Shared System One decision contract: Jev picks skill/tool subset/browser moves for OpenCode/Claude Code/Hermes. | TypeScript · OpenCode plugin + adapters (MIT) |
@@ -557,7 +554,6 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [opencode-jev-router](opencode-jev-router.md) | OpenCode Responses proxy: TypeSafe Jev selects reasoning effort for Astra/Luna/Sol with cache lineage. | Node.js 24 · npm CLI (`@robertn702/opencode-jev-router` 0.1.0, MIT) |
 | [opencode-smart-reasoning](opencode-smart-reasoning.md) | Route OpenCode per-request reasoning effort with TypeSafe Jev via Zen SystemOne (fail-open). | TypeScript · OpenCode plugin (`opencode-smart-reasoning` 0.2.0) |
 | [openjev-mcp (markylaredo)](markylaredo-openjev-mcp.md) | Expose OpenJEV System One judgments over MCP with shared context and multi-question batches. | TypeScript · MCP stdio server (`openjev-mcp`) |
-| [openwebui-jev-style-decisions](openwebui-jev-style-decisions.md) | Open WebUI plugin for JEV-style typed decisions via local Ollama (unofficial). | Open WebUI plugin (MIT) |
 | [orca-jev-advisor](orca-jev-advisor.md) | Orca Lab plugin: local rules + TypeSafe Jev gate agent commands (ask before force-push/merge/apply). | TypeScript · Orca/Electron plugin (license unspecified) |
 | [Pad](pad.md) | Track work for you and your coding agents on local SQLite; optionally let Jev flag `needs_human` / blocked items and route free text to playbooks (`pad playbook match`). | Go · single binary with embedded web UI + MCP/agent skill (Apache-2.0) |
 | [painpoints](painpoints.md) | Find the architectural hot spots worth fixing first, with every score traceable to the question and state sent. | Rust · CLI + MCP server (MIT) |
@@ -648,7 +644,6 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [tokengate](jev-model-tokengate.md) | Buffer streamed LLM tokens and gate each window with TypeSafe Jev before the client sees them. | Node.js · OpenAI-compatible proxy (`tokengate` 0.1.0) |
 | [toolgate](toolgate.md) | Gate Claude Code and MCP tool calls with static rules plus TypeSafe Jev risk judgments and a local audit log. | TypeScript · CLI, Claude Code hook and MCP proxy |
 | [triagedy](triagedy.md) | Triage JSONL security alerts with TypeSafe Jev typed questions; route outcomes in ordinary Rust code. | Rust · CLI (`triagedy` 0.1.0) |
-| [Tripwire](tripwire.md) | Abort bad streaming completions mid-flight using TypeSafe Jev (or an offline heuristic) inside an OpenAI-compatible proxy. | Python · package (`tripwire` 0.1.0) |
 | [trirouter](trirouter.md) | Install hooks, an MCP server and a `trirouter` command so every prompt is routed to the right agent/model/effort, with parallel agents, queue protection and shared skills. | Python · installer + hooks + MCP server (MIT) |
 | [Typed Evals](typed-evals.md) | Evaluate RAG/agent outputs and guard tools with TypeSafe Jev judges and optional calibration. | Python · library/CLI (`typed_evals`) |
 | [typesafe-agent-gates](typesafe-agent-gates.md) | Gate unattended LangChain/Deep Agents shell commands and triage with TypeSafe Jev middleware. | Python · LangChain middleware |
@@ -709,7 +704,6 @@ These projects study related typed-decision patterns using other models. They ar
 | [basal](basal.md) | Self-host Jev-style typed decisions (probability per allowed answer) on your GPU or Mac, and compare against hosted Jev on the maintainer's Werdykt benchmark. | Python · `basal-serve` engine (vLLM/SGLang/MLX/llama.cpp backends) (Apache-2.0) |
 | [Bongard](bongard.md) | Run Bongard open System One judgments (parallel typed questions → probabilities); independent of hosted Jev. | Python · HF weights + inference (Apache-2.0) |
 | [Brier](brier.md) | Run a local MLX Jev-format choice/score/noul decision model (PT-BR training focus) on Apple Silicon. | Python · MLX LoRA decision model (Apache-2.0) |
-| [calfram-bench](calfram-bench.md) | Calibration audit of TypeSafe Jev on 25 public benchmarks with CalFram (code + paper). | Python · research harness (MIT) |
 | [Can you fool Jev?](can-you-fool-jev.md) | See where Jev and local decision models break on trick choice, yes/no and score questions, and rerun the same requests against your own endpoint. | Python · dataset + scripts (MIT) |
 | [Canopy-Jev](canopy-jev.md) | Run Canopy-Jev tree-based typed decisions with shared context and isolated branches (independent of hosted Jev). | Python · Qwen tree decision research (MIT) |
 | [Chinese-Jev](gulucaptain-chinese-jev.md) | Build/fine-tune Chinese typed-decision models with the Chinese-Jev pipeline and CJ-Bench (weights release pending; independent of hosted Jev). | Python · research pipeline (Apache-2.0) |
@@ -896,7 +890,6 @@ These projects study related typed-decision patterns using other models. They ar
 | [judgment (Rust)](judgment.md) | Write Jev decisions in Rust with typed options and thresholds, and unit-test them offline against answers the real model could give. | Rust · crates.io `judgment` (MIT) |
 | [Kestra TypeSafe plugin](kestra-plugin-typesafe.md) | Run TypeSafe System One typed evaluations inside Kestra flows (branch on structured answers). Not Scala Typesafe. | Java · Kestra plugin (Apache-2.0) |
 | [Klassify](klassify.md) | Kotlin Multiplatform DSL/SDK and Native CLI/MCP for TypeSafe System One classification (distinct from jev4k). | Kotlin · KMP SDK + Native CLI (`klassify` v0.1.1, Apache-2.0) |
-| [kotlin-jev](kotlin-jev.md) | Kotlin SDK + CLI for TypeSafe Jev (port of mattn/go-jev patterns). | Kotlin/JVM · library + `jev-cli` (MIT) |
 | [langgraph-jev](langgraph-jev.md) | Call TypeSafe Jev typed decisions from LangGraph/LangChain graphs (distinct from JevLangGraph). | Python · LangGraph/LangChain (MIT) |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
 | [laya-php](laya-php.md) | Classify/route text in PHP with local Laya typed decisions (Choice/Score/Noul); Laravel-ready; independent of hosted Jev. | PHP · Composer (`marcreichel/laya-php`, Apache-2.0) |

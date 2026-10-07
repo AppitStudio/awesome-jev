@@ -11,7 +11,7 @@ Multi-channel inbound lead intake (web/WhatsApp/Telegram/webhooks) buffered in S
 | Product homepage | [Repository README](https://github.com/SebassContreras/jev-leads#readme) |
 | Pricing and access | Free source build; BYOK OpenRouter + Airtable. Checked 2026-10-04. |
 | Jev evidence | [Upstream README](https://github.com/SebassContreras/jev-leads/blob/e0ff928087179063af77ec3c3d8cd01d95f6d005/README.md) documents OpenRouter Jev structured decisions and the SQLite→Airtable pipeline. |
-| Disclosure | AI-assisted catalog review; no affiliation. Listing is not an endorsement. Distinct from [Airtale](https://github.com/SebassContreras/airtale) by the same author—this listing is the OpenRouter Decisions + SQLite zero-loss buffer + Airtable sync service. Live install/UI paths not run on the Linux review host. |
+| Disclosure | AI-assisted catalog review; no affiliation. Listing is not an endorsement. Distinct from the same author's earlier Airtale project (repository no longer public as of 2026-10-07)—this listing is the OpenRouter Decisions + SQLite zero-loss buffer + Airtable sync service. Live install/UI paths not run on the Linux review host. |
 | Maintainer | [SebassContreras](https://github.com/SebassContreras). Independently curated. |
 | Format | Hono TypeScript lead qualification service + Airtable sync (MIT) |
 | Platform and availability | Self-hosted Node/Hono HTTP service |
