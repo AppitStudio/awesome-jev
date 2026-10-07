@@ -930,6 +930,7 @@ These projects study related typed-decision patterns using other models. They ar
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
 | [Agent Seek](agent-seek.md) | Cheap web recall for agents: You.com discover + TypeSafe Jev cascade ranking (REST/MCP/UI). Does not write answers. | Python 3.12+ · FastAPI/MCP (`agentseek.dev` demo) |
+| [arxiv-relevance-watch](arxiv-relevance-watch.md) | Get a deterministic, explainable nightly shortlist of arXiv papers for a narrow topic you define in three JSON files. | JavaScript (Node) · CLI (MIT) |
 | [blink](blink.md) | Search a local codebase with TypeSafe Jev via ensemble directory walkers that Choice-pick the next file or folder. | Bun · CLI (`./blink`); license unspecified |
 | [Brave Jev MCP](brave-jev-mcp.md) | Keep agent context for passages that help answer the query; other Brave tools pass through unfiltered. | TypeScript · MCP server, npm `@romantcig/brave-jev-mcp` (MIT) |
 | [dailypaper-skills](dailypaper-skills.md) | Install seven skills into Claude Code, Codex, Cursor, Copilot, Gemini CLI, OpenCode or OpenClaw; Jev scores each candidate paper's title/abstract for relevance, the host agent reviews and writes notes. | Python 3.10+ · agent skills + installer (Apache-2.0) |
