@@ -648,6 +648,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev plays snake](jev-plays-snake.md) | See a closed-menu, deadline-bound control loop where code supplies exact facts and Jev only chooses among legal moves. | TypeScript · Vite/React UI · Hono proxy · `@typesafe-ai/sdk` |
 | [Jev Vampire Survivors](jev-vampire-survivors.md) | BepInEx + Python brain: TypeSafe Jev plays real Steam Vampire Survivors with a live ops dashboard. | BepInEx plugin + Python (MIT) · TypeSafe Jev |
 | [Jev NetHack](jev-nethack.md) | TypeSafe Jev plays NetHack 5.0: code lists legal moves, Jev picks one; live dashboard. | Python + NetHack50 + web dashboard (MIT) |
+| [jev-chess (byrencheema)](byrencheema-jev-chess.md) | See how a one-question-per-move System One player performs, with zero illegal moves by construction and reproducible runs. | TypeScript (Bun) · experiment repo (no LICENSE — source available) |
 | [jev-drone](jev-drone.md) | Study typed maneuver judgments alongside deterministic simulated flight control and inspect a separate tunnel experiment. | Python / MuJoCo · simulation and replay |
 | [jev-libero](jev-libero.md) | Study fine-grained LIBERO robot actions with TypeSafe Jev layered choices and local physics previews. | Python · CLI and MuJoCo/LIBERO extras |
 | [jev-plays](jev-plays.md) | Watch TypeSafe Jev play Craftax (macro/raw actions) with optional LLM planner-as-facts and a local web UI. | Python · Craftax harness + viewer |
