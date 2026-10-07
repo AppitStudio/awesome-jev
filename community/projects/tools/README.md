@@ -928,6 +928,7 @@ These projects study related typed-decision patterns using other models. They ar
 | --- | --- | --- |
 | [Agent Seek](agent-seek.md) | Cheap web recall for agents: You.com discover + TypeSafe Jev cascade ranking (REST/MCP/UI). Does not write answers. | Python 3.12+ · FastAPI/MCP (`agentseek.dev` demo) |
 | [blink](blink.md) | Search a local codebase with TypeSafe Jev via ensemble directory walkers that Choice-pick the next file or folder. | Bun · CLI (`./blink`); license unspecified |
+| [Brave Jev MCP](brave-jev-mcp.md) | Keep agent context for passages that help answer the query; other Brave tools pass through unfiltered. | TypeScript · MCP server, npm `@romantcig/brave-jev-mcp` (MIT) |
 | [dailypaper-skills](dailypaper-skills.md) | Install seven skills into Claude Code, Codex, Cursor, Copilot, Gemini CLI, OpenCode or OpenClaw; Jev scores each candidate paper's title/abstract for relevance, the host agent reviews and writes notes. | Python 3.10+ · agent skills + installer (Apache-2.0) |
 | [Deep Recall](deep-recall.md) | Index Markdown notes into one SQLite file, then let `backend = "jev"` rerank hybrid-search windows by P(states the answer), widen when unsure, and optionally classify question kinds. | Python · Claude Code plugin, MCP server and `deeprecall` CLI (MIT) |
 | [duckdb-jev](duckdb-jev.md) | Run TypeSafe Jev Noul/Choice/Score predicates natively inside DuckDB SQL (C++ extension; no Python UDF). | C++ · DuckDB extension (Apache-2.0) |
