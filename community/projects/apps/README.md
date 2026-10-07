@@ -1372,6 +1372,16 @@ Chrome extension that grades Gmail compose/reply text with TypeSafe Jev on confi
 
 [Full Jev Review (Gmail) guide](petrzpav-jev-review.md) · [Source](https://github.com/petrzpav/jev-review)
 
+### Jev Slop Detector
+
+`Source available` · `Free source build` · `BYOK`
+
+Unofficial Chrome extension (with a local Node relay holding your key) that labels posts on your X feed with a TypeSafe Jev classification probability such as `● Slop | 83%`; it never hides or edits posts. The repo also holds SylphAI's class material for teaching Jev and the demo-recording scripts.
+
+**Access:** clone the [source](https://github.com/SylphAI-Inc/jev-slop-detector) (no LICENSE file — source available), start the relay and load the extension unpacked. No app fee; requires your own TypeSafe key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full Jev Slop Detector guide](jev-slop-detector.md) · [Source](https://github.com/SylphAI-Inc/jev-slop-detector)
+
 ### Jev Slop Guard
 
 `Open source` · `Free source build` · `BYOK`
