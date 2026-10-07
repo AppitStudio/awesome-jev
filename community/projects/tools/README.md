@@ -896,6 +896,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [langgraph-jev](langgraph-jev.md) | Call TypeSafe Jev typed decisions from LangGraph/LangChain graphs (distinct from JevLangGraph). | Python · LangGraph/LangChain (MIT) |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
 | [laya-php](laya-php.md) | Classify/route text in PHP with local Laya typed decisions (Choice/Score/Noul); Laravel-ready; independent of hosted Jev. | PHP · Composer (`marcreichel/laya-php`, Apache-2.0) |
+| [libsemop](libsemop.md) | Typed, confidence-aware Jev judgments, filters and rerankers from C++ code. | C++17 · CMake library (MIT) |
 | [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
 | [MakerAi](makerai.md) | Call Jev from Delphi with typed Choice/Score/Noul questions, or drop in adapters such as `TAiJevRouterTool`, `TAiJevGuardrailClassifier`, `TAiJevPromptGuard`, `TAiJevRAGReranker` and `TAiJevBatchLabeler`. | Delphi (Object Pascal) · component packages, Delphi 10.4–13.1 (MIT) |
 | [Mechanical Jev](mechanical-jev.md) | Ask System One Noul/Choice/Score from Rust (`mjev`) against local Intel Phi Jev or compatible endpoints. | Rust · library/CLI (Apache-2.0) |
