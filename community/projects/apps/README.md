@@ -1302,6 +1302,16 @@ Privacy-conscious local-first chat signal analyzer: on-device redaction, then Ty
 
 ## Browser extensions
 
+### Danmaku spoiler filter (JEV)
+
+`Open source` · `Free source build` · `BYOK`
+
+Zero-dependency Chrome extension (plus CLI) that has TypeSafe Jev judge whether Bilibili danmaku comments are spoilers and filters the hits, batching comments per request with a local cache; built to add other danmaku sites later. Docs in Chinese and English.
+
+**Access:** clone the [MIT source](https://github.com/meetchen/jev-danmaku-filter) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full Danmaku spoiler filter (JEV) guide](jev-danmaku-filter.md) · [Source](https://github.com/meetchen/jev-danmaku-filter)
+
 ### Focus
 
 `Open source` · `Free source build` · `BYOK`
