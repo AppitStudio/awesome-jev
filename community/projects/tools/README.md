@@ -1022,6 +1022,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Note Filer](obsidian-note-filer.md) | Classify Obsidian notes with TypeSafe Jev and move them into Thema or IAB taxonomy folders after confirmation. | TypeScript · Obsidian desktop plugin (0BSD) |
 | [pg-jev](pg-jev.md) | Ask semantic questions from SQL over database rows. | PostgreSQL · PL/Python extension |
 | [pg_typesafe](pg-typesafe.md) | Call Choice/Noul/Score from SQL via a C+libcurl extension with batched multi-text helpers (pre-alpha; distinct from pg-jev). | PostgreSQL · C extension |
+| [postgres-search](postgres-search.md) | Add a Jev re-rank and 'did you mean' stage to SQL product search, with a published evaluation. | SQL + TypeScript · Postgres search + Node demo server (MIT) |
 | [ReadyCode Reader](readycode-reader.md) | Local PDF/DOCX/XLSX evidence for agents: TypeSafe Jev checks passages before cited answers (MCP + browser) | Node.js · MCP (`@readycode/reader`) + browser demo (Apache-2.0) |
 | [sgrep](sgrep.md) | Semantic grep: chunk a repo and ask TypeSafe Jev which chunks match a plain-English query (mock offline). | Python · CLI (`sgrep`) |
 | [Semble + Jev (semble-jev)](semble-jev.md) | Semble retrieves local snippets; TypeSafe Jev scores relevance; CLI returns original source (`sj`). | Python · CLI via uv (Apache-2.0) |
