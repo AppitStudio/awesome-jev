@@ -1106,6 +1106,16 @@ Control Ableton Live from a ⌘⇧Space bar: TypeSafe Jev chooses typed mixer, t
 
 [Full Live Jev guide](live-jev.md) · [Source](https://github.com/okinaaudio/live-jev)
 
+### Mac Voice Control
+
+`Open source` · `Free source build` · `BYOK`
+
+Hands-free macOS control by voice: Deepgram or local Whisper speech-to-text, typed action routing by Jev (`typesafe/jev` through Command Code's provider API) or an LLM over a closed action set, and AppleScript/Accessibility execution; open apps, drive browser tabs and dictate code into IntelliJ or VS Code.
+
+**Access:** clone the [MIT source](https://github.com/nagesh-bhosle/mac-voice-control) and run with uv on macOS. No app fee; Jev access goes through a Command Code key and STT through Deepgram or local Whisper (usage billed by each provider). Source inspected; not run on the review host.
+
+[Full Mac Voice Control guide](mac-voice-control.md) · [Source](https://github.com/nagesh-bhosle/mac-voice-control)
+
 ### macbrow
 
 `Open source` · `Free source build` · `BYOK`
