@@ -497,6 +497,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevTape](jevtape.md) | Record and replay TypeSafe Jev HTTP decisions from JSON cassettes with contract fingerprint misses. | Java 21 · Maven CLI (`jevtape` 0.5.0) |
 | [jevtok](jevtok.md) | Count Jev tokens and estimate billed request input_tokens offline before calling TypeSafe. | Python · library/CLI (`jevtok` 0.1.0) |
 | [JevTree (Chuf-H)](chuf-h-jev-tree.md) | Probability tree/graph runtime: compose TypeSafe Jev action probs into path mass and Pareto picks (distinct from taxonomy jev-tree). | Python · CLI/library (`jev-tree` 0.1.0, Apache-2.0) |
+| [jevtri (Jev Triage)](jevtri.md) | Rank which server logs to read first for an incident, with secrets masked before anything is sent to Jev. | Go · CLI (MIT) |
 | [jevtriage](jevtriage.md) | Triage PRs with TypeSafe Jev Choice (`ready` / `needs_review` / `risky`) plus confidence-gated exit codes and optional labels. | Python · PyPI/Action (`jevtriage` 0.1.0) |
 | [jevtrim](jevtrim.md) | LoCoMo compaction benchmark: Jev judge vs retrieval. | Python · research (MIT) |
 | [jevwright](jevwright.md) | Write Chromium business-flow tests as user steps; TypeSafe Jev finds controls once, then replay without the model. | TypeScript · Playwright (`@hazymoon/jevwright`, MIT) |
