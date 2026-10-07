@@ -68,6 +68,16 @@ Local live sales-call coach: TypeSafe Jev judges next-best actions and buying st
 
 [Full Call Coach guide](call-coach-ai.md) · [Source](https://github.com/ZeroGold/call-coach-ai)
 
+### Chess with Jev
+
+`Source available` · `Free source build` · `BYOK`
+
+Browser chess where your opponent is TypeSafe Jev: every move is a short chain of choice questions (focus, piece, destination) whose options are the legal moves, so illegal moves cannot be expressed; you can read each answer chain and rewrite the questions in an in-app workflow editor.
+
+**Access:** clone the [No LICENSE source](https://github.com/vlaier/chessWithJev) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full Chess with Jev guide](chess-with-jev.md) · [Source](https://github.com/vlaier/chessWithJev)
+
 ### Clean Code Review
 
 `Open source` · `Free source build` · `BYOK`
