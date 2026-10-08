@@ -1094,6 +1094,16 @@ OpenHarness desktop sheet pane: TypeSafe Jev answers typed `noul` / `choice` / `
 
 [Full JevDash guide](jevdash.md) · [Source](https://github.com/Sunwood-ai-labs/jevdash)
 
+### Laser (Omarchy focus mode)
+
+`Open source` · `Free` · `BYOK`
+
+AI focus mode for Omarchy / Hyprland on Linux: you declare a task, and Laser judges each screen against it with TypeSafe Jev (about half a second per check), escalating from a red dot to a nudge, a red screen edge and a haze over the distracting window; screenshots are OCR'd on device and only text (per privacy level) is sent.
+
+**Access:** install the free [MIT plugin](https://github.com/iYassr/omarchy-laser) and bring your own TypeSafe key. Source inspected; app not run on the review host.
+
+[Full Laser (Omarchy focus mode) guide](omarchy-laser.md) · [Source](https://github.com/iYassr/omarchy-laser)
+
 ### Modex
 
 `Open source` · `Free source build` · `BYOK`
