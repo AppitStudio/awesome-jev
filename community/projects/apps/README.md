@@ -732,6 +732,16 @@ Gmail sorter with readable rules plus TypeSafe Jev typed judgments, receipts, an
 
 [Full Masroufi guide](masroufi.md) · [Source](https://github.com/wafaa-alhayek/masroufi)
 
+### Model vs Market
+
+`Open source` · `Free` · `BYOK`
+
+Web app where three decision models — OpenAI Decisions, TypeSafe Jev and Cloudflare Clef — read recent news (never the odds), put a probability on Polymarket and Kalshi questions, and are compared with live market prices, with a replay of how each model changed its mind article by article.
+
+**Access:** browse the free [live demo](https://model-vs-market.vercel.app) or self-host the [MIT source](https://github.com/yorkeccak/model-vs-market) with your own provider keys. Source inspected; app not run on the review host.
+
+[Full Model vs Market guide](model-vs-market.md) · [Source](https://github.com/yorkeccak/model-vs-market)
+
 ### Notra
 
 `Open source` · `Commercial` · `Paid`
