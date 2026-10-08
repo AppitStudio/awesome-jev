@@ -233,6 +233,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [FAVA Trails](fava-trails.md) | Gate which agent conclusions become shared memory with a calibrated Jev check and an inspectable review record. | Python · PyPI `fava-trails` · MCP server (Apache-2.0) |
 | [fndds-matcher-jev](fndds-matcher-jev.md) | Match food descriptions to USDA FNDDS codes via hybrid retrieval plus TypeSafe Jev. | Python · matcher (MIT) |
 | [Foreman](foreman.md) | Experiment with Jev supervision of Codex workers and inspect steering, retry, and verification decisions. | Python · CLI and supervision runtime |
+| [forge (continuous engineering loop)](forge-claude-loop.md) | Continuous engineering loop for Claude Code with Jev handling fast triage and routing. | JavaScript (Node 20+, no deps) · Claude Code plugin (MIT) |
 | [Formanator](formanator.md) | Submit Forma benefit claims from CLI/MCP; optional TypeSafe Jev picks benefit/category (receipt LLM separate). | Rust · CLI/MCP (`formanator` 5.4.0) |
 | [fr (Arindam200)](arindam200-fr.md) | Ask a codebase question and get relevant files via live parallel TypeSafe Jev relevance. | CLI · code relevance (MIT) |
 | [fusion-jev](fusion-jev.md) | Local coding evidence plus optional guarded TypeSafe Jev choices for MCP hosts. | TypeScript · MCP (MIT) |
