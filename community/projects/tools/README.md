@@ -608,6 +608,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [playwright-jev (AdriaanVE)](adriaanve-playwright-jev.md) | Use TypeSafe Jev in Playwright for failure triage, retries, healer gating, snapshot pruning, locator healing, and test ordering. | TypeScript · Playwright helpers (MIT) |
 | [Poltergeist](poltergeist.md) | Scan code for secrets as usual; add `-classify` so each finding gets a `real_secret_probability` and a `likely_real` / `uncertain` / `likely_dummy` label from Jev. | Go · CLI and library (Apache-2.0) |
 | [prompt2jev](prompt2jev.md) | Convert natural language, an LLM prompt, or prompt-running code into a TypeSafe Jev decision package. | Python · agent skill + stdlib CLI |
+| [purge-email](purge-email.md) | Purge old Gmail safely: Jev decides what is worth keeping, you review labels before anything is trashed. | TypeScript · Node CLI (+ Tauri app folder) (no LICENSE) |
 | [px-triage](px-triage.md) | Triage new GitHub issues and PRs with one keypress per Jev-proposed decision. | TypeScript · CLI on npm (MIT) |
 | [pytest-jev](pytest-jev.md) | Semantic pytest assertions (holds/lacks/choice/score) judged by TypeSafe Jev via typesafe-sdk. | Python · pytest plugin (`pytest-jev` 0.1.0) |
 | [Qualixar Jev Decision Layer](qualixar-jev-decision-layer.md) | Route bounded task/tool/skill/review choices through TypeSafe Jev (optional Laya) via one MCP server shared across five hosts. | Python · MCP plugin (`qualixar-jev-decision-layer` 1.0.7, MIT) |
