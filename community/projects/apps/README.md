@@ -98,6 +98,16 @@ Hosted and source-built PR reviewer: TypeSafe Jev judges changed files against C
 
 [Full Clean Code Review guide](clean-code-review.md) · [Source](https://github.com/frostney/clean-code-review) · [Product homepage](https://clean-code-review.vercel.app)
 
+### Clef homelab decision engine
+
+`Open source` · `Free source build`
+
+Self-hosted homelab dashboard where open Clef-flash (GGUF on a 6 GB laptop GPU) answers System One questions over llama.cpp's `/v1/systemone` endpoint — the same request shape as Jev — to triage Gmail, filter news, watch ~2,350 company job boards for internships and push matches to your phone through ntfy.
+
+**Access:** clone the [MIT source](https://github.com/NikhileshThiru/clef) and self-host with llama.cpp and the open Clef-Flash GGUF. No fee and no TypeSafe key; local GPU required. Source inspected; not run on the review host.
+
+[Full Clef homelab decision engine guide](clef-homelab.md) · [Source](https://github.com/NikhileshThiru/clef)
+
 ### Crush Monitor
 
 `Open source` · `Free source build` · `BYOK`
