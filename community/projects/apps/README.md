@@ -572,6 +572,16 @@ Config-driven Gmail zero-inbox triage powered by TypeSafe Jev System One judgmen
 
 [Full jev-mail (vynnlee) guide](vynnlee-jev-mail.md) · [Source](https://github.com/vynnlee/jev-mail)
 
+### jev-minecraft
+
+`Open source` · `Free` · `BYOK`
+
+Runnable demo (Chinese docs) in an open-source Minecraft-compatible world: each step sends the bot's position, inventory, nearby blocks, task progress and available options to TypeSafe Jev, Jev picks the next action, Mineflayer executes it and the real world is checked; tasks range from collecting logs and building a pillar to a 90-block camp, and you can join the same world from a browser player page.
+
+**Access:** build the free [MIT source](https://github.com/BHD110/jev-minecraft) and enter your own TypeSafe key. Source inspected; app not run on the review host.
+
+[Full jev-minecraft guide](jev-minecraft.md) · [Source](https://github.com/BHD110/jev-minecraft)
+
 ### Jev/ui (jev-genui)
 
 `Source available` · `Free source build` · `BYOK`
