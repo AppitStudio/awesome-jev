@@ -187,6 +187,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [defrag](defrag.md) | Measure, on your own replayed sessions, whether Jev can tell when compacting is safe. | JavaScript · Node 24 eval CLI, no deps (MIT) |
 | [demo-expanso-jev](demo-expanso-jev.md) | Run Expanso Edge pipelines that bypass routine lines and ask TypeSafe Jev only on the rest (boards + mock server). | Demo suite · Expanso YAML, Python boards, `just` recipes |
 | [deslop](deslop.md) | Score page bodies with TypeSafe Jev probabilities for ad/slop/seo/derivative (caller sets thresholds). | Python · agent skill + stdlib CLI |
+| [dev-decisions](dev-decisions.md) | Gate commits and agent plans with calibrated decision models, and grade outcomes to earn autonomy on evidence. | Python · CLI + git hooks + dashboard (Apache-2.0) |
 | [Discern](discern.md) | Build Effect Decision/DecisionModel patterns, policies, and procedures; optional TypeSafe Jev provider. | TypeScript · npm (`@doeixd/discern` 0.4.0) |
 | [discoprint](discoprint.md) | Classify an artist discography for theme/mood/lyrical complexity with TypeSafe Jev and render an Ink terminal dashboard. | TypeScript · npm CLI (`discoprint` 0.1.0) |
 | [Distill](distill.md) | Route coding-agent model/effort and utility/retention choices with TypeSafe Jev (or OpenRouter decisions) inside a local TUI harness. | Rust · coding agent CLI/TUI (Distill 2.0) |
