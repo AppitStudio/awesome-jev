@@ -271,6 +271,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JEV Book Tags](jev-book-tags.md) | Tag Calibre books with TypeSafe Jev (single-book and batch classification). | Python · Calibre plugin (GPL-3.0-or-later) |
 | [jev Claude Code plugin (yinjs)](yinjs-claude-jev.md) | Cut Claude Code permission prompts and add injection warnings and effort routing with bounded Jev judgments. | TypeScript · Claude Code plugin (MIT) |
 | [JEV Codex Pilot](jev-codex-pilot.md) | Local Codex Kanban workspace with Jev-model routing, contextual compaction, and ticket lifecycle control. | TypeScript · desktop/workspace (MIT) |
+| [Jev Engineering Cookbook](jev-engineering-cookbook.md) | Learn Jev patterns through runnable notebooks with honest offline/live provenance. | Python · Jupyter notebooks (MIT) |
 | [Jev Foundry Judge](jev-foundry-judge.md) | Score Azure AI Foundry agent traces with TypeSafe Jev evaluators (intent/adherence/tools/groundedness) and optional model router. | Python · Azure AI Foundry evaluators + demo (MIT) |
 | [Jev Highlight Cutter](jev-highlight-cutter.md) | Turn a five-hour interview into an eight-minute rough cut with a reviewable scoring trail. | Python (stdlib) · Codex skill + CLI (MIT) |
 | [Jev Orchestrator](jev-orchestrator.md) | Let Jev pick a coding agent's next step, with deterministic policy and human approval. | TypeScript · Node CLI (MIT) |
