@@ -168,6 +168,16 @@ Software Enigma/Bombe pipeline: TypeSafe Jev ranks cribs and judges whether a tr
 
 [Try enigma-jev](https://enigma-jev.vercel.app) · [Full enigma-jev guide](enigma-jev.md) · [Source](https://github.com/agodoy21/enigma-jev)
 
+### Eyedot · 点睛
+
+`Open source` · `Freemium` · `Commercial` · `BYOK`
+
+Turns your own study material (PDF, Word, text) into exams that grade themselves point by point: grading is decomposed into atomic checkable questions whose probabilities are combined in code, with TypeSafe Jev as the decision engine when `TYPESAFE_API_KEY` is set (general-LLM judge and a labelled lexical demo engine as fallbacks), plus cited follow-up answers and spaced-repetition review.
+
+**Access:** use the [hosted site](https://exam.simon-zj.top) (free sign-up credits, then paid credits or your own key) or self-host the MIT [source](https://github.com/Simon-zj1/eyedot). Source inspected; hosted engine not verified.
+
+[Full Eyedot · 点睛 guide](eyedot.md) · [Source](https://github.com/Simon-zj1/eyedot)
+
 ### Find the Right API (Orthogonal × Jev)
 
 `Closed source` · `Freemium` · `Commercial`
