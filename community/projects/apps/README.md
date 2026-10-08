@@ -1402,6 +1402,16 @@ Firefox (and Chrome) port of littlewindy123/jev-bili-filter: toggles for spoiler
 
 [Full Bilibili noise filter for Firefox (JEV) guide](ray4ai-jev-bili-filter.md) · [Source](https://github.com/Ray4AI/jev-bili-filter)
 
+### B站降噪 · JEV (Bilibili noise filter)
+
+`Open source` · `Free` · `BYOK`
+
+Original Chrome/Edge extension (Chinese, with English README) that filters Bilibili comments and plain-text danmaku on the page with TypeSafe Jev: four toggles — spoilers, trolling, ads and fandom flame wars — plus one-sentence custom rules, no blocklists or prompts to maintain. Upstream of the listed Firefox port.
+
+**Access:** clone the [MIT source](https://github.com/littlewindy123/jev-bili-filter) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full B站降噪 · JEV (Bilibili noise filter) guide](jev-bili-filter.md) · [Source](https://github.com/littlewindy123/jev-bili-filter)
+
 ### Danmaku spoiler filter (JEV)
 
 `Open source` · `Free source build` · `BYOK`
