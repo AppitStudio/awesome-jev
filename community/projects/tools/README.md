@@ -1036,6 +1036,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-reranker](jev-reranker.md) | Rerank, filter, or compress JSON search candidates with TypeSafe Jev via a stdin/stdout Rust CLI. | Rust · npm CLI (`jev-reranker` 0.1.1) |
 | [jev-reranker (hotchpotch)](hotchpotch-jev-reranker.md) | Score/filter RAG candidates with TypeSafe Jev in Python (listwise/pointwise/pairwise; PyPI). Distinct from the Rust CLI. | Python · library (`jev-reranker` 0.1.2) |
 | [jev-search (AnthonyDavidAdams)](anthonydavidadams-jev-search.md) | Decision-only agentic search: fetch/parse locally; score/rank candidates with Jev or local Laya. | Python · library/CLI + skill (MIT) |
+| [jev-search (larguesa)](larguesa-jev-search.md) | Add Jev intent matching next to grep/ripgrep for documents and notes. | Python · single-file CLI + agent skill (MIT) |
 | [jev-tool-search](jev-tool-search.md) | Compare BM25, embeddings, rerankers, and TypeSafe Jev for picking among hundreds of MCP tools; includes an experimental Jev search engine. | Python · benchmark + experimental search (MIT) |
 | [jev4pg](jev4pg.md) | Query PostgreSQL records with natural language and Jev-backed semantic filters, extraction, and reusable named features (`SEMANTIC_FEATURE`). | Python · app/HTTP API + PostgreSQL (Apache-2.0); native Rust preview |
 | [jevfilter](damiensmith1-jevfilter.md) | Filter/classify text with plain-English rules via TypeSafe Jev (`choose`/`check`/`rate`); PyPI. | Python · PyPI (`jevfilter`, MIT) |
