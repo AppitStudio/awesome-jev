@@ -48,3 +48,9 @@ Document text leaves the host when Jev rules run. Static rules need no key. Trea
 Reviewed on **2026-09-22** at [commit 70f203e](https://github.com/scale-venture-partners/riff/tree/70f203e5d356148970e9e1900af3969320b8088d): **`riff-lint` 0.1.0**, MIT. AI-assisted source review of README, pyproject, LICENSE, Jev unit tests. Offline: `pytest -k 'not live'` → 105 passed. No live TypeSafe on the review host.
 
 Related: [Sniff Test](snifftest.md), [jev-pref](jev-pref.md), [patdown](patdown.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev content grader: review and revise drafts with Claude](../../knowledge-base/articles/jev-content-grader.md) — Independently suggested by JevList; not an endorsement by AI Edge. Check existing prose before and after a focused revision.
+<!-- knowledge:backlinks:end -->
