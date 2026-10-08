@@ -618,6 +618,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [px-triage](px-triage.md) | Triage new GitHub issues and PRs with one keypress per Jev-proposed decision. | TypeScript · CLI on npm (MIT) |
 | [pytest-jev](pytest-jev.md) | Semantic pytest assertions (holds/lacks/choice/score) judged by TypeSafe Jev via typesafe-sdk. | Python · pytest plugin (`pytest-jev` 0.1.0) |
 | [Qualixar Jev Decision Layer](qualixar-jev-decision-layer.md) | Route bounded task/tool/skill/review choices through TypeSafe Jev (optional Laya) via one MCP server shared across five hosts. | Python · MCP plugin (`qualixar-jev-decision-layer` 1.0.7, MIT) |
+| [QuickE2E](quicke2e.md) | Agentic E2E tests where Jev chooses each click/fill instead of a frontier LLM, with author benchmarks vs Claude Code + Playwright MCP. | JavaScript · npm `quicke2e` + Playwright (MIT) |
 | [Quicksilver](quicksilver.md) | Hand bulk judgment/shortlist calls from Claude Code to TypeSafe Jev (parallel typed verdicts). | JavaScript · Claude Code skill/plugin (MIT) |
 | [rea-jev](rea-jev.md) | Add fast typed checks to reverse-engineering sessions: route, scope/risk gate, evidence scoring and a done-check around REA tools. | JavaScript · Claude Code plugin + CLI (MIT) |
 | [Reflex (kaustav1996)](kaustav1996-reflex.md) | Pi coding agent with TypeSafe Jev action gates, model-tier/skill routing, completion checks, and outside-result screening (code owns thresholds). | TypeScript · CLI (`reflex` / `reflex-agent` 0.1.0, MIT) |
