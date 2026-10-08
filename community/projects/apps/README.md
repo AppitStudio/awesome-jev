@@ -1362,6 +1362,16 @@ Privacy-conscious local-first chat signal analyzer: on-device redaction, then Ty
 
 ## Browser extensions
 
+### betterx
+
+`Source available` · `Free source build` · `BYOK`
+
+Chrome/Brave extension that classifies posts and replies on x.com with TypeSafe Jev as you browse — seven questions per post in one ~150–250 ms request (tone, post type, argument quality, racist, contempt for a nationality or immigrants, antisemitic, sexually explicit) — and labels, dims, blurs or hides them by your rules.
+
+**Access:** load the [source](https://github.com/kalowery/betterx) (no LICENSE file — Source available) as an unpacked extension. No fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full betterx guide](betterx.md) · [Source](https://github.com/kalowery/betterx)
+
 ### Bilibili noise filter for Firefox (JEV)
 
 `Open source` · `Free source build` · `BYOK`
