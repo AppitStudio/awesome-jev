@@ -236,6 +236,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [grokbot-jev-skills](grokbot-jev-skills.md) | Give a Grok Bot agent typed Jev decisions for search, mail, triage and routines without writing code. | Shell installer + Markdown skills (MIT) |
 | [guardrails-md](guardrails-md.md) | Block destructive, secret-leaking or rule-breaking agent commands in about 100 ms, with the reason returned to the agent. | TypeScript · npm `@bergetai/opencode-guardrails-md` (MIT) |
 | [guesswork](guesswork.md) | zsh history autosuggestions ranked by TypeSafe Jev instead of prefix match | TypeScript/zsh · shell plugin (MIT) |
+| [gutfeel](gutfeel.md) | See where an MCP tool surface confuses a bare model, one Jev decision at a time. | TypeScript · Bun localhost runner (MIT, pre-alpha) |
 | [hak-jev-plugin](hak-jev-plugin.md) | Hedera Agent Kit policy: TypeSafe Jev gates swaps before sign; decisions notarized to HCS. | TypeScript · npm (`hak-jev-plugin`, MIT) |
 | [grok-jev-guard](grok-jev-guard.md) | Prefight Grok Bot tool sequences: local hard rules + TypeSafe Jev ambiguity judgments (shadow-first). | Python · CLI + skill (`grok-jev-guard` 0.1.0, MIT) |
 | [harness-router](protocol-lattice-harness-router.md) | Route agent-harness tool selection with TypeSafe Jev over MCP, plus MCTS for multi-step decisions. | Python · MCP (MIT) |
