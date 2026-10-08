@@ -128,6 +128,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Astra-Ares](astra-ares.md) | Adapt GPT-6 Astra reasoning effort mid-Codex-task with TypeSafe Jev Choice (patched Codex CLI preview). | Node.js ≥ 22 · CLI (`astra-ares` / `ares` 0.2.1) |
 | [atoma](atoma.md) | Submit a goal (report, data study, software) and watch agents produce and verify it, with Jev making bounded routing/approval decisions recorded on the timeline. | TypeScript · Node platform + web console (AGPL-3.0) |
 | [auth-audit-jev](auth-audit-jev.md) | Shadow-mode Jev audit of allowlisted OAuth/IAM events with advisory alerts only (no enforce). | Python · EventPlugin + docs (MIT) |
+| [Auto TLDR](auto-tldr.md) | Automatic standalone summaries in Claude Code, with Jev skipping redundant ones. | JavaScript · Claude Code plugin/mod (MIT) |
 | [AutoJev](autojev.md) | Route agent requests through a local AutoJev gateway; optional OpenRouter Jev model selection with local fallback. | Tauri/React/Rust · desktop gateway (AGPL-3.0-only) |
 | [Auto Mode for Paseo](auto-mode-for-paseo.md) | Paseo plugin: TypeSafe Jev (or local Laya) picks Codex model/effort/mode/speed per turn. | TypeScript · Paseo plugin 0.2.0 |
 | [autoloop](autoloop.md) | Automate issue-board triage and implementation; turn on `[jev] mode = "shadow"` to log Jev's typed view of each triage/auto-merge decision without changing behaviour. | Python · CLI (`uv tool install`) (Apache-2.0) |
