@@ -719,6 +719,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [2048: Jev vs Laya](2048-jev-vs-laya.md) | Reproducible 2048 head-to-head of Jev vs Laya with move-level logs. | Python · simulation + reports (MIT) |
 | [banterarena-engine](banterarena-engine.md) | Make a social-banter scoring formula public and testable, with Jev judging only the ambiguous replies. | Go · library (MIT, no third-party dependencies) |
 | [Honeytongue](honeytongue.md) | NPC persuasion engine: TypeSafe Jev judges whether player dialogue convinced a character. | JavaScript · library (MIT) |
 | [IronBee Gamer](ironbee-gamer.md) | Watch Jev or a per-game Laya play browser games, with every decision shown beside the game. | TypeScript CLI `ibgamer` + Python Laya env (Elastic License 2.0) |
