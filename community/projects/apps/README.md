@@ -432,6 +432,16 @@ Local interactive workbench with small demos showing TypeSafe Jev System One cap
 
 [Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
 
+### Jev Studio (CarlosGuedea)
+
+`Source available` · `Free source build` · `BYOK`
+
+Spanish-language visual editor (React Flow + FastAPI) for building and running AI workflows where a `Jev Decision` node is the decision engine next to LLM, Python, HTTP, Condition and Output nodes; real backend execution with graph validation, decision branches and step logs, webhook / interval / cron triggers and SQLite history. Distinct from the listed *Jev Studio* CLI/MCP kit.
+
+**Access:** clone the [source](https://github.com/CarlosGuedea/JEV-Studio) (no LICENSE file — Source available) and self-host with Docker. No app fee; real Jev nodes need your own TypeSafe API key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full Jev Studio (CarlosGuedea) guide](carlosguedea-jev-studio.md) · [Source](https://github.com/CarlosGuedea/JEV-Studio)
+
 ### jev-leads
 
 `Open source` · `Free source build` · `BYOK`
