@@ -1370,6 +1370,16 @@ Local-first Windows 'gaming streaming observatory' for PS5 + capture card + Dual
 
 [Full Qoresence guide](qoresence.md) · [Source](https://github.com/ConWan30/Qoresence)
 
+### RimWorld Autopilot
+
+`Open source` · `Free`
+
+Experimental autonomous colony manager for RimWorld 1.6 on Windows: Laya — the open, Jev-compatible System One decision model — runs locally, reads the map through a bundled RIMAPI mod, picks what matters next and issues real in-game orders (food, building, work, trade, caravans, raids), with a desktop app to watch its reasoning and change priorities.
+
+**Access:** download the free Windows installer or build the [GPL-3.0 source](https://github.com/Georgy-hook/rimworld-autopilot). Local Laya model, no API key. Source inspected; app not run on the review host.
+
+[Full RimWorld Autopilot guide](rimworld-autopilot.md) · [Source](https://github.com/Georgy-hook/rimworld-autopilot)
+
 ### SignalLens
 
 `Open source` · `Free source build` · `BYOK`
