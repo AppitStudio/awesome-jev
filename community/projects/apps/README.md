@@ -1382,6 +1382,16 @@ Chrome Manifest V3 extension that scans page text for fraud, advertising, AI slo
 
 [Full Jev Content Guard guide](jev-content-guard.md) · [Source](https://github.com/serejkaaa512/jev-content-guard-ext)
 
+### Jev Fit Scorer
+
+`Open source` · `Free source build` · `BYOK`
+
+Chromium extension (plus a dependency-free Node CLI) that scores the job posting you have open against your saved resume with one TypeSafe Jev request — fit 0–4 shown out of 10 with confidence, the single strongest factor, and optionally how likely the employer sponsors US visas — with cached results and per-call time and cost.
+
+**Access:** load the [MIT source](https://github.com/akhil-neelam-ai/jev-fit-scorer) as an unpacked Chromium extension, or run the CLI. No fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full Jev Fit Scorer guide](jev-fit-scorer.md) · [Source](https://github.com/akhil-neelam-ai/jev-fit-scorer)
+
 ### Jev Focus (MateusRogien)
 
 `Open source` · `Free source build` · `BYOK`
