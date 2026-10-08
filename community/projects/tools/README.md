@@ -269,6 +269,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JEV Codex Pilot](jev-codex-pilot.md) | Local Codex Kanban workspace with Jev-model routing, contextual compaction, and ticket lifecycle control. | TypeScript · desktop/workspace (MIT) |
 | [Jev Foundry Judge](jev-foundry-judge.md) | Score Azure AI Foundry agent traces with TypeSafe Jev evaluators (intent/adherence/tools/groundedness) and optional model router. | Python · Azure AI Foundry evaluators + demo (MIT) |
 | [Jev Highlight Cutter](jev-highlight-cutter.md) | Turn a five-hour interview into an eight-minute rough cut with a reviewable scoring trail. | Python (stdlib) · Codex skill + CLI (MIT) |
+| [Jev Orchestrator](jev-orchestrator.md) | Let Jev pick a coding agent's next step, with deterministic policy and human approval. | TypeScript · Node CLI (MIT) |
 | [Jev Skills (n23eos)](n23eos-jev-skills.md) | Install skills such as `jev-skill-picker`, `jev-test-prioritizer`, `jev-bug-triage` and `jev-plan-selector`; automatic routing stays off unless you enable it. | Python 3.10+ · uv tool CLI (`jev-skills`) + agent skills (MIT) |
 | [jev-a2a (Jev router for Paseo agents)](jev-a2a.md) | Route prompts between coding-agent sessions across machines, with Jev picking the recipient and a shared record. | TypeScript · router service + board (MIT) |
 | [jev-answers](jev-answers.md) | Ask TypeSafe Jev about files via MCP/CLI and keep each request's raw answer in a session folder. | TypeScript · MCP + CLI (MIT) |
