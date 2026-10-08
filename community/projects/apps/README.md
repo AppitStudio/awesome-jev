@@ -1330,6 +1330,16 @@ Windows desktop agent: UI Automation observes controls, TypeSafe Jev chooses the
 
 [Full jev-desktop guide](ehtan-smaltai-jev-desktop.md) · [Source](https://github.com/ehtan-smaltai/jev-desktop)
 
+### Qoresence
+
+`Open source` · `Free` · `BYOK`
+
+Local-first Windows 'gaming streaming observatory' for PS5 + capture card + DualSense (Madden 27 / College Football): HDMI video, controller HID and game situation become one causal event bus surfaced through overlays, clips and a pull-only AgentGlass/MCP; with opt-in TypeSafe Jev, typed score-plausibility and ticket checks keep the board dark instead of painting an unconfirmed score — Jev never mints score digits.
+
+**Access:** clone the [MIT source](https://github.com/ConWan30/Qoresence) and run locally. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
+
+[Full Qoresence guide](qoresence.md) · [Source](https://github.com/ConWan30/Qoresence)
+
 ### SignalLens
 
 `Open source` · `Free source build` · `BYOK`
