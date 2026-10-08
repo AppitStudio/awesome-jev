@@ -742,6 +742,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Decis](chaitin-decis.md) | Self-host a Jev-compatible `/v1/systemone` API with open Laya/kev engines in Docker (independent of hosted Jev). | Python · Docker inference server (Apache-2.0) |
 | [Decision Index (apolinario)](apolinario-decision-index.md) | Reproduce the Decision Index typed-decision benchmark suite locally or as one Hugging Face Job (not affiliated with TypeSafe). | Python · Decision Index kit + HF Jobs (MIT) |
 | [Decision-model referral on medical exams](decision-model-referral.md) | Reproduce a confidence-based referral study of Jev and other decision models on medical licensing questions. | Python · research code + data (MIT code; question data under source licences) |
+| [DecisionBench](decisionbench.md) | Reproduce a Jev-vs-LLM comparison on typed invoice decisions and inspect where they disagree. | TypeScript · harness + dashboard, Postgres (MIT) |
 | [Deqio](deqio.md) | Self-host typed noul/choice/shared decisions behind one local API with swappable engines (Kev/Laya/Open-Jev, etc.). | Python · local decision server + UI (MIT) |
 | [dopp](dopp.md) | Proxy Jev-shaped decisions, capture traffic, train a small owned model, and serve hosted/offline/in-browser. | Python/TypeScript · capture + train/serve (MIT) |
 | [DriveJev](drivejev.md) | Run/study DriveJev-4B open System I driving decisions (behaviour probabilities) with the JevPilot closed-loop harness. | Python · HF weights + simulator harness (MIT) |
