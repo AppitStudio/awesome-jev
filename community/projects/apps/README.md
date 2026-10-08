@@ -1236,6 +1236,16 @@ Mac ⌥Space assistant for any app with a Decision mode: ask yes/no, choice or l
 
 [Full Meraline guide](meraline.md) · [Source](https://github.com/Meldiron/meraline)
 
+### PetPaw
+
+`Source available` · `Free` · `BYOK`
+
+Desktop pet companion for Apple Silicon Macs (SwiftUI, SceneKit, AVAudioEngine) with imported characters, voice and lip-sync: interaction reactions and poses are chosen by Cloud JEV (`typesafe-ai/jev`) or a Local Open-Jev mode that runs a 2B Open-Jev checkpoint ported to Swift/MLX on device, while Apple Foundation Models write moods and speech bubbles.
+
+**Access:** download the free [DMG](https://github.com/sirily11/pet-companion/releases/latest/download/PetCompanion.dmg) or build the [source](https://github.com/sirily11/pet-companion) (no LICENSE file — Source available). Cloud JEV needs your own key; Local Open-Jev is free. Source inspected; not run on the review host.
+
+[Full PetPaw guide](petpaw.md) · [Source](https://github.com/sirily11/pet-companion)
+
 ### pulp
 
 `Open source` · `Free source build` · `BYOK`
