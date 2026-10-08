@@ -942,6 +942,16 @@ Evidence-backed AI answer-readiness page audit: TypeSafe Jev meaning judgments p
 
 [Try SiteClarity](https://siteclarity.sanjay-shankar.workers.dev) · [Full SiteClarity guide](siteclarity.md) · [Source](https://github.com/sanjuacodez/siteclarity)
 
+### Slator Localization Request Readiness Inbox
+
+`Open source` · `Free` · `BYOK`
+
+Local inbox dashboard for enterprise translation intake: it reads unread Gmail or Outlook messages (read-only OAuth), uses Jev to identify translation requests, analyses supported source attachments, infers target languages and deadlines, and shows brief completeness, capacity and clarification points beside each email.
+
+**Access:** run the free [Apache-2.0 source](https://github.com/alexslator/Localization-Email-Analysis) with your own TypeSafe key and mail OAuth app. Source inspected; app not run on the review host.
+
+[Full Slator Localization Request Readiness Inbox guide](slator-localization-inbox.md) · [Source](https://github.com/alexslator/Localization-Email-Analysis)
+
 ### Snake × Jev
 
 `Source available` · `Free source build` · `BYOK`
