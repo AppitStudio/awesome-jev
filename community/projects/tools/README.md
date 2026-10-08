@@ -296,6 +296,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-gateway (TexasOct)](texasoct-jev-gateway.md) | Route OpenAI-compatible chat across providers with strategies and optional typed Choice decision providers (AGPL). | Python 3.12+ · gateway + dashboard (AGPL-3.0) |
 | [jev-herdr](jev-herdr.md) | Spawn Claude Code agents in Herdr with TypeSafe Jev choosing model and effort per agent. | TypeScript · Herdr integration (MIT) |
 | [jev-hook-guard](jev-hook-guard.md) | Mask and gate session text before a Claude Code hook sends it to Jev. | Python · library + example hook (MIT) |
+| [jev-interceptor](jev-interceptor.md) | Per-prompt Jev triage between Claude and cheaper agent lanes, plus a full Mac setup. | Python (stdlib) + TypeScript plugins · Claude Code hooks (MIT) |
 | [jev-judge](jev-judge.md) | Run cheap, structured output checks in CI with thresholds, using Jev as the judge. | Python · CLI `jev-judge` (MIT) |
 | [jev-llm-guard](jev-llm-guard.md) | Guard LLM inputs/outputs against OWASP LLM risks with TypeSafe Jev judgments (Turkish demo). | TypeScript · web demo (MIT) |
 | [jev-map](jev-map.md) | Find related tests for a function (`related-tests`, MCP `serve`); `--jev` adds Jev-scored links with a call budget. | Python · CLI + MCP server (MIT) |
