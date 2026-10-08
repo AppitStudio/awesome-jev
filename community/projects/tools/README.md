@@ -1045,6 +1045,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Deep Recall](deep-recall.md) | Index Markdown notes into one SQLite file, then let `backend = "jev"` rerank hybrid-search windows by P(states the answer), widen when unsure, and optionally classify question kinds. | Python · Claude Code plugin, MCP server and `deeprecall` CLI (MIT) |
 | [duckdb-jev](duckdb-jev.md) | Run TypeSafe Jev Noul/Choice/Score predicates natively inside DuckDB SQL (C++ extension; no Python UDF). | C++ · DuckDB extension (Apache-2.0) |
 | [FastGate](fastgate-jev.md) | Gate a multilingual EN/UZ/RU RAG helpdesk with TypeSafe Jev decisions before the LLM writes; includes an independent benchmark. | Python · RAG helpdesk + benchmark (MIT) |
+| [Fastpunkt](fastpunkt.md) | Source-linked company profiles where Jev only selects, never writes. | Python 3.12 · CLI (MIT) |
 | [gbrain-evals](gbrain-evals.md) | Reproduce gbrain retrieval/memory benchmarks and read (or replay) a Jev slot study: wins on dream triage and contradiction proposals, regressions on reranking, evidence trimming and abstention. | TypeScript/Bun · benchmark harness, datasets and reports (MIT) |
 | [genigrep](genigrep.md) | Retrieve answering source for a codebase question; TypeSafe Jev ranks/filters candidates. | TypeScript · search tool (Apache-2.0) |
 | [graphify-jev](54lynnn-graphify-jev.md) | Build a local AST knowledge graph and use Jev System One judgments for semantic navigation/refactor guidance without a vector store. | Python 3.10+ · Tree-sitter + Jev |
