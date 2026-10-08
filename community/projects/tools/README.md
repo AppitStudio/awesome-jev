@@ -705,6 +705,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [banterarena-engine](banterarena-engine.md) | Make a social-banter scoring formula public and testable, with Jev judging only the ambiguous replies. | Go · library (MIT, no third-party dependencies) |
 | [Honeytongue](honeytongue.md) | NPC persuasion engine: TypeSafe Jev judges whether player dialogue convinced a character. | JavaScript · library (MIT) |
 | [IronBee Gamer](ironbee-gamer.md) | Watch Jev or a per-game Laya play browser games, with every decision shown beside the game. | TypeScript CLI `ibgamer` + Python Laya env (Elastic License 2.0) |
+| [Jev Game Engine](jev-game-engine.md) | Observable Jev goal selection for game agents, with latency and arrival verdicts recorded. | Rust · desktop app (MIT) |
 | [jev plays snake](jev-plays-snake.md) | See a closed-menu, deadline-bound control loop where code supplies exact facts and Jev only chooses among legal moves. | TypeScript · Vite/React UI · Hono proxy · `@typesafe-ai/sdk` |
 | [Jev Vampire Survivors](jev-vampire-survivors.md) | BepInEx + Python brain: TypeSafe Jev plays real Steam Vampire Survivors with a live ops dashboard. | BepInEx plugin + Python (MIT) · TypeSafe Jev |
 | [Jev NetHack](jev-nethack.md) | TypeSafe Jev plays NetHack 5.0: code lists legal moves, Jev picks one; live dashboard. | Python + NetHack50 + web dashboard (MIT) |
