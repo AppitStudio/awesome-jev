@@ -1652,6 +1652,16 @@ Rate open tabs for a task you type with TypeSafe Jev, then close the ones that d
 
 [Full Tab Bouncer guide](tab-bouncer.md) · [Source](https://github.com/MANISH007700/tab-bouncer)
 
+### TabTidy
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome MV3 extension that filters tabs locally (active, pinned, audible, downloading stay), then sends one Jev request with a KEEP / CLOSE / UNCERTAIN choice question per remaining tab; it closes only what you confirm (one-click undo through Chrome sessions) and turns your corrections into domain rules that override Jev next time.
+
+**Access:** load the [MIT source](https://github.com/123456342g-lang/tabtidy) as an unpacked Chrome extension. No fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; extension not run on the review host.
+
+[Full TabTidy guide](tabtidy.md) · [Source](https://github.com/123456342g-lang/tabtidy)
+
 ### TypeSafe Fun AdBlocker
 
 `Open source` · `Free source build` · `BYOK`
