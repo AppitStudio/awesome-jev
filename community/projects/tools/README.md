@@ -677,6 +677,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [tdd-gate](tdd-gate.md) | Dual-agent TDD gates: TypeSafe Jev coverage/blame/gaming/weakening/drift judgments; optional isolated orchestrator. | TypeScript · CLI (`tdd-gate` 0.1.0, MIT) |
 | [Temporal Agent Harness](temporal-agent-harness.md) | Approve or escalate agent tool calls with one typed Jev judgment (`auto_mode_evaluator=agent.jev_evaluator()`), failing closed on low confidence. | Python · `temporal-agent-harness` package (MIT) |
 | [Ten Levels of Jev](ten-levels-of-jev.md) | Walk ten incremental Jev levels from a smart if-statement to a pi agent that reaches for Jev itself (offline mocks + live lab). | TypeScript · Vue lab + pi agent levels (MIT) |
+| [Terraform Plan Verdict](terraform-plan-verdict.md) | Explained Terraform risk triage in PRs, with Jev as an optional judge. | TypeScript · GitHub Action |
 | [The Jev-enator](the-jev-enator.md) | Claude Code hooks: TypeSafe Jev danger gate, failure notice, and log-only completion check. | Python · stdlib hooks + install scripts |
 | [thinkdial](thinkdial.md) | Set Claude Code reasoning effort per turn with TypeSafe Jev (main loop, subagents, Codex; fail-open). | TypeScript · Claude Code mod (MIT) |
 | [Tidepool](tidepool.md) | Turn recurring agent procedures into typed Haskell programs that call Jev only where a decision depends on meaning. | Rust · Haskell · Nix/Buck (PolyForm Shield 1.0.0) |
