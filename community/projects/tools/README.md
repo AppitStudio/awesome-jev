@@ -244,6 +244,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [harness-router](protocol-lattice-harness-router.md) | Route agent-harness tool selection with TypeSafe Jev over MCP, plus MCTS for multi-step decisions. | Python · MCP (MIT) |
 | [HearMemory](hearmemory.md) | Share project memory across coding agents; TypeSafe Jev judges claims against tests/diffs/commits. | Python · MCP/hooks (MIT) |
 | [HekaJev](hekajev.md) | Ask reproducible Git-history analytics questions; TypeSafe Jev classifies commits with saved evidence/cost. | Python · CLI (`hekajev`, MIT) |
+| [Herdr-Jev](herdr-jev.md) | Triage and route coding-agent turns across clients inside Herdr, with Jev deciding complexity and effort. | TypeScript/JavaScript · CLI, Herdr plugin, MCP, skills (no LICENSE) |
 | [here-we-go-jev](creativoma-here-we-go-jev.md) | One-page UI and scripts to run System One questions against OpenRouter/TypeSafe Jev, an LLM baseline, or a mock `/v1/systemone`. | TypeScript · Bun (`bun run dev`) |
 | [Hermes Jev Skills](hermes-jev-skills.md) | Add Jev model routing, memory filter, compaction, skill pick, triage, and computer/browser choices to Hermes, Claude Code, and Codex. | Python · skills, `jev` CLI and Hermes plugin |
 | [hermes-adaptive-model-router](hermes-adaptive-model-router.md) | Collect calibrated fast-vs-capable route decisions for human turns in Hermes Agent before ever enabling automatic switching. | Python · Hermes Agent plugin (MIT) |
