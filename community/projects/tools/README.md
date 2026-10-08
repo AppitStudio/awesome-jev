@@ -161,6 +161,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [clear-head](clear-head.md) | Claude Code Stop hook: TypeSafe Jev checks answer claims against what was read this session. | Python · Stop hook + install scripts |
 | [cmd-mod-jev-nudge](cmd-mod-jev-nudge.md) | Command Code stop-hook mod: TypeSafe Jev judges whether unfinished work warrants a continue nudge. | TypeScript · Command Code mod (`cmd-mod-jev-nudge` 0.1.0) |
 | [Code Quality (smixs)](code-quality.md) | Run deterministic checks (complexity, CRAP, coverage, secrets, weakened tests, hook bypasses) on each change; with `[review] jev = true` Jev flags textual tests, untested error paths and other hunk-level smells as notes. | TypeScript/Bun · agent plugin + git hooks (MIT) |
+| [codec-swarm](codec-swarm.md) | Ticket-to-PR agent swarm where Jev scores scenarios and acceptance criteria before you review. | Python · uv CLI + local dashboard (MIT) |
 | [Codex Jev Preflight](codex-jev-preflight.md) | Fail-open Codex UserPromptSubmit hook: TypeSafe Jev advisory task_type/complexity/risk/execution_mode. | Python · stdlib hook + installer |
 | [Codex Jev Router (suenot)](codex-jev-router-suenot.md) | Choose Codex subagent model and reasoning effort with Jev Choice/Noul decisions and local confidence gates. | Node.js · CLI + installer |
 | [Codex-Jev](philippelhaus-codex-jev.md) | VS Code Codex plugin that shortens noisy tool results with Jev-gated evidence selection before Codex reads them. | Python · VS Code Codex plugin (MIT) |
