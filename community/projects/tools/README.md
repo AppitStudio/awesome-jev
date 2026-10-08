@@ -300,6 +300,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-status](jev-status.md) | See a Jev read on whether each Claude Code turn actually finished and is ready to ship. | TypeScript · Claude Code plugin (no LICENSE file — source available) |
 | [jev-tokensaver](jev-tokensaver.md) | Cut coding-agent context spent on reading by letting Jev pick the lines and files that matter, with the full output kept on disk. | Python (uv) · CLI + MCP server + Claude skill |
 | [jev-xray](jev-xray.md) | X-ray a codebase with one typed Jev call per file and a live, shareable treemap. | JavaScript · Node CLI + local web UI (MIT) |
+| [JEV_accel](jev-accel.md) | One-call scope/firmware checks for an agent on a TI C2000 + RIGOL bench, with Jev for edge cases. | Python · package + CLI + MCP server (no LICENSE) |
 | [jevdedup](jevdedup.md) | Get a duplicate-file report with Jev's verdict and raw probabilities next to the classic hash checks. | TypeScript (Bun) · CLI (MIT) |
 | [jevkit (bragamat)](bragamat-jevkit.md) | Let agents locate the relevant lines, verify claims and make calibrated judgment calls with Jev, logging every decision locally; optionally steer tool choice through a passthrough-on-doubt gateway. | Go · CLI `jev` + Agent Skill / Claude Code plugin (MIT) |
 | [Jevlint (codegirl-007)](codegirl-007-jevlint.md) | Codify code-taste rules in plain language; Tree-sitter extracts units and Jev returns pass/fail per rule (`jevlint check`). | Go · CLI + rule-pack plugins (MIT) |
