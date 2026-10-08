@@ -913,6 +913,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Klassify](klassify.md) | Kotlin Multiplatform DSL/SDK and Native CLI/MCP for TypeSafe System One classification (distinct from jev4k). | Kotlin · KMP SDK + Native CLI (`klassify` v0.1.1, Apache-2.0) |
 | [langgraph-jev](langgraph-jev.md) | Call TypeSafe Jev typed decisions from LangGraph/LangChain graphs (distinct from JevLangGraph). | Python · LangGraph/LangChain (MIT) |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
+| [Laya Spring Boot Starter](laya-springboot-starter.md) | Typed System One decisions from a Spring Boot app against your own Laya server. | Java 17+ · Spring Boot 4 starter (Apache-2.0) |
 | [laya-php](laya-php.md) | Classify/route text in PHP with local Laya typed decisions (Choice/Score/Noul); Laravel-ready; independent of hosted Jev. | PHP · Composer (`marcreichel/laya-php`, Apache-2.0) |
 | [libsemop](libsemop.md) | Typed, confidence-aware Jev judgments, filters and rerankers from C++ code. | C++17 · CMake library (MIT) |
 | [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
