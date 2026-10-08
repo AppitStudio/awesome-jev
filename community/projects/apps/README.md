@@ -1412,6 +1412,16 @@ Privacy-conscious local-first chat signal analyzer: on-device redaction, then Ty
 
 ## Browser extensions
 
+### Auto-Oui
+
+`Open source` · `Free` · `BYOK`
+
+Chrome extension (French UI) that watches a tab you enable and answers "Oui" — or clicks the approve button — when an AI agent on supported sites stops to ask for permission; detection is local rules by default with no network calls, and an optional Jev mode with your TypeSafe key judges ambiguous wording against a probability threshold (0.90 default). The README warns to keep it off for payments, messages, deletions and production actions.
+
+**Access:** load the free [MIT extension](https://github.com/jasondupontbizz/auto-oui) unpacked; Jev mode is optional BYOK. Source inspected; extension not run on the review host.
+
+[Full Auto-Oui guide](auto-oui.md) · [Source](https://github.com/jasondupontbizz/auto-oui)
+
 ### betterx
 
 `Source available` · `Free source build` · `BYOK`
