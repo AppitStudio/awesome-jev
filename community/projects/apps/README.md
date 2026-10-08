@@ -922,6 +922,16 @@ Browser Snake played by TypeSafe Jev with a live panel of every call — the sta
 
 [Full Snake × Jev guide](snake-jev.md) · [Source](https://github.com/michaelmld/snake-jev)
 
+### Surge Desk
+
+`Source available` · `Free` · `BYOK`
+
+Hackathon demo for 911 surges: each call transcript (multilingual, with location) gets six typed TypeSafe Jev questions in one request — same emergency as an open incident?, what the call adds, severity, life threat — so code can merge duplicates, keep new life-safety facts, split hidden emergencies and rank P1–P4, asking the supervisor when Jev is under 70% sure; nothing is dispatched without human approval.
+
+**Access:** open the [live demo](https://rapid-response-command.vercel.app/911) or clone the [source](https://github.com/valensangui8/surge-desk) (no LICENSE file — Source available). Free demo; self-hosting with Jev needs your own TypeSafe key. Source inspected; not run on the review host.
+
+[Full Surge Desk guide](surge-desk.md) · [Source](https://github.com/valensangui8/surge-desk)
+
 ### talktojev (Jev Prime)
 
 `Open source` · `Free` · `BYOK`
