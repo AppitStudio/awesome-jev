@@ -199,6 +199,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Distill](distill.md) | Route coding-agent model/effort and utility/retention choices with TypeSafe Jev (or OpenRouter decisions) inside a local TUI harness. | Rust · coding agent CLI/TUI (Distill 2.0) |
 | [doc-router](doc-router.md) | Select which PDF pages need OCR using optional Jev judgments, then merge local extraction and provider results. | Rust · library and CLI, Python bindings |
 | [DocJev](docjev.md) | Classify or split PDF/DOCX/PPTX packets with LiteParse text and TypeSafe Jev category/boundary judgments. | Python · CLI/library (`docjev`, Apache-2.0) |
+| [DSH Decision Router](dsh-decision-router.md) | Per-turn route selection for DSH with Laya locally or Jev in the cloud. | JavaScript · DSH plugin (MIT) |
 | [dsh-auto-review-jev (sperictao)](sperictao-dsh-auto-review-jev.md) | DeepSeek Harness Auto-permission: TypeSafe Jev reviews each tool call (≠ xlennart). | TypeScript · DSH plugin (MIT) |
 | [dsh-jev](dsh-jev.md) | Register `jev_ask` on DeepSeek Harness so agents can send typed noul/choice/score questions to TypeSafe Jev (install from GitHub pin). | TypeScript · DSH plugin (`dsh-jev` 0.1.0) |
 | [dsh-jev-context-gate](dsh-jev-context-gate.md) | DeepSeek Harness preflight + evidence-aware review/skill gates via TypeSafe Jev. | JavaScript · DSH plugin (MIT) |
