@@ -902,6 +902,16 @@ Evidence-backed AI answer-readiness page audit: TypeSafe Jev meaning judgments p
 
 [Try SiteClarity](https://siteclarity.sanjay-shankar.workers.dev) · [Full SiteClarity guide](siteclarity.md) · [Source](https://github.com/sanjuacodez/siteclarity)
 
+### Snake × Jev
+
+`Source available` · `Free source build` · `BYOK`
+
+Browser Snake played by TypeSafe Jev with a live panel of every call — the state sent, the one choice question asked and Jev's probabilities; code only describes what the snake sees and where the food is, shuffles option order each turn and never overrides Jev's move. Distinct from the listed *jev plays snake*.
+
+**Access:** clone the [source](https://github.com/michaelmld/snake-jev) (no LICENSE file — Source available) and run locally. No app fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full Snake × Jev guide](snake-jev.md) · [Source](https://github.com/michaelmld/snake-jev)
+
 ### talktojev (Jev Prime)
 
 `Open source` · `Free` · `BYOK`
