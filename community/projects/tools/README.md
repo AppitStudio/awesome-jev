@@ -551,6 +551,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [KiroGraph](kirograph.md) | Index a codebase for symbol lookups and context; set `memoryRelationMode`, `wikiContradictionMode` or `securityAuthDetectionMode` to `'jev'` for typed judgments (or `'strands'` for a local decision server). | TypeScript/Node · CLI + MCP server (`kirograph`, MIT) |
 | [laya-compaction](laya-compaction.md) | Lossless-by-design context compaction for Claude Code using a local Jev-compatible model. | TypeScript · Claude Code plugin + npm `@bussolabs/laya-compaction` (MIT) |
 | [laya-packet-analyser](laya-packet-analyser.md) | Triage laptop packet alerts with detectors + local Laya System One judgments and a live dashboard. | Python · stdlib analyser + dashboard (MIT) |
+| [laya-router](laya-router.md) | Automatic fast/strong model routing for Claude Code and Codex without a TypeSafe key. | JavaScript · npm `@bussolabs/laya-router` (MIT) |
 | [laya-skill](laya-skill.md) | Claude Code skill/plugin for local Laya or hosted TypeSafe Jev typed decisions (plus fine-tune helpers). | Claude Code skill/plugin (Apache-2.0) |
 | [Leash](leash.md) | Judge each coding-agent turn against un-lintable rules with TypeSafe Jev and a one-way debt ratchet. | TypeScript · CLI/npm (`leash`, MIT) |
 | [lintent](lintent.md) | Plain-language lint rules judged by TypeSafe Jev, scoped with tree-sitter. | Rust · CLI linter (MIT) |
