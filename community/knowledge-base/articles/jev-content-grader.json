@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "jev-content-grader",
+  "slug": "jev-content-grader",
+  "title": "Jev content grader: review and revise drafts with Claude",
+  "description": "Grade existing drafts with Jev, use Claude for focused revisions, and compare both versions with visible coverage, failure handling and human review.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-08",
+  "modified_at": "2026-10-08",
+  "topics": [
+    "use-cases",
+    "decision-gates",
+    "calibration"
+  ],
+  "source": {
+    "title": "Opus 5.5 + Jev: The Complete Setup (10x Your Output)",
+    "url": "https://x.com/aiedge_/article/2107835983735787568",
+    "author": {
+      "name": "AI Edge",
+      "url": "https://x.com/aiedge_"
+    },
+    "published_at": "2026-10-07",
+    "accessed_at": "2026-10-08"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and source review"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-content-grader.png",
+    "alt": "A fixed draft and brief pass through Jev grading, one Claude revision and the same rubric again, with coverage checks and human review before publication",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/riff.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Check existing prose before and after a focused revision",
+      "why": "Riff implements local static checks and optional Jev paragraph-level Noul style findings. It is an inspected starting point for the article’s content-grading step, not its batch Score ranking or Claude rewrite loop. AI Edge does not name riff.",
+      "evidence": [
+        "https://github.com/scale-venture-partners/riff/blob/70f203e5d356148970e9e1900af3969320b8088d/README.md",
+        "https://github.com/scale-venture-partners/riff/blob/70f203e5d356148970e9e1900af3969320b8088d/LICENSE",
+        "https://github.com/scale-venture-partners/riff/blob/70f203e5d356148970e9e1900af3969320b8088d/src/riff/jev.py",
+        "https://github.com/scale-venture-partners/riff/blob/70f203e5d356148970e9e1900af3969320b8088d/src/riff/cli.py",
+        "https://github.com/scale-venture-partners/riff/blob/70f203e5d356148970e9e1900af3969320b8088d/uv.lock"
+      ],
+      "limitations": "MIT source build, Python 3.11+, uv. Static checks are offline; live semantic rules send prose to TypeSafe, require a key and can incur charges with retries. Pinned 0.1.0 skips missing/non-Noul answers and some passages; empty findings do not establish complete coverage. No ranking, Claude rewrite or publication approval built in; live inference not run."
+    }
+  ],
+  "verification": {
+    "source": "Read complete X article including all code blocks, three workflows and Closing in logged-in Chrome on 2026-10-08. Followed Jev Playground and official TypeSafe skill/setup links. Read related September 30 newsletter by AI Edge Team in full: different examples, not an identical republication. Source cover rights not established; cover omitted and original CC0 diagram used.",
+    "offline": "Inspected riff 0.1.0 at 70f203e5d356148970e9e1900af3969320b8088d, MIT license, backend, CLI, rules and locked SDK 0.6.0. Scratch uv sync --frozen; pytest -q -k not live: 105 passed, 7 deselected. Static sample lint with --no-jev --type social_post --format json: five findings, expected exit 1. No API call. Build prompt reviewed only; separate rubric/rewrite adapter not built.",
+    "live": "No live Jev/provider inference, Claude rewrite, plugin install, connector access, credentials provisioned, calibration, measured billing or end-to-end productivity benchmark. Synthetic tests establish code behavior only.",
+    "review": "AI-assisted editorial review; no human reviewer recorded. Candidate queries: Jev content grader, Jev Claude draft review, Jev clarity specificity scoring, Claude Jev content workflow. Ahrefs opened at sign-in in Chrome with no Ahrefs connector; plan eligibility, volume and difficulty unknown. Search Console sc-domain:jevlist.ai Web query contains content showed no data for 2026-09-18 through 2026-10-06, all countries, checked 2026-10-08. Current search results include marketing draft-scoring workflows; chose existing-draft grading/revision to distinguish the published incoming-post triage and broad harness guides. No demand metrics claimed."
+  },
+  "faqs": [
+    {
+      "question": "How do I use Jev as a content grader with Claude?",
+      "answer": "Give Jev a fixed draft and a specific editorial rubric. Keep its typed judgments separate from Claude’s rewrite, then compare the original and revised text under the same rubric. A person checks facts and chooses the final draft."
+    },
+    {
+      "question": "Can Jev write or rewrite my content?",
+      "answer": "No. Jev returns Choice, Score and Noul answers about supplied text. Claude or another text model writes the revision; code preserves draft versions, identifies findings and limits the number of passes."
+    },
+    {
+      "question": "Does a high Jev score mean a post will perform well?",
+      "answer": "No. A rubric measures the supplied text against your criteria. It does not establish audience response, factual accuracy or future reach. Compare rubric judgments with independent human labels and later outcomes before relying on them."
+    },
+    {
+      "question": "Does every Jev answer include confidence?",
+      "answer": "No. Choice and Score return confidence alongside their distributions. Noul returns the probability of yes in noul, with no separate confidence field. Missing answers and service failures require review rather than an inferred pass."
+    },
+    {
+      "question": "Can riff replace the article’s complete content grader?",
+      "answer": "Riff implements static prose checks and optional Jev semantic findings. It does not rank a batch by clarity and specificity, run Claude rewrites or approve publication. Those steps need a separate adapter and human review."
+    },
+    {
+      "question": "What happens when a grading call fails?",
+      "answer": "Keep the original draft and mark its review incomplete. Record errors, skipped text and missing answers separately from findings. Do not treat an empty findings list as proof that every passage was checked."
+    }
+  ]
+}

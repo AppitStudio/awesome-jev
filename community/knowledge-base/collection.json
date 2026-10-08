@@ -20,7 +20,8 @@
     "jev-text-to-columns",
     "jev-python-first-request",
     "gero-4b-decision-model-training",
-    "openai-dots-jev-inbox"
+    "openai-dots-jev-inbox",
+    "jev-content-grader"
   ],
   "retire_all": false
 }
