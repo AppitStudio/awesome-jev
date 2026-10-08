@@ -600,6 +600,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-verdict](pi-verdict.md) | Minimal Pi allow/ask/deny permission gate with optional TypeSafe Jev classifier adapter. | TypeScript · Pi extension (`pi-verdict`, MIT) |
 | [pi-warden](pi-warden.md) | Add configurable action holds, project-rule feedback and context checks to Pi using local policy and Jev judgments. | TypeScript · Pi extension |
 | [pi-watcher](pi-watcher.md) | Wake a Pi agent only when a watched job needs it, with an optional Jev check for stalls and false 'success'. | TypeScript · Pi extension, npm `@maolon/pi-watcher` (MIT) |
+| [pi-zereight-router](pi-zereight-router.md) | Route Pi turns to different models by work phase, with Jev picking the phase. | TypeScript · Pi extension (MIT) |
 | [plain-language-gate](plain-language-gate.md) | Jev plain-language readability gate (six checks → pass/review/rewrite) for agent writing. | Python · skill/CLI (MIT) |
 | [playwright-jev](criguex-playwright-jev.md) | Assert UI meaning with Jev Noul/Choice/Score helpers that fail closed on ambiguity, missing keys, or timeouts. | TypeScript · `@playwright/test` ≥ 1.45 · Node ≥ 20 |
 | [playwright-jev (AdriaanVE)](adriaanve-playwright-jev.md) | Use TypeSafe Jev in Playwright for failure triage, retries, healer gating, snapshot pruning, locator healing, and test ordering. | TypeScript · Playwright helpers (MIT) |
