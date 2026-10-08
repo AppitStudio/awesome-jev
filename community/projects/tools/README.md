@@ -544,6 +544,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [mnemon-memory-agent](mnemon-memory-agent.md) | Agent long-term memory judged with TypeSafe Jev System One over raw records | TypeScript · memory agent (MIT) |
 | [mobai-ci](mobai-ci.md) | Run MobAI `.mob` / Maestro mobile UI flows in CI; `.mobflow` steps are judged/acted by TypeSafe Jev. | CLI · GitHub Action |
 | [model-router-python](model-router-python.md) | Filter models by limits/budget, then ask TypeSafe Jev which remaining model should handle the prompt. | Python · PyPI library (MIT) |
+| [ModelRudder](modelrudder.md) | Route native Codex requests to the right model tier using your own Jev key. | TypeScript · Node 24 launcher for Codex CLI (MIT, preview) |
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
 | [mu](mu.md) | Run a pi-based coding agent where Jev (or a local Laya judge, a classifier, or an LLM) makes routine calls; compare judges in shadow mode via `mu ledger` before activating a decision point. | TypeScript · npm `mu-agent` CLI + desktop app (pre-release 0.1.x, MIT) |
 | [mushy-lint](mushy-lint.md) | Enforce meaning-level conventions (comment rationale, function responsibility, failure handling, test titles) in CI with explicit targets, conditions and questions. | TypeScript (Bun) · CLI (MIT) |
