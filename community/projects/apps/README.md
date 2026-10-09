@@ -1762,6 +1762,16 @@ Chrome extension that mutes feed posts by meaning: TypeSafe Jev scores each post
 
 [Full ScrollPatrol guide](scrollpatrol.md) · [Source](https://github.com/ennsharma/scrollpatrol)
 
+### Signal & Noise
+
+`Source unverified` · `Free source build` · `BYOK`
+
+Chrome extension that hides X timeline posts you don't want: tap noise bubbles (rage bait, crypto shilling, engagement bait, spoilers…) or write your own in plain words, and TypeSafe Jev judges each tweet with one `choice` question (keep vs each mute) before it scrolls into view; hidden posts fold into a bar that says why, and your Good hide / Shouldn't have hidden feedback is kept locally.
+
+**Access:** load the [source](https://github.com/icpmacdo/signal-and-noise) as an unpacked Chrome extension. No fee; requires your own TypeSafe API key (usage billed by TypeSafe) or another configured route. No LICENSE file. Source inspected; extension not run on the review host.
+
+[Full Signal & Noise guide](signal-and-noise.md) · [Source](https://github.com/icpmacdo/signal-and-noise)
+
 ### Skipto
 
 `Open source` · `Free source build` · `BYOK`
