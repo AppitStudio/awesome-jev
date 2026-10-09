@@ -1084,6 +1084,16 @@ Kotlin desktop app that puts an AI in front of Pokémon HeartGold on a Nintendo 
 
 [Full AI Plays Pokémon (kotlinds) guide](ai-plays-pokemon.md) · [Source](https://github.com/kotlinds/ai-plays-pokemon)
 
+### dotpals
+
+`Open source` · `Free` · `BYOK`
+
+Desktop pal and notch that shows what coding agents (Claude Code, Codex and others) actually did: test results read from the output, faked passes caught, and Claude Code sent back to fix what it broke. An opt-in double-check sends unclear test runs to TypeSafe Jev (through `@typesafe-ai/sdk`) or to a local Laya model.
+
+**Access:** install with `npx dotpals@latest setup` ([MIT source](https://github.com/Rikinshah787/dotpals)). No fee; the optional Cloud check needs your own TypeSafe API key (usage billed by TypeSafe). Source inspected; app not run on the review host.
+
+[Full dotpals guide](dotpals.md) · [Source](https://github.com/Rikinshah787/dotpals)
+
 ### Goutoujunshi Jev Chat
 
 `Open source` · `Free source build` · `BYOK`
