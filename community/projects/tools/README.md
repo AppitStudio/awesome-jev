@@ -317,6 +317,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-secret-guard](jev-secret-guard.md) | Stop Claude Code from writing/committing secrets: local regex blocks plus masked TypeSafe Jev judgments. | JavaScript · Claude Code hook (MIT) |
 | [jev-status](jev-status.md) | See a Jev read on whether each Claude Code turn actually finished and is ready to ship. | TypeScript · Claude Code plugin (no LICENSE file — source available) |
 | [jev-tokensaver](jev-tokensaver.md) | Cut coding-agent context spent on reading by letting Jev pick the lines and files that matter, with the full output kept on disk. | Python (uv) · CLI + MCP server + Claude skill |
+| [jev-triage (OpenClaw)](codecave-jev-triage.md) | Triage OpenClaw messages with Jev so thanks and spam never wake the main model. | JavaScript · OpenClaw plugin (MIT) |
 | [jev-xray](jev-xray.md) | X-ray a codebase with one typed Jev call per file and a live, shareable treemap. | JavaScript · Node CLI + local web UI (MIT) |
 | [JEV_accel](jev-accel.md) | One-call scope/firmware checks for an agent on a TI C2000 + RIGOL bench, with Jev for edge cases. | Python · package + CLI + MCP server (no LICENSE) |
 | [jevdedup](jevdedup.md) | Get a duplicate-file report with Jev's verdict and raw probabilities next to the classic hash checks. | TypeScript (Bun) · CLI (MIT) |
