@@ -181,6 +181,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [compact-adviser](compact-adviser.md) | Ask TypeSafe Jev whether a coding session is at a safe `/compact` boundary; hint or optional auto-compact on Pi/Claude Code. | Node.js ≥ 22 · npm plugins (`compact-adviser` 0.1.6) |
 | [Compass (ring29 labs)](ring29-compass.md) | Find the right CLI command in plain language without leaving the shell or losing autocomplete. | Python · zsh widget (MIT) |
 | [Copilot Studio × Jev](copilot-studio-jev.md) | Gate Azure AI Search passages with four Jev Noul questions per hit so Copilot Studio answers with citations or abstains; optional Power Platform connector. | TypeScript MCP + Power Platform connector (MIT) |
+| [could-jev](could-jev.md) | Ask Claude whether a task is a good Jev fit and get a sketch plus the cheapest test. | Markdown · Claude skill (MIT) |
 | [daf-jev](daf-jev.md) | Build typed Jev questions, gates, batch evaluation, and optional MCP tools in Python. | Python · library/CLI (`daf-jev` 0.3.0) |
 | [Damocles](damocles.md) | Use the coding agent with persistent memory; add a TypeSafe key so Jev decides whether a new fact supersedes an old one and grades memories for recall. | TypeScript · VS Code extension + Electron desktop app (MIT) |
 | [Data Agent MNIST (ClickHouse)](data-agent-mnist.md) | Generate and grade text-to-SQL agent tasks on your warehouse; with `--extra jev`, rank tables by how likely each is needed and label failed cells by sub-mode and preventing rule. | Python · uv project and scripts (Apache-2.0) |
