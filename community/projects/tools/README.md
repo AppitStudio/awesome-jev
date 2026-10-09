@@ -284,6 +284,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev for Claude](voidlight-jev-for-claude.md) | Claude Code skills and guardrail hooks with an opt-in Jev judge. | JavaScript · Claude Code plugin (MIT) |
 | [Jev Foundry Judge](jev-foundry-judge.md) | Score Azure AI Foundry agent traces with TypeSafe Jev evaluators (intent/adherence/tools/groundedness) and optional model router. | Python · Azure AI Foundry evaluators + demo (MIT) |
 | [Jev Highlight Cutter](jev-highlight-cutter.md) | Turn a five-hour interview into an eight-minute rough cut with a reviewable scoring trail. | Python (stdlib) · Codex skill + CLI (MIT) |
+| [Jev Lucid Memory](jev-lucid-memory.md) | Gate agent memory lessons with Jev yes/no judgments before saving and before reuse. | Python · CLI research prototype (MIT) |
 | [Jev Model Router (Codex skill)](mrhsiung-jev-model-router.md) | Jev-recommended subagent model and effort for Codex, with local policy checks. | Python (stdlib) · Codex skill (MIT) |
 | [Jev Orchestrator](jev-orchestrator.md) | Let Jev pick a coding agent's next step, with deterministic policy and human approval. | TypeScript · Node CLI (MIT) |
 | [jevry](jevry.md) | Ask Jev yes/no questions from the shell and get a probability. | Go · CLI (MIT) |
