@@ -830,6 +830,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [JevOss](jevoss.md) | Probe suite for Jev-API decision models: accuracy, calibration, adversarial recipes. | Python · eval harness (Apache-2.0) |
 | [jev-web](jev-web.md) | Run open-jev/Laya/Strands/Bekko/Decision 2.0 typed decisions in-browser after weight cache (no hosted TypeSafe required). | TypeScript · npm `jev-web` + Transformers.js (MIT) |
 | [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
+| [kev-onnx-cpu](kev-onnx-cpu.md) | Run the open Kev 0.6B decision model on CPU with only onnxruntime and numpy. | Python · library + scripts (Apache-2.0) |
 | [L2S1](l2s1.md) | Turn local GGUF model scores into typed binary/choice/ordinal decisions with abstention policy (not TypeSafe-hosted). | Rust · CLI/runtime + SDKs (MIT) |
 | [laya-candle](laya-candle.md) | Run local Laya typed Choice/Score/Noul in pure Rust via Candle (no Python; not TypeSafe-hosted). | Rust · Candle crate (Apache-2.0) |
 | [laya-guardrails](laya-guardrails.md) | Fast input/tool/output guardrails using self-hosted laya-pt-es-typed System One (not hosted Jev). | Python · FastAPI + HF model (Apache-2.0) |
