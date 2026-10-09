@@ -277,6 +277,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [JCR](jcr.md) | Resolve deterministic commands from a nested capability tree with TypeSafe Jev (MCP + Claude/Codex harnesses). | TypeScript · resolver, MCP and harnesses (`jcr` 1.0.0) |
 | [Jeffort](jeffort.md) | Set Claude Code effort per turn from TypeSafe Jev scores (depth/scope/stakes/ambiguity); leave /effort alone on low confidence. | Claude Code plugin (MIT) |
+| [Jev Agent Control](jev-agent-control.md) | Route OpenCode V2 requests between Plan, Build, and custom agents with Jev, plus auto-handoff. | TypeScript · OpenCode plugin (MIT) |
 | [jev-audit (agent skill)](jev-audit-skill.md) | Have a coding agent find and rank places where a Jev question could replace brittle rules. | Markdown · agent skill (MIT) |
 | [JEV Book Tags](jev-book-tags.md) | Tag Calibre books with TypeSafe Jev (single-book and batch classification). | Python · Calibre plugin (GPL-3.0-or-later) |
 | [jev Claude Code plugin (yinjs)](yinjs-claude-jev.md) | Cut Claude Code permission prompts and add injection warnings and effort routing with bounded Jev judgments. | TypeScript · Claude Code plugin (MIT) |
