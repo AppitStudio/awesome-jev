@@ -1097,6 +1097,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [laya-jev-GraphRAG](laya-jev-graphrag.md) | Agentic GraphRAG with swappable Laya/Jev System One decisions across Neo4j/Memgraph/AGE/Kùzu. | Python · GraphRAG framework (Apache-2.0) |
 | [ldraw-nova](ldraw-nova.md) | Guide an agent to build LDraw LEGO models; its part/example search re-ranks candidates with Jev (falls back to full-text search without a key). | Python · Dockerized web app + agent tools (AGPL-3.0) |
 | [llama-index-jev](llama-index-jev.md) | Rerank retrieved passages or choose a query engine in LlamaIndex. | Python · integration packages |
+| [memsearch](memsearch.md) | Shared Markdown memory for coding agents, with optional Jev reranking of recalled chunks. | Python · CLI + agent plugins (MIT) |
 | [Milvus Model](milvus-model.md) | Score candidate documents with Jev Noul and return sorted results with original indices. | Python · PyMilvus model adapter |
 | [mysql-ailike](mysql-ailike.md) | Filter and join MySQL rows with natural-language conditions via TypeSafe Jev (`AILIKE`). | MySQL · native UDF/plugin (v0.2.0, GPL-2.0) |
 | [neo4jev](neo4jev.md) | Explore graph paths with typed next-hop and goal judgments. | Python · Neo4j, notebooks and Streamlit |
