@@ -775,6 +775,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Bongard](bongard.md) | Run Bongard open System One judgments (parallel typed questions → probabilities); independent of hosted Jev. | Python · HF weights + inference (Apache-2.0) |
 | [Brier](brier.md) | Run a local MLX Jev-format choice/score/noul decision model (PT-BR training focus) on Apple Silicon. | Python · MLX LoRA decision model (Apache-2.0) |
 | [browser-laya](browser-laya.md) | Typed System One decisions client-side in the browser with open Laya weights, no API key. | TypeScript · npm `@wexare/laya-web` + Vite playground (MIT) |
+| [Bud Decision Studio](bud-decision-studio.md) | Run open Jev-like decision models locally behind a TypeSafe-compatible API, with a desktop UI. | Desktop app + local server (no LICENSE — source available) |
 | [Can you fool Jev?](can-you-fool-jev.md) | See where Jev and local decision models break on trick choice, yes/no and score questions, and rerun the same requests against your own endpoint. | Python · dataset + scripts (MIT) |
 | [Canopy-Jev](canopy-jev.md) | Run Canopy-Jev tree-based typed decisions with shared context and isolated branches (independent of hosted Jev). | Python · Qwen tree decision research (MIT) |
 | [Chinese-Jev](gulucaptain-chinese-jev.md) | Build/fine-tune Chinese typed-decision models with the Chinese-Jev pipeline and CJ-Bench (weights release pending; independent of hosted Jev). | Python · research pipeline (Apache-2.0) |
