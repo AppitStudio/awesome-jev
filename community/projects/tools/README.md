@@ -281,6 +281,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev Claude Code plugin (yinjs)](yinjs-claude-jev.md) | Cut Claude Code permission prompts and add injection warnings and effort routing with bounded Jev judgments. | TypeScript · Claude Code plugin (MIT) |
 | [JEV Codex Pilot](jev-codex-pilot.md) | Local Codex Kanban workspace with Jev-model routing, contextual compaction, and ticket lifecycle control. | TypeScript · desktop/workspace (MIT) |
 | [Jev Engineering Cookbook](jev-engineering-cookbook.md) | Learn Jev patterns through runnable notebooks with honest offline/live provenance. | Python · Jupyter notebooks (MIT) |
+| [Jev for Claude](voidlight-jev-for-claude.md) | Claude Code skills and guardrail hooks with an opt-in Jev judge. | JavaScript · Claude Code plugin (MIT) |
 | [Jev Foundry Judge](jev-foundry-judge.md) | Score Azure AI Foundry agent traces with TypeSafe Jev evaluators (intent/adherence/tools/groundedness) and optional model router. | Python · Azure AI Foundry evaluators + demo (MIT) |
 | [Jev Highlight Cutter](jev-highlight-cutter.md) | Turn a five-hour interview into an eight-minute rough cut with a reviewable scoring trail. | Python (stdlib) · Codex skill + CLI (MIT) |
 | [Jev Model Router (Codex skill)](mrhsiung-jev-model-router.md) | Jev-recommended subagent model and effort for Codex, with local policy checks. | Python (stdlib) · Codex skill (MIT) |
