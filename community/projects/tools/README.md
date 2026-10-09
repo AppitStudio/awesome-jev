@@ -747,6 +747,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-drone](jev-drone.md) | Study typed maneuver judgments alongside deterministic simulated flight control and inspect a separate tunnel experiment. | Python / MuJoCo · simulation and replay |
 | [jev-libero](jev-libero.md) | Study fine-grained LIBERO robot actions with TypeSafe Jev layered choices and local physics previews. | Python · CLI and MuJoCo/LIBERO extras |
 | [jev-plays](jev-plays.md) | Watch TypeSafe Jev play Craftax (macro/raw actions) with optional LLM planner-as-facts and a local web UI. | Python · Craftax harness + viewer |
+| [jev-plays-runescape](jev-plays-runescape.md) | Jev chooses woodcutting/banking actions on a local 2004Scape server, with safety vetoes. | Game agent · demo (MIT, archived) |
 | [jev-robotics-eval](jev-robotics-eval.md) | Evaluate JEV-compatible robot control on MetaWorld/RoboTwin (text/vision, privilege levels). | Python · eval harness (MIT) |
 | [JevBird](jevbird.md) | Watch Jev play Flappy Bird from a typed Choice over precomputed paths, with live request/response console output; manual mode without a key. | Python 3.10+ · pygame + `typesafe-sdk` (MIT) |
 | [Ministry of Truth](ministry-of-truth.md) | Play (or study) a game whose only actions are your words, judged by one batched Jev call per briefing with an automatic offline fallback. | Vanilla JS · zero-dependency Node server |
