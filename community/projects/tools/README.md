@@ -850,6 +850,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jevos](jevos.md) | Serve yes/no (Noul) decisions from a CPU-only, offline 1B GGUF model behind a Jev-compatible `/v1/systemone` API. | Python/FastAPI · llama.cpp GGUF weights (MIT) |
 | [JevOss](jevoss.md) | Probe suite for Jev-API decision models: accuracy, calibration, adversarial recipes. | Python · eval harness (Apache-2.0) |
 | [jev-web](jev-web.md) | Run open-jev/Laya/Strands/Bekko/Decision 2.0 typed decisions in-browser after weight cache (no hosted TypeSafe required). | TypeScript · npm `jev-web` + Transformers.js (MIT) |
+| [JevTalk](jevtalk.md) | Makes Jev spell plain-English answers one choice at a time. | Python · script (MIT) |
 | [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
 | [kev-onnx-cpu](kev-onnx-cpu.md) | Run the open Kev 0.6B decision model on CPU with only onnxruntime and numpy. | Python · library + scripts (Apache-2.0) |
 | [L2S1](l2s1.md) | Turn local GGUF model scores into typed binary/choice/ordinal decisions with abstention policy (not TypeSafe-hosted). | Rust · CLI/runtime + SDKs (MIT) |
