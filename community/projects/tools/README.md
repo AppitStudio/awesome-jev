@@ -138,6 +138,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [AutoJev](autojev.md) | Route agent requests through a local AutoJev gateway; optional OpenRouter Jev model selection with local fallback. | Tauri/React/Rust · desktop gateway (AGPL-3.0-only) |
 | [Auto Mode for Paseo](auto-mode-for-paseo.md) | Paseo plugin: TypeSafe Jev (or local Laya) picks Codex model/effort/mode/speed per turn. | TypeScript · Paseo plugin 0.2.0 |
 | [autoloop](autoloop.md) | Automate issue-board triage and implementation; turn on `[jev] mode = "shadow"` to log Jev's typed view of each triage/auto-merge decision without changing behaviour. | Python · CLI (`uv tool install`) (Apache-2.0) |
+| [automodel](automodel.md) | Let Jev pick the Claude model and effort per prompt and subagent in Claude Code. | Go binary · local proxy (MIT) |
 | [AutoRouter (claude-autorouter)](claude-autorouter.md) | Use cheaper Claude models for simple coding turns in one session, with Jev as an optional hosted evaluator. | Node.js 22+ · npm `claude-autorouter` (Apache-2.0) |
 | [azir-dispatch](azir-dispatch.md) | Route herdr coding-agent tasks with Jev and watch them on a live terminal board. | Python · CLI (MIT) |
 | [barmkin-mod](barmkin-mod.md) | Harden Claude Code sessions with redaction, taint tracking and an optional Jev injection screen. | TypeScript · Claude Code mod/plugin (no LICENSE) |
