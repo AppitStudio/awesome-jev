@@ -617,6 +617,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Pad](pad.md) | Track work for you and your coding agents on local SQLite; optionally let Jev flag `needs_human` / blocked items and route free text to playbooks (`pad playbook match`). | Go · single binary with embedded web UI + MCP/agent skill (Apache-2.0) |
 | [painpoints](painpoints.md) | Find the architectural hot spots worth fixing first, with every score traceable to the question and state sent. | Rust · CLI + MCP server (MIT) |
 | [paperclip-jev](paperclip-jev.md) | Run Paperclip with automatic task routing by TypeSafe Jev (fork of paperclipai/paperclip). | TypeScript · Paperclip fork + Jev router (MIT) |
+| [paseo-jev-compaction](paseo-jev-compaction.md) | Paseo provider adding Jev-first history compaction for Codex with Codex fallback. | Node.js/Rust · Paseo provider (Apache-2.0) |
 | [patdown](patdown.md) | Lint a tree against fuzzy markdown rules with a swappable judge; default backend is TypeSafe Jev. | TypeScript · npm CLI (`patdown`) and Effect packages |
 | [PDF Race](pdf-race.md) | Race Docling→TypeSafe Jev vs Gemini on the same PDFs with committed keyless replays. | Node.js ≥ 20 · local/Vercel bench (`pdf-race` 1.0.0) |
 | [PerfectRecall](perfectrecall.md) | Hermes/Python agent memory: TypeSafe/OpenRouter Jev evidence questions over local SQLite (Mnemosyne-compatible; no embeddings). | Python · Hermes provider + library |
