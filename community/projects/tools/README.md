@@ -28,6 +28,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Cua jev-use](cua-jev-use.md) | Compose a bounded chooser with Driver and independent fixture verification. | Python / TypeScript · integration recipe |
 | [CUA-JEV (ZJU-REAL)](cua-jev-zju.md) | Constrained computer-use loop: Jev selects typed action×channel candidates with guards and verifiers. | Python · framework (Apache-2.0) |
 | [DepthJev](depthjev.md) | Embodied navigation with depth/text facts; TypeSafe Jev chooses EB-Navigation actions. | Python · EmbodiedBench agent (Apache-2.0) |
+| [Discord Policy Checker](discord-policy-checker.md) | Hold Discord sends that break your plain-language policies, judged by Jev. | TypeScript · Chrome extension (MIT) |
 | [ego-decision-layer](ego-decision-layer.md) | Pluggable ego lite browser decision layer: one TypeSafe Jev System One call per step with fail-closed guards (measured benches). | JavaScript · skill/CLI (MIT) |
 | [fast-browser](fast-browser.md) | Playwright browser automation for Codex/MCP with TypeSafe Jev (or Laya) decisions | Python · browser automation / MCP (MIT) |
 | [firefox-jev-mcp](firefox-jev-mcp.md) | Claude plans; TypeSafe Jev picks Firefox element actions via MCP + WebExtension. | TypeScript · MCP + Firefox extension (MIT) |
