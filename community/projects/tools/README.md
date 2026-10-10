@@ -581,6 +581,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [mayi](mayi.md) | Tool-call gate for Claude Code/Cursor/Codex: TypeSafe Jev scores each call; dialog on unsafe (fail-deny on errors). | Rust · CLI (`mayi` 0.1.0) |
 | [metajev](metajev.md) | Store typed Jev/System One distributions keyed by state+question+model; apply/change accept/review policies without re-calling the model. | Python · library + SQLite store (MIT) |
 | [Metis](metis.md) | Triage new GitHub issues with TypeSafe Jev labels and missing-detail comments via a reusable Action/CLI. | Python · GitHub Action + `metis-triage` 0.1.0 |
+| [Minos.NET](minos-net.md) | Call Jev from .NET with typed, source-generated question sets. | C# · .NET 10 library (MIT) |
 | [Misogi](misogi.md) | Sidecar that asks TypeSafe Jev whether a coding agent's "done" claim is actually done (Claude Code/Codex/Kimi). | TypeScript · agent sidecar (MIT) |
 | [MM3](mm3.md) | Have an agent ask Jev focused code questions ("does this handler check the caller?") in one call, with verdicts and outcomes tracked over time. | TypeScript · npm `@mvpscale/mm3` · Claude Code plugin (Apache-2.0) |
 | [mnemon-memory-agent](mnemon-memory-agent.md) | Agent long-term memory judged with TypeSafe Jev System One over raw records | TypeScript · memory agent (MIT) |
