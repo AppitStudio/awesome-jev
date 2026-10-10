@@ -38,3 +38,9 @@ Live mode sends synthetic transactions to Gemini and TypeSafe. Not run on the re
 ## Review and maintenance
 
 Reviewed **2026-10-09** (Europe/Sofia) at [commit 61428eb3bdfe](https://github.com/codergarten/llmvsjev/tree/61428eb3bdfe2152804dd166f592ea3f2df26e08). Inspected the upstream README, LICENSE, and the Jev integration described there; install and live inference were not run on the review host. Catalog checks (`npm run check`) ran locally; they verify navigation, not project claims. AI-assisted review.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev vs LLMs: when to use each](../../knowledge-base/articles/jev-vs-llms.md) — Independently suggested by JevList; not an endorsement by Akshay 🚀 (@akshay_pachaar). Explore bounded classification versus text generation with a no-key comparison interface.
+<!-- knowledge:backlinks:end -->

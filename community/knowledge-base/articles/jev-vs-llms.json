@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "jev-vs-llms",
+  "slug": "jev-vs-llms",
+  "title": "Jev vs LLMs: when to use each",
+  "description": "Compare Jev, LLMs and ordinary code by task, answer shape and failure behavior. Learn the limits of confidence, typed outputs and speed claims.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-10",
+  "modified_at": "2026-10-10",
+  "topics": [
+    "use-cases",
+    "decision-gates",
+    "calibration"
+  ],
+  "source": {
+    "title": "Jev Clearly Explained",
+    "url": "https://x.com/akshay_pachaar/article/2101037514945597645",
+    "author": {
+      "name": "Akshay 🚀 (@akshay_pachaar)",
+      "url": "https://x.com/akshay_pachaar"
+    },
+    "published_at": "2026-09-18",
+    "accessed_at": "2026-10-10"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and source review"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-vs-llms.png",
+    "alt": "Task selection: exact rules go to code, known semantic answers to Jev, and new prose or plans to an LLM; permissions and review remain in application code",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/llmvsjev.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Explore bounded classification versus text generation with a no-key comparison interface",
+      "why": "The transaction categorization demo exposes separate Gemini and Jev adapters and a mock path, matching the article’s conceptual comparison. Akshay does not name it. Artificial delays and keyword judgments are explicitly separated from model evidence.",
+      "evidence": [
+        "https://github.com/codergarten/llmvsjev/blob/61428eb3bdfe2152804dd166f592ea3f2df26e08/README.md",
+        "https://github.com/codergarten/llmvsjev/blob/61428eb3bdfe2152804dd166f592ea3f2df26e08/LICENSE",
+        "https://github.com/codergarten/llmvsjev/blob/61428eb3bdfe2152804dd166f592ea3f2df26e08/server.js",
+        "https://github.com/codergarten/llmvsjev/blob/61428eb3bdfe2152804dd166f592ea3f2df26e08/adapters/mock.js",
+        "https://github.com/codergarten/llmvsjev/blob/61428eb3bdfe2152804dd166f592ea3f2df26e08/adapters/gemini.js",
+        "https://github.com/codergarten/llmvsjev/blob/61428eb3bdfe2152804dd166f592ea3f2df26e08/adapters/typesafe.js"
+      ],
+      "limitations": "MIT teaching source, static browser UI and Node 18+ proxy for live Jev. No-key mode uses shared keyword rules, random confidence and artificial delays. Live sends transaction fields to Google and TypeSafe, needs accounts/keys and may incur charges; Gemini key is in a browser URL, proxy is not production authenticated. Batch sizes/concurrency differ; missing answers remain errors. UI and live providers not run for this guide."
+    }
+  ],
+  "verification": {
+    "source": "Read the full X article, code and all nine images in logged-in Chrome on 2026-10-10. Followed TypeSafe launch, LangChain harness and Flavio Copes primary references. OnlinesTool mirror carries core text with a different title and 2026-09-22 date; author authorization not established. Original source date 2026-09-18 retained. No source artwork reused; original CC0 diagram used.",
+    "offline": "Source-inspected MIT LLM vs Jev at 61428eb3bdfe2152804dd166f592ea3f2df26e08: README, license, proxy, mock, Gemini and Jev adapters. No demo execution claimed. Recomputed the article’s illustrative three-option Choice confidence as 0.28 using current docs, versus its 0.18. Guide is conceptual; no SDK recipe or build prompt. Repository/publication checks establish structure only.",
+    "live": "No provider inference, demo live race, account provisioning, independent calibration, measured latency or billing, or downstream automation. Browser publication checks are separate from model evaluation.",
+    "review": "AI-assisted editorial review, no human reviewer recorded. Candidate queries: Jev vs LLM, when to use Jev, Jev structured outputs, Jev confidence vs probability, can Jev hallucinate. Ahrefs Chrome session at sign-in; no connector available, plan eligibility/volume/difficulty unknown. Search Console sc-domain:jevlist.ai Web query containing jev vs checked 2026-10-10, all countries, displayed 2026-09-18 through 2026-10-06. Comparison rows predominantly target specific projects; no general guide query established. Private report metrics retained in beads, not this public sidecar. Web results include explainers and workload comparisons; chose task-selection intent and cross-linked existing pilot/SDK/harness guides to avoid another broad build tutorial."
+  },
+  "faqs": [
+    {
+      "question": "When should I use Jev instead of an LLM?",
+      "answer": "Use Jev for a frequent judgment over supplied text when the possible answers are known. Keep an LLM for writing, code generation and open-ended reasoning, and compare the complete workflow before replacing an existing classifier."
+    },
+    {
+      "question": "Can Jev replace an LLM with structured outputs?",
+      "answer": "It can be a candidate for bounded classification, routing or scoring. It cannot replace the parts that generate new text or discover unknown values. Check task quality, failure coverage and total cost against your existing structured-output path."
+    },
+    {
+      "question": "Does Jev confidence mean the answer is correct?",
+      "answer": "No. Choice confidence summarizes its probability distribution, and Score confidence also reflects distances between levels. Validate the relationship with observed outcomes on your workload. Noul returns a yes probability without a separate confidence field."
+    },
+    {
+      "question": "Can Jev approve a shell command or refund?",
+      "answer": "Jev can supply a semantic risk or intent judgment. Deterministic code must check permissions, exact facts and required approvals before executing anything. Uncertain judgments and service failures should preserve a review path."
+    },
+    {
+      "question": "Is Jev always 200 times faster and 400 times cheaper?",
+      "answer": "No. Those are source-reported provider comparisons on selected decision workflows. Your result depends on the baseline, state, batching, network, retries, review and downstream work; measure the whole task rather than copying a headline multiple."
+    },
+    {
+      "question": "Does the LLM vs Jev mock race measure either model?",
+      "answer": "No. With no keys, both adapters use keyword rules, random confidence and simulated latency. Mock mode demonstrates the interface. A live comparison needs separate authorization, provider setup and a documented evaluation method."
+    }
+  ]
+}

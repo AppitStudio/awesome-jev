@@ -21,7 +21,8 @@
     "jev-python-first-request",
     "gero-4b-decision-model-training",
     "openai-dots-jev-inbox",
-    "jev-content-grader"
+    "jev-content-grader",
+    "jev-vs-llms"
   ],
   "retire_all": false
 }
