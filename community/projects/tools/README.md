@@ -38,6 +38,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [HN Jev Sorter](hn-jev-sorter.md) | Sort Hacker News comments into custom buckets live with Jev. | JavaScript · Chrome extension (MIT) |
 | [InspireJev](inspire-jev.md) | Hand repetitive public-website steps (search, filter, collect, fill forms) to Jev-chosen actions while the host agent keeps the goal, authorization and verification. | Node.js · Playwright · release tarball (MIT) |
 | [IronBee Express](ironbee-express.md) | Fast, cheap browser task runs with Jev choosing among offered controls, plus a post-run review. | TypeScript · CLI + local web UI (Elastic License 2.0) |
+| [Jev Ad Block](jev-adblock.md) | Chrome MV3 ad blocker that asks Jev to judge candidate page elements. | TypeScript · Chrome extension (GPL-3.0) |
 | [Jev Browser (openqa-cn)](openqa-jev-browser.md) | Indexed Playwright automation: TypeSafe Jev chooses control/op; replay, generate, explore, HTML reports (CodexQA skill). | TypeScript · CLI (`codexqa-jev-browser` 0.1.0, MIT) |
 | [Jev Browser (tontoko)](jev-browser-tontoko.md) | Fill forms, extract records with evidence, and add semantic selection to Playwright tests. | TypeScript · SDK, CLI and MCP |
 | [Jev Browser (Ying-Kai-Liao)](jev-browser-ying-kai-liao.md) | Run small browser goals with Jev action/target selection and direct inspection; page data and supplied values reach TypeSafe. | JavaScript · Playwright library, CLI and MCP |
