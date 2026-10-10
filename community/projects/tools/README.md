@@ -228,6 +228,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [enowx](enowx.md) | Hand small typed judgments in an agent team to Jev (`jev-latest`), Cloudflare Clef (the default provider), a compatible endpoint, or a configured LLM, each with its own switch and threshold. | Rust · CLI binary (macOS/Linux/Windows releases) (Apache-2.0) |
 | [Eutrya](eutrya.md) | Run a CLI agent loop where TypeSafe Jev picks attention modes and scores candidates; text model proposes; offline demo included (alpha). | Node.js · CLI (`eutrya` 0.4.9) |
 | [evidence-referee](evidence-referee.md) | Evidence-over-eloquence Claude Code plugin: Jev done-gates and judgment receipts (≠ claude-referee). | Claude Code plugin (MIT) |
+| [EvolveRoute](evolve-router.md) | Local Rust LLM gateway that routes each request with Jev plus a heuristic, with an audit log. | Rust · gateway (MIT) |
 | [ExcelPilot](excelpilot.md) | Drive live Excel workbooks with Qwen planning and TypeSafe Jev intent/tool gates (cascade to OpenRouter/offline). | Python · Office.js add-in + FastMCP agent (`excelpilot` 1.0.0) |
 | [fastcampus-jev](fastcampus-jev.md) | Learn TypeSafe Jev in Korean via notebooks and a Teddy Market customer-support LangGraph demo (tool choice, guardrails, risk gates, RAG). | Python 3.12 + LangGraph + React (MIT) |
 | [fast-jev-compaction](fast-jev-compaction.md) | Select which old tool calls and results remain in agent context. | TypeScript · library and Claude Code plugin |
