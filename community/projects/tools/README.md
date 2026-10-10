@@ -298,6 +298,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Model Router (Codex skill)](mrhsiung-jev-model-router.md) | Jev-recommended subagent model and effort for Codex, with local policy checks. | Python (stdlib) · Codex skill (MIT) |
 | [Jev Orchestrator](jev-orchestrator.md) | Let Jev pick a coding agent's next step, with deterministic policy and human approval. | TypeScript · Node CLI (MIT) |
 | [JevLint-LE](jevlint-le.md) | Lint Jev questions in your code and JSON from the editor, CI or an MCP server. | TypeScript · VS Code extension / npm CLI (MIT) |
+| [jevotron](jevotron.md) | CLI that scores every field of a table or file with Jev and exports a review queue. | Python · CLI (BSD-3-Clause) |
 | [JevPolicy](jevpolicy.md) | Turn Jev typed answers into deterministic, auditable policy decisions. | TypeScript · npm `@sanoy24/jevpolicy` (Apache-2.0) |
 | [jevry](jevry.md) | Ask Jev yes/no questions from the shell and get a probability. | Go · CLI (MIT) |
 | [Jev Skills (n23eos)](n23eos-jev-skills.md) | Install skills such as `jev-skill-picker`, `jev-test-prioritizer`, `jev-bug-triage` and `jev-plan-selector`; automatic routing stays off unless you enable it. | Python 3.10+ · uv tool CLI (`jev-skills`) + agent skills (MIT) |
