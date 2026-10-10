@@ -299,6 +299,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Model Router (Codex skill)](mrhsiung-jev-model-router.md) | Jev-recommended subagent model and effort for Codex, with local policy checks. | Python (stdlib) · Codex skill (MIT) |
 | [Jev Orchestrator](jev-orchestrator.md) | Let Jev pick a coding agent's next step, with deterministic policy and human approval. | TypeScript · Node CLI (MIT) |
 | [jev-commit](jev-commit.md) | pre-commit hook that checks commit messages against the diff with one Jev call. | Python · pre-commit (MIT) |
+| [jevify MCP server](jevify-mcp-server.md) | Offline MCP server that finds decision-shaped AI calls and plans their move to Jev. | TypeScript · MCP (Apache-2.0) |
 | [JevLint-LE](jevlint-le.md) | Lint Jev questions in your code and JSON from the editor, CI or an MCP server. | TypeScript · VS Code extension / npm CLI (MIT) |
 | [jevotron](jevotron.md) | CLI that scores every field of a table or file with Jev and exports a review queue. | Python · CLI (BSD-3-Clause) |
 | [JevPolicy](jevpolicy.md) | Turn Jev typed answers into deterministic, auditable policy decisions. | TypeScript · npm `@sanoy24/jevpolicy` (Apache-2.0) |
