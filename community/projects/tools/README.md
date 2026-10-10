@@ -285,6 +285,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Agent Control](jev-agent-control.md) | Route OpenCode V2 requests between Plan, Build, and custom agents with Jev, plus auto-handoff. | TypeScript · OpenCode plugin (MIT) |
 | [Jev Agent Kit (cloud-f1)](cloud-f1-jev-agent-kit.md) | Prune long Claude Code Bash output locally, with optional Jev relevance scoring and read-back. | TypeScript/Python · Claude Code plugin + CLI (MIT) |
 | [Jev Decisions Plugin for Hermes](jev-decisions-hermes.md) | Jev review tools for Hermes: risk reviews, source checks, and task-completion checks. | Python · agent plugin (MIT) |
+| [Jev Unpack](jev-unpack-hook.md) | Make coding agents ask one thing at a time when Jev spots overloaded messages. | Hook · Codex / Claude Code (MIT) |
 | [jev-audit (agent skill)](jev-audit-skill.md) | Have a coding agent find and rank places where a Jev question could replace brittle rules. | Markdown · agent skill (MIT) |
 | [JEV Book Tags](jev-book-tags.md) | Tag Calibre books with TypeSafe Jev (single-book and batch classification). | Python · Calibre plugin (GPL-3.0-or-later) |
 | [jev Claude Code plugin (yinjs)](yinjs-claude-jev.md) | Cut Claude Code permission prompts and add injection warnings and effort routing with bounded Jev judgments. | TypeScript · Claude Code plugin (MIT) |
