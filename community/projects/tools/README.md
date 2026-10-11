@@ -658,6 +658,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-watcher](pi-watcher.md) | Wake a Pi agent only when a watched job needs it, with an optional Jev check for stalls and false 'success'. | TypeScript · Pi extension, npm `@maolon/pi-watcher` (MIT) |
 | [pi-zereight-router](pi-zereight-router.md) | Route Pi turns to different models by work phase, with Jev picking the phase. | TypeScript · Pi extension (MIT) |
 | [plain-language-gate](plain-language-gate.md) | Jev plain-language readability gate (six checks → pass/review/rewrite) for agent writing. | Python · skill/CLI (MIT) |
+| [plan-anchor](plan-anchor.md) | Keep agent plans and delivered code anchored to your stated requirements with Jev gate checks. | Python · Claude Code / Codex skill (MIT) |
 | [playwright-jev](criguex-playwright-jev.md) | Assert UI meaning with Jev Noul/Choice/Score helpers that fail closed on ambiguity, missing keys, or timeouts. | TypeScript · `@playwright/test` ≥ 1.45 · Node ≥ 20 |
 | [playwright-jev (AdriaanVE)](adriaanve-playwright-jev.md) | Use TypeSafe Jev in Playwright for failure triage, retries, healer gating, snapshot pruning, locator healing, and test ordering. | TypeScript · Playwright helpers (MIT) |
 | [Poltergeist](poltergeist.md) | Scan code for secrets as usual; add `-classify` so each finding gets a `real_secret_probability` and a `likely_real` / `uncertain` / `likely_dummy` label from Jev. | Go · CLI and library (Apache-2.0) |
