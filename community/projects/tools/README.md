@@ -708,6 +708,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Stanley Code](stanley-code.md) | Review code changes, triage failures, and extend Jev workflows; optional Pi delegation can edit the repository. | TypeScript · source-built CLI and workflow runtime |
 | [stil-lint](stil-lint.md) | Let agents that message people check and revise drafts before sending; local layers run without any network call. | Python · CLI + MCP server (MIT) |
 | [stingray](stingray.md) | Stop half-done Claude Code/Codex turns with TypeSafe Jev judgments (empty action, broken promise, watch with nothing running). | Shell · Stop hook (MIT) |
+| [StockSignal](stocksignal.md) | Terminal dashboard of Jev BUY/HOLD/SELL probabilities for up to five tickers from market data and news. | Python · terminal app via `uv` (Apache-2.0) |
 | [stop-rules](stop-rules.md) | Coding-agent stop hook: TypeSafe Jev yes/no per changed piece against written team rules (multi-agent + optional team server). | TypeScript · CLI (`stop-rules` 0.1.0) |
 | [stuntd](stuntd.md) | Local Jev-compatible proxy: serve/learn typed System One decisions on a Laya head (or zero-shot), optional OpenAI/Jev upstream. | Python ≥ 3.10 · PyPI (`stuntd` 0.1.0, Apache-2.0) |
 | [Sudus](sudus.md) | Track requirements and verdicts in the repo; at Consequential choices, let Jev score the agent's draft (evidence, reach, contract, surface, ambiguity) as its gut check. | Node.js · agent plugin (command, five skills, hooks) (MIT) |
