@@ -198,6 +198,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [DecideKit](decidekit.md) | Define typed decision policies and evaluate them with Jev via OpenRouter or TypeSafe, with offline fixtures and fallbacks. | TypeScript/Python · library/CLI (`decidekit` 0.1.0) |
 | [Decision Tagger (Obsidian)](obsidian-decision-tagger.md) | Tag Obsidian notes with TypeSafe Jev System One rules; single-note and vault/folder batch with multi-key concurrency. | JavaScript · Obsidian plugin (MIT) |
 | [decision-first](decision-first.md) | Spot bounded judgments, try TypeSafe Jev first, and log adopt/decline cases for reuse. | Python · agent skill + stdlib scripts |
+| [decisionkit (adityajha2005)](adityajha-decisionkit.md) | Provider-neutral decision CLI, MCP server and Claude Code plugin with a Jev backend. | TypeScript · Node (MIT) |
 | [Deeds](deeds.md) | Report capabilities shipped per week/author for a repo (`deeds analyze . --since 30d`), with terminal, HTML, or JSON output. | TypeScript · Bun CLI + Claude Code plugin (MIT) |
 | [DeepSeek Harness for VS Code](dsh-vsc-integration.md) | Turn on Jev (or wire-compatible Laya) inside DSH sessions to catch loops, fold noisy tool output, and check completion claims. | TypeScript · VS Code extension (MIT) |
 | [deepseek-harness-jev (luobosibing2)](luobosibing2-deepseek-harness-jev.md) | DSH plugin: TypeSafe Jev for skill/file ranking, supervision, corrections, and workspace approval (off by default; ≠ wjw66 pre-compaction). | TypeScript · DSH/Cordis plugin (MIT) |
