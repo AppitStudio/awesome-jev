@@ -678,6 +678,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Repo Graph](repo-graph.md) | Map and search a large repository locally, and opt in to Jev reranking of the top candidates when local ranking is not enough. | Python · `repo-graph-agent` (uv tool install from Git tag) |
 | [Responsible AI Harness](responsible-ai-harness.md) | Assess AI systems with hard rules plus optional TypeSafe Jev judge; checksummed evidence bundles and offline report UI. | TypeScript · assessment harness + static UI (`responsible-ai-harness` 0.1.0) |
 | [riff](riff.md) | Lint prose with ruff-style rule codes; deterministic static rules plus optional TypeSafe Jev judgment rules. | Python · CLI (`riff` / `riff-lint` 0.1.0) |
+| [RimeJev](rimejev.md) | Add async context-aware Chinese candidate recommendations to Squirrel + Rime (Wanxiang) on macOS via Jev or local models. | Python + Lua · macOS input-method add-on (GPL-3.0) |
 | [rippy](rippy.md) | Gate agent shell commands with allow/ask/deny rules; with `rippy-jev`, uncertain asks (unknown command, unresolvable variable) may be auto-approved when Jev is confident and the effect class is allowed. | Rust · CLI hook (`rippy-cli`, crates.io/Homebrew; `rippy-jev` feature build) (MIT) |
 | [RLCD Gateway](rlcd-gateway.md) | Self-hosted Go gateway: LLM routing with context pruning plus Jev/open-rlcd System One audit/calibration dashboard. | Go · binary/npm/PyPI (`rlcd-gateway`, Apache-2.0) |
 | [s1-tui](s1-tui.md) | Terminal UI for System One typed decisions over laya + TypeSafe Jev backends. | TUI (MIT) |
