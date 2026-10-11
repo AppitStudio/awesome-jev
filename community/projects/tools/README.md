@@ -959,6 +959,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jear](jear.md) | Route NEAR AI Cloud / IronClaw choices by budget, quality, and sensitivity using TypeSafe Jev structured decisions. | Rust · CLI/library (`jear` 0.1.0) |
 | [jeff (Viperwow)](viperwow-jeff.md) | Put one typed-decision API in your stack and switch between hosted Jev and local Jev-compatible models by provider/model name. | Rust · single binary (release archives; `cargo`) |
 | [Jev for Excel](jev-excel.md) | Classify, score or fact-check a column of text with a fill-down formula instead of code. | JavaScript Office add-in + VBA module (MIT) |
+| [Jev Harness (Apixly)](apixly-jev-harness.md) | Run AI-authored task scripts where Jev picks the next tool and arguments from observed state, with bounds and completion checks. | Python · library + CLI (MIT) |
 | [Jev Moderation](jev-moderation.md) | Moderate user text with portable JSON policies where every rule is a separate Jev yes/no question, and test policy changes against labelled cases before shipping. | TypeScript + Python · shared policy schemas (MIT) |
 | [jev-mcp (drmedia)](drmedia-jev-mcp.md) | Give any MCP client typed Jev (or Clef / local) decisions with probabilities. | TypeScript · MCP server (MIT) |
 | [jev-netlify-mcp](jev-netlify-mcp.md) | Private Jev access for MCP clients through a key-locked Netlify AI Gateway proxy (or directly with a TypeSafe key). | Python MCP server + Netlify function (MIT) |
