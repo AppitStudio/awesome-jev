@@ -963,6 +963,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [JarvisCore](jarviscore.md) | Give every agent bounded Choice/Score/Noul judgments via `self.decisions.evaluate(...)`, and opt in to Jev-backed subagent selection (`KERNEL_ROUTER_PROVIDER=typesafe`) or RAG passage classification. | Python · PyPI `jarviscore-framework[typesafe]` (Apache-2.0) |
 | [jear](jear.md) | Route NEAR AI Cloud / IronClaw choices by budget, quality, and sensitivity using TypeSafe Jev structured decisions. | Rust · CLI/library (`jear` 0.1.0) |
 | [jeff (Viperwow)](viperwow-jeff.md) | Put one typed-decision API in your stack and switch between hosted Jev and local Jev-compatible models by provider/model name. | Rust · single binary (release archives; `cargo`) |
+| [jev CLI (vilinski)](vilinski-jev-cli.md) | Rust CLI for typed System One questions across Jev and other providers. | Rust (MIT OR Apache-2.0) |
 | [Jev for Excel](jev-excel.md) | Classify, score or fact-check a column of text with a fill-down formula instead of code. | JavaScript Office add-in + VBA module (MIT) |
 | [Jev Harness (Apixly)](apixly-jev-harness.md) | Run AI-authored task scripts where Jev picks the next tool and arguments from observed state, with bounds and completion checks. | Python · library + CLI (MIT) |
 | [Jev Moderation](jev-moderation.md) | Moderate user text with portable JSON policies where every rule is a separate Jev yes/no question, and test policy changes against labelled cases before shipping. | TypeScript + Python · shared policy schemas (MIT) |
