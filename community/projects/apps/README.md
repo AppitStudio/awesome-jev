@@ -1052,6 +1052,16 @@ Chinese-language multi-seat AI design-exploration workbench (local web UI + CLI)
 
 [Full Varina guide](varina.md) · [Source](https://github.com/deillusion/Aha-Engine)
 
+### VerdictKit
+
+`Closed source` · `Freemium` · `Commercial`
+
+Independent hosted Jev playground and field guide: build Choice, Score, or Noul questions over your text or JSON and inspect typed responses; demo outputs are clearly labelled.
+
+**Access:** use [verdictkit.com](https://verdictkit.com). [Pricing](https://verdictkit.com/pricing): two free live runs per UTC day without signup, five with Google sign-in, plus paid Run Pack, Pro, and Batch plans (checked 2026-10-11). Closed source — implementation not inspected; self-submitted by the operator. Live runs not executed on the review host. Not an endorsement.
+
+[Full VerdictKit guide](verdictkit.md) · [Product homepage](https://verdictkit.com)
+
 ### Vicaura
 
 `Closed source` · `Pricing unverified`
