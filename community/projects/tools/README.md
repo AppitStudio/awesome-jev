@@ -1156,6 +1156,7 @@ These projects study related typed-decision patterns using other models. They ar
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
 | [Agent Seek](agent-seek.md) | Cheap web recall for agents: You.com discover + TypeSafe Jev cascade ranking (REST/MCP/UI). Does not write answers. | Python 3.12+ · FastAPI/MCP (`agentseek.dev` demo) |
+| [agent-doc-search](agent-doc-search.md) | Docs routing for agents: BM25 + Jev search propose, Jev check confirms. | JavaScript · CLI/hook (MIT) |
 | [Apple RAG MCP](apple-rag-mcp.md) | Apple developer docs and WWDC transcripts over MCP, ranked by Jev with a fallback reranker. | TypeScript · hosted MCP + Cloudflare Worker source (MIT; free tier + paid Pro) |
 | [arxiv-relevance-watch](arxiv-relevance-watch.md) | Get a deterministic, explainable nightly shortlist of arXiv papers for a narrow topic you define in three JSON files. | JavaScript (Node) · CLI (MIT) |
 | [blink](blink.md) | Search a local codebase with TypeSafe Jev via ensemble directory walkers that Choice-pick the next file or folder. | Bun · CLI (`./blink`); license unspecified |
