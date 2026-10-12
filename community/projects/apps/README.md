@@ -702,6 +702,16 @@ Paste a résumé or backstory and get a 1920s TRPG investigator sheet judged by 
 
 [Try JevTRPG](https://jevtrpg.chroniclecore.com) · [Full JevTRPG guide](jevtrpg.md) · [Source](https://github.com/Zaious/JevTRPG)
 
+### Jev X Sentiment Analysis (jev-v8)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted crypto decision-support web terminal: it pulls 50–1,000 recent tweets about a coin plus market data, pre-processes them statistically, and asks Jev four typed questions (trade action, sentiment, squeeze risk, catalyst) to produce a decision card. It never trades automatically.
+
+**Access:** build the [MIT source](https://github.com/aikeluargalee-tech/jev-v8) and run locally with your own TypeSafe and TwitterAPI.io keys (both usage-billed). No app fee. Not financial advice. Source inspected; app not run on the review host.
+
+[Full Jev X Sentiment Analysis (jev-v8) guide](jev-x-sentiment.md) · [Source](https://github.com/aikeluargalee-tech/jev-v8)
+
 ### JevZero
 
 `Open source` · `Free source build` · `BYOK`
