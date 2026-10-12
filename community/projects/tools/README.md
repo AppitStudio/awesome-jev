@@ -943,6 +943,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [RYOTIDE](ryotide.md) | Local LLM one-forward-pass typed decisions (MLX/PyTorch) measured on JevBench; independent of official Jev. | Python · research (MIT) |
 | [SelfJev](jwuthri-selfjev.md) | Run an open Jev-shaped decisions model (typed answers with probabilities) locally on one GPU; independent of hosted Jev. | Python · Qwen3.5-4B LoRA (Apache-2.0) |
 | [SemIf](semif.md) | Explore typed option scoring and shared-state reuse with local open models; independent of official Jev. | Python / PyTorch / MLX · research and browser lab |
+| [snap-vs-jev-swe](snap-vs-jev-swe.md) | SWE decision benchmark: Snap vs Jev vs open models (localization, long context, order). | Python · benchmark (MIT) |
 | [Social Risk · Qwen3-VL + Jev](social-risk-qwen-jev.md) | Audit-style study of LoRA evidence + Jev policy decisions vs classic baselines for content moderation. | Python · research code + experiments (MIT; datasets not redistributed) |
 | [sokudan](hiroki-abe-58-sokudan.md) | Run a Japanese System One decision model (typed answers + probabilities, no generation) with bench_ja/bench_en and a Laya position-bias repro. | Python · HF weights (`GeneLab/sokudan-ja-310m`, Apache-2.0) |
 | [SREGym](sregym.md) | Evaluate SRE agents on simulated real-world outages and test whether Jev review of diagnoses and submissions helps. | Python · benchmark platform (MIT) |
