@@ -1023,6 +1023,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev4k](jev4k.md) | Declare TypeSafe Jev Noul/Choice/Score questions in a Kotlin DSL and read typed answers. | Kotlin · Maven (`com.pambrose:jev4k` 0.1.0) |
 | [JevApi](jevapi.md) | .NET 10 TypeSafe.Client + MCP server for typed noul/choice/score evaluate/batch. | C# · .NET library + MCP (MIT) |
 | [JevClient.jl](jevclient-jl.md) | Call System One from Julia with Noul/Choice/Score sets and endpoint policy locks to api.typesafe.ai. | Julia · package (`JevClient` 0.1.0) |
+| [jevey](jevey.md) | Friendly Python wrapper for TypeSafe Jev (Noul/Choice helpers, async client). | Python · library (Apache-2.0) |
 | [jevframe](jevframe.md) | Classify/score pandas and Polars rows with TypeSafe Jev via a `.jev` accessor and full probability columns. | Python · PyPI (`jevframe` 0.1.0; pandas/polars extras) |
 | [jevgo](jevgo.md) | Call TypeSafe System One from Go with typed Noul/Choice/Score (unofficial stdlib client). | Go · module (`github.com/devbackend/jevgo`) |
 | [Jevlin](copyleftdev-jevlin.md) | Call TypeSafe Jev from Zig with typed Choice/Score/Noul helpers, owned buffers, and offline checks. | Zig 0.16 · library (`jevlin`, MIT) |
