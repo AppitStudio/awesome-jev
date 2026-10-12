@@ -615,6 +615,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Leash](leash.md) | Judge each coding-agent turn against un-lintable rules with TypeSafe Jev and a one-way debt ratchet. | TypeScript · CLI/npm (`leash`, MIT) |
 | [lintent](lintent.md) | Plain-language lint rules judged by TypeSafe Jev, scoped with tree-sitter. | Rust · CLI linter (MIT) |
 | [llmbridge](llmbridge.md) | OpenAI-compatible LLM gateway with L1 rules / L2 TypeSafe Jev / L3 fallback routing. | Python/FastAPI + Vue · gateway (Apache-2.0) |
+| [mail-classifier (Outlook)](ringelstein-mail-classifier.md) | Local Outlook triage: Jev classifies unread mail; flag/file/trash after confirmation. | Python · local web app (MIT) |
 | [Mastering TypeSafe Jev (book code)](mastering-jev-book.md) | Companion source for the Mastering TypeSafe Jev book (Jev + open Kev labs). | Python · book samples (MIT) |
 | [mayi](mayi.md) | Tool-call gate for Claude Code/Cursor/Codex: TypeSafe Jev scores each call; dialog on unsafe (fail-deny on errors). | Rust · CLI (`mayi` 0.1.0) |
 | [meiseki](meiseki.md) | Japanese clarity-rewrite skill; optional Jev layer settles contextual lint findings fast. | Agent skill · Claude Code/Codex plugin (MIT) |
