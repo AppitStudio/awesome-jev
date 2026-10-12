@@ -30,6 +30,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [DepthJev](depthjev.md) | Embodied navigation with depth/text facts; TypeSafe Jev chooses EB-Navigation actions. | Python · EmbodiedBench agent (Apache-2.0) |
 | [Discord Policy Checker](discord-policy-checker.md) | Hold Discord sends that break your plain-language policies, judged by Jev. | TypeScript · Chrome extension (MIT) |
 | [ego-decision-layer](ego-decision-layer.md) | Pluggable ego lite browser decision layer: one TypeSafe Jev System One call per step with fail-closed guards (measured benches). | JavaScript · skill/CLI (MIT) |
+| [ego-jev](ego-jev.md) | Let Jev choose clicks and field placement in ego lite browser TaskSpaces while your agent keeps the goal. | JavaScript · Node CLI (MIT) |
 | [fast-browser](fast-browser.md) | Playwright browser automation for Codex/MCP with TypeSafe Jev (or Laya) decisions | Python · browser automation / MCP (MIT) |
 | [firefox-jev-mcp](firefox-jev-mcp.md) | Claude plans; TypeSafe Jev picks Firefox element actions via MCP + WebExtension. | TypeScript · MCP + Firefox extension (MIT) |
 | [Flick (flick-computer-use)](flick-computer-use.md) | MCP computer-use: Jev decides browser/macOS actions for whole goals. | TypeScript · MCP (MIT) |
