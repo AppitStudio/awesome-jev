@@ -197,6 +197,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [ComfyUI-ScriptFlow](comfyui-scriptflow.md) | ComfyUI script node: ask TypeSafe Jev yes/no/choice/score and branch workflows (GGUF fallback). | Python · ComfyUI custom node (GPL-3.0) |
 | [compact-adviser](compact-adviser.md) | Ask TypeSafe Jev whether a coding session is at a safe `/compact` boundary; hint or optional auto-compact on Pi/Claude Code. | Node.js ≥ 22 · npm plugins (`compact-adviser` 0.1.6) |
 | [Compass (ring29 labs)](ring29-compass.md) | Find the right CLI command in plain language without leaving the shell or losing autocomplete. | Python · zsh widget (MIT) |
+| [contextleleo](contextleleo.md) | Hand agent sessions between tools; Jev scores which context the next task needs. | Rust · CLI (Apache-2.0) |
 | [Copilot Studio × Jev](copilot-studio-jev.md) | Gate Azure AI Search passages with four Jev Noul questions per hit so Copilot Studio answers with citations or abstains; optional Power Platform connector. | TypeScript MCP + Power Platform connector (MIT) |
 | [corp-jev-skill](corp-jev-skill.md) | Claude Code /corp-jev: multi-department review loop with Jev second opinions. | Python · Claude Code skill (MIT) |
 | [could-jev](could-jev.md) | Ask Claude whether a task is a good Jev fit and get a sketch plus the cheapest test. | Markdown · Claude skill (MIT) |
