@@ -1922,6 +1922,24 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 
 [Full Xtags guide](xtags.md) · [Source](https://github.com/manifoldor/xtags)
 
+### YouTube Sponsor Skip (Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Chrome and Safari extension that detects in-video spoken sponsorships on Russian-language YouTube using TypeSafe Jev over subtitles and auto-skips them (pause, timecodes, daily spend cap).
+
+**Jev's role:** Classifies subtitle windows as sponsor vs content (via OpenRouter `typesafe/jev-1.13`).
+
+**Platform:** Chrome, Safari (macOS) · Manifest V3
+
+**Product:** [GitHub README](https://github.com/AnatoliyLikarchuk/youtube-sponsor-skip#readme)
+
+**Pricing / access:** Free MIT source build; needs your OpenRouter/TypeSafe-compatible key (usage billed by provider). Checked 2026-10-12.
+
+**Access:** Load unpacked from source per README. Source inspected; extension not run on the review host.
+
+[Full YouTube Sponsor Skip (Jev) guide](youtube-sponsor-skip.md) · [Source](https://github.com/AnatoliyLikarchuk/youtube-sponsor-skip)
+
 ## Command-line apps
 
 ### Anki Review-Finder
