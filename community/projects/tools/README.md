@@ -107,6 +107,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Internal Links](jev-internal-links.md) | Claude Code skill: crawl sitemap paragraphs, TypeSafe Jev picks useful internal link targets, local rules + report. | Python · Claude Code skill (MIT) |
 | [jev-linkedin-saved-classifier](jev-linkedin-saved-classifier.md) | LinkedIn saved-posts board classified into filters by TypeSafe Jev | Python · classifier board (MIT) |
 | [Jev-Mod](jev-mod.md) | Moderate a Discord server with Jev rules, local filters and a case dashboard. | TypeScript · Discord bot + dashboard (MIT; hosted or self-host) |
+| [Laya × Jev ticket classification](laya-jev-lab.md) | Classify helpdesk tickets with Jev or a local Laya model via SDK, REST or a shared inbox. | Python · SDK + REST (Apache-2.0) |
 | [Lynkgrids AI for Jev](lynkgrids-ai-for-jev.md) | Score leads, classify replies and check outreach drafts in a Lynkgrids pipeline with Jev, routing low-confidence calls to a person. | JavaScript · CLI + agent skill / Claude Code plugin (MIT) |
 | [Sales pipeline revival (Jev vs Gemini)](sales-pipeline-revival-jev.md) | Re-run Jev vs Gemini triage on 203 dead sales-deal threads with published metrics. | Python · benchmark harness + fixtures (MIT) |
 | [Support Ticket Router](support-ticket-router.md) | Route support tickets automatically and send only the risky ones to a person, using Jev's probabilities. | Python · FastAPI service (MIT) |
