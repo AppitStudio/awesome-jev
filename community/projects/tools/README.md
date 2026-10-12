@@ -182,6 +182,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [claude-router (alexei-led)](alexei-led-claude-router.md) | Local Anthropic gateway: Jev routes micro/low/medium/high tiers for Claude Code. | TypeScript · npm gateway plugin (MIT) |
 | [clear-head](clear-head.md) | Claude Code Stop hook: TypeSafe Jev checks answer claims against what was read this session. | Python · Stop hook + install scripts |
 | [cmd-mod-jev-nudge](cmd-mod-jev-nudge.md) | Command Code stop-hook mod: TypeSafe Jev judges whether unfinished work warrants a continue nudge. | TypeScript · Command Code mod (`cmd-mod-jev-nudge` 0.1.0) |
+| [Cobalt Cockpit](cobalt-cockpit.md) | Claude Code mission-control HUD; optional per-session Jev router gives advisory routing. | TypeScript · Claude Code plugin (MIT) |
 | [Code Quality (smixs)](code-quality.md) | Run deterministic checks (complexity, CRAP, coverage, secrets, weakened tests, hook bypasses) on each change; with `[review] jev = true` Jev flags textual tests, untested error paths and other hunk-level smells as notes. | TypeScript/Bun · agent plugin + git hooks (MIT) |
 | [codec-swarm](codec-swarm.md) | Ticket-to-PR agent swarm where Jev scores scenarios and acceptance criteria before you review. | Python · uv CLI + local dashboard (MIT) |
 | [codeforces-tag-prediction](codeforces-tag-prediction.md) | Multi-label Codeforces tagging benchmark: TypeSafe Jev vs LLMs/encoders. | Notebooks · benchmark (MIT) |
