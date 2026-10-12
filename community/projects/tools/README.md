@@ -293,6 +293,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Gate (lymagics)](lymagics-jev-gate.md) | Fail CI when code breaks a quality rule answered by Jev yes/no questions. | Python · GitHub Action/CLI (MIT) |
 | [Jev Gate (royalskynet)](royalskynet-jev-gate.md) | Prune logs, compact conversations and classify tasks with Jev (optional local Laya first). | JavaScript · MCP/plugin (MIT) |
 | [Jev IDS](jev-ids.md) | Few-shot network intrusion detection with Jev, benchmarked on NSL-KDD. | Python (MIT) |
+| [Jev Skill Router (kelasdev)](kelasdev-jev-skill-router.md) | OpenCode plugin: Jev picks at most one SKILL.md via two gated System One calls. | TypeScript · OpenCode plugin (MIT) |
 | [jev-advisor (gjc-plugin)](gjc-jev-advisor.md) | Get Jev fast/balanced/strong tier advice for gajae-code subagent tasks (shadow by default). | TypeScript · gjc plugins (MIT) |
 | [Jev Agent Control](jev-agent-control.md) | Route OpenCode V2 requests between Plan, Build, and custom agents with Jev, plus auto-handoff. | TypeScript · OpenCode plugin (MIT) |
 | [Jev Agent Kit (cloud-f1)](cloud-f1-jev-agent-kit.md) | Prune long Claude Code Bash output locally, with optional Jev relevance scoring and read-back. | TypeScript/Python · Claude Code plugin + CLI (MIT) |
