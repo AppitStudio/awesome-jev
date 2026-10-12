@@ -22,7 +22,8 @@
     "gero-4b-decision-model-training",
     "openai-dots-jev-inbox",
     "jev-content-grader",
-    "jev-vs-llms"
+    "jev-vs-llms",
+    "jev-opus-content-workflow"
   ],
   "retire_all": false
 }

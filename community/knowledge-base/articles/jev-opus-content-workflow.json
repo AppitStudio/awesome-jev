@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "jev-opus-content-workflow",
+  "slug": "jev-opus-content-workflow",
+  "title": "Jev + Opus content workflow: durable jobs and honest costs",
+  "description": "Build a durable Jev + Opus source-to-draft workflow with repeat checks, bounded revisions, human review and cost per accepted output.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-12",
+  "modified_at": "2026-10-12",
+  "topics": [
+    "use-cases",
+    "decision-gates",
+    "cost-optimization",
+    "calibration"
+  ],
+  "source": {
+    "title": "How to Use Jev + Opus 5.5 to Build a 20x More Efficient Workflow",
+    "url": "https://x.com/0xnineinch/article/2108604801411879139",
+    "author": {
+      "name": "9inches",
+      "url": "https://x.com/0xnineinch"
+    },
+    "published_at": "2026-10-09",
+    "accessed_at": "2026-10-12"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and source review"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-opus-content-workflow.png",
+    "alt": "A source packet passes through a durable job claim, Jev selection, Opus draft and paired Jev checks to human review, with one bounded revision and interrupted work preserved",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jevtok.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Estimate structured Jev request tokens before batching draft checks",
+      "why": "Jevtok provides local whole-request input-token estimates for shared state and independent questions. It fits cost planning, not the queue or writing pipeline; the source does not name it.",
+      "evidence": [
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/README.md",
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/src/jevtok/request.py",
+        "https://github.com/LabGuy94/jevtok/blob/698c53b778ce901be82c166d809e4b1f7948a465/LICENSE"
+      ],
+      "limitations": "MIT Python 3.10+ package, offline counting without a key. Pinned 0.1.0 reconstructed against jev-1.13-20260917; current-service fidelity unverified. Checks state plus longest question but lacks a separate total-request cap. No durable queue, writing, grading or publication; estimates are not bills or spending caps. Live provider usage can incur charges."
+    }
+  ],
+  "verification": {
+    "source": "Read full X article, all eleven parts and code blocks in logged-in Chrome on 2026-10-12. Body contained unresolved genui citations, no navigable primary-source links, embedded project posts or downloadable implementation. Exact-title search found no verified republication. Named provider docs independently inspected. Source image permission not established; original CC0 diagram used with original attributed commentary.",
+    "offline": "Isolated Python 3.14.3, typesafe-sdk 0.7.4 and jevtok 0.1.0 at 698c53b778ce901be82c166d809e4b1f7948a465: three questions serialized, eight synthetic policy response cases passed; fixture estimate 412 tokens batched versus 753 separately. No API requests. Inspected README, license and estimator. Complete worker, HTTP adapters and SQLite recovery not built or tested; prompt reviewed only.",
+    "live": "No provider inference, account provisioning, plugin installation, model calibration, actual billing, accepted-output study or full worker benchmark. Synthetic policy tests and token estimates establish only their limited offline behavior.",
+    "review": "AI-assisted editorial review; no human reviewer recorded. Candidate queries: Jev Opus content workflow, Jev Claude source packet drafting, Jev Opus API cost, Jev durable jobs retries. Ahrefs browser at sign-in; no connector available, plan eligibility and metrics unknown. Search Console sc-domain:jevlist.ai, Web queries containing content, all countries, 2026-09-18 through 2026-10-09 showed no data on 2026-10-12. Current search results emphasized broad model setup, routing and draft grading. Chose durable source-packet workflow to distinguish existing triage, grader and harness guides. No volume/difficulty claimed."
+  },
+  "faqs": [
+    {
+      "question": "How do I build a Jev + Opus content workflow?",
+      "answer": "Prepare source excerpts with stable IDs, let Jev select a route, use Opus to draft selected work, then batch independent checks against the same evidence. Code records each job and limits revisions; a person accepts the output and approves publication."
+    },
+    {
+      "question": "Does Jev + Opus guarantee 20x more output?",
+      "answer": "No. The article's 20x target depends on a decision-heavy baseline, small remaining generation costs and comparable accepted output. Measure actual provider usage, rejected useful packets, review time and cost per accepted draft before claiming a gain."
+    },
+    {
+      "question": "Is shadow mode free and offline?",
+      "answer": "No. Shadow mode sends the source packet to TypeSafe for a live judgment and can incur charges. Plan mode and injected response fixtures are offline; shadow mode only prevents the downstream drafting step."
+    },
+    {
+      "question": "What should happen after a timeout or repeat launch?",
+      "answer": "Return the recorded job status and preserve its artifacts. Keep interrupted work and unknown billing visible for reconciliation; a lost response can still be billed. Deliberately authorize recovery instead of automatically repeating provider calls."
+    },
+    {
+      "question": "Can jevtok enforce the complete request and spending budget?",
+      "answer": "No. The inspected estimator predicts Jev input tokens and checks state plus the largest question, but lacks a separate total-request cap. Code must enforce current provider limits, live request counts and spending policy, then reconcile estimates with billing."
+    }
+  ]
+}
