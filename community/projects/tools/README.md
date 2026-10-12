@@ -739,6 +739,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [stop-rules](stop-rules.md) | Coding-agent stop hook: TypeSafe Jev yes/no per changed piece against written team rules (multi-agent + optional team server). | TypeScript · CLI (`stop-rules` 0.1.0) |
 | [stuntd](stuntd.md) | Local Jev-compatible proxy: serve/learn typed System One decisions on a Laya head (or zero-shot), optional OpenAI/Jev upstream. | Python ≥ 3.10 · PyPI (`stuntd` 0.1.0, Apache-2.0) |
 | [Sudus](sudus.md) | Track requirements and verdicts in the repo; at Consequential choices, let Jev score the agent's draft (evidence, reach, contract, surface, ambiguity) as its gut check. | Node.js · agent plugin (command, five skills, hooks) (MIT) |
+| [super (superpowers-jev)](mindlace-super.md) | Claude Code marketplace plugin adding optional Jev judgments at 13 decision points. | Python · Claude Code plugins (MIT) |
 | [super-jev](super-jev.md) | Run evidence → typed Jev judgments → permitted actions → verified outcomes with local JSONL traces. | TypeScript · harness (Node ≥ 24) |
 | [Supercov](supercov.md) | Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first. | Rust · CLI via npm, Homebrew, Go or crates.io |
 | [System One Harness](systemone-harness.md) | Drive finite-action environments with TypeSafe Jev (OpenRouter/TypeSafe): one typed decision per step, confidence gates, full traces. | Python · CLI `s1` (`systemone-harness` 0.4.0) |
