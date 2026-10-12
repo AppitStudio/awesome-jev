@@ -1118,6 +1118,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [system-one (asynq-io)](asynq-io-system-one.md) | Vendor-neutral Python SDK for typed System One yes/no/choice/score (hosted or local ONNX). | Python · PyPI (`system-one`, Apache-2.0) |
 | [systemone (justintout)](systemone-justintout.md) | Unofficial Go System One/Jev client with compile-time typed questions (distinct from TypeSafe Go). | Go · module (`github.com/justintout/systemone`, MIT) |
 | [taurus-jev-sdk-go](taurus-jev-sdk-go.md) | Hard-failing stdlib Go System One client (unofficial). | Go · library (MIT) |
+| [TypeSafe AI unofficial guide (typesafe-docs)](typesafeai-unofficial-guide.md) | Unofficial System One API guide: primitives, cookbooks, examples, mock server. | Docs · Python/TypeScript examples (MIT) |
 | [TypeSafe Jev custom connector](jev-custom-connector.md) | Call TypeSafe Jev from Power Automate/Copilot Studio with typed dynamic-content answers. | Power Platform · managed custom connector (MIT) |
 | [typesafe-go (zhirschtritt)](zhirschtritt-typesafe-go.md) | Call TypeSafe System One from Go with an idiomatic unofficial SDK (≠ stacklok/typesafe-go). | Go · module (`github.com/zhirschtritt/typesafe-go`, MIT) |
 | [TypeSafe .NET SDK (mehdihadeli)](mehdihadeli-typesafe-dotnet-sdk.md) | Call TypeSafe System One from .NET with typed Noul/Choice/Score models and your own HttpClient. | C# · .NET library (MIT) |
