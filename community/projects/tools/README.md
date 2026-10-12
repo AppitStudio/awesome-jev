@@ -44,6 +44,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Browser (tontoko)](jev-browser-tontoko.md) | Fill forms, extract records with evidence, and add semantic selection to Playwright tests. | TypeScript · SDK, CLI and MCP |
 | [Jev Browser (Ying-Kai-Liao)](jev-browser-ying-kai-liao.md) | Run small browser goals with Jev action/target selection and direct inspection; page data and supplied values reach TypeSafe. | JavaScript · Playwright library, CLI and MCP |
 | [Jev Browser Skill](jev-browser-skill.md) | Learn a minimal Jev-driven browser loop as a Claude Code/Codex skill (reference; see Ultrafast for fuller agents). | Agent skill + CDP scripts (`scripts/*.mjs`); explainer site |
+| [jevrake](jevrake.md) | Scrape fields by description: code collects typed candidates, Jev picks the match. | Python · CLI/library (MIT) |
 | [Jev Ultrafast](jev-ultrafast.md) | Select browser operations and targets from the current page. | Python · browser agent and inspector |
 | [jev-max](jev-max.md) | Typed-decision browser automation that reaches shadow DOM, iframes and canvas. | Python · Playwright library + CLI + MCP server (MIT) |
 | [jev-ui-test](jev-ui-test.md) | Natural-language UI tests: TypeSafe Jev scores candidate elements; pytest/Allure reports (fork of jev-ultrafast). | Python · pytest/Allure (MIT) |
