@@ -845,6 +845,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
 | [Jeeves (PostHog)](posthog-jeeves.md) | Run a 9B Jev-like reasoning decision model (noul/choice/score) via a Jev-compatible API; independent of hosted TypeSafe Jev. | Python · open weights + serving (MIT) |
 | [Jeff (firelex)](firelex-jeff.md) | Run Jev-format choice/noul/score decisions locally with a small base model plus task adapters, e.g. in front of a larger local LLM. | Python · `jeff-serve` (uv) · Hugging Face weights / GGUF |
+| [JevBench (Leanmcp)](leanmcp-jevbench.md) | Benchmark Jev against other typed decision models across six task clusters. | Python · benchmark + dataset (MIT) |
 | [Jev + Claude Code case study](jev-claude-code-case-study.md) | Two runnable patterns (Jev inside an app, Jev guarding Claude Code) with offline evals and written research. | Python 3.11+ · `typesafe-sdk` (MIT) |
 | [jev-guardrail-benchmark](jev-guardrail-benchmark.md) | Reproduce WSO2 AI Gateway TypeSafe Jev guardrail accuracy/latency/cost vs Azure Content Safety and an LLM judge. | Python · WSO2 AI Gateway benchmark (Apache-2.0) |
 | [jev-imdb-benchmark](jev-imdb-benchmark.md) | Reproduce Jev IMDB review benchmarks (sentiment/spoilers/quality) with published metrics. | Python · IMDB benchmark harness (MIT) |
