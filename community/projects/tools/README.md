@@ -166,6 +166,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [chatwoot-workers](chatwoot-workers.md) | Chatwoot Cloudflare Workers: Discord relay + TypeSafe Jev ticket triage router. | TypeScript · Cloudflare Workers (MIT) |
 | [chinese-workflow-decision-bench](chinese-workflow-decision-bench.md) | Benchmark Feishu-style Chinese message triage with frozen Choice/four-Noul tracks and published Jev vs Laya results. | Python · bench harness + adapters |
 | [Chirp (Tern)](tern-chirp.md) | Hear how an agent turn went — Jev picks the beep's mood and shape. | Luau · Tern plugin (MIT) |
+| [ci-triage (samiulhuda360)](samiulhuda360-ci-triage.md) | Re-run flaky/infra CI once; explain real failures with Jev on the PR. | Python · GitHub Action (MIT) |
 | [classifier.dev](classifier-dev.md) | Classify text with `curl https://classifier.dev/<labels>/<text>` or the `classify` CLI; Jev returns the label and confidence (`src/jev.ts`). | TypeScript · Cloudflare Worker + npm CLI (`classifier-dev`) (MIT) |
 | [claude-auto-effort](claude-auto-effort.md) | Set Claude Code's effort per prompt from a Jev rating, applied consistently to every step of the turn. | TypeScript · Claude Code mod (MIT) |
 | [claude-jev-advisor](claude-jev-advisor.md) | Get Jev advice on when to compact/clear a Claude Code session and safer handling of file deletes. | TypeScript · npm `@delt/claude-jev-advisor` (MIT) |
