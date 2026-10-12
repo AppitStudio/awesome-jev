@@ -1150,6 +1150,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jegrep](jegrep.md) | Find code by natural-language intent using TypeSafe Jev (or OpenRouter→Jev) without embeddings. | Rust · CLI (`jegrep`) and release binaries |
 | [Jev Deep Research](jevdeepresearch.md) | Parallel evidence finding: GPT drives research steps; TypeSafe Jev judges document regions concurrently and returns excerpts. | TypeScript/Python research harness (Apache-2.0) |
 | [Jev Filter (Apixly)](apixly-jev-filter.md) | Screen large batches of evidence with Jev so the agent only reads the selected records, with every original recoverable. | Python + npm distribution · CLI / library / MCP (MIT) |
+| [jev for DuckDB (judoaseeta)](judoaseeta-duckdb-jev.md) | DuckDB port of pg-jev: `jev()` / `jev_prob()` / `jev_choice()` / `jev_score()` row predicates. | C++ · DuckDB extension (MIT) |
 | [Jev Graph Search](jev-graph-search.md) | Ask an agent-memory question over Markdown notes and get source passages ranked by Jev; also audits links and suggests where a new note belongs. | JavaScript · npm `jev-graph-search` + agent skill (MIT) |
 | [JEV Research MCP](jev-research-mcp.md) | Select web research evidence with TypeSafe Jev at search-result and content-block layers (MCP `research`). | TypeScript · MCP server (Apache-2.0) |
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
