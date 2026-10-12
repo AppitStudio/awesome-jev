@@ -151,6 +151,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [bekko-system-one](bekko-system-one.md) | Small System One decision models (17M–400M) for Yes/No, Choice, and Score (independent open weights). | Python · local models (MIT) |
 | [bitrate-advisor](bitrate-advisor.md) | Choose live-stream encoder bitrate/resolution/next-step with TypeSafe Jev via OpenRouter inside deterministic guardrails. | TypeScript · Deno/Node library (`@affirmi/bitrate-advisor` 0.2.7) |
 | [Blackrose](blackrose.md) | Run typed TypeSafe System One checks and return allow/review/block with scores in app code. | Python + JS packages (MIT) · TypeSafe Jev |
+| [Blueprint Support Ticket Triage](blueprint-support-ticket-triage.md) | Human-gated support triage agent with typed decisions (Jev/LLM/offline). | Python · blueprint (Apache-2.0) |
 | [BoundedCode](boundedcode.md) | Local OpenCode coding on 8 GB GPUs with a required TypeSafe Jev decision plane and Go verification gates. | Go · OpenCode supervisor (Apache-2.0) |
 | [BrighTO Router](brighto-router.md) | Self-host a Rust LLM gateway with OpenAI/Anthropic-compatible routes plus System One/Jev/DJEV/Laya decision routing, load balancing, and budgets. | Rust · Docker gateway (`thusinh1969/brighto_airouter`, Apache-2.0) |
 | [btx-skill-jev-judge](btx-skill-jev-judge.md) | Claude Code plugin: hand repeated judgments to TypeSafe Jev from a tested script. | Claude Code plugin (MIT) |
