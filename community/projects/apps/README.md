@@ -108,6 +108,24 @@ Self-hosted homelab dashboard where open Clef-flash (GGUF on a 6 GB laptop GPU) 
 
 [Full Clef homelab decision engine guide](clef-homelab.md) · [Source](https://github.com/NikhileshThiru/clef)
 
+### CrawlHive
+
+`Open source` · `Pricing unverified`
+
+Swarm of user-owned crawlers that watch X accounts, Telegram channels and new Solana pairs for memecoin signals; TypeSafe Jev rates every crawler find before a safety scan and an optional Grok Bot review.
+
+**Jev's role:** Jev scores each crawler find ("concrete memecoin signal worth a trader's attention?"); low-probability finds are skipped, the rest are scanned most-promising first, and Jev's look/watch/avoid take is final above 70% before Grok is called.
+
+**Platform:** Web (Next.js) · Solana / Robinhood Chain wallets
+
+**Product:** [crawlhive.xyz](https://crawlhive.xyz)
+
+**Pricing / access:** Live app at crawlhive.xyz; pricing and the planned project-token mechanics are not documented as of 2026-10-13. MIT source can be self-hosted with your own OpenRouter/TypeSafe and Grok keys.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Try CrawlHive](https://crawlhive.xyz) · [Full CrawlHive guide](crawl-hive.md) · [Source](https://github.com/h100envy/crawl-hive)
+
 ### Crush Monitor
 
 `Open source` · `Free source build` · `BYOK`
