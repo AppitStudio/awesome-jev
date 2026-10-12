@@ -607,6 +607,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Leash](leash.md) | Judge each coding-agent turn against un-lintable rules with TypeSafe Jev and a one-way debt ratchet. | TypeScript · CLI/npm (`leash`, MIT) |
 | [lintent](lintent.md) | Plain-language lint rules judged by TypeSafe Jev, scoped with tree-sitter. | Rust · CLI linter (MIT) |
 | [llmbridge](llmbridge.md) | OpenAI-compatible LLM gateway with L1 rules / L2 TypeSafe Jev / L3 fallback routing. | Python/FastAPI + Vue · gateway (Apache-2.0) |
+| [Mastering TypeSafe Jev (book code)](mastering-jev-book.md) | Companion source for the Mastering TypeSafe Jev book (Jev + open Kev labs). | Python · book samples (MIT) |
 | [mayi](mayi.md) | Tool-call gate for Claude Code/Cursor/Codex: TypeSafe Jev scores each call; dialog on unsafe (fail-deny on errors). | Rust · CLI (`mayi` 0.1.0) |
 | [metajev](metajev.md) | Store typed Jev/System One distributions keyed by state+question+model; apply/change accept/review policies without re-calling the model. | Python · library + SQLite store (MIT) |
 | [Metis](metis.md) | Triage new GitHub issues with TypeSafe Jev labels and missing-detail comments via a reusable Action/CLI. | Python · GitHub Action + `metis-triage` 0.1.0 |
