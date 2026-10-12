@@ -1174,6 +1174,16 @@ Open-source local workspace for coding agents and codebase docs (agent chats, fi
 
 [Full Synax guide](synax.md) · [Source](https://github.com/coldmint9/Synax)
 
+### Text-To-VRMA
+
+`Open source` · `Free` · `BYOK`
+
+Text-to-motion app for VRM avatars: type a line such as "jump for joy" and it generates a `.vrma` animation with facial expressions, previews it on your VRM model, and exports VRMA, GIF or video. Since v1.1.9 an optional Jev pass analyses the text's emotion, gaze, energy and tempo and feeds those typed results into motion generation.
+
+**Access:** free Windows portable zip on [Releases](https://github.com/Kirakun0328/text-to-vrma/releases/latest) or build the [MIT source](https://github.com/Kirakun0328/text-to-vrma) (`npm run dev`). Optional Jev analysis needs your own TypeSafe key (usage billed by TypeSafe); motion via local ARDY or your own LLM key. Source inspected; app not run on the review host.
+
+[Full Text-To-VRMA guide](text-to-vrma.md) · [Source](https://github.com/Kirakun0328/text-to-vrma)
+
 ### Warren Duffer
 
 `Open source` · `Free source build` · `BYOK`
