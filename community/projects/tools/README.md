@@ -625,6 +625,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [omp-jev-tier](omp-jev-tier.md) | Jev-picked subagent tiers and auto plan mode inside omp. | TypeScript · omp extension (MIT) |
 | [onesie](frodi-karlsson-onesie.md) | Unix-pipeable System One CLI for TypeSafe Jev (also OpenRouter/Berget): pipe text, ask a typed question, script the… | Go · CLI (MIT) |
 | [ontoken-auto](ontoken-auto.md) | Pi virtual model where Jev picks the OnToken model slot and thinking level per prompt. | TypeScript · Pi package (MIT) |
+| [opencode-auto-classifier](opencode-auto-classifier.md) | OpenCode plugin: Jev classifies shell/reads/edits for permission decisions. | TypeScript · OpenCode plugin (MIT) |
 | [opencode-jev-pre-llm](opencode-jev-pre-llm.md) | Classify OpenCode prompts with Jev before LLM reasoning and skip chain-of-thought for deterministic ones. | TypeScript · OpenCode V2 plugin (MIT) |
 | [open-source-finder](open-source-finder.md) | Rank GitHub open issues for good-first-issue fit with TypeSafe Jev (size/clarity/knowledge/claimed). | Python · CLI/tooling (MIT) |
 | [OpenCode Decisions plugin](opencode-decisions-plugin.md) | Let an OpenCode agent classify or judge content with Jev (via OpenCode Console) or OpenAI Decisions as a tool call. | JavaScript · OpenCode plugin (MIT) |
