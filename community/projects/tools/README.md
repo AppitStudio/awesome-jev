@@ -288,6 +288,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [JCR](jcr.md) | Resolve deterministic commands from a nested capability tree with TypeSafe Jev (MCP + Claude/Codex harnesses). | TypeScript · resolver, MCP and harnesses (`jcr` 1.0.0) |
 | [Jeffort](jeffort.md) | Set Claude Code effort per turn from TypeSafe Jev scores (depth/scope/stakes/ambiguity); leave /effort alone on low confidence. | Claude Code plugin (MIT) |
+| [Jev Gate (royalskynet)](royalskynet-jev-gate.md) | Prune logs, compact conversations and classify tasks with Jev (optional local Laya first). | JavaScript · MCP/plugin (MIT) |
 | [Jev IDS](jev-ids.md) | Few-shot network intrusion detection with Jev, benchmarked on NSL-KDD. | Python (MIT) |
 | [jev-advisor (gjc-plugin)](gjc-jev-advisor.md) | Get Jev fast/balanced/strong tier advice for gajae-code subagent tasks (shadow by default). | TypeScript · gjc plugins (MIT) |
 | [Jev Agent Control](jev-agent-control.md) | Route OpenCode V2 requests between Plan, Build, and custom agents with Jev, plus auto-handoff. | TypeScript · OpenCode plugin (MIT) |
