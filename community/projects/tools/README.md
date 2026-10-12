@@ -298,6 +298,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [JCR](jcr.md) | Resolve deterministic commands from a nested capability tree with TypeSafe Jev (MCP + Claude/Codex harnesses). | TypeScript · resolver, MCP and harnesses (`jcr` 1.0.0) |
 | [Jeffort](jeffort.md) | Set Claude Code effort per turn from TypeSafe Jev scores (depth/scope/stakes/ambiguity); leave /effort alone on low confidence. | Claude Code plugin (MIT) |
+| [JEV AgentNetwork](agentnetwork-jev.md) | Event-driven multi-agent network; Jev re-routes pending work on every completion. | Python · agent router + web UI (Apache-2.0) |
 | [JEV Decision Hub](jev-decision-hub.md) | Zero-dep Python Jev client, key-pool rotation, dashboard, and example agents. | Python · toolkit (MIT) |
 | [Jev Gate (lymagics)](lymagics-jev-gate.md) | Fail CI when code breaks a quality rule answered by Jev yes/no questions. | Python · GitHub Action/CLI (MIT) |
 | [Jev Gate (royalskynet)](royalskynet-jev-gate.md) | Prune logs, compact conversations and classify tasks with Jev (optional local Laya first). | JavaScript · MCP/plugin (MIT) |
