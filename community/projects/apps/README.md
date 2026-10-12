@@ -270,6 +270,24 @@ Instrumented 2048 web lab: every move is a TypeSafe Jev Choice (no heuristic fal
 
 [Try Jev 2048](https://jev-2048-ultra.vercel.app) · [Full Jev 2048 guide](jev-2048.md) · [Source](https://github.com/ARCJ137442/jev-2048)
 
+### Jev Arena
+
+`Open source` · `Free source build` · `BYOK`
+
+Dockerized web arena where TypeSafe Jev faces Claude Opus 5.5 live on trading, Tetris, lead racing, and review triage—with real OpenRouter calls and on-screen costs.
+
+**Jev's role:** Decision player on the left side of each scene (typed System One calls via OpenRouter).
+
+**Platform:** Web (Docker)
+
+**Product:** [GitHub README](https://github.com/AlanECE/jev-arena#readme)
+
+**Pricing / access:** Free MIT source build; needs your OpenRouter key (usage billed). Paper trading only. Checked 2026-10-12.
+
+**Access:** `docker compose` per README. Source inspected; app not run on the review host.
+
+[Full Jev Arena guide](jev-arena.md) · [Source](https://github.com/AlanECE/jev-arena)
+
 ### Jev as LLM
 
 `Open source` · `Free` · `BYOK`
