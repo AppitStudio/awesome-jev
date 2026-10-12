@@ -438,6 +438,24 @@ Local inbox action queue: TypeSafe Jev answers seven typed questions per email t
 
 [Full Jev Inbox Queue guide](jev-inbox-queue.md) · [Source](https://github.com/tusharck/jev-inbox-queue)
 
+### jev-face (Imjungjuna)
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser WebGL face that reacts while you type: TypeSafe Jev judges which emotion a recipient would feel and drives 52 ARKit blendshapes. Distinct from the Java `jevface` SDK listing.
+
+**Jev's role:** Typed emotion/intensity decisions from the draft text.
+
+**Platform:** Web (Three.js)
+
+**Product:** [GitHub README](https://github.com/Imjungjuna/jev-face#readme)
+
+**Pricing / access:** Free MIT source; needs TypeSafe key (usage billed). Checked 2026-10-12.
+
+**Access:** Static/dev server per README. Source inspected; app not run on the review host.
+
+[Full jev-face (Imjungjuna) guide](imjungjuna-jev-face.md) · [Source](https://github.com/Imjungjuna/jev-face)
+
 ### Jev会計 (jev-kaikei-free)
 
 `Open source` · `Free source build` · `BYOK`
