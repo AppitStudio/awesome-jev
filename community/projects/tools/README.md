@@ -254,6 +254,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [EvolveRoute](evolve-router.md) | Local Rust LLM gateway that routes each request with Jev plus a heuristic, with an audit log. | Rust · gateway (MIT) |
 | [ExcelPilot](excelpilot.md) | Drive live Excel workbooks with Qwen planning and TypeSafe Jev intent/tool gates (cascade to OpenRouter/offline). | Python · Office.js add-in + FastMCP agent (`excelpilot` 1.0.0) |
 | [fast-compact](fast-compact.md) | `/fc` for Claude Code: Jev keeps still-needed tool outputs, trims the rest. | TypeScript · Claude Code plugin (MIT) |
+| [fast-resume-scoring](fast-resume-scoring.md) | Resume-to-job fit scoring and requirement coverage with one Jev request. | Go · CLI/service (Apache-2.0) |
 | [fastcampus-jev](fastcampus-jev.md) | Learn TypeSafe Jev in Korean via notebooks and a Teddy Market customer-support LangGraph demo (tool choice, guardrails, risk gates, RAG). | Python 3.12 + LangGraph + React (MIT) |
 | [fast-jev-compaction](fast-jev-compaction.md) | Select which old tool calls and results remain in agent context. | TypeScript · library and Claude Code plugin |
 | [fast-jev-opencode](fast-jev-opencode.md) | Prune stale OpenCode V2 tool calls/results on the outgoing request with TypeSafe Jev (fail-open; does not rewrite history). | TypeScript · OpenCode plugin (`fast-jev-opencode` 0.1.0) |
