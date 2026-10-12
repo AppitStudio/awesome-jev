@@ -128,6 +128,24 @@ MIT derivative of Crush Monitor: WeChat-style affinity analysis UI with TypeSafe
 
 [Full Crush Monitor with Jev guide](crush-monitor-with-jev.md) · [Source](https://github.com/zhengge6/crush-monitor-with-jev)
 
+### CryptoCadence
+
+`Open source` · `Free source build` · `BYOK`
+
+Transparent AI-driven paper-trading and backtest platform for crypto with a calibrated TypeSafe Jev decision layer, hard risk vetoes, and an append-only journal. Simulation only.
+
+**Jev's role:** Calibrated trade/decision judgments in `src/judgment/jev.py`.
+
+**Platform:** Web dashboard / Python lab
+
+**Product:** [GitHub README](https://github.com/KarelTestSpecial/crypto-trading-lab#readme)
+
+**Pricing / access:** Free MIT source; TypeSafe key for live Jev (billed). No live exchange trading. Checked 2026-10-12.
+
+**Access:** Run from source per README. Source inspected; app not run on the review host.
+
+[Full CryptoCadence guide](crypto-cadence.md) · [Source](https://github.com/KarelTestSpecial/crypto-trading-lab)
+
 ### Decision Lab
 
 `Open source` · `Free source build` · `BYOK`
