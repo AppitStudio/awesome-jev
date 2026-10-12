@@ -301,6 +301,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Decisions Plugin for Hermes](jev-decisions-hermes.md) | Jev review tools for Hermes: risk reviews, source checks, and task-completion checks. | Python · agent plugin (MIT) |
 | [jev-lgtm](jev-lgtm.md) | GitHub Action: Jev reads a PR diff and returns LGTM or Review Advised. | TypeScript · GitHub Action (MIT) |
 | [jev-quant](jev-quant.md) | Paper-trade with Jev decisions (via OpenRouter) in an early C++ trading loop. | C++20 · CMake (MIT) |
+| [jev-remix-cutter](jev-remix-cutter.md) | Agent Skill + CLI for local video remixing with Jev judgments and originality reports. | Python · Agent Skill/CLI (MIT) |
 | [JevShelf](jevshelf.md) | Lazy-load specialist skills chosen by lexical search or Jev from one portable skill shelf. | Python · CLI + skill shims (MIT) |
 | [jev-skill-suggestion](jev-skill-suggestion.md) | Jev ranks your skills as you type and can observe, block or steer Claude Code skill loading. | TypeScript · Claude Code plugin (MIT) |
 | [Jev Unpack](jev-unpack-hook.md) | Make coding agents ask one thing at a time when Jev spots overloaded messages. | Hook · Codex / Claude Code (MIT) |
