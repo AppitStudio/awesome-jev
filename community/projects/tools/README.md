@@ -160,6 +160,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Building with Decision Models](building-with-decision-models.md) | Give Claude Code, Codex or Gemini CLI a skill for writing typed-decision code across Jev and Jev-compatible providers. | Markdown · agent skill / plugin (MIT) |
 | [cai](cai.md) | Ask Jev yes/no, choice, score or multi-question judgments from the shell on piped text alongside cai's chat, image, OCR and other commands. | Rust · CLI (build from Git for Jev; ISC) |
 | [Cairn Jev Lab](cairn-jev-lab.md) | Test memory-admission policies with TypeSafe Jev judgments and inspectable save/skip/defer recommendations. | Node.js ≥ 22 · lab/CLI/playground (`cairn-jev-lab` 0.1.0) |
+| [Callpoint](callpoint.md) | Incident decision-support demo: Jev judges live facts, code applies rules. | TypeScript · web demo (MIT) |
 | [Candidate Experience Feedback Benchmark](candidate-experience-benchmark.md) | Compare TypeSafe Jev vs LLMs on 60 synthetic candidate-experience reviews (four typed tasks). | HTML · evidence packs + explorer (MIT) |
 | [Canny](canny.md) | Stop Claude Code/Codex “done” claims without ledger evidence; TypeSafe Jev advises, only facts block. | TypeScript · CLI (`canny-warden` 0.1.0), zero runtime deps |
 | [CanvasTTY Assistant](canvastty-plugin-assistant.md) | Review agent commands and triage launches in CanvasTTY with System One (Jev/Laya/Eikos) decisions. | CanvasTTY plugin · System One (MIT) |
