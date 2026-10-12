@@ -707,6 +707,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [QuickE2E](quicke2e.md) | Agentic E2E tests where Jev chooses each click/fill instead of a frontier LLM, with author benchmarks vs Claude Code + Playwright MCP. | JavaScript · npm `quicke2e` + Playwright (MIT) |
 | [Quicksilver](quicksilver.md) | Hand bulk judgment/shortlist calls from Claude Code to TypeSafe Jev (parallel typed verdicts). | JavaScript · Claude Code skill/plugin (MIT) |
 | [rea-jev](rea-jev.md) | Add fast typed checks to reverse-engineering sessions: route, scope/risk gate, evidence scoring and a done-check around REA tools. | JavaScript · Claude Code plugin + CLI (MIT) |
+| [reasoning-router](reasoning-router.md) | Classifier (Jev) picks per-step reasoning effort; OpenCode/Pi/Codex proxy. | TypeScript · plugins + proxy (MIT) |
 | [Reflex (kaustav1996)](kaustav1996-reflex.md) | Pi coding agent with TypeSafe Jev action gates, model-tier/skill routing, completion checks, and outside-result screening (code owns thresholds). | TypeScript · CLI (`reflex` / `reflex-agent` 0.1.0, MIT) |
 | [Reflex (ursuciprian)](ursuciprian-reflex.md) | Pre-execution risk gate + prompt-injection guard for coding agents; optional TypeSafe Jev/Laya (≠ kaustav1996 Reflex). | JavaScript · agent hooks (`@ursuciprian/reflex`, MIT) |
 | [reflex-router](reflex-router.md) | Shadow-test or apply per-task model routing for Claude Code and measure when routing went wrong. | TypeScript · npm CLI (MIT) |
