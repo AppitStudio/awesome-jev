@@ -420,6 +420,16 @@ Local inbox action queue: TypeSafe Jev answers seven typed questions per email t
 
 [Full Jev Inbox Queue guide](jev-inbox-queue.md) · [Source](https://github.com/tusharck/jev-inbox-queue)
 
+### Jev会計 (jev-kaikei-free)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local Japanese bookkeeping tool (playful "demon ledger" UI) that shows receipts to Jev, which picks the account, consumption-tax class and whether it is a private expense; confident results become journal entries and the rest drop into a human review queue, exportable as CSV.
+
+**Access:** run the [MIT source](https://github.com/USHIKUNDESUYO/jev-kaikei-free) with Python 3.10+ (`python -m jev_kaikei --mock` needs no key). Live mode needs your own TypeSafe key (usage billed by TypeSafe). Source inspected; app not run on the review host.
+
+[Full Jev会計 (jev-kaikei-free) guide](jev-kaikei.md) · [Source](https://github.com/USHIKUNDESUYO/jev-kaikei-free)
+
 ### Jev Kitchen
 
 `Closed source` · `Free`
