@@ -871,6 +871,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
 | [Jeeves (PostHog)](posthog-jeeves.md) | Run a 9B Jev-like reasoning decision model (noul/choice/score) via a Jev-compatible API; independent of hosted TypeSafe Jev. | Python · open weights + serving (MIT) |
 | [Jeff (firelex)](firelex-jeff.md) | Run Jev-format choice/noul/score decisions locally with a small base model plus task adapters, e.g. in front of a larger local LLM. | Python · `jeff-serve` (uv) · Hugging Face weights / GGUF |
+| [Jev Bench (cocodedk)](cocodedk-jev-bench.md) | Classifier workbench: repeatable Jev latency/accuracy runs (Banking77, OpenRouter). | Python · CLI workbench (Apache-2.0) |
 | [Jev RAG Chinese Benchmark](jev-rag-zh-benchmark.md) | Chinese reranking benchmark (T2Reranking) for Jev Score/Noul with frozen protocol and logs. | Python · benchmark (MIT) |
 | [JevBench (Leanmcp)](leanmcp-jevbench.md) | Benchmark Jev against other typed decision models across six task clusters. | Python · benchmark + dataset (MIT) |
 | [Jev + Claude Code case study](jev-claude-code-case-study.md) | Two runnable patterns (Jev inside an app, Jev guarding Claude Code) with offline evals and written research. | Python 3.11+ · `typesafe-sdk` (MIT) |
