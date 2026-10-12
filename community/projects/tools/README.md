@@ -691,6 +691,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-jev-thinking](pi-jev-thinking.md) | Pi extension: Jev picks the thinking level for each prompt. | TypeScript · Pi extension (MIT) |
 | [pi-next-prompt](pi-next-prompt.md) | Show a single Jev-vetted next-prompt suggestion after each Pi run. | TypeScript · Pi extension (MIT) |
 | [pi-reply-guard](pi-reply-guard.md) | Enforce skill adherence on Pi agent replies with a Jev probability and automatic rewrites. | TypeScript · Pi extension, npm `pi-reply-guard` (MIT) |
+| [pi-rm-guard](pi-rm-guard.md) | Pi extension: decision model (Jev default) auto-approves only safe recursive rm. | TypeScript · Pi extension (MIT) |
 | [pi-safely](pi-safely.md) | Run Pi with automatic approval of safe tool calls and a calibrated classifier holding the rest. | TypeScript · Pi extension (MIT) |
 | [pi-shift-router](pi-shift-router.md) | Route Pi turns between cheap and strong model tiers; optional TypeSafe Jev probability judge. | TypeScript · Pi npm extension (MIT) |
 | [pi-subagent-jev](pi-subagent-jev.md) | pi package: gate subagent dispatches via a Jev System One endpoint; expose jev_ask/jev_models (needs pi-subagents). | TypeScript · pi package (MIT) |
