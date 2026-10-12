@@ -200,6 +200,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dbt_jev](dbt-jev.md) | Classify SQL values with TypeSafe Jev (or OpenRouter→Jev) from dbt macros on DuckDB/ClickHouse. | Python · dbt package + DuckDB/ClickHouse runtime |
 | [decide (jeffcampbell)](jeffcampbell-decide.md) | Let a coding agent ask Jev which files matter (and other typed questions) before spending context. | Python 3.11+ · CLI + library, stdlib only (MIT) |
 | [DecideKit](decidekit.md) | Define typed decision policies and evaluate them with Jev via OpenRouter or TypeSafe, with offline fixtures and fallbacks. | TypeScript/Python · library/CLI (`decidekit` 0.1.0) |
+| [DeciLabel](decilabel.md) | Label GitHub Issues/PRs with Jev or other decision models; never removes labels. | TypeScript · GitHub Action (MIT) |
 | [Decision Tagger (Obsidian)](obsidian-decision-tagger.md) | Tag Obsidian notes with TypeSafe Jev System One rules; single-note and vault/folder batch with multi-key concurrency. | JavaScript · Obsidian plugin (MIT) |
 | [decision-first](decision-first.md) | Spot bounded judgments, try TypeSafe Jev first, and log adopt/decline cases for reuse. | Python · agent skill + stdlib scripts |
 | [decisionkit (adityajha2005)](adityajha-decisionkit.md) | Provider-neutral decision CLI, MCP server and Claude Code plugin with a Jev backend. | TypeScript · Node (MIT) |
