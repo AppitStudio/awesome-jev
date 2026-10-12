@@ -815,6 +815,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-plays-runescape](jev-plays-runescape.md) | Jev chooses woodcutting/banking actions on a local 2004Scape server, with safety vetoes. | Game agent · demo (MIT, archived) |
 | [jev-robotics-eval](jev-robotics-eval.md) | Evaluate JEV-compatible robot control on MetaWorld/RoboTwin (text/vision, privilege levels). | Python · eval harness (MIT) |
 | [JevBird](jevbird.md) | Watch Jev play Flappy Bird from a typed Choice over precomputed paths, with live request/response console output; manual mode without a key. | Python 3.10+ · pygame + `typesafe-sdk` (MIT) |
+| [Keeping an NPC on quest](keeping-an-npc-on-quest.md) | Educational NPC demo: staged facts + Jev Choice/Noul checks on every line. | Python · tutorial code (Apache-2.0) |
 | [Ministry of Truth](ministry-of-truth.md) | Play (or study) a game whose only actions are your words, judged by one batched Jev call per briefing with an automatic offline fallback. | Vanilla JS · zero-dependency Node server |
 | [quackd](quackd.md) | Drive multi-robot goals with LLM pilots; optional `--jev` TypeSafe stepper for closed-set verb choices. | Python · CLI (`quackd`) and robot extras |
 | [JevPilot](jevpilot.md) | Inspect sampled driving paths, Jev choices and local braking in a browser simulation; application licensing is unspecified. | JavaScript / Three.js · simulation demo |
