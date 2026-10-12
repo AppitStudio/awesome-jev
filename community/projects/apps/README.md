@@ -1864,6 +1864,24 @@ Open-source Chrome extension that silently hides X ads and posts by account coun
 
 [Full Quiet X guide](quiet-x.md) · [Source](https://github.com/arzumanabbasov/quiet-x)
 
+### Reddit Pain
+
+`Open source` · `Free` · `BYOK`
+
+Chrome extension that labels Reddit posts and comments as you scroll and boxes the ones asking for a product or describing a pain (with intensity 0–3), using TypeSafe Jev with your own key.
+
+**Jev's role:** Jev labels each post/comment that scrolls into view (product request, pain, intensity); the extension draws boxes and caches labels.
+
+**Platform:** Chrome (unpacked extension from release zip)
+
+**Product:** [github.com/Tribespencer/reddit-pain#readme](https://github.com/Tribespencer/reddit-pain#readme)
+
+**Pricing / access:** Free MIT extension; every labelled item is one TypeSafe API call billed to your key. Checked 2026-10-13.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Reddit Pain guide](reddit-pain.md) · [Source](https://github.com/Tribespencer/reddit-pain)
+
 ### Regret Check
 
 `Open source` · `Free source build` · `BYOK`
