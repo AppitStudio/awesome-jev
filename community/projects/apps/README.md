@@ -1542,25 +1542,21 @@ Smart copy/paste beta with clipboard history and an optional Direct Jev mode tha
 
 [Full Jaste guide](jaste.md) · [Product and access](https://jaste.app/)
 
-### Jevcast
+### JEV (marcosdeaza)
 
 `Open source` · `Free source build` · `BYOK`
 
-Native macOS launcher/window manager (Option–Space). Optional TypeSafe Jev matches loose natural-language requests to known actions; core search stays local.
+macOS voice-control exploration: TypeSafe Jev decides intent and target while an Anthropic planner runs continuous sessions.
 
-**Access:** build the [MIT source](https://github.com/RyanErkal/jevcast) on macOS 14+ with Xcode 26+. Launcher works without Jev; optional NL matching needs a TypeSafe or OpenRouter key in Keychain. No app purchase fee; provider usage is separate. Source inspected; macOS build/live Jev not run on the Linux review host.
+**Jev's role:** Jev classifies voice intents and targets for desktop actions.
 
-[Full Jevcast guide](jevcast.md) · [Source](https://github.com/RyanErkal/jevcast) · [Product homepage](https://jevcast.vercel.app)
+**Platform:** macOS (source build)
 
-### JevPaste
+**Product:** [github.com/marcosdeaza/JEV](https://github.com/marcosdeaza/JEV)
 
-`Open source` · `Free source build` · `BYOK`
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
 
-macOS menu bar Smart Paste: TypeSafe Jev picks which exact value from a copied multi-field block fits the focused input.
-
-**Access:** build the [MIT source](https://github.com/taiki510/JevPaste) on macOS 14+ with Swift/Xcode CLT, Accessibility permission, and a TypeSafe key in Keychain. No app purchase fee; provider usage can incur charges. Linux review cited upstream CI; live paste not run here. Distinct from closed-source Jaste.
-
-[Full JevPaste guide](jevpaste.md) · [Source](https://github.com/taiki510/JevPaste)
+[Full JEV (marcosdeaza) guide](marcosdeaza-jev.md) · [Source](https://github.com/marcosdeaza/JEV)
 
 ### Jev Voice
 
@@ -1581,6 +1577,26 @@ Native macOS floating bar for continuous voice and text. Jev selects the next li
 **Access:** build the [public source](https://github.com/ronadin2002/jev-cua) on Apple silicon macOS 14+ with Xcode CLT and an OpenRouter or TypeSafe key (Keychain). No app purchase fee; provider usage can incur charges. **No LICENSE file** in the reviewed tree (not Open source). Live voice/desktop control were not tested on the Linux review host.
 
 [Full Jev Voice (CUA) guide](jev-cua.md) · [Source](https://github.com/ronadin2002/jev-cua)
+
+### Jevcast
+
+`Open source` · `Free source build` · `BYOK`
+
+Native macOS launcher/window manager (Option–Space). Optional TypeSafe Jev matches loose natural-language requests to known actions; core search stays local.
+
+**Access:** build the [MIT source](https://github.com/RyanErkal/jevcast) on macOS 14+ with Xcode 26+. Launcher works without Jev; optional NL matching needs a TypeSafe or OpenRouter key in Keychain. No app purchase fee; provider usage is separate. Source inspected; macOS build/live Jev not run on the Linux review host.
+
+[Full Jevcast guide](jevcast.md) · [Source](https://github.com/RyanErkal/jevcast) · [Product homepage](https://jevcast.vercel.app)
+
+### JevPaste
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS menu bar Smart Paste: TypeSafe Jev picks which exact value from a copied multi-field block fits the focused input.
+
+**Access:** build the [MIT source](https://github.com/taiki510/JevPaste) on macOS 14+ with Swift/Xcode CLT, Accessibility permission, and a TypeSafe key in Keychain. No app purchase fee; provider usage can incur charges. Linux review cited upstream CI; live paste not run here. Distinct from closed-source Jaste.
+
+[Full JevPaste guide](jevpaste.md) · [Source](https://github.com/taiki510/JevPaste)
 
 ### Keel
 
