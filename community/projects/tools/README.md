@@ -709,6 +709,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-shift-router](pi-shift-router.md) | Route Pi turns between cheap and strong model tiers; optional TypeSafe Jev probability judge. | TypeScript · Pi npm extension (MIT) |
 | [pi-subagent-jev](pi-subagent-jev.md) | pi package: gate subagent dispatches via a Jev System One endpoint; expose jev_ask/jev_models (needs pi-subagents). | TypeScript · pi package (MIT) |
 | [pi-thinking-router-jev](pi-thinking-router-jev.md) | Pi extension: TypeSafe Jev (or local rules) picks thinking level low/medium/high/xhigh from task feedback. | TypeScript · Pi extension (license unspecified) |
+| [pi-thunder-guard](pi-thunder-guard.md) | Pi guard: bash and out-of-repo writes run only when Jev is ≥85% sure they follow the rules. | TypeScript · Pi extension (MIT) |
 | [pi-typesafe-approve](pi-typesafe-approve.md) | Pi extension: System One/Jev triage auto-approves routine Bash; escalates the rest to a human. | TypeScript · Pi extension (MIT) |
 | [pi-typesafe-bash-guard](pi-typesafe-bash-guard.md) | Classify Pi bash tool calls and user `!` shells with TypeSafe Jev before execution. | TypeScript · Pi extension (npm `@gowthamgts/pi-typesafe-bash-guard` 0.1.0) |
 | [pi-verdict](pi-verdict.md) | Minimal Pi allow/ask/deny permission gate with optional TypeSafe Jev classifier adapter. | TypeScript · Pi extension (`pi-verdict`, MIT) |
