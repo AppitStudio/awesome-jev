@@ -1002,6 +1002,24 @@ Daily arXiv paper radar: TypeSafe Jev judges every new paper against plain-Engli
 
 [Full Paper Radar guide](paper-radar.md) · [Source](https://github.com/Eliot5566/JEV-Paper-Radar)
 
+### PaperRadar
+
+`Open source` · `Free source build` · `BYOK`
+
+Local web app to browse conference papers (ICML, ICLR, CVPR, NeurIPS and more), filter by research tags and export to Zotero; new tagging runs use TypeSafe Jev.
+
+**Jev's role:** Jev applies your chosen research tags to scraped papers (with a cost estimate first); 25k saved tagging results ship with the app.
+
+**Platform:** Web (local, `uv run research-tagger-web`)
+
+**Product:** [github.com/eyad-al-shami/PaperRadar#readme](https://github.com/eyad-al-shami/PaperRadar#readme)
+
+**Pricing / access:** Free MIT source; browsing bundled data needs no key; new tagging is billed to your TypeSafe key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full PaperRadar guide](paperradar.md) · [Source](https://github.com/eyad-al-shami/PaperRadar)
+
 ### Pastewise
 
 `Source unverified` · `Free` · `BYOK`
