@@ -820,6 +820,22 @@ Plain-language query box that uses TypeSafe Jev to compose screens (forms, confi
 
 [Full jevbar guide](jevbar.md) · [Source](https://github.com/marshallsfolly/jevbar)
 
+### JevChess
+
+`Open source` · `Free source build` · `BYOK`
+
+Mobile-friendly 3D browser chess where TypeSafe Jev chooses among legal moves instead of writing move text.
+
+**Jev's role:** Jev picks the next legal move from a closed option list.
+
+**Platform:** Web browser
+
+**Product:** [github.com/Odinachi/jevchess](https://github.com/Odinachi/jevchess)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full JevChess guide](odinachi-jevchess.md) · [Source](https://github.com/Odinachi/jevchess)
+
 ### JevEye
 
 `Open source` · `Free source build` · `BYOK`
