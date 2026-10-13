@@ -183,7 +183,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [claude-code-jev](claude-code-jev.md) | Claude Code PreToolUse gate: TypeSafe Jev via OpenRouter Decisions classifies allow/block/ask with fixture benchmarks. | Python · CLI/hook (`jev-auto-mode` 0.1.0) |
 | [claude-jev (darwintechlab)](darwintechlab-claude-jev.md) | Claude Code plugin/MCP: live TypeSafe Jev Choice/Noul/Score with auto/escalate confidence labels. | TypeScript · Claude plugin/MCP (MIT) |
 | [claude-jev-funnel](claude-jev-funnel.md) | Bulk TypeSafe Jev funnel for Claude Code: resolve confident YES/NO in code; escalate only the uncertain band. | Python · Claude plugin + CLI (Apache-2.0) |
-| [claude-router (alexei-led)](alexei-led-claude-router.md) | Local Anthropic gateway: Jev routes micro/low/medium/high tiers for Claude Code. | TypeScript · npm gateway plugin (MIT) |
+| [claude-router (alexei-led)](alexei-led-claude-router.md) | Claude Code Mod: Jev (default classifier) picks model and effort per turn by tier and activity. | JavaScript · Claude Code plugin (MIT) |
 | [clear-head](clear-head.md) | Claude Code Stop hook: TypeSafe Jev checks answer claims against what was read this session. | Python · Stop hook + install scripts |
 | [cmd-mod-jev-nudge](cmd-mod-jev-nudge.md) | Command Code stop-hook mod: TypeSafe Jev judges whether unfinished work warrants a continue nudge. | TypeScript · Command Code mod (`cmd-mod-jev-nudge` 0.1.0) |
 | [Cobalt Cockpit](cobalt-cockpit.md) | Claude Code mission-control HUD; optional per-session Jev router gives advisory routing. | TypeScript · Claude Code plugin (MIT) |
