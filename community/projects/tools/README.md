@@ -326,6 +326,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Agent Control](jev-agent-control.md) | Route OpenCode V2 requests between Plan, Build, and custom agents with Jev, plus auto-handoff. | TypeScript · OpenCode plugin (MIT) |
 | [Jev Agent Kit (cloud-f1)](cloud-f1-jev-agent-kit.md) | Prune long Claude Code Bash output locally, with optional Jev relevance scoring and read-back. | TypeScript/Python · Claude Code plugin + CLI (MIT) |
 | [Jev Decisions Plugin for Hermes](jev-decisions-hermes.md) | Jev review tools for Hermes: risk reviews, source checks, and task-completion checks. | Python · agent plugin (MIT) |
+| [jev-inference-router](jev-inference-router.md) | Observable TypeSafe Jev routing with local Apple Silicon LLM inference and evals. | Python · FastAPI (MIT) |
 | [jev-lgtm](jev-lgtm.md) | GitHub Action: Jev reads a PR diff and returns LGTM or Review Advised. | TypeScript · GitHub Action (MIT) |
 | [jev-model-router (m-esm)](m-esm-jev-model-router.md) | Claude Code hook: Jev scores each prompt and picks model + effort. | Python · Claude Code hook (MIT) |
 | [jev-quant](jev-quant.md) | Paper-trade with Jev decisions (via OpenRouter) in an early C++ trading loop. | C++20 · CMake (MIT) |
