@@ -582,52 +582,6 @@ Local inbox action queue: TypeSafe Jev answers seven typed questions per email t
 
 [Full Jev Inbox Queue guide](jev-inbox-queue.md) · [Source](https://github.com/tusharck/jev-inbox-queue)
 
-### Jev Situation Puzzle
-
-`Open source` · `Free` · `BYOK`
-
-Lateral-thinking puzzle game where TypeSafe Jev answers yes / no / irrelevant and judges story reconstructs (English and Chinese).
-
-**Jev's role:** Jev is the live host for yes/no/irrelevant answers and for checking reconstructed truths; no fixed script.
-
-**Platform:** Web (hosted demo or self-host)
-
-**Product:** [puzzle.xiaobaozi.cn](https://puzzle.xiaobaozi.cn/?lang=en)
-
-**Pricing / access:** Free GPL-3.0 source and public demo; live Jev uses the operator's TypeSafe key.
-
-**Access:** Source inspected at a pinned commit; not run on the review host.
-
-[Full Jev Situation Puzzle guide](situation-puzzle.md) · [Source](https://github.com/ZeroTang05/Situation-Puzzle)
-
-### jev-face (Imjungjuna)
-
-`Open source` · `Free source build` · `BYOK`
-
-Browser WebGL face that reacts while you type: TypeSafe Jev judges which emotion a recipient would feel and drives 52 ARKit blendshapes. Distinct from the Java `jevface` SDK listing.
-
-**Jev's role:** Typed emotion/intensity decisions from the draft text.
-
-**Platform:** Web (Three.js)
-
-**Product:** [GitHub README](https://github.com/Imjungjuna/jev-face#readme)
-
-**Pricing / access:** Free MIT source; needs TypeSafe key (usage billed). Checked 2026-10-12.
-
-**Access:** Static/dev server per README. Source inspected; app not run on the review host.
-
-[Full jev-face (Imjungjuna) guide](imjungjuna-jev-face.md) · [Source](https://github.com/Imjungjuna/jev-face)
-
-### Jev会計 (jev-kaikei-free)
-
-`Open source` · `Free source build` · `BYOK`
-
-Local Japanese bookkeeping tool (playful "demon ledger" UI) that shows receipts to Jev, which picks the account, consumption-tax class and whether it is a private expense; confident results become journal entries and the rest drop into a human review queue, exportable as CSV.
-
-**Access:** run the [MIT source](https://github.com/USHIKUNDESUYO/jev-kaikei-free) with Python 3.10+ (`python -m jev_kaikei --mock` needs no key). Live mode needs your own TypeSafe key (usage billed by TypeSafe). Source inspected; app not run on the review host.
-
-[Full Jev会計 (jev-kaikei-free) guide](jev-kaikei.md) · [Source](https://github.com/USHIKUNDESUYO/jev-kaikei-free)
-
 ### Jev Kitchen
 
 `Closed source` · `Free`
@@ -649,26 +603,6 @@ Local interactive workbench with small demos showing TypeSafe Jev System One cap
 **Access:** Clone the [MIT source](https://github.com/BrendanH18/jev-lab), `uv sync --locked`, and `uv run --locked server.py` on localhost:8321. No app purchase fee; TypeSafe usage is separate. Distinct from [jammaru/jev-lab](https://github.com/jammaru/jev-lab). Source inspected; live UI not run on the review host.
 
 [Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
-
-### Jev Studio (CarlosGuedea)
-
-`Source available` · `Free source build` · `BYOK`
-
-Spanish-language visual editor (React Flow + FastAPI) for building and running AI workflows where a `Jev Decision` node is the decision engine next to LLM, Python, HTTP, Condition and Output nodes; real backend execution with graph validation, decision branches and step logs, webhook / interval / cron triggers and SQLite history. Distinct from the listed *Jev Studio* CLI/MCP kit.
-
-**Access:** clone the [source](https://github.com/CarlosGuedea/JEV-Studio) (no LICENSE file — Source available) and self-host with Docker. No app fee; real Jev nodes need your own TypeSafe API key (usage billed by TypeSafe). Source inspected; not run on the review host.
-
-[Full Jev Studio (CarlosGuedea) guide](carlosguedea-jev-studio.md) · [Source](https://github.com/CarlosGuedea/JEV-Studio)
-
-### jev-leads
-
-`Open source` · `Free source build` · `BYOK`
-
-Multi-channel inbound lead intake (web/WhatsApp/Telegram/webhooks) buffered in SQLite WAL, qualified by OpenRouter typesafe/jev-1.13 structured decisions, then synced to Airtable with hot-reloadable per-channel configs.
-
-**Access:** Clone the [MIT source](https://github.com/SebassContreras/jev-leads) and follow upstream setup (Node 24 LTS / Hono). Bring OpenRouter and Airtable credentials. No app purchase fee; provider usage is separate. Source inspected; live intake/inference not run on the review host.
-
-[Full jev-leads guide](jev-leads.md) · [Source](https://github.com/SebassContreras/jev-leads)
 
 ### Jev plays chess
 
@@ -700,6 +634,24 @@ Search across selected sources and explore ranked links with editable filters. J
 
 [Try Jev Search](https://jev.s1.dev/) · [Full Jev Search guide](jev-search.md) · [Source](https://github.com/superagents-lab/jev-search)
 
+### Jev Situation Puzzle
+
+`Open source` · `Free` · `BYOK`
+
+Lateral-thinking puzzle game where TypeSafe Jev answers yes / no / irrelevant and judges story reconstructs (English and Chinese).
+
+**Jev's role:** Jev is the live host for yes/no/irrelevant answers and for checking reconstructed truths; no fixed script.
+
+**Platform:** Web (hosted demo or self-host)
+
+**Product:** [puzzle.xiaobaozi.cn](https://puzzle.xiaobaozi.cn/?lang=en)
+
+**Pricing / access:** Free GPL-3.0 source and public demo; live Jev uses the operator's TypeSafe key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Jev Situation Puzzle guide](situation-puzzle.md) · [Source](https://github.com/ZeroTang05/Situation-Puzzle)
+
 ### Jev Social
 
 `Open source` · `Free source build` · `BYOK`
@@ -719,6 +671,16 @@ Composable song lab: code enumerates legal musical options; TypeSafe Jev picks m
 **Access:** try [jev-songwriter.chardonn.ai](https://jev-songwriter.chardonn.ai) (static replays) or clone the [MIT source](https://github.com/beingcognitive/jev-songwriter) (Node ≥ 22.15). Live compose needs `TYPESAFE_API_KEY`; mock works offline. No app purchase fee; TypeSafe usage is separate. Offline `npm test` **32 pass** on the review host; live compose not run.
 
 [Try Jev Songwriter](https://jev-songwriter.chardonn.ai) · [Full Jev Songwriter guide](jev-songwriter.md) · [Source](https://github.com/beingcognitive/jev-songwriter)
+
+### Jev Studio (CarlosGuedea)
+
+`Source available` · `Free source build` · `BYOK`
+
+Spanish-language visual editor (React Flow + FastAPI) for building and running AI workflows where a `Jev Decision` node is the decision engine next to LLM, Python, HTTP, Condition and Output nodes; real backend execution with graph validation, decision branches and step logs, webhook / interval / cron triggers and SQLite history. Distinct from the listed *Jev Studio* CLI/MCP kit.
+
+**Access:** clone the [source](https://github.com/CarlosGuedea/JEV-Studio) (no LICENSE file — Source available) and self-host with Docker. No app fee; real Jev nodes need your own TypeSafe API key (usage billed by TypeSafe). Source inspected; not run on the review host.
+
+[Full Jev Studio (CarlosGuedea) guide](carlosguedea-jev-studio.md) · [Source](https://github.com/CarlosGuedea/JEV-Studio)
 
 ### Jev Town
 
@@ -740,6 +702,16 @@ Explainable day-trip planner: LLM drafts; TypeSafe Jev screens/compares/reviews;
 
 [Full Jev Trip guide](jev-trip.md) · [Source](https://github.com/liaoyuhua/jev-trip)
 
+### Jev X Sentiment Analysis (jev-v8)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted crypto decision-support web terminal: it pulls 50–1,000 recent tweets about a coin plus market data, pre-processes them statistically, and asks Jev four typed questions (trade action, sentiment, squeeze risk, catalyst) to produce a decision card. It never trades automatically.
+
+**Access:** build the [MIT source](https://github.com/aikeluargalee-tech/jev-v8) and run locally with your own TypeSafe and TwitterAPI.io keys (both usage-billed). No app fee. Not financial advice. Source inspected; app not run on the review host.
+
+[Full Jev X Sentiment Analysis (jev-v8) guide](jev-x-sentiment.md) · [Source](https://github.com/aikeluargalee-tech/jev-v8)
+
 ### jev-demofast
 
 `Open source` · `Free source build` · `BYOK`
@@ -760,6 +732,24 @@ Texas retail electric plan shopper over the Power to Choose corpus: TypeSafe Jev
 
 [Full jev-ercot guide](jev-ercot.md) · [Source](https://github.com/cdubiel08/jev-ercot)
 
+### jev-face (Imjungjuna)
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser WebGL face that reacts while you type: TypeSafe Jev judges which emotion a recipient would feel and drives 52 ARKit blendshapes. Distinct from the Java `jevface` SDK listing.
+
+**Jev's role:** Typed emotion/intensity decisions from the draft text.
+
+**Platform:** Web (Three.js)
+
+**Product:** [GitHub README](https://github.com/Imjungjuna/jev-face#readme)
+
+**Pricing / access:** Free MIT source; needs TypeSafe key (usage billed). Checked 2026-10-12.
+
+**Access:** Static/dev server per README. Source inspected; app not run on the review host.
+
+[Full jev-face (Imjungjuna) guide](imjungjuna-jev-face.md) · [Source](https://github.com/Imjungjuna/jev-face)
+
 ### jev-gmail-filter
 
 `Open source` · `Free source build` · `BYOK`
@@ -769,6 +759,16 @@ Self-hosted local web UI that filters Gmail with plain-English topics using [jev
 **Access:** clone the [MIT source](https://github.com/damiensmith1/jev-gmail-filter), `uv sync`, run `uv run jev-gmail-filter ui` with your own Google OAuth client and TypeSafe key. No app purchase fee; TypeSafe usage separate. Early development. Source inspected; live Gmail/Jev not run on the review host.
 
 [Full jev-gmail-filter guide](jev-gmail-filter.md) · [Source](https://github.com/damiensmith1/jev-gmail-filter)
+
+### jev-leads
+
+`Open source` · `Free source build` · `BYOK`
+
+Multi-channel inbound lead intake (web/WhatsApp/Telegram/webhooks) buffered in SQLite WAL, qualified by OpenRouter typesafe/jev-1.13 structured decisions, then synced to Airtable with hot-reloadable per-channel configs.
+
+**Access:** Clone the [MIT source](https://github.com/SebassContreras/jev-leads) and follow upstream setup (Node 24 LTS / Hono). Bring OpenRouter and Airtable credentials. No app purchase fee; provider usage is separate. Source inspected; live intake/inference not run on the review host.
+
+[Full jev-leads guide](jev-leads.md) · [Source](https://github.com/SebassContreras/jev-leads)
 
 ### jev-mail (vynnlee)
 
@@ -860,6 +860,22 @@ Local read-only Gmail triage into Needs reply / Updates / Promos / Sales / Spam 
 
 [Full Jevmail guide](jevmail.md) · [Source](https://github.com/fazlerocks/jevmail)
 
+### Jevmail (hwong103)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hostable read-only Gmail triage where TypeSafe Jev sorts mail into trays you can correct (Cloudflare Worker + D1 + React PWA).
+
+**Jev's role:** Jev classifies messages into triage trays.
+
+**Platform:** Self-hosted web (Cloudflare Worker + React PWA)
+
+**Product:** [github.com/hwong103/jevmail](https://github.com/hwong103/jevmail)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Jevmail (hwong103) guide](hwong103-jevmail.md) · [Source](https://github.com/hwong103/jevmail)
+
 ### jevmdb
 
 `Open source` · `Free source build` · `BYOK`
@@ -910,16 +926,6 @@ Paste a résumé or backstory and get a 1920s TRPG investigator sheet judged by 
 
 [Try JevTRPG](https://jevtrpg.chroniclecore.com) · [Full JevTRPG guide](jevtrpg.md) · [Source](https://github.com/Zaious/JevTRPG)
 
-### Jev X Sentiment Analysis (jev-v8)
-
-`Open source` · `Free source build` · `BYOK`
-
-Self-hosted crypto decision-support web terminal: it pulls 50–1,000 recent tweets about a coin plus market data, pre-processes them statistically, and asks Jev four typed questions (trade action, sentiment, squeeze risk, catalyst) to produce a decision card. It never trades automatically.
-
-**Access:** build the [MIT source](https://github.com/aikeluargalee-tech/jev-v8) and run locally with your own TypeSafe and TwitterAPI.io keys (both usage-billed). No app fee. Not financial advice. Source inspected; app not run on the review host.
-
-[Full Jev X Sentiment Analysis (jev-v8) guide](jev-x-sentiment.md) · [Source](https://github.com/aikeluargalee-tech/jev-v8)
-
 ### JevZero
 
 `Open source` · `Free source build` · `BYOK`
@@ -929,6 +935,16 @@ Local Gmail inbox helper: TypeSafe Jev classifies category/priority/signals; you
 **Access:** clone and run the [MIT source](https://github.com/jayozer/jevzero) with `uv run jevzero` (Python ≥ 3.12, Node.js 22+). Needs your TypeSafe key and Google OAuth loopback client for live mail; TypeSafe/Google billed separately. Offline `uv run pytest`: 62 passed on this review; live Gmail/TypeSafe not run.
 
 [Full JevZero guide](jevzero.md) · [Source](https://github.com/jayozer/jevzero)
+
+### Jev会計 (jev-kaikei-free)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local Japanese bookkeeping tool (playful "demon ledger" UI) that shows receipts to Jev, which picks the account, consumption-tax class and whether it is a private expense; confident results become journal entries and the rest drop into a human review queue, exportable as CSV.
+
+**Access:** run the [MIT source](https://github.com/USHIKUNDESUYO/jev-kaikei-free) with Python 3.10+ (`python -m jev_kaikei --mock` needs no key). Live mode needs your own TypeSafe key (usage billed by TypeSafe). Source inspected; app not run on the review host.
+
+[Full Jev会計 (jev-kaikei-free) guide](jev-kaikei.md) · [Source](https://github.com/USHIKUNDESUYO/jev-kaikei-free)
 
 ### Liuyao
 
