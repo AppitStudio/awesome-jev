@@ -212,6 +212,24 @@ Free web interview that maps your AI worldview (doom↔bloom) using many TypeSaf
 
 [Try Doom or Bloom](https://www.doom-or-bloom.com) · [Full Doom or Bloom guide](doom-or-bloom.md) · [Source](https://github.com/transitive-bullshit/doom-or-bloom)
 
+### Elo Jev 4 Investment Ideas
+
+`Open source` · `Free source build` · `BYOK`
+
+Local tournament app that ranks investment ideas for further research: TypeSafe Jev judges pairwise matchups per weighted criterion and an Elo leaderboard emerges.
+
+**Jev's role:** Jev compares two ideas at a time on each criterion prompt; the app turns outcomes into Elo ratings.
+
+**Platform:** Web (local Node server)
+
+**Product:** [github.com/DidierRLopes/elo-jev-4-investment-ideas#readme](https://github.com/DidierRLopes/elo-jev-4-investment-ideas#readme)
+
+**Pricing / access:** Free MIT source; judging calls billed to your TypeSafe key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Elo Jev 4 Investment Ideas guide](elo-jev-investment-ideas.md) · [Source](https://github.com/DidierRLopes/elo-jev-4-investment-ideas)
+
 ### enigma-jev
 
 `Open source` · `Free` · `BYOK`
