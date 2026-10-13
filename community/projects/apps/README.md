@@ -1986,6 +1986,24 @@ Judge LinkedIn post writing with TypeSafe Jev (11–12 typed questions), then fo
 
 [Full Slop Mop guide](slop-mop.md) · [Source](https://github.com/tomfrazier/slopmop)
 
+### Smart Find
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that works like Ctrl+F for questions: ask a page a question and TypeSafe Jev scores page passages so the answers are highlighted.
+
+**Jev's role:** Jev scores each passage (with its section heading) against your question, 8 passages per request; code highlights matches and marks the scrollbar.
+
+**Platform:** Chrome (load unpacked)
+
+**Product:** [github.com/eduardoalba00/smart-find#readme](https://github.com/eduardoalba00/smart-find#readme)
+
+**Pricing / access:** Free MIT extension; each search is billed to your TypeSafe key (upstream reports US$0.0005–0.007).
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Smart Find guide](smart-find.md) · [Source](https://github.com/eduardoalba00/smart-find)
+
 ### Smart Paste
 
 `Open source` · `Free source build` · `BYOK`
