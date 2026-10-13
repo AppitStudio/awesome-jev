@@ -132,6 +132,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-chaperone](agent-chaperone.md) | Calibrated MCP + hooks firewall: TypeSafe Jev screens tool calls/results with policy thresholds and a shadow log. | TypeScript · npm CLI (`agent-chaperone` 0.3.1, Apache-2.0) |
 | [agent-evals](agent-evals.md) | Deterministic agent eval harness: rule scorers plus optional calibrated TypeSafe Jev judge as a CI gate. | TypeScript · npm CLI (`agent-evals` 0.1.0) |
 | [agent-fastpath](agent-fastpath.md) | MCP decision layer: rules then TypeSafe Jev for ship/risk/triage/browser gates (files stay out of agent context). | TypeScript · npm CLI (`agent-fastpath` 0.2.0) |
+| [agent-on-agent-ids](agent-on-agent-ids.md) | Agent intrusion detection over Opik traces; Jev or Haiku as the judge. | Python · judge spec + installer (Apache-2.0) |
 | [agent-tree](agent-tree.md) | See who is working in a Claude Code session, with opt-in Jev flags for loops and stalls. | TypeScript · Claude Code plugin/mod, zero npm deps (MIT) |
 | [AgentRun](agentrun.md) | Write agent workflows where Jev gates answers (for example, confidence ≥ 0.8 before replying), ranks candidates, or screens evidence; includes a Pi extension. | TypeScript · npm `@parcha/agentrun-dsl` + `@parcha/agentrun-jev` + `@parcha/agentrun-pi` (beta, Apache-2.0) |
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
@@ -256,6 +257,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [effortless](effortless.md) | Let easy prompts run at low effort and hard ones at high without touching the Effort control, using Jev as a fast judge when you have a key. | TypeScript · Claude Code plugin (MIT) |
 | [Engraphis](engraphis.md) | Durable coding-agent memory across sessions; optional advisory Jev decisions (`ENGRAPHIS_DECISION_BACKEND`, pinned `jev-1.13.0`). | Python · pip package + MCP server + WebUI (Apache-2.0) |
 | [enowx](enowx.md) | Hand small typed judgments in an agent team to Jev (`jev-latest`), Cloudflare Clef (the default provider), a compatible endpoint, or a configured LLM, each with its own switch and threshold. | Rust · CLI binary (macOS/Linux/Windows releases) (Apache-2.0) |
+| [estate-guardian](estate-guardian.md) | Overnight agent-fleet watchdog; Jev classifies free-text failures the rules miss. | Python · script (MIT) |
 | [Eutrya](eutrya.md) | Run a CLI agent loop where TypeSafe Jev picks attention modes and scores candidates; text model proposes; offline demo included (alpha). | Node.js · CLI (`eutrya` 0.4.9) |
 | [evidence-referee](evidence-referee.md) | Evidence-over-eloquence Claude Code plugin: Jev done-gates and judgment receipts (≠ claude-referee). | Claude Code plugin (MIT) |
 | [EvolveRoute](evolve-router.md) | Local Rust LLM gateway that routes each request with Jev plus a heuristic, with an audit log. | Rust · gateway (MIT) |
