@@ -1584,6 +1584,24 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 ## Android apps
 
+### axo-launcher
+
+`Open source` · `Free source build` · `BYOK`
+
+Minimalist Android launcher (Portuguese docs): text-only home, grayscale screen and delays for distracting apps; quick-capture phrases are classified offline, with TypeSafe Jev deciding the ambiguous ones.
+
+**Jev's role:** When the offline keyword classifier is unsure what kind of item a phrase is, Jev (`typesafe/jev-1.13` via OpenRouter) chooses among the offered types; cached, capped at 300 calls/day.
+
+**Platform:** Android 8+ (build from source; tuned for Xiaomi HyperOS)
+
+**Product:** [github.com/axolutions/axo-launcher#readme](https://github.com/axolutions/axo-launcher#readme)
+
+**Pricing / access:** Free MIT source; optional OpenRouter key for Jev (reported ~US$0.000018 per phrase).
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full axo-launcher guide](axo-launcher.md) · [Source](https://github.com/axolutions/axo-launcher)
+
 ### JevBystander
 
 `Open source` · `Free source build` · `BYOK`
