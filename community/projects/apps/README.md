@@ -48,6 +48,22 @@ Tiny static web app for yes/no questions via TypeSafe Jev Noul through OpenRoute
 
 [Full AskJev (openconstruct) guide](openconstruct-askjev.md) · [Source](https://github.com/openconstruct/askjev)
 
+### Beat Jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Penalty shootout against TypeSafe Jev on Render Workflows with Python and TypeScript examples.
+
+**Jev's role:** Jev decides shoot/save outcomes in the match workflow.
+
+**Platform:** Web / Render Workflows
+
+**Product:** [github.com/ojusave/beat-jev](https://github.com/ojusave/beat-jev)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Beat Jev guide](beat-jev.md) · [Source](https://github.com/ojusave/beat-jev)
+
 ### beebots
 
 `Open source` · `Free source build` · `BYOK`
