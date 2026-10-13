@@ -582,6 +582,24 @@ Local inbox action queue: TypeSafe Jev answers seven typed questions per email t
 
 [Full Jev Inbox Queue guide](jev-inbox-queue.md) · [Source](https://github.com/tusharck/jev-inbox-queue)
 
+### Jev Situation Puzzle
+
+`Open source` · `Free` · `BYOK`
+
+Lateral-thinking puzzle game where TypeSafe Jev answers yes / no / irrelevant and judges story reconstructs (English and Chinese).
+
+**Jev's role:** Jev is the live host for yes/no/irrelevant answers and for checking reconstructed truths; no fixed script.
+
+**Platform:** Web (hosted demo or self-host)
+
+**Product:** [puzzle.xiaobaozi.cn](https://puzzle.xiaobaozi.cn/?lang=en)
+
+**Pricing / access:** Free GPL-3.0 source and public demo; live Jev uses the operator's TypeSafe key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Jev Situation Puzzle guide](situation-puzzle.md) · [Source](https://github.com/ZeroTang05/Situation-Puzzle)
+
 ### jev-face (Imjungjuna)
 
 `Open source` · `Free source build` · `BYOK`
