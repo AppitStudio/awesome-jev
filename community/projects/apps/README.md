@@ -424,6 +424,24 @@ File a local document folder into configured categories with TypeSafe Jev (Verce
 
 [Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
 
+### Jev Fighter
+
+`Open source` · `Free` · `BYOK`
+
+Stick-figure fighting game where AI decision models such as Jev 1.13 and chat LLMs fight each other, doubling as a benchmark with deterministic replays, decision logs and an Elo leaderboard.
+
+**Jev's role:** Jev (via Opper) picks each fighter move from the game state; every decision is logged for replay and stats.
+
+**Platform:** Web (browser); self-host with Node.js
+
+**Product:** [jev-fighter.apps.sabater.io](https://jev-fighter.apps.sabater.io)
+
+**Pricing / access:** Hosted demo at jev-fighter.apps.sabater.io; model matches use your Opper key (author estimate $0.001–$0.02 per classifier match); baseline matches need no key. Checked 2026-10-13.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Try Jev Fighter](https://jev-fighter.apps.sabater.io) · [Full Jev Fighter guide](jev-fighter.md) · [Source](https://github.com/Jose-Sabater/jev-fighter)
+
 ### Jev Fraud Shield
 
 `Open source` · `Free source build` · `BYOK`
