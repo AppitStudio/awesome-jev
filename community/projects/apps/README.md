@@ -1824,6 +1824,24 @@ Privacy-conscious local-first chat signal analyzer: on-device redaction, then Ty
 
 ## Browser extensions
 
+### AI, SI, or Whatever
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that lets TypeSafe Jev choose AI / SI / alternating / custom webpage terminology per page.
+
+**Jev's role:** Optional Jev path scores short candidate snippets and picks the terminology mode.
+
+**Platform:** Chrome extension
+
+**Product:** [github.com/SjJ1017/ai-si-or-whatever#readme](https://github.com/SjJ1017/ai-si-or-whatever#readme)
+
+**Pricing / access:** Free MIT source; optional TypeSafe key for Jev mode.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full AI, SI, or Whatever guide](ai-si-or-whatever.md) · [Source](https://github.com/SjJ1017/ai-si-or-whatever)
+
 ### Auto-Oui
 
 `Open source` · `Free` · `BYOK`
