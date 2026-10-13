@@ -1386,6 +1386,22 @@ Status-update honesty auditor: TypeSafe Jev judges language while local code par
 
 [Full Watermelon guide](watermelon.md) · [Source](https://github.com/shashwatc12/watermelon) · [Product homepage](https://watermelon.shashwatchavan.com)
 
+### Zearch
+
+`Open source` · `Free source build` · `BYOK`
+
+Perplexity-style open-source UI for TypeSafe Jev: search to evidence state to typed decisions.
+
+**Jev's role:** Jev turns search evidence into typed research decisions.
+
+**Platform:** Self-hosted web
+
+**Product:** [github.com/zearchcomputer/zearch](https://github.com/zearchcomputer/zearch)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Zearch guide](zearch.md) · [Source](https://github.com/zearchcomputer/zearch)
+
 ## Desktop apps
 
 ### AI Plays Pokémon (kotlinds)
