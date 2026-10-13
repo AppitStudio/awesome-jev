@@ -1578,6 +1578,24 @@ Mac ⌥Space assistant for any app with a Decision mode: ask yes/no, choice or l
 
 [Full Meraline guide](meraline.md) · [Source](https://github.com/Meldiron/meraline)
 
+### Mish
+
+`Open source` · `Free source build` · `BYOK`
+
+Local-first AI design workspace: write a brief and a local agent CLI builds the design; in the agency fast lane, TypeSafe Jev routes the brief to a site family and verifies facts before publishing.
+
+**Jev's role:** One Jev request places the brief on the Website Shape Atlas and picks a family package; Jev then checks each fact against the brief and strict mode blocks publishing on invented or missing facts.
+
+**Platform:** macOS (Apple Silicon DMG, not notarized) or build from source
+
+**Product:** [github.com/ZeroSum-Solutions/mish/releases/latest](https://github.com/ZeroSum-Solutions/mish/releases/latest)
+
+**Pricing / access:** Free Apache-2.0 app; uses your agent CLI subscription (Claude Code/Codex) and your own TypeSafe key for routing/verification.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Mish guide](mish.md) · [Source](https://github.com/ZeroSum-Solutions/mish)
+
 ### PetPaw
 
 `Source available` · `Free` · `BYOK`
