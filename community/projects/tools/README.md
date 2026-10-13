@@ -151,6 +151,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [AutoRouter (claude-autorouter)](claude-autorouter.md) | Use cheaper Claude models for simple coding turns in one session, with Jev as an optional hosted evaluator. | Node.js 22+ · npm `claude-autorouter` (Apache-2.0) |
 | [azir-dispatch](azir-dispatch.md) | Route herdr coding-agent tasks with Jev and watch them on a live terminal board. | Python · CLI (MIT) |
 | [barmkin-mod](barmkin-mod.md) | Harden Claude Code sessions with redaction, taint tracking and an optional Jev injection screen. | TypeScript · Claude Code mod/plugin (no LICENSE) |
+| [Baton Agent Orchestrator](baton-agent-orchestrator.md) | `jev` CLI pipeline: Jev picks agent, model and effort per step (plan → validate → build → review). | Python · CLI (Apache-2.0) |
 | [beam-cli](beam-cli.md) | Local AgentBeam hooks/policy for coding agents; optional TypeSafe Jev Noul/Score action judging (off by default). | TypeScript · npm CLI (`@agent-beam/beam` 0.2.16, AGPL-3.0) |
 | [bekko-system-one](bekko-system-one.md) | Small System One decision models (17M–400M) for Yes/No, Choice, and Score (independent open weights). | Python · local models (MIT) |
 | [bitrate-advisor](bitrate-advisor.md) | Choose live-stream encoder bitrate/resolution/next-step with TypeSafe Jev via OpenRouter inside deterministic guardrails. | TypeScript · Deno/Node library (`@affirmi/bitrate-advisor` 0.2.7) |
