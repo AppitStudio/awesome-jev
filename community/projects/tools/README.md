@@ -658,6 +658,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [model-router (muhx)](muhx-model-router.md) | Per-task model/effort routing for Claude Code with calibrated Jev confidence. | TypeScript · Claude Code plugin/mod (MIT) |
 | [model-router-python](model-router-python.md) | Filter models by limits/budget, then ask TypeSafe Jev which remaining model should handle the prompt. | Python · PyPI library (MIT) |
 | [ModelRudder](modelrudder.md) | Route native Codex requests to the right model tier using your own Jev key. | TypeScript · Node 24 launcher for Codex CLI (MIT, preview) |
+| [mods (iuliandita)](iuliandita-mods.md) | Claude Code mods you can install one at a time, including optional TypeSafe Jev client injection. | Claude Code mods / hooks (MIT) |
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
 | [mu](mu.md) | Run a pi-based coding agent where Jev (or a local Laya judge, a classifier, or an LLM) makes routine calls; compare judges in shadow mode via `mu ledger` before activating a decision point. | TypeScript · npm `mu-agent` CLI + desktop app (pre-release 0.1.x, MIT) |
 | [mushy-lint](mushy-lint.md) | Enforce meaning-level conventions (comment rationale, function responsibility, failure handling, test titles) in CI with explicit targets, conditions and questions. | TypeScript (Bun) · CLI (MIT) |
