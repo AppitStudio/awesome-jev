@@ -549,6 +549,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-use (shitianfang)](jev-use.md) | Route the no-text steps of a Claude Code, Codex or pi loop to Jev, with an opt-in PreToolUse gate and typed handbacks to the LLM. | TypeScript · MCP server, CLI and agent plugin |
 | [jev-verify (stillmarcus24)](stillmarcus-jev-verify.md) | Audit published Jev answers against the Yurin confidence identity; flag fixture violations. | JavaScript · CLI (MIT) |
 | [jev-web-skills](jackson7705-jev-web-skills.md) | Run five tested website-building workflows where TypeSafe Jev judges page maps, migration, silo/doorway QA, and routing. | Python · skills pack (MIT) |
+| [jev-workflow](gbesse-jev-workflow.md) | Decision contracts, adversarial testing, tracing, stability, and privacy controls for TypeSafe Jev. | TypeScript toolkit (MIT) |
 | [jev-xray](jev-xray.md) | X-ray a codebase with one typed Jev call per file and a live, shareable treemap. | JavaScript · Node CLI + local web UI (MIT) |
 | [JEV_accel](jev-accel.md) | One-call scope/firmware checks for an agent on a TI C2000 + RIGOL bench, with Jev for edge cases. | Python · package + CLI + MCP server (no LICENSE) |
 | [Jev_validation_agent](jev-validation-agent.md) | Python Jev Guard validating agent outputs via TypeSafe Jev with reports and a local demo UI. | Python · package + demo (MIT) |
