@@ -257,6 +257,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [effortless](effortless.md) | Let easy prompts run at low effort and hard ones at high without touching the Effort control, using Jev as a fast judge when you have a key. | TypeScript · Claude Code plugin (MIT) |
 | [Engraphis](engraphis.md) | Durable coding-agent memory across sessions; optional advisory Jev decisions (`ENGRAPHIS_DECISION_BACKEND`, pinned `jev-1.13.0`). | Python · pip package + MCP server + WebUI (Apache-2.0) |
 | [enowx](enowx.md) | Hand small typed judgments in an agent team to Jev (`jev-latest`), Cloudflare Clef (the default provider), a compatible endpoint, or a configured LLM, each with its own switch and threshold. | Rust · CLI binary (macOS/Linux/Windows releases) (Apache-2.0) |
+| [estate-guardian](estate-guardian.md) | Overnight agent-fleet watchdog; Jev classifies free-text failures the rules miss. | Python · script (MIT) |
 | [Eutrya](eutrya.md) | Run a CLI agent loop where TypeSafe Jev picks attention modes and scores candidates; text model proposes; offline demo included (alpha). | Node.js · CLI (`eutrya` 0.4.9) |
 | [evidence-referee](evidence-referee.md) | Evidence-over-eloquence Claude Code plugin: Jev done-gates and judgment receipts (≠ claude-referee). | Claude Code plugin (MIT) |
 | [EvolveRoute](evolve-router.md) | Local Rust LLM gateway that routes each request with Jev plus a heuristic, with an audit log. | Rust · gateway (MIT) |
