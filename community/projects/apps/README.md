@@ -2234,6 +2234,24 @@ Terminal app that keeps meetings on the record: Claude extracts decisions, actio
 
 [Full meeting-ledger guide](meeting-ledger.md) · [Source](https://github.com/owen-alderson/meeting-ledger)
 
+### Nectra
+
+`Open source` · `Free source build` · `BYOK`
+
+One chat in front of Claude Code, Codex, Gemini CLI and Ollama: each message is classified and routed to the model that should answer it, then that provider's real terminal opens.
+
+**Jev's role:** Jev classifies each prompt's task type and needed capability; Nectra's scorer picks the model and runtime and explains why.
+
+**Platform:** Command line (Rust)
+
+**Product:** [github.com/MBarc/nectra#readme](https://github.com/MBarc/nectra#readme)
+
+**Pricing / access:** Free MIT source; you use your existing provider subscriptions/keys plus a TypeSafe key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Nectra guide](nectra.md) · [Source](https://github.com/MBarc/nectra)
+
 ### Omarchy Mail
 
 `Open source` · `Free source build` · `BYOK`
