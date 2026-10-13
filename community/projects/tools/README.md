@@ -697,6 +697,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-jev-router](pi-jev-router.md) | Route pi tasks across OpenRouter models with TypeSafe Jev classification and local Pareto/role policy (shadow default). | TypeScript · Pi extension (`pi-jev-router` 0.1.0) |
 | [pi-jev-sentinel](pi-jev-sentinel.md) | Check Pi/Claude/Codex tool calls, outputs, and replies with Jev intent/risk and injection screens (fail-closed without a key). | TypeScript · Pi extension and host hooks |
 | [pi-jev-thinking](pi-jev-thinking.md) | Pi extension: Jev picks the thinking level for each prompt. | TypeScript · Pi extension (MIT) |
+| [pi-jev-thinking-router](pi-jev-thinking-router.md) | Pi/omp effort-only routing: Jev picks thinking level per turn, model unchanged. | TypeScript + Python · Pi extension (Apache-2.0) |
 | [pi-magic8ball](pi-magic8ball.md) | Pi advisory choice tool: neutral context in, Jev or Clef choice distribution out. | JavaScript · Pi extension (MIT) |
 | [pi-next-prompt](pi-next-prompt.md) | Show a single Jev-vetted next-prompt suggestion after each Pi run. | TypeScript · Pi extension (MIT) |
 | [pi-reply-guard](pi-reply-guard.md) | Enforce skill adherence on Pi agent replies with a Jev probability and automatic rewrites. | TypeScript · Pi extension, npm `pi-reply-guard` (MIT) |
