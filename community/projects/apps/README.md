@@ -1324,6 +1324,24 @@ Intraday Nifty-50 trading bot where TypeSafe Jev ranks names and code sizes/stop
 
 ## macOS apps
 
+### AI Model Picker
+
+`Open source` · `Free`
+
+Native macOS assistant: describe a task, review rule-ranked app/model/effort choices, and open or prepare the task in the client you already use; optional TypeSafe Jev classification.
+
+**Jev's role:** Optional Jev classification of the task description feeds the ranking; offline rules work without it.
+
+**Platform:** macOS (alpha, ad hoc signed, not notarized)
+
+**Product:** [github.com/Gavinluo19/ai-model-picker/releases](https://github.com/Gavinluo19/ai-model-picker/releases)
+
+**Pricing / access:** Free MIT download; optional TypeSafe key for Jev classification.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full AI Model Picker guide](ai-model-picker.md) · [Source](https://github.com/Gavinluo19/ai-model-picker)
+
 ### Capture (sgaabdu4)
 
 `Open source` · `Free source build` · `BYOK`
