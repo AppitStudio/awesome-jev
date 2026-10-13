@@ -892,9 +892,9 @@ These projects study related typed-decision patterns using other models. They ar
 | [Decision Index (apolinario)](apolinario-decision-index.md) | Reproduce the Decision Index typed-decision benchmark suite locally or as one Hugging Face Job (not affiliated with TypeSafe). | Python · Decision Index kit + HF Jobs (MIT) |
 | [Decision Layer Benchmark](decision-layer-benchmark.md) | Cost of agent decision layers on OpenAI/Anthropic/Google vs Jev, rerunnable. | Python · benchmark + report (MIT) |
 | [Decision Model Arena](decision-model-arena.md) | Tetris, bomb battle and image questions comparing Jev, OpenAI Decisions, Decision-1 and Laya. | Python + JavaScript · demo arena (MIT) |
+| [Decision models on Polish historical gazetteer entries (IHPAN)](ihpan-modele-decyzyjne-test.md) | Compare Jev with TEV1 and Basal on 250 human-labelled Polish gazetteer fragments. | Python · eval scripts + data (Apache-2.0) |
 | [Decision-model referral on medical exams](decision-model-referral.md) | Reproduce a confidence-based referral study of Jev and other decision models on medical licensing questions. | Python · research code + data (MIT code; question data under source licences) |
 | [DecisionBench](decisionbench.md) | Reproduce a Jev-vs-LLM comparison on typed invoice decisions and inspect where they disagree. | TypeScript · harness + dashboard, Postgres (MIT) |
-| [Decision models on Polish historical gazetteer entries (IHPAN)](ihpan-modele-decyzyjne-test.md) | Compare Jev with TEV1 and Basal on 250 human-labelled Polish gazetteer fragments. | Python · eval scripts + data (Apache-2.0) |
 | [Deqio](deqio.md) | Self-host typed noul/choice/shared decisions behind one local API with swappable engines (Kev/Laya/Open-Jev, etc.). | Python · local decision server + UI (MIT) |
 | [dopp](dopp.md) | Proxy Jev-shaped decisions, capture traffic, train a small owned model, and serve hosted/offline/in-browser. | Python/TypeScript · capture + train/serve (MIT) |
 | [DriveJev](drivejev.md) | Run/study DriveJev-4B open System I driving decisions (behaviour probabilities) with the JevPilot closed-loop harness. | Python · HF weights + simulator harness (MIT) |
@@ -907,46 +907,47 @@ These projects study related typed-decision patterns using other models. They ar
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
 | [Jeeves (PostHog)](posthog-jeeves.md) | Run a 9B Jev-like reasoning decision model (noul/choice/score) via a Jev-compatible API; independent of hosted TypeSafe Jev. | Python · open weights + serving (MIT) |
 | [Jeff (firelex)](firelex-jeff.md) | Run Jev-format choice/noul/score decisions locally with a small base model plus task adapters, e.g. in front of a larger local LLM. | Python · `jeff-serve` (uv) · Hugging Face weights / GGUF |
-| [Jev Bench (cocodedk)](cocodedk-jev-bench.md) | Classifier workbench: repeatable Jev latency/accuracy runs (Banking77, OpenRouter). | Python · CLI workbench (Apache-2.0) |
-| [Jev RAG Chinese Benchmark](jev-rag-zh-benchmark.md) | Chinese reranking benchmark (T2Reranking) for Jev Score/Noul with frozen protocol and logs. | Python · benchmark (MIT) |
-| [JevBench (Leanmcp)](leanmcp-jevbench.md) | Benchmark Jev against other typed decision models across six task clusters. | Python · benchmark + dataset (MIT) |
 | [Jev + Claude Code case study](jev-claude-code-case-study.md) | Two runnable patterns (Jev inside an app, Jev guarding Claude Code) with offline evals and written research. | Python 3.11+ · `typesafe-sdk` (MIT) |
-| [jev-guardrail-benchmark](jev-guardrail-benchmark.md) | Reproduce WSO2 AI Gateway TypeSafe Jev guardrail accuracy/latency/cost vs Azure Content Safety and an LLM judge. | Python · WSO2 AI Gateway benchmark (Apache-2.0) |
-| [jev-imdb-benchmark](jev-imdb-benchmark.md) | Reproduce Jev IMDB review benchmarks (sentiment/spoilers/quality) with published metrics. | Python · IMDB benchmark harness (MIT) |
-| [Jev-Lite](jev-lite.md) | Serve local System One–style Choice/Score/Noul decisions via FastAPI (Qwen backbone; independent of hosted Jev). | Python · FastAPI + PyTorch (Apache-2.0) |
-| [jev-polymarket-test](jev-polymarket-test.md) | See whether Jev beats Polymarket prices on resolved markets, with a memorisation check. | Python · research scripts (MIT) |
-| [jev-testbench](jev-testbench.md) | Reproduce budget-capped, evidence-labelled Jev capability probes with an offline suite. | Python · research harness (MIT) |
-| [jev-vs-clef](jev-vs-clef.md) | Decide whether Clef can replace Jev for your decision traffic, with raw dated evidence. | Python · stress harness + reports (no LICENSE) |
-| [jev-zh-tw-eval](jev-zh-tw-eval.md) | Reproduce zh-TW System One evals (Plumb-4B/Ollama) with adversarial and calibration probes (independent of hosted Jev). | Python · Ollama `/v1/systemone` eval toolkit (MIT; docs separate) |
-| [JevAlt](jevalt.md) | Run open Jev-API–compatible Choice/Score/Noul models locally (EN/TR/DE) on CPU; not TypeSafe-hosted. | Python · HF open models (Apache-2.0) |
+| [Jev Bench (cocodedk)](cocodedk-jev-bench.md) | Classifier workbench: repeatable Jev latency/accuracy runs (Banking77, OpenRouter). | Python · CLI workbench (Apache-2.0) |
+| [JEV MLX](jev-mlx.md) | Typed decisions from existing MLX-LM and MLX-VLM models on Apple Silicon without fine-tuning or extra decision weights. | Python library (Apple Silicon MLX) (MIT) |
+| [Jev RAG Chinese Benchmark](jev-rag-zh-benchmark.md) | Chinese reranking benchmark (T2Reranking) for Jev Score/Noul with frozen protocol and logs. | Python · benchmark (MIT) |
 | [jev-browsecomp](jev-browsecomp.md) | Measure Jev document screening vs RLM/LLM arms on BrowseComp-Plus with id→span citation checks. | Python · research harness (Apache-2.0) |
 | [jev-calibration](jev-calibration.md) | Plot and reproduce Jev calibration (reliability/ECE) on 240 labelled tool-call cases. | Python research scripts (Apache-2.0) |
 | [jev-fanout-bench](jev-fanout-bench.md) | Measure Jev multi-question fan-out billing linearity and savings vs separate calls. | Python · benchmark + raw results (MIT) |
 | [jev-frontier-bench](jev-frontier-bench.md) | Reproduce Jev vs frontier LLM typed-decision accuracy/calibration/cost on shared 200-item set. | Python · benchmark suite (MIT) |
+| [jev-guardrail-benchmark](jev-guardrail-benchmark.md) | Reproduce WSO2 AI Gateway TypeSafe Jev guardrail accuracy/latency/cost vs Azure Content Safety and an LLM judge. | Python · WSO2 AI Gateway benchmark (Apache-2.0) |
+| [jev-imdb-benchmark](jev-imdb-benchmark.md) | Reproduce Jev IMDB review benchmarks (sentiment/spoilers/quality) with published metrics. | Python · IMDB benchmark harness (MIT) |
 | [Jev-LCT](jev-lct.md) | Looped Calibration Transformer System One engine with Jev-shaped Choice/Noul/Score serving; independent of hosted Jev. | Python · research engine + HF weights (Apache-2.0) |
-| [Jevometry](jevometry.md) | Analyze System One / Jevlike decision probability models with information geometry (Fisher sensitivity); does not orchestrate agents. | Python · research toolkit (MIT) |
+| [Jev-Lite](jev-lite.md) | Serve local System One–style Choice/Score/Noul decisions via FastAPI (Qwen backbone; independent of hosted Jev). | Python · FastAPI + PyTorch (Apache-2.0) |
 | [Jev-Omni](jev-omni.md) | Run an open multimodal System One–style classifier (text/image/audio/video → option probabilities) on Gemma 4 12B IT; independent of official Jev. | Python / PyTorch · HF weights (CUDA, ~50 GB FP32) |
 | [jev-omni.js](jev-omni-js.md) | Run independent Jev-Omni multimodal decisions in-browser on WebGPU (text+images; WIP video/audio). | JavaScript · onnxruntime-web (Apache-2.0) |
+| [jev-polymarket-test](jev-polymarket-test.md) | See whether Jev beats Polymarket prices on resolved markets, with a memorisation check. | Python · research scripts (MIT) |
 | [jev-router (peptidehackers)](peptidehackers-jev-router.md) | Train/serve schema-typed probability heads with Wilson-certified act-or-escalate routing (numpy-only; independent of hosted Jev). | Python · numpy library + infer/approve/monitor (MIT) |
 | [Jev-Style](jev-style.md) | Local System One–compatible decision models + skills/guard/MCP tooling; independent of hosted Jev. | Python · local server + skills/MCP (Apache-2.0) |
 | [jev-switch](arcj137442-jev-switch.md) | Expose `/v1/systemone` locally and route/failover across configured upstream adapters (Vercel, Laya) via an editable DAG; dashboard + Tauri shell. | Rust (axum) · React UI · Tauri · Docker |
+| [jev-testbench](jev-testbench.md) | Reproduce budget-capped, evidence-labelled Jev capability probes with an offline suite. | Python · research harness (MIT) |
+| [jev-vs-clef](jev-vs-clef.md) | Decide whether Clef can replace Jev for your decision traffic, with raw dated evidence. | Python · stress harness + reports (no LICENSE) |
+| [jev-web](jev-web.md) | Run open-jev/Laya/Strands/Bekko/Decision 2.0 typed decisions in-browser after weight cache (no hosted TypeSafe required). | TypeScript · npm `jev-web` + Transformers.js (MIT) |
+| [jev-zh-tw-eval](jev-zh-tw-eval.md) | Reproduce zh-TW System One evals (Plumb-4B/Ollama) with adversarial and calibration probes (independent of hosted Jev). | Python · Ollama `/v1/systemone` eval toolkit (MIT; docs separate) |
+| [JevAlt](jevalt.md) | Run open Jev-API–compatible Choice/Score/Noul models locally (EN/TR/DE) on CPU; not TypeSafe-hosted. | Python · HF open models (Apache-2.0) |
 | [jevbench (dhruvmehra)](dhruvmehra-jevbench.md) | Reproduce TypeSafe Jev vs LLM/BERT/Laya/NLI text-classification accuracy, calibration, latency, throughput, and cost… | Python · benchmark suite (MIT) |
+| [JevBench (Leanmcp)](leanmcp-jevbench.md) | Benchmark Jev against other typed decision models across six task clusters. | Python · benchmark + dataset (MIT) |
 | [JevBench (metamorphic)](jevbench.md) | Run metamorphic coherence tests (50 probability/choice laws) on typed decision models; no gold labels required. | Python · PyPI (`jevbench`, Apache-2.0) |
 | [JevEmbed](jevembed.md) | Turn embedding models into Choice/Score/Noul decisions via a Jev-shaped Python API/CLI/HTTP server. | Python · framework + HF configs (Apache-2.0) |
 | [Jevlet](jevlet.md) | From-scratch System One–style decision model research + Windows command palette; independent of hosted Jev. | Python · research model + desktop app (MIT) |
 | [Jevlike](jevlike.md) | Train a small option-attention scorer with synthetic data and optional frozen encoders; independent of official Jev. | Python / PyTorch · research starter |
+| [Jevometry](jevometry.md) | Analyze System One / Jevlike decision probability models with information geometry (Fisher sensitivity); does not orchestrate agents. | Python · research toolkit (MIT) |
 | [jevos](jevos.md) | Serve yes/no (Noul) decisions from a CPU-only, offline 1B GGUF model behind a Jev-compatible `/v1/systemone` API. | Python/FastAPI · llama.cpp GGUF weights (MIT) |
 | [JevOss](jevoss.md) | Probe suite for Jev-API decision models: accuracy, calibration, adversarial recipes. | Python · eval harness (Apache-2.0) |
-| [jev-web](jev-web.md) | Run open-jev/Laya/Strands/Bekko/Decision 2.0 typed decisions in-browser after weight cache (no hosted TypeSafe required). | TypeScript · npm `jev-web` + Transformers.js (MIT) |
 | [JevServe](jevserve.md) | GPU server for open-weight Jev-style decision models (Open-Jev, Kev and others). | Python · Docker image (Apache-2.0) |
 | [JevTalk](jevtalk.md) | Makes Jev spell plain-English answers one choice at a time. | Python · script (MIT) |
-| [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
 | [kev-onnx-cpu](kev-onnx-cpu.md) | Run the open Kev 0.6B decision model on CPU with only onnxruntime and numpy. | Python · library + scripts (Apache-2.0) |
+| [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
 | [L2S1](l2s1.md) | Turn local GGUF model scores into typed binary/choice/ordinal decisions with abstention policy (not TypeSafe-hosted). | Rust · CLI/runtime + SDKs (MIT) |
 | [laya-candle](laya-candle.md) | Run local Laya typed Choice/Score/Noul in pure Rust via Candle (no Python; not TypeSafe-hosted). | Rust · Candle crate (Apache-2.0) |
 | [laya-guardrails](laya-guardrails.md) | Fast input/tool/output guardrails using self-hosted laya-pt-es-typed System One (not hosted Jev). | Python · FastAPI + HF model (Apache-2.0) |
-| [layajev](layajev.md) | Serve a local `/v1/systemone` subset on verified Laya (in-process Go/ONNX); not TypeSafe-hosted. | Go · npm (`@metalagman/layajev`, MIT) |
 | [laya-vs-jev](zaferayan-laya-vs-jev.md) | Head-to-head local Laya (MLX) / Ollaya vs TypeSafe Jev on ~900 cases across 3 tasks and 6 languages. | HTML / harness · multilingual bench (MIT) |
+| [layajev](layajev.md) | Serve a local `/v1/systemone` subset on verified Laya (in-process Go/ONNX); not TypeSafe-hosted. | Go · npm (`@metalagman/layajev`, MIT) |
 | [lev (Abhinavexists)](lev.md) | Run an open Qwen3.5-4B LoRA System One model over `/v1/systemone` (independent of hosted Jev). | Python · model + harness (Apache-2.0) |
 | [Lichen](lichen.md) | Run a local `/v1/systemone` drop-in for typed choice/noul/score (incl. images) on open weights; independent of hosted Jev. | Python · local decision engine (MIT) |
 | [LLM vs Jev](llmvsjev.md) | Classroom race of Gemini vs Jev categorising 1,000 transactions. | JavaScript · static demo + Node proxy (MIT) |
@@ -957,23 +958,23 @@ These projects study related typed-decision patterns using other models. They ar
 | [Ollaya](ollaya.md) | Serve open decision models locally behind a Jev-compatible API and switch existing Jev clients with one env var. | Rust · CLI + local daemon (Apache-2.0) |
 | [OneJev](onejev.md) | Run a multimodal System One decision model (text/image/video → calibrated option probabilities); independent of hosted Jev; distinct from Jev-Omni/PlayJev. | Python / PyTorch · HF weights + System One–shaped API (Apache-2.0) |
 | [Open Alternative to Jev](open-alternative-jev.md) | Compare packed and separate typed decisions from open models and fit calibration on labeled data; not a Jev reproduction. | Python · Transformers/vLLM research library |
-| [openai-decisions-vs-jev-vs-laya](openai-decisions-vs-jev-vs-laya.md) | Compare OpenAI Decisions, Jev and Laya on Portuguese routing, injection and judge tasks. | Python · uv benchmark CLI (MIT; dataset has its own LICENSE) |
-| [OpenDecider](opendecider.md) | Open System One choice/score/yes-no models with optional Jev-compatible `/v1/systemone` serve; independent of hosted Jev. | Python · HF weights + serve (Apache-2.0) |
-| [OpenJev (alanhuangyoo)](alanhuangyoo-openjev.md) | Serve Jev-shaped typed decisions from open weights on your own GPU or laptop, including browser-step questions (which operation, which element). | Python · `wev-ai` (PyPI) · Hugging Face models (Apache-2.0) |
-| [OpenJev-Cactus](siliconlabai-openjev-cactus.md) | Serve OpenAI-compatible chat + `/v1/systemone` typed decisions on CPU via cactus-needle (not TypeSafe-hosted). | Python · FastAPI edge server (MIT) |
-| [OpenJev (ejhshen)](ejhshen-openjev.md) | Study OpenJev-4B open-vocabulary probabilistic decisions from Qwen3.5-4B; independent of hosted Jev; distinct from lookski/openjev. | Python · HF OpenJev-4B + training (MIT) |
-| [openjev-rs](codesoda-openjev-rs.md) | Local typed decisions from pinned GGUF logits via Rust openjev-core/openjev-llama (not TypeSafe-hosted). | Rust · crates (MIT) |
-| [openjev-server (abhishekgahlot2)](abhishekgahlot2-openjev-server.md) | Serve OpenJev-style choice/noul/score decisions from open models via vLLM or MLX (not TypeSafe-hosted). | Python · vLLM/MLX server (Apache-2.0) |
 | [Open Medical Jev](open-medical-jev.md) | Run Jev-class medical yes/no judgments from frozen open models with dual-reader fusion, auto-release gates, and conformal sets; compare vs hosted Jev. | Python · GGUF readers + routing recipes (MIT) |
 | [open-jev](open-jev.md) | Experiment with independent Kev and DeBERTa typed decisions locally in a browser; does not use official Jev weights. | TypeScript · npm library, Transformers.js / ONNX |
+| [openai-decisions-vs-jev-vs-laya](openai-decisions-vs-jev-vs-laya.md) | Compare OpenAI Decisions, Jev and Laya on Portuguese routing, injection and judge tasks. | Python · uv benchmark CLI (MIT; dataset has its own LICENSE) |
+| [OpenDecider](opendecider.md) | Open System One choice/score/yes-no models with optional Jev-compatible `/v1/systemone` serve; independent of hosted Jev. | Python · HF weights + serve (Apache-2.0) |
 | [OpenJev](openjev.md) | Local Jev-compatible typed decisions via masked-logit softmax (not TypeSafe-hosted) | Python · local decision engine (MIT) |
+| [OpenJev (alanhuangyoo)](alanhuangyoo-openjev.md) | Serve Jev-shaped typed decisions from open weights on your own GPU or laptop, including browser-step questions (which operation, which element). | Python · `wev-ai` (PyPI) · Hugging Face models (Apache-2.0) |
+| [OpenJev (ejhshen)](ejhshen-openjev.md) | Study OpenJev-4B open-vocabulary probabilistic decisions from Qwen3.5-4B; independent of hosted Jev; distinct from lookski/openjev. | Python · HF OpenJev-4B + training (MIT) |
+| [OpenJev-Cactus](siliconlabai-openjev-cactus.md) | Serve OpenAI-compatible chat + `/v1/systemone` typed decisions on CPU via cactus-needle (not TypeSafe-hosted). | Python · FastAPI edge server (MIT) |
+| [openjev-rs](codesoda-openjev-rs.md) | Local typed decisions from pinned GGUF logits via Rust openjev-core/openjev-llama (not TypeSafe-hosted). | Rust · crates (MIT) |
+| [openjev-server (abhishekgahlot2)](abhishekgahlot2-openjev-server.md) | Serve OpenJev-style choice/noul/score decisions from open models via vLLM or MLX (not TypeSafe-hosted). | Python · vLLM/MLX server (Apache-2.0) |
 | [openjev-sglang](openjev-sglang.md) | Inspect a Jev-shaped HTTP decision API using Qwen and SGLang; independent model behavior and unspecified code licensing. | Python / FastAPI / SGLang · inference research |
 | [openjevx](muthuishere-openjevx.md) | Serve an open-weight Jev-compatible `/v1/systemone` endpoint locally for jevx (CPU/GPU; Apache-2.0 LICENSE in repo). | Go · local System One server + HF weights (Apache-2.0) |
 | [PlayJev](playjev.md) | Study a 0.8B model that picks a game's next move from the frame alone, one forward pass, probability per listed move; independent of official Jev. | Python / PyTorch · model research and browser demo |
 | [polyjev](polyjev.md) | Turn any LLM into typed calibrated Noul/Choice/Score/Span decisions; optional Jev-compatible `/v1/systemone` server. | Python · PyPI (`polyjev`) + serve (Apache-2.0) |
 | [Privatemode Decisions benchmark](privatemode-decisions-benchmark.md) | Reproduce a vendor's System One comparison with identical states, options and instructions per arm, with cost forecasting and budget caps. | Python · benchmark suite (MIT) |
-| [Reflex-1](matu79go-reflex-1.md) | Run/study Reflex-1, a 4B open decision model for fast typed classification with latent reasoning (independent of hosted Jev). | Python · open weights + examples (Apache-2.0) |
 | [Reflex System One](reflex-system-one.md) | One-click Windows server for open System One decision models with a Jev-shaped local API. | Windows launcher + Python server (MIT) |
+| [Reflex-1](matu79go-reflex-1.md) | Run/study Reflex-1, a 4B open decision model for fast typed classification with latent reasoning (independent of hosted Jev). | Python · open weights + examples (Apache-2.0) |
 | [ReJev](rejev.md) | Reproduce a lightweight Jev-style Choice decision post-training loop on MiniCPM5-2B with sealed holdout metrics. | Python · LoRA post-training research (MIT) |
 | [RSI-Jev](rsi-jev.md) | Train and serve Jev-style typed-decision checkpoints via a self-improving agent loop; independent of hosted Jev. | Python · research training + `/v1/systemone` serve (MIT code) |
 | [ruling](ruling.md) | Serve typed, calibrated decisions from a local model on a Jev-compatible endpoint and compare it with Jev on public judgment sets. | Python · uv CLI/server (MIT) |
@@ -996,12 +997,12 @@ These projects study related typed-decision patterns using other models. They ar
 | [TinyJev](tinyjev.md) | Run an offline ~0.6B System One–compatible Choice/Noul/Score model (MLX/PyTorch); independent of hosted Jev. | Python · package + HF weights (MIT) |
 | [ToolDiscoveryBench](tooldiscoverybench.md) | Side-by-side tool-selection accuracy, latency, cost and calibration for Jev vs LLM and retrieval baselines. | Python 3.12 · `tdb` CLI (MIT) |
 | [typed-lm](typed-lm.md) | Serve Jev-style Choice/Noul/Score from dense LLMs in Rust (single forward pass; independent of hosted Jev). | Rust · Candle serve + training (Apache-2.0) |
+| [v1-decisions-vllm](v1-decisions-vllm.md) | Modular vLLM `/v1/decisions` typed API with `/v1/systemone` projection; pluggable backends. | Python · vLLM overlay (Apache-2.0); not hosted Jev |
 | [Valen](valen.md) | Train/serve a multimodal System One–style decision model (text/image/video → probabilities); independent of hosted Jev. | Python · training/inference + HF weights (Apache-2.0) |
 | [vev](vev.md) | Run open multimodal System One–style decisions (text+images) locally via `/v1/systemone`; not TypeSafe-hosted. | Python · HF open weights (Apache-2.0) |
+| [vidjev](vidjev.md) | Typed decisions on video: CARLA drone follow + UCF-Crime anomaly detection with open VLMs. | Python · research + demos (MIT); not hosted Jev |
 | [vLLM Jev](vllm-jev.md) | Serve Jev-compatible decision models through vLLM. | Python · server (Apache-2.0) |
 | [vLLM Jev (mode-io)](mode-io-vllm-jev.md) | Serve Jev-style Choice/Noul/Score checkpoints through vLLM (distinct from Egbertjing/vllm-jev). | Python · server (Apache-2.0) |
-| [v1-decisions-vllm](v1-decisions-vllm.md) | Modular vLLM `/v1/decisions` typed API with `/v1/systemone` projection; pluggable backends. | Python · vLLM overlay (Apache-2.0); not hosted Jev |
-| [vidjev](vidjev.md) | Typed decisions on video: CARLA drone follow + UCF-Crime anomaly detection with open VLMs. | Python · research + demos (MIT); not hosted Jev |
 | [Wald-Q4B](wald-4b.md) | Self-host Wald-Q4B open-weight 4B decisions via Jev-compatible `/v1/systemone` (independent of hosted Jev). | Python · HF weights + serve scripts (Apache-2.0) |
 | [WaterSheep](watersheep.md) | Run an Apache-2.0 decision model locally behind a Jev-compatible `/v1/systemone`: noul/choice/score plus multi-label answers with a probability per option (independent of hosted Jev). | Python · local server + HF weights + browser demo (Apache-2.0) |
 | [WorkflowEvals](workflowevals.md) | Reproduce TypeSafe workflow evals (invoice/support/traces/security) against Jev and other providers. | Python · uv harness (Apache-2.0) · official TypeSafe |
