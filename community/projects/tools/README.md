@@ -87,6 +87,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Movo](movo.md) | Drive a Debian-family Linux desktop with AT-SPI candidates chosen by TypeSafe Jev (floating PySide6 agent). | Python · PySide6 + AT-SPI desktop agent (MIT) |
 | [multi-modal-jev-browser](multi-modal-jev-browser.md) | Drive forms and web workflows with one cheap Jev (or Clef) decision per step and an LLM fallback. | Python 3.12+ · CLI + library + MCP server (MIT) |
 | [OpenComputerUse](opencomputeruse.md) | Let coding agents operate desktop apps behind your windows, with Jev resolving recipe steps to UI elements. | Rust · MCP server + GPUI desktop app (macOS, Windows, Linux) (MIT) |
+| [PhonePilot](phonepilot.md) | Android automation: Jev picks each UI step, Codex plans, Phone Bridge executes (Chinese docs). | Python · SDK/CLI/MCP + Android app (MIT) |
 | [pi-Jev-browser](pi-jev-browser.md) | Let Jev choose each Playwright browser action over a structured DOM observation inside Pi. | TypeScript · Pi extension (npm) |
 | [plain](plain.md) | Describe targets by role and visible text and assertions as claims; Jev picks elements and judges claims, with lock files and run modes to keep runs repeatable. | TypeScript · npm `@gabe4coding/plain` + Claude Code / Codex plugins (MIT) |
 | [PlayJev (filed)](filedcom-playjev.md) | Add `page.act(...)`, `page.check(...)` style natural-language steps to Playwright tests and scripts, with Jev choosing from numbered page nodes. | TypeScript · npm `@filed/playjev` + Playwright (MIT, experimental) |
