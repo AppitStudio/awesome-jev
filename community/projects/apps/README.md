@@ -1622,6 +1622,24 @@ Zero-dependency Chrome extension (plus CLI) that has TypeSafe Jev judge whether 
 
 [Full Danmaku spoiler filter (JEV) guide](jev-danmaku-filter.md) · [Source](https://github.com/meetchen/jev-danmaku-filter)
 
+### Flash (YouTube Q&A)
+
+`Source available` · `Free` · `BYOK`
+
+Chrome extension: ask a YouTube video a question by voice or text and it jumps to the answer, or highlights where the topic comes up, using TypeSafe Jev to score transcript segments.
+
+**Jev's role:** Jev scores transcript passages (with chapter context) against your question; a confident top passage triggers a jump, otherwise lime peaks mark matching regions on the progress bar.
+
+**Platform:** Chrome (Chrome Web Store 0.1.0, or load unpacked from source) · YouTube videos with English captions
+
+**Product:** [chromewebstore.google.com/detail/flash/mcfkndmlbcdlmjgkdkjkaolcodjjopbp](https://chromewebstore.google.com/detail/flash/mcfkndmlbcdlmjgkdkjkaolcodjjopbp)
+
+**Pricing / access:** Free on the Chrome Web Store (checked 2026-10-13); needs your own TypeSafe key (billed per search); optional OpenAI key for the Accurate voice mode.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Try Flash (YouTube Q&A)](https://chromewebstore.google.com/detail/flash/mcfkndmlbcdlmjgkdkjkaolcodjjopbp) · [Full Flash (YouTube Q&A) guide](flash-youtube.md) · [Source](https://github.com/surbhit20/jev-on-yt)
+
 ### Focus
 
 `Open source` · `Free source build` · `BYOK`
