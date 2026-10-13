@@ -1180,6 +1180,24 @@ Browser Snake played by TypeSafe Jev with a live panel of every call — the sta
 
 [Full Snake × Jev guide](snake-jev.md) · [Source](https://github.com/michaelmld/snake-jev)
 
+### Stack4That
+
+`Open source` · `Free source build` · `BYOK`
+
+Describe what you are building in plain language; TypeSafe Jev assembles a coherent technology stack architecture.
+
+**Jev's role:** Jev decides among stack options to produce an architecture you can review.
+
+**Platform:** Web (self-hosted)
+
+**Product:** [github.com/MoRohn/stack4that#readme](https://github.com/MoRohn/stack4that#readme)
+
+**Pricing / access:** Free MIT source; decisions billed to your TypeSafe key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Stack4That guide](stack4that.md) · [Source](https://github.com/MoRohn/stack4that)
+
 ### Surge Desk
 
 `Source available` · `Free` · `BYOK`
