@@ -1059,6 +1059,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev (polidog)](polidog-jev.md) | Pipe state on stdin and run jev noul/choice/score against TypeSafe, Cloudflare Workers AI, or Vercel AI Gateway. | Rust · CLI (`cargo install --git`) |
 | [jev (stefafafan)](stefafafan-jev.md) | Unix/Go CLI for typed TypeSafe Jev questions across TypeSafe, Cloudflare, and Vercel providers. | Go · CLI (`go install`, MIT) |
 | [JEV ADK](jev-adk.md) | Build System One agent pipelines with TypeSafe Jev primitives: bash guardrails, dual-brain routing, PR triage blueprints. | Python · ADK / examples (MIT) |
+| [Jev Behavior for Unity](unity-jev-behavior.md) | Guarded asynchronous decision nodes for Unity Behavior using a server-side DecisionPacks gateway for Jev-style decisions. | Unity package + gateway (MIT) |
 | [Jev Classification for n8n](jev-classification-n8n.md) | Route workflow items with typed Jev decisions, configurable review handling, and multi-item batching. | TypeScript · self-hosted n8n community node |
 | [jev CLI (vilinski)](vilinski-jev-cli.md) | Rust CLI for typed System One questions across Jev and other providers. | Rust (MIT OR Apache-2.0) |
 | [Jev for Excel](jev-excel.md) | Classify, score or fact-check a column of text with a fill-down formula instead of code. | JavaScript Office add-in + VBA module (MIT) |
