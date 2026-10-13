@@ -1378,6 +1378,24 @@ Native macOS assistant: describe a task, review rule-ranked app/model/effort cho
 
 [Full AI Model Picker guide](ai-model-picker.md) · [Source](https://github.com/Gavinluo19/ai-model-picker)
 
+### Baton (notch app)
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS notch app that pings you when a ChatGPT, Codex, Claude or Cursor chat finishes or needs you; TypeSafe Jev decides finished vs needs-you.
+
+**Jev's role:** Jev reads each chat's latest reply and decides whether it is finished or needs your answer; without a Jev key Baton only lists chats.
+
+**Platform:** macOS (DMG, not notarized; Sparkle updates)
+
+**Product:** [github.com/jeanlucandre-afk/baton/releases](https://github.com/jeanlucandre-afk/baton/releases)
+
+**Pricing / access:** Free MIT app; Jev (and optional Gemini) calls use your own keys.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Baton (notch app) guide](baton-notch.md) · [Source](https://github.com/jeanlucandre-afk/baton)
+
 ### Capture (sgaabdu4)
 
 `Open source` · `Free source build` · `BYOK`
