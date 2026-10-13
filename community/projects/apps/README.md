@@ -1328,6 +1328,24 @@ Omarchy (Hyprland) plugin: move the pointer into the bottom-right corner and a c
 
 [Full omarchy-mouse-sacrifice guide](omarchy-mouse-sacrifice.md) · [Source](https://github.com/ignotas/omarchy-mouse-sacrifice)
 
+### Stillwatch
+
+`Open source` · `Free source build` · `BYOK`
+
+Notification guardian that saves every notification locally and, in AI mode, uses TypeSafe Jev (via NanoGPT's Decisions API) to decide what needs you now with persistent modals.
+
+**Jev's role:** Typed Jev choices classify each new notification's importance and severity; code handles cooldowns, history and cross-device sync.
+
+**Platform:** Linux desktop (Python, GTK 4/libadwaita) · Android companion (early alpha)
+
+**Product:** [github.com/difflabai/stillwatch#readme](https://github.com/difflabai/stillwatch#readme)
+
+**Pricing / access:** Free MIT source; AI mode bills NanoGPT/TypeSafe usage to your key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Stillwatch guide](stillwatch.md) · [Source](https://github.com/difflabai/stillwatch)
+
 ### Synax
 
 `Open source` · `Free` · `BYOK`
