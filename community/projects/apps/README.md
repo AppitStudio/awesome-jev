@@ -1618,6 +1618,24 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 [Full TipTour guide](tiptour.md) · [Source](https://github.com/milind-soni/tiptour-macos)
 
+### voice-browser
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS command bar that drives Chromium, Dia, Arc or Chrome from plain English; TypeSafe Jev (or SubQ Snap) picks clicks and targets for fast single actions and goal chains.
+
+**Jev's role:** Jev decides intent and UI targets for spoken or typed browser commands before Playwright/automation acts.
+
+**Platform:** macOS (source build)
+
+**Product:** [github.com/ken-code-wq/voice-browser#readme](https://github.com/ken-code-wq/voice-browser#readme)
+
+**Pricing / access:** Free MIT source; TypeSafe or SubQ key for decisions.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full voice-browser guide](voice-browser.md) · [Source](https://github.com/ken-code-wq/voice-browser)
+
 ## Android apps
 
 ### axo-launcher
