@@ -689,6 +689,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Pi Adaptive Effort Router (XDeviation)](xdeviation-pi-jev-router.md) | Change Pi thinking level only with TypeSafe Jev (not the model); distinct from philippdubach pi-jev-router. | TypeScript · Pi extension (`pi-jev-router` 0.2.0, MIT) |
 | [pi-advisor](pi-advisor.md) | Configurable Advisor/Executor Pi flow with optional TypeSafe Jev consultation filter and turn gate. | TypeScript · Pi plugin (`pi-advisor-flow`, MIT) |
 | [pi-automode-classifier](pi-automode-classifier.md) | Claude Code-style auto mode for Pi with Jev or a local System One model judging shell commands. | TypeScript · Pi extension, npm `pi-automode-classifier` (MIT) |
+| [pi-context-decisions](pi-context-decisions.md) | Pi extension: a decision model (e.g. Jev) filters per-prompt skill ads in context. | TypeScript · Pi extension (MIT) |
 | [pi-extensions (narumiruna)](narumiruna-pi-extensions.md) | Install Pi extensions including TypeSafe Jev decision, compaction, and FTS5+Jev search packages (`@narumitw/*`). | TypeScript · Pi monorepo (MIT) |
 | [pi-follow-through](pi-follow-through.md) | Nudge Pi after agent_settled only when TypeSafe Jev cites unfinished work above a probability threshold. | TypeScript · Pi extension (`pi-follow-through`) |
 | [pi-heed](pi-heed.md) | Enforce evolving conversational constraints on Pi tool calls; TypeSafe Jev classifies policy changes, code owns the ledger. | TypeScript · Pi extension (`pi-heed`) |
