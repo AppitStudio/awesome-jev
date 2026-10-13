@@ -628,6 +628,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Juardrails](juardrails.md) | Manage TypeSafe Jev guardrail policies (YAML/UI), batch questions, apply rules via REST/CLI with audit. | Go · server + CLI (license unspecified at review) |
 | [juna](juna.md) | Lean Pi coding agent profile that keeps context small, with TypeSafe Jev pruning tool output. | Pi coding agent profile / extensions (MIT) |
 | [Kassad](kassad.md) | Gate .NET LLM prompts/completions/tools/citations with TypeSafe Jev Allow/Flag/Review/Block verdicts. | C# · .NET library (Apache-2.0) |
+| [Kimi-JevCompact](kimi-jevcompact.md) | Verbatim, Jev-guided context compaction for Kimi Code CLI (OpenSpec proposals). | Kimi Code CLI compaction hook (MIT) |
 | [KiroGraph](kirograph.md) | Index a codebase for symbol lookups and context; set `memoryRelationMode`, `wikiContradictionMode` or `securityAuthDetectionMode` to `'jev'` for typed judgments (or `'strands'` for a local decision server). | TypeScript/Node · CLI + MCP server (`kirograph`, MIT) |
 | [Lath](lath.md) | Pay-per-call agent loops recorded on-chain; Jev decides when a goal is achieved. | TypeScript · SDK + demo (MIT) |
 | [laya-compaction](laya-compaction.md) | Lossless-by-design context compaction for Claude Code using a local Jev-compatible model. | TypeScript · Claude Code plugin + npm `@bussolabs/laya-compaction` (MIT) |
