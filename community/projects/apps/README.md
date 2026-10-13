@@ -1208,6 +1208,22 @@ Resume screening: LLM writes questions; TypeSafe Jev System One classifies answe
 
 [Full Resurface guide](resurface.md) · [Source](https://github.com/dolevhayut/resurface)
 
+### River Oaks
+
+`Source available` · `Free source build` · `BYOK`
+
+Interactive NPCs of River Oaks, Houston, with TypeSafe Jev powering NPC decisions.
+
+**Jev's role:** Jev powers NPC decision-making in the district simulation.
+
+**Platform:** Web
+
+**Product:** [github.com/bunsdev/river-oaks](https://github.com/bunsdev/river-oaks)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full River Oaks guide](river-oaks.md) · [Source](https://github.com/bunsdev/river-oaks)
+
 ### say-hi
 
 `Open source` · `Free source build` · `BYOK`
