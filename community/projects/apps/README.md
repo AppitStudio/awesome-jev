@@ -1002,6 +1002,22 @@ Web app where three decision models — OpenAI Decisions, TypeSafe Jev and Cloud
 
 [Full Model vs Market guide](model-vs-market.md) · [Source](https://github.com/yorkeccak/model-vs-market)
 
+### Neon Chase
+
+`Open source` · `Free source build` · `BYOK`
+
+Neon-style endless runner where TypeSafe Jev can drive realtime gameplay decisions.
+
+**Jev's role:** Jev supplies realtime gameplay decisions to the runner.
+
+**Platform:** Web (client/server)
+
+**Product:** [github.com/susyimes/neon-chase](https://github.com/susyimes/neon-chase)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Neon Chase guide](neon-chase.md) · [Source](https://github.com/susyimes/neon-chase)
+
 ### Notra
 
 `Open source` · `Commercial` · `Paid`
