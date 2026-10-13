@@ -78,6 +78,24 @@ Chat app that makes TypeSafe Jev 'generate' an answer one character at a time by
 
 [Full ChatJevPT guide](chatjevpt.md) · [Source](https://github.com/samkoosh/ChatJevPT)
 
+### Cheese Toast
+
+`Open source` · `Free`
+
+Jim Bumgardner's teapot-in-space arcade game ported to JavaScript and canvas; TypeSafe Jev moderates new high-score names and can play the game as a bot.
+
+**Jev's role:** Jev checks new score-table names for PG-13 compliance (moderator override available) and, as an optional bot policy, reads a symbolic game view and picks controls.
+
+**Platform:** Web (play at ct.krazydad.com; self-host with Python score server)
+
+**Product:** [ct.krazydad.com](https://ct.krazydad.com)
+
+**Pricing / access:** Free to play online; self-hosting the score server with Jev moderation needs your own TypeSafe key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Try Cheese Toast](https://ct.krazydad.com) · [Full Cheese Toast guide](cheese-toast.md) · [Source](https://github.com/jbum/cheesetoast)
+
 ### Chess with Jev
 
 `Source available` · `Free source build` · `BYOK`
