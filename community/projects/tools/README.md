@@ -133,6 +133,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-tree](agent-tree.md) | See who is working in a Claude Code session, with opt-in Jev flags for loops and stalls. | TypeScript · Claude Code plugin/mod, zero npm deps (MIT) |
 | [AgentRun](agentrun.md) | Write agent workflows where Jev gates answers (for example, confidence ≥ 0.8 before replying), ranks candidates, or screens evidence; includes a Pi extension. | TypeScript · npm `@parcha/agentrun-dsl` + `@parcha/agentrun-jev` + `@parcha/agentrun-pi` (beta, Apache-2.0) |
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
+| [aidiff-gate](aidiff-gate.md) | Claude Code plugin: optional Jev judge flags flaky AI tests and commit-why gaps. | TypeScript · Claude Code plugin (MIT) |
 | [AlphaOptimizer](alphaoptimizer.md) | Compact large Codex/tool outputs locally and optionally rank chunks with TypeSafe Jev. | Node.js · TypeScript package (`alphaoptimizer` 0.1.0) |
 | [ask-jev-skill](ask-jev-skill.md) | Call TypeSafe Jev as a Hermes typed tiebreaker (Choice/Score/Noul) when multiple paths remain. | Python · Hermes skill + stdlib CLI |
 | [ask-jev-skill (DiegoSalazar)](diegosalazar-ask-jev-skill.md) | Let Claude Code hand small yes/no, pick, rate and rank judgments to Jev through a CLI. | TypeScript (Bun) · CLI + Claude Code skill (no LICENSE file) |
@@ -317,6 +318,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Agent Kit (cloud-f1)](cloud-f1-jev-agent-kit.md) | Prune long Claude Code Bash output locally, with optional Jev relevance scoring and read-back. | TypeScript/Python · Claude Code plugin + CLI (MIT) |
 | [Jev Decisions Plugin for Hermes](jev-decisions-hermes.md) | Jev review tools for Hermes: risk reviews, source checks, and task-completion checks. | Python · agent plugin (MIT) |
 | [jev-lgtm](jev-lgtm.md) | GitHub Action: Jev reads a PR diff and returns LGTM or Review Advised. | TypeScript · GitHub Action (MIT) |
+| [jev-model-router (m-esm)](m-esm-jev-model-router.md) | Claude Code hook: Jev scores each prompt and picks model + effort. | Python · Claude Code hook (MIT) |
 | [jev-quant](jev-quant.md) | Paper-trade with Jev decisions (via OpenRouter) in an early C++ trading loop. | C++20 · CMake (MIT) |
 | [jev-remix-cutter](jev-remix-cutter.md) | Agent Skill + CLI for local video remixing with Jev judgments and originality reports. | Python · Agent Skill/CLI (MIT) |
 | [JevShelf](jevshelf.md) | Lazy-load specialist skills chosen by lexical search or Jev from one portable skill shelf. | Python · CLI + skill shims (MIT) |
@@ -1026,6 +1028,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-mcp (drmedia)](drmedia-jev-mcp.md) | Give any MCP client typed Jev (or Clef / local) decisions with probabilities. | TypeScript · MCP server (MIT) |
 | [jev-netlify-mcp](jev-netlify-mcp.md) | Private Jev access for MCP clients through a key-locked Netlify AI Gateway proxy (or directly with a TypeSafe key). | Python MCP server + Netlify function (MIT) |
 | [jev-py-sdk](jev-py-sdk.md) | Python SDK/CLI for typed Jev judgments with client-side masking. | Python · SDK + CLI (MIT) |
+| [jev-state](jev-state.md) | Shape raw app/game state for Jev (author bench: 74% → 100%, 43% fewer tokens). | TypeScript · library (MIT) |
 | [Jev.DotNet (altinburak)](jev-dotnet-altinburak.md) | Call Jev from C#/.NET services with typed questions and DI-friendly configuration. | C# · NuGet package (MIT) |
 | [jevai](jevai.md) | Call TypeSafe System One from Rust with typed noul/choice/score questions in parallel (unofficial). | Rust · async client crate (MIT) |
 | [jev-cli (shetautnetjer)](shetautnetjer-jev-cli.md) | Clean-room `jev` CLI for Decision Contracts, local search, and benchmarks against TypeSafe System One. | Python · CLI (MIT) |
