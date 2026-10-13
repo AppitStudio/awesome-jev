@@ -1898,6 +1898,24 @@ Grade readable page sections for clarity, writing, and on-page SEO with TypeSafe
 
 [Full PageGrade guide](pagegrade.md) · [Source](https://github.com/kitze/pagegrade)
 
+### Please.exe
+
+`Open source` · `Free`
+
+Private tone coach for Claude and ChatGPT prompts: a local tone meter with suggested edits, plus an optional, explicitly confirmed TypeSafe Jev second opinion.
+
+**Jev's role:** Optional: after you confirm, Jev gives a second opinion on a draft's tone in a separate extension tab; local rules do the default rating.
+
+**Platform:** Chrome extension (beta release zip) · web playground
+
+**Product:** [hyper186.github.io/please-exe/](https://hyper186.github.io/please-exe/)
+
+**Pricing / access:** Free; local mode needs no key. Jev second opinions use your own TypeSafe key (see docs/JEV-SETUP.md).
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Try Please.exe](https://hyper186.github.io/please-exe/) · [Full Please.exe guide](please-exe.md) · [Source](https://github.com/hyper186/please-exe)
+
 ### Polymorph
 
 `Open source` · `Free source build` · `BYOK`
