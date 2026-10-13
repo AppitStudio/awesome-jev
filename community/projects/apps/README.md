@@ -2514,6 +2514,52 @@ Private-by-default Gmail labeler: local policy asks TypeSafe Jev (or OpenAI/Anth
 
 [Full Inbox Triage guide](inbox-triage.md) · [Source](https://github.com/shimoverse/inbox-triage)
 
+### Jev Mail Classifier
+
+`Open source` · `Free source build` · `BYOK`
+
+Classify IMAP mail with Jev yes/no category judgments, then tag, move, flag, or notify from a Textual TUI and cron-friendly CLI.
+
+**Access:** clone and run the [MIT source](https://github.com/parth-kp/jev-mail-classifier) (Python 3.10+) with `./install.sh`, a Jev provider key (TypeSafe, OpenRouter, or Vercel AI Gateway), and IMAP credentials (often an app password). No app purchase fee; provider and mailbox-host usage can incur charges. Offline pytest: 61 passed on the review host; live mailbox classification not run.
+
+[Full Jev Mail Classifier guide](jev-mail-classifier.md) · [Source](https://github.com/parth-kp/jev-mail-classifier)
+
+### Jev Mail Triage
+
+`Open source` · `Free source build` · `BYOK`
+
+Dry-run-first Proton Mail Bridge triage that uses TypeSafe Jev to flag spam and phishing before touching your mailbox.
+
+**Jev's role:** Jev classifies messages for spam/phishing triage.
+
+**Platform:** CLI with Proton Mail Bridge
+
+**Product:** [github.com/soderlind/jev-mail-triage](https://github.com/soderlind/jev-mail-triage)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Jev Mail Triage guide](soderlind-jev-mail-triage.md) · [Source](https://github.com/soderlind/jev-mail-triage)
+
+### Jev Personal Radar
+
+`Source unverified` · `Free source build` · `BYOK`
+
+Privacy-first daily info radar (Go): ranks GitHub Trending / Hacker News / inbox links with TypeSafe Jev into private GitHub Issues; MiniMax explains selected public items. Secrets stay in a private runner repo.
+
+**Access:** clone the [public source](https://github.com/zhazhahuiyuxiaoxiao/jev-personal-radar) (Go 1.25+) and pin it from a private Actions repo with `TYPESAFE_API_KEY` + `MINIMAX_API_KEY`. No app purchase fee; providers billed separately. **No LICENSE file at tip**—not tagged Open source. Source inspected; live Jev/MiniMax/Actions not run.
+
+[Full Jev Personal Radar guide](jev-personal-radar.md) · [Source](https://github.com/zhazhahuiyuxiaoxiao/jev-personal-radar)
+
+### Jev Quiz Pilot
+
+`Open source` · `Free source build` · `BYOK`
+
+Python CLI that lets TypeSafe Jev navigate web quizzes in Chrome and logs every pick for measurement.
+
+**Access:** clone the [MIT source](https://github.com/juanfabrega/jev-quiz-pilot) with TypeSafe credentials and Chrome. No app purchase fee; provider usage separate. Source inspected; live quiz runs not executed on the review host.
+
+[Full Jev Quiz Pilot guide](juanfabrega-jev-quiz-pilot.md) · [Source](https://github.com/juanfabrega/jev-quiz-pilot)
+
 ### Jev Soundboard
 
 `Open source` · `Free source build` · `BYOK`
@@ -2543,36 +2589,6 @@ Terminal app to make and track everyday decisions with TypeSafe Jev, storing reu
 **Access:** Install from the [MIT npm/source](https://github.com/backant-io/jevelry) (Node ≥22) with a TypeSafe API key. No app purchase fee; TypeSafe usage may incur charges. Source inspected; live Jev not run.
 
 [Full jevelry guide](jevelry.md) · [Source](https://github.com/backant-io/jevelry)
-
-### Jev Mail Classifier
-
-`Open source` · `Free source build` · `BYOK`
-
-Classify IMAP mail with Jev yes/no category judgments, then tag, move, flag, or notify from a Textual TUI and cron-friendly CLI.
-
-**Access:** clone and run the [MIT source](https://github.com/parth-kp/jev-mail-classifier) (Python 3.10+) with `./install.sh`, a Jev provider key (TypeSafe, OpenRouter, or Vercel AI Gateway), and IMAP credentials (often an app password). No app purchase fee; provider and mailbox-host usage can incur charges. Offline pytest: 61 passed on the review host; live mailbox classification not run.
-
-[Full Jev Mail Classifier guide](jev-mail-classifier.md) · [Source](https://github.com/parth-kp/jev-mail-classifier)
-
-### Jev Personal Radar
-
-`Source unverified` · `Free source build` · `BYOK`
-
-Privacy-first daily info radar (Go): ranks GitHub Trending / Hacker News / inbox links with TypeSafe Jev into private GitHub Issues; MiniMax explains selected public items. Secrets stay in a private runner repo.
-
-**Access:** clone the [public source](https://github.com/zhazhahuiyuxiaoxiao/jev-personal-radar) (Go 1.25+) and pin it from a private Actions repo with `TYPESAFE_API_KEY` + `MINIMAX_API_KEY`. No app purchase fee; providers billed separately. **No LICENSE file at tip**—not tagged Open source. Source inspected; live Jev/MiniMax/Actions not run.
-
-[Full Jev Personal Radar guide](jev-personal-radar.md) · [Source](https://github.com/zhazhahuiyuxiaoxiao/jev-personal-radar)
-
-### Jev Quiz Pilot
-
-`Open source` · `Free source build` · `BYOK`
-
-Python CLI that lets TypeSafe Jev navigate web quizzes in Chrome and logs every pick for measurement.
-
-**Access:** clone the [MIT source](https://github.com/juanfabrega/jev-quiz-pilot) with TypeSafe credentials and Chrome. No app purchase fee; provider usage separate. Source inspected; live quiz runs not executed on the review host.
-
-[Full Jev Quiz Pilot guide](juanfabrega-jev-quiz-pilot.md) · [Source](https://github.com/juanfabrega/jev-quiz-pilot)
 
 ### Jevmeter
 
