@@ -208,6 +208,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [corp-jev-skill](corp-jev-skill.md) | Claude Code /corp-jev: multi-department review loop with Jev second opinions. | Python · Claude Code skill (MIT) |
 | [could-jev](could-jev.md) | Ask Claude whether a task is a good Jev fit and get a sketch plus the cheapest test. | Markdown · Claude skill (MIT) |
 | [creator-teardown](creator-teardown.md) | Claude skill: label creator posts with Jev and rebuild brand drafts. | Python · Claude Code/Cowork skill (MIT) |
+| [Crosstalk](crosstalk-lab.md) | See and fix option confusions in typed-decision routers; live mode uses a System One endpoint. | TypeScript · web lab (MIT) |
 | [daf-jev](daf-jev.md) | Build typed Jev questions, gates, batch evaluation, and optional MCP tools in Python. | Python · library/CLI (`daf-jev` 0.3.0) |
 | [Damocles](damocles.md) | Use the coding agent with persistent memory; add a TypeSafe key so Jev decides whether a new fact supersedes an old one and grades memories for recall. | TypeScript · VS Code extension + Electron desktop app (MIT) |
 | [Data Agent MNIST (ClickHouse)](data-agent-mnist.md) | Generate and grade text-to-SQL agent tasks on your warehouse; with `--extra jev`, rank tables by how likely each is needed and label failed cells by sub-mode and preventing rule. | Python · uv project and scripts (Apache-2.0) |
