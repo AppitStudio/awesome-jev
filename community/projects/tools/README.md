@@ -1123,6 +1123,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [libsemop](libsemop.md) | Typed, confidence-aware Jev judgments, filters and rerankers from C++ code. | C++17 · CMake library (MIT) |
 | [LLM Context Optimizer](llm-context-optimizer.md) | Select relevant document context before LLM calls locally or with an optional Jev backend. | TypeScript · ESM SDK (MIT) |
 | [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
+| [Luna Decision Model](luna-decision-model.md) | Local service that keeps Jev-shaped decision callers working against GPT-6 Luna through a Codex subscription. | Local compatibility service (MIT) |
 | [MakerAi](makerai.md) | Call Jev from Delphi with typed Choice/Score/Noul questions, or drop in adapters such as `TAiJevRouterTool`, `TAiJevGuardrailClassifier`, `TAiJevPromptGuard`, `TAiJevRAGReranker` and `TAiJevBatchLabeler`. | Delphi (Object Pascal) · component packages, Delphi 10.4–13.1 (MIT) |
 | [Mechanical Jev](mechanical-jev.md) | Ask System One Noul/Choice/Score from Rust (`mjev`) against local Intel Phi Jev or compatible endpoints. | Rust · library/CLI (Apache-2.0) |
 | [Micdrop](micdrop.md) | Build real-time TypeScript voice agents; optional `@micdrop/typesafe` classifies each user turn with TypeSafe Jev (choice/score/noul) before the LLM answers. | TypeScript · voice SDK + `@micdrop/typesafe` 1.0.1 (MIT) |
