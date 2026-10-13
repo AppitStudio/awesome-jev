@@ -1148,6 +1148,24 @@ Paste a suspicious message and get a scam verdict and risk score: one TypeSafe J
 
 [Full ScamCheck guide](scamcheck.md) · [Source](https://github.com/AkashNaickar/scamcheck)
 
+### seo-jev-analyzer
+
+`Open source` · `Free source build` · `BYOK`
+
+Measures how closely each page matches the search intent you set, using TypeSafe Jev with a calibrated noise band.
+
+**Jev's role:** Jev judges page-to-intent relevance; the app surfaces scores for SEO review.
+
+**Platform:** Web (self-hosted Next.js)
+
+**Product:** [github.com/matthelam/seo-jev-analyzer#readme](https://github.com/matthelam/seo-jev-analyzer#readme)
+
+**Pricing / access:** Free MIT source; tagging/scoring billed to your TypeSafe key.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full seo-jev-analyzer guide](seo-jev-analyzer.md) · [Source](https://github.com/matthelam/seo-jev-analyzer)
+
 ### Shapeshift
 
 `Open source` · `Free` · `BYOK`
