@@ -1858,6 +1858,22 @@ Windows desktop agent: UI Automation observes controls, TypeSafe Jev chooses the
 
 [Full jev-desktop guide](ehtan-smaltai-jev-desktop.md) · [Source](https://github.com/ehtan-smaltai/jev-desktop)
 
+### JevMail (Outlook)
+
+`Open source` · `Free source build` · `BYOK`
+
+Outlook add-in for Microsoft 365 work and school accounts, powered by TypeSafe Jev.
+
+**Jev's role:** Jev powers mail decisions inside the Outlook add-in API surface.
+
+**Platform:** Microsoft 365 Outlook (work/school)
+
+**Product:** [github.com/koh-henry/jevmail](https://github.com/koh-henry/jevmail)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full JevMail (Outlook) guide](koh-henry-jevmail.md) · [Source](https://github.com/koh-henry/jevmail)
+
 ### Qoresence
 
 `Open source` · `Free` · `BYOK`
