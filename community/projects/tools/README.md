@@ -133,6 +133,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-tree](agent-tree.md) | See who is working in a Claude Code session, with opt-in Jev flags for loops and stalls. | TypeScript · Claude Code plugin/mod, zero npm deps (MIT) |
 | [AgentRun](agentrun.md) | Write agent workflows where Jev gates answers (for example, confidence ≥ 0.8 before replying), ranks candidates, or screens evidence; includes a Pi extension. | TypeScript · npm `@parcha/agentrun-dsl` + `@parcha/agentrun-jev` + `@parcha/agentrun-pi` (beta, Apache-2.0) |
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
+| [aidiff-gate](aidiff-gate.md) | Claude Code plugin: optional Jev judge flags flaky AI tests and commit-why gaps. | TypeScript · Claude Code plugin (MIT) |
 | [AlphaOptimizer](alphaoptimizer.md) | Compact large Codex/tool outputs locally and optionally rank chunks with TypeSafe Jev. | Node.js · TypeScript package (`alphaoptimizer` 0.1.0) |
 | [ask-jev-skill](ask-jev-skill.md) | Call TypeSafe Jev as a Hermes typed tiebreaker (Choice/Score/Noul) when multiple paths remain. | Python · Hermes skill + stdlib CLI |
 | [ask-jev-skill (DiegoSalazar)](diegosalazar-ask-jev-skill.md) | Let Claude Code hand small yes/no, pick, rate and rank judgments to Jev through a CLI. | TypeScript (Bun) · CLI + Claude Code skill (no LICENSE file) |
