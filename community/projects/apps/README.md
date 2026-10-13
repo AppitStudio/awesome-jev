@@ -214,6 +214,24 @@ Turns your own study material (PDF, Word, text) into exams that grade themselves
 
 [Full Eyedot · 点睛 guide](eyedot.md) · [Source](https://github.com/Simon-zj1/eyedot)
 
+### FilmHunch
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hostable movie finder: describe a film any way you like and TypeSafe Jev scores film cards and full profiles against your exact sentence.
+
+**Jev's role:** Jev scores short cards for the 5,000 most-rated films plus ~300 retrieved candidates, then re-scores the top 40 on full profiles; code merges and streams results.
+
+**Platform:** Web (self-hosted Node API + web app)
+
+**Product:** [github.com/eduardoalba00/film-hunch#readme](https://github.com/eduardoalba00/film-hunch#readme)
+
+**Pricing / access:** Free MIT source; upstream reports ~US$0.05 per search in TypeSafe/embedding costs on your keys (not verified here).
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full FilmHunch guide](film-hunch.md) · [Source](https://github.com/eduardoalba00/film-hunch)
+
 ### Find the Right API (Orthogonal × Jev)
 
 `Closed source` · `Freemium` · `Commercial`
