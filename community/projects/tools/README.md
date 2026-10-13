@@ -623,6 +623,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Juardrails](juardrails.md) | Manage TypeSafe Jev guardrail policies (YAML/UI), batch questions, apply rules via REST/CLI with audit. | Go · server + CLI (license unspecified at review) |
 | [Kassad](kassad.md) | Gate .NET LLM prompts/completions/tools/citations with TypeSafe Jev Allow/Flag/Review/Block verdicts. | C# · .NET library (Apache-2.0) |
 | [KiroGraph](kirograph.md) | Index a codebase for symbol lookups and context; set `memoryRelationMode`, `wikiContradictionMode` or `securityAuthDetectionMode` to `'jev'` for typed judgments (or `'strands'` for a local decision server). | TypeScript/Node · CLI + MCP server (`kirograph`, MIT) |
+| [Lath](lath.md) | Pay-per-call agent loops recorded on-chain; Jev decides when a goal is achieved. | TypeScript · SDK + demo (MIT) |
 | [laya-compaction](laya-compaction.md) | Lossless-by-design context compaction for Claude Code using a local Jev-compatible model. | TypeScript · Claude Code plugin + npm `@bussolabs/laya-compaction` (MIT) |
 | [laya-packet-analyser](laya-packet-analyser.md) | Triage laptop packet alerts with detectors + local Laya System One judgments and a live dashboard. | Python · stdlib analyser + dashboard (MIT) |
 | [laya-router](laya-router.md) | Automatic fast/strong model routing for Claude Code and Codex without a TypeSafe key. | JavaScript · npm `@bussolabs/laya-router` (MIT) |
