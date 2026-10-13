@@ -1960,6 +1960,24 @@ Browser extension plus your own Cloudflare Worker that scores Google, Bing and D
 
 [Full LinkScout guide](linkscout.md) · [Source](https://github.com/ianTPE/linkscout)
 
+### Noa
+
+`Open source` · `Pricing unverified` · `BYOK`
+
+Chrome extension for browser automation in your own logged-in Chrome: Claude Code plans each task and TypeSafe Jev picks what to click and type step by step.
+
+**Jev's role:** Jev carries out single steps (which element to click, what to type) so runs don't wait on a full Claude turn per click; Claude plans and handles the rest.
+
+**Platform:** Chrome extension + local helper
+
+**Product:** [www.noa.bot](https://www.noa.bot)
+
+**Pricing / access:** Free MIT source with your own Claude plan/key and Jev key; voice and Noa-hosted Jev need a Noa account plan ([pricing](https://www.noa.bot/pricing), not verified here).
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Try Noa](https://www.noa.bot) · [Full Noa guide](noa.md) · [Source](https://github.com/m0dE/noa)
+
 ### PageGrade
 
 `Open source` · `Free source build` · `BYOK`
