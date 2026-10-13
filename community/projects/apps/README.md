@@ -962,6 +962,22 @@ Local Japanese bookkeeping tool (playful "demon ledger" UI) that shows receipts 
 
 [Full Jev会計 (jev-kaikei-free) guide](jev-kaikei.md) · [Source](https://github.com/USHIKUNDESUYO/jev-kaikei-free)
 
+### Liminal Drift
+
+`Open source` · `Free source build` · `BYOK`
+
+First-person Backrooms horror prototype with TypeSafe Jev realtime scene decisions.
+
+**Jev's role:** Jev drives realtime scene/decision generation during exploration.
+
+**Platform:** Web (client/server)
+
+**Product:** [github.com/susyimes/liminal-drift](https://github.com/susyimes/liminal-drift)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Liminal Drift guide](liminal-drift.md) · [Source](https://github.com/susyimes/liminal-drift)
+
 ### Liuyao
 
 `Source available` · `Free source build` · `BYOK`
