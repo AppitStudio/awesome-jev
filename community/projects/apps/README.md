@@ -300,6 +300,24 @@ Explore Italian Camera amendments: identical texts grouped in code, TypeSafe Jev
 
 [Full Fotocopiatrice guide](fotocopiatrice.md) · [Source](https://github.com/bnistor4/fotocopiatrice) · [Product homepage](https://fotocopiatrice.vercel.app/)
 
+### Goatside
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted personal finance tracker: type spending in plain words and the agent files it, with TypeSafe Jev choosing category and direction.
+
+**Jev's role:** Code parses amount, date, split and account; Jev picks the category and money in/out, asking a one-tap question when unsure.
+
+**Platform:** Web (self-hosted on Vercel + Turso)
+
+**Product:** [github.com/joshxfi/goatside#readme](https://github.com/joshxfi/goatside#readme)
+
+**Pricing / access:** Free MIT source; Vercel, Turso, AI Gateway and TypeSafe usage on your own accounts.
+
+**Access:** Source inspected at a pinned commit; not run on the review host.
+
+[Full Goatside guide](goatside.md) · [Source](https://github.com/joshxfi/goatside)
+
 ### Hearth
 
 `Open source` · `Free source build` · `BYOK`
