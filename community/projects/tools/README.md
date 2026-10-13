@@ -1228,6 +1228,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [pi-thunder-jev](pi-thunder-jev.md) | `jev_find` for Pi: Jev ranks files and excerpts for a code question. | TypeScript · Pi extension (MIT) |
 | [postgres-search](postgres-search.md) | Add a Jev re-rank and 'did you mean' stage to SQL product search, with a published evaluation. | SQL + TypeScript · Postgres search + Node demo server (MIT) |
 | [ReadyCode Reader](readycode-reader.md) | Local PDF/DOCX/XLSX evidence for agents: TypeSafe Jev checks passages before cited answers (MCP + browser) | Node.js · MCP (`@readycode/reader`) + browser demo (Apache-2.0) |
+| [RepoFinder](repofinder.md) | Codebase map + BM25 search with optional Jev rerank; Claude answers with citations. | Python · CLI (MIT) |
 | [sgrep](sgrep.md) | Semantic grep: chunk a repo and ask TypeSafe Jev which chunks match a plain-English query (mock offline). | Python · CLI (`sgrep`) |
 | [Semble + Jev (semble-jev)](semble-jev.md) | Semble retrieves local snippets; TypeSafe Jev scores relevance; CLI returns original source (`sj`). | Python · CLI via uv (Apache-2.0) |
 | [sieve](sieve.md) | Local MCP: enumerate repo/search candidates and score with TypeSafe Jev (`jev_grep` / `jev_rank` / `jev_search`). | Python · MCP server (`sieve` 0.1.0, uv) |
