@@ -1019,6 +1019,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [askif](askif.md) | Write readable if/switch/score control flow over Jev probabilities, with thresholds, unsure bands and offline tests. | TypeScript · npm `askif` + `@askif/jev` (MIT) |
 | [astrbot_plugin_smart_wake](astrbot-smart-wake.md) | Proactive, Jev-gated wake-ups for AstrBot group chats. | Python · AstrBot plugin (MIT) |
 | [Backdrop AI Provider TypeSafe AI](backdrop-ai-provider-typesafeai.md) | Backdrop CMS AI module provider for TypeSafe System One decisions and moderation checks. | PHP · Backdrop module (GPL-2.0) |
+| [Bayes of Our Lives](bayes-of-our-lives.md) | One Embabel agent with three interchangeable decision services: TypeSafe Jev, OpenAI, and local code. | JVM / Embabel agent demo (MIT) |
 | [Camunda Jev AI Decision Connector](camunda-jev-ai-decision-connector.md) | Call TypeSafe Jev noul/choice/score from Camunda 8 BPMN for typed AI decisions over lists. | Java · Camunda 8 connector (Apache-2.0) |
 | [Cite](cite.md) | Declare concerns with `detect` questions and yes/no descriptions, then `Cite.judge/3` a source of passages (log lines, caption chunks, conversation turns) to get the matching passages. | Elixir · Hex package `cite` (Req + Spark) (MIT) |
 | [clef-mcp](clef-mcp.md) | Jev-style typed decisions from a self-hosted Clef model, callable from Claude Code. | Python · MCP stdio server (Apache-2.0) |
@@ -1045,49 +1046,49 @@ These projects study related typed-decision patterns using other models. They ar
 | [JarvisCore](jarviscore.md) | Give every agent bounded Choice/Score/Noul judgments via `self.decisions.evaluate(...)`, and opt in to Jev-backed subagent selection (`KERNEL_ROUTER_PROVIDER=typesafe`) or RAG passage classification. | Python · PyPI `jarviscore-framework[typesafe]` (Apache-2.0) |
 | [jear](jear.md) | Route NEAR AI Cloud / IronClaw choices by budget, quality, and sensitivity using TypeSafe Jev structured decisions. | Rust · CLI/library (`jear` 0.1.0) |
 | [jeff (Viperwow)](viperwow-jeff.md) | Put one typed-decision API in your stack and switch between hosted Jev and local Jev-compatible models by provider/model name. | Rust · single binary (release archives; `cargo`) |
-| [jev CLI (vilinski)](vilinski-jev-cli.md) | Rust CLI for typed System One questions across Jev and other providers. | Rust (MIT OR Apache-2.0) |
-| [Jev for Excel](jev-excel.md) | Classify, score or fact-check a column of text with a fill-down formula instead of code. | JavaScript Office add-in + VBA module (MIT) |
-| [Jev Harness (Apixly)](apixly-jev-harness.md) | Run AI-authored task scripts where Jev picks the next tool and arguments from observed state, with bounds and completion checks. | Python · library + CLI (MIT) |
-| [Jev Moderation](jev-moderation.md) | Moderate user text with portable JSON policies where every rule is a separate Jev yes/no question, and test policy changes against labelled cases before shipping. | TypeScript + Python · shared policy schemas (MIT) |
-| [Jev Starter](jev-starter.md) | Express + React starter for small Jev web apps via OpenRouter. | TypeScript · Node · React (MIT) |
-| [jev-mcp (drmedia)](drmedia-jev-mcp.md) | Give any MCP client typed Jev (or Clef / local) decisions with probabilities. | TypeScript · MCP server (MIT) |
-| [jev-netlify-mcp](jev-netlify-mcp.md) | Private Jev access for MCP clients through a key-locked Netlify AI Gateway proxy (or directly with a TypeSafe key). | Python MCP server + Netlify function (MIT) |
-| [jev-py-sdk](jev-py-sdk.md) | Python SDK/CLI for typed Jev judgments with client-side masking. | Python · SDK + CLI (MIT) |
-| [jev-state](jev-state.md) | Shape raw app/game state for Jev (author bench: 74% → 100%, 43% fewer tokens). | TypeScript · library (MIT) |
-| [Jev.DotNet (altinburak)](jev-dotnet-altinburak.md) | Call Jev from C#/.NET services with typed questions and DI-friendly configuration. | C# · NuGet package (MIT) |
-| [jevai](jevai.md) | Call TypeSafe System One from Rust with typed noul/choice/score questions in parallel (unofficial). | Rust · async client crate (MIT) |
-| [jev-cli (shetautnetjer)](shetautnetjer-jev-cli.md) | Clean-room `jev` CLI for Decision Contracts, local search, and benchmarks against TypeSafe System One. | Python · CLI (MIT) |
 | [jev (drpaneas)](drpaneas-jev.md) | Call TypeSafe Jev System One from Go with a small client package. | Go · module (`github.com/drpaneas/jev`, MIT) |
 | [jev (okooo5km)](okooo5km-jev.md) | Stdlib Python CLI + Agent Skill for TypeSafe Jev yes/pick/score via TypeSafe API or OpenRouter (distinct from typesafe-cli / typesafeai-cli). | Python · CLI 0.3.2 + skill |
-| [jev-dotnet (CMaintz)](cmaintz-jev-dotnet.md) | Unofficial zero-dep .NET Jev client (Choice/Score/Noul); distinct from ukashanoor/jev-dotnet. | C# · .NET client (MIT) |
-| [jev-php (f-lombardo)](f-lombardo-jev-php.md) | Call TypeSafe Jev System One APIs from PHP applications. | PHP · library (LGPL-2.1) |
 | [jev (polidog)](polidog-jev.md) | Pipe state on stdin and run jev noul/choice/score against TypeSafe, Cloudflare Workers AI, or Vercel AI Gateway. | Rust · CLI (`cargo install --git`) |
 | [jev (stefafafan)](stefafafan-jev.md) | Unix/Go CLI for typed TypeSafe Jev questions across TypeSafe, Cloudflare, and Vercel providers. | Go · CLI (`go install`, MIT) |
 | [JEV ADK](jev-adk.md) | Build System One agent pipelines with TypeSafe Jev primitives: bash guardrails, dual-brain routing, PR triage blueprints. | Python · ADK / examples (MIT) |
 | [Jev Classification for n8n](jev-classification-n8n.md) | Route workflow items with typed Jev decisions, configurable review handling, and multi-item batching. | TypeScript · self-hosted n8n community node |
+| [jev CLI (vilinski)](vilinski-jev-cli.md) | Rust CLI for typed System One questions across Jev and other providers. | Rust (MIT OR Apache-2.0) |
+| [Jev for Excel](jev-excel.md) | Classify, score or fact-check a column of text with a fill-down formula instead of code. | JavaScript Office add-in + VBA module (MIT) |
 | [Jev for Splunk](jev-for-splunk.md) | Ask TypeSafe Jev typed questions about Splunk events (the `jev` search command) and cache answers in the KV store. | Python · Splunk app (`jev_for_splunk`, Apache-2.0 file) |
+| [Jev Harness (Apixly)](apixly-jev-harness.md) | Run AI-authored task scripts where Jev picks the next tool and arguments from observed state, with bounds and completion checks. | Python · library + CLI (MIT) |
 | [Jev MCP (Freepik)](freepik-jev-mcp.md) | Go MCP server for typed decide/classify/verify/rerank via OpenRouter or TypeSafe (binary/container). | Go · MCP binary (`jev-mcp` v0.3.0) |
 | [Jev MCP Server (keysersoft)](keysersoft-jev-mcp-server.md) | Install a remote/self-hosted AnythingMCP Jev connector (yes/no, classify, score + probabilities) for Claude/ChatGPT MCP hosts. | JavaScript · AnythingMCP connector (AGPL-3.0) |
+| [Jev Moderation](jev-moderation.md) | Moderate user text with portable JSON policies where every rule is a separate Jev yes/no question, and test policy changes against labelled cases before shipping. | TypeScript + Python · shared policy schemas (MIT) |
+| [Jev Starter](jev-starter.md) | Express + React starter for small Jev web apps via OpenRouter. | TypeScript · Node · React (MIT) |
 | [Jev Studio](jev-studio.md) | Experiment with TypeSafe Jev via a `jev` CLI (verify/screen/classify/…) and an MCP server with cookbook tools. | Python · CLI + MCP (`jev-studio` 0.1.0 Alpha) |
 | [Jev Symfony Bundle](jev-symfony-bundle.md) | Wire TypeSafe Jev into Symfony via typed client, validator attributes, Messenger, Workflow guards, and profiler. | PHP · Symfony bundle (Apache-2.0) |
 | [jev-agent-tools](jkudish-jev-agent-tools.md) | Share a fail-closed multi-provider Jev transport used by jev-browser and jev-mcp. | JavaScript · library (MIT) |
 | [jev-broker](alekseiul-jev-broker.md) | Local HTTP MCP broker for Hermes agents: validate questions, call TypeSafe Jev via OpenRouter, return structured… | Go · HTTP MCP tool (MIT) |
 | [jev-cli (shaharia-lab)](shaharia-lab-jev-cli.md) | Rust `jev` CLI + MCP: typed TypeSafe Jev questions with shell exit codes and JSON (distinct from tumf). | Rust · crates.io CLI/MCP (Apache-2.0 OR MIT) |
+| [jev-cli (shetautnetjer)](shetautnetjer-jev-cli.md) | Clean-room `jev` CLI for Decision Contracts, local search, and benchmarks against TypeSafe System One. | Python · CLI (MIT) |
 | [jev-cli (tumf)](tumf-jev-cli.md) | Ask TypeSafe Jev noul/choice/score from a PyPI CLI plus bundled stdio MCP (`jev` / `jev-mcp`). | Python · PyPI CLI/MCP (`jev-cli` 0.6.2) |
 | [jev-code-mode](jev-code-mode.md) | Expose typed Jev judgments as two MCP tools (`search` and `execute`) for agent cheap-checks before heavier work. | TypeScript · MCP server (MIT) |
+| [jev-dotnet (CMaintz)](cmaintz-jev-dotnet.md) | Unofficial zero-dep .NET Jev client (Choice/Score/Noul); distinct from ukashanoor/jev-dotnet. | C# · .NET client (MIT) |
 | [jev-feels](jev-feels.md) | Use TypeSafe Jev as Ruby `feels?` / `decide` / `score` and Rails validations (distinct from BAML feelings). | Ruby · gem (`jev-feels` 1.1.0) |
 | [jev-foundation-models](jev-foundation-models.md) | Use TypeSafe Jev as an Apple Foundation Models `LanguageModel` for `@Generable` Bool/enum/score fields. | Swift 6 · SwiftPM (`JevFoundationModels` 0.1.0, Apache-2.0) |
 | [jev-java](jev-java.md) | Call TypeSafe Jev (or OpenRouter/Vercel adapters) from Java 17+ with typed Choice/Noul/Score and optional Spring. | Java · Maven (`jev-typesafe` 0.1.1) |
 | [jev-mcp](jev-mcp.md) | Give agents ten purpose-built TypeSafe Jev judgment MCP tools (verify, screen, find, classify, review, gate, …). | TypeScript · npm MCP server (`@jkudish/jev-mcp`) |
 | [jev-mcp (Afloat16)](afloat16-jev-mcp.md) | Unofficial conservative MCP server for TypeSafe AI Jev (stdio) so agents can ask typed System One questions. | Node.js · MCP server (MIT) |
+| [jev-mcp (drmedia)](drmedia-jev-mcp.md) | Give any MCP client typed Jev (or Clef / local) decisions with probabilities. | TypeScript · MCP server (MIT) |
 | [jev-mcp-server](jev-mcp-server.md) | MCP for official TypeSafe Jev choice/score/noul plus compare/verify/batch classify and client installer. | Python · PyPI MCP (`jev-mcp-server` 0.2.3) |
+| [jev-netlify-mcp](jev-netlify-mcp.md) | Private Jev access for MCP clients through a key-locked Netlify AI Gateway proxy (or directly with a TypeSafe key). | Python MCP server + Netlify function (MIT) |
+| [jev-php (f-lombardo)](f-lombardo-jev-php.md) | Call TypeSafe Jev System One APIs from PHP applications. | PHP · library (LGPL-2.1) |
 | [jev-prompt-sentry](jev-prompt-sentry.md) | Reverse-proxy Anthropic Messages through one batched TypeSafe Jev jailbreak/injection/exfil screen (PolyForm Noncommercial). | Python · FastAPI proxy |
+| [jev-py-sdk](jev-py-sdk.md) | Python SDK/CLI for typed Jev judgments with client-side masking. | Python · SDK + CLI (MIT) |
 | [jev-recipes](jev-recipes.md) | 66 TypeScript recipes for TypeSafe Jev decisions (rerank/verify/clarify/route/…) via `@typesafe-ai/sdk`. | TypeScript · npm (`jev-recipes` 0.2.0) |
 | [jev-sdk-java](jev-sdk-java.md) | Call System One from Java 21 with sealed Question/Answer records (TypeSafe-only; source-build until Central lists 0.1.0). | Java 21 · Maven (`com.luigivismara:jev-sdk-java`) |
+| [jev-state](jev-state.md) | Shape raw app/game state for Jev (author bench: 74% → 100%, 43% fewer tokens). | TypeScript · library (MIT) |
+| [Jev.DotNet (altinburak)](jev-dotnet-altinburak.md) | Call Jev from C#/.NET services with typed questions and DI-friendly configuration. | C# · NuGet package (MIT) |
 | [jev.zig](jakeknowlton-jev-zig.md) | Call TypeSafe System One from Zig with compile-time typed noul/choice/score questions. | Zig 0.16 · library via build.zig.zon (MIT) |
 | [jev2mcp](jev2mcp.md) | Local companion + Chrome extension: TypeSafe Jev selects ChatGPT MCP/plugin/tool mentions from your catalog. | Node.js · local server + extension (`jev2mcp` 0.2.1) |
 | [jev4j](jev4j.md) | Call TypeSafe/OpenRouter Jev from Java (noul/choice/score, multi-question, Spring starter). | Java · Maven (`jev4j-core` 0.1.0, MIT) |
 | [jev4k](jev4k.md) | Declare TypeSafe Jev Noul/Choice/Score questions in a Kotlin DSL and read typed answers. | Kotlin · Maven (`com.pambrose:jev4k` 0.1.0) |
+| [jevai](jevai.md) | Call TypeSafe System One from Rust with typed noul/choice/score questions in parallel (unofficial). | Rust · async client crate (MIT) |
 | [JevApi](jevapi.md) | .NET 10 TypeSafe.Client + MCP server for typed noul/choice/score evaluate/batch. | C# · .NET library + MCP (MIT) |
 | [JevClient.jl](jevclient-jl.md) | Call System One from Julia with Noul/Choice/Score sets and endpoint policy locks to api.typesafe.ai. | Julia · package (`JevClient` 0.1.0) |
 | [jevey](jevey.md) | Friendly Python wrapper for TypeSafe Jev (Noul/Choice helpers, async client). | Python · library (Apache-2.0) |
@@ -1146,24 +1147,24 @@ These projects study related typed-decision patterns using other models. They ar
 | [strapi-plugin-jev-review](strapi-plugin-jev-review.md) | Gate Strapi 5 publish with TypeSafe Jev approve/escalate/revise decisions (optional Document Service guard). | JavaScript · Strapi 5 plugin (MIT) |
 | [swift-jev](swift-jev.md) | Call TypeSafe Jev Choice/Noul/Score from SwiftPM apps or a JSON CLI (`jev`); no free-form generation. Distinct from TypeSafe (Swift). | Swift 6.2 · SwiftPM library (`Jev`) + CLI |
 | [sys1 (alvarobartt)](alvarobartt-sys1.md) | Serve open decision models (e.g. Laya) behind a System One–compatible `/v1/systemone` API in Rust. Distinct from hraness/sys1. | Rust · CLI/server (Apache-2.0) |
-| [SystemOneClient](system-one-client.md) | Call Jev and other System One models from Elixir with full distributions, a stub and retries. | Elixir · Hex library (`system_one_client`, Apache-2.0) |
 | [System One Connector](system-one-connector.md) | MCP `evaluate` tool: typed Jev/Laya/System One judgments with probabilities for supported coding agents. | Go · static binary + MCP setup (MIT) |
 | [system-one (asynq-io)](asynq-io-system-one.md) | Vendor-neutral Python SDK for typed System One yes/no/choice/score (hosted or local ONNX). | Python · PyPI (`system-one`, Apache-2.0) |
 | [systemone (justintout)](systemone-justintout.md) | Unofficial Go System One/Jev client with compile-time typed questions (distinct from TypeSafe Go). | Go · module (`github.com/justintout/systemone`, MIT) |
+| [SystemOneClient](system-one-client.md) | Call Jev and other System One models from Elixir with full distributions, a stub and retries. | Elixir · Hex library (`system_one_client`, Apache-2.0) |
 | [taurus-jev-sdk-go](taurus-jev-sdk-go.md) | Hard-failing stdlib Go System One client (unofficial). | Go · library (MIT) |
-| [TypeSafe AI unofficial guide (typesafe-docs)](typesafeai-unofficial-guide.md) | Unofficial System One API guide: primitives, cookbooks, examples, mock server. | Docs · Python/TypeScript examples (MIT) |
-| [TypeSafe Jev custom connector](jev-custom-connector.md) | Call TypeSafe Jev from Power Automate/Copilot Studio with typed dynamic-content answers. | Power Platform · managed custom connector (MIT) |
-| [typesafe-go (zhirschtritt)](zhirschtritt-typesafe-go.md) | Call TypeSafe System One from Go with an idiomatic unofficial SDK (≠ stacklok/typesafe-go). | Go · module (`github.com/zhirschtritt/typesafe-go`, MIT) |
-| [TypeSafe .NET SDK (mehdihadeli)](mehdihadeli-typesafe-dotnet-sdk.md) | Call TypeSafe System One from .NET with typed Noul/Choice/Score models and your own HttpClient. | C# · .NET library (MIT) |
 | [TypeSafe (Swift)](typesafe-swift.md) | Call System One Noul/Choice/Score from SwiftPM apps and servers. | Swift · SwiftPM library (`TypeSafe`) |
+| [TypeSafe .NET SDK (mehdihadeli)](mehdihadeli-typesafe-dotnet-sdk.md) | Call TypeSafe System One from .NET with typed Noul/Choice/Score models and your own HttpClient. | C# · .NET library (MIT) |
 | [TypeSafe AI for Agent Zero](a0-typesafe-ai.md) | Ask TypeSafe Jev Choice/Noul/Score from Agent Zero chat with probability cards; bundles the official agent skill. | Python · Agent Zero plugin (`typesafe_ai` 1.0.0) |
+| [TypeSafe AI unofficial guide (typesafe-docs)](typesafeai-unofficial-guide.md) | Unofficial System One API guide: primitives, cookbooks, examples, mock server. | Docs · Python/TypeScript examples (MIT) |
 | [TypeSafe C++ SDK](typesafe-sdk-cpp.md) | Call TypeSafe System One (Choice/Score/Noul) from C++20 with a builder-configured client. | C++20 · library (MIT) |
 | [TypeSafe Go](typesafe-go.md) | Call System One from Go with explicit auth options and no implicit env reads (Stacklok; unofficial). | Go · module (`github.com/stacklok/typesafe-go`) |
+| [TypeSafe Jev custom connector](jev-custom-connector.md) | Call TypeSafe Jev from Power Automate/Copilot Studio with typed dynamic-content answers. | Power Platform · managed custom connector (MIT) |
 | [TypeSafe MCP](typesafe-mcp.md) | Give agents a general-purpose Jev evaluation tool with raw provider responses. | Go · MCP server and pi extension |
 | [typesafe-api (Rust)](typesafe-api-rs.md) | Call System One from Rust with typed questions/answers (`typesafe-api` 0.1.0, MSRV 1.88). | Rust · crates.io client |
 | [TypeSafe-as-a-Judge](typesafe-as-a-judge.md) | Give Codex/Claude Code bounded TypeSafe Jev route/rank/extract/verify/judge MCP tools (unofficial). | Node.js · MCP plugin + skills (`0.1.0`) |
 | [typesafe-cli](typesafe-cli.md) | Ask Jev noul/choice/score questions from the shell (`jev`); answers are numbers, not prose. | TypeScript · npm CLI / Nix |
 | [typesafe-client (haileyok)](haileyok-typesafe-client.md) | Call TypeSafe System One (Noul/Choice/Score) from Go (stdlib) or Rust (async reqwest) with typed errors and retry policy matching the official SDKs. | Go 1.22+ · Rust 1.88+ (`typesafe-system-one` crate) |
+| [typesafe-go (zhirschtritt)](zhirschtritt-typesafe-go.md) | Call TypeSafe System One from Go with an idiomatic unofficial SDK (≠ stacklok/typesafe-go). | Go · module (`github.com/zhirschtritt/typesafe-go`, MIT) |
 | [typesafe-haystack (Haystack integration)](typesafe-haystack.md) | Typed Jev decisions inside Haystack pipelines — classify documents into metadata or route text between branches. | Python · Haystack 3 integration, PyPI `typesafe-haystack` (Apache-2.0) |
 | [typesafe-sdk-csharp (tylerwarner33)](tylerwarner33-typesafe-sdk-csharp.md) | Unofficial C# TypeSafe API client (≠ listed TypeSafe.AI NuGet / CMaintz jev-dotnet). | C# · .NET client (MIT) |
 | [typesafe-sdk-go (jmelahman)](typesafe-sdk-go-jmelahman.md) | Stdlib-only Go client for TypeSafe System One (Noul/Choice/Score helpers). | Go · module (`github.com/jmelahman/typesafe-sdk-go`, MIT) |
