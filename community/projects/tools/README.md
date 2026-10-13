@@ -229,6 +229,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [DocJev](docjev.md) | Classify or split PDF/DOCX/PPTX packets with LiteParse text and TypeSafe Jev category/boundary judgments. | Python · CLI/library (`docjev`, Apache-2.0) |
 | [DSH Decision Router](dsh-decision-router.md) | Per-turn route selection for DSH with Laya locally or Jev in the cloud. | JavaScript · DSH plugin (MIT) |
 | [dsh-auto-review-jev (sperictao)](sperictao-dsh-auto-review-jev.md) | DeepSeek Harness Auto-permission: TypeSafe Jev reviews each tool call (≠ xlennart). | TypeScript · DSH plugin (MIT) |
+| [dsh-backdoor-guard](dsh-backdoor-guard.md) | DeepSeek Harness guard: Jev (or local d1) judges each tool call before it runs. | TypeScript · DeepSeek Harness extension (MIT) |
 | [dsh-jev](dsh-jev.md) | Register `jev_ask` on DeepSeek Harness so agents can send typed noul/choice/score questions to TypeSafe Jev (install from GitHub pin). | TypeScript · DSH plugin (`dsh-jev` 0.1.0) |
 | [dsh-jev-context-gate](dsh-jev-context-gate.md) | DeepSeek Harness preflight + evidence-aware review/skill gates via TypeSafe Jev. | JavaScript · DSH plugin (MIT) |
 | [dsh-jev-decide](dsh-jev-decide.md) | Register DSH agent tool `jev_decide` for TypeSafe Jev noul/choice/score over text state (distinct from dsh-jev / verify / prune). | TypeScript · npm plugin (`dsh-jev-decide` 0.1.1) |
