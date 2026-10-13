@@ -1027,6 +1027,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-mcp (drmedia)](drmedia-jev-mcp.md) | Give any MCP client typed Jev (or Clef / local) decisions with probabilities. | TypeScript · MCP server (MIT) |
 | [jev-netlify-mcp](jev-netlify-mcp.md) | Private Jev access for MCP clients through a key-locked Netlify AI Gateway proxy (or directly with a TypeSafe key). | Python MCP server + Netlify function (MIT) |
 | [jev-py-sdk](jev-py-sdk.md) | Python SDK/CLI for typed Jev judgments with client-side masking. | Python · SDK + CLI (MIT) |
+| [jev-state](jev-state.md) | Shape raw app/game state for Jev (author bench: 74% → 100%, 43% fewer tokens). | TypeScript · library (MIT) |
 | [Jev.DotNet (altinburak)](jev-dotnet-altinburak.md) | Call Jev from C#/.NET services with typed questions and DI-friendly configuration. | C# · NuGet package (MIT) |
 | [jevai](jevai.md) | Call TypeSafe System One from Rust with typed noul/choice/score questions in parallel (unofficial). | Rust · async client crate (MIT) |
 | [jev-cli (shetautnetjer)](shetautnetjer-jev-cli.md) | Clean-room `jev` CLI for Decision Contracts, local search, and benchmarks against TypeSafe System One. | Python · CLI (MIT) |
