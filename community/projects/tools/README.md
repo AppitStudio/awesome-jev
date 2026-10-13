@@ -1021,6 +1021,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Cite](cite.md) | Declare concerns with `detect` questions and yes/no descriptions, then `Cite.judge/3` a source of passages (log lines, caption chunks, conversation turns) to get the matching passages. | Elixir · Hex package `cite` (Req + Spark) (MIT) |
 | [clef-mcp](clef-mcp.md) | Jev-style typed decisions from a self-hosted Clef model, callable from Claude Code. | Python · MCP stdio server (Apache-2.0) |
 | [cog-typesafe](cog-typesafe.md) | Bind TypeSafe Jev as a versioned `system-one/decisions` provider Cog for decision Cogs. | Python · pixi Cog provider (Apache-2.0) |
+| [cpa-plugin-typesafe](cpa-plugin-typesafe.md) | CLIProxyAPI plugin for TypeSafe Jev typed API with OpenAI compatibility. | Go · plugin (MIT) |
 | [datafusion-jev](datafusion-jev.md) | DataFusion SQL `prompt_jev` UDF for typed TypeSafe Jev answers over row text (bring HTTP client). | Rust · DataFusion 55 crate (MIT OR Apache-2.0) |
 | [Dataiku TypeSafe AI plugin](dataiku-typesafe-plugin.md) | Use Jev typed decisions inside Dataiku agents, guardrails, RAG reranking and recipes with LLM Mesh governance. | Python · Dataiku DSS plugin (Apache-2.0) |
 | [decide (vsekhar)](vsekhar-decide.md) | Ask TypeSafe Jev yes/no, choice, and scored decisions from the command line, scripts, and agent skills. | Go · brew CLI (Apache-2.0) |
