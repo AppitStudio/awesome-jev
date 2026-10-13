@@ -235,6 +235,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [dsh-auto-review-jev (sperictao)](sperictao-dsh-auto-review-jev.md) | DeepSeek Harness Auto-permission: TypeSafe Jev reviews each tool call (≠ xlennart). | TypeScript · DSH plugin (MIT) |
 | [dsh-backdoor-guard](dsh-backdoor-guard.md) | DeepSeek Harness guard: Jev (or local d1) judges each tool call before it runs. | TypeScript · DeepSeek Harness extension (MIT) |
 | [dsh-jev](dsh-jev.md) | Register `jev_ask` on DeepSeek Harness so agents can send typed noul/choice/score questions to TypeSafe Jev (install from GitHub pin). | TypeScript · DSH plugin (`dsh-jev` 0.1.0) |
+| [dsh-jev (iptton-ai)](iptton-ai-dsh-jev.md) | DSH `jev_evaluate` tool: mixed Noul/Choice/Score questions per request (≠ noetion dsh-jev). | JavaScript · DSH plugin (MIT) |
 | [dsh-jev-context-gate](dsh-jev-context-gate.md) | DeepSeek Harness preflight + evidence-aware review/skill gates via TypeSafe Jev. | JavaScript · DSH plugin (MIT) |
 | [dsh-jev-decide](dsh-jev-decide.md) | Register DSH agent tool `jev_decide` for TypeSafe Jev noul/choice/score over text state (distinct from dsh-jev / verify / prune). | TypeScript · npm plugin (`dsh-jev-decide` 0.1.1) |
 | [dsh-jev-gate](dsh-jev-gate.md) | Catch work that only looks finished (unreported, no evidence, skeleton, unauthorized downgrade) in DSH agent teams, with Jev as an optional external adjudicator. | TypeScript · DSH plugin (MIT) |
