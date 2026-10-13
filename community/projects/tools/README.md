@@ -428,6 +428,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-gateway (TexasOct)](texasoct-jev-gateway.md) | Route OpenAI-compatible chat across providers with strategies and optional typed Choice decision providers (AGPL). | Python 3.12+ · gateway + dashboard (AGPL-3.0) |
 | [jev-gateway-bench](jev-gateway-bench.md) | Compare coding-agent cost/quality with jev-gateway Jev routing on vs off on chess-engine tasks. | JavaScript · bench harness (MIT) |
 | [jev-git-graph](jev-git-graph.md) | Evidence-backed TypeSafe Jev relationship graph for Git branch/worktree/PR consolidation (read-only default). | Python · CLI (Apache-2.0) |
+| [jev-governor](jev-governor.md) | Claude Code mod for Jev-guided model/effort routing, verbatim context compaction, and output trimming. | Claude Code mod / hooks (MIT) |
 | [jev-ground](jev-ground.md) | Evidence-grounded factuality verification for LLM and agent outputs using a Jev provider. | TypeScript library (MIT) |
 | [jev-guard](jev-guard.md) | Risk-score coding-agent tool calls with TypeSafe Jev (deny/ask/allow), flag injection in results, and scan skills across many agents. | Node.js · npm CLI/hooks (`jev-guard` 0.3.1) |
 | [jev-guard (CMaintz)](cmaintz-jev-guard.md) | Framework-agnostic allow/block/hold tool-call guard with TypeSafe Jev + LangChain/Vercel adapters (distinct from leepokai jev-guard). | TypeScript · library (`jev-guard` 0.1.0, MIT) |
