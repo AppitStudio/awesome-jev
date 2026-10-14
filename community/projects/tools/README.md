@@ -479,6 +479,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-oas-sentinel](jev-oas-sentinel.md) | Compare OpenAPI specs with structural diffs plus TypeSafe Jev semantic contract questions. | Python · CLI (`jev-oas-sentinel`) |
 | [jev-ood-calibration](jev-ood-calibration.md) | Independent calibration study of TypeSafe Jev with published raw dumps: public benches plus 900 OOD synthetic support tickets. | Node/Python · research scripts + committed results |
 | [jev-opus](jev-opus.md) | Re-pick Claude Opus 5.5 effort each step with TypeSafe Jev without breaking the prompt cache. | Node.js · CLI + Claude Code plugin (`jev-opus` 0.3.0, MIT) |
+| [Jev-Orchestrated Decision Mesh (CIDM)](jev-orchestrated-decision-mesh.md) | Training-free orchestration design where Jev chooses the next unit and reviews each output across a five-unit network, with a Codex CLI broker and skill. | Agent skill + Python scripts (MIT) |
 | [jev-orchestrator (milan6190)](milan6190-jev-orchestrator.md) | Workflow orchestration for System One models: batch, gate, trace, and calibrate thousands of typed Jev decisions. | Python library / orchestrator (MIT) |
 | [jev-packs](jev-packs.md) | Evidence-gated registry of Jev question packs with golden cases and an offline multi-backend scoreboard. | Pack data + Python scripts (CC0-1.0) |
 | [jev-permission-gate (madisonrickert)](madisonrickert-jev-permission-gate.md) | Claude Code auto-mode tool-call gate: TypeSafe Jev allow/deny/defer ahead of the built-in classifier. | Claude Code mod/plugin (MIT) |
