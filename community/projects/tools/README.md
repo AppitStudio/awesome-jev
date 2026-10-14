@@ -158,6 +158,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Baton Agent Orchestrator](baton-agent-orchestrator.md) | `jev` CLI pipeline: Jev picks agent, model and effort per step (plan → validate → build → review). | Python · CLI (Apache-2.0) |
 | [beam-cli](beam-cli.md) | Local AgentBeam hooks/policy for coding agents; optional TypeSafe Jev Noul/Score action judging (off by default). | TypeScript · npm CLI (`@agent-beam/beam` 0.2.16, AGPL-3.0) |
 | [bekko-system-one](bekko-system-one.md) | Small System One decision models (17M–400M) for Yes/No, Choice, and Score (independent open weights). | Python · local models (MIT) |
+| [Better TypeScript](better-typescript.md) | Go-based TypeScript linter whose `semantic` mode asks TypeSafe Noul questions over bounded source spans for policy checks. | Linter CLI (Go; npm package) (MIT) |
 | [bitrate-advisor](bitrate-advisor.md) | Choose live-stream encoder bitrate/resolution/next-step with TypeSafe Jev via OpenRouter inside deterministic guardrails. | TypeScript · Deno/Node library (`@affirmi/bitrate-advisor` 0.2.7) |
 | [Blackrose](blackrose.md) | Run typed TypeSafe System One checks and return allow/review/block with scores in app code. | Python + JS packages (MIT) · TypeSafe Jev |
 | [Blueprint Support Ticket Triage](blueprint-support-ticket-triage.md) | Human-gated support triage agent with typed decisions (Jev/LLM/offline). | Python · blueprint (Apache-2.0) |
