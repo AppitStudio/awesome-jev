@@ -2682,6 +2682,22 @@ Chrome and Safari extension that detects in-video spoken sponsorships on Russian
 
 ## Command-line apps
 
+### Albatross
+
+`Open source` · `Free source build` · `BYOK`
+
+Terminal-first coding harness (bring your own model, key or MCP server) with an experimental Jev Mode that puts TypeSafe's decision model before the main LLM.
+
+**Jev's role:** Optional pre-LLM decision layer for supported questions.
+
+**Platform:** macOS / Linux terminal (Homebrew or source)
+
+**Product:** [github.com/morganlinton/Albatross](https://github.com/morganlinton/Albatross)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Albatross guide](albatross.md) · [Source](https://github.com/morganlinton/Albatross)
+
 ### Anki Review-Finder
 
 `Open source` · `Free source build` · `BYOK`
