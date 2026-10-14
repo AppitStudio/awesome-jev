@@ -992,6 +992,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jiwo](jiwo.md) | Small open decision models (0.8B and 4B) served behind a Jev-compatible `POST /v1/systemone` API, returning option probabilities in one forward pass. | Models + FastAPI server (Python) (MIT) |
 | [kev-onnx-cpu](kev-onnx-cpu.md) | Run the open Kev 0.6B decision model on CPU with only onnxruntime and numpy. | Python · library + scripts (Apache-2.0) |
 | [kevala](kevala.md) | Run Laya/Kev/Bruv/SemIf-style typed decisions in-browser via Rust→WASM + WebGPU (no server; independent of official Jev). | JavaScript/WASM · npm/CDN (`kevala`, Apache-2.0) |
+| [KevDB](kevdb.md) | Semantic SQL functions in DuckDB powered by open-weight decision models, benchmarked under pre-registered criteria against the Jev API and LLMs. | Python library + DuckDB extension functions and experiments (MIT) |
 | [L2S1](l2s1.md) | Turn local GGUF model scores into typed binary/choice/ordinal decisions with abstention policy (not TypeSafe-hosted). | Rust · CLI/runtime + SDKs (MIT) |
 | [laya-browser-agent](laya-browser-agent.md) | In-browser Jev-like multi-backend agent with open checkpoints and Jev compatibility tests. | Python / browser agent (Apache-2.0) |
 | [laya-candle](laya-candle.md) | Run local Laya typed Choice/Score/Noul in pure Rust via Candle (no Python; not TypeSafe-hosted). | Rust · Candle crate (Apache-2.0) |
