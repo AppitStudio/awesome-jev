@@ -760,6 +760,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [RimeJev](rimejev.md) | Add async context-aware Chinese candidate recommendations to Squirrel + Rime (Wanxiang) on macOS via Jev or local models. | Python + Lua · macOS input-method add-on (GPL-3.0) |
 | [rippy](rippy.md) | Gate agent shell commands with allow/ask/deny rules; with `rippy-jev`, uncertain asks (unknown command, unresolvable variable) may be auto-approved when Jev is confident and the effect class is allowed. | Rust · CLI hook (`rippy-cli`, crates.io/Homebrew; `rippy-jev` feature build) (MIT) |
 | [RLCD Gateway](rlcd-gateway.md) | Self-hosted Go gateway: LLM routing with context pruning plus Jev/open-rlcd System One audit/calibration dashboard. | Go · binary/npm/PyPI (`rlcd-gateway`, Apache-2.0) |
+| [rreia-skill](rreia-skill.md) | RREIA agent skill bundling a local rreia-jev Rust decision asset and Jev-local references. | Agent skill + Rust rreia-jev asset (MIT) |
 | [s1-tui](s1-tui.md) | Terminal UI for System One typed decisions over laya + TypeSafe Jev backends. | TUI (MIT) |
 | [Scope (code context selector)](tjeastmond-scope.md) | Hand a coding agent or developer a compact, evidence-backed set of code chunks for a task instead of whole files. | TypeScript · Bun tooling · Node 24+ CLI |
 | [Scruple](scruple.md) | Turn named engineering standards that need interpretation into lint checks that run on every change. | TypeScript · npm packages `@scruple/*` (MIT) |
