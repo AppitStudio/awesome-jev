@@ -1082,6 +1082,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev Starter](jev-starter.md) | Express + React starter for small Jev web apps via OpenRouter. | TypeScript · Node · React (MIT) |
 | [Jev Studio](jev-studio.md) | Experiment with TypeSafe Jev via a `jev` CLI (verify/screen/classify/…) and an MCP server with cookbook tools. | Python · CLI + MCP (`jev-studio` 0.1.0 Alpha) |
 | [Jev Symfony Bundle](jev-symfony-bundle.md) | Wire TypeSafe Jev into Symfony via typed client, validator attributes, Messenger, Workflow guards, and profiler. | PHP · Symfony bundle (Apache-2.0) |
+| [Jev x AI SDK Form Router](jev-and-ai-sdk.md) | Next.js form router that uses Jev to route submissions by context, with an LLM fallback for uncertain cases. | Next.js + AI SDK sample (MIT) |
 | [jev-agent-tools](jkudish-jev-agent-tools.md) | Share a fail-closed multi-provider Jev transport used by jev-browser and jev-mcp. | JavaScript · library (MIT) |
 | [jev-broker](alekseiul-jev-broker.md) | Local HTTP MCP broker for Hermes agents: validate questions, call TypeSafe Jev via OpenRouter, return structured… | Go · HTTP MCP tool (MIT) |
 | [jev-cli (shaharia-lab)](shaharia-lab-jev-cli.md) | Rust `jev` CLI + MCP: typed TypeSafe Jev questions with shell exit codes and JSON (distinct from tumf). | Rust · crates.io CLI/MCP (Apache-2.0 OR MIT) |
