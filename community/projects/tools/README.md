@@ -937,6 +937,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-omni.js](jev-omni-js.md) | Run independent Jev-Omni multimodal decisions in-browser on WebGPU (text+images; WIP video/audio). | JavaScript · onnxruntime-web (Apache-2.0) |
 | [jev-polymarket-test](jev-polymarket-test.md) | See whether Jev beats Polymarket prices on resolved markets, with a memorisation check. | Python · research scripts (MIT) |
 | [jev-router (peptidehackers)](peptidehackers-jev-router.md) | Train/serve schema-typed probability heads with Wilson-certified act-or-escalate routing (numpy-only; independent of hosted Jev). | Python · numpy library + infer/approve/monitor (MIT) |
+| [jev-router-benchmark](jev-router-benchmark.md) | Manufacturing routing benchmark with recorded Jev decisions for offline evaluation. | Benchmark dataset / eval harness (MIT) |
 | [Jev-Style](jev-style.md) | Local System One–compatible decision models + skills/guard/MCP tooling; independent of hosted Jev. | Python · local server + skills/MCP (Apache-2.0) |
 | [jev-switch](arcj137442-jev-switch.md) | Expose `/v1/systemone` locally and route/failover across configured upstream adapters (Vercel, Laya) via an editable DAG; dashboard + Tauri shell. | Rust (axum) · React UI · Tauri · Docker |
 | [jev-testbench](jev-testbench.md) | Reproduce budget-capped, evidence-labelled Jev capability probes with an offline suite. | Python · research harness (MIT) |
