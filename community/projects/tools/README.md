@@ -977,6 +977,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jevometry](jevometry.md) | Analyze System One / Jevlike decision probability models with information geometry (Fisher sensitivity); does not orchestrate agents. | Python · research toolkit (MIT) |
 | [jevos](jevos.md) | Serve yes/no (Noul) decisions from a CPU-only, offline 1B GGUF model behind a Jev-compatible `/v1/systemone` API. | Python/FastAPI · llama.cpp GGUF weights (MIT) |
 | [JevOss](jevoss.md) | Probe suite for Jev-API decision models: accuracy, calibration, adversarial recipes. | Python · eval harness (Apache-2.0) |
+| [JEVPFN](jevpfn.md) | Research code testing whether label-free Jev features extracted from text improve tabular predictors such as TabPFN and CatBoost on MulTaBench text datasets. | Research repository (Python) (MIT) |
 | [JevServe](jevserve.md) | GPU server for open-weight Jev-style decision models (Open-Jev, Kev and others). | Python · Docker image (Apache-2.0) |
 | [JevTalk](jevtalk.md) | Makes Jev spell plain-English answers one choice at a time. | Python · script (MIT) |
 | [kev-onnx-cpu](kev-onnx-cpu.md) | Run the open Kev 0.6B decision model on CPU with only onnxruntime and numpy. | Python · library + scripts (Apache-2.0) |
