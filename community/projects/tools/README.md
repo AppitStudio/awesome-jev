@@ -669,6 +669,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Leash](leash.md) | Judge each coding-agent turn against un-lintable rules with TypeSafe Jev and a one-way debt ratchet. | TypeScript · CLI/npm (`leash`, MIT) |
 | [Lintel](lintel.md) | Change gate: agent proposes, Jev reviews, you approve before code is written. | Go · CLI + hooks (MIT) |
 | [lintent](lintent.md) | Plain-language lint rules judged by TypeSafe Jev, scoped with tree-sitter. | Rust · CLI linter (MIT) |
+| [LLM Debugger (VS Code)](llm-debugger-vscode.md) | VS Code extension that finds bugs by driving the real debugger — breakpoints, stepping, live values — with Jev answering each step's 'what next?' and a generation model only for hypotheses and fixes. | VS Code extension (TypeScript) (MIT) |
 | [llmbridge](llmbridge.md) | OpenAI-compatible LLM gateway with L1 rules / L2 TypeSafe Jev / L3 fallback routing. | Python/FastAPI + Vue · gateway (Apache-2.0) |
 | [mail-classifier (Outlook)](ringelstein-mail-classifier.md) | Local Outlook triage: Jev classifies unread mail; flag/file/trash after confirmation. | Python · local web app (MIT) |
 | [Mastering TypeSafe Jev (book code)](mastering-jev-book.md) | Companion source for the Mastering TypeSafe Jev book (Jev + open Kev labs). | Python · book samples (MIT) |
