@@ -739,6 +739,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-jev (kurowashi)](kurowashi-pi-jev.md) | Add TypeSafe Jev semantic checks for Pi file edits and new-file placement (content-guard + placement plugins). | TypeScript · Pi extensions monorepo (MIT) |
 | [pi-jev-context](pi-jev-context.md) | Trim long pi tool outputs before they enter context (comparison first; TypeSafe Jev only when needed) with lossless recall. | TypeScript · Pi extension (`pi-jev-context`) |
 | [pi-jev-effort](pi-jev-effort.md) | Set Pi thinking level per prompt from a TypeSafe Jev difficulty score, capped by remaining quota. | TypeScript · Pi extension (`pi-jev-effort` 0.1.0) |
+| [pi-jev-ext-router](pi-jev-ext-router.md) | Pi extension where Jev (via OpenRouter) picks which lazily loaded extension a prompt needs and activates it before the model turn. | Pi extension (TypeScript) (MIT) |
 | [pi-jev-governor](pi-jev-governor.md) | pi coding-agent governance layer using the JEV Decisions API for planning, model-tier routing, permissions, and verification. | pi coding-agent extension (TypeScript) (MIT) |
 | [pi-jev-permit](pi-jev-permit.md) | Gate Pi bash/write/edit calls with TypeSafe Jev allow judgments after local hard-deny and read-only fast paths. | TypeScript · Pi extension (`pi-jev-permit` 0.2.0) |
 | [pi-jev-router](pi-jev-router.md) | Route pi tasks across OpenRouter models with TypeSafe Jev classification and local Pareto/role policy (shadow default). | TypeScript · Pi extension (`pi-jev-router` 0.1.0) |
