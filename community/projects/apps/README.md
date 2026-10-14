@@ -1536,6 +1536,22 @@ Hosted product-to-markdown tool: turn a product URL or description into a markdo
 
 [Full Vicaura guide](vicaura.md) · [Source](https://vicaura.com) · [Product homepage](https://vicaura.com)
 
+### Vonage Video API x Jev support demo
+
+`Open source` · `Free source build` · `BYOK`
+
+Vonage Community demo where Jev reads a customer's chat messages for sentiment and frustration and escalates to a live Vonage video call with a human agent.
+
+**Jev's role:** Jev scores frustration per message; code decides when to escalate to video.
+
+**Platform:** Web (self-hosted Node.js demo)
+
+**Product:** [github.com/Vonage-Community/demo-video-javascript-jev-starter](https://github.com/Vonage-Community/demo-video-javascript-jev-starter)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Vonage Video API x Jev support demo guide](vonage-video-jev-starter.md) · [Source](https://github.com/Vonage-Community/demo-video-javascript-jev-starter)
+
 ### Watermelon
 
 `Open source` · `Free source build` · `BYOK`
