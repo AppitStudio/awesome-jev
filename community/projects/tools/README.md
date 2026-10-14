@@ -223,6 +223,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [DeciLabel](decilabel.md) | Label GitHub Issues/PRs with Jev or other decision models; never removes labels. | TypeScript · GitHub Action (MIT) |
 | [Decision Tagger (Obsidian)](obsidian-decision-tagger.md) | Tag Obsidian notes with TypeSafe Jev System One rules; single-note and vault/folder batch with multi-key concurrency. | JavaScript · Obsidian plugin (MIT) |
 | [decision-first](decision-first.md) | Spot bounded judgments, try TypeSafe Jev first, and log adopt/decline cases for reuse. | Python · agent skill + stdlib scripts |
+| [decision-shadow](decision-shadow.md) | Zero-dependency Python wrapper to shadow-test Jev against an existing LLM classifier, report agreement, tune thresholds, then switch over with fallback. | Python library (MIT) |
 | [decisionkit (adityajha2005)](adityajha-decisionkit.md) | Provider-neutral decision CLI, MCP server and Claude Code plugin with a Jev backend. | TypeScript · Node (MIT) |
 | [Deeds](deeds.md) | Report capabilities shipped per week/author for a repo (`deeds analyze . --since 30d`), with terminal, HTML, or JSON output. | TypeScript · Bun CLI + Claude Code plugin (MIT) |
 | [DeepSeek Harness for VS Code](dsh-vsc-integration.md) | Turn on Jev (or wire-compatible Laya) inside DSH sessions to catch loops, fold noisy tool output, and check completion claims. | TypeScript · VS Code extension (MIT) |
