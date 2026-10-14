@@ -1292,6 +1292,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [JEV Research MCP](jev-research-mcp.md) | Select web research evidence with TypeSafe Jev at search-result and content-block layers (MCP `research`). | TypeScript · MCP server (Apache-2.0) |
 | [Jev Second Brain](jev-second-brain.md) | Index a Markdown/Obsidian vault and optionally judge note relationships with TypeSafe Jev (Gateway). | Python · CLI (`secondbrain`) |
 | [jev-corrective-rag](jev-corrective-rag.md) | Corrective RAG with TypeSafe Jev typed gates for triage, chunk grading, and answer verification (LLM only generates). | Python · Streamlit app, CLI and bench |
+| [jev-datafusion](jev-datafusion.md) | Rust crate that runs Jev decisions (noul, choice, score, ask) as Apache DataFusion SQL functions, so you can score tickets, route email or question meeting notes at warehouse scale. | Rust crate (Apache-2.0) |
 | [jev-doc-search](jev-doc-search.md) | Find answering pages in long PDFs with TypeSafe Jev `Choice` over a PageIndex tree (no vector DB). | Python · PageIndex + typesafe_sdk (Apache-2.0) |
 | [jev-judge-rank](jev-judge-rank.md) | Rank, de-duplicate and recall lists of items with Jev judgments on written criteria. | Python · scripts + agent skill (MIT) |
 | [jev-rag](jev-rag.md) | Index local files with SQLite BM25, rerank evidence with TypeSafe Jev, optionally stream grounded answers. | Python · local RAG CLI/UI (MIT) |
