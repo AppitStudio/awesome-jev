@@ -185,6 +185,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [claude-jev (darwintechlab)](darwintechlab-claude-jev.md) | Claude Code plugin/MCP: live TypeSafe Jev Choice/Noul/Score with auto/escalate confidence labels. | TypeScript · Claude plugin/MCP (MIT) |
 | [claude-jev-advisor](claude-jev-advisor.md) | Get Jev advice on when to compact/clear a Claude Code session and safer handling of file deletes. | TypeScript · npm `@delt/claude-jev-advisor` (MIT) |
 | [claude-jev-funnel](claude-jev-funnel.md) | Bulk TypeSafe Jev funnel for Claude Code: resolve confident YES/NO in code; escalate only the uncertain band. | Python · Claude plugin + CLI (Apache-2.0) |
+| [claude-jev-router](claude-jev-router.md) | Claude Code plugin (Indonesian README) that asks Jev three questions per prompt to pick the cheapest sufficient Claude tier and thinking effort, with a prompt-cache guard. | Claude Code plugin (TypeScript hooks) (MIT) |
 | [claude-model-guard](claude-model-guard.md) | Have Jev check, per Claude Code prompt, which model tier fits and optionally block mismatches. | JavaScript · Claude Code hooks + CLI (MIT) |
 | [claude-referee](claude-referee.md) | Gate risky Claude Code tool actions with TypeSafe Jev referee judgments. | TypeScript · Claude Code plugin (MIT) |
 | [claude-risk-router](claude-risk-router.md) | Route Claude Code tasks across Opus/Sonnet/Haiku using TypeSafe Jev risk judgments. | Python · Claude Code add-on (MIT) |
