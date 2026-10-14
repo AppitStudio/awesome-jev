@@ -958,6 +958,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-imdb-benchmark](jev-imdb-benchmark.md) | Reproduce Jev IMDB review benchmarks (sentiment/spoilers/quality) with published metrics. | Python · IMDB benchmark harness (MIT) |
 | [Jev-LCT](jev-lct.md) | Looped Calibration Transformer System One engine with Jev-shaped Choice/Noul/Score serving; independent of hosted Jev. | Python · research engine + HF weights (Apache-2.0) |
 | [Jev-Lite](jev-lite.md) | Serve local System One–style Choice/Score/Noul decisions via FastAPI (Qwen backbone; independent of hosted Jev). | Python · FastAPI + PyTorch (Apache-2.0) |
+| [jev-local](jev-local-7n1m4.md) | Local CPU-only Jev-style 0.8B decision service plus an oh-my-pi extension that points the agent's `typesafe` judge provider at it, reading yes/no logits from llama.cpp. | Local service + oh-my-pi extension (No LICENSE file) |
 | [Jev-Omni](jev-omni.md) | Run an open multimodal System One–style classifier (text/image/audio/video → option probabilities) on Gemma 4 12B IT; independent of official Jev. | Python / PyTorch · HF weights (CUDA, ~50 GB FP32) |
 | [jev-omni.js](jev-omni-js.md) | Run independent Jev-Omni multimodal decisions in-browser on WebGPU (text+images; WIP video/audio). | JavaScript · onnxruntime-web (Apache-2.0) |
 | [jev-polymarket-test](jev-polymarket-test.md) | See whether Jev beats Polymarket prices on resolved markets, with a memorisation check. | Python · research scripts (MIT) |
