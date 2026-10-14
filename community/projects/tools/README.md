@@ -1119,6 +1119,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-sdk-java](jev-sdk-java.md) | Call System One from Java 21 with sealed Question/Answer records (TypeSafe-only; source-build until Central lists 0.1.0). | Java 21 · Maven (`com.luigivismara:jev-sdk-java`) |
 | [jev-state](jev-state.md) | Shape raw app/game state for Jev (author bench: 74% → 100%, 43% fewer tokens). | TypeScript · library (MIT) |
 | [Jev.DotNet (altinburak)](jev-dotnet-altinburak.md) | Call Jev from C#/.NET services with typed questions and DI-friendly configuration. | C# · NuGet package (MIT) |
+| [Jev.Net](jev-net.md) | Community .NET client for the TypeSafe System One API with a single dependency, built-in retries, and Native AOT compatibility. | .NET library (NuGet `Jev.Net`) (MIT) |
 | [jev.zig](jakeknowlton-jev-zig.md) | Call TypeSafe System One from Zig with compile-time typed noul/choice/score questions. | Zig 0.16 · library via build.zig.zon (MIT) |
 | [jev2mcp](jev2mcp.md) | Local companion + Chrome extension: TypeSafe Jev selects ChatGPT MCP/plugin/tool mentions from your catalog. | Node.js · local server + extension (`jev2mcp` 0.2.1) |
 | [jev4j](jev4j.md) | Call TypeSafe/OpenRouter Jev from Java (noul/choice/score, multi-question, Spring starter). | Java · Maven (`jev4j-core` 0.1.0, MIT) |
