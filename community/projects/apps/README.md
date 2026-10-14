@@ -2606,6 +2606,22 @@ Daily arXiv digest engine: lexical front-line plus TypeSafe Jev confidence-gated
 
 [Full arJev guide](arjev.md) · [Source](https://github.com/harmoniqs/arjev)
 
+### Clasificador de noticias regionales con Jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Spanish-language Windows workflow that turns a monthly multi-portal news Excel into a reviewed list of Arequipa economic news, using Jev to classify headlines before scraping.
+
+**Jev's role:** Jev classifies each Arequipa headline/summary as economic news before scraping.
+
+**Platform:** Windows (Python source build)
+
+**Product:** [github.com/EdgarTapara/clasificador-noticias-jev](https://github.com/EdgarTapara/clasificador-noticias-jev)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Clasificador de noticias regionales con Jev guide](clasificador-noticias-jev.md) · [Source](https://github.com/EdgarTapara/clasificador-noticias-jev)
+
 ### Gmail Classifier
 
 `Open source` · `Free source build` · `BYOK`
