@@ -2706,6 +2706,22 @@ Turns a question into a span of King James Version verses by keying it through T
 
 [Full keyed james bible guide](keyed-james-bible.md) · [Source](https://github.com/mccartykim/keyed_james_bible)
 
+### kureksistant
+
+`Source available` · `Free source build` · `BYOK`
+
+Arch Linux (Hyprland) personal AI assistant that uses TypeSafe Jev for sub-second decisions.
+
+**Jev's role:** Jev makes fast personal-assistant judgments in the local loop.
+
+**Platform:** Linux/Arch (source build)
+
+**Product:** [github.com/nodaysidle/kureksistant](https://github.com/nodaysidle/kureksistant)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full kureksistant guide](kureksistant.md) · [Source](https://github.com/nodaysidle/kureksistant)
+
 ### meeting-ledger
 
 `Open source` · `Free source build` · `BYOK`
