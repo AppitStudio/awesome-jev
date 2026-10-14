@@ -185,6 +185,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Chirp (Tern)](tern-chirp.md) | Hear how an agent turn went — Jev picks the beep's mood and shape. | Luau · Tern plugin (MIT) |
 | [ci-triage (samiulhuda360)](samiulhuda360-ci-triage.md) | Re-run flaky/infra CI once; explain real failures with Jev on the PR. | Python · GitHub Action (MIT) |
 | [classifier.dev](classifier-dev.md) | Classify text with `curl https://classifier.dev/<labels>/<text>` or the `classify` CLI; Jev returns the label and confidence (`src/jev.ts`). | TypeScript · Cloudflare Worker + npm CLI (`classifier-dev`) (MIT) |
+| [Claude Subagent Router](claude-subagent-router.md) | Claude Code plugin with seven subagent workers, a review skill and a Codex CLI bridge; optional model routing sends Agent-call briefs to Jev and switches model when it is confident. | Claude Code plugin (Node.js scripts) (MIT) |
 | [Claude x Jev](claude-x-jev.md) | Claude Code skill: Jev classify/route/gate via OpenRouter; Claude deep-reads only unsure items. | Python/npm · Claude Code skill (`claude-x-jev`, MIT) |
 | [claude-auto-effort](claude-auto-effort.md) | Set Claude Code's effort per prompt from a Jev rating, applied consistently to every step of the turn. | TypeScript · Claude Code mod (MIT) |
 | [claude-code-jev](claude-code-jev.md) | Claude Code PreToolUse gate: TypeSafe Jev via OpenRouter Decisions classifies allow/block/ask with fixture benchmarks. | Python · CLI/hook (`jev-auto-mode` 0.1.0) |
