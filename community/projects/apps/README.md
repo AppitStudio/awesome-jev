@@ -398,6 +398,22 @@ French civic quiz comparing your answers on real National Assembly votes with ea
 
 [Full Hémicycle guide](hemicycle.md) · [Source](https://github.com/lduf/hemicycle)
 
+### Inbox Warden
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted agent that labels and cleans Gmail / Google Workspace inboxes with company-specific labels, using Jev as the first pass into existing labels and Claude for the rest.
+
+**Jev's role:** Jev assigns each email to an existing label as the first pass; Claude handles the remainder.
+
+**Platform:** Self-hosted (Docker)
+
+**Product:** [github.com/IshanVats-6/inbox-warden](https://github.com/IshanVats-6/inbox-warden)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Inbox Warden guide](inbox-warden.md) · [Source](https://github.com/IshanVats-6/inbox-warden)
+
 ### IntentSQL
 
 `Open source` · `Free source build` · `BYOK`
