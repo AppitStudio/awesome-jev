@@ -744,6 +744,22 @@ Self-hosted crypto decision-support web terminal: it pulls 50–1,000 recent twe
 
 [Full Jev X Sentiment Analysis (jev-v8) guide](jev-x-sentiment.md) · [Source](https://github.com/aikeluargalee-tech/jev-v8)
 
+### Jev 棋馆 (Jev board games)
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser board-game hall (Gomoku, Go 9x9, Xiangqi, chess, checkers, Chinese checkers) where TypeSafe Jev chooses moves, with a deterministic safety layer and a Cloudflare Worker + D1 record book.
+
+**Jev's role:** Jev chooses each move from candidates; code enforces legality and safety checks.
+
+**Platform:** Web (self-hosted or the author's deployment; source build)
+
+**Product:** [github.com/tripodxu/board-games](https://github.com/tripodxu/board-games)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Jev 棋馆 (Jev board games) guide](jev-board-games.md) · [Source](https://github.com/tripodxu/board-games)
+
 ### jev-demofast
 
 `Open source` · `Free source build` · `BYOK`
