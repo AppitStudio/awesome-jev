@@ -18,6 +18,22 @@ Shared 1,000×1,000 emoji canvas where humans paint and TypeSafe Jev paints alon
 
 [Try 1 Million Emojis](https://chriswijnia.com/lab/emoji) · [Full 1 Million Emojis guide](1-million-emojis.md) · [Source](https://github.com/cwdx/1-million-emojis)
 
+### AI;DR
+
+`Source available` · `Free`
+
+Ranked daily AI-news site and digest whose importance scoring can use Jev through AnyRouter, with a chat-model rubric as backup.
+
+**Jev's role:** Jev is one importance-scoring path for ranking stories; a chat-model rubric is the backup.
+
+**Platform:** Web (hosted) · Chrome extension · Telegram · RSS
+
+**Product:** [aidr.today](https://aidr.today)
+
+**Pricing / access:** Hosted site free to read without an account (checked 2026-10-14). Self-hosting incurs your own Cloudflare and AnyRouter/TypeSafe costs. Source inspected; live app not run on the review host.
+
+[Full AI;DR guide](aidr.md) · [Source](https://github.com/duyet/aidr)
+
 ### Aplausômetro
 
 `Open source` · `Free source build` · `BYOK`
