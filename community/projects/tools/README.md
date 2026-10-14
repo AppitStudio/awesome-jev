@@ -709,6 +709,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [openclaw-jev-leakguard](openclaw-jev-leakguard.md) | Block OpenClaw posts that leak clients/credentials to the wrong channel; judged by Jev or local Kev. | TypeScript · OpenClaw plugin (MIT) |
 | [openclaw-jev-trigger](openclaw-jev-trigger.md) | Plain-language OpenClaw automation triggers judged by TypeSafe Jev (`decisionModel`) each tick. | TypeScript · OpenClaw plugin + CLI (MIT) |
 | [openclaw-typesafe-ai](openclaw-typesafe-ai.md) | Add an optional OpenClaw `typesafe_decide` tool for explicit TypeSafe Jev judgments without lifecycle hooks. | TypeScript · OpenClaw plugin (`openclaw-typesafe-ai` 0.1.3) |
+| [OpenClaw.NET](openclaw-net.md) | Self-hosted .NET AI agent runtime with desktop companion; includes opt-in TypeSafe Jev decision routing (shadow mode first, safety floors, fallback to the existing router). | .NET agent runtime and gateway (MIT) |
 | [OpenCode Decisions plugin](opencode-decisions-plugin.md) | Let an OpenCode agent classify or judge content with Jev (via OpenCode Console) or OpenAI Decisions as a tool call. | JavaScript · OpenCode plugin (MIT) |
 | [OpenCode Security Guard](opencode-security-guard.md) | Linux OpenCode shell guard: local read-only check + Jev Noul ≥0.90 auto-allow. | TypeScript · OpenCode plugin (MIT) |
 | [opencode-auto-classifier](opencode-auto-classifier.md) | OpenCode plugin: Jev classifies shell/reads/edits for permission decisions. | TypeScript · OpenCode plugin (MIT) |
