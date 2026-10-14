@@ -848,26 +848,27 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Honeytongue](honeytongue.md) | NPC persuasion engine: TypeSafe Jev judges whether player dialogue convinced a character. | JavaScript · library (MIT) |
 | [IronBee Gamer](ironbee-gamer.md) | Watch Jev or a per-game Laya play browser games, with every decision shown beside the game. | TypeScript CLI `ibgamer` + Python Laya env (Elastic License 2.0) |
 | [Jev Game Engine](jev-game-engine.md) | Observable Jev goal selection for game agents, with latency and arrival verdicts recorded. | Rust · desktop app (MIT) |
+| [Jev Lab](jev-lab.md) | Run Hundred NPC-town and Jev Shogi labs where Jev picks the next legal action (Rules mode offline). | TypeScript · pnpm monorepo (`jev-lab` 0.2.0) |
+| [Jev NetHack](jev-nethack.md) | TypeSafe Jev plays NetHack 5.0: code lists legal moves, Jev picks one; live dashboard. | Python + NetHack50 + web dashboard (MIT) |
 | [jev plays snake](jev-plays-snake.md) | See a closed-menu, deadline-bound control loop where code supplies exact facts and Jev only chooses among legal moves. | TypeScript · Vite/React UI · Hono proxy · `@typesafe-ai/sdk` |
 | [Jev Vampire Survivors](jev-vampire-survivors.md) | BepInEx + Python brain: TypeSafe Jev plays real Steam Vampire Survivors with a live ops dashboard. | BepInEx plugin + Python (MIT) · TypeSafe Jev |
-| [Jev NetHack](jev-nethack.md) | TypeSafe Jev plays NetHack 5.0: code lists legal moves, Jev picks one; live dashboard. | Python + NetHack50 + web dashboard (MIT) |
 | [jev-chess (byrencheema)](byrencheema-jev-chess.md) | See how a one-question-per-move System One player performs, with zero illegal moves by construction and reproducible runs. | TypeScript (Bun) · experiment repo (no LICENSE — source available) |
 | [jev-drone](jev-drone.md) | Study typed maneuver judgments alongside deterministic simulated flight control and inspect a separate tunnel experiment. | Python / MuJoCo · simulation and replay |
 | [jev-libero](jev-libero.md) | Study fine-grained LIBERO robot actions with TypeSafe Jev layered choices and local physics previews. | Python · CLI and MuJoCo/LIBERO extras |
 | [jev-plays](jev-plays.md) | Watch TypeSafe Jev play Craftax (macro/raw actions) with optional LLM planner-as-facts and a local web UI. | Python · Craftax harness + viewer |
 | [jev-plays-runescape](jev-plays-runescape.md) | Jev chooses woodcutting/banking actions on a local 2004Scape server, with safety vetoes. | Game agent · demo (MIT, archived) |
 | [jev-robotics-eval](jev-robotics-eval.md) | Evaluate JEV-compatible robot control on MetaWorld/RoboTwin (text/vision, privilege levels). | Python · eval harness (MIT) |
+| [jev-zork](jev-zork.md) | Watch TypeSafe Jev play Zork I (Choice over Jericho actions) with anti-loop policy and a French replay dashboard. | Python · CLI (`jev-zork` 0.1.0) + replay UI |
 | [JevBird](jevbird.md) | Watch Jev play Flappy Bird from a typed Choice over precomputed paths, with live request/response console output; manual mode without a key. | Python 3.10+ · pygame + `typesafe-sdk` (MIT) |
+| [jevcraft](jevcraft.md) | Minecraft bot where code lists the actions it can really take and TypeSafe Jev picks one from that menu, with the project's own run statistics documented. | Mineflayer-style Minecraft bot (Node.js) (MIT) |
+| [JevPilot](jevpilot.md) | Inspect sampled driving paths, Jev choices and local braking in a browser simulation; application licensing is unspecified. | JavaScript / Three.js · simulation demo |
+| [JevPokerBench](jev-poker-bench.md) | Compare official Jev and other agents on Texas Hold'em (cash/SNG boards, replay, BYOK tables). | Python/React · FastAPI playground (`pokerbench` 0.1.0) |
 | [Keeping an NPC on quest](keeping-an-npc-on-quest.md) | Educational NPC demo: staged facts + Jev Choice/Noul checks on every line. | Python · tutorial code (Apache-2.0) |
 | [Ministry of Truth](ministry-of-truth.md) | Play (or study) a game whose only actions are your words, judged by one batched Jev call per briefing with an automatic offline fallback. | Vanilla JS · zero-dependency Node server |
 | [quackd](quackd.md) | Drive multi-robot goals with LLM pilots; optional `--jev` TypeSafe stepper for closed-set verb choices. | Python · CLI (`quackd`) and robot extras |
-| [JevPilot](jevpilot.md) | Inspect sampled driving paths, Jev choices and local braking in a browser simulation; application licensing is unspecified. | JavaScript / Three.js · simulation demo |
-| [JevPokerBench](jev-poker-bench.md) | Compare official Jev and other agents on Texas Hold'em (cash/SNG boards, replay, BYOK tables). | Python/React · FastAPI playground (`pokerbench` 0.1.0) |
 | [SoulsBench](soulsbench.md) | Compare Jev with other decision models on a realtime game-control benchmark. | Python · benchmark harness + Windows bridge (MIT) |
-| [TypeSafe Mario](typesafe-mario.md) | Study Jev action choices over emulator telemetry with a synthetic state demo and decision logs; licensing is unspecified. | Python · emulator controller and dashboard |
-| [Jev Lab](jev-lab.md) | Run Hundred NPC-town and Jev Shogi labs where Jev picks the next legal action (Rules mode offline). | TypeScript · pnpm monorepo (`jev-lab` 0.2.0) |
-| [jev-zork](jev-zork.md) | Watch TypeSafe Jev play Zork I (Choice over Jericho actions) with anti-loop policy and a French replay dashboard. | Python · CLI (`jev-zork` 0.1.0) + replay UI |
 | [system-one-chess](system-one-chess.md) | Play chess against TypeSafe Jev (Gateway/OpenRouter) with Stockfish analysis; optional local Laya. | Python ≥ 3.11 · web/Docker (`system-one-chess` 0.5.0, GPL-3.0) |
+| [TypeSafe Mario](typesafe-mario.md) | Study Jev action choices over emulator telemetry with a synthetic state demo and decision logs; licensing is unspecified. | Python · emulator controller and dashboard |
 
 ## Home automation
 
