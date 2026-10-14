@@ -823,6 +823,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Terraform Plan Verdict](terraform-plan-verdict.md) | Explained Terraform risk triage in PRs, with Jev as an optional judge. | TypeScript · GitHub Action |
 | [The Jev-enator](the-jev-enator.md) | Claude Code hooks: TypeSafe Jev danger gate, failure notice, and log-only completion check. | Python · stdlib hooks + install scripts |
 | [thinkdial](thinkdial.md) | Set Claude Code reasoning effort per turn with TypeSafe Jev (main loop, subagents, Codex; fail-open). | TypeScript · Claude Code mod (MIT) |
+| [ThinkThen](thinkthen.md) | CLI and SDK for typed questions about text: `decide`, `choose` and `score` return values and exit codes a shell can branch on, with TypeSafe Jev as one backend. | CLI + language bindings (Rust core) (MIT) |
 | [Tidepool](tidepool.md) | Turn recurring agent procedures into typed Haskell programs that call Jev only where a decision depends on meaning. | Rust · Haskell · Nix/Buck (PolyForm Shield 1.0.0) |
 | [tiergear](tiergear.md) | Spend less on easy Claude Code prompts and more on hard ones by letting Jev choose the tier, changing effort mid-session and the model only on the first turn by default. | Claude Code plugin · Node 20+ CLI (npm `tiergear`) |
 | [tink-route](tink-route.md) | Gate Agent Skills with TypeSafe Jev (specialist Noul + Choice), then optionally install via Tink. | Python · CLI (`tink-route` 0.3.1) |
