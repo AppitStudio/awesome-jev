@@ -599,6 +599,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevex-cli](jevex-cli.md) | Jev-powered per-turn Codex model router with a terminal UI. | TypeScript · CLI (MIT) |
 | [jevface](jevface.md) | Typed judgments for Java: declare questions as an interface and let Jev answer them. | Java · interface client (Apache-2.0) |
 | [JevFlow](parth1811-jevflow.md) | Claude Code plugin that keeps agents honest: plans as phases with checks; when Claude tries to stop, JevFlow asks… | Python · Claude Code plugin (MIT) |
+| [jevgate](jevgate.md) | Rust CLI that gates a shell pipeline on a yes/no Jev judgment: text passes through (or a command runs) only when P(yes) clears a threshold — a smarter cron/grep. | Rust CLI (MIT) |
 | [jevgate (craxrev)](craxrev-jevgate.md) | Claude Code Bash/Write gate from Jev risk facts with allow/ask/deny rules. | TypeScript · Claude Code plugin (MIT) |
 | [JevGate (RichieLoco)](richieloco-jevgate.md) | Pure-MQL5 MetaTrader 5 module that vetoes EA trades using TypeSafe Jev calibrated judgments (≠ Claude Code jevgate). | MQL5 · MT5 include (MIT) |
 | [JevGB](jevgb.md) | Cheap task routing and compact handoffs for Grok Bot with measured, not promised, savings. | Python · CLI + local dashboard (MIT) |
