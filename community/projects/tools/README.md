@@ -680,6 +680,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [oh-my-jev (apetcu)](apetcu-oh-my-jev.md) | oh-my-pi plugin: TypeSafe Jev tool-call gate (default), optional model router, and latency telemetry (≠ MassiveLabsNet/oh-my-jev). | TypeScript · oh-my-pi plugin (MIT) |
 | [olla-jev](olla-jev.md) | Ollama-style local server for HF System One models behind Jev /v1/systemone. | Python · CLI/server (Apache-2.0) |
 | [omo-jev-plugin](omo-jev-plugin.md) | OmO/senpi plugin: TypeSafe Jev advises skill/tool fit, loop and completion signals (shadow/advise/act; does not replace permissions). | TypeScript · OmO/senpi npm plugin (`omo-jev-plugin`) |
+| [OMP Jev Auto Mode](omp-jev-auto-mode.md) | Experimental Jev tool-call guard for Oh My Pi adapted from pi-jev-auto-mode, defaulting to ask on uncertainty and blocking escalations without a UI. | OMP extension (TypeScript) (MIT) |
 | [omp-jev-compaction](omp-jev-compaction.md) | Reduce omp tool context with sticky TypeSafe/OpenRouter Jev scores while keeping retained text verbatim. | TypeScript · omp plugin (`omp-jev-compaction` 0.1.0) |
 | [omp-jev-tier](omp-jev-tier.md) | Jev-picked subagent tiers and auto plan mode inside omp. | TypeScript · omp extension (MIT) |
 | [onesie](frodi-karlsson-onesie.md) | Unix-pipeable System One CLI for TypeSafe Jev (also OpenRouter/Berget): pipe text, ask a typed question, script the… | Go · CLI (MIT) |
