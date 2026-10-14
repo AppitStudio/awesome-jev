@@ -965,6 +965,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-vs-clef](jev-vs-clef.md) | Decide whether Clef can replace Jev for your decision traffic, with raw dated evidence. | Python · stress harness + reports (no LICENSE) |
 | [jev-web](jev-web.md) | Run open-jev/Laya/Strands/Bekko/Decision 2.0 typed decisions in-browser after weight cache (no hosted TypeSafe required). | TypeScript · npm `jev-web` + Transformers.js (MIT) |
 | [jev-zh-tw-eval](jev-zh-tw-eval.md) | Reproduce zh-TW System One evals (Plumb-4B/Ollama) with adversarial and calibration probes (independent of hosted Jev). | Python · Ollama `/v1/systemone` eval toolkit (MIT; docs separate) |
+| [Jeva](jeva.md) | Research System One model (Jeva-4B) designed for typed choice/noul/score decisions, with weights, fine-tuning code and a project page comparing it with Jev-1.13.0. | Model + Python package + training code (Apache-2.0) |
 | [JevAlt](jevalt.md) | Run open Jev-API–compatible Choice/Score/Noul models locally (EN/TR/DE) on CPU; not TypeSafe-hosted. | Python · HF open models (Apache-2.0) |
 | [jevbench (dhruvmehra)](dhruvmehra-jevbench.md) | Reproduce TypeSafe Jev vs LLM/BERT/Laya/NLI text-classification accuracy, calibration, latency, throughput, and cost… | Python · benchmark suite (MIT) |
 | [JevBench (Leanmcp)](leanmcp-jevbench.md) | Benchmark Jev against other typed decision models across six task clusters. | Python · benchmark + dataset (MIT) |
