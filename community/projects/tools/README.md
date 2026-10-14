@@ -392,6 +392,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-agent-failure-benchmark](jev-agent-failure-benchmark.md) | Score TypeSafe Jev on Who&When Pro text traces for responsible agent, step, and error type; compare to paper LLMs. | Python · CLI (`jevbench`, Apache-2.0) |
 | [jev-agent-kit](jev-agent-kit.md) | Zero-dependency CLI + MCP tools (check/choose/score/judge/route/triage/guard/grep/rank/compact) on TypeSafe Jev — distinct from the Rust jevkit CLI. | Node.js ≥ 18 · npm (`@walidboulanouar/jevkit` 0.2.0) |
 | [jev-agent-kit (nanoDBA)](nanodba-jev-agent-kit.md) | Evidence-layer hooks for Claude Code/Codex/Hermes: TypeSafe Jev scores risky tool calls (shadow by default; ≠ walidboulanouar/jev-agent-kit). | Python · agent hooks kit (MIT) |
+| [jev-agent-router](jev-agent-router.md) | Claude Code mod that picks the model and effort of every subagent from its task type, with Jev as an optional classifier. | Claude Code plugin (TypeScript) (MIT) |
 | [jev-agent-skill (RosarioDiBartolo)](rosariodibartolo-jev-agent-skill.md) | Connect Jev/Kev System One models to Codex and AI agents for tool routing, classification, and bounded decisions. | Python · agent skill (MIT) |
 | [Jev-AI-Skill](jev-ai-skill.md) | Claude Code/Codex/Hermes skill + MCP: TypeSafe Jev gates for agent decisions | Python · agent skill + MCP (MIT) |
 | [jev-ai-use-cases (atliq)](atliq-jev-ai-use-cases.md) | LangChain notebook: TypeSafe Jev triage/routing/guards/tool-select/finance checks. | Jupyter · langchain-typesafe (MIT) |
