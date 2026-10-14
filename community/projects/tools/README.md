@@ -1086,6 +1086,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [GoEventBus](goeventbus.md) | Route ambiguous events with rules → cache → Jev fallback, then dispatch inside the bus (local ring buffer, Redis Streams, or RabbitMQ). | Go · library (`go get github.com/Protocol-Lattice/GoEventBus`) (MIT) |
 | [gojev](gojev.md) | Ask Jev (or a local Kev) typed questions from Go code and gate actions on calibrated answers. | Go · library + CLI (0BSD) |
 | [Gut](gut.md) | Pick an atom/value for a subject and question in Elixir (for example route a ticket to `:billing`) using Jev as the evaluator. | Elixir · Hex package `gut` + `req_llm` (Apache-2.0) |
+| [Hev](hev.md) | Working Jev-compatible Decisions API answered by human visitors on a live page; swap the Jev base URL to test an integration against human answers (not for production). | Hosted API + Cloudflare Worker source (TypeScript) (MIT) |
 | [hono-jev-router](hono-jev-router.md) | Route Hono HTTP requests by plain-English meaning with TypeSafe Jev Noul judgments (experimental). | TypeScript · Hono router (`hono-jev-router`) |
 | [hunch](hunch.md) | Call TypeSafe Jev classify/score/check/pick/rank/where over scalars, lists, and pandas columns (`hunch-jev`). | Python · PyPI library (`hunch-jev` 0.6.0) |
 | [ICDLens](icdlens.md) | ICD-10 lookup SDK: Jev evaluates catalogue candidates and exact-code support for review. | Python · SDK/CLI (MIT; package `icdjev`) |
