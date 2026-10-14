@@ -939,6 +939,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev-Style](jev-style.md) | Local System One–compatible decision models + skills/guard/MCP tooling; independent of hosted Jev. | Python · local server + skills/MCP (Apache-2.0) |
 | [jev-switch](arcj137442-jev-switch.md) | Expose `/v1/systemone` locally and route/failover across configured upstream adapters (Vercel, Laya) via an editable DAG; dashboard + Tauri shell. | Rust (axum) · React UI · Tauri · Docker |
 | [jev-testbench](jev-testbench.md) | Reproduce budget-capped, evidence-labelled Jev capability probes with an offline suite. | Python · research harness (MIT) |
+| [jev-torch](jev-torch.md) | PyTorch stack to train JEV-style calibrated decision models (KL distill) and serve them via vLLM. | PyTorch training framework (Apache-2.0) |
 | [jev-vs-clef](jev-vs-clef.md) | Decide whether Clef can replace Jev for your decision traffic, with raw dated evidence. | Python · stress harness + reports (no LICENSE) |
 | [jev-web](jev-web.md) | Run open-jev/Laya/Strands/Bekko/Decision 2.0 typed decisions in-browser after weight cache (no hosted TypeSafe required). | TypeScript · npm `jev-web` + Transformers.js (MIT) |
 | [jev-zh-tw-eval](jev-zh-tw-eval.md) | Reproduce zh-TW System One evals (Plumb-4B/Ollama) with adversarial and calibration probes (independent of hosted Jev). | Python · Ollama `/v1/systemone` eval toolkit (MIT; docs separate) |
