@@ -22,6 +22,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
 | [@sideform/browser-agent](sideform-browser-agent.md) | TypeScript browser agent library; step policy decides with a System One client (Jev). | TypeScript · library (MIT) |
+| [Agent Browser (caglarkc)](caglarkc-agent-browser.md) | Research browser runtime for AI agents: observes pages through Lightpanda DOM controls, lets Jev choose the next action, and verifies outcomes independently, with reproducible benchmarks. | Node.js research prototype (CLI + lab) (MIT) |
 | [agent-desktop](agent-desktop.md) | Drive macOS apps via accessibility refs; optional jev-desktop skill/scripts ask TypeSafe Jev for target/command without putting the a11y tree in agent context (CLI works without Jev). | Rust · CLI/npm (`agent-desktop` 0.9.2) + Node jev scripts |
 | [ajevt-browser](ajevt-browser.md) | Bounded System One browser loop for Pi/OpenCode/Amp/MCP via agent-browser (observe→Jev→act). | TypeScript · npm (`ajevt-browser` / `ajevt-browser-mcp`, AGPL-3.0) |
 | [android-jev (FZ2000)](fz2000-android-jev.md) | Drive an Android phone over adb via MCP; TypeSafe Jev chooses each next action (distinct from jev-android/jevdevice). | Python · MCP server + skill (MIT) |
