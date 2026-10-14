@@ -1088,6 +1088,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [feelings](feelings.md) | Add typed `.feels()` / `.how()` / `.matches<T>()` methods on any BAML value using TypeSafe Jev (license unspecified). | BAML · library (`baml_src/vibes.baml`) |
 | [Gavel](gavel.md) | Call TypeSafe Jev Choice/Score/Noul from Salesforce Flow/Apex/Agentforce with policy + ledger. | Salesforce · Apex/Flow packages (Apache-2.0) |
 | [genai (maruel)](maruel-genai.md) | Use one Go API for chat, tools, streaming and typed decisions; switch the decision provider between hosted Jev and local or Cloudflare models without changing your question code. | Go · library (Apache-2.0) |
+| [go-discern](go-discern.md) | Small typed Go decision layer for the TypeSafe Jev and Cloudflare Clef System One APIs, with validated observations and zero third-party runtime dependencies. | Go library (MIT) |
 | [go-jev](go-jev.md) | Call TypeSafe Jev from Go (Ask/Evaluate) and UNIX pipelines via jev-cli; explicit API key option. | Go · module + CLI (`github.com/mattn/go-jev`, MIT) |
 | [GoEventBus](goeventbus.md) | Route ambiguous events with rules → cache → Jev fallback, then dispatch inside the bus (local ring buffer, Redis Streams, or RabbitMQ). | Go · library (`go get github.com/Protocol-Lattice/GoEventBus`) (MIT) |
 | [gojev](gojev.md) | Ask Jev (or a local Kev) typed questions from Go code and gate actions on calibrated answers. | Go · library + CLI (0BSD) |
