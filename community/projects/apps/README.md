@@ -1020,6 +1020,22 @@ Chinese-style I Ching (六爻) site with programmatic casting plus TypeSafe Jev 
 
 [Full Liuyao guide](liuyao.md) · [Source](https://github.com/masonweb3/liuyao)
 
+### mail-watcher
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted Cloudflare Email Worker that redacts incoming mail, lets Jev pick a per-watch category, and forwards, drops, or notifies accordingly.
+
+**Jev's role:** Jev picks the category for each redacted email; code executes the mapped action and fallbacks.
+
+**Platform:** Self-hosted Cloudflare Worker (source build)
+
+**Product:** [github.com/farhaduneci/mail-watcher](https://github.com/farhaduneci/mail-watcher)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full mail-watcher guide](mail-watcher.md) · [Source](https://github.com/farhaduneci/mail-watcher)
+
 ### Mailroom
 
 `Open source` · `Free source build` · `BYOK`
