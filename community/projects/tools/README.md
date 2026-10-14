@@ -538,6 +538,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-test-filter](jev-test-filter.md) | Score repository tests against a git diff with TypeSafe Jev and emit runner-native filter arguments. | TypeScript · npm CLI (`jev-test-filter` 0.1.0; Node ≥ 24) |
 | [jev-test-impact](jev-test-impact.md) | Select Vitest/Jest tests impacted by a Git diff using static deps plus optional TypeSafe Jev scoring. | TypeScript · npm CLI + GitHub Action (MIT) |
 | [jev-test-triage](jev-test-triage.md) | Rank mutation-testing survivors with TypeSafe Jev; emit summary/SARIF/agent prompts for Claude Code or Codex. | Python · CLI (`jtt`) + pre-commit/GitHub Action (MIT) |
+| [jev-testing](jev-testing.md) | SeleniumBase harness where Jev classifies CAPTCHA presence, confidence, and type from page HTML. | Python + SeleniumBase harness (MIT) |
 | [jev-ticket-triage](beese54-jev-ticket-triage.md) | Reproduce TypeSafe Jev vs LLM support-ticket triage on banking77 and customer-support datasets (WIP). | Python · eval harness (MIT) |
 | [jev-tokensaver](jev-tokensaver.md) | Cut coding-agent context spent on reading by letting Jev pick the lines and files that matter, with the full output kept on disk. | Python (uv) · CLI + MCP server + Claude skill |
 | [jev-toolkit](jev-toolkit.md) | Serve TypeSafe Jev asks/verify/review over MCP plus CLI triage, audit, skill routing, and local impact metrics. | TypeScript · CLI/MCP (`jev`, Effect; Node ≥ 26) |
