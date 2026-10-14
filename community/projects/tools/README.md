@@ -112,6 +112,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Clay JEV People Ranker](clay-jev-people-ranker.md) | Qualify Clay people-search candidates with TypeSafe Jev Choice/Noul before enrichment (Agent Skill + Python script). | Python · Agent Skill + CLI script (`rank_clay_people.py`) |
 | [Jev Content Moderation](jev-content-mod.md) | Content moderation demo with asymmetric approve / shadow / remove thresholds on Jev probabilities, so irreversible removal needs more certainty than approval. | Python demo (uv) (MIT) |
 | [Jev Internal Links](jev-internal-links.md) | Claude Code skill: crawl sitemap paragraphs, TypeSafe Jev picks useful internal link targets, local rules + report. | Python · Claude Code skill (MIT) |
+| [Jev Moderation API](jev-moderation-api.md) | Small FastAPI proof of concept that moderates text against configurable policies with Jev Noul questions via the official TypeSafe Python SDK. | Python FastAPI service (MIT) |
 | [Jev Support Ticket Router](jev-demo-router.md) | Support-ticket routing demo (English/Chinese) that asks Jev department, urgency and tone in one call and sends low-confidence tickets to a human queue. | Flask demo (Python) (No LICENSE file) |
 | [jev-inbox-triage](jev-inbox-triage.md) | Sort a small store's inbox into four lanes with eight Jev questions per email. | Workflow + rules (MIT) |
 | [jev-linkedin-saved-classifier](jev-linkedin-saved-classifier.md) | LinkedIn saved-posts board classified into filters by TypeSafe Jev | Python · classifier board (MIT) |
