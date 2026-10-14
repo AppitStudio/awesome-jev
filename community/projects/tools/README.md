@@ -751,6 +751,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [pi-rm-guard](pi-rm-guard.md) | Pi extension: decision model (Jev default) auto-approves only safe recursive rm. | TypeScript · Pi extension (MIT) |
 | [pi-safely](pi-safely.md) | Run Pi with automatic approval of safe tool calls and a calibrated classifier holding the rest. | TypeScript · Pi extension (MIT) |
 | [pi-shift-router](pi-shift-router.md) | Route Pi turns between cheap and strong model tiers; optional TypeSafe Jev probability judge. | TypeScript · Pi npm extension (MIT) |
+| [pi-skimmer](pi-skimmer.md) | Pi coding-agent extension for goal-directed text and JSON filtering powered by Jev (via pi-typesafe), with explicit consent and recoverable results. | Pi extension (TypeScript) (MIT) |
 | [pi-subagent-jev](pi-subagent-jev.md) | pi package: gate subagent dispatches via a Jev System One endpoint; expose jev_ask/jev_models (needs pi-subagents). | TypeScript · pi package (MIT) |
 | [pi-thinking-router-jev](pi-thinking-router-jev.md) | Pi extension: TypeSafe Jev (or local rules) picks thinking level low/medium/high/xhigh from task feedback. | TypeScript · Pi extension (license unspecified) |
 | [pi-thunder-guard](pi-thunder-guard.md) | Pi guard: bash and out-of-repo writes run only when Jev is ≥85% sure they follow the rules. | TypeScript · Pi extension (MIT) |
