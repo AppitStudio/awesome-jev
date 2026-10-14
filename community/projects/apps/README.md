@@ -2182,6 +2182,22 @@ Zero-dependency Chrome extension (plus CLI) that has TypeSafe Jev judge whether 
 
 [Full Danmaku spoiler filter (JEV) guide](jev-danmaku-filter.md) · [Source](https://github.com/meetchen/jev-danmaku-filter)
 
+### Fallacy Lens
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension: select text, right-click and Jev (via OpenRouter, your own key) scores it for 69 logical fallacies, showing the highest-scoring ones first with explanations.
+
+**Jev's role:** Jev scores the text for each fallacy.
+
+**Platform:** Chrome (load unpacked from source)
+
+**Product:** [github.com/cobmuddybug/fallacylens-extension](https://github.com/cobmuddybug/fallacylens-extension)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Fallacy Lens guide](fallacy-lens.md) · [Source](https://github.com/cobmuddybug/fallacylens-extension)
+
 ### Flash (YouTube Q&A)
 
 `Source available` · `Free` · `BYOK`
@@ -2260,26 +2276,6 @@ Local Chrome MV3 extension that asks TypeSafe Jev whether heuristically selected
 
 [Full Jev Focus Guard guide](jev-focus-guard.md) · [Source](https://github.com/tx-smitht/jev-focus-guard)
 
-### Jev Form Fill
-
-`Open source` · `Free source build` · `BYOK`
-
-Chrome extension that matches clipboard/source text to form fields with TypeSafe Jev, lets you review proposals, fill selected fields in page order, read back values, and undo—you submit the form yourself.
-
-**Access:** Load unpacked from the [MIT source](https://github.com/takasek/jev-form-fill) (Chrome 116+). Bring a TypeSafe API key in the popup. No app purchase fee; TypeSafe usage billed separately. Source inspected; live form fills not run on the review host.
-
-[Full Jev Form Fill guide](jev-form-fill.md) · [Source](https://github.com/takasek/jev-form-fill)
-
-### Jev Investment Forecast (jev-investment-forecast)
-
-`Open source` · `Free source build` · `BYOK`
-
-Chrome extension that inspects any displayed web page and uses TypeSafe Jev to forecast investment potential across 27 category judgments (50% positive-value threshold, 25% risk threshold) plus 2 choice questions (investment amount and duration).
-
-**Access:** clone or load the MIT source (or the Chrome Web Store listing linked from the root README) with a TypeSafe Jev API key. No app purchase fee; API usage costs are separate. Source inspected; live calls not run on the review host.
-
-[Full Jev Investment Forecast guide](jev-investment-forecast.md) · [Source](https://github.com/serejkaaa512/jev-investment-forecast)
-
 ### Jev for Chrome
 
 `Open source` · `Free source build` · `BYOK`
@@ -2300,6 +2296,16 @@ Chrome extension: TypeSafe Jev priority-score badges on Gmail Primary (7-day win
 
 [Full Jev for Gmail guide](jev-for-gmail.md) · [Source](https://github.com/JeonKH81/jev-for-gmail)
 
+### Jev Form Fill
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that matches clipboard/source text to form fields with TypeSafe Jev, lets you review proposals, fill selected fields in page order, read back values, and undo—you submit the form yourself.
+
+**Access:** Load unpacked from the [MIT source](https://github.com/takasek/jev-form-fill) (Chrome 116+). Bring a TypeSafe API key in the popup. No app purchase fee; TypeSafe usage billed separately. Source inspected; live form fills not run on the review host.
+
+[Full Jev Form Fill guide](jev-form-fill.md) · [Source](https://github.com/takasek/jev-form-fill)
+
 ### Jev Inbox
 
 `Open source` · `Free source build` · `BYOK`
@@ -2309,6 +2315,16 @@ Chrome extension that reorders Gmail’s list: unread first, critical on top, wi
 **Access:** [build and load unpacked](https://github.com/iamomiid/jev-inbox#install-from-source) (`npm run build` → `dist/`) with a TypeSafe or Vercel AI Gateway key. No app purchase fee; inference can incur charges. Source inspected; Chrome install and live Gmail/Jev not tested on the review host.
 
 [Full Jev Inbox guide](jev-inbox.md) · [Source](https://github.com/iamomiid/jev-inbox)
+
+### Jev Investment Forecast (jev-investment-forecast)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that inspects any displayed web page and uses TypeSafe Jev to forecast investment potential across 27 category judgments (50% positive-value threshold, 25% risk threshold) plus 2 choice questions (investment amount and duration).
+
+**Access:** clone or load the MIT source (or the Chrome Web Store listing linked from the root README) with a TypeSafe Jev API key. No app purchase fee; API usage costs are separate. Source inspected; live calls not run on the review host.
+
+[Full Jev Investment Forecast guide](jev-investment-forecast.md) · [Source](https://github.com/serejkaaa512/jev-investment-forecast)
 
 ### Jev Mail (Gmail extension)
 
