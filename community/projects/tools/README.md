@@ -1228,6 +1228,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [clickhouse-jev](clickhouse-jev.md) | ClickHouse executable UDFs: Jev predicates, probabilities and choices over rows. | Python · ClickHouse UDF (MIT) |
 | [dailypaper-skills](dailypaper-skills.md) | Install seven skills into Claude Code, Codex, Cursor, Copilot, Gemini CLI, OpenCode or OpenClaw; Jev scores each candidate paper's title/abstract for relevance, the host agent reviews and writes notes. | Python 3.10+ · agent skills + installer (Apache-2.0) |
 | [Deep Recall](deep-recall.md) | Index Markdown notes into one SQLite file, then let `backend = "jev"` rerank hybrid-search windows by P(states the answer), widen when unsure, and optionally classify question kinds. | Python · Claude Code plugin, MCP server and `deeprecall` CLI (MIT) |
+| [docseek](docseek.md) | Goal-driven document crawler where a relevance judge (Jev is one built-in option) scores links, ranks pages, flags pages that hide documents, and picks filter values. | Python package + HTTP server with Playwright (Apache-2.0) |
 | [duckdb-jev](duckdb-jev.md) | Run TypeSafe Jev Noul/Choice/Score predicates natively inside DuckDB SQL (C++ extension; no Python UDF). | C++ · DuckDB extension (Apache-2.0) |
 | [FastGate](fastgate-jev.md) | Gate a multilingual EN/UZ/RU RAG helpdesk with TypeSafe Jev decisions before the LLM writes; includes an independent benchmark. | Python · RAG helpdesk + benchmark (MIT) |
 | [Fastpunkt](fastpunkt.md) | Source-linked company profiles where Jev only selects, never writes. | Python 3.12 · CLI (MIT) |
@@ -1282,8 +1283,8 @@ These projects study related typed-decision patterns using other models. They ar
 | [postgres-search](postgres-search.md) | Add a Jev re-rank and 'did you mean' stage to SQL product search, with a published evaluation. | SQL + TypeScript · Postgres search + Node demo server (MIT) |
 | [ReadyCode Reader](readycode-reader.md) | Local PDF/DOCX/XLSX evidence for agents: TypeSafe Jev checks passages before cited answers (MCP + browser) | Node.js · MCP (`@readycode/reader`) + browser demo (Apache-2.0) |
 | [RepoFinder](repofinder.md) | Codebase map + BM25 search with optional Jev rerank; Claude answers with citations. | Python · CLI (MIT) |
-| [sgrep](sgrep.md) | Semantic grep: chunk a repo and ask TypeSafe Jev which chunks match a plain-English query (mock offline). | Python · CLI (`sgrep`) |
 | [Semble + Jev (semble-jev)](semble-jev.md) | Semble retrieves local snippets; TypeSafe Jev scores relevance; CLI returns original source (`sj`). | Python · CLI via uv (Apache-2.0) |
+| [sgrep](sgrep.md) | Semantic grep: chunk a repo and ask TypeSafe Jev which chunks match a plain-English query (mock offline). | Python · CLI (`sgrep`) |
 | [sieve](sieve.md) | Local MCP: enumerate repo/search candidates and score with TypeSafe Jev (`jev_grep` / `jev_rank` / `jev_search`). | Python · MCP server (`sieve` 0.1.0, uv) |
 | [sift-light](sift-light.md) | Replace an agent's grep/glob with paged, evidence-carrying search; set `semanticJudge.enabled: true` with `provider: "jev"` so Jev classifies hybrid-search candidates. | Node.js 22.19+ · npm package (Pi/OMP plugin, MCP server) (AGPL-3.0) |
 | [SlopSearX](slopsearx.md) | Serve agent-friendly search (HTML/JSON/YAML, MCP) and let Jev add the specialist engines that can contribute distinctive evidence and reorder a bounded shortlist. | Python · server + MCP (`slopsearx-mcp`), Docker/k8s (MIT) |
