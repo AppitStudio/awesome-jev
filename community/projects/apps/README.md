@@ -978,6 +978,22 @@ Local Japanese bookkeeping tool (playful "demon ledger" UI) that shows receipts 
 
 [Full Jev会計 (jev-kaikei-free) guide](jev-kaikei.md) · [Source](https://github.com/USHIKUNDESUYO/jev-kaikei-free)
 
+### job-drill
+
+`Open source` · `Free source build` · `BYOK`
+
+Local workplace response drill: write timed replies to scenario prompts and get Jev scoring reports.
+
+**Jev's role:** Jev scores each written reply against the scenario and shop rules.
+
+**Platform:** Local web (source build)
+
+**Product:** [github.com/ceokobec-hue/job-drill](https://github.com/ceokobec-hue/job-drill)
+
+**Pricing / access:** Free source build where licensed; uses your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full job-drill guide](job-drill.md) · [Source](https://github.com/ceokobec-hue/job-drill)
+
 ### Liminal Drift
 
 `Open source` · `Free source build` · `BYOK`
