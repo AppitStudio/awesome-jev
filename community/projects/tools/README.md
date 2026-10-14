@@ -402,6 +402,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-claude-router (Flam1ngFir3ball)](jev-claude-router.md) | Claude Code plugin: Jev picks tier/effort with cost-aware switches and optional Jev compaction. | TypeScript · Claude Code plugin (MIT) |
 | [jev-claude-router (sergeiboikov)](sergeiboikov-jev-claude-router.md) | Ask Jev, through an MCP tool, which Claude model and effort level a task needs. | Python · MCP server (no LICENSE file) |
 | [jev-claw](jev-claw.md) | OpenClaw `jev_route` tool: TypeSafe Jev classifies task type/complexity/risk; code applies routing policy. | OpenClaw plugin (MIT) |
+| [jev-cli (portlandhodl)](portlandhodl-jev-cli.md) | Agent-facing Rust CLI over the unofficial jev-sdk crate: predict, choose and score subcommands return JSON probabilities an agent can gate on. | Rust CLI (Apache-2.0 OR MIT) |
 | [jev-cloud-cost-guardian](jev-cloud-cost-guardian.md) | FinOps CI gate: Jev scores proposed cloud spend vs budget; policy never hides cost lines. | TypeScript · GitHub Action (MIT) |
 | [jev-cmdline-classifier](jev-cmdline-classifier.md) | Classify shell commands with TypeSafe Jev Choice (`allow`/`prompt`/`forbidden`) plus fail-closed local rules for agent skills. | Python/JS skill + CLI (`jev-command-classifier` 0.1.0) |
 | [jev-codex-router](jev-codex-router.md) | Route each Codex turn's model and thinking depth with Jev via a Codex Router generic provider. | Python · local server and Codex Router integration |
