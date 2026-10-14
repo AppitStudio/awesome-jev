@@ -246,6 +246,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Distill](distill.md) | Route coding-agent model/effort and utility/retention choices with TypeSafe Jev (or OpenRouter decisions) inside a local TUI harness. | Rust · coding agent CLI/TUI (Distill 2.0) |
 | [doc-router](doc-router.md) | Select which PDF pages need OCR using optional Jev judgments, then merge local extraction and provider results. | Rust · library and CLI, Python bindings |
 | [DocJev](docjev.md) | Classify or split PDF/DOCX/PPTX packets with LiteParse text and TypeSafe Jev category/boundary judgments. | Python · CLI/library (`docjev`, Apache-2.0) |
+| [drouter](drouter.md) | Experimental Rust decision API router that sends requests to Jev or an OpenAI-compatible teacher, caches verified answers and promotes audited shadow students. | Rust CLI server (release binaries) (MIT) |
 | [DSH Decision Router](dsh-decision-router.md) | Per-turn route selection for DSH with Laya locally or Jev in the cloud. | JavaScript · DSH plugin (MIT) |
 | [dsh-auto-review-jev (sperictao)](sperictao-dsh-auto-review-jev.md) | DeepSeek Harness Auto-permission: TypeSafe Jev reviews each tool call (≠ xlennart). | TypeScript · DSH plugin (MIT) |
 | [dsh-backdoor-guard](dsh-backdoor-guard.md) | DeepSeek Harness guard: Jev (or local d1) judges each tool call before it runs. | TypeScript · DeepSeek Harness extension (MIT) |
