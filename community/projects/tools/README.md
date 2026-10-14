@@ -25,6 +25,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-desktop](agent-desktop.md) | Drive macOS apps via accessibility refs; optional jev-desktop skill/scripts ask TypeSafe Jev for target/command without putting the a11y tree in agent context (CLI works without Jev). | Rust · CLI/npm (`agent-desktop` 0.9.2) + Node jev scripts |
 | [ajevt-browser](ajevt-browser.md) | Bounded System One browser loop for Pi/OpenCode/Amp/MCP via agent-browser (observe→Jev→act). | TypeScript · npm (`ajevt-browser` / `ajevt-browser-mcp`, AGPL-3.0) |
 | [android-jev (FZ2000)](fz2000-android-jev.md) | Drive an Android phone over adb via MCP; TypeSafe Jev chooses each next action (distinct from jev-android/jevdevice). | Python · MCP server + skill (MIT) |
+| [brojev](brojev.md) | Go browser agent for Claude Code with its own CDP engine, where Jev (via OpenRouter) picks each action and target during a delegated browser sub-task. | Claude Code plugin + Go binary (MIT) |
 | [CloakBrowser-Agent](cloakbrowser-agent.md) | Stealth browser agent: TypeSafe Jev decides each step; CloakBrowser executes (MCP/CLI/Python). | Python · MCP/CLI/library (MIT) |
 | [Cua jev-use](cua-jev-use.md) | Compose a bounded chooser with Driver and independent fixture verification. | Python / TypeScript · integration recipe |
 | [CUA-JEV (ZJU-REAL)](cua-jev-zju.md) | Constrained computer-use loop: Jev selects typed action×channel candidates with guards and verifiers. | Python · framework (Apache-2.0) |
@@ -41,18 +42,15 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [InspireJev](inspire-jev.md) | Hand repetitive public-website steps (search, filter, collect, fill forms) to Jev-chosen actions while the host agent keeps the goal, authorization and verification. | Node.js · Playwright · release tarball (MIT) |
 | [IronBee Express](ironbee-express.md) | Fast, cheap browser task runs with Jev choosing among offered controls, plus a post-run review. | TypeScript · CLI + local web UI (Elastic License 2.0) |
 | [Jev Ad Block](jev-adblock.md) | Chrome MV3 ad blocker that asks Jev to judge candidate page elements. | TypeScript · Chrome extension (GPL-3.0) |
-| [jev-adb](jev-adb.md) | MCP server: Android control over ADB with Jev typed UI decisions and safety gates. | TypeScript · MCP server (MIT) |
-| [jev-apply](jev-apply.md) | Fill job applications from your own data; Laya or Jev picks the fact/option per field. | Python · Playwright agent (MIT) |
 | [Jev Browser (openqa-cn)](openqa-jev-browser.md) | Indexed Playwright automation: TypeSafe Jev chooses control/op; replay, generate, explore, HTML reports (CodexQA skill). | TypeScript · CLI (`codexqa-jev-browser` 0.1.0, MIT) |
 | [Jev Browser (tontoko)](jev-browser-tontoko.md) | Fill forms, extract records with evidence, and add semantic selection to Playwright tests. | TypeScript · SDK, CLI and MCP |
 | [Jev Browser (Ying-Kai-Liao)](jev-browser-ying-kai-liao.md) | Run small browser goals with Jev action/target selection and direct inspection; page data and supplied values reach TypeSafe. | JavaScript · Playwright library, CLI and MCP |
 | [Jev Browser Skill](jev-browser-skill.md) | Learn a minimal Jev-driven browser loop as a Claude Code/Codex skill (reference; see Ultrafast for fuller agents). | Agent skill + CDP scripts (`scripts/*.mjs`); explainer site |
-| [jevrake](jevrake.md) | Scrape fields by description: code collects typed candidates, Jev picks the match. | Python · CLI/library (MIT) |
 | [Jev Ultrafast](jev-ultrafast.md) | Select browser operations and targets from the current page. | Python · browser agent and inspector |
-| [jev-max](jev-max.md) | Typed-decision browser automation that reaches shadow DOM, iframes and canvas. | Python · Playwright library + CLI + MCP server (MIT) |
-| [jev-ui-test](jev-ui-test.md) | Natural-language UI tests: TypeSafe Jev scores candidate elements; pytest/Allure reports (fork of jev-ultrafast). | Python · pytest/Allure (MIT) |
 | [Jev Voice Browser](jev-voice-browser.md) | Study partial speech, target disambiguation, and browser actions with an inspectable decision policy. | JavaScript · Playwright voice-control reference |
+| [jev-adb](jev-adb.md) | MCP server: Android control over ADB with Jev typed UI decisions and safety gates. | TypeScript · MCP server (MIT) |
 | [jev-android](jev-android.md) | Drive Android UI via accessibility with TypeSafe Jev or DeepSeek action choice (Kotlin SDK + sample). | Kotlin · Android SDK (`core`/`sdk`/`sample` 0.2.0) |
+| [jev-apply](jev-apply.md) | Fill job applications from your own data; Laya or Jev picks the fact/option per field. | Python · Playwright agent (MIT) |
 | [jev-browse (cooper667)](cooper667-jev-browse.md) | Claude Code plain-English Playwright QA checklist judged by TypeSafe Jev on Cloudflare Workers AI. | TypeScript · Claude Code plugin/skill (MIT) |
 | [jev-browse (danielnc)](danielnc-jev-browse.md) | Fast Jev browser sub-tasks on browser-harness for coding agents. | Python · harness (MIT) |
 | [jev-browser-bridge](jev-browser-bridge.md) | Plug any CDP browser (cloud/local/self-hosted, incl. no-render) into Jev browser automation. | Python · bridge (Apache-2.0) |
@@ -68,11 +66,13 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-dom](jev-dom.md) | Drive any web page via DOM action space with TypeSafe Jev—no WebMCP required (Playwright peer). | TypeScript · research package (`jev-dom` 0.1.0, Apache-2.0) |
 | [jev-flight-agent](jev-flight-agent.md) | Natural-language flight search in Chrome: TypeSafe Jev picks DOM actions; tiny LLM only types text. | Python · Playwright/CDP agent (MIT) |
 | [jev-macos-loop](jev-macos-loop.md) | Automate native macOS GUI apps with local OmniParser/Vision perception and text-only Jev action choice. | TypeScript/Node · Apple silicon CLI |
+| [jev-max](jev-max.md) | Typed-decision browser automation that reaches shadow DOM, iframes and canvas. | Python · Playwright library + CLI + MCP server (MIT) |
 | [jev-mcp (legostin)](legostin-jev-mcp.md) | Drive real Chrome via MCP: TypeSafe Jev picks elements/actions with calibrated confidence and HITL asks (distinct from jkudish judgment MCP). | TypeScript · MCP server (MIT) |
 | [jev-phone](jev-phone.md) | Drive iOS/Android/cloud phones: TypeSafe Jev picks indexed UI actions; phone-use executes. | Bun/TypeScript · phone agent (MIT) |
 | [jev-qa (moonshot-partners)](moonshot-partners-jev-qa.md) | Parallel browser QA: TypeSafe Jev-driven acceptance, adversarial, and smoke checks on web changes. | TypeScript · CLI (MIT) |
 | [jev-ra](jev-ra.md) | Drive Chrome from Claude Code/Codex/MCP with TypeSafe Jev choosing each operation and target. | Python · MCP server, CLI and PyPI (`jev-ra` 0.1.1) |
 | [jev-sim-use](jev-sim-use.md) | Jev-speed mobile UI navigation on sim-use (iOS/Android). | CLI · mobile (MIT) |
+| [jev-ui-test](jev-ui-test.md) | Natural-language UI tests: TypeSafe Jev scores candidate elements; pytest/Allure reports (fork of jev-ultrafast). | Python · pytest/Allure (MIT) |
 | [jev-ultrafast-skill (SherseaHe)](sherseahe-jev-ultrafast-skill.md) | Agent Skill package for bounded Jev Ultrafast Chrome automation (install via `npx skills add`); not the upstream runtime. | Python · Agent Skill + runner (MIT) |
 | [jevb](jevb.md) | Let an agent drive a browser or phone with plain-English steps, with Jev choosing elements. | JavaScript · Node CLI (MIT) |
 | [jevbrief](jevbrief.md) | Filter Playwright elements with drop reasons; Jev Choice picks next click; local JSONL viewer. | Python · PyPI CLI (MIT) |
@@ -81,6 +81,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JevOnly](jevonly.md) | Drive a browser with pure Jev choices over code-built options—no planner or helper LLM. | Python · CLI, local viewer and Playwright |
 | [JevPaper](jev-paper.md) | Mark arXiv abstract claims, delivering body sentences, and caveats with TypeSafe Jev (no summaries). | Chrome MV3 extension (GPL-3.0) |
 | [jevpilot (bloudhood)](bloudhood-jevpilot.md) | MCP server: agent sends a goal; Jev drives Chrome step-by-step and returns a verified result or a question. | MCP · Chrome automation + TypeSafe Jev (MIT) |
+| [jevrake](jevrake.md) | Scrape fields by description: code collects typed candidates, Jev picks the match. | Python · CLI/library (MIT) |
 | [jurl](jurl.md) | Pull just the relevant part of a web page into a terminal or agent context, with documented speed, cost and data flow. | Rust · CLI (Apache-2.0/MIT) |
 | [macos-computer-use-kit](macos-computer-use-kit.md) | AX-first macOS computer use (MCP/CLI/pi/DSH) with optional TypeSafe Jev semantic guards before irreversible actions. | Python · PyPI MCP/CLI (MIT) |
 | [Midscene JEV Runner](midscene-jev-runner.md) | Drive a caller-owned Playwright page with TypeSafe Jev via OpenRouter Decisions (`runJev` / Midscene `jevAct`). | TypeScript · npm (`@chlrc/midscene-jev-runner` 0.1.2, MIT) |
