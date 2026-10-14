@@ -432,6 +432,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-effort-router](jev-effort-router.md) | Hermes on Ollama:Cloud: TypeSafe Jev picks model **and** reasoning effort per turn and rewrites `llm_request`. | Python · Hermes plugin (`hermes-plugin-jev-effort-router` 0.2.1, MIT) |
 | [jev-enforce](jev-enforce.md) | Claude Code plugin: TypeSafe Jev checks replies and edits against CLAUDE.md/AGENTS.md and blocks broken rules in the same turn. | TypeScript · Claude Code plugin / npm (`jev-enforce`) |
 | [jev-eyes](jev-eyes.md) | Turn images into inspectable OCR/layout `state` for TypeSafe Jev locally (`see`/`ask`, CLI, optional MCP). | Python · library/CLI/MCP (`jev-eyes` 0.1.0) |
+| [jev-factcheck](jev-factcheck.md) | Agent skill (English and Ukrainian) that asks Jev whether a verbatim source excerpt supports, contradicts or says nothing about a specific claim, keeping provenance. | Agent skill + Python script (No LICENSE file) |
 | [jev-filter (ByteBell)](bytebell-jev-filter.md) | Claude Code plugin: TypeSafe Jev keeps relevant files after grep so the coding LLM reads a shortlist. | Python · Claude Code plugin / MCP (MIT) |
 | [jev-for-all](jev-for-all.md) | Shared System One decision contract: Jev picks skill/tool subset/browser moves for OpenCode/Claude Code/Hermes. | TypeScript · OpenCode plugin + adapters (MIT) |
 | [jev-fuse](jev-fuse.md) | Governed System One proxy: policy actions, AST guards, singleflight, and WAL audit for TypeSafe Jev/local Laya. | Python · proxy/PyPI (`jev-fuse`, Apache-2.0) |
