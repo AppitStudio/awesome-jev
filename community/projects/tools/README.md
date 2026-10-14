@@ -1010,6 +1010,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [tev1 (Together)](tev1.md) | Fine-tune/study tev1-4B Jev-inspired choice decisions (Together open weights + recipe; independent of hosted Jev). | Python · HF/Together weights + recipe (MIT) |
 | [TinyJev](tinyjev.md) | Run an offline ~0.6B System One–compatible Choice/Noul/Score model (MLX/PyTorch); independent of hosted Jev. | Python · package + HF weights (MIT) |
 | [ToolDiscoveryBench](tooldiscoverybench.md) | Side-by-side tool-selection accuracy, latency, cost and calibration for Jev vs LLM and retrieval baselines. | Python 3.12 · `tdb` CLI (MIT) |
+| [train-jev](train-jev.md) | Open training recipe for JEV-style System 1 models on Qwen3.5 with LoRA decision head and System One-compatible serve. | Python training + serve stack (Apache-2.0) |
 | [typed-lm](typed-lm.md) | Serve Jev-style Choice/Noul/Score from dense LLMs in Rust (single forward pass; independent of hosted Jev). | Rust · Candle serve + training (Apache-2.0) |
 | [v1-decisions-vllm](v1-decisions-vllm.md) | Modular vLLM `/v1/decisions` typed API with `/v1/systemone` projection; pluggable backends. | Python · vLLM overlay (Apache-2.0); not hosted Jev |
 | [Valen](valen.md) | Train/serve a multimodal System One–style decision model (text/image/video → probabilities); independent of hosted Jev. | Python · training/inference + HF weights (Apache-2.0) |
