@@ -789,6 +789,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Sniff Test](snifftest.md) | Lint Markdown/prose with local countable rules plus optional confirmed TypeSafe Jev judgment rules. | TypeScript/Bun · CLI (`snifftest` 0.1.0) |
 | [soft-lint](soft-lint.md) | Review-taste rules a syntax linter can't express, answered by Jev about each diff after every agent edit. | TypeScript · Claude Code plugin + npm `@c9r-dev/soft-lint` (MIT) |
 | [SOLO](solo-jev.md) | Reorders table rows and fields so per-row decision-model calls reuse prefix cache. | Python · vLLM (MIT) |
+| [sommelier](sommelier.md) | Claude Code plugin (Chinese and English READMEs) that has Jev judge reasoning depth per request and picks model and effort, upgrading freely but downgrading cautiously for cache reasons. | Claude Code plugin (TypeScript hooks) (MIT) |
 | [SpamGuard (tb-spam-guard)](tb-spam-guard.md) | Flag Japanese-brand phishing in Thunderbird with header rules plus an optional Jev second opinion on borderline mail. | JavaScript · Thunderbird MailExtension (MIT) |
 | [specpi-jev-guard](specpi-jev-guard.md) | Gate risky Pi agent shell/file commands with local rules then TypeSafe Jev danger scores. | TypeScript · Pi npm extension (MIT) |
 | [Spotlight (Buried Signals)](spotlight.md) | Run source-backed investigations with agent skills; opt in per install and per investigation so Jev checks each finding against its quoted evidence before publication. | Python · agent skills + scripts (MIT) |
