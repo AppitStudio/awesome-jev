@@ -1830,6 +1830,22 @@ Personal macOS pipeline that turns Safari iCloud tabs into clean EPUBs for an e-
 
 [Full pulp guide](pulp.md) · [Source](https://github.com/danemarguglio/pulp)
 
+### RedOS
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS menu-bar assistant for voice and text commands where a System One model using the Jev protocol routes request kinds and decides whether to speak or stay quiet.
+
+**Jev's role:** Jev-protocol System One decisions route request kinds and speak/notify/silent choices; optional.
+
+**Platform:** macOS (source build)
+
+**Product:** [github.com/Carassale/redos](https://github.com/Carassale/redos)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full RedOS guide](redos.md) · [Source](https://github.com/Carassale/redos)
+
 ### Switchyard
 
 `Open source` · `Free source build` · `BYOK`
