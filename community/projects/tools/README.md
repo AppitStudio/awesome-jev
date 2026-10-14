@@ -585,6 +585,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevify MCP server](jevify-mcp-server.md) | Offline MCP server that finds decision-shaped AI calls and plans their move to Jev. | TypeScript · MCP (Apache-2.0) |
 | [jevkit](jevkit.md) | Ask TypeSafe Jev from a Rust CLI and lint question sets offline before spending on inference. | Rust · CLI (`jevkit` 0.3.0, rustc ≥ 1.88) |
 | [jevkit (bragamat)](bragamat-jevkit.md) | Let agents locate the relevant lines, verify claims and make calibrated judgment calls with Jev, logging every decision locally; optionally steer tool choice through a passthrough-on-doubt gateway. | Go · CLI `jev` + Agent Skill / Claude Code plugin (MIT) |
+| [jevlab](jevlab.md) | Offline search lab for Trick Jev: bandit-driven phrase search, calibration, and local leaderboards. | Python offline search lab (MIT) |
 | [jevlang (RoyWiggins)](roywiggins-jevlang.md) | Rewrite Python if/while/match so TypeSafe Jev decides each condition (English or Python); distinct from TimMikeladze/JevLang. | Python · codec preprocessor (license file not found) |
 | [JevLang (TimMikeladze)](timmikeladze-jevlang.md) | Declare routes/gates/actions once; Jev answers only needed questions; signed journal replay. | TypeScript/Python · library `jevlang` (MIT) |
 | [JevLangGraph (blacksinisterx)](blacksinisterx-jev-langgraph.md) | LangGraph loop where Jev—not an LLM—chooses the next branch action (mock-first). | TypeScript/Python · FastAPI + Vite demo (no LICENSE) |
