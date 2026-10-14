@@ -133,6 +133,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | --- | --- | --- |
 | [@contexera DSH jev plugin](contexera-dsh-jev.md) | DeepSeek Harness plugin monorepo whose `jev` package adds a TypeSafe Jev service for typed decisions alongside channel-gateway and context-continuity plugins. | DSH plugins (TypeScript, pnpm monorepo) (MIT (package `packages/jev`; no root LICENSE)) |
 | [Abide](abide.md) | Enforce project instruction rules on agent edits/turns with TypeSafe Jev per-rule probabilities (Claude Code/Codex/OpenCode/Pi). | TypeScript · agent hooks/CLI (`@coldtea/abide`, MIT) |
+| [ACP Bridge](acp-bridge.md) | Bridge that exposes local coding agents over the Agent Client Protocol, with a virtual `auto` agent where TypeSafe Jev picks the best-fit agent per task with a confidence gate. | Python service (Apache-2.0) |
 | [adecider](adecider.md) | CLI/MCP/HTTP/pi surfaces for multi-question System One judgments (local Laya default; optional Jev). | TypeScript · CLI + MCP + HTTP + pi (MIT) |
 | [Agent Router](agent-router.md) | Quota-aware Herdr launcher: local eligibility then TypeSafe System One (Jev) picks agent/model/effort. | TypeScript · CLI (`@agent-router/router` 0.1.0) |
 | [Agent Stack](agent-stack.md) | Local multi-agent team stack (OpenRig + Claude/Codex) with TypeSafe Jev typed merge/assignment decisions. | JavaScript · local stack (license unspecified at tip) |
