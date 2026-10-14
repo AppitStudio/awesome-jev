@@ -207,6 +207,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Codex Jev Router (suenot)](codex-jev-router-suenot.md) | Choose Codex subagent model and reasoning effort with Jev Choice/Noul decisions and local confidence gates. | Node.js · CLI + installer |
 | [Codex-Jev](philippelhaus-codex-jev.md) | VS Code Codex plugin that shortens noisy tool results with Jev-gated evidence selection before Codex reads them. | Python · VS Code Codex plugin (MIT) |
 | [codex-jev-router](codex-jev-router.md) | Route OpenAI Codex CLI turns through TypeSafe Jev model/effort selection via a local Responses proxy (fail-open). | Node.js · CLI (`codex-jev` 0.1.0) |
+| [codex-router](codex-router.md) | Codex CLI model router that picks the model and reasoning effort for each turn (optionally via a System One classifier such as Jev) and shows the choice in Codex's footer. | Go CLI/proxy with TUI panel (MIT) |
 | [codex-triage](codex-triage.md) | Local Codex task triage dashboard with human-reviewed archiving and optional TypeSafe Jev analysis. | TypeScript · local app (MIT) |
 | [Codify (cg)](codify.md) | Plan-to-proof agent workflow CLI; `cg jev` and `cg memory classify` use Jev Noul/Choice/Score answers (advisory, never changes exit codes). | C/Go static binary · CLI + MCP tools (MIT) |
 | [Coding Router Jev](coding-router-jev.md) | Route Codex, Claude Code or Pi turns to cheaper or stronger models per request, with explicit overrides and routing notices. | TypeScript · Bun (release binaries need no Bun) |
