@@ -106,20 +106,21 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [AnchorLint](anchorlint.md) | Audit internal links in built HTML: deterministic checks plus optional TypeSafe Jev promise/relevance judgments. | Python · CLI (`anchorlint`) |
 | [call-eval](call-eval.md) | Score calls for satisfaction (1–5) and sentiment with an audit trail of transcript lines per number; runs offline or live against Jev. | Python · CLI package + static demo site (MIT) |
-| [jev-inbox-triage](jev-inbox-triage.md) | Sort a small store's inbox into four lanes with eight Jev questions per email. | Workflow + rules (MIT) |
+| [Clay JEV People Ranker](clay-jev-people-ranker.md) | Qualify Clay people-search candidates with TypeSafe Jev Choice/Noul before enrichment (Agent Skill + Python script). | Python · Agent Skill + CLI script (`rank_clay_people.py`) |
+| [Jev Content Moderation](jev-content-mod.md) | Content moderation demo with asymmetric approve / shadow / remove thresholds on Jev probabilities, so irreversible removal needs more certainty than approval. | Python demo (uv) (MIT) |
 | [Jev Internal Links](jev-internal-links.md) | Claude Code skill: crawl sitemap paragraphs, TypeSafe Jev picks useful internal link targets, local rules + report. | Python · Claude Code skill (MIT) |
+| [jev-inbox-triage](jev-inbox-triage.md) | Sort a small store's inbox into four lanes with eight Jev questions per email. | Workflow + rules (MIT) |
 | [jev-linkedin-saved-classifier](jev-linkedin-saved-classifier.md) | LinkedIn saved-posts board classified into filters by TypeSafe Jev | Python · classifier board (MIT) |
 | [Jev-Mod](jev-mod.md) | Moderate a Discord server with Jev rules, local filters and a case dashboard. | TypeScript · Discord bot + dashboard (MIT; hosted or self-host) |
+| [jev-seo](jev-seo.md) | Local SEO/GEO CLI and MCP: DuckDuckGo SERP/audits plus optional TypeSafe Jev intent and visibility judgments. | Rust · CLI (`jev-seo`) and MCP |
+| [jev-seo (AgriciDaniel)](agrici-jev-seo.md) | Live site SEO audit from one URL: crawl/rules/PageSpeed plus TypeSafe Jev judgments; PDF/XLSX/Markdown (distinct from Rust jev-seo). | Python · CLI (`jevseo` 0.1.1, MIT) + Claude skill |
 | [Laya × Jev ticket classification](laya-jev-lab.md) | Classify helpdesk tickets with Jev or a local Laya model via SDK, REST or a shared inbox. | Python · SDK + REST (Apache-2.0) |
 | [Lynkgrids AI for Jev](lynkgrids-ai-for-jev.md) | Score leads, classify replies and check outreach drafts in a Lynkgrids pipeline with Jev, routing low-confidence calls to a person. | JavaScript · CLI + agent skill / Claude Code plugin (MIT) |
 | [Sales pipeline revival (Jev vs Gemini)](sales-pipeline-revival-jev.md) | Re-run Jev vs Gemini triage on 203 dead sales-deal threads with published metrics. | Python · benchmark harness + fixtures (MIT) |
 | [Support Ticket Router](support-ticket-router.md) | Route support tickets automatically and send only the risky ones to a person, using Jev's probabilities. | Python · FastAPI service (MIT) |
 | [Testimonial miner](testimonial-miner.md) | Find and review verbatim praise in email, grouped by product. | Python · CLI and local dashboard |
-| [AnchorLint](anchorlint.md) | Audit internal links in built HTML: deterministic checks plus optional TypeSafe Jev promise/relevance judgments. | Python · CLI (`anchorlint`) |
-| [Clay JEV People Ranker](clay-jev-people-ranker.md) | Qualify Clay people-search candidates with TypeSafe Jev Choice/Noul before enrichment (Agent Skill + Python script). | Python · Agent Skill + CLI script (`rank_clay_people.py`) |
-| [jev-seo](jev-seo.md) | Local SEO/GEO CLI and MCP: DuckDuckGo SERP/audits plus optional TypeSafe Jev intent and visibility judgments. | Rust · CLI (`jev-seo`) and MCP |
-| [jev-seo (AgriciDaniel)](agrici-jev-seo.md) | Live site SEO audit from one URL: crawl/rules/PageSpeed plus TypeSafe Jev judgments; PDF/XLSX/Markdown (distinct from Rust jev-seo). | Python · CLI (`jevseo` 0.1.1, MIT) + Claude skill |
 
 ## Developer tools
 
