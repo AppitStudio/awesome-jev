@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "jev-decision-layer",
+  "slug": "jev-decision-layer",
+  "title": "Jev agent decision layer: from judgment to permission",
+  "description": "Understand Jev's agent decision layer: typed judgments, runtime permissions, completion evidence, confidence limits and the traps in policy callbacks and shadow mode.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-14",
+  "modified_at": "2026-10-14",
+  "topics": [
+    "agent-harnesses",
+    "decision-gates",
+    "tool-safety",
+    "calibration"
+  ],
+  "source": {
+    "title": "Jev Clearly Explained",
+    "url": "https://x.com/sumanth_077/article/2101639788961112279",
+    "author": {
+      "name": "Sumanth",
+      "url": "https://x.com/Sumanth_077"
+    },
+    "published_at": "2026-09-20",
+    "accessed_at": "2026-10-14"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Editorial guide; AI-assisted drafting and verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-decision-layer.png",
+    "alt": "Three responsibility columns: the LLM proposes work, Jev returns bounded judgments, and runtime code checks permissions and executes; observed evidence determines completion or review",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-harness.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Inspect the boundary between a typed judgment, policy resolution and an authorized side effect",
+      "why": "The pinned library separates intended and resolved actions, with inspectable confidence aggregation and shadow handling; its callback order shows why execution must remain outside policy calculation.",
+      "evidence": [
+        "https://github.com/AntonioCoppe/jev-harness/blob/2934d12e18157881440362d747d31b688a1c6ed6/README.md",
+        "https://github.com/AntonioCoppe/jev-harness/blob/2934d12e18157881440362d747d31b688a1c6ed6/src/harness.ts",
+        "https://github.com/AntonioCoppe/jev-harness/blob/2934d12e18157881440362d747d31b688a1c6ed6/src/policy.ts",
+        "https://github.com/AntonioCoppe/jev-harness/blob/2934d12e18157881440362d747d31b688a1c6ed6/src/confidence.ts",
+        "https://github.com/AntonioCoppe/jev-harness/blob/2934d12e18157881440362d747d31b688a1c6ed6/LICENSE"
+      ],
+      "limitations": "Independent MIT TypeScript library 0.1.0; Node 20+ and TypeSafe access for live inference. Provider calls transmit state/questions and may incur charges even in shadow mode. Policy callback runs before fallback and must be pure. Aggregate confidence can hide a weak required answer. Host owns error handling, permissions and completion verification. Source inspected, not executed; newer upstream revisions exist."
+    }
+  ],
+  "verification": {
+    "source": "Read complete original X article and all code blocks in logged-in Chrome on 2026-10-14. Body has no outbound project/post links. Read Sumanth P's 2026-09-23 Beehiiv version separately; sections differ and its adjacent AssemblyAI voice GitHub tutorial is not a Jev build. Followed repository links. Original artwork not reused; original CC0 diagram created.",
+    "offline": "Inspected catalog page and jev-harness 0.1.0 at 2934d12e18157881440362d747d31b688a1c6ed6: README, license, package, harness, policy and confidence formula. Checked current TypeSafe primitives/confidence docs. No project execution or SDK recipe; conceptual guide omits build prompt. Catalog and publication checks establish structure only.",
+    "live": "No provider inference, account provisioning, independent model calibration, accuracy, latency or cost measurement, or downstream automation. Browser publication checks are separate from model testing.",
+    "review": "AI-assisted editorial review; no human reviewer. Candidate queries: Jev agent decision layer, Jev runtime permissions, Jev completion check, Jev confidence gate, Jev shadow mode. Ahrefs Chrome at sign-in; no connector available, plan eligibility and keyword metrics unknown. Search Console sc-domain:jevlist.ai Web query containing decision checked 2026-10-14, all countries, displayed 2026-09-18 through 2026-10-11. Rows mostly identify projects and APIs, not this conceptual handoff; private metrics retained in beads. Current search results favor explainers and harness patterns. Existing comparison, loop, pilot and SDK guides cross-linked; title targets ownership and policy-boundary intent rather than another introductory build tutorial."
+  },
+  "faqs": [
+    {
+      "question": "What is a Jev agent decision layer?",
+      "answer": "It is a set of bounded semantic judgments around an agent, such as route selection, risk assessment or completion checks. The LLM generates and plans; Jev supplies typed answers; application code enforces permissions and chooses the resulting action."
+    },
+    {
+      "question": "Can Jev authorize an agent tool call?",
+      "answer": "No. A model judgment can inform review, but code must check the exact operation, allowed target, budget and required human approval. Missing evidence, uncertain answers and provider failures must not silently grant permission."
+    },
+    {
+      "question": "Is a Noul probability the same as confidence?",
+      "answer": "No. Noul is the probability that its stated condition is true and has no separate confidence field. Choice and Score include distribution-based confidence. A library may derive another statistic; inspect its formula before using it as a gate."
+    },
+    {
+      "question": "Can several Jev checks run in one request?",
+      "answer": "Yes, when they use the same supplied state and are independent. If one answer determines which evidence to fetch, update the state and make a later request. Put each complete question in its instructions rather than its lookup ID."
+    },
+    {
+      "question": "Does shadow mode make a Jev harness offline?",
+      "answer": "No. The inspected jev-harness version calls TypeSafe before replacing the resolved action with shadow_noop. Use an injected fake client for offline checks, and keep policy callbacks free of side effects."
+    },
+    {
+      "question": "Does a completion judgment prove the task is finished?",
+      "answer": "No. Compare the judgment with observable acceptance evidence, such as test results or a verified artifact. A retry cap can stop a run with work still incomplete; record that state and hand it to review."
+    }
+  ]
+}

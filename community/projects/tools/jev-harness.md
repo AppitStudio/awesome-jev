@@ -57,4 +57,5 @@ Related: [super-jev](super-jev.md), [jev-layer](jev-layer.md), [daf-jev](daf-jev
 ## Knowledge guides
 
 - [Jev System One model: choose and test a first pilot](../../knowledge-base/articles/jev-system-one-first-pilot.md) — Independently suggested by JevList; not an endorsement by MIKE. Map a Jev model-tier Choice to a logged, reviewable application route during a bounded first pilot.
+- [Jev agent decision layer: from judgment to permission](../../knowledge-base/articles/jev-decision-layer.md) — Independently suggested by JevList; not an endorsement by Sumanth. Inspect the boundary between a typed judgment, policy resolution and an authorized side effect.
 <!-- knowledge:backlinks:end -->
