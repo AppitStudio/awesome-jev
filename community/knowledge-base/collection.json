@@ -23,7 +23,8 @@
     "openai-dots-jev-inbox",
     "jev-content-grader",
     "jev-vs-llms",
-    "jev-opus-content-workflow"
+    "jev-opus-content-workflow",
+    "jev-decision-layer"
   ],
   "retire_all": false
 }
