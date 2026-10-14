@@ -486,6 +486,22 @@ One-page web app where TypeSafe Jev plays chess against OpenRouter LLMs, Stockfi
 
 [Try Jev Chess](https://jevchess.xera.ac) · [Full Jev Chess guide](jevchess.md) · [Source](https://github.com/choxos/jevchess)
 
+### JEV City
+
+`Open source` · `Free source build` · `BYOK`
+
+Illustrated isometric city simulation where every citizen decision (routine, shelter, help, restore power…) comes from TypeSafe Jev, with the full choice distribution shown on click.
+
+**Jev's role:** Jev chooses each citizen's next action; the simulation executes it.
+
+**Platform:** Web (local source build)
+
+**Product:** [github.com/WilliamJones/JEV-City](https://github.com/WilliamJones/JEV-City)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full JEV City guide](jev-city.md) · [Source](https://github.com/WilliamJones/JEV-City)
+
 ### Jev Civilization
 
 `Open source` · `Free source build` · `BYOK`
