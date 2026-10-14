@@ -883,6 +883,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Keeping an NPC on quest](keeping-an-npc-on-quest.md) | Educational NPC demo: staged facts + Jev Choice/Noul checks on every line. | Python · tutorial code (Apache-2.0) |
 | [Ministry of Truth](ministry-of-truth.md) | Play (or study) a game whose only actions are your words, judged by one batched Jev call per briefing with an automatic offline fallback. | Vanilla JS · zero-dependency Node server |
 | [quackd](quackd.md) | Drive multi-robot goals with LLM pilots; optional `--jev` TypeSafe stepper for closed-set verb choices. | Python · CLI (`quackd`) and robot extras |
+| [s1doom (System1Doom)](system1doom.md) | Harness where text-only System One models (TypeSafe Jev or open-weight Laya) play DOOM through ViZDoom: code computes geometry, the model makes the judgment. | Python harness (uv) (No LICENSE file) |
 | [SoulsBench](soulsbench.md) | Compare Jev with other decision models on a realtime game-control benchmark. | Python · benchmark harness + Windows bridge (MIT) |
 | [system-one-chess](system-one-chess.md) | Play chess against TypeSafe Jev (Gateway/OpenRouter) with Stockfish analysis; optional local Laya. | Python ≥ 3.11 · web/Docker (`system-one-chess` 0.5.0, GPL-3.0) |
 | [TypeSafe Mario](typesafe-mario.md) | Study Jev action choices over emulator telemetry with a synthetic state demo and decision logs; licensing is unspecified. | Python · emulator controller and dashboard |
