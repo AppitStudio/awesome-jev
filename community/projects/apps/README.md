@@ -2850,6 +2850,22 @@ Arch Linux (Hyprland) personal AI assistant that uses TypeSafe Jev for sub-secon
 
 [Full kureksistant guide](kureksistant.md) · [Source](https://github.com/nodaysidle/kureksistant)
 
+### Mardi Gras
+
+`Open source` · `Free source build` · `BYOK`
+
+Terminal UI for Beads agent issues that can use Jev as an optional fast judge for duplicate checks, focus order, formula choice and Codex approval risk advice.
+
+**Jev's role:** Jev judges duplicates, ordering and risk; code and the user decide.
+
+**Platform:** macOS / Linux terminal (Homebrew or source)
+
+**Product:** [github.com/quietpublish/mardi-gras](https://github.com/quietpublish/mardi-gras)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Mardi Gras guide](mardi-gras.md) · [Source](https://github.com/quietpublish/mardi-gras)
+
 ### meeting-ledger
 
 `Open source` · `Free source build` · `BYOK`
