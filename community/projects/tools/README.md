@@ -108,6 +108,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [AI PM Job Radar](ai-pm-job-radar.md) | Every open PM role at 36 AI and tech companies, sorted by Jev (via Vercel AI Gateway) into AI PM without ML, AI PM with ML, non-AI PM and not-a-PM-role. | Node.js pipeline + Next.js site (MIT) |
 | [AnchorLint](anchorlint.md) | Audit internal links in built HTML: deterministic checks plus optional TypeSafe Jev promise/relevance judgments. | Python · CLI (`anchorlint`) |
 | [call-eval](call-eval.md) | Score calls for satisfaction (1–5) and sentiment with an audit trail of transcript lines per number; runs offline or live against Jev. | Python · CLI package + static demo site (MIT) |
 | [Clay JEV People Ranker](clay-jev-people-ranker.md) | Qualify Clay people-search candidates with TypeSafe Jev Choice/Noul before enrichment (Agent Skill + Python script). | Python · Agent Skill + CLI script (`rank_clay_people.py`) |
