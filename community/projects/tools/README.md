@@ -1015,6 +1015,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [v1-decisions-vllm](v1-decisions-vllm.md) | Modular vLLM `/v1/decisions` typed API with `/v1/systemone` projection; pluggable backends. | Python · vLLM overlay (Apache-2.0); not hosted Jev |
 | [Valen](valen.md) | Train/serve a multimodal System One–style decision model (text/image/video → probabilities); independent of hosted Jev. | Python · training/inference + HF weights (Apache-2.0) |
 | [vev](vev.md) | Run open multimodal System One–style decisions (text+images) locally via `/v1/systemone`; not TypeSafe-hosted. | Python · HF open weights (Apache-2.0) |
+| [VideoJev](videojev.md) | System One research model stack for video understanding and interaction (TimeJev decision modules). | Python research codebase (Apache-2.0) |
 | [vidjev](vidjev.md) | Typed decisions on video: CARLA drone follow + UCF-Crime anomaly detection with open VLMs. | Python · research + demos (MIT); not hosted Jev |
 | [vLLM Jev](vllm-jev.md) | Serve Jev-compatible decision models through vLLM. | Python · server (Apache-2.0) |
 | [vLLM Jev (mode-io)](mode-io-vllm-jev.md) | Serve Jev-style Choice/Noul/Score checkpoints through vLLM (distinct from Egbertjing/vllm-jev). | Python · server (Apache-2.0) |
