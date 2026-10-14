@@ -327,6 +327,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [JCR](jcr.md) | Resolve deterministic commands from a nested capability tree with TypeSafe Jev (MCP + Claude/Codex harnesses). | TypeScript · resolver, MCP and harnesses (`jcr` 1.0.0) |
 | [Jeffort](jeffort.md) | Set Claude Code effort per turn from TypeSafe Jev scores (depth/scope/stakes/ambiguity); leave /effort alone on low confidence. | Claude Code plugin (MIT) |
+| [jes](jes.md) | Open-source guardrails for AI agents that ask Jev to judge prompts, retrieved content, tool calls and responses for prompt injection, jailbreaks and secret/PII leaks. | Python library, CLI and agent hooks (PyPI `jes`) (Apache-2.0) |
 | [jev (taifoon-io)](taifoon-io-jev.md) | Grade an AI agent job with TypeSafe Jev: fact checks in code, four closed questions, receipt with probabilities,… | TypeScript · npm `@taifoon/jev` (MIT) |
 | [Jev Agent Control](jev-agent-control.md) | Route OpenCode V2 requests between Plan, Build, and custom agents with Jev, plus auto-handoff. | TypeScript · OpenCode plugin (MIT) |
 | [Jev Agent Kit (cloud-f1)](cloud-f1-jev-agent-kit.md) | Prune long Claude Code Bash output locally, with optional Jev relevance scoring and read-back. | TypeScript/Python · Claude Code plugin + CLI (MIT) |
