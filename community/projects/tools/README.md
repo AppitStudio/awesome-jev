@@ -842,6 +842,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [System One Harness](systemone-harness.md) | Drive finite-action environments with TypeSafe Jev (OpenRouter/TypeSafe): one typed decision per step, confidence gates, full traces. | Python · CLI `s1` (`systemone-harness` 0.4.0) |
 | [System One Harness](system-one-harness.md) | Reproducible pilot: can Jev/other System One models gate expensive LLM HTTP triage? | JavaScript · harness (MIT) |
 | [System One Playground](system-one-playground.md) | Write SysOneScript, use a Go System One client, semlint, and Studio/VS Code—offline first, optional live Jev. | Go · CLI/extension (`sysone`/`sos`) + `typesafe` module |
+| [system-one skill (magnus919)](magnus919-system-one-skill.md) | Agent Skills-format skill for designing, integrating, evaluating and troubleshooting typed System One decisions with TypeSafe Jev (and open models such as Laya), keeping policy and side effects in code. | Agent skill (Agent Skills format) inside the `agent-skills` collection (MIT) |
 | [system-one-reviewer](system-one-reviewer.md) | Review local git ranges with deterministic clustering + TypeSafe Jev/System One typed judgments and an eval harness. | Python · local CLI reviewer (MIT) |
 | [systemone-poc](systemone-poc.md) | Pre-route Pi/OpenCode/DSH coding agents with Jev/Laya before the main agent run (POC + reports). | Plugins/MCP · Pi/OpenCode/DSH (MIT) |
 | [Talos](talos.md) | Multi-agent terminal cockpit where Jev auto-routes between models and agent CLIs. | Rust · TUI + CLI (MIT) |
