@@ -782,6 +782,22 @@ Explainable day-trip planner: LLM drafts; TypeSafe Jev screens/compares/reviews;
 
 [Full Jev Trip guide](jev-trip.md) · [Source](https://github.com/liaoyuhua/jev-trip)
 
+### Jev Voice Chat (Japanese)
+
+`Open source` · `Free source build` · `BYOK`
+
+Japanese voice conversation in the browser where Jev handles turn-taking (end of utterance, backchannel vs interruption, restatement vs new content) and OpenAI models handle recognition, replies and speech.
+
+**Jev's role:** Jev decides turn-taking: when to answer, wait, continue or stop.
+
+**Platform:** Web UI served locally on Windows
+
+**Product:** [github.com/snowconed/jev_gpt_voice_chat_jp](https://github.com/snowconed/jev_gpt_voice_chat_jp)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Jev Voice Chat (Japanese) guide](jev-voice-chat-jp.md) · [Source](https://github.com/snowconed/jev_gpt_voice_chat_jp)
+
 ### Jev X Sentiment Analysis (jev-v8)
 
 `Open source` · `Free source build` · `BYOK`
