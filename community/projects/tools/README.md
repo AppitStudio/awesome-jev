@@ -161,6 +161,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [autoloop](autoloop.md) | Automate issue-board triage and implementation; turn on `[jev] mode = "shadow"` to log Jev's typed view of each triage/auto-merge decision without changing behaviour. | Python · CLI (`uv tool install`) (Apache-2.0) |
 | [automodel](automodel.md) | Let Jev pick the Claude model and effort per prompt and subagent in Claude Code. | Go binary · local proxy (MIT) |
 | [AutoRouter (claude-autorouter)](claude-autorouter.md) | Use cheaper Claude models for simple coding turns in one session, with Jev as an optional hosted evaluator. | Node.js 22+ · npm `claude-autorouter` (Apache-2.0) |
+| [Axeon JEV Router (OpenClaw)](openclaw-jev-router.md) | OpenClaw plugin that asks Jev to pick the model for each interactive turn (Luna, Sol or Astra by default) with owner-controlled `/autoroute` on, off or shadow, keeping host locks, fallbacks and thinking settings untouched. | OpenClaw plugin (Node.js, early release) (MIT) |
 | [azir-dispatch](azir-dispatch.md) | Route herdr coding-agent tasks with Jev and watch them on a live terminal board. | Python · CLI (MIT) |
 | [barmkin-mod](barmkin-mod.md) | Harden Claude Code sessions with redaction, taint tracking and an optional Jev injection screen. | TypeScript · Claude Code mod/plugin (no LICENSE) |
 | [Baton Agent Orchestrator](baton-agent-orchestrator.md) | `jev` CLI pipeline: Jev picks agent, model and effort per step (plan → validate → build → review). | Python · CLI (Apache-2.0) |
