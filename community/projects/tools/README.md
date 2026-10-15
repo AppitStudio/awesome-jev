@@ -145,6 +145,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agent-on-agent-ids](agent-on-agent-ids.md) | Agent intrusion detection over Opik traces; Jev or Haiku as the judge. | Python · judge spec + installer (Apache-2.0) |
 | [agent-tree](agent-tree.md) | See who is working in a Claude Code session, with opt-in Jev flags for loops and stalls. | TypeScript · Claude Code plugin/mod, zero npm deps (MIT) |
 | [AgentRun](agentrun.md) | Write agent workflows where Jev gates answers (for example, confidence ≥ 0.8 before replying), ranks candidates, or screens evidence; includes a Pi extension. | TypeScript · npm `@parcha/agentrun-dsl` + `@parcha/agentrun-jev` + `@parcha/agentrun-pi` (beta, Apache-2.0) |
+| [agrouter](agrouter.md) | Go CLI that asks Jev which coding-agent CLI, model and reasoning effort (Claude Code, Codex or any configured CLI) a prompt needs, then prints the choice as JSON or launches that CLI with it. | Go CLI (MIT) |
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
 | [aidiff-gate](aidiff-gate.md) | Claude Code plugin: optional Jev judge flags flaky AI tests and commit-why gaps. | TypeScript · Claude Code plugin (MIT) |
 | [AlphaOptimizer](alphaoptimizer.md) | Compact large Codex/tool outputs locally and optionally rank chunks with TypeSafe Jev. | Node.js · TypeScript package (`alphaoptimizer` 0.1.0) |
