@@ -1184,6 +1184,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jevframe](jevframe.md) | Classify/score pandas and Polars rows with TypeSafe Jev via a `.jev` accessor and full probability columns. | Python · PyPI (`jevframe` 0.1.0; pandas/polars extras) |
 | [jevgo](jevgo.md) | Call TypeSafe System One from Go with typed Noul/Choice/Score (unofficial stdlib client). | Go · module (`github.com/devbackend/jevgo`) |
 | [Jevlin](copyleftdev-jevlin.md) | Call TypeSafe Jev from Zig with typed Choice/Score/Noul helpers, owned buffers, and offline checks. | Zig 0.16 · library (`jevlin`, MIT) |
+| [JevMC](jevmc.md) | Unofficial dependency-free Java SDK for the TypeSafe Jev API aimed at PaperMC Minecraft plugins, with typed Noul/Choice/Score answers, async calls and a chat-moderation example. | Java library (Java 17+, Maven/JitPack) + example Paper plugin (MIT) |
 | [jevmcp (eaisdevelopment)](eaisdevelopment-jevmcp.md) | One Agent Plugins install: TypeSafe Jev MCP tools for spec-drift, CI triage, and code-audit screening. | Python · Agent Plugins + MCP (Apache-2.0) |
 | [jevonian](jevonian.md) | Local OpenAI/Anthropic/Responses proxy: one Jev call picks the model and the thinking level after code has filtered candidates; pinned models skip Jev. | Node.js ≥ 22 · CLI and local server (`jevonian` 0.0.1, AGPL-3.0-only) |
 | [jevper](jevper.md) | Jev-shaped System One noul/choice/score over any OpenAI-compatible client (no hosted TypeSafe API). | Python · PyPI (`jevper` 0.1.2, Apache-2.0) |
