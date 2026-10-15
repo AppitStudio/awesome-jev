@@ -148,6 +148,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [agrouter](agrouter.md) | Go CLI that asks Jev which coding-agent CLI, model and reasoning effort (Claude Code, Codex or any configured CLI) a prompt needs, then prints the choice as JSON or launches that CLI with it. | Go CLI (MIT) |
 | [agy-jevgate](agy-jevgate.md) | Fail-closed Antigravity PreToolUse hook: fast-pass + static guard + TypeSafe Jev risk score. | Python · agy plugin |
 | [aidiff-gate](aidiff-gate.md) | Claude Code plugin: optional Jev judge flags flaky AI tests and commit-why gaps. | TypeScript · Claude Code plugin (MIT) |
+| [AIWG](aiwg.md) | Multi-agent workflow framework for existing AI tools whose opt-in decision runtime can bind the same validated decision definitions to Jev or to an LLM subagent, with pins, projection, bounded retries, fallback and receipts. | Node.js framework + CLI (npm `aiwg`) (MIT) |
 | [AlphaOptimizer](alphaoptimizer.md) | Compact large Codex/tool outputs locally and optionally rank chunks with TypeSafe Jev. | Node.js · TypeScript package (`alphaoptimizer` 0.1.0) |
 | [ask-jev-skill](ask-jev-skill.md) | Call TypeSafe Jev as a Hermes typed tiebreaker (Choice/Score/Noul) when multiple paths remain. | Python · Hermes skill + stdlib CLI |
 | [ask-jev-skill (DiegoSalazar)](diegosalazar-ask-jev-skill.md) | Let Claude Code hand small yes/no, pick, rate and rank judgments to Jev through a CLI. | TypeScript (Bun) · CLI + Claude Code skill (no LICENSE file) |
