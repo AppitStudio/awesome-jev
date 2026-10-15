@@ -1207,6 +1207,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [JevApi](jevapi.md) | .NET 10 TypeSafe.Client + MCP server for typed noul/choice/score evaluate/batch. | C# · .NET library + MCP (MIT) |
 | [JevClient.jl](jevclient-jl.md) | Call System One from Julia with Noul/Choice/Score sets and endpoint policy locks to api.typesafe.ai. | Julia · package (`JevClient` 0.1.0) |
 | [jevcore (PerryLink)](perrylink-jevcore.md) | TypeSafe Jev for DeepSeek Harness, MCP hosts and plain Node: typed noul/choice/score tools that are offline by default with disclosed egress. | Node packages: core, MCP server, DSH plugin, CLI (TypeScript) (Apache-2.0) |
+| [Jevers](jevers.md) | Zero-dependency Node client for decision models: chain TypeSafe Jev with fallbacks (Liquid d1, Perplexity pplx-decider, Fastino GLiDE, Microsoft Decision-1, OpenAI Decisions, Cloudflare Clef, OpenRouter routes, local llama-server) and ask choice, noul or score questions over text, JSON, images or audio. | JavaScript library (npm `jevers`) plus agent skills (MIT) |
 | [jevey](jevey.md) | Friendly Python wrapper for TypeSafe Jev (Noul/Choice helpers, async client). | Python · library (Apache-2.0) |
 | [jevframe](jevframe.md) | Classify/score pandas and Polars rows with TypeSafe Jev via a `.jev` accessor and full probability columns. | Python · PyPI (`jevframe` 0.1.0; pandas/polars extras) |
 | [jevgo](jevgo.md) | Call TypeSafe System One from Go with typed Noul/Choice/Score (unofficial stdlib client). | Go · module (`github.com/devbackend/jevgo`) |
