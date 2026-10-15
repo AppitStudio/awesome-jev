@@ -1130,6 +1130,22 @@ Web app where three decision models — OpenAI Decisions, TypeSafe Jev and Cloud
 
 [Full Model vs Market guide](model-vs-market.md) · [Source](https://github.com/yorkeccak/model-vs-market)
 
+### Nature Lens
+
+`Open source` · `Free source build` · `BYOK`
+
+Upload a nature photo and Jev ranks which landscape categories are visible, picks the main subject and draws a box around any person (Jev 1.14 Box), all in one request.
+
+**Jev's role:** Jev classifies each photo (visible categories, main subject, person + box).
+
+**Platform:** Web (local source build or Docker)
+
+**Product:** [github.com/JonesSteven/jevnatureimage](https://github.com/JonesSteven/jevnatureimage)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Nature Lens guide](nature-lens.md) · [Source](https://github.com/JonesSteven/jevnatureimage)
+
 ### Neon Chase
 
 `Open source` · `Free source build` · `BYOK`
