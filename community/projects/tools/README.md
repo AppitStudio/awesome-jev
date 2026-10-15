@@ -641,6 +641,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevroute](jevroute.md) | Reference: TypeSafe Jev skill hints for Claude Code; project stopped after baseline met stop rule (negative pilot findings published). | Rust · docs + eval data (MIT; no binary shipped) |
 | [JevRoute (suncirkles)](suncirkles-jev-router.md) | Route coding tasks to a model id via decision-only JevRoute, with a separate eval harness and recorded evidence. | Python · router library + eval harness (MIT) |
 | [JevRouter](jevrouter.md) | Route among models/subagents/skills/MCP/CLIs with TypeSafe Jev Choice plus permissions, risk, confirmation, and receipts. | TypeScript · SDK/CLI/MCP (`jevrouter` 0.1.0) |
+| [jevrules](jevrules.md) | Checks code against Cursor's `.cursor/rules` from Claude Code, Codex, a git hook or CI by asking Jev whether each applicable file follows each rule, with probabilities and next commands. | Go CLI (macOS arm64 and Linux amd64 releases) (MIT) |
 | [jevry](jevry.md) | Ask Jev yes/no questions from the shell and get a probability. | Go · CLI (MIT) |
 | [JevSceneMiner](jev-scene-miner.md) | Label driving-log moments into reviewable maneuver scenes with Jev. | Python · CLI + review viewer (Apache-2.0) |
 | [JevScope](jevscope.md) | Edit Jev projects visually, batch JSONL regression cases, and compare definitions locally. | TypeScript · Studio + local API (pnpm) |
