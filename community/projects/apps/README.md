@@ -1074,6 +1074,22 @@ Local workplace response drill: write timed replies to scenario prompts and get 
 
 [Full job-drill guide](job-drill.md) · [Source](https://github.com/ceokobec-hue/job-drill)
 
+### LifePot
+
+`Open source` · `Free source build` · `BYOK`
+
+Replayable artificial-life game where Jev proposes species roles, relationships and bounded rule changes from your three answers, and validated rules (not code) drive a deterministic ecosystem.
+
+**Jev's role:** Jev proposes ecosystem rules; code validates and executes them.
+
+**Platform:** Web (hosted at lifepot.modepot.io or self-hosted)
+
+**Product:** [lifepot.modepot.io](https://lifepot.modepot.io)
+
+**Pricing / access:** Free to play on the hosted site; free source build with your own TypeSafe key. Checked 2026-10-15. Source inspected; live app not run on the review host.
+
+[Full LifePot guide](lifepot.md) · [Source](https://github.com/tugrulguner/lifepot)
+
 ### Liminal Drift
 
 `Open source` · `Free source build` · `BYOK`
