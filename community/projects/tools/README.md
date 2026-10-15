@@ -988,6 +988,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-bench (stern9)](stern9-jev-bench.md) | Benchmark harness that asks Jev and general LLMs (via system-one-adapter) the same routing, yes/no and rating questions and reports accuracy, p50/p95 latency, calibration and cost. | Python CLI (MIT) |
 | [jev-browsecomp](jev-browsecomp.md) | Measure Jev document screening vs RLM/LLM arms on BrowseComp-Plus with id→span citation checks. | Python · research harness (Apache-2.0) |
 | [jev-calibration](jev-calibration.md) | Plot and reproduce Jev calibration (reliability/ECE) on 240 labelled tool-call cases. | Python research scripts (Apache-2.0) |
+| [jev-context-filter-harness](jev-context-filter-harness.md) | Paper code and run records for screening LLM agents' tool output with Jev: a relevance filter keeps chunks that answer the agent's question and an injection filter withholds planted instructions. | Python research harness (`uv`) with experiment data (MIT) |
 | [jev-fanout-bench](jev-fanout-bench.md) | Measure Jev multi-question fan-out billing linearity and savings vs separate calls. | Python · benchmark + raw results (MIT) |
 | [jev-frontier-bench](jev-frontier-bench.md) | Reproduce Jev vs frontier LLM typed-decision accuracy/calibration/cost on shared 200-item set. | Python · benchmark suite (MIT) |
 | [jev-guardrail-benchmark](jev-guardrail-benchmark.md) | Reproduce WSO2 AI Gateway TypeSafe Jev guardrail accuracy/latency/cost vs Azure Content Safety and an LLM judge. | Python · WSO2 AI Gateway benchmark (Apache-2.0) |
