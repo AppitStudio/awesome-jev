@@ -1155,6 +1155,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jev x AI SDK Form Router](jev-and-ai-sdk.md) | Next.js form router that uses Jev to route submissions by context, with an LLM fallback for uncertain cases. | Next.js + AI SDK sample (MIT) |
 | [jev-agent-tools](jkudish-jev-agent-tools.md) | Share a fail-closed multi-provider Jev transport used by jev-browser and jev-mcp. | JavaScript · library (MIT) |
 | [jev-broker](alekseiul-jev-broker.md) | Local HTTP MCP broker for Hermes agents: validate questions, call TypeSafe Jev via OpenRouter, return structured… | Go · HTTP MCP tool (MIT) |
+| [jev-claude](jev-claude.md) | Python library, CLI and MCP server that sends code-facing decisions (decide/when/switch/rank) to TypeSafe Jev and human-facing text to an LLM you choose, with low-confidence answers routed to a person. | Python library, CLI and MCP server (Portuguese docs) (MIT) |
 | [jev-cli (shaharia-lab)](shaharia-lab-jev-cli.md) | Rust `jev` CLI + MCP: typed TypeSafe Jev questions with shell exit codes and JSON (distinct from tumf). | Rust · crates.io CLI/MCP (Apache-2.0 OR MIT) |
 | [jev-cli (shetautnetjer)](shetautnetjer-jev-cli.md) | Clean-room `jev` CLI for Decision Contracts, local search, and benchmarks against TypeSafe System One. | Python · CLI (MIT) |
 | [jev-cli (tumf)](tumf-jev-cli.md) | Ask TypeSafe Jev noul/choice/score from a PyPI CLI plus bundled stdio MCP (`jev` / `jev-mcp`). | Python · PyPI CLI/MCP (`jev-cli` 0.6.2) |
