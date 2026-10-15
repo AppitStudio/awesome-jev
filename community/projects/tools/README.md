@@ -477,6 +477,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-humanizer](snjrusmn-jev-humanizer.md) | Anti-slop skill: TypeSafe Jev flags AI-sounding paragraphs so the writing model rewrites only those spans… | Python · agent skill (MIT) |
 | [jev-in-codex](jev-in-codex.md) | Rank Codex capabilities, search hits, and output excerpts with TypeSafe Jev via local MCP. | TypeScript · MCP server + Codex plugin (0.1.0) |
 | [jev-inference-router](jev-inference-router.md) | Observable TypeSafe Jev routing with local Apple Silicon LLM inference and evals. | Python · FastAPI (MIT) |
+| [jev-intent-benchmark](jev-intent-benchmark.md) | Research check for indirect prompt injection at the moment an agent acts: asks Jev whether the act carries out something a tool result asked for but the user did not, with a benchmark script on InjecAgent. | Node.js library/CLI and benchmark scripts (MIT) |
 | [jev-interceptor](jev-interceptor.md) | Per-prompt Jev triage between Claude and cheaper agent lanes, plus a full Mac setup. | Python (stdlib) + TypeScript plugins · Claude Code hooks (MIT) |
 | [jev-issue-radar](jev-issue-radar.md) | Find duplicate/related GitHub issues with TypeSafe Jev evidence choices in a local read-only dashboard. | Node.js · loopback server + static UI (0.1.1) |
 | [jev-judge](jev-judge.md) | Run cheap, structured output checks in CI with thresholds, using Jev as the judge. | Python · CLI `jev-judge` (MIT) |
