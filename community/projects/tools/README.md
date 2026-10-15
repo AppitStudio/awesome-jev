@@ -1203,6 +1203,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Kafka Jev Connector](kafka-jev-connector.md) | Classify, score or route Kafka messages with Jev without writing a consumer service. | Java 17 · Kafka Connect sink connector (Apache-2.0) |
 | [Kaizen.Jev](kaizen-jev.md) | .NET 11 client for Jev noul/choice/score (NuGet `KaizenIO.Jev`). | C# · NuGet library (MIT) |
 | [Kestra TypeSafe plugin](kestra-plugin-typesafe.md) | Run TypeSafe System One typed evaluations inside Kestra flows (branch on structured answers). Not Scala Typesafe. | Java · Kestra plugin (Apache-2.0) |
+| [Kkdev92.Jev](kkdev92-jev.md) | Unofficial .NET 10 SDK for Jev that validates a typed decision plan once, reuses the encoded bytes on every call, and returns answers through typed handles only after contract checks. | .NET 10 NuGet package (prerelease) + DI package (MIT) |
 | [Klassify](klassify.md) | Kotlin Multiplatform DSL/SDK and Native CLI/MCP for TypeSafe System One classification (distinct from jev4k). | Kotlin · KMP SDK + Native CLI (`klassify` v0.1.1, Apache-2.0) |
 | [langgraph-jev](langgraph-jev.md) | Call TypeSafe Jev typed decisions from LangGraph/LangChain graphs (distinct from JevLangGraph). | Python · LangGraph/LangChain (MIT) |
 | [Laravel AI](laravel-ai.md) | Add typed classification through Laravel’s TypeSafe provider. | PHP · Laravel package |
