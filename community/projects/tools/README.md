@@ -1209,6 +1209,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Laya Spring Boot Starter](laya-springboot-starter.md) | Typed System One decisions from a Spring Boot app against your own Laya server. | Java 17+ · Spring Boot 4 starter (Apache-2.0) |
 | [laya-php](laya-php.md) | Classify/route text in PHP with local Laya typed decisions (Choice/Score/Noul); Laravel-ready; independent of hosted Jev. | PHP · Composer (`marcreichel/laya-php`, Apache-2.0) |
 | [libsemop](libsemop.md) | Typed, confidence-aware Jev judgments, filters and rerankers from C++ code. | C++17 · CMake library (MIT) |
+| [libtypesafe](libtypesafe.md) | Unofficial C++17 client for the TypeSafe API with compile-time-checked answer types, non-blocking `Pending<T>` calls pumped from your loop, and pluggable HTTP transport. | C++17 static library (CMake) (MIT) |
 | [LLM Context Optimizer](llm-context-optimizer.md) | Select relevant document context before LLM calls locally or with an optional Jev backend. | TypeScript · ESM SDK (MIT) |
 | [llm-typesafe](llm-typesafe.md) | Call TypeSafe Jev noul/choice/score from the LLM CLI (`typesafe/jev-latest` / `jev`). | Python · LLM plugin (`llm-typesafe` 0.1a0) |
 | [Luna Decision Model](luna-decision-model.md) | Local service that keeps Jev-shaped decision callers working against GPT-6 Luna through a Codex subscription. | Local compatibility service (MIT) |
