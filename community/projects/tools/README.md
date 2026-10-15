@@ -299,6 +299,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [forge (continuous engineering loop)](forge-claude-loop.md) | Continuous engineering loop for Claude Code with Jev handling fast triage and routing. | JavaScript (Node 20+, no deps) · Claude Code plugin (MIT) |
 | [Formanator](formanator.md) | Submit Forma benefit claims from CLI/MCP; optional TypeSafe Jev picks benefit/category (receipt LLM separate). | Rust · CLI/MCP (`formanator` 5.4.0) |
 | [fr (Arindam200)](arindam200-fr.md) | Ask a codebase question and get relevant files via live parallel TypeSafe Jev relevance. | CLI · code relevance (MIT) |
+| [Frame Engineering for Jev](jev-frame-engineering.md) | Agent skill and scripts for designing and evaluating Jev decision frames: evidence in `state`, atomic questions, answer boundaries and application policy, with ablation, sweep and token-probe scripts. | Agent skill (Claude Code plugin / Codex skill) with Python scripts (MIT) |
 | [fusion-jev](fusion-jev.md) | Local coding evidence plus optional guarded TypeSafe Jev choices for MCP hosts. | TypeScript · MCP (MIT) |
 | [Gatekeeper](gatekeeper.md) | Route Claude Code prompts to the right skill/agent with YAML rules plus TypeSafe Jev Choice verdicts. | Python · Claude Code hooks (MIT) |
 | [ghtriage](ghtriage.md) | Classify GitHub issues with TypeSafe Jev typed labels/confidence and code-owned write guards (`ghtriage`). | Python · CLI (`ghtriage` / `jev-issue-classifier` 0.1.0) |
