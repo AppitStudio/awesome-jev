@@ -381,6 +381,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Model Routing Lab](jev-model-routing.md) | Demo typed, confidence-aware Claude/Kimi routing where Jev chooses tier and code applies policy. | TypeScript · demo lab (MIT) |
 | [Jev Observer](jev-observer.md) | Proxy and inspect TypeSafe Jev decisions locally with history, question versions, latency, and cost estimates. | Rust · local proxy + dashboard (MIT) |
 | [Jev Orchestrator](jev-orchestrator.md) | Let Jev pick a coding agent's next step, with deterministic policy and human approval. | TypeScript · Node CLI (MIT) |
+| [Jev Playground (xingqiux)](xingqiux-jev-playground.md) | Local, standard-library Python test bench for Jev: enter text, JSON or images plus Noul, Choice, Score or Box questions, run one request, and see probabilities, raw request/response, cURL and a choice-order sensitivity check, with 60 built-in examples. | Python local server + browser UI (Chinese/English) (MIT) |
 | [JEV Reasoning Navigator](jev-reasoning-navigator.md) | Supervise agents: TypeSafe Jev semantic judgment ≠ PolicyEngine ≠ capability receipts ≠ sandboxed execution. | Python · middleware runtime (license unspecified) |
 | [Jev Review](jev-review.md) | Add experimental quality judgments to a coding agent's review loop. | Node.js · MCP server |
 | [Jev Review (Dev Agrawal)](jev-review-devagrawal.md) | Screen JavaScript/TypeScript diffs or codebases and inspect staged review findings. | TypeScript · CLI and local dashboard |
