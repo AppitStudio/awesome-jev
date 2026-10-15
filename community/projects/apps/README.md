@@ -244,6 +244,22 @@ Free web interview that maps your AI worldview (doom↔bloom) using many TypeSaf
 
 [Try Doom or Bloom](https://www.doom-or-bloom.com) · [Full Doom or Bloom guide](doom-or-bloom.md) · [Source](https://github.com/transitive-bullshit/doom-or-bloom)
 
+### Dungeon of Jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Turn-based browser dungeon crawler where Jev picks which champion to send, which form the shapeshifting boss opens with, and every enemy move, as single Choice questions.
+
+**Jev's role:** Jev chooses champions, boss forms and every enemy move.
+
+**Platform:** Web (author's hosted demo or self-hosted)
+
+**Product:** [doj.blocbrain.xyz](https://doj.blocbrain.xyz)
+
+**Pricing / access:** Free to play on the author's demo; free source build with your own TypeSafe key. Checked 2026-10-15. Source inspected; live app not run on the review host.
+
+[Full Dungeon of Jev guide](dungeon-of-jev.md) · [Source](https://github.com/ericosg/doj)
+
 ### Elo Jev 4 Investment Ideas
 
 `Open source` · `Free source build` · `BYOK`
