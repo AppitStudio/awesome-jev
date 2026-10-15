@@ -2654,6 +2654,22 @@ Chrome MV3 extension that filters tabs locally (active, pinned, audible, downloa
 
 [Full TabTidy guide](tabtidy.md) · [Source](https://github.com/123456342g-lang/tabtidy)
 
+### Tube Focus Mode
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that filters YouTube down to your channels, playlists and chosen topics: Jev scores each other video against your focus topics, and off-topic videos are blurred or blocked.
+
+**Jev's role:** Jev decides whether each non-allowlisted video matches your focus topics.
+
+**Platform:** Chrome and Chromium browsers (unpacked source build)
+
+**Product:** [github.com/OriolSegarra/tube-focus-mode](https://github.com/OriolSegarra/tube-focus-mode)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Tube Focus Mode guide](tube-focus-mode.md) · [Source](https://github.com/OriolSegarra/tube-focus-mode)
+
 ### TypeSafe Fun AdBlocker
 
 `Open source` · `Free source build` · `BYOK`
