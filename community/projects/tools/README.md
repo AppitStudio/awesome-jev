@@ -587,6 +587,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jeval](jeval.md) | Measure classifier confidence calibration and set cost-optimal human hand-off thresholds (Jev-motivated, provider-neutral). | Python · CLI (`jeval` 0.1.0, Apache-2.0) |
 | [jevals](jevals.md) | Author and run TypeSafe Jev Noul/Choice/Score evaluations locally; compare saved results in a browser workbench. | TypeScript · local server/UI (`jevals` 0.1.1) |
 | [JEVals (duberblock)](duberblock-jevals.md) | Evaluate SystemOneRequest payloads vs JEV baseline and OpenAI-compatible judges; inspect fidelity/divergence in a web UI. | TypeScript · apps/packages playground (MIT) |
+| [jevals (Openlayer)](openlayer-jevals.md) | Evals and guardrails for agent traces (tool choice, grounding, relevancy, completeness, indirect injection, PHI) sent to Jev-style decision models as one request instead of an LLM judge. | Python library (PyPI `jevals`) (MIT) |
 | [Jevals.com](jevals-com.md) | Hosted independent Jev vs LLM boards (accuracy/calibration/cost/latency); open data, private harness (distinct from local jevals). | Hosted boards + [jevals-data](https://github.com/Jevals/jevals-data) (CC BY 4.0) |
 | [Jevaluate](jevaluate.md) | Confidence-gated web walkthroughs with TypeSafe Jev; optional DeepSeek vision; eval/judge scripts and skill. | Node/Python · Playwright scripts (MIT) |
 | [JevAny](jevany.md) | Open infrastructure for training, evaluating, and deploying System 1 decision models (independent of hosted TypeSafe Jev). | Python · System 1 infra (Apache-2.0) |
