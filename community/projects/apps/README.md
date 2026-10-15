@@ -1508,6 +1508,22 @@ Local real-time Telegram coach: TypeSafe Jev judges partner messages and your dr
 
 [Full tg-crush guide](tg-crush.md) · [Source](https://github.com/BrickerP/tg-crush)
 
+### THE SWARM
+
+`Open source` · `Free source build` · `BYOK`
+
+WebGL swarm of 1,000 light particles whose strategy (flee, attack, protect, split, regroup) is chosen live by TypeSafe Jev every 1.5 seconds or on events, while local rules move each particle.
+
+**Jev's role:** Jev picks the swarm's strategy in real time.
+
+**Platform:** Web (local source build)
+
+**Product:** [github.com/machine1986/the-swarm](https://github.com/machine1986/the-swarm)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full THE SWARM guide](the-swarm.md) · [Source](https://github.com/machine1986/the-swarm)
+
 ### ToS Watch
 
 `Open source` · `Free source build` · `BYOK`
