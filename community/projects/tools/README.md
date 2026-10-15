@@ -689,6 +689,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [lintent](lintent.md) | Plain-language lint rules judged by TypeSafe Jev, scoped with tree-sitter. | Rust · CLI linter (MIT) |
 | [LLM Debugger (VS Code)](llm-debugger-vscode.md) | VS Code extension that finds bugs by driving the real debugger — breakpoints, stepping, live values — with Jev answering each step's 'what next?' and a generation model only for hypotheses and fixes. | VS Code extension (TypeScript) (MIT) |
 | [llmbridge](llmbridge.md) | OpenAI-compatible LLM gateway with L1 rules / L2 TypeSafe Jev / L3 fallback routing. | Python/FastAPI + Vue · gateway (Apache-2.0) |
+| [loadout](loadout.md) | Picks the model tier, skills and MCP servers for each Claude Code or Codex session from a large library using Jev, then launches the CLI with that selection through official flags without proxying agent traffic. | TypeScript CLI (npm build) (Apache-2.0) |
 | [mail-classifier (Outlook)](ringelstein-mail-classifier.md) | Local Outlook triage: Jev classifies unread mail; flag/file/trash after confirmation. | Python · local web app (MIT) |
 | [Mastering TypeSafe Jev (book code)](mastering-jev-book.md) | Companion source for the Mastering TypeSafe Jev book (Jev + open Kev labs). | Python · book samples (MIT) |
 | [mayi](mayi.md) | Tool-call gate for Claude Code/Cursor/Codex: TypeSafe Jev scores each call; dialog on unsafe (fail-deny on errors). | Rust · CLI (`mayi` 0.1.0) |
