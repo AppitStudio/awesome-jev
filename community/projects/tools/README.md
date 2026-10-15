@@ -1071,6 +1071,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [RSI-Jev](rsi-jev.md) | Train and serve Jev-style typed-decision checkpoints via a self-improving agent loop; independent of hosted Jev. | Python · research training + `/v1/systemone` serve (MIT code) |
 | [ruling](ruling.md) | Serve typed, calibrated decisions from a local model on a Jev-compatible endpoint and compare it with Jev on public judgment sets. | Python · uv CLI/server (MIT) |
 | [RYOTIDE](ryotide.md) | Local LLM one-forward-pass typed decisions (MLX/PyTorch) measured on JevBench; independent of official Jev. | Python · research (MIT) |
+| [Scientific Decision Evaluation](scientific-decision-eval.md) | Code and data for evaluating Jev and other models on scientific Choice decisions where deterministic code computes downstream counts, relations and claim labels, reporting semantic, downstream and final-label correctness separately. | Python research code + data (arXiv paper) (Apache-2.0) |
 | [SelfJev](jwuthri-selfjev.md) | Run an open Jev-shaped decisions model (typed answers with probabilities) locally on one GPU; independent of hosted Jev. | Python · Qwen3.5-4B LoRA (Apache-2.0) |
 | [SemIf](semif.md) | Explore typed option scoring and shared-state reuse with local open models; independent of official Jev. | Python / PyTorch / MLX · research and browser lab |
 | [snap-vs-jev-swe](snap-vs-jev-swe.md) | SWE decision benchmark: Snap vs Jev vs open models (localization, long context, order). | Python · benchmark (MIT) |
