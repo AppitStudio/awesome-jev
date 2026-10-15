@@ -581,6 +581,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-workflow](gbesse-jev-workflow.md) | Decision contracts, adversarial testing, tracing, stability, and privacy controls for TypeSafe Jev. | TypeScript toolkit (MIT) |
 | [jev-xray](jev-xray.md) | X-ray a codebase with one typed Jev call per file and a live, shareable treemap. | JavaScript · Node CLI + local web UI (MIT) |
 | [JEV_accel](jev-accel.md) | One-call scope/firmware checks for an agent on a TI C2000 + RIGOL bench, with Jev for edge cases. | Python · package + CLI + MCP server (no LICENSE) |
+| [jev_naics](jev-naics.md) | Classifies a business's description of operations into one of the 1,012 NAICS 2022 industries for insurance applications, or holds it for a person; code builds the shortlist and Jev makes the single pick. | Python backend + web frontend (Docker Compose, Postgres) (MIT) |
 | [Jev_validation_agent](jev-validation-agent.md) | Python Jev Guard validating agent outputs via TypeSafe Jev with reports and a local demo UI. | Python · package + demo (MIT) |
 | [jeval](jeval.md) | Measure classifier confidence calibration and set cost-optimal human hand-off thresholds (Jev-motivated, provider-neutral). | Python · CLI (`jeval` 0.1.0, Apache-2.0) |
 | [jevals](jevals.md) | Author and run TypeSafe Jev Noul/Choice/Score evaluations locally; compare saved results in a browser workbench. | TypeScript · local server/UI (`jevals` 0.1.1) |
