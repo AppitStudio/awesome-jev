@@ -371,6 +371,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev GitHub Action](jev-action.md) | Install pinned Jev CLI in Actions; run typed judgments on event/JSON; expose answers (no issue mutation). | GitHub Action (Apache-2.0) |
 | [Jev Highlight Cutter](jev-highlight-cutter.md) | Turn a five-hour interview into an eight-minute rough cut with a reviewable scoring trail. | Python (stdlib) · Codex skill + CLI (MIT) |
 | [Jev IDS](jev-ids.md) | Few-shot network intrusion detection with Jev, benchmarked on NSL-KDD. | Python (MIT) |
+| [Jev LLM Quality Tester](jev-llm-quality-tester.md) | Prototype dashboard and FastAPI service that scores LLM-generated answers against explicit criteria with a Jev/TypeSafe structured-scoring adapter, SQLite history and a no-key deterministic demo mode. | Python FastAPI app + browser dashboard (Docker optional) (MIT) |
 | [Jev LLM router](jev-llm-router.md) | Study Jev OpenAI routing with an independent local Ollama judge. | Python · CLI (MIT) |
 | [Jev Logs](jevlogs.md) | Prioritize logs for deeper analysis alongside your archive. | TypeScript · library, CLI and OpenTelemetry integration |
 | [Jev Lucid Memory](jev-lucid-memory.md) | Gate agent memory lessons with Jev yes/no judgments before saving and before reuse. | Python · CLI research prototype (MIT) |
