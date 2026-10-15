@@ -984,6 +984,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [game-rsi](game-rsi.md) | Real-game teacher correction and gated model evolution experiments with PlayJev configuration packs. | Python game RSI / PlayJev configs (MIT) |
 | [goinfer](goinfer.md) | Run Jev-shaped decisions locally from Go, scoring options with a GGUF model or a JEV-layout decision head, with published measurements of how that compares to a trained head. | Go · library + `goinfer-serve` / `goinfer-chat` binaries (MIT) |
 | [gutsy](gutsy.md) | Run gutsy-0.8b local calibrated yes/no/choice/score decisions via Jev-compatible APIs on CPU (independent of hosted Jev). | Python · llama.cpp + HF GGUF (Apache-2.0) |
+| [Huncho](huncho.md) | Rust server that implements the Jev `/v1/systemone` API for self-hosted System One models (ONNX, Laya, Kev, Clef runtimes, plus a mock), so the TypeSafe SDK can point at your own server. | Rust server/CLI (Cargo; Fedora/EPEL COPR packages) (Apache-2.0) |
 | [imajev](imajev.md) | Open multimodal typed-decision models that answer constrained options with probabilities and can't-tell. | Open weights · local serve (Apache-2.0); not TypeSafe-hosted Jev |
 | [J3v](j3v.md) | Edge-compiled System One decisions (J3v∶Jev :: k3s∶k8s) with Rust compiler and firmware demos. | Rust · compiler/runtime (MIT) |
 | [Jeeves (PostHog)](posthog-jeeves.md) | Run a 9B Jev-like reasoning decision model (noul/choice/score) via a Jev-compatible API; independent of hosted TypeSafe Jev. | Python · open weights + serving (MIT) |
