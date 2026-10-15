@@ -1684,6 +1684,22 @@ OpenHarness desktop sheet pane: TypeSafe Jev answers typed `noul` / `choice` / `
 
 [Full Jev Sheets guide](jev-sheets.md) · [Source](https://github.com/autonomous-ai/openharness) · [Product homepage](https://harness.autonomous.ai/desktop)
 
+### JevClean
+
+`Open source` · `Free source build` · `BYOK`
+
+Local IMAP mail organizer: write natural-language rules (one action each), Jev judges every message against them, and you review and confirm delete, archive, move, spam or flag actions with undo.
+
+**Jev's role:** Jev judges each email against your natural-language rules; code gates and executes confirmed actions.
+
+**Platform:** Desktop (macOS Apple Silicon package; source build on macOS, Windows, Linux)
+
+**Product:** [github.com/sufferfml/JevClean](https://github.com/sufferfml/JevClean)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full JevClean guide](jevclean.md) · [Source](https://github.com/sufferfml/JevClean)
+
 ### JevDash
 
 `Open source` · `Free source build` · `BYOK`
