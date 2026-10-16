@@ -1280,6 +1280,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [sys1npc](sys1npc.md) | Hot-swap scripted game NPC decision points with System One models (Jev / OpenAI Decisions) and confidence-gated fallbacks. | Python library / game AI protocol (MIT) |
 | [System One Connector](system-one-connector.md) | MCP `evaluate` tool: typed Jev/Laya/System One judgments with probabilities for supported coding agents. | Go · static binary + MCP setup (MIT) |
 | [system-one (asynq-io)](asynq-io-system-one.md) | Vendor-neutral Python SDK for typed System One yes/no/choice/score (hosted or local ONNX). | Python · PyPI (`system-one`, Apache-2.0) |
+| [system-one-mcp](system-one-mcp.md) | Small MCP server that gives agents two tools, evaluate typed Choice/Score/Noul questions and list models, against any System One backend: TypeSafe Jev, local Ollama System One models, Kev or Laya. | Node.js MCP server (stdio, TypeScript) (MIT) |
 | [systemone (justintout)](systemone-justintout.md) | Unofficial Go System One/Jev client with compile-time typed questions (distinct from TypeSafe Go). | Go · module (`github.com/justintout/systemone`, MIT) |
 | [SystemOneClient](system-one-client.md) | Call Jev and other System One models from Elixir with full distributions, a stub and retries. | Elixir · Hex library (`system_one_client`, Apache-2.0) |
 | [taurus-jev-sdk-go](taurus-jev-sdk-go.md) | Hard-failing stdlib Go System One client (unofficial). | Go · library (MIT) |
