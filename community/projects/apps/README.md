@@ -1774,6 +1774,22 @@ Local IMAP mail organizer: write natural-language rules (one action each), Jev j
 
 [Full JevDash guide](jevdash.md) · [Source](https://github.com/Sunwood-ai-labs/jevdash)
 
+### JEVsnap
+
+`Open source` · `Free source build` · `BYOK`
+
+Screenshot hotkey that blacks out secrets and personal information (API keys, tokens, emails, phone numbers, names, internal hostnames, QR codes) before the image reaches your clipboard; on-device OCR and local rules first, with optional Jev text and Box checks.
+
+**Jev's role:** Optional Jev text and Box checks find sensitive words and regions that local rules miss.
+
+**Platform:** macOS, Linux and Windows (source builds)
+
+**Product:** [github.com/brainstormity/jevsnap](https://github.com/brainstormity/jevsnap)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full JEVsnap guide](jevsnap.md) · [Source](https://github.com/brainstormity/jevsnap)
+
 ### Laser (Omarchy focus mode)
 
 `Open source` · `Free` · `BYOK`
