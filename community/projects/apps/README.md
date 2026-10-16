@@ -2450,6 +2450,22 @@ Browser extension that uses TypeSafe Jev (via OpenRouter Decisions) to classify 
 
 [Full Focus guide](focus.md) · [Source](https://github.com/bramtechs/Focus)
 
+### Gmail notifications with Jev (Safari)
+
+`Open source` · `Free source build` · `BYOK`
+
+Free, open-source Safari extension for Gmail on Mac: write in plain language which emails deserve your attention, and Jev decides which new messages trigger a floating alert. Interface and docs are in Spanish.
+
+**Jev's role:** Jev judges each new email against your plain-language alert criterion.
+
+**Platform:** macOS Safari (source build)
+
+**Product:** [github.com/jaumesaa/gmail-jev-notifications](https://github.com/jaumesaa/gmail-jev-notifications)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Gmail notifications with Jev (Safari) guide](gmail-jev-notifications-safari.md) · [Source](https://github.com/jaumesaa/gmail-jev-notifications)
+
 ### HookMeter
 
 `Open source` · `Free source build` · `BYOK`
