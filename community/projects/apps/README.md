@@ -1586,6 +1586,22 @@ A text box that reads how your draft sounds before you send: TypeSafe Jev scores
 
 [Full undertone guide](undertone.md) · [Source](https://github.com/Nuu-maan/undertone) · [Try app](https://undertone-app.vercel.app)
 
+### UtilityPot
+
+`Open source` · `Free`
+
+Free web utilities for messy data, shared text, diagrams and planning: browser-local CSV/JSON conversion, date cleanup and meeting-time finder, plus three bounded Jev tools for custom entity extraction, text-to-Mermaid flowcharts and finding the exact paragraphs on a webpage that answer a question.
+
+**Jev's role:** Jev answers bounded typed questions; code validates offsets and runs the operation.
+
+**Platform:** Web (hosted; self-hostable)
+
+**Product:** [utilitypot.modepot.io/](https://utilitypot.modepot.io/)
+
+**Pricing / access:** Free hosted app, no signup (per the project README). Self-hosting needs your own TypeSafe key. Checked 2026-10-17. Source inspected; live app not run on the review host.
+
+[Full UtilityPot guide](utilitypot.md) · [Source](https://github.com/tugrulguner/utilitypot)
+
 ### Varina
 
 `Source available` · `Free source build` · `BYOK`
