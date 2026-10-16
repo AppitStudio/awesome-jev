@@ -1680,6 +1680,22 @@ Desktop pal and notch that shows what coding agents (Claude Code, Codex and othe
 
 [Full dotpals guide](dotpals.md) · [Source](https://github.com/Rikinshah787/dotpals)
 
+### Facet
+
+`Open source` · `Free source build` · `BYOK`
+
+Photo culling and sorting app for photographers: an AI model checks every photo against built-in and your own labels (blurry, eyes closed, the couple kissing), faces are grouped locally, and you filter and sort into folders with undo. Jev or OpenAI vision can be chosen.
+
+**Jev's role:** Jev scores each photo against your labels and can search for people by reference faces.
+
+**Platform:** macOS and Windows (source launchers)
+
+**Product:** [github.com/ceelnok/facet-photo](https://github.com/ceelnok/facet-photo)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Facet guide](facet-photo.md) · [Source](https://github.com/ceelnok/facet-photo)
+
 ### Goutoujunshi Jev Chat
 
 `Open source` · `Free source build` · `BYOK`
