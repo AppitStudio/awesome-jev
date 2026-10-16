@@ -1810,6 +1810,22 @@ Open Codex-App–style desktop coding agent (Electron+React) driving Claude Code
 
 [Full Modex guide](modex.md) · [Source](https://github.com/TypeSafeAI/modex)
 
+### Nudge for Omarchy
+
+`Open source` · `Free source build` · `BYOK`
+
+Omarchy (Hyprland) launcher plugin: describe what you need in plain words and Jev routes it to a reviewed safe desktop operation (night light, brightness, volume, folders, settings panels, reminders, shortcut lookup) or shows a preview and manual guidance for anything else.
+
+**Jev's role:** Jev routes a plain-language request to a command group, a command and bounded arguments.
+
+**Platform:** Linux (Omarchy / Hyprland)
+
+**Product:** [github.com/cozidian/omarchy-jev](https://github.com/cozidian/omarchy-jev)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Nudge for Omarchy guide](nudge-omarchy.md) · [Source](https://github.com/cozidian/omarchy-jev)
+
 ### omarchy-mouse-sacrifice
 
 `Open source` · `Free source build` · `BYOK`
