@@ -119,6 +119,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Internal Links](jev-internal-links.md) | Claude Code skill: crawl sitemap paragraphs, TypeSafe Jev picks useful internal link targets, local rules + report. | Python · Claude Code skill (MIT) |
 | [Jev Moderation API](jev-moderation-api.md) | Small FastAPI proof of concept that moderates text against configurable policies with Jev Noul questions via the official TypeSafe Python SDK. | Python FastAPI service (MIT) |
 | [Jev Support Ticket Router](jev-demo-router.md) | Support-ticket routing demo (English/Chinese) that asks Jev department, urgency and tone in one call and sends low-confidence tickets to a human queue. | Flask demo (Python) (No LICENSE file) |
+| [jev-crowdsim](jev-crowdsim.md) | Test a message across an explicit grid of audience traits: Jev returns finite reactions (engage, trust, convert, main objection) for each declared combination, and code computes main effects and Wilson intervals instead of one average. | Node.js CLI and library (MIT) |
 | [jev-inbox-triage](jev-inbox-triage.md) | Sort a small store's inbox into four lanes with eight Jev questions per email. | Workflow + rules (MIT) |
 | [jev-linkedin-saved-classifier](jev-linkedin-saved-classifier.md) | LinkedIn saved-posts board classified into filters by TypeSafe Jev | Python · classifier board (MIT) |
 | [Jev-Mod](jev-mod.md) | Moderate a Discord server with Jev rules, local filters and a case dashboard. | TypeScript · Discord bot + dashboard (MIT; hosted or self-host) |
