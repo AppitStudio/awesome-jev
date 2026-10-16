@@ -1706,6 +1706,22 @@ WeChat companion (Mac source preview + Windows preview ZIP): OCR the chat, optio
 
 [Full Goutoujunshi Jev Chat guide](goutoujunshi-jev-chat.md) · [Source](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat)
 
+### Jev Linux (voice desktop controller)
+
+`Open source` · `Free source build` · `BYOK`
+
+Voice controller for Ubuntu: local Moonshine speech recognition, a Gemini planner that splits your command into steps, and Jev choosing the desktop action for each step (open apps and sites, click, type, scroll, create notes).
+
+**Jev's role:** Jev picks the desktop action for each planned step from a bounded set of operations.
+
+**Platform:** Ubuntu Linux (source build)
+
+**Product:** [github.com/musagithub1/Browser_use](https://github.com/musagithub1/Browser_use)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Jev Linux (voice desktop controller) guide](jev-linux-voice.md) · [Source](https://github.com/musagithub1/Browser_use)
+
 ### Jev Sheets (OpenHarness)
 
 `Open source` · `Free source build` · `BYOK`
