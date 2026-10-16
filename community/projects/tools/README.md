@@ -1300,6 +1300,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [typesafe-sdk-go (jmelahman)](typesafe-sdk-go-jmelahman.md) | Stdlib-only Go client for TypeSafe System One (Noul/Choice/Score helpers). | Go · module (`github.com/jmelahman/typesafe-sdk-go`, MIT) |
 | [typesafe-sdk-rust (zchee)](zchee-typesafe-sdk-rust.md) | Async Rust client for TypeSafe System One with derive(QuestionSet) macros (unofficial port of the Python SDK). | Rust · crates.io `typesafe-sdk-rust` (Apache-2.0) |
 | [TypeSafe.AI (.NET SDK)](typesafe-sdk-csharp.md) | Call System One from .NET with DI, resilience, and OTel (NuGet TypeSafe.AI; distinct from TypeSafeAI.Net). | C# · NuGet client (`TypeSafe.AI` v1.0.0) |
+| [typesafe_rs](typesafe-rs.md) | Unofficial async Rust client for Jev: send state and typed Choice, Score and Noul questions, attach image assets and try experimental Jev 1.14 Box questions, with typed responses and a configurable retry policy. | Rust library (Git dependency, tag `v0.2.0`) (MIT) |
 | [typesafeai-cli](typesafeai-cli.md) | Run TypeSafe Jev ask/decide/screen/verify flows from a Python `typesafe` CLI for humans or agents. | Python · CLI (`typesafe`) |
 | [TypeSafeAI.Net](typesafeai-net.md) | Add typed Jev judgments to .NET applications and Microsoft.Extensions.AI pipelines. | C# · client library |
 | [TypeSafeSharp (.NET)](typesafesharp.md) | Call Jev from C#/.NET services, including .NET Framework 4.7.2+, with DI and tracing. | C# · NuGet `TypeSafeSharp` (MIT) |
