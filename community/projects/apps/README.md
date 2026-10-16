@@ -2012,6 +2012,22 @@ Desktop pet companion for Apple Silicon Macs (SwiftUI, SceneKit, AVAudioEngine) 
 
 [Full PetPaw guide](petpaw.md) · [Source](https://github.com/sirily11/pet-companion)
 
+### PR Review (sunwrobert)
+
+`Open source` · `Free source build` · `BYOK`
+
+Keyboard-first macOS app for reviewing and merging GitHub pull requests through your `gh` login, with optional Jev readiness scores, smart search and grouping of related PRs.
+
+**Jev's role:** Optional: Jev adds readiness scoring, topic search and grouping on top of GitHub facts.
+
+**Platform:** macOS (universal build)
+
+**Product:** [github.com/sunwrobert/pr-review](https://github.com/sunwrobert/pr-review)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full PR Review (sunwrobert) guide](sunwrobert-pr-review.md) · [Source](https://github.com/sunwrobert/pr-review)
+
 ### pulp
 
 `Open source` · `Free source build` · `BYOK`
