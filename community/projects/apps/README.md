@@ -2048,6 +2048,22 @@ macOS menu-bar app that opens every link in the right Dia/Chrome profile; TypeSa
 
 [Full Switchyard guide](switchyard.md) · [Source](https://github.com/kevinebaugh/switchyard)
 
+### Tab (Mac next-action autocomplete)
+
+`Source available` · `Free source build` · `BYOK`
+
+Hackathon proof of concept that predicts your next action on a Mac and shows it as a gray ghost (a highlighted button or gray text); press Tab to do it. Jev picks among code-proposed candidate actions, and x402 paywalls become testnet payments with an amount check.
+
+**Jev's role:** Jev picks the next action from code-proposed candidates, with a calibrated confidence.
+
+**Platform:** macOS (source build; work in progress)
+
+**Product:** [github.com/alaramartin/paradigmhacks](https://github.com/alaramartin/paradigmhacks)
+
+**Pricing / access:** Free source; no license file on the reviewed commit (all rights reserved by default). Testnet payments only. Checked 2026-10-16. Source inspected; live app not run on the review host.
+
+[Full Tab (Mac next-action autocomplete) guide](tab-mac-next-action.md) · [Source](https://github.com/alaramartin/paradigmhacks)
+
 ### TipTour
 
 `Open source` · `Free source build` · `BYOK`
