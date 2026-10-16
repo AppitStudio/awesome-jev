@@ -80,6 +80,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevb](jevb.md) | Let an agent drive a browser or phone with plain-English steps, with Jev choosing elements. | JavaScript · Node CLI (MIT) |
 | [jevbrief](jevbrief.md) | Filter Playwright elements with drop reasons; Jev Choice picks next click; local JSONL viewer. | Python · PyPI CLI (MIT) |
 | [jevdevice](jevdevice.md) | MCP harness for Android (adb) or local shell: TypeSafe Jev (or local Laya) picks one runtime-discovered target per goal; code gates and executes. | Python · MCP server (`jevdevice` 0.1.0) |
+| [Jevitate](jevitate.md) | Autonomous browser testing that explores your web app, reports only failures the browser can prove (HTTP 5xx, uncaught exceptions, hangs, failed checks) and turns each one into a replayable recording and deterministic regression test; Jev handles its judgment questions. | Node.js CLI (`@jevitate/cli`) with MCP server and agent skills (MIT) |
 | [jevnav](jevnav.md) | Automate browsers with Jev element choice, JSONL traces, risk gates, and offline CI replay. | Python · CLI/PyPI (`jevnav` 0.1.0, Apache-2.0) |
 | [JevOnly](jevonly.md) | Drive a browser with pure Jev choices over code-built options—no planner or helper LLM. | Python · CLI, local viewer and Playwright |
 | [JevPaper](jev-paper.md) | Mark arXiv abstract claims, delivering body sentences, and caveats with TypeSafe Jev (no summaries). | Chrome MV3 extension (GPL-3.0) |
