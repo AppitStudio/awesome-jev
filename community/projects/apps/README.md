@@ -214,6 +214,22 @@ Transparent AI-driven paper-trading and backtest platform for crypto with a cali
 
 [Full CryptoCadence guide](crypto-cadence.md) · [Source](https://github.com/KarelTestSpecial/crypto-trading-lab)
 
+### DeciFlow
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted log triage: groups log events into chunks and classifies each one as Normal, Warning, Error, Security or Other with urgency and a needs-a-ticket probability, using self-hosted Laya by default or TypeSafe Jev; batch scans, live follow and a dashboard with probabilities.
+
+**Jev's role:** Optional engine: Jev (or Laya) classifies each log chunk by category, urgency and ticket need.
+
+**Platform:** Linux server (Docker Compose, self-hosted)
+
+**Product:** [github.com/call518/deciflow](https://github.com/call518/deciflow)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full DeciFlow guide](deciflow.md) · [Source](https://github.com/call518/deciflow)
+
 ### Decision Lab
 
 `Open source` · `Free source build` · `BYOK`
