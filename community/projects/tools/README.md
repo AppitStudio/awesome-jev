@@ -1291,6 +1291,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [TypeSafe Go](typesafe-go.md) | Call System One from Go with explicit auth options and no implicit env reads (Stacklok; unofficial). | Go · module (`github.com/stacklok/typesafe-go`) |
 | [TypeSafe Jev custom connector](jev-custom-connector.md) | Call TypeSafe Jev from Power Automate/Copilot Studio with typed dynamic-content answers. | Power Platform · managed custom connector (MIT) |
 | [TypeSafe MCP](typesafe-mcp.md) | Give agents a general-purpose Jev evaluation tool with raw provider responses. | Go · MCP server and pi extension |
+| [typesafe-ai PHP client](typesafe-ai-php-client.md) | Unofficial PHP 8.4 client for the Jev System One API: typed request objects for Noul, Choice and Score (plus experimental Box with images), typed responses with confidence and usage, and a mock HTTP client for tests. | PHP library (Composer, VCS repository) (MIT) |
 | [typesafe-api (Rust)](typesafe-api-rs.md) | Call System One from Rust with typed questions/answers (`typesafe-api` 0.1.0, MSRV 1.88). | Rust · crates.io client |
 | [TypeSafe-as-a-Judge](typesafe-as-a-judge.md) | Give Codex/Claude Code bounded TypeSafe Jev route/rank/extract/verify/judge MCP tools (unofficial). | Node.js · MCP plugin + skills (`0.1.0`) |
 | [typesafe-cli](typesafe-cli.md) | Ask Jev noul/choice/score questions from the shell (`jev`); answers are numbers, not prose. | TypeScript · npm CLI / Nix |
