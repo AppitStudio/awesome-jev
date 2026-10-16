@@ -2022,6 +2022,22 @@ macOS menu-bar assistant for voice and text commands where a System One model us
 
 [Full RedOS guide](redos.md) · [Source](https://github.com/Carassale/redos)
 
+### Reflex (monotykamary)
+
+`Open source` · `Free source build` · `BYOK`
+
+Mac menu-bar app to see, answer and talk to every coding agent running in herdr; Jev (via jev-fabric) routes each request to the right session or folder and asks you to confirm when unsure.
+
+**Jev's role:** Jev picks the destination session/folder for each request; code delivers it or asks you to confirm.
+
+**Platform:** macOS 26+ (Apple Silicon), source build
+
+**Product:** [github.com/monotykamary/reflex](https://github.com/monotykamary/reflex)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Reflex (monotykamary) guide](monotykamary-reflex.md) · [Source](https://github.com/monotykamary/reflex)
+
 ### Switchyard
 
 `Open source` · `Free source build` · `BYOK`
