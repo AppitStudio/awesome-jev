@@ -2946,6 +2946,22 @@ Private-by-default Gmail labeler: local policy asks TypeSafe Jev (or OpenAI/Anth
 
 [Full Inbox Triage guide](inbox-triage.md) · [Source](https://github.com/shimoverse/inbox-triage)
 
+### inbox-jev
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted Gmail triage: every few minutes it asks Jev which category each new email belongs to, then labels, archives, unsubscribes from verified marketing and cold outreach, moves scams to Spam and leaves uncertain mail in the inbox for review.
+
+**Jev's role:** Jev classifies each new email with a calibrated confidence; code applies per-category thresholds and actions.
+
+**Platform:** Linux/macOS server or desktop (self-hosted Python service)
+
+**Product:** [inboxjev.dev](https://inboxjev.dev)
+
+**Pricing / access:** Free and MIT-licensed; self-hosted, you pay your own TypeSafe usage. Checked 2026-10-17. Source inspected; live app not run on the review host.
+
+[Full inbox-jev guide](inbox-jev.md) · [Source](https://github.com/hellolitebox/litebox-inbox-jev)
+
 ### Jev Mail Classifier
 
 `Open source` · `Free source build` · `BYOK`
