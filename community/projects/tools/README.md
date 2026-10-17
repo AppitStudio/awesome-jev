@@ -376,6 +376,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Flow](jev-flow.md) | Standalone studio for typed Jev workflows (Studio, Compendium, Battle Arena, labs). | Node.js · app (MIT) |
 | [Jev for Claude](voidlight-jev-for-claude.md) | Claude Code skills and guardrail hooks with an opt-in Jev judge. | JavaScript · Claude Code plugin (MIT) |
 | [Jev for Claude Code (brookcs3)](brookcs3-jev-system-one-for-claude.md) | Use TypeSafe Jev as a Claude Code tool for typed judgments and corpus→eval loops (unofficial). | Claude Code plugin (MIT) |
+| [Jev for Claude Code (pachelbel23)](pachelbel23-claude-code-jev.md) | Unofficial one-file installer that adds Jev hooks to Claude Code: skill suggestion and task-type classification per prompt, optional subagent model tier choice and shell risk confirmation, plus a jev-vision CLI for image yes/no, choice and Box questions. | Claude Code hooks, `/jev` command and jev-vision skill (Node.js installer) (MIT) |
 | [Jev Foundry Judge](jev-foundry-judge.md) | Score Azure AI Foundry agent traces with TypeSafe Jev evaluators (intent/adherence/tools/groundedness) and optional model router. | Python · Azure AI Foundry evaluators + demo (MIT) |
 | [Jev Gate (lymagics)](lymagics-jev-gate.md) | Fail CI when code breaks a quality rule answered by Jev yes/no questions. | Python · GitHub Action/CLI (MIT) |
 | [Jev Gate (royalskynet)](royalskynet-jev-gate.md) | Prune logs, compact conversations and classify tasks with Jev (optional local Laya first). | JavaScript · MCP/plugin (MIT) |
