@@ -2370,6 +2370,22 @@ Outlook add-in for Microsoft 365 work and school accounts, powered by TypeSafe J
 
 [Full JevMail (Outlook) guide](koh-henry-jevmail.md) · [Source](https://github.com/koh-henry/jevmail)
 
+### Neutron Email Triage
+
+`Open source` · `Free source build` · `BYOK`
+
+Jev-first email classifier for Proton Mail through Proton Mail Bridge, with a Windows Electron GUI and a source CLI: dry-run by default, with optional moves to trash or archive above a confidence threshold.
+
+**Jev's role:** Jev classifies each Proton Mail message so the app can keep, archive or trash it.
+
+**Platform:** Windows x64 (preview installer, v0.1.0 pre-release); source CLI elsewhere is unofficial
+
+**Product:** [github.com/Geneonosis/neutron-email-triage](https://github.com/Geneonosis/neutron-email-triage)
+
+**Pricing / access:** Free preview installer and source build; you need a Proton plan with Bridge and pay your own TypeSafe usage. Checked 2026-10-17. Source inspected; live app not run on the review host.
+
+[Full Neutron Email Triage guide](neutron-email-triage.md) · [Source](https://github.com/Geneonosis/neutron-email-triage)
+
 ### Qoresence
 
 `Open source` · `Free` · `BYOK`
