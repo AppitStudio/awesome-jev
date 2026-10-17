@@ -928,6 +928,22 @@ Runnable demo (Chinese docs) in an open-source Minecraft-compatible world: each 
 
 [Full Jev/ui guide](jev-genui.md) · [Source](https://github.com/claudfuen/jev-genui)
 
+### Jevassic Park
+
+`Open source` · `Free`
+
+A shared, live isometric theme park where about 100 individually simulated guests pick rides, snacks and spectacles through Jev while code handles movement, queues and rides; anyone can watch at the hosted site.
+
+**Jev's role:** Jev picks each simulated guest's next activity from the legal options.
+
+**Platform:** Web (hosted on Vercel); self-host with Node.js
+
+**Product:** [jevassic-park.vercel.app/](https://jevassic-park.vercel.app/)
+
+**Pricing / access:** Free to watch; MIT source. Self-hosting uses your own Vercel AI Gateway billing. Checked 2026-10-17. Source inspected; live app not run on the review host.
+
+[Full Jevassic Park guide](jevassic-park.md) · [Source](https://github.com/orshemtov/jevassic-park)
+
 ### Jevatar
 
 `Open source` · `Free source build` · `BYOK`
