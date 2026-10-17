@@ -956,6 +956,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [quackd](quackd.md) | Drive multi-robot goals with LLM pilots; optional `--jev` TypeSafe stepper for closed-set verb choices. | Python · CLI (`quackd`) and robot extras |
 | [s1doom (System1Doom)](system1doom.md) | Harness where text-only System One models (TypeSafe Jev or open-weight Laya) play DOOM through ViZDoom: code computes geometry, the model makes the judgment. | Python harness (uv) (No LICENSE file) |
 | [SoulsBench](soulsbench.md) | Compare Jev with other decision models on a realtime game-control benchmark. | Python · benchmark harness + Windows bridge (MIT) |
+| [System One Arcade and @system-one/ai](system-one-arcade.md) | Bun workspace with one typed TypeScript API over System One decision providers (TypeSafe Jev, OpenRouter, OpenAI, Cloudflare Clef, Vercel AI Gateway) and a React arcade where those models play games against each other while a server logs every call and ranks them. | TypeScript library (`@system-one/ai`) and React arcade app (Bun workspace; Fly.io and Docker deploy notes) (MIT) |
 | [system-one-chess](system-one-chess.md) | Play chess against TypeSafe Jev (Gateway/OpenRouter) with Stockfish analysis; optional local Laya. | Python ≥ 3.11 · web/Docker (`system-one-chess` 0.5.0, GPL-3.0) |
 | [TypeSafe Mario](typesafe-mario.md) | Study Jev action choices over emulator telemetry with a synthetic state demo and decision logs; licensing is unspecified. | Python · emulator controller and dashboard |
 
