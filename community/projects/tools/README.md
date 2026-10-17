@@ -65,6 +65,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-chrome-mcp](jev-chrome-mcp.md) | MCP server wrapping jev-browser-use click loop in Google Chrome for Cursor/Codex. | JavaScript · MCP server (MIT) |
 | [jev-computer-use-skill (Mrchen116)](mrchen116-jev-computer-use-skill.md) | Codex/agent skill: delegate repetitive computer-use judgments to TypeSafe Jev. | Python · agent skill (MIT) |
 | [Jev-cu](jev-cu.md) | Study experimental Jev decisions over macOS Accessibility text in Codex; review the execution-policy limitations before use. | JavaScript · Codex skill and runtime |
+| [jev-cu-win](jev-cu-win.md) | Windows port of Jev-cu (docs in Japanese and English): a Codex skill where Jev reads the UI Automation text of a window and picks the next element to click or type into, with dry runs by default. | Codex skill with Node.js and PowerShell scripts (Windows 10/11) (MIT) |
 | [jev-decide (abdullahaamuda)](abdullahaamuda-jev-decide.md) | Offload element picks, challenge detection, and routing from accessibility snapshots to TypeSafe Jev (~1s decisions). | Python · agent skill + stdlib CLI (`scripts/jev_ask.py`) |
 | [jev-dom](jev-dom.md) | Drive any web page via DOM action space with TypeSafe Jev—no WebMCP required (Playwright peer). | TypeScript · research package (`jev-dom` 0.1.0, Apache-2.0) |
 | [jev-flight-agent](jev-flight-agent.md) | Natural-language flight search in Chrome: TypeSafe Jev picks DOM actions; tiny LLM only types text. | Python · Playwright/CDP agent (MIT) |
