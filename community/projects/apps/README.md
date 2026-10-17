@@ -1980,6 +1980,22 @@ Private Mac voice diary: local Parakeet transcription, TypeSafe Jev sorting into
 
 [Full Capture guide](capture.md) · [Source](https://github.com/sgaabdu4/capture)
 
+### ChatJump
+
+`Open source` · `Free source build` · `BYOK`
+
+Menu-bar launcher for your AI chats: press Control-Option-Space, type what you remember, and Jev ranks open Claude, ChatGPT, Codex and Chrome chat tabs by meaning, then opens the right one.
+
+**Jev's role:** Jev ranks your open AI chats against a remembered description and flags weak matches.
+
+**Platform:** macOS 14 or later (source build)
+
+**Product:** [github.com/saydus/chatjump](https://github.com/saydus/chatjump)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full ChatJump guide](chatjump.md) · [Source](https://github.com/saydus/chatjump)
+
 ### Jaste
 
 `Source unverified` · `Pricing unverified` · `BYOK`
