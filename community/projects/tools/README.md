@@ -1146,6 +1146,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Advocaat](advocaat.md) | Batch typed Jev choice, score, and yes/no questions about structured data from TypeScript. | TypeScript · client library and agent skill |
 | [anofox-decide](anofox-decide.md) | Evaluate NL predicates/choices in DuckDB SQL via TypeSafe Jev or local open decision models (remote opt-in). | C++ · DuckDB extension (MIT) |
 | [ask-jev (Aether-254)](aether-254-ask-jev.md) | MCP + Codex/Claude plugin for TypeSafe Jev evaluate/batch/ping (Choice/Score/Noul). | TypeScript · MCP/plugin (MIT) |
+| [ask-jev (Go CLI and MCP server)](hrubymar10-ask-jev.md) | Standard-library Go CLI and MCP stdio server for TypeSafe's System One API: ask choice, yes/no (noul) and score questions or a batch, get JSON back, and keep a local outcome log. | Go CLI and MCP stdio server (MIT) |
 | [askif](askif.md) | Write readable if/switch/score control flow over Jev probabilities, with thresholds, unsure bands and offline tests. | TypeScript · npm `askif` + `@askif/jev` (MIT) |
 | [astrbot_plugin_smart_wake](astrbot-smart-wake.md) | Proactive, Jev-gated wake-ups for AstrBot group chats. | Python · AstrBot plugin (MIT) |
 | [Backdrop AI Provider TypeSafe AI](backdrop-ai-provider-typesafeai.md) | Backdrop CMS AI module provider for TypeSafe System One decisions and moderation checks. | PHP · Backdrop module (GPL-2.0) |
