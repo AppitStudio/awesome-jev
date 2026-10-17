@@ -1852,6 +1852,22 @@ Omarchy (Hyprland) plugin: move the pointer into the bottom-right corner and a c
 
 [Full omarchy-mouse-sacrifice guide](omarchy-mouse-sacrifice.md) · [Source](https://github.com/ignotas/omarchy-mouse-sacrifice)
 
+### Scene Finder
+
+`Free` · `Source available` · `BYOK`
+
+Desktop app for finding a moment in a movie you can only describe: it samples frames from your MKV or MP4, asks Jev which ones match, lets you play the hits, then trim and save an MP4 clip.
+
+**Jev's role:** Jev judges which sampled frames match your scene description.
+
+**Platform:** macOS (Apple silicon), Windows x64, Linux x64
+
+**Product:** [github.com/EmmyMay/scene-finder/releases](https://github.com/EmmyMay/scene-finder/releases)
+
+**Pricing / access:** Free beta downloads; you pay your own Jev/TypeSafe usage. No open-source license on the reviewed commit. Checked 2026-10-17. Source inspected; live app not run on the review host.
+
+[Full Scene Finder guide](scene-finder.md) · [Source](https://github.com/EmmyMay/scene-finder)
+
 ### Stillwatch
 
 `Open source` · `Free source build` · `BYOK`
