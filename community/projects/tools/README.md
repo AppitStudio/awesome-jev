@@ -1228,6 +1228,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-recipes](jev-recipes.md) | 66 TypeScript recipes for TypeSafe Jev decisions (rerank/verify/clarify/route/…) via `@typesafe-ai/sdk`. | TypeScript · npm (`jev-recipes` 0.2.0) |
 | [jev-sdk-java](jev-sdk-java.md) | Call System One from Java 21 with sealed Question/Answer records (TypeSafe-only; source-build until Central lists 0.1.0). | Java 21 · Maven (`com.luigivismara:jev-sdk-java`) |
 | [jev-state](jev-state.md) | Shape raw app/game state for Jev (author bench: 74% → 100%, 43% fewer tokens). | TypeScript · library (MIT) |
+| [jev-strict](jev-strict.md) | Unofficial, standard-library Python client for Jev that pins one model, meters usage in a crash-safe JSONL file, refuses calls past a hard monthly cap, and asks every choice and score in both option orders. | Python library (stdlib only, Python 3.9+) (MIT) |
 | [Jev.DotNet (altinburak)](jev-dotnet-altinburak.md) | Call Jev from C#/.NET services with typed questions and DI-friendly configuration. | C# · NuGet package (MIT) |
 | [Jev.Net](jev-net.md) | Community .NET client for the TypeSafe System One API with a single dependency, built-in retries, and Native AOT compatibility. | .NET library (NuGet `Jev.Net`) (MIT) |
 | [jev.zig](jakeknowlton-jev-zig.md) | Call TypeSafe System One from Zig with compile-time typed noul/choice/score questions. | Zig 0.16 · library via build.zig.zon (MIT) |
