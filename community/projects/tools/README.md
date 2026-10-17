@@ -133,6 +133,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Sales pipeline revival (Jev vs Gemini)](sales-pipeline-revival-jev.md) | Re-run Jev vs Gemini triage on 203 dead sales-deal threads with published metrics. | Python · benchmark harness + fixtures (MIT) |
 | [Spam → Lead Gen Pipeline](spam-leadgen-pipeline.md) | Mines your Gmail spam folder for ICP-fit senders: Jev classifies and scores each email, then the pipeline audits the sender's email infrastructure and drafts (never sends) a reverse pitch. | Node.js pipeline + Claude Code commands (MIT) |
 | [Support Ticket Router](support-ticket-router.md) | Route support tickets automatically and send only the risky ones to a person, using Jev's probabilities. | Python · FastAPI service (MIT) |
+| [Tacet](tacet.md) | Marketing decision layer that can choose to send nothing: code applies consent and frequency caps, Jev picks the next best action or budget move among what is allowed, and anything under 60% confidence goes to a person. Compares raw CRM records with compact jev-state input. | TypeScript benchmark and dashboard (npm scripts; static dashboard on GitHub Pages) (MIT) |
 | [Testimonial miner](testimonial-miner.md) | Find and review verbatim praise in email, grouped by product. | Python · CLI and local dashboard |
 
 ## Developer tools
