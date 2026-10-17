@@ -1238,6 +1238,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-mcp](jev-mcp.md) | Give agents ten purpose-built TypeSafe Jev judgment MCP tools (verify, screen, find, classify, review, gate, …). | TypeScript · npm MCP server (`@jkudish/jev-mcp`) |
 | [jev-mcp (Afloat16)](afloat16-jev-mcp.md) | Unofficial conservative MCP server for TypeSafe AI Jev (stdio) so agents can ask typed System One questions. | Node.js · MCP server (MIT) |
 | [jev-mcp (drmedia)](drmedia-jev-mcp.md) | Give any MCP client typed Jev (or Clef / local) decisions with probabilities. | TypeScript · MCP server (MIT) |
+| [jev-mcp (rules over OpenRouter)](achapla-jev-mcp.md) | Personal MCP server that lets Claude and other assistants ask Jev yes/no and multiple-choice rules written in a YAML file, returning a decision with a probability and flagging uncertain results for the user. | MCP server (TypeScript, Node) (MIT) |
 | [jev-mcp-server](jev-mcp-server.md) | MCP for official TypeSafe Jev choice/score/noul plus compare/verify/batch classify and client installer. | Python · PyPI MCP (`jev-mcp-server` 0.2.3) |
 | [jev-netlify-mcp](jev-netlify-mcp.md) | Private Jev access for MCP clients through a key-locked Netlify AI Gateway proxy (or directly with a TypeSafe key). | Python MCP server + Netlify function (MIT) |
 | [jev-php (f-lombardo)](f-lombardo-jev-php.md) | Call TypeSafe Jev System One APIs from PHP applications. | PHP · library (LGPL-2.1) |
