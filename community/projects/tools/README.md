@@ -1147,6 +1147,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [WaterSheep](watersheep.md) | Run an Apache-2.0 decision model locally behind a Jev-compatible `/v1/systemone`: noul/choice/score plus multi-label answers with a probability per option (independent of hosted Jev). | Python · local server + HF weights + browser demo (Apache-2.0) |
 | [WorkflowEvals](workflowevals.md) | Reproduce TypeSafe workflow evals (invoice/support/traces/security) against Jev and other providers. | Python · uv harness (Apache-2.0) · official TypeSafe |
 | [XavierJev](xavierjev.md) | Local Jev-shaped yes/no/choice/rubric decisions from one-token logprobs with measured gates and a Claude Code permission hook (no hosted Jev calls). | TypeScript · local judge + Claude Code hook (MIT) |
+| [YOLO vs Jev: the flying car](yolo-jev.md) | One notebook that runs YOLO26 and Jev 1.14 on the 34 frames of a clip where a car flies over a car show: Jev finds the car in the air in 17 of 19 frames with no false alarms, and names every boxed vehicle, against YOLO's 0 to 4. | Jupyter notebook (uv project) with saved results and an output video (MIT) |
 | [zh-decision-bench](codyqin-zh-decision-bench.md) | Chinese-language calibration benchmark for Jev-class System One decision models (dataset CC BY 4.0; code… | Python · HF dataset + eval (Apache-2.0 code; dataset CC BY 4.0) |
 
 ## SDKs and integrations
