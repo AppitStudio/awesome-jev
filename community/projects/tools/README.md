@@ -1442,6 +1442,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [neo4jev](neo4jev.md) | Explore graph paths with typed next-hop and goal judgments. | Python · Neo4j, notebooks and Streamlit |
 | [Note Filer](obsidian-note-filer.md) | Classify Obsidian notes with TypeSafe Jev and move them into Thema or IAB taxonomy folders after confirmation. | TypeScript · Obsidian desktop plugin (0BSD) |
 | [Paper Trellis Citation Verifier](paper-trellis-citation-verifier.md) | Verify manuscript citations: Claude-proved quotes plus Jev support/contradict probabilities. | Web app · browser + relay (MIT) |
+| [paper-sift](paper-sift.md) | Claude Code plugin that builds a reading list for learning a research area: it collects up to 800 candidate papers from Semantic Scholar, screens every abstract with Jev against the survey's rules, reads the best open-access papers, and reports a ranked list. | Claude Code plugin (Python scripts) (MIT) |
 | [pg-jev](pg-jev.md) | Ask semantic questions from SQL over database rows. | PostgreSQL · PL/Python extension |
 | [pg_typesafe](pg-typesafe.md) | Call Choice/Noul/Score from SQL via a C+libcurl extension with batched multi-text helpers (pre-alpha; distinct from pg-jev). | PostgreSQL · C extension |
 | [pi-thunder-jev](pi-thunder-jev.md) | `jev_find` for Pi: Jev ranks files and excerpts for a code question. | TypeScript · Pi extension (MIT) |
