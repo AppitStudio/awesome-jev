@@ -334,6 +334,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [guesswork](guesswork.md) | zsh history autosuggestions ranked by TypeSafe Jev instead of prefix match | TypeScript/zsh · shell plugin (MIT) |
 | [gutfeel](gutfeel.md) | See where an MCP tool surface confuses a bare model, one Jev decision at a time. | TypeScript · Bun localhost runner (MIT, pre-alpha) |
 | [hak-jev-plugin](hak-jev-plugin.md) | Hedera Agent Kit policy: TypeSafe Jev gates swaps before sign; decisions notarized to HCS. | TypeScript · npm (`hak-jev-plugin`, MIT) |
+| [Handoff Graph](handoff-graph.md) | Issue-routing experiment that stores handoffs in FalkorDB and asks TypeSafe Jev one narrow question per candidate owner. Graph memory cut human escalations from ~two-thirds to under 10% on held-out VS Code issues in the author's study. | Python agents + FalkorDB graph memory; live demo and MCP on Railway (MIT) |
 | [harness-router](protocol-lattice-harness-router.md) | Route agent-harness tool selection with TypeSafe Jev over MCP, plus MCTS for multi-step decisions. | Python · MCP (MIT) |
 | [HearMemory](hearmemory.md) | Share project memory across coding agents; TypeSafe Jev judges claims against tests/diffs/commits. | Python · MCP/hooks (MIT) |
 | [HekaJev](hekajev.md) | Ask reproducible Git-history analytics questions; TypeSafe Jev classifies commits with saved evidence/cost. | Python · CLI (`hekajev`, MIT) |
