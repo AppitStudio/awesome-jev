@@ -2268,6 +2268,22 @@ macOS command bar that drives Chromium, Dia, Arc or Chrome from plain English; T
 
 [Full voice-browser guide](voice-browser.md) · [Source](https://github.com/ken-code-wq/voice-browser)
 
+### YapSketch
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS app for explaining bugs by talking and pointing: record your screen and voice, and Jev splits what you said into points, matches each to what you showed, and picks the clearest screenshot, then puts numbered text plus images on your clipboard for a coding agent.
+
+**Jev's role:** Jev aligns transcript segments with on-screen gestures and picks the best frame for each point.
+
+**Platform:** macOS 15+ (build from source with `./scripts/build-app.sh`).
+
+**Product:** [github.com/farouqaldori/yapsketch](https://github.com/farouqaldori/yapsketch)
+
+**Pricing / access:** Free source build; Jev calls are billed by TypeSafe, Opper, or OpenRouter. Speech-to-text runs locally by default. Source inspected; live app not run on the review host.
+
+[Full YapSketch guide](yapsketch.md) · [Source](https://github.com/farouqaldori/yapsketch)
+
 ## Android apps
 
 ### axo-launcher
