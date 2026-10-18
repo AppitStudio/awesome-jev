@@ -560,6 +560,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-req-gate](jev-req-gate.md) | Gate AI-written requirements with TypeSafe Jev (PASS/REVIEW/BLOCK); CLI, skill, CI Action, offline demo. | Python · CLI/API/skill + GH Action (MIT) |
 | [jev-research-pipeline](jev-research-pipeline.md) | Schedule daily research harvests where TypeSafe Jev screens sources per standing question and an LLM writes vault notes. | Python · pipeline + Obsidian notes (MIT) |
 | [jev-risk-check-provider](caiovicentino-jev-risk-check-provider.md) | x402 risk-check provider: TypeSafe Jev typed decisions plus ES256-signed attestations facilitators can verify for… | TypeScript · x402 provider (MIT) |
+| [jev-role-ranker](jev-role-ranker.md) | Ranks job postings against a profile with TypeSafe Jev (fit, seniority, remote, sponsorship flags). Scores only sort; sponsorship refusals are flagged for a human and postings are never auto-rejected. | Python CLI with recorded demos and a browser threshold explainer (MIT) |
 | [jev-router](jev-router.md) | Route Claude Code and Codex turns through Jev model selection and inspect stored routing exchanges. | JavaScript · CLI launchers and HTTP proxies |
 | [jev-router (Covre81)](covre81-jev-router.md) | Keep simple Claude Code turns off your Claude quota with a Jev-scored local proxy. | TypeScript · Node gateway + CLI (MIT) |
 | [jev-router (Ex8-ca)](ex8-ca-jev-router.md) | Hermes Jev skill router + session-start pre-route. | Python · plugin (MIT) |
