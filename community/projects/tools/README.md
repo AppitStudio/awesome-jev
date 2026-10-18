@@ -951,6 +951,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [2048 with Jev](2048-with-jev.md) | 2048 experiment where a bot chooses moves via the TypeSafe SDK (`typesafe-sdk`, pinned) using a fixed Jev model id so runs do not silently follow `jev-latest` alias moves. | Python 2048 bot + game UI pieces (MIT) |
 | [2048: Jev vs Laya](2048-jev-vs-laya.md) | Reproducible 2048 head-to-head of Jev vs Laya with move-level logs. | Python · simulation + reports (MIT) |
 | [argmax](argmax.md) | Unity swarm-programming RTS where four commanders, including TypeSafe Jev answering typed battlefield questions, emit the same decision type. | Unity 6 game + SpacetimeDB server (C#) (MIT) |
 | [banterarena-engine](banterarena-engine.md) | Make a social-banter scoring formula public and testable, with Jev judging only the ambiguous replies. | Go · library (MIT, no third-party dependencies) |
