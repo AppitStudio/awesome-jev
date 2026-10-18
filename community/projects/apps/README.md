@@ -2870,6 +2870,22 @@ Chrome extension that mutes feed posts by meaning: TypeSafe Jev scores each post
 
 [Full ScrollPatrol guide](scrollpatrol.md) · [Source](https://github.com/ennsharma/scrollpatrol)
 
+### SearchJev
+
+`Open source` · `Free` · `BYOK`
+
+Firefox extension (Japanese UI) that asks Jev six questions about each Google result, then shows 0 to 100 scores and reorders the page to push mass-produced SEO and affiliate articles down and first-hand sources up; one click restores Google's order.
+
+**Jev's role:** Jev answers six typed questions per search result; the extension weights the answers into a score and reorders the page.
+
+**Platform:** Firefox desktop and Android
+
+**Product:** [addons.mozilla.org/ja/firefox/addon/searchjev/](https://addons.mozilla.org/ja/firefox/addon/searchjev/)
+
+**Pricing / access:** Free add-on (MIT); you pay your own TypeSafe usage. Checked 2026-10-18. Source inspected; live app not run on the review host.
+
+[Full SearchJev guide](searchjev.md) · [Source](https://github.com/mita-pixels/searchjev)
+
 ### Signal & Noise
 
 `Source unverified` · `Free source build` · `BYOK`
