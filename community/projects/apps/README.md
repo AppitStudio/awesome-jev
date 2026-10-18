@@ -250,6 +250,22 @@ Experimental Dice Chess webhook bot: TypeSafe Jev picks among legal turns withou
 - Source: [fortemate/dicechess-bot-jev](https://github.com/fortemate/dicechess-bot-jev)
 - Access: free source build; BYOK TypeSafe/provider keys when live
 
+### Did They Answer?
+
+`Open source` · `Free`
+
+Web app that scores how thoroughly the UK government engages with the petitions it answers: Jev rates each response against a published rubric, with a hand-labelled gold set split into tune and holdout to keep prompt changes honest.
+
+**Jev's role:** Jev rates each government response against the rubric; the app stores and displays the scores.
+
+**Platform:** Web (hosted site; self-hostable)
+
+**Product:** [petitions.thegoated.dev/](https://petitions.thegoated.dev/)
+
+**Pricing / access:** Free public site; MIT source if you self-host with your own OpenRouter key. Checked 2026-10-18. Source inspected; live app not run on the review host.
+
+[Full Did They Answer? guide](did-they-answer.md) · [Source](https://github.com/TheGoatedDev/Did-They-Answer)
+
 ### Doom or Bloom
 
 `Open source` · `Free` · `BYOK`
