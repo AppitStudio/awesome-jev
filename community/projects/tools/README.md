@@ -242,6 +242,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Copilot Studio × Jev](copilot-studio-jev.md) | Gate Azure AI Search passages with four Jev Noul questions per hit so Copilot Studio answers with citations or abstains; optional Power Platform connector. | TypeScript MCP + Power Platform connector (MIT) |
 | [corp-jev-skill](corp-jev-skill.md) | Claude Code /corp-jev: multi-department review loop with Jev second opinions. | Python · Claude Code skill (MIT) |
 | [could-jev](could-jev.md) | Ask Claude whether a task is a good Jev fit and get a sketch plus the cheapest test. | Markdown · Claude skill (MIT) |
+| [craft-cli](craft-cli.md) | Unofficial local-first CLI and TypeScript library for Craft Docs, with an agent skills library stored in Craft; `craft lib pick --jev` can use TypeSafe Jev to choose which skills fit a request. | Bun single-binary CLI + TypeScript library (MIT) |
 | [creator-teardown](creator-teardown.md) | Claude skill: label creator posts with Jev and rebuild brand drafts. | Python · Claude Code/Cowork skill (MIT) |
 | [Crosstalk](crosstalk-lab.md) | See and fix option confusions in typed-decision routers; live mode uses a System One endpoint. | TypeScript · web lab (MIT) |
 | [daf-jev](daf-jev.md) | Build typed Jev questions, gates, batch evaluation, and optional MCP tools in Python. | Python · library/CLI (`daf-jev` 0.3.0) |
