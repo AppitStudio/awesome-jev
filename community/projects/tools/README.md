@@ -989,6 +989,7 @@ These projects study related typed-decision patterns using other models. They ar
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [8-K Filings and Decision Models](sec-8k-decision-models.md) | Jev rated 26,962 S&P 500 8-K filings (2013 to 2026) from very bad to very good for $2.32; within item group and year the rating's rank correlation with the next two days' market-adjusted return is +0.025, positive in 13 of 14 years, and the move is mostly gone by the next open. | Python research package with report, figures, 402 offline tests and hashed results (MIT) |
 | [@amatelic/jev](amatelic-jev.md) | Node library and local server for one-line choice/noul/score decisions from small open models, with no API key or cloud call. | Node.js library + HTTP server (MIT) |
 | [A Decision Model as a World Model](jev-world-model.md) | Reproduce a study of Jev as a frozen world model for a TextWorld LLM agent. | Python · research code + artifacts (MIT) |
 | [Albanian sentiment analysis with Jev](albanian-sentiment-jev.md) | See how zero-shot Jev compares with trained models on a low-resource-language sentiment benchmark. | Python · research code + results (MIT) |
