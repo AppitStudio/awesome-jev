@@ -1384,6 +1384,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [SystemOneClient](system-one-client.md) | Call Jev and other System One models from Elixir with full distributions, a stub and retries. | Elixir · Hex library (`system_one_client`, Apache-2.0) |
 | [taurus-jev-sdk-go](taurus-jev-sdk-go.md) | Hard-failing stdlib Go System One client (unofficial). | Go · library (MIT) |
 | [Trax .NET](trax-net.md) | Headless .NET web framework that records every run in Postgres; its `Trax.Effect.Decisions.SystemOne` package adds System One decisions pinned to models such as `jev-1.13.0`. | .NET framework (NuGet packages) (MIT) |
+| [tsjev for DuckDB](tsjev-duckdb.md) | DuckDB extension from Querio that adds SQL functions to classify, filter, and score table rows with TypeSafe Jev, with deduplication of identical rows, memory and disk caching, and 32 concurrent requests. | DuckDB extension (C++) (MIT) |
 | [TypeSafe (Swift)](typesafe-swift.md) | Call System One Noul/Choice/Score from SwiftPM apps and servers. | Swift · SwiftPM library (`TypeSafe`) |
 | [TypeSafe .NET SDK (mehdihadeli)](mehdihadeli-typesafe-dotnet-sdk.md) | Call TypeSafe System One from .NET with typed Noul/Choice/Score models and your own HttpClient. | C# · .NET library (MIT) |
 | [TypeSafe AI for Agent Zero](a0-typesafe-ai.md) | Ask TypeSafe Jev Choice/Noul/Score from Agent Zero chat with probability cards; bundles the official agent skill. | Python · Agent Zero plugin (`typesafe_ai` 1.0.0) |
