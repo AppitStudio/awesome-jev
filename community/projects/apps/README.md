@@ -3430,6 +3430,22 @@ Native terminal multiplexer for coding agents (live status, persistent sessions,
 
 ## Discord bots
 
+### jeff (Discord bot)
+
+`Open source` · `Free source build` · `BYOK`
+
+Discord bot built with botbox where every feature is a typed Jev question: settle debates, rank lists, tag forum posts with the forum's own tags, answer FAQ repeats, and track unanswered help questions.
+
+**Jev's role:** Every command is one Jev request with a few typed questions; code owns the thresholds.
+
+**Platform:** Self-hosted Discord bot.
+
+**Product:** [github.com/saembit/jeff-bot](https://github.com/saembit/jeff-bot)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full jeff (Discord bot) guide](jeff-discord-bot.md) · [Source](https://github.com/saembit/jeff-bot)
+
 ### Jev Moderation Bot
 
 `Source unverified` · `Pricing unverified` · `BYOK`
