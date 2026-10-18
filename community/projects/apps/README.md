@@ -2214,6 +2214,22 @@ Mac menu-bar app to see, answer and talk to every coding agent running in herdr;
 
 [Full Reflex (monotykamary) guide](monotykamary-reflex.md) · [Source](https://github.com/monotykamary/reflex)
 
+### skil.li
+
+`Open source` · `Free` · `BYOK`
+
+Native macOS launcher and assistant (apps, files, clipboard, snippets, windows, Hyper Key) that can also act on requests; its Ask router uses a fast decision model such as TypeSafe Jev to route what you typed before a larger model runs.
+
+**Jev's role:** Optional fast router: Jev decides how an Ask request should be handled before the main model is called.
+
+**Platform:** macOS 26+ (signed, notarised download or Homebrew cask).
+
+**Product:** [skil.li](https://skil.li)
+
+**Pricing / access:** Free download (GPL-3.0); you bring your own AI keys and pay those providers. Checked 2026-10-19. Source inspected; live app not run on the review host.
+
+[Full skil.li guide](skilli.md) · [Source](https://github.com/nomdelasociete/skilli)
+
 ### Switchyard
 
 `Open source` · `Free source build` · `BYOK`
