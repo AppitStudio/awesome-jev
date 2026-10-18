@@ -2838,6 +2838,22 @@ Collapse posts that match English rules you wrote; TypeSafe Jev via OpenRouter D
 
 [Full Polymorph guide](polymorph.md) · [Source](https://github.com/moomooskycow/polymorph)
 
+### Qiaomu Banbot (乔木净评)
+
+`Free` · `Source available` · `BYOK`
+
+Chrome extension preview that uses TypeSafe Jev (or Magpie / OpenRouter / Vercel gateways) to fold suspected AI, low-signal, and promo replies on X, with optional natural-language rules and hot-post probability estimates.
+
+**Jev's role:** Jev scores each reply (and optional hot-post questions) over the System One or Decisions wire format; the extension folds or marks based on thresholds you set.
+
+**Platform:** Chrome / Chromium (preview release; not yet on the Chrome Web Store).
+
+**Product:** [github.com/joeseesun/qiaomu-ban-bot](https://github.com/joeseesun/qiaomu-ban-bot)
+
+**Pricing / access:** Free source / preview build; you supply your own provider key and pay that provider. Source inspected; live app not run on the review host.
+
+[Full Qiaomu Banbot (乔木净评) guide](qiaomu-ban-bot.md) · [Source](https://github.com/joeseesun/qiaomu-ban-bot)
+
 ### Quiet X
 
 `Open source` · `Free source build` · `BYOK`
