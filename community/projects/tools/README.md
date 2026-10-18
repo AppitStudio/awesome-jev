@@ -900,6 +900,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [super (superpowers-jev)](mindlace-super.md) | Claude Code marketplace plugin adding optional Jev judgments at 13 decision points. | Python · Claude Code plugins (MIT) |
 | [super-jev](super-jev.md) | Run evidence → typed Jev judgments → permitted actions → verified outcomes with local JSONL traces. | TypeScript · harness (Node ≥ 24) |
 | [Supercov](supercov.md) | Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first. | Rust · CLI via npm, Homebrew, Go or crates.io |
+| [SWAT](swat.md) | Python CLI that finds domains impersonating a brand: an LLM proposes lookalike and typosquat candidates, live ones are checked via certificate logs and DNS/HTTP, then TypeSafe Jev answers yes/no on domain and homepage impersonation. | Python CLI (uv) (MIT) |
 | [System One Harness](systemone-harness.md) | Drive finite-action environments with TypeSafe Jev (OpenRouter/TypeSafe): one typed decision per step, confidence gates, full traces. | Python · CLI `s1` (`systemone-harness` 0.4.0) |
 | [System One Harness](system-one-harness.md) | Reproducible pilot: can Jev/other System One models gate expensive LLM HTTP triage? | JavaScript · harness (MIT) |
 | [System One Playground](system-one-playground.md) | Write SysOneScript, use a Go System One client, semlint, and Studio/VS Code—offline first, optional live Jev. | Go · CLI/extension (`sysone`/`sos`) + `typesafe` module |
