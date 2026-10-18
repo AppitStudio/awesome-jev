@@ -727,6 +727,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [laya-router](laya-router.md) | Automatic fast/strong model routing for Claude Code and Codex without a TypeSafe key. | JavaScript · npm `@bussolabs/laya-router` (MIT) |
 | [laya-skill](laya-skill.md) | Claude Code skill/plugin for local Laya or hosted TypeSafe Jev typed decisions (plus fine-tune helpers). | Claude Code skill/plugin (Apache-2.0) |
 | [Leash](leash.md) | Judge each coding-agent turn against un-lintable rules with TypeSafe Jev and a one-way debt ratchet. | TypeScript · CLI/npm (`leash`, MIT) |
+| [licgate](licgate.md) | Dependency license gate (TUI and CI CLI) for npm, Python, Go, Rust, PHP, and SBOMs that flags incompatibilities with your intended license; `--jev` sends license texts the built-in detector cannot place to Jev, keeping low-confidence answers as REVIEW. | Go CLI/TUI (Apache-2.0) |
 | [Lintel](lintel.md) | Change gate: agent proposes, Jev reviews, you approve before code is written. | Go · CLI + hooks (MIT) |
 | [lintent](lintent.md) | Plain-language lint rules judged by TypeSafe Jev, scoped with tree-sitter. | Rust · CLI linter (MIT) |
 | [LLM Debugger (VS Code)](llm-debugger-vscode.md) | VS Code extension that finds bugs by driving the real debugger — breakpoints, stepping, live values — with Jev answering each step's 'what next?' and a generation model only for hypotheses and fixes. | VS Code extension (TypeScript) (MIT) |
