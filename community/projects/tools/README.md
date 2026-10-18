@@ -324,6 +324,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [ghtriage](ghtriage.md) | Classify GitHub issues with TypeSafe Jev typed labels/confidence and code-owned write guards (`ghtriage`). | Python · CLI (`ghtriage` / `jev-issue-classifier` 0.1.0) |
 | [ghwatch](ghwatch.md) | Ruby orchestrator that runs coding, review and finalizer agents off GitHub issues and pull requests, with optional TypeSafe Jev issue screening before work starts. | Ruby gem and CLI (alpha) (MIT) |
 | [git-jev-stage](git-jev-stage.md) | Classify Git hunks against a plain-language staging intent with TypeSafe Jev, then stage confirmed blocks. | TypeScript · CLI (`git-jev-stage` 0.1.1) + skill |
+| [gitpp-gate](gitpp-gate.md) | Confidence-gated nudging for the git.pp fold: asks TypeSafe Jev before nudging, fails closed, and logs the decision so automation cannot push without a typed yes. | Small Node/JS gate scripts (MIT) |
 | [gmail-auto-cleanup](gmail-auto-cleanup.md) | Clear and maintain a large Gmail inbox with per-email Jev judgments and reversible, rule-driven actions. | Python · CLI (MIT) |
 | [go-decide](go-decide.md) | Gate shell or CI steps on a Jev decision with explicit decided / uncertain / escalate outcomes. | Go · CLI (Apache-2.0) |
 | [Graphlin](graphlin.md) | Live architecture/activity diagrams for Claude Code or Codex; optional TypeSafe Jev classification of graph evidence. | Node.js · CLI/viewer (`npx graphlin`), plugins |
