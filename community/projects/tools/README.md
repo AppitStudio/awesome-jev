@@ -368,6 +368,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [J++](jpp.md) | Experimental language/Rust runtime composing Jev questions with exact methods; offline fixtures and Towow demos. | Rust · `jpp-cli` + Python reference |
 | [japanese-jev-lint](japanese-jev-lint.md) | Lint Japanese prose with TypeSafe Jev Noul flags (typo/twist/length/repeat) plus regex です/ます checks; no rewrites. | Go · CLI (`jjl`) |
 | [JCR](jcr.md) | Resolve deterministic commands from a nested capability tree with TypeSafe Jev (MCP + Claude/Codex harnesses). | TypeScript · resolver, MCP and harnesses (`jcr` 1.0.0) |
+| [jeff (Claude Code router)](jeff-claude-code.md) | Claude Code plugin that uses Jev to route every subtask: model tier, Claude or Codex, which skill, write access, and parallelism, then asks Jev to verify each result and escalates misses. | Claude Code plugin (Python, stdlib) (MIT) |
 | [Jeffort](jeffort.md) | Set Claude Code effort per turn from TypeSafe Jev scores (depth/scope/stakes/ambiguity); leave /effort alone on low confidence. | Claude Code plugin (MIT) |
 | [jes](jes.md) | Open-source guardrails for AI agents that ask Jev to judge prompts, retrieved content, tool calls and responses for prompt injection, jailbreaks and secret/PII leaks. | Python library, CLI and agent hooks (PyPI `jes`) (Apache-2.0) |
 | [jev (taifoon-io)](taifoon-io-jev.md) | Grade an AI agent job with TypeSafe Jev: fact checks in code, four closed questions, receipt with probabilities,… | TypeScript · npm `@taifoon/jev` (MIT) |
