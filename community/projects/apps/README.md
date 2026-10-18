@@ -3070,6 +3070,22 @@ Review draft X posts, replies, and quote posts with a scorecard inside the compo
 
 [Full Vibe Check guide](vibecheck.md) · [Source](https://github.com/RafalWilinski/vibecheck)
 
+### Xift
+
+`Open source` · `Free source build` · `BYOK`
+
+Firefox add-on that collapses noise on your X timeline: TypeSafe Jev (via OpenRouter) scores each post for engagement bait, rage bait, low substance, and self-promotion, and posts over your thresholds fold to a one-line reason.
+
+**Jev's role:** Jev answers four probability questions per post (text plus first photo); your thresholds, adjusted by Keep and Hide feedback, decide what collapses.
+
+**Platform:** Firefox 140+ (run with web-ext or self-sign; no addons.mozilla.org listing verified).
+
+**Product:** [github.com/asaidaoui-netria/xift](https://github.com/asaidaoui-netria/xift)
+
+**Pricing / access:** Free source build; you pay OpenRouter per post judged (README estimates about 3 cents per 1,000 posts) with a default $1/month spending limit. Source inspected; live app not run on the review host.
+
+[Full Xift guide](xift.md) · [Source](https://github.com/asaidaoui-netria/xift)
+
 ### Xtags
 
 `Open source` · `Free source build` · `BYOK`
