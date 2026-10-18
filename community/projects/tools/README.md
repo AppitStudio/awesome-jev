@@ -1153,6 +1153,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Reflex System One](reflex-system-one.md) | One-click Windows server for open System One decision models with a Jev-shaped local API. | Windows launcher + Python server (MIT) |
 | [Reflex-1](matu79go-reflex-1.md) | Run/study Reflex-1, a 4B open decision model for fast typed classification with latent reasoning (independent of hosted Jev). | Python · open weights + examples (Apache-2.0) |
 | [ReJev](rejev.md) | Reproduce a lightweight Jev-style Choice decision post-training loop on MiniCPM5-2B with sealed holdout metrics. | Python · LoRA post-training research (MIT) |
+| [robo-jev](robo-jev.md) | Robotics / embodied decision bench configs that include TypeSafe Jev (`~typesafe/jev-latest` and related ids) among decision-model baselines for evaluating fast typed policies. | Bench configs + eval harness (see repo) (Apache-2.0) |
 | [RSI-Jev](rsi-jev.md) | Train and serve Jev-style typed-decision checkpoints via a self-improving agent loop; independent of hosted Jev. | Python · research training + `/v1/systemone` serve (MIT code) |
 | [ruling](ruling.md) | Serve typed, calibrated decisions from a local model on a Jev-compatible endpoint and compare it with Jev on public judgment sets. | Python · uv CLI/server (MIT) |
 | [RYOTIDE](ryotide.md) | Local LLM one-forward-pass typed decisions (MLX/PyTorch) measured on JevBench; independent of official Jev. | Python · research (MIT) |
