@@ -3042,6 +3042,24 @@ Hide page clutter with Jev classifications and reusable local rules, with pause 
 
 [Full Unclutter guide](unclutter.md) · [Source](https://github.com/kitze/unclutter)
 
+### Vertika Command
+
+`Closed source` · `Free` · `BYOK`
+
+Chrome extension that runs your browser from spoken or typed English commands, with free in-browser Laya or TypeSafe Jev online with your own key.
+
+**Jev's role:** Optional fast cloud model that turns a command plus page context into the browser action to run.
+
+**Platform:** Chrome extension (Chrome Web Store 0.7.0) · English only
+
+**Product:** [command.vertika.io](https://command.vertika.io/)
+
+**Pricing / access:** Free; Jev option needs your own TypeSafe or OpenRouter key (about $0.0002 per command per the site). Closed source. Checked 2026-10-19.
+
+**Access:** No public source; product site and Chrome Web Store listing reviewed; not run on the review host.
+
+[Try Vertika Command](https://chromewebstore.google.com/detail/vertika-command-run-your/lhjeopjappljkcdgjhiafhobjafmmhmh) · [Full Vertika Command guide](vertika-command.md) · [Product site](https://command.vertika.io/)
+
 ### Vibe Check for X
 
 `Source unverified` · `Pricing unverified` · `BYOK`
