@@ -349,6 +349,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [hermes-jev-curator](hermes-jev-curator.md) | Typed Jev skill-relationship judgments and safe archive/guard plans for Hermes Agent’s background skill curator. | Python · Hermes plugin (experimental 0.1.0) |
 | [hermes-jev-helper](hermes-jev-helper.md) | Hermes `pre_llm_call` plugin: TypeSafe Jev (OpenRouter Decisions) classifies intent route before the agent improvises. | Python · Hermes plugin (MIT) |
 | [hermes-jev-lesson-gate](hermes-jev-lesson-gate.md) | Hermes background review gate: TypeSafe Jev decides when memory/skill review should run. | Python · Hermes plugin (MIT) |
+| [hermes-loopguard](hermes-loopguard.md) | Hermes Agent plugin with cheap typed semantic gates (TypeSafe Jev via typesafe-sdk) plus zero-token change gates and computer-use gates to stop automations from burning tokens in loops. | Python Hermes plugin with TypeSafe backend (MIT) |
 | [himalaya-jev-mail-classify](himalaya-jev-mail-classify.md) | CLI `mail-classify`: himalaya Gmail threads → TypeSafe Jev labels/colours via OpenRouter (dry-run default). | Python · CLI (`mail-classify` 0.1.0, MIT) |
 | [HiRoute](hiroute.md) | Local-first agent routing engine with TypeSafe Jev decision extensions for branch selection | Rust · routing engine (Apache-2.0) |
 | [hookgate](hookgate.md) | Gate Claude Code/Codex shell and Stop hooks with TypeSafe Jev (audit mode, fail-open). | Node.js ≥ 18 · CLI/plugin (`hookgate` 0.0.2) |
