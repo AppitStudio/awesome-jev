@@ -2382,6 +2382,22 @@ Native Android notification filter: natural-language rules plus TypeSafe Jev (or
 
 ## Windows apps
 
+### INployed
+
+`Open source` · `Free source build` · `BYOK`
+
+Windows desktop app with a cloud pipeline that collects job postings, ranks them against your background, writes grounded one-page résumés, and fills and sends queued applications; Jev makes the yes-or-no calls in scoring and reads each application page when it is on.
+
+**Jev's role:** Optional judge for scoring and for reading application pages before code fills them from your data.
+
+**Platform:** Windows 11 (install from source per README).
+
+**Product:** [github.com/yib7/INployed](https://github.com/yib7/INployed)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full INployed guide](inployed.md) · [Source](https://github.com/yib7/INployed)
+
 ### Jev Chat Windows
 
 `Open source` · `Free source build` · `BYOK`
@@ -3028,6 +3044,22 @@ Rate open tabs for a task you type with TypeSafe Jev, then close the ones that d
 
 [Full Tab Bouncer guide](tab-bouncer.md) · [Source](https://github.com/MANISH007700/tab-bouncer)
 
+### Tab Land
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that finds any tab fast, groups tabs by the job you are doing, and closes stale ones; with a Jev key, Jev double-checks each group, removes tabs that do not fit, and names groups.
+
+**Jev's role:** Optional judge that asks typed questions like whether tabs serve one goal and what kind of work a tab is.
+
+**Platform:** Chrome (load unpacked from source; no Chrome Web Store listing verified).
+
+**Product:** [github.com/robin-anil/tab-land](https://github.com/robin-anil/tab-land)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Tab Land guide](tab-land.md) · [Source](https://github.com/robin-anil/tab-land)
+
 ### TabTidy
 
 `Open source` · `Free source build` · `BYOK`
@@ -3413,6 +3445,22 @@ Native terminal multiplexer for coding agents (live status, persistent sessions,
 [Full pitwall guide](pitwall.md) · [Source](https://github.com/quanticstudios/pitwall)
 
 ## Discord bots
+
+### jeff (Discord bot)
+
+`Open source` · `Free source build` · `BYOK`
+
+Discord bot built with botbox where every feature is a typed Jev question: settle debates, rank lists, tag forum posts with the forum's own tags, answer FAQ repeats, and track unanswered help questions.
+
+**Jev's role:** Every command is one Jev request with a few typed questions; code owns the thresholds.
+
+**Platform:** Self-hosted Discord bot.
+
+**Product:** [github.com/saembit/jeff-bot](https://github.com/saembit/jeff-bot)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full jeff (Discord bot) guide](jeff-discord-bot.md) · [Source](https://github.com/saembit/jeff-bot)
 
 ### Jev Moderation Bot
 
