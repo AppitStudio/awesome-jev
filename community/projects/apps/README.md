@@ -2636,6 +2636,22 @@ Chrome extension (optional FastAPI / Cloudflare Worker) that scores social-post 
 
 [Full HookMeter guide](hookmeter.md) · [Source](https://github.com/ehui1226/hookmeter-jev)
 
+### Jev Check (browser extension)
+
+`Open source` · `Free` · `BYOK`
+
+Chrome and Firefox side-panel extension that asks the page you are reading your own question sets (yes/no, choice, score, multi-pick) and shows probability-ranked answers from Jev, optionally judged against your uploaded resume or checklist.
+
+**Jev's role:** Answers each question in a set about the page's Markdown with typed probabilities; the panel ranks answers and highlights the winner.
+
+**Platform:** Chrome (Chrome Web Store) and Firefox (Firefox Add-ons), Manifest V3.
+
+**Product:** [chromewebstore.google.com/detail/acobeddijnaokjkpkmcdfoepbmibpicc](https://chromewebstore.google.com/detail/acobeddijnaokjkpkmcdfoepbmibpicc)
+
+**Pricing / access:** Free extension on the Chrome Web Store and Firefox Add-ons; you pay your chosen provider for Jev calls. Checked 2026-10-19. Source inspected; live app not run on the review host.
+
+[Full Jev Check (browser extension) guide](jev-check-extension.md) · [Source](https://github.com/amir9480/JevCheck)
+
 ### Jev Content Guard
 
 `Open source` · `Free source build` · `BYOK`
