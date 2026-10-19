@@ -317,6 +317,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [fast-resume-scoring](fast-resume-scoring.md) | Resume-to-job fit scoring and requirement coverage with one Jev request. | Go · CLI/service (Apache-2.0) |
 | [fastcampus-jev](fastcampus-jev.md) | Learn TypeSafe Jev in Korean via notebooks and a Teddy Market customer-support LangGraph demo (tool choice, guardrails, risk gates, RAG). | Python 3.12 + LangGraph + React (MIT) |
 | [FAVA Trails](fava-trails.md) | Gate which agent conclusions become shared memory with a calibrated Jev check and an inspectable review record. | Python · PyPI `fava-trails` · MCP server (Apache-2.0) |
+| [flowtape](flowtape.md) | Records a user journey in a running Vite + React or Next.js app and exports it as JSON and a Claude Code prompt to replay and explore; Jev (TypeSafe) finds replay targets visually from screenshots. | npm package (Vite plugin, Next.js route handler, React overlay) (None (no LICENSE file)) |
 | [fndds-matcher-jev](fndds-matcher-jev.md) | Match food descriptions to USDA FNDDS codes via hybrid retrieval plus TypeSafe Jev. | Python · matcher (MIT) |
 | [Foreman](foreman.md) | Experiment with Jev supervision of Codex workers and inspect steering, retry, and verification decisions. | Python · CLI and supervision runtime |
 | [forge (continuous engineering loop)](forge-claude-loop.md) | Continuous engineering loop for Claude Code with Jev handling fast triage and routing. | JavaScript (Node 20+, no deps) · Claude Code plugin (MIT) |
