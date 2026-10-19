@@ -2414,6 +2414,22 @@ Minimal Android home app styled after Omarchy's waybar and walker: status bar, n
 
 ## Windows apps
 
+### FlowMesh
+
+`Open source` · `Free`
+
+Windows voice-workflow app built for the Wispr No Hands challenge: dictate into the command box, review an exact plan, then approve; Jev picks which registered routine (focus, meeting, research or none) fits, and a local runtime runs only allowlisted actions with receipts.
+
+**Jev's role:** Jev answers one Choice question to route a spoken request among three registered routines or none; it never generates shell commands or unregistered device actions.
+
+**Platform:** Windows (unsigned release zip; Windows may show a publisher warning).
+
+**Product:** [github.com/HamzaShaikh-source/flowmesh/releases/latest](https://github.com/HamzaShaikh-source/flowmesh/releases/latest)
+
+**Pricing / access:** Free download from GitHub Releases (v1.0.0, checked 2026-10-20); you pay for your own Jev calls. Source inspected; live app not run on the review host.
+
+[Full FlowMesh guide](flowmesh-voice.md) · [Source](https://github.com/HamzaShaikh-source/flowmesh)
+
 ### INployed
 
 `Open source` · `Free source build` · `BYOK`
