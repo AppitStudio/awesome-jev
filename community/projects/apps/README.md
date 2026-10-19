@@ -2320,16 +2320,6 @@ Minimalist Android launcher (Portuguese docs): text-only home, grayscale screen 
 
 [Full axo-launcher guide](axo-launcher.md) · [Source](https://github.com/axolutions/axo-launcher)
 
-### JevBystander
-
-`Open source` · `Free source build` · `BYOK`
-
-Android Accessibility WeChat reader: TypeSafe Jev judges intent/emotion/urgency/stance and shows three Toasts only (~861 KB APK, zero third-party deps).
-
-**Access:** install the [MIT Release APK](https://github.com/Nisaka520/JevBystander/releases/latest) or build the [source](https://github.com/Nisaka520/JevBystander) (JDK 17, Android SDK 35) with a TypeSafe key and Accessibility enabled. No app purchase fee; TypeSafe usage is separate. Source inspected; APK/device/live not run on the Linux review host. Sister of JevIntent; judgment-only vs reply-drafting Jev Chat Assistant.
-
-[Full JevBystander guide](jev-bystander.md) · [Source](https://github.com/Nisaka520/JevBystander) · [Product page](https://nisaka520.github.io/JevBystander/)
-
 ### Jev Chat Assistant
 
 `Open source` · `Free source build` · `BYOK`
@@ -2339,6 +2329,16 @@ Non-invasive Android overlay: Accessibility reads on-screen chat; TypeSafe Jev (
 **Access:** build the [MIT source](https://github.com/jev-chat/jev-chat-jarvis) (JDK 17, Android SDK 35) with an OpenRouter API key plus Accessibility/overlay permissions. No app purchase fee; OpenRouter/Jev usage is separate. Source inspected; APK build and live calls not run on the Linux review host. Distinct from desktop WeChat-log analyzers and the separate Android UI-agent SDK listed under Developer tools.
 
 [Full Jev Chat Assistant guide](jev-chat-jarvis.md) · [Source](https://github.com/jev-chat/jev-chat-jarvis)
+
+### JevBystander
+
+`Open source` · `Free source build` · `BYOK`
+
+Android Accessibility WeChat reader: TypeSafe Jev judges intent/emotion/urgency/stance and shows three Toasts only (~861 KB APK, zero third-party deps).
+
+**Access:** install the [MIT Release APK](https://github.com/Nisaka520/JevBystander/releases/latest) or build the [source](https://github.com/Nisaka520/JevBystander) (JDK 17, Android SDK 35) with a TypeSafe key and Accessibility enabled. No app purchase fee; TypeSafe usage is separate. Source inspected; APK/device/live not run on the Linux review host. Sister of JevIntent; judgment-only vs reply-drafting Jev Chat Assistant.
+
+[Full JevBystander guide](jev-bystander.md) · [Source](https://github.com/Nisaka520/JevBystander) · [Product page](https://nisaka520.github.io/JevBystander/)
 
 ### JevGuide
 
@@ -2379,6 +2379,22 @@ Native Android notification filter: natural-language rules plus TypeSafe Jev (or
 **Access:** build the [source](https://github.com/chengyongru/notiq) (JDK/Android SDK) with Notification Access and a TypeSafe or FastJev endpoint/key. No app purchase fee; inference separate. **No LICENSE** at tip—not Open source. Source inspected; device/live not run on Linux review host.
 
 [Full Notiq guide](notiq.md) · [Source](https://github.com/chengyongru/notiq)
+
+### Simple Launcher
+
+`Open source` · `Free source build` · `BYOK`
+
+Minimal Android home app styled after Omarchy's waybar and walker: status bar, next event, notifications, recent apps, and a fuzzy app search where Jev picks the app by meaning when nothing matches by name.
+
+**Jev's role:** Semantic fallback in search: when no prefix or word-start match exists, Jev chooses the app that fits the query (for example "music" finds the music app).
+
+**Platform:** Android (build from source and sideload; tested on Pixel 4a, Android 13; no Play Store listing verified).
+
+**Product:** [github.com/polidog/simple-launcher](https://github.com/polidog/simple-launcher)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Simple Launcher guide](simple-launcher.md) · [Source](https://github.com/polidog/simple-launcher)
 
 ## Windows apps
 
