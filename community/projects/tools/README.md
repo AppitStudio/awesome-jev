@@ -40,6 +40,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [firefox-jev-mcp](firefox-jev-mcp.md) | Claude plans; TypeSafe Jev picks Firefox element actions via MCP + WebExtension. | TypeScript · MCP + Firefox extension (MIT) |
 | [Flick (flick-computer-use)](flick-computer-use.md) | MCP computer-use: Jev decides browser/macOS actions for whole goals. | TypeScript · MCP (MIT) |
 | [Footwork](footwork.md) | Dual-process browser agent: TypeSafe Jev as System 1 in front of browser-use System 2, with a code-owned arbiter and evidence verification. | Python/Rust · package (`jevdual` 0.0.1) |
+| [glimpse](glimpse-jev.md) | Computer-use harness for the Linux GNOME desktop: a planner model writes the plan, and Jev finds each control, checks each result and decides when the task is done, across LibreOffice, Files, the browser and other apps. | Linux desktop agent (Python) (PolyForm-Noncommercial-1.0.0 (source available, not OSI open source)) |
 | [gpui-agent](gpui-agent.md) | Drive instrumented GPUI apps via accessibility: TypeSafe Jev chooses typed actions/targets (no screenshots to the model). | Rust/Python/TypeScript · experimental native toolkit |
 | [HN Jev Sorter](hn-jev-sorter.md) | Sort Hacker News comments into custom buckets live with Jev. | JavaScript · Chrome extension (MIT) |
 | [InspireJev](inspire-jev.md) | Hand repetitive public-website steps (search, filter, collect, fill forms) to Jev-chosen actions while the host agent keeps the goal, authorization and verification. | Node.js · Playwright · release tarball (MIT) |
