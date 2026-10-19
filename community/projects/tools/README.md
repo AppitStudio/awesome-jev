@@ -661,6 +661,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevdedup](jevdedup.md) | Get a duplicate-file report with Jev's verdict and raw probabilities next to the classic hash checks. | TypeScript (Bun) · CLI (MIT) |
 | [jevdev](jevdev.md) | Rust coding-agent harness centered on TypeSafe Jev System One (HTTP or local transport). | Rust · crate/CLI (Apache-2.0) |
 | [JevDo](jevdo.md) | Jev-first DeepSeek Harness loop: reuse validated Actions before calling a frontier model. | TypeScript · DSH agent loop (MIT) |
+| [jevelin](jevelin.md) | Reference design for fast, low-cost real-time voice agents: small per-turn decisions (card number read-out, wants a human, risky draft) go to a System One classifier such as Jev off the critical path, scheduled as a dependency graph, with a browser demo running the same engine. | Python reference design + Pyodide browser demo (MIT) |
 | [jeveloper](jeveloper.md) | Claude Code System-1 reflex layer: TypeSafe Jev route/gate/verify/done plus optional driver mode. | Claude Code plugin (`jeveloper` 0.2.0, MIT) |
 | [Jever](jever.md) | Notebook companion to the article 'Your AI Agent Needs a Bouncer': a LangChain middleware where Jev labels each message as direct, decomposable, enrichable or needs clarification before a supervisor agent delegates to subagents. | Python notebook (LangChain, Deep Agents, `langchain_typesafe`) (MIT) |
 | [JeVerifier](jeverifier.md) | Jev reading lists + doc/code checks under Claude sessions. | Python · harness (MIT) |
