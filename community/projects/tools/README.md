@@ -33,6 +33,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [CUA-JEV (ZJU-REAL)](cua-jev-zju.md) | Constrained computer-use loop: Jev selects typed action×channel candidates with guards and verifiers. | Python · framework (Apache-2.0) |
 | [DepthJev](depthjev.md) | Embodied navigation with depth/text facts; TypeSafe Jev chooses EB-Navigation actions. | Python · EmbodiedBench agent (Apache-2.0) |
 | [Discord Policy Checker](discord-policy-checker.md) | Hold Discord sends that break your plain-language policies, judged by Jev. | TypeScript · Chrome extension (MIT) |
+| [dsh-opencli](dsh-opencli.md) | DeepSeek Harness (dsh) plugin that drives your own logged-in Chrome or Edge through OpenCLI: 180+ site commands, generic browser primitives, approval gates on writes, watch jobs, and a System One decision layer (Jev or local Laya) for fast checks. | dsh plugin (Node.js) (MIT) |
 | [ego-decision-layer](ego-decision-layer.md) | Pluggable ego lite browser decision layer: one TypeSafe Jev System One call per step with fail-closed guards (measured benches). | JavaScript · skill/CLI (MIT) |
 | [ego-jev](ego-jev.md) | Let Jev choose clicks and field placement in ego lite browser TaskSpaces while your agent keeps the goal. | JavaScript · Node CLI (MIT) |
 | [fast-browser](fast-browser.md) | Playwright browser automation for Codex/MCP with TypeSafe Jev (or Laya) decisions | Python · browser automation / MCP (MIT) |
