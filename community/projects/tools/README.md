@@ -115,6 +115,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [tinycomputer](tinyhumansai-tinycomputer.md) | Drive desktop a11y and Chrome via a Rust TinyBus module; flows/tasks ask TypeSafe Jev many small questions (no screenshots). | Rust · TinyBus cdylib module (GPL-3.0) |
 | [typesafe-computer-use](typesafe-computer-use.md) | Study OCR and Accessibility driven native macOS control. | Python · desktop CLI |
 | [typesafe-computer-use-win](typesafe-computer-use-win.md) | Study OCR/UI Automation driven native Windows control with TypeSafe Jev decisions (`winclicker`). | Python · Windows desktop CLI |
+| [winuse](winuse.md) | MCP server and CLI that lets an AI observe and operate Windows desktop apps through UI Automation, WebView2, input, windows, processes and files, with Jev used for grounding and verification checks, and saved scenarios you can replay as end-to-end tests. | MCP server + CLI (.NET 10, Windows) (MIT) |
 
 ## Customer feedback and marketing
 
