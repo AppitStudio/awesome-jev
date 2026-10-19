@@ -3044,6 +3044,22 @@ Rate open tabs for a task you type with TypeSafe Jev, then close the ones that d
 
 [Full Tab Bouncer guide](tab-bouncer.md) · [Source](https://github.com/MANISH007700/tab-bouncer)
 
+### Tab Land
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that finds any tab fast, groups tabs by the job you are doing, and closes stale ones; with a Jev key, Jev double-checks each group, removes tabs that do not fit, and names groups.
+
+**Jev's role:** Optional judge that asks typed questions like whether tabs serve one goal and what kind of work a tab is.
+
+**Platform:** Chrome (load unpacked from source; no Chrome Web Store listing verified).
+
+**Product:** [github.com/robin-anil/tab-land](https://github.com/robin-anil/tab-land)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Tab Land guide](tab-land.md) · [Source](https://github.com/robin-anil/tab-land)
+
 ### TabTidy
 
 `Open source` · `Free source build` · `BYOK`
