@@ -729,6 +729,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [JIT-JEV Context OS](jit-context.md) | Epistemic context runtime + TypeSafe Jev System 1 gate for tool-using coding agents | Python · context OS / gate (MIT) |
 | [jmc-jev-mcp](jmc-jev-mcp.md) | MCP server that judges JDK Flight Recorder recordings with TypeSafe Jev typed questions. | Java · MCP server (MIT) |
 | [JMP](jmp.md) | Local coding workspace: TypeSafe Jev picks the next tool action; DeepSeek/Codex/Bonsai supply arguments; OpenHands/MCP execute. | Python · desktop (pywebview) + CLI (MIT) |
+| [Job Matcher (MCP server)](job-matcher-mcp.md) | Local MCP server and JSON CLI that gives Claude Code, Claude Desktop, Cursor or Codex a memory and judgment for your job search: it finds postings on public job boards for companies you add and has Jev evaluate and rank them against your profile, with blockers and concerns spelled out. | MCP server + CLI (Python 3.12, uv, SQLite) (MIT) |
 | [job-agents](job-agents.md) | Job scout/matcher/pilot agents; Jev gates postings before scoring and the digest. | Python · Docker images (Apache-2.0) |
 | [Juardrails](juardrails.md) | Manage TypeSafe Jev guardrail policies (YAML/UI), batch questions, apply rules via REST/CLI with audit. | Go · server + CLI (license unspecified at review) |
 | [juna](juna.md) | Lean Pi coding agent profile that keeps context small, with TypeSafe Jev pruning tool output. | Pi coding agent profile / extensions (MIT) |
