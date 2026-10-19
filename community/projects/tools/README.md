@@ -1318,6 +1318,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-prompt-sentry](jev-prompt-sentry.md) | Reverse-proxy Anthropic Messages through one batched TypeSafe Jev jailbreak/injection/exfil screen (PolyForm Noncommercial). | Python · FastAPI proxy |
 | [jev-py-sdk](jev-py-sdk.md) | Python SDK/CLI for typed Jev judgments with client-side masking. | Python · SDK + CLI (MIT) |
 | [jev-recipes](jev-recipes.md) | 66 TypeScript recipes for TypeSafe Jev decisions (rerank/verify/clarify/route/…) via `@typesafe-ai/sdk`. | TypeScript · npm (`jev-recipes` 0.2.0) |
+| [jev-sdk (dev.isira, Java 25)](jev-sdk-isira.md) | Small unofficial Java client for `https://api.typesafe.ai/v1/systemone`, published on Maven Central as `dev.isira:jev-sdk`: send a state with Choice, Score or Noul questions and get typed answers with probabilities and token usage. | Java library (Maven Central) (MIT) |
 | [jev-sdk-java](jev-sdk-java.md) | Call System One from Java 21 with sealed Question/Answer records (TypeSafe-only; source-build until Central lists 0.1.0). | Java 21 · Maven (`com.luigivismara:jev-sdk-java`) |
 | [jev-state](jev-state.md) | Shape raw app/game state for Jev (author bench: 74% → 100%, 43% fewer tokens). | TypeScript · library (MIT) |
 | [jev-strict](jev-strict.md) | Unofficial, standard-library Python client for Jev that pins one model, meters usage in a crash-safe JSONL file, refuses calls past a hard monthly cap, and asks every choice and score in both option orders. | Python library (stdlib only, Python 3.9+) (MIT) |
