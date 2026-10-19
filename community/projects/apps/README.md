@@ -540,6 +540,22 @@ Self-host a call-screening backend that classifies caller transcripts with TypeS
 
 [Full Jev Call Screener guide](jev-call-screener.md) · [Source](https://github.com/SuchintK/jev-call-screener)
 
+### Jev Cards
+
+`Open source` · `Free`
+
+Visual quiz game where you race Jev, TypeSafe's vision decision model, on the same picture cards: tap the right thing, pick the answer, with Sprint, Versus, Streak and live multiplayer modes and server-checked leaderboards.
+
+**Jev's role:** Jev answers each card live from its picture, as a `choice` with probabilities or a `box` for tap-the-place cards, and its answers and times become your opponent's score.
+
+**Platform:** Web (hosted site; self-host with Node or the included Dockerfile).
+
+**Product:** [jev-cards.apps.sabater.io](https://jev-cards.apps.sabater.io)
+
+**Pricing / access:** Free to play on the hosted site (checked 2026-10-19). Self-hosting is free source; you pay for your own Jev calls and hosting. Source inspected; live app not run on the review host.
+
+[Full Jev Cards guide](jev-cards.md) · [Source](https://github.com/Jose-Sabater/jevcards)
+
 ### Jev Chess
 
 `Open source` · `Free` · `BYOK`
