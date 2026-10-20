@@ -732,6 +732,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevx (muthuishere)](muthuishere-jevx.md) | Agent skill + CLI for typed yes/no/choice/rating gut checks via System One (hosted or self-hosted); ≠ hawkyre/jevx extension. | Go CLI + npm (`@muthuishere/jevx`) · agent skill (MIT) |
 | [JevX (vij-sameerb5)](vij-sameerb5-jevx.md) | Scan a codebase for judgment-shaped rules and replace strong fits with TypeSafe Jev decisions (dry-run/undo). | TypeScript · npm (`@vij-sameerb5/jevx`, MIT) |
 | [jevyoumean](jevyoumean.md) | Wrap any CLI so unknown subcommands get TypeSafe Jev intent-based "Did you mean?" suggestions from help text. | Go · CLI (`jym`) |
+| [Jills (saved agent-team workflows)](jills.md) | Saved agent workflows (`JILL.md`, like `SKILL.md`) that Jev suggests when a chat message matches one; each Jill runs as a separate job in its own git worktree for Pi, DeepSeek Harness or Claude Code and reports back with a branch and logs. | CLI and MCP server (TypeScript) with Pi, dsh and Claude Code add-ons (MIT) |
 | [JIS · PARALLELIZE](jis-parallelize.md) | Self-organising swarm: rules first; Jev for verify/adopt/dispute; LLM escalation on low confidence. | TypeScript · swarm harness (Apache-2.0) |
 | [JIT-JEV Context OS](jit-context.md) | Epistemic context runtime + TypeSafe Jev System 1 gate for tool-using coding agents | Python · context OS / gate (MIT) |
 | [jmc-jev-mcp](jmc-jev-mcp.md) | MCP server that judges JDK Flight Recorder recordings with TypeSafe Jev typed questions. | Java · MCP server (MIT) |
