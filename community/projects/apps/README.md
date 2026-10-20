@@ -1378,6 +1378,22 @@ Upload patrol photos and get Korean patrol-log text (or HWPX). OpenAI reads the 
 
 [Full patrol-jev guide](patrol-jev.md) · [Source](https://github.com/patrol-jev/patrol-jev)
 
+### Photo Ferret
+
+`Open source` · `Free`
+
+Self-hosted photo gallery where Jev's image questions rate every photo on dozens of scales (how much sky, water or snow, sky drama, wildness, close-up or vista, quality), so visitors filter a static Cloudflare site with sliders, chips, a colour picker and an experimental 3D map.
+
+**Jev's role:** Jev looks at each photo and answers the tagging questions; the gallery filters on those stored answers.
+
+**Platform:** Self-hosted: local Node.js tool; published gallery runs in any browser.
+
+**Product:** [stevenjonesphotography.ca](https://stevenjonesphotography.ca)
+
+**Pricing / access:** Free MIT source; you pay for your own Jev image calls and Cloudflare hosting (free plan fits about 10,000 photos, per the README). Checked 2026-10-20. Source inspected; live app not run on the review host.
+
+[Full Photo Ferret guide](photo-ferret.md) · [Source](https://github.com/JonesSteven/photo-ferret)
+
 ### Plasis
 
 `Open source` · `Free source build` · `BYOK`
