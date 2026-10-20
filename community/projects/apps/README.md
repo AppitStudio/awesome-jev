@@ -396,6 +396,22 @@ Explore Italian Camera amendments: identical texts grouped in code, TypeSafe Jev
 
 [Full Fotocopiatrice guide](fotocopiatrice.md) · [Source](https://github.com/bnistor4/fotocopiatrice) · [Product homepage](https://fotocopiatrice.vercel.app/)
 
+### FrameFind
+
+`Open source` · `Free`
+
+Local Python web app that samples frames from an uploaded clip or public video URL, asks Jev image questions to find moments matching a plain-language description, and lets you play or export the matching snippets as MP4.
+
+**Jev's role:** Core: Jev judges sampled video frames against your description and the matches become playable snippets.
+
+**Platform:** Runs locally on macOS or Linux at `http://127.0.0.1:8765`; Windows through WSL2 only.
+
+**Product:** [github.com/Lyadalachanchu/framefind](https://github.com/Lyadalachanchu/framefind)
+
+**Pricing / access:** Free MIT source; you pay TypeSafe per image call, with a local spending guard (`JEV_BUDGET_USD`, default $15). Checked 2026-10-21. Source inspected; live app not run on the review host.
+
+[Full FrameFind guide](framefind.md) · [Source](https://github.com/Lyadalachanchu/framefind)
+
 ### Goatside
 
 `Open source` · `Free source build` · `BYOK`
