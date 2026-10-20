@@ -472,6 +472,22 @@ Local natural-language SQLite playground: inspectable semantic decisions, typed 
 
 [Full IntentSQL guide](intentsql.md) · [Source](https://github.com/Amine-LG/IntentSQL)
 
+### Jagent (jev-agent.com)
+
+`Closed source` · `Freemium` · `Commercial`
+
+Independent hosted Jev playground and gateway: no-key trial runs with a compare mode, browser tools, games where Jev picks every move, and a Jev API on its own key with System One, ruleset, Decisions-format and MCP endpoints.
+
+**Jev's role:** requests pass through the site to TypeSafe's hosted Jev API, which answers the playground questions, picks game moves and serves the API.
+
+**Platform:** web browser; REST API and hosted MCP server.
+
+**Product:** [jev-agent.com](https://jev-agent.com)
+
+**Pricing / access:** shared anonymous trial of three runs; free account with 5 credits a month (1 credit = 1,000 input tokens), paid credit packs, optional bring-your-own TypeSafe key at 0 credits. Closed source; public pages reviewed 2026-10-20, implementation not inspected. Self-submitted by the operator (not affiliated with TypeSafe).
+
+[Try Jagent](https://jev-agent.com) · [Full Jagent guide](jagent-jev-agent.md) · [Source](https://jev-agent.com)
+
 ### Jeff
 
 `Closed source` · `Free`
