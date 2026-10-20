@@ -1257,6 +1257,7 @@ These projects study related typed-decision patterns using other models. They ar
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [@rbxts/jev (Jev for roblox-ts)](rbxts-jev.md) | Typed TypeSafe Jev client for roblox-ts games: declare choice, score and noul questions about one state, and the option names become TypeScript types your server code branches on, with a shared rate limiter, retries and request deduplication over Roblox `HttpService`. | roblox-ts package (install from GitHub) (MIT) |
 | [adk-go-typesafe](adk-go-typesafe.md) | Call System One from Go and Google ADK-Go with OpenAPI-generated types (Choice/Score/Noul). | Go · module + ADK tool (`adk-go-typesafe`) |
 | [Advocaat](advocaat.md) | Batch typed Jev choice, score, and yes/no questions about structured data from TypeScript. | TypeScript · client library and agent skill |
 | [anofox-decide](anofox-decide.md) | Evaluate NL predicates/choices in DuckDB SQL via TypeSafe Jev or local open decision models (remote opt-in). | C++ · DuckDB extension (MIT) |
