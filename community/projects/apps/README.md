@@ -2278,6 +2278,22 @@ macOS desktop app that searches a folder of grey, flat LOG video footage by desc
 
 [Full SplitSeek guide](splitseek.md) · [Source](https://github.com/okoryem/split-seek)
 
+### SpotAsk
+
+`Open source` · `Free`
+
+Native macOS menu-bar assistant: summon it with a hotkey to ask your own model (BYOK), act on selected text in any app, or route a question to web AI, desktop apps or local CLI agents, with an optional Jev decision that picks the destination and shows its confidence before sending.
+
+**Jev's role:** Optional: Jev picks which destination (web AI, desktop app or CLI agent) a question should go to, with a confidence shown before sending.
+
+**Platform:** macOS 15+ (Apple Silicon and Intel); DMG releases (v0.3.1 on 2026-10-19) and Homebrew cask.
+
+**Product:** [shiquda.github.io/SpotAsk/](https://shiquda.github.io/SpotAsk/)
+
+**Pricing / access:** Free AGPL-3.0 app; you pay your own model provider and Jev calls. Checked 2026-10-20. Source inspected; live app not run on the review host.
+
+[Full SpotAsk guide](spotask.md) · [Source](https://github.com/shiquda/SpotAsk)
+
 ### Switchyard
 
 `Open source` · `Free source build` · `BYOK`
