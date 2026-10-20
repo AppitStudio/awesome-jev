@@ -2262,6 +2262,22 @@ Native macOS launcher and assistant (apps, files, clipboard, snippets, windows, 
 
 [Full skil.li guide](skilli.md) · [Source](https://github.com/nomdelasociete/skilli)
 
+### SplitSeek
+
+`Open source` · `Free`
+
+macOS desktop app that searches a folder of grey, flat LOG video footage by describing a moment in plain words: it samples a frame every 2 seconds, asks Jev a yes/no question about each frame, and ranks matching moments with timestamps, confidence and a preview from the best frame.
+
+**Jev's role:** Jev answers one yes/no question per sampled frame; the app ranks and groups frames by the returned probability.
+
+**Platform:** macOS on Apple Silicon (tested on macOS 15); build from source, no signed release.
+
+**Product:** [github.com/okoryem/split-seek](https://github.com/okoryem/split-seek)
+
+**Pricing / access:** Free MIT source build; you pay for your own Jev calls (image access required). Checked 2026-10-20. Source inspected; live app not run on the review host.
+
+[Full SplitSeek guide](splitseek.md) · [Source](https://github.com/okoryem/split-seek)
+
 ### Switchyard
 
 `Open source` · `Free source build` · `BYOK`
