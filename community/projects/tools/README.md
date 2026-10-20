@@ -229,6 +229,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [claude-referee](claude-referee.md) | Gate risky Claude Code tool actions with TypeSafe Jev referee judgments. | TypeScript · Claude Code plugin (MIT) |
 | [claude-risk-router](claude-risk-router.md) | Route Claude Code tasks across Opus/Sonnet/Haiku using TypeSafe Jev risk judgments. | Python · Claude Code add-on (MIT) |
 | [claude-router (alexei-led)](alexei-led-claude-router.md) | Claude Code Mod: Jev (default classifier) picks model and effort per turn by tier and activity. | JavaScript · Claude Code plugin (MIT) |
+| [ClauJev (Jev checks for Claude Code)](claujev.md) | Claude Code plugin that asks Jev short typed questions on six hooks to triage each request, pick the reasoning effort, guard destructive or credential-touching commands, review edits against plain-language rules and block an unfinished "done". | Claude Code plugin (Node.js hooks) (MIT) |
 | [clear-head](clear-head.md) | Claude Code Stop hook: TypeSafe Jev checks answer claims against what was read this session. | Python · Stop hook + install scripts |
 | [cmd-mod-jev-nudge](cmd-mod-jev-nudge.md) | Command Code stop-hook mod: TypeSafe Jev judges whether unfinished work warrants a continue nudge. | TypeScript · Command Code mod (`cmd-mod-jev-nudge` 0.1.0) |
 | [Cobalt Cockpit](cobalt-cockpit.md) | Claude Code mission-control HUD; optional per-session Jev router gives advisory routing. | TypeScript · Claude Code plugin (MIT) |
