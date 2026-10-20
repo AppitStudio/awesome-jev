@@ -34,6 +34,22 @@ Ranked daily AI-news site and digest whose importance scoring can use Jev throug
 
 [Full AI;DR guide](aidr.md) · [Source](https://github.com/duyet/aidr)
 
+### Aperture (ranked reading feed)
+
+`Open source` · `Free`
+
+Single-user, self-hosted intelligence feed that imports Readwise Reader documents and optional public sources (Reddit, GitHub Trending, YouTube, reports, CVEs), has Jev rate each item for quality, personal utility and actionability, and shows a ranked, explainable reading queue with summaries.
+
+**Jev's role:** Jev rates each item on the ranking rubric; Aperture orders the queue from those ratings.
+
+**Platform:** Self-hosted on a server or VPS; use in any browser.
+
+**Product:** [github.com/richfairhurst/aperture](https://github.com/richfairhurst/aperture)
+
+**Pricing / access:** Free MIT source; you pay for your own Jev and summary-model calls and hosting. Checked 2026-10-20. Source inspected; live app not run on the review host.
+
+[Full Aperture (ranked reading feed) guide](aperture-reading-feed.md) · [Source](https://github.com/richfairhurst/aperture)
+
 ### Aplausômetro
 
 `Open source` · `Free source build` · `BYOK`
