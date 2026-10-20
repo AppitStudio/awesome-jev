@@ -2938,6 +2938,22 @@ Find relevant X posts for your interests and optionally score unpublished drafts
 
 [Full jevx guide](jevx.md) · [Source](https://github.com/hawkyre/jevx)
 
+### L Ragebait
+
+`Open source` · `Free`
+
+Chrome extension that conservatively hides high-confidence ragebait, hostile threads and sensationalised tragedy commentary on X and YouTube, using three Jev noul scores per item in one request against a threshold you set (default 0.85).
+
+**Jev's role:** Jev scores each visible item on three yes/no questions; the extension hides items above your threshold.
+
+**Platform:** Chrome or Chromium desktop; build from source and load unpacked.
+
+**Product:** [github.com/davidherring123/l-ragebait](https://github.com/davidherring123/l-ragebait)
+
+**Pricing / access:** Free MIT source; you pay for your own Jev calls. Checked 2026-10-20. Source inspected; live app not run on the review host.
+
+[Full L Ragebait guide](l-ragebait.md) · [Source](https://github.com/davidherring123/l-ragebait)
+
 ### LinkedIn Slop Filter
 
 `Open source` · `Free source build` · `BYOK`
