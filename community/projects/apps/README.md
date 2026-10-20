@@ -3230,6 +3230,22 @@ Chrome MV3 extension that filters tabs locally (active, pinned, audible, downloa
 
 [Full TabTidy guide](tabtidy.md) · [Source](https://github.com/123456342g-lang/tabtidy)
 
+### Tabwerk
+
+`Open source` · `Free`
+
+German-language Chrome extension for people with many tabs: quick search, groups, sorting, duplicates, page watchers and full history, where exact work is done in code and optional Jev calls answer the semantic questions (find a tab by description, suggest groups, rank priority, judge watcher conditions).
+
+**Jev's role:** Optional: Jev handles the semantic features (find, group, prioritise, duplicate content, watchers); everything else works without it.
+
+**Platform:** Chrome Web Store; interface in German.
+
+**Product:** [chromewebstore.google.com/detail/tabwerk/jimalfhplojokembebogjlplobgoobdg](https://chromewebstore.google.com/detail/tabwerk/jimalfhplojokembebogjlplobgoobdg)
+
+**Pricing / access:** Free MIT extension; Jev calls are billed to your own OpenRouter or TypeSafe key. Checked 2026-10-21. Source inspected; live app not run on the review host.
+
+[Full Tabwerk guide](tabwerk.md) · [Source](https://github.com/DigitalIQ/tabwerk)
+
 ### Tube Focus Mode
 
 `Open source` · `Free source build` · `BYOK`
