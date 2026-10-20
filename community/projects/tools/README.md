@@ -1044,6 +1044,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [Calendar Curator (Home Assistant)](calendar-curator.md) | Home Assistant custom integration that reads events from your calendars, asks Jev whether each one matches a criteria prompt, and mirrors the matches into a target calendar, with caching, reconciliation and a deletion cap. | Home Assistant custom integration (Python, HACS) (MIT) |
 | [HA Jev Autopilot](ha-jev-autopilot.md) | Per-room Jev decisions with deterministic HA actions and phone confirmation for risky devices. | Python · Home Assistant integration (MIT) |
 | [HA_SystemOne](ha-systemone.md) | Polish-language Home Assistant command layer: local embedding and reranker models narrow about 100 possible actions to five, Jev picks one or none with a confidence, and the action runs only at 0.8 or above; otherwise it asks back. | Python service with Docker Compose and Home Assistant REST integration (MIT) |
 | [Jev for Home Assistant](ha-jev.md) | Turn household context into judgment sensors and automation responses. | Python · Home Assistant integration |
