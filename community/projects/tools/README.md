@@ -747,6 +747,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [laya-router](laya-router.md) | Automatic fast/strong model routing for Claude Code and Codex without a TypeSafe key. | JavaScript · npm `@bussolabs/laya-router` (MIT) |
 | [laya-skill](laya-skill.md) | Claude Code skill/plugin for local Laya or hosted TypeSafe Jev typed decisions (plus fine-tune helpers). | Claude Code skill/plugin (Apache-2.0) |
 | [Leash](leash.md) | Judge each coding-agent turn against un-lintable rules with TypeSafe Jev and a one-way debt ratchet. | TypeScript · CLI/npm (`leash`, MIT) |
+| [leis (working rules as enforced laws for Claude Code)](leis-claude-code.md) | Claude Code plugin (in Portuguese) that turns working rules into short named laws with a yes/no test, hooks that log every break, per-law observe or block modes and a measurement command, with Jev judging the checks that need judgement rather than a text rule. | Claude Code plugin (Node.js hooks) (MIT) |
 | [licgate](licgate.md) | Dependency license gate (TUI and CI CLI) for npm, Python, Go, Rust, PHP, and SBOMs that flags incompatibilities with your intended license; `--jev` sends license texts the built-in detector cannot place to Jev, keeping low-confidence answers as REVIEW. | Go CLI/TUI (Apache-2.0) |
 | [Lintel](lintel.md) | Change gate: agent proposes, Jev reviews, you approve before code is written. | Go · CLI + hooks (MIT) |
 | [lintent](lintent.md) | Plain-language lint rules judged by TypeSafe Jev, scoped with tree-sitter. | Rust · CLI linter (MIT) |
