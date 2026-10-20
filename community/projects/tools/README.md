@@ -769,6 +769,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [model-router (Claude Code)](akurganow-model-router.md) | Pick haiku/sonnet/opus per Claude Code subagent from one Jev Score question. | TypeScript · Claude Code mod (MIT) |
 | [model-router (muhx)](muhx-model-router.md) | Per-task model/effort routing for Claude Code with calibrated Jev confidence. | TypeScript · Claude Code plugin/mod (MIT) |
 | [model-router-python](model-router-python.md) | Filter models by limits/budget, then ask TypeSafe Jev which remaining model should handle the prompt. | Python · PyPI library (MIT) |
+| [model-selector (Claude Code subagent model picker)](model-selector-claude-code.md) | Claude Code PreToolUse hook that sends each subagent's task text to Jev before it runs and fills in the model (haiku, sonnet or opus) and effort, for both the Agent tool and `agent()` calls inside workflows, with a cost report over your transcripts. | Claude Code hook (TypeScript on Bun) (MIT) |
 | [ModelRudder](modelrudder.md) | Route native Codex requests to the right model tier using your own Jev key. | TypeScript · Node 24 launcher for Codex CLI (MIT, preview) |
 | [mods (iuliandita)](iuliandita-mods.md) | Claude Code mods you can install one at a time, including optional TypeSafe Jev client injection. | Claude Code mods / hooks (MIT) |
 | [Moongate](moongate.md) | Evaluate PR diffs against JSON semantic rules with TypeSafe Jev and emit CI annotations. | MoonBit / GitHub Action (`brickfrog/moongate`) |
