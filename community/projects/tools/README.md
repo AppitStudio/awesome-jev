@@ -28,6 +28,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [ajevt-browser](ajevt-browser.md) | Bounded System One browser loop for Pi/OpenCode/Amp/MCP via agent-browser (observe→Jev→act). | TypeScript · npm (`ajevt-browser` / `ajevt-browser-mcp`, AGPL-3.0) |
 | [android-jev (FZ2000)](fz2000-android-jev.md) | Drive an Android phone over adb via MCP; TypeSafe Jev chooses each next action (distinct from jev-android/jevdevice). | Python · MCP server + skill (MIT) |
 | [brojev](brojev.md) | Go browser agent for Claude Code with its own CDP engine, where Jev (via OpenRouter) picks each action and target during a delegated browser sub-task. | Claude Code plugin + Go binary (MIT) |
+| [ck-browser (plain-language browser checks)](ck-browser.md) | Runs browser checks written as plain-language steps in a real Chrome, with Jev picking each element from a DOM snapshot and deciding whether the page has settled, and writes per-step probabilities, timings, cost and screenshots. | CLI (Python 3.11+ standard library only) (MIT) |
 | [CloakBrowser-Agent](cloakbrowser-agent.md) | Stealth browser agent: TypeSafe Jev decides each step; CloakBrowser executes (MCP/CLI/Python). | Python · MCP/CLI/library (MIT) |
 | [Cua jev-use](cua-jev-use.md) | Compose a bounded chooser with Driver and independent fixture verification. | Python / TypeScript · integration recipe |
 | [CUA-JEV (ZJU-REAL)](cua-jev-zju.md) | Constrained computer-use loop: Jev selects typed action×channel candidates with guards and verifiers. | Python · framework (Apache-2.0) |
