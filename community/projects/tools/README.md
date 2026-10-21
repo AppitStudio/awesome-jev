@@ -1001,6 +1001,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [winnow](winnow.md) | Hide confident-irrelevant Claude Code tool-result blocks with TypeSafe Jev (or adapter) judgments; recall stubs on demand. | Python · Claude Code hooks + sidecar CLI (`winnow` 0.5.0) |
 | [Wiring Jev into a local agent](wiring-jev-into-a-local-agent.md) | Learn to let Jev gate an email agent's decisions before drafting (synthetic inbox). | Python · teaching example (Apache-2.0) |
 | [Working Note](working-note.md) | Variance-commentary coach: Jev grades material lines against the controller's criteria. | Python + Google Sheets · service (MIT) |
+| [wsy-jev-uav-track (Jev for UAV target tracking)](wsy-jev-uav-track.md) | Research prototype where Jev picks the next high-level drone tracking behavior from safety-filtered candidates with predicted outcomes, while a flight controller or NMPC keeps the fast inner loop. | Python package (prototype); README in Chinese (MIT) |
 | [Yoshi](yoshi.md) | Local Claude Code/Codex context-pruning proxy: TypeSafe Jev via AI Gateway judges omit/keep spans (experimental POC). | Bun/TypeScript · loopback proxy (`yoshi` 0.1.0) |
 | [your-cto-jev](your-cto-jev.md) | CTO-style agent guard: Jev blocks leaked secrets and destructive commands. | Agent hook / guard (MIT) |
 | [ZazenCodes Jev course resources](zazencodes-jev-course.md) | Work through Jev primitives, use cases and a Pi model-router exercise with runnable notebooks. | Python notebooks · TypeScript exercise (MIT) |
