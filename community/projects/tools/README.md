@@ -671,6 +671,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevcut](jevcut.md) | Turn long talk videos into ranked short clips: code lists cut edges; TypeSafe Jev judges standalone worth. | Python · CLI (`jevcut`, MIT) |
 | [jevdedup](jevdedup.md) | Get a duplicate-file report with Jev's verdict and raw probabilities next to the classic hash checks. | TypeScript (Bun) · CLI (MIT) |
 | [jevdev](jevdev.md) | Rust coding-agent harness centered on TypeSafe Jev System One (HTTP or local transport). | Rust · crate/CLI (Apache-2.0) |
+| [jevdict (typed decisions CLI)](jevdict.md) | CLI that turns a described decision, such as ticket triage or whether a diff is risky, into typed Jev answers with probabilities that you can pluck in scripts or use as CI gates through exit codes. | CLI (TypeScript, Node.js 23.6+, zero runtime dependencies) (MIT) |
 | [JevDo](jevdo.md) | Jev-first DeepSeek Harness loop: reuse validated Actions before calling a frontier model. | TypeScript · DSH agent loop (MIT) |
 | [jevelin](jevelin.md) | Reference design for fast, low-cost real-time voice agents: small per-turn decisions (card number read-out, wants a human, risky draft) go to a System One classifier such as Jev off the critical path, scheduled as a dependency graph, with a browser demo running the same engine. | Python reference design + Pyodide browser demo (MIT) |
 | [jeveloper](jeveloper.md) | Claude Code System-1 reflex layer: TypeSafe Jev route/gate/verify/done plus optional driver mode. | Claude Code plugin (`jeveloper` 0.2.0, MIT) |
