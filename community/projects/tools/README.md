@@ -120,6 +120,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [typesafe-computer-use](typesafe-computer-use.md) | Study OCR and Accessibility driven native macOS control. | Python · desktop CLI |
 | [typesafe-computer-use-win](typesafe-computer-use-win.md) | Study OCR/UI Automation driven native Windows control with TypeSafe Jev decisions (`winclicker`). | Python · Windows desktop CLI |
 | [winuse](winuse.md) | MCP server and CLI that lets an AI observe and operate Windows desktop apps through UI Automation, WebView2, input, windows, processes and files, with Jev used for grounding and verification checks, and saved scenarios you can replay as end-to-end tests. | MCP server + CLI (.NET 10, Windows) (MIT) |
+| [x-stamp (Jev labels for X posts)](x-stamp.md) | Chrome extension that stamps each X post as it scrolls into view with what it is for (news, hot take, builder ad, engagement bait and more) and what it is about, using Jev to pick the type and quote the post's own words. | Chrome extension (unpacked, no build) (MIT) |
 | [Y!News Filter Plus (Yahoo! News filter)](ynews-filter-plus.md) | Unofficial Chrome extension that hides Yahoo! News Japan article cards by keyword and, optionally, uses Jev to highlight articles related to your interests and hide ones related to topics you don't want, with a details table of each verdict. | Chrome extension (TypeScript); README in Japanese (MIT) |
 
 ## Customer feedback and marketing
