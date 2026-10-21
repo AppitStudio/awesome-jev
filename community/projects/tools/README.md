@@ -771,6 +771,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [memory-gate](memory-gate.md) | Claude Code project memory that keeps only facts still true (SQLite, revalidated on use), plus an injected-context mod where Jev answers one yes/no per rule file to decide which long domain rules enter the prompt. | Claude Code hooks + mods (shell/Python) (MIT) |
 | [metajev](metajev.md) | Store typed Jev/System One distributions keyed by state+question+model; apply/change accept/review policies without re-calling the model. | Python · library + SQLite store (MIT) |
 | [Metis](metis.md) | Triage new GitHub issues with TypeSafe Jev labels and missing-detail comments via a reusable Action/CLI. | Python · GitHub Action + `metis-triage` 0.1.0 |
+| [minifactory](minifactory.md) | Small pluggable software factory where declarative YAML workflows of plugin steps fence AI agents in with budgets and real gates; its default router asks Jev which workflow fits a plain-language request. | CLI and Python package (MIT) |
 | [Minos.NET](minos-net.md) | Call Jev from .NET with typed, source-generated question sets. | C# · .NET 10 library (MIT) |
 | [Misogi](misogi.md) | Sidecar that asks TypeSafe Jev whether a coding agent's "done" claim is actually done (Claude Code/Codex/Kimi). | TypeScript · agent sidecar (MIT) |
 | [MM3](mm3.md) | Have an agent ask Jev focused code questions ("does this handler check the caller?") in one call, with verdicts and outcomes tracked over time. | TypeScript · npm `@mvpscale/mm3` · Claude Code plugin (Apache-2.0) |
