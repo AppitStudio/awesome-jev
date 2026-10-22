@@ -1017,6 +1017,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [your-cto-jev](your-cto-jev.md) | CTO-style agent guard: Jev blocks leaked secrets and destructive commands. | Agent hook / guard (MIT) |
 | [ZazenCodes Jev course resources](zazencodes-jev-course.md) | Work through Jev primitives, use cases and a Pi model-router exercise with runnable notebooks. | Python notebooks · TypeScript exercise (MIT) |
 | [Zevals](zevals.md) | Assert behaviours on full agent transcripts with Jev as a fast, low-variance judge, and call an LLM only to explain failures. | TypeScript · npm `@zevals/core` (MIT) |
+| [快学 CoursePilot (course video workbench with Jev)](kuaixue-coursepilot.md) | Local-first desktop workbench for online course videos (Chinese UI) that produces subtitles, notes, mind maps, slide OCR, quizzes and spaced review; this fork adds Jev judgments on the transcript, which the author uses to speed up filler and slow down key parts. | Desktop app (Tauri, Rust and React) (MIT) |
 
 ## Games and simulation
 
