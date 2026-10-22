@@ -530,6 +530,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-gateway](jev-gateway.md) | Let Jev choose each tool call for Codex, Claude Code, OpenCode, or Gemini through a local LLM gateway. | TypeScript · npm launchers and dashboard |
 | [jev-gateway (TexasOct)](texasoct-jev-gateway.md) | Route OpenAI-compatible chat across providers with strategies and optional typed Choice decision providers (AGPL). | Python 3.12+ · gateway + dashboard (AGPL-3.0) |
 | [jev-gateway-bench](jev-gateway-bench.md) | Compare coding-agent cost/quality with jev-gateway Jev routing on vs off on chess-engine tasks. | JavaScript · bench harness (MIT) |
+| [jev-gen-detect (AI-generated image detector)](jev-gen-detect.md) | Rust web UI and CLI that asks Jev Image whether a picture is generated or authentic, or which generator made it, and asks Jev Box for the most telling artifact region, showing probabilities, latency and cost. | Rust CLI and local web UI (MIT) |
 | [jev-git-graph](jev-git-graph.md) | Evidence-backed TypeSafe Jev relationship graph for Git branch/worktree/PR consolidation (read-only default). | Python · CLI (Apache-2.0) |
 | [jev-governor](jev-governor.md) | Claude Code mod for Jev-guided model/effort routing, verbatim context compaction, and output trimming. | Claude Code mod / hooks (MIT) |
 | [jev-ground](jev-ground.md) | Evidence-grounded factuality verification for LLM and agent outputs using a Jev provider. | TypeScript library (MIT) |
