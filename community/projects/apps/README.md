@@ -858,6 +858,22 @@ Spanish-language visual editor (React Flow + FastAPI) for building and running A
 
 [Full Jev Studio (CarlosGuedea) guide](carlosguedea-jev-studio.md) · [Source](https://github.com/CarlosGuedea/JEV-Studio)
 
+### Jev Talks (chat built one Jev choice at a time)
+
+`Open source` · `Free`
+
+Chat experiment where a decision model writes the reply: on every step Jev picks the next character (English and Turkish letters, digits, punctuation, SPACE or STOP) or the next word from 250 common words, with an optional recheck pass.
+
+**Jev's role:** Jev chooses every character or word of the reply and when to stop.
+
+**Platform:** Web, live at jev-talks.vercel.app.
+
+**Product:** [jev-talks.vercel.app](https://jev-talks.vercel.app)
+
+**Pricing / access:** Open source (MIT); see the live site for how keys are handled. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full Jev Talks (chat built one Jev choice at a time) guide](jev-talks.md) · [Source](https://github.com/bariskisir/JevTalks)
+
 ### Jev Town
 
 `Open source` · `Free source build` · `BYOK`
