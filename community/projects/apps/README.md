@@ -1244,6 +1244,22 @@ Chinese-style I Ching (六爻) site with programmatic casting plus TypeSafe Jev 
 
 [Full Liuyao guide](liuyao.md) · [Source](https://github.com/masonweb3/liuyao)
 
+### Magic Jev Ball
+
+`Open source` · `Free`
+
+Magic 8 Ball in the browser that doesn't pick at random: hold it, shake it, let go, and Jev picks which of the 20 classic answers fits your question, with a probability for every answer shown under the ball.
+
+**Jev's role:** Jev chooses the answer among the 20 classic options and returns their probabilities.
+
+**Platform:** Web, live at magic-jev.mikecann.app.
+
+**Product:** [magic-jev.mikecann.app](https://magic-jev.mikecann.app)
+
+**Pricing / access:** Free to use on the live site; self-hosting needs a paid Convex plan for the AI Gateway. Checked 2026-10-22. Source inspected; live app not run on the review host.
+
+[Full Magic Jev Ball guide](magic-jev-ball.md) · [Source](https://github.com/mikecann/magic-jev-ball)
+
 ### mail-watcher
 
 `Open source` · `Free source build` · `BYOK`
