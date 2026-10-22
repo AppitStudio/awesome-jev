@@ -1548,6 +1548,22 @@ Paste a suspicious message and get a scam verdict and risk score: one TypeSafe J
 
 [Full ScamCheck guide](scamcheck.md) · [Source](https://github.com/AkashNaickar/scamcheck)
 
+### SeeFood (food recognizer with EmbeddingGemma and Jev)
+
+`Source available` · `Free`
+
+Web app inspired by the hot dog app from Silicon Valley that recognizes many dishes: EmbeddingGemma 2 retrieves candidate foods from mean-centered visual prototypes, and Jev image picks among them.
+
+**Jev's role:** Jev looks at the photo and chooses the dish among the candidates retrieved by EmbeddingGemma.
+
+**Platform:** Web, at seefood.verygoodproduct.company.
+
+**Product:** [seefood.verygoodproduct.company/](https://seefood.verygoodproduct.company/)
+
+**Pricing / access:** Free live demo; no license file in the repository, so the source is viewable but not open source. Checked 2026-10-22. Source inspected; live app not run on the review host.
+
+[Full SeeFood (food recognizer with EmbeddingGemma and Jev) guide](seefood.md) · [Source](https://github.com/krjadhav/seefood)
+
 ### seo-jev-analyzer
 
 `Open source` · `Free source build` · `BYOK`
