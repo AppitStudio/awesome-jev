@@ -82,6 +82,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-phone](jev-phone.md) | Drive iOS/Android/cloud phones: TypeSafe Jev picks indexed UI actions; phone-use executes. | Bun/TypeScript · phone agent (MIT) |
 | [jev-qa (moonshot-partners)](moonshot-partners-jev-qa.md) | Parallel browser QA: TypeSafe Jev-driven acceptance, adversarial, and smoke checks on web changes. | TypeScript · CLI (MIT) |
 | [jev-ra](jev-ra.md) | Drive Chrome from Claude Code/Codex/MCP with TypeSafe Jev choosing each operation and target. | Python · MCP server, CLI and PyPI (`jev-ra` 0.1.1) |
+| [jev-reach (Jev walks the browser for chrome-devtools-mcp)](jev-reach.md) | Drop-in chrome-devtools-mcp server with one extra `reach` tool: your agent states a goal once and Jev picks each click to walk the browser there, then the agent makes one devtools call on the same tab instead of one model turn per click. | MCP server and Claude Code plugin (Node.js, npm `jev-reach`) (MIT) |
 | [jev-sim-use](jev-sim-use.md) | Jev-speed mobile UI navigation on sim-use (iOS/Android). | CLI · mobile (MIT) |
 | [jev-ui-test](jev-ui-test.md) | Natural-language UI tests: TypeSafe Jev scores candidate elements; pytest/Allure reports (fork of jev-ultrafast). | Python · pytest/Allure (MIT) |
 | [jev-ultrafast-skill (SherseaHe)](sherseahe-jev-ultrafast-skill.md) | Agent Skill package for bounded Jev Ultrafast Chrome automation (install via `npx skills add`); not the upstream runtime. | Python · Agent Skill + runner (MIT) |
