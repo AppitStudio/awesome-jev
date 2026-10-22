@@ -156,6 +156,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Support Ticket Router](support-ticket-router.md) | Route support tickets automatically and send only the risky ones to a person, using Jev's probabilities. | Python · FastAPI service (MIT) |
 | [Tacet](tacet.md) | Marketing decision layer that can choose to send nothing: code applies consent and frequency caps, Jev picks the next best action or budget move among what is allowed, and anything under 60% confidence goes to a person. Compares raw CRM records with compact jev-state input. | TypeScript benchmark and dashboard (npm scripts; static dashboard on GitHub Pages) (MIT) |
 | [Testimonial miner](testimonial-miner.md) | Find and review verbatim praise in email, grouped by product. | Python · CLI and local dashboard |
+| [tg-x-copilot (Telegram to X drafting copilot)](tg-x-copilot.md) | Telegram bot that turns forwarded posts into original X drafts: Jev triages each post with typed value, type and risk questions so confident low-value posts are skipped early, then an LLM rewrites the rest and you approve and post yourself. | Self-hosted Telegram bot (Python) (MIT) |
 
 ## Developer tools
 
