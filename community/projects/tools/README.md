@@ -1630,6 +1630,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Truffler](truffler.md) | Rails intent search with TypeSafe Jev index-time labels, query understanding, and optional streamed reranking. | Ruby · Rails gem (MIT) |
 | [web-scout-ai](web-scout-ai.md) | Read real sources (HTML, JS sites, documents) rather than snippets, with Jev choosing which follow-up links to open and classifying content; GPT fallback available. | Python · PyPI `web-scout-ai` (MIT) |
 | [webctl](webctl.md) | Agent web-search CLI: multi-provider results scored/judged (and optionally chunk-scored) with TypeSafe Jev. | Go · CLI (`webctl`) |
+| [webular (web research CLI with Jev decisions)](webular.md) | Web research CLI that covers search, scrape, crawl, map, extract, summarize, answer and multi-step research with free, open-source parts, and uses Jev for its judgment calls, with a deterministic fallback for every decision. | CLI and MCP server (Bun, npm `webular`) (Apache-2.0) |
 | [XERJ](xerj.md) | Index code, docs, logs and PDFs for agents; add `"rerank": {}` to a `_search` so Jev scores the top hits, or use the local `/v1/systemone`-compatible `_decide` endpoint (answered by XERJ, not Jev). | Rust · single binary (HTTP + MCP), Elasticsearch-compatible API (Apache-2.0) |
 | [Zerikai Memory](zerikai-memory.md) | Local code-memory MCP with TypeSafe Jev semantic judgment over retrieved snippets | Python · MCP server (MIT) |
 
