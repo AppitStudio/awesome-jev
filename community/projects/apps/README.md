@@ -2526,6 +2526,22 @@ Minimal Android home app styled after Omarchy's waybar and walker: status bar, n
 
 ## Windows apps
 
+### fine-file (Windows file explorer with optional Jev risk badges)
+
+`Open source` · `Free` · `BYOK`
+
+Korean-language Windows file explorer with folder sizes, instant search from an NTFS MFT scan and live updates, plus optional AI clean-up plans where Jev adds fast safe, caution or risky badges and a second risk check on each step.
+
+**Jev's role:** Optional: Jev scores whether each item is safe to delete and whether a program recreates it; the explorer works fully without it.
+
+**Platform:** Windows (installer on GitHub Releases); interface in Korean.
+
+**Product:** [github.com/toxh13/fine-file/releases](https://github.com/toxh13/fine-file/releases)
+
+**Pricing / access:** Free MIT/Apache-2.0 app; Jev calls are billed to your own key. Checked 2026-10-22. Source inspected; live app not run on the review host.
+
+[Full fine-file (Windows file explorer with optional Jev risk badges) guide](fine-file.md) · [Source](https://github.com/toxh13/fine-file)
+
 ### FlowMesh
 
 `Open source` · `Free`
