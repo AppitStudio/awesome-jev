@@ -1618,6 +1618,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [meilisearch-jev](meilisearch-jev.md) | Gate top Meilisearch hits with a Jev yes/no question and a review queue. | Python · CLI (MIT) |
 | [memsearch](memsearch.md) | Shared Markdown memory for coding agents, with optional Jev reranking of recalled chunks. | Python · CLI + agent plugins (MIT) |
 | [Milvus Model](milvus-model.md) | Score candidate documents with Jev Noul and return sorted results with original indices. | Python · PyMilvus model adapter |
+| [Mori (RAG with whole-source context and Jev ranking)](mori-rag.md) | RAG for books, articles, lectures and podcasts that keeps the argument around a passage: semantic search finds 500 passages, Jev ranks relevance down to 100, and the answer packet holds one complete source unit, five summaries and the selected passages, with every run saved for audit. | Python library, CLI and local web interface (MIT) |
 | [mysql-ailike](mysql-ailike.md) | Filter and join MySQL rows with natural-language conditions via TypeSafe Jev (`AILIKE`). | MySQL · native UDF/plugin (v0.2.0, GPL-2.0) |
 | [neo4jev](neo4jev.md) | Explore graph paths with typed next-hop and goal judgments. | Python · Neo4j, notebooks and Streamlit |
 | [Note Filer](obsidian-note-filer.md) | Classify Obsidian notes with TypeSafe Jev and move them into Thema or IAB taxonomy folders after confirmation. | TypeScript · Obsidian desktop plugin (0BSD) |
