@@ -47,3 +47,9 @@ Latency/cost figures in the README are upstream; the PyPI package named in the R
 ## Review and maintenance
 
 Reviewed **2026-10-06** (Europe/Sofia) at [commit 5d4ac63cad80](https://github.com/00200200/jev-judge/tree/5d4ac63cad80a87b4c7930aeb49fd607372fb671). Inspected the upstream README, LICENSE, and the Jev integration described there; install and live inference were not run on the review host. Catalog checks (`npm run lint`, `check:links`, `check:community`) ran locally; they verify navigation, not project claims. AI-assisted review.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Use Jev as an eval judge: tune thresholds and check calibration](../../knowledge-base/articles/jev-decision-model-evals.md) — Independently suggested by JevList; not an endorsement by Hamel Husain (@HamelHusain) and Antaripa Saha. Run Jev-graded pass/fail assertions in CI once a threshold has been tuned on labelled saved scores.
+<!-- knowledge:backlinks:end -->
