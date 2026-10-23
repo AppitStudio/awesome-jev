@@ -1862,6 +1862,22 @@ Kotlin desktop app that puts an AI in front of Pokémon HeartGold on a Nintendo 
 
 [Full AI Plays Pokémon (kotlinds) guide](ai-plays-pokemon.md) · [Source](https://github.com/kotlinds/ai-plays-pokemon)
 
+### Beam (Omarchy launcher with optional Jev intent search)
+
+`Open source` · `Free`
+
+One-box launcher plugin for Omarchy that launches apps, runs Omarchy menu actions, calculates and converts inline, and opens web searches and URLs; with an optional Jev key it also finds actions by meaning, so typing screen warmer finds Nightlight.
+
+**Jev's role:** Optional: when typed text does not match an action by name, Jev picks the Omarchy action you most likely mean.
+
+**Platform:** Linux desktop running Omarchy 4, installed with `omarchy plugin add`.
+
+**Product:** [plugins.omarchy.org/plugin.html?id=dev.reuk.beam](https://plugins.omarchy.org/plugin.html?id=dev.reuk.beam)
+
+**Pricing / access:** Open source (MIT); free to install from the Omarchy plugin directory or GitHub. Jev intent search uses your own TypeSafe key. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full Beam (Omarchy launcher with optional Jev intent search) guide](omarchy-beam.md) · [Source](https://github.com/RohitKaushal7/omarchy-beam)
+
 ### dotpals
 
 `Open source` · `Free` · `BYOK`
