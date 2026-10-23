@@ -25,7 +25,8 @@
     "jev-vs-llms",
     "jev-opus-content-workflow",
     "jev-decision-layer",
-    "jev-grok-bot-router"
+    "jev-grok-bot-router",
+    "jev-open-agent-harness-matching"
   ],
   "retire_all": false
 }
