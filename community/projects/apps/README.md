@@ -3438,6 +3438,22 @@ German-language Chrome extension for people with many tabs: quick search, groups
 
 [Full Tabwerk guide](tabwerk.md) · [Source](https://github.com/DigitalIQ/tabwerk)
 
+### Text-Only YouTube (userscript with Jev genre tags)
+
+`Open source` · `Free`
+
+Violentmonkey userscript that turns YouTube into a plain list of titles without thumbnails, avatars or Shorts; one click sends the visible titles to Jev to tag each video with a genre icon you can filter by.
+
+**Jev's role:** Optional: one choice question per video assigns a genre from the list in `GENRES`; a ring marks low-confidence answers.
+
+**Platform:** Desktop browsers with Violentmonkey.
+
+**Product:** [github.com/JohnVonDrashek/youtube-text-only](https://github.com/JohnVonDrashek/youtube-text-only)
+
+**Pricing / access:** Open source (MIT); free userscript. Genre tagging uses your own TypeSafe key (the README estimates about a twentieth of a cent per 30 videos). Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Text-Only YouTube (userscript with Jev genre tags) guide](text-only-youtube.md) · [Source](https://github.com/JohnVonDrashek/youtube-text-only)
+
 ### Tube Focus Mode
 
 `Open source` · `Free source build` · `BYOK`
