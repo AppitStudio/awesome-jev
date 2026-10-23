@@ -2788,6 +2788,22 @@ Chrome extension that lets TypeSafe Jev choose AI / SI / alternating / custom we
 
 [Full AI, SI, or Whatever guide](ai-si-or-whatever.md) · [Source](https://github.com/SjJ1017/ai-si-or-whatever)
 
+### Attention Vaccine (Chrome extension that flags manipulation techniques with Jev)
+
+`Open source` · `Free`
+
+Chrome extension that tags posts and articles using manipulation techniques such as rage bait, easy-money pitches, impersonation notices, dehumanizing language and unsupported assertions, without judging viewpoints or fact-checking.
+
+**Jev's role:** Core: Jev answers one yes/no question per technique; a tag appears only above your sensitivity threshold.
+
+**Platform:** Desktop Chrome, installed with Load unpacked (not on the Chrome Web Store yet).
+
+**Product:** [github.com/nevrs/attention-vaccine](https://github.com/nevrs/attention-vaccine)
+
+**Pricing / access:** Open source (MIT); free to install from source. Detection uses your own TypeSafe key. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Attention Vaccine (Chrome extension that flags manipulation techniques with Jev) guide](attention-vaccine.md) · [Source](https://github.com/nevrs/attention-vaccine)
+
 ### Auto-Oui
 
 `Open source` · `Free` · `BYOK`
