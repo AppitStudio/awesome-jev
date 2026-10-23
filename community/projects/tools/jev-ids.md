@@ -33,3 +33,9 @@ Flow features are sent to the TypeSafe API. Not run on the review host.
 ## Review and maintenance
 
 Reviewed **2026-10-12** (Europe/Sofia) at [commit 6aa5ac4570db](https://github.com/jev-sec/jev-ids/tree/6aa5ac4570db1d6d9b88f769f7d16c1cd2c3784a). Inspected the upstream README and LICENSE status at the pinned commit; install and live Jev calls were not run on the review host. Catalog checks (`npm run check`) ran locally; they verify navigation, not project claims. AI-assisted review.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Jev in-context casebooks: test examples before you trust them](../../knowledge-base/articles/jev-in-context-casebooks.md) — Independently suggested by JevList; not an endorsement by David Bressler. See a harness that varies the number of labelled examples in Jev's state and compares against trained baselines.
+<!-- knowledge:backlinks:end -->
