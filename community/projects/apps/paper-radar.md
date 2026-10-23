@@ -53,3 +53,9 @@ Paper titles/abstracts (and interest text) leave the host on live Jev calls. Opt
 Reviewed on **2026-09-23** at [commit d55299b](https://github.com/Eliot5566/JEV-Paper-Radar/tree/d55299b911ea4ada60912648158bf5258d99ccfa) (MIT). AI-assisted review of README, LICENSE, `paper_radar/jev.py`. No live TypeSafe/arXiv spend.
 
 Related: [Jev Radar](jev-radar.md), [jev-issue-radar](../tools/jev-issue-radar.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Triage research papers with Jev: tune thresholds on labelled splits](../../knowledge-base/articles/jev-research-paper-triage.md) — Independently suggested by JevList; not an endorsement by elvis. Run daily paper triage against plain-English interests and fit its must-read and maybe thresholds to your own labels.
+<!-- knowledge:backlinks:end -->

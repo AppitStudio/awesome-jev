@@ -26,7 +26,8 @@
     "jev-opus-content-workflow",
     "jev-decision-layer",
     "jev-grok-bot-router",
-    "jev-open-agent-harness-matching"
+    "jev-open-agent-harness-matching",
+    "jev-research-paper-triage"
   ],
   "retire_all": false
 }

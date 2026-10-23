@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "jev-research-paper-triage",
+  "slug": "jev-research-paper-triage",
+  "title": "Triage research papers with Jev: tune thresholds on labelled splits",
+  "description": "Sort papers into reading collections with Jev Noul questions: label first, tune one threshold per question on a dev split, freeze it, then test on held-out papers.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-23",
+  "modified_at": "2026-10-23",
+  "topics": [
+    "calibration",
+    "decision-gates",
+    "use-cases"
+  ],
+  "source": {
+    "title": "Decision Models for Research Triage",
+    "url": "https://x.com/omarsar0/article/2113296402289676594",
+    "author": {
+      "name": "elvis",
+      "url": "https://x.com/omarsar0"
+    },
+    "published_at": "2026-10-22",
+    "accessed_at": "2026-10-23"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and offline verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-research-paper-triage.png",
+    "alt": "Three steps of a paper-triage evaluation: label papers before predictions, choose one threshold per collection question on a development split, then freeze it and score held-out papers",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/apps/paper-radar.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Run daily paper triage against plain-English interests and fit its must-read and maybe thresholds to your own labels",
+      "why": "Paper Radar asks Jev one probability per interest for each new arXiv paper, keeps thresholds in config, and has label and calibrate commands that report Brier score, calibration error and a precision/recall table on your labels. elvis does not name it.",
+      "evidence": [
+        "https://github.com/Eliot5566/JEV-Paper-Radar/blob/d55299b911ea4ada60912648158bf5258d99ccfa/README.md",
+        "https://github.com/Eliot5566/JEV-Paper-Radar/blob/d55299b911ea4ada60912648158bf5258d99ccfa/paper_radar/calibrate.py",
+        "https://github.com/Eliot5566/JEV-Paper-Radar/blob/d55299b911ea4ada60912648158bf5258d99ccfa/paper_radar/jev.py",
+        "https://github.com/Eliot5566/JEV-Paper-Radar/blob/d55299b911ea4ada60912648158bf5258d99ccfa/LICENSE"
+      ],
+      "limitations": "MIT Python package with a GitHub Actions and Pages workflow. Live runs send titles, abstracts and interest text to TypeSafe or OpenRouter and are billed; the TypeSafe default model is the moving jev-latest alias. Its calibrate command fits and reports on the same labels, so hold out separate papers for the final check. Offline test suite run (68 passed); no live arXiv or Jev run."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-paired-replay.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Estimate how often repeated calls flip a decision near the chosen threshold before freezing it",
+      "why": "The study replays identical Jev 1.13 requests on items near shipped thresholds and publishes raw rows with an offline verification script, which shows why a threshold that looks clean on one run can move decisions on the next.",
+      "evidence": [
+        "https://github.com/poisson-labs/jev-replay/blob/aeaba514ec54e69fd6c6ba847623172614cfee80/jev_harness.py",
+        "https://github.com/poisson-labs/jev-replay/blob/aeaba514ec54e69fd6c6ba847623172614cfee80/LICENSE"
+      ],
+      "limitations": "MIT replication data and harness for Jev 1.13 on classification benchmarks, not research papers. Items were chosen near thresholds, so flip rates overstate ordinary traffic. Not executed for this guide."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article text through the X API article fields on 2026-10-23. Its only links point to the competing Drex Max documentation and console; the article thanks Nace, Drex Max's maker, for credits and partnership, and the author had early access. The DAIR.AI dataset, labels and evaluation code are not linked from the article. Source images not reused; original CC0 diagram created.",
+    "offline": "Checked current TypeSafe Noul, confidence and models docs. Ran the guide's threshold picker on a seeded synthetic dev/test set: an equal-cost cut, a cut that penalises missed papers four times more, and a cut that penalises false yeses four times more were ordered as expected, and a dev set with no members returned the never-yes cut. These checks show the code behaves as written, not model quality. Ran the Paper Radar offline test suite at d55299b911ea4ada60912648158bf5258d99ccfa: 68 passed.",
+    "live": "No Jev or Drex Max inference, no paper labelling, no AUROC, accuracy, repeat-run or cost measurement. The source's 76.5 and 74.5 percent test results and AUROC values are the author's and were not reproduced.",
+    "review": "AI-assisted editorial review; no human reviewer. No keyword tool or Search Console data was consulted. Distinguished from the decision-audit guide (paired business outcomes) by focusing on per-question threshold tuning on a dev split with a frozen held-out test for document triage."
+  },
+  "faqs": [
+    {
+      "question": "Which Jev question type fits a collection-membership decision?",
+      "answer": "A Noul, one per collection, asked in the same request against the paper's title and abstract. A Noul returns the probability that its statement is true and has no separate confidence field, so the threshold is applied to that probability."
+    },
+    {
+      "question": "Why tune a separate threshold for each question?",
+      "answer": "Each collection has its own definition, base rate and cost of a mistake, so the same probability can mean different things for two questions. The source tuned one threshold per model and per collection and kept each fixed when scoring the test papers."
+    },
+    {
+      "question": "Why label papers before seeing any predictions?",
+      "answer": "Labels written after reading the model's answers drift toward agreeing with them, which inflates every metric. Write the labels and the definition of yes first, including borderline papers, then run the model."
+    },
+    {
+      "question": "Is F1 the right way to pick a threshold?",
+      "answer": "It is a reasonable default when both mistakes cost about the same. The source notes that your own application should weigh which mistakes cost more. A missed paper in a curated collection and a wrong inclusion rarely cost the same."
+    },
+    {
+      "question": "Does the source show that Jev is worse than Drex Max?",
+      "answer": "It shows a small exploratory gap on one benchmark: 74.5 against 76.5 percent of test papers with both labels right. The author had early access and credits from Drex Max's maker, and some papers had been used during earlier development."
+    },
+    {
+      "question": "How many labelled papers do I need?",
+      "answer": "The source used 101 for tuning and 149 for testing and still called it exploratory. With a few dozen positives per collection, one or two papers can move precision or recall by several points, so report counts with every percentage."
+    }
+  ]
+}
