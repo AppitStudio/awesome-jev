@@ -31,7 +31,8 @@
     "jev-replace-routing-rules",
     "jev-in-context-casebooks",
     "jev-decision-model-evals",
-    "jev-hosted-deployment-boundary"
+    "jev-hosted-deployment-boundary",
+    "jev-n8n-workflow-gates"
   ],
   "retire_all": false
 }

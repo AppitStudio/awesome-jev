@@ -43,3 +43,9 @@ Live n8n/TypeSafe workflows not run on the review host. Distinct from [n8n-nodes
 ## Review and maintenance
 
 Reviewed **2026-09-29** (Europe/Sofia) at [commit c12537b](https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b). AI-assisted README and LICENSE inspection; install/live paths not executed.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Gate an n8n news brief with Jev: three questions, one filter, visible failures](../../knowledge-base/articles/jev-n8n-workflow-gates.md) — Independently suggested by JevList; not an endorsement by n8n team (guest post by Tyler Eastman, You.com). Replace the template's raw HTTP Request call with TypeSafe's own n8n node for typed answers on each item.
+<!-- knowledge:backlinks:end -->
