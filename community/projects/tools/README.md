@@ -649,6 +649,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-skill-suggestion](jev-skill-suggestion.md) | Jev ranks your skills as you type and can observe, block or steer Claude Code skill loading. | TypeScript · Claude Code plugin (MIT) |
 | [jev-skills](jev-skills.md) | Claude Code/Codex plugin: TypeSafe Jev picks which skills enter context each turn (0 always-on skill-list tokens). | TypeScript · Claude Code/Codex plugin (MIT) |
 | [jev-status](jev-status.md) | See a Jev read on whether each Claude Code turn actually finished and is ready to ship. | TypeScript · Claude Code plugin (no LICENSE file — source available) |
+| [jev-subagents (Jev-assisted subagents for Pi)](jev-subagents.md) | Pi extension for running scout, worker and reviewer subagents as a native terminal task tree with explicit permissions, reviewed scope and bounded reference sharing, where Jev can optionally advise which candidate profile should take each task. | Pi extension (TypeScript, Bun) (MIT) |
 | [jev-subtitle-translator](jev-subtitle-translator.md) | Translate SRT with structured LLM batches and TypeSafe Jev QC on every source–translation pair. | Python · web UI/CLI (GPL-3.0) |
 | [jev-suite](jev-suite.md) | Four Java decision-quality apps on one Jev kernel: structured questions; code keeps thresholds/vetoes. | Java · Maven suite (`jev-suite` 0.1.0, MIT) |
 | [jev-supervisor](jev-supervisor.md) | DeepSeek Harness macOS Jev execution-supervisor plugin (own TypeSafe key + budgets). | DeepSeek Harness plugin (MIT) |
