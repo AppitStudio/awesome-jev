@@ -1380,6 +1380,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev (stefafafan)](stefafafan-jev.md) | Unix/Go CLI for typed TypeSafe Jev questions across TypeSafe, Cloudflare, and Vercel providers. | Go · CLI (`go install`, MIT) |
 | [JEV ADK](jev-adk.md) | Build System One agent pipelines with TypeSafe Jev primitives: bash guardrails, dual-brain routing, PR triage blueprints. | Python · ADK / examples (MIT) |
 | [Jev Behavior for Unity](unity-jev-behavior.md) | Guarded asynchronous decision nodes for Unity Behavior using a server-side DecisionPacks gateway for Jev-style decisions. | Unity package + gateway (MIT) |
+| [Jev Classificador (Obsidian note classification with Jev)](jev-classificador.md) | Obsidian plugin that sends one request to Jev to pick a field (13 options) and subfield (89 options) for the current note from a described taxonomy in English or Brazilian Portuguese, writes them to frontmatter, and can add 1 to 3 topic tags from a closed wordlist. | Obsidian plugin (TypeScript) (0BSD) |
 | [Jev Classification for n8n](jev-classification-n8n.md) | Route workflow items with typed Jev decisions, configurable review handling, and multi-item batching. | TypeScript · self-hosted n8n community node |
 | [jev CLI (vilinski)](vilinski-jev-cli.md) | Rust CLI for typed System One questions across Jev and other providers. | Rust (MIT OR Apache-2.0) |
 | [Jev for Excel](jev-excel.md) | Classify, score or fact-check a column of text with a fill-down formula instead of code. | JavaScript Office add-in + VBA module (MIT) |
