@@ -2156,6 +2156,22 @@ Menu-bar launcher for your AI chats: press Control-Option-Space, type what you r
 
 [Full ChatJump guide](chatjump.md) · [Source](https://github.com/saydus/chatjump)
 
+### Hyperclip (macOS video clipper with Jev clip scoring)
+
+`Open source` · `Free source build`
+
+Native SwiftUI app that turns long videos into short captioned clips on your Mac: it downloads with yt-dlp, transcribes on device, finds clips with built-in scoring, a Jev-compatible decision model or an LLM, frames the speaker and burns in word-by-word captions.
+
+**Jev's role:** Optional: after built-in scoring shortlists spans, Jev answers typed questions about each candidate clip (hook strength, whether it stands alone, payoff) to rank them.
+
+**Platform:** macOS 26+ on Apple silicon; built from source by the install script.
+
+**Product:** [github.com/alexisbcz/hyperclip](https://github.com/alexisbcz/hyperclip)
+
+**Pricing / access:** Open source (MIT); free to build. Jev calls use your own TypeSafe key; self-hosted Jev-compatible servers and LLMs are alternatives; optional publishing uses Zernio. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full Hyperclip (macOS video clipper with Jev clip scoring) guide](hyperclip.md) · [Source](https://github.com/alexisbcz/hyperclip)
+
 ### Jaste
 
 `Source unverified` · `Pricing unverified` · `BYOK`
