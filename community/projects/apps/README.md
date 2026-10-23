@@ -858,6 +858,22 @@ Spanish-language visual editor (React Flow + FastAPI) for building and running A
 
 [Full Jev Studio (CarlosGuedea) guide](carlosguedea-jev-studio.md) · [Source](https://github.com/CarlosGuedea/JEV-Studio)
 
+### Jev Talks (chat built one Jev choice at a time)
+
+`Open source` · `Free`
+
+Chat experiment where a decision model writes the reply: on every step Jev picks the next character (English and Turkish letters, digits, punctuation, SPACE or STOP) or the next word from 250 common words, with an optional recheck pass.
+
+**Jev's role:** Jev chooses every character or word of the reply and when to stop.
+
+**Platform:** Web, live at jev-talks.vercel.app.
+
+**Product:** [jev-talks.vercel.app](https://jev-talks.vercel.app)
+
+**Pricing / access:** Open source (MIT); see the live site for how keys are handled. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full Jev Talks (chat built one Jev choice at a time) guide](jev-talks.md) · [Source](https://github.com/bariskisir/JevTalks)
+
 ### Jev Town
 
 `Open source` · `Free source build` · `BYOK`
@@ -1547,6 +1563,22 @@ Paste a suspicious message and get a scam verdict and risk score: one TypeSafe J
 **Access:** clone the [MIT source](https://github.com/AkashNaickar/scamcheck) and run locally with Node.js 20+. No app purchase fee; requires your own TypeSafe API key (usage billed by TypeSafe). Source inspected; live app not run on the review host.
 
 [Full ScamCheck guide](scamcheck.md) · [Source](https://github.com/AkashNaickar/scamcheck)
+
+### SeeFood (food recognizer with EmbeddingGemma and Jev)
+
+`Source available` · `Free`
+
+Web app inspired by the hot dog app from Silicon Valley that recognizes many dishes: EmbeddingGemma 2 retrieves candidate foods from mean-centered visual prototypes, and Jev image picks among them.
+
+**Jev's role:** Jev looks at the photo and chooses the dish among the candidates retrieved by EmbeddingGemma.
+
+**Platform:** Web, at seefood.verygoodproduct.company.
+
+**Product:** [seefood.verygoodproduct.company/](https://seefood.verygoodproduct.company/)
+
+**Pricing / access:** Free live demo; no license file in the repository, so the source is viewable but not open source. Checked 2026-10-22. Source inspected; live app not run on the review host.
+
+[Full SeeFood (food recognizer with EmbeddingGemma and Jev) guide](seefood.md) · [Source](https://github.com/krjadhav/seefood)
 
 ### seo-jev-analyzer
 
