@@ -1866,6 +1866,22 @@ Perplexity-style open-source UI for TypeSafe Jev: search to evidence state to ty
 
 [Full Zearch guide](zearch.md) · [Source](https://github.com/zearchcomputer/zearch)
 
+### Zéro Ping (local inbox for lead developers ranked with Jev)
+
+`Open source` · `Free source build`
+
+Local inbox that replaces GitHub notification emails with a ranked list of reviews, replies, PRs and sprint items; Jev ranks lists and gives each PR KPI cards such as production risk, review effort and merge readiness.
+
+**Jev's role:** Ranks inbox lists and scores PR and issue KPIs; urgency estimated by Jev feeds the priority score.
+
+**Platform:** Runs locally on macOS (browser UI, optional Dock app).
+
+**Product:** [alexandredc.github.io/zero-ping/](https://alexandredc.github.io/zero-ping/)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls use your own TypeSafe key. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Zéro Ping (local inbox for lead developers ranked with Jev) guide](zero-ping.md) · [Source](https://github.com/Alexandredc/zero-ping)
+
 ## Desktop apps
 
 ### AI Plays Pokémon (kotlinds)
