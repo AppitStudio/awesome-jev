@@ -44,25 +44,26 @@
   "connections": [
     {
       "kind": "project",
-      "path": "community/projects/tools/jev-judge.md",
+      "path": "community/projects/tools/typed-evals.md",
       "origin": "jevlist-suggestion",
       "purpose": "implements-step",
-      "step": "Run Jev-graded pass/fail assertions in CI once a threshold has been tuned on labelled saved scores",
-      "why": "jev-judge maps declarative YAML assertions to Jev Noul and Score questions and compares each probability with a threshold, so a tuned threshold from this workflow can replace its default per assertion. The source authors do not name it.",
+      "step": "Collect custom per-failure-mode Noul scores over supplied responses and recorded traces",
+      "why": "Typed Evals constructs custom Noul questions through the official SDK, preserves raw_score, model ID and usage, and raises on missing or invalid answers by default. Its collected scores can feed the guide's saved-score analysis. The authors do not name it; presets do not reproduce their rubric or threshold selection.",
       "evidence": [
-        "https://github.com/00200200/jev-judge/blob/5d4ac63cad80a87b4c7930aeb49fd607372fb671/README.md",
-        "https://github.com/00200200/jev-judge/blob/5d4ac63cad80a87b4c7930aeb49fd607372fb671/jev_judge/evaluators.py",
-        "https://github.com/00200200/jev-judge/blob/5d4ac63cad80a87b4c7930aeb49fd607372fb671/jev_judge/client.py",
-        "https://github.com/00200200/jev-judge/blob/5d4ac63cad80a87b4c7930aeb49fd607372fb671/LICENSE"
+        "https://github.com/TrustifAI/typed_evals/blob/0d54b0ab612127d82034bbb00331fb667b12210f/README.md",
+        "https://github.com/TrustifAI/typed_evals/blob/0d54b0ab612127d82034bbb00331fb667b12210f/typed_evals/backends/jev.py",
+        "https://github.com/TrustifAI/typed_evals/blob/0d54b0ab612127d82034bbb00331fb667b12210f/typed_evals/metrics/base.py",
+        "https://github.com/TrustifAI/typed_evals/blob/0d54b0ab612127d82034bbb00331fb667b12210f/typed_evals/evaluation/evaluator.py",
+        "https://github.com/TrustifAI/typed_evals/blob/0d54b0ab612127d82034bbb00331fb667b12210f/LICENSE"
       ],
-      "limitations": "MIT Python CLI and library; Python 3.10+ and TYPESAFE_API_KEY, so every run sends test inputs and outputs to TypeSafe and is billed. The pinned evaluator defaults each assertion to a 0.75 threshold unless one is set; that default is not tuned to your data. The README's PyPI install was not found at catalog review. Source inspected; not executed."
+      "limitations": "MIT Python 3.11+ package using typesafe-sdk 0.7.x; live judging requires a TypeSafe key, sends supplied traces/evidence to TypeSafe and is billed. Built-in metrics use a pass-oriented event; a custom failure metric must export raw_score and apply the failure comparator explicitly, rather than treating passed=True as a healthy trace. Threshold tuning and the source rubric remain application work. Source inspected only; not installed or executed on this refresh."
     }
   ],
   "verification": {
-    "source": "Read the complete hamel.dev post, footnotes and appendix on 2026-10-23, including the Jev structured Noul prompt. The post is co-authored by Hamel Husain and Antaripa Saha; @HamelHusain is from the page's twitter:creator metadata. The underlying traces are private; the post publishes saved scores, labels, calibration data and a threshold-selection audit as JSON. No sponsorship or vendor relationship is stated in the post. Source charts and images not reused; original CC0 diagram created.",
-    "offline": "Downloaded the post's chart-data.json (98 labelled traces, 61 failures) and recomputed Jev 1.13's numbers without model calls: default 0.50 threshold precision 0.711, recall 0.885, F1 0.788; no single threshold on the full sample reaches both 0.80 precision and 0.80 recall; raw Brier score 0.187, matching the post. An independent stratified five-fold cross-validation with 20 repeats and our own seed gave tuned held-out F1 0.779 at a mean threshold of 0.482, against 0.788 at the fixed default, close to the post's 0.781 at 0.484. Checked current TypeSafe Noul, confidence and models docs.",
+    "source": "Read the complete hamel.dev post in Chrome on 2026-10-23, including footnotes, appendix and published score/label JSON. Hamel Husain and Antaripa Saha are both listed authors. Underlying traces are private. No sponsorship/vendor relationship is disclosed, which does not prove funding independence; the page promotes the authors' paid evals course. Source charts/images are not reused; inspected the original CC0 PNG.",
+    "offline": "Refresh downloaded the source chart-data.json (98 labelled traces, 61 failures) and recomputed Jev 1.13 without model calls: threshold 0.50 precision 0.710526, recall 0.885246, F1 0.788321; raw Brier 0.18715; no full-sample threshold reaches both 0.80 precision and recall. The published helper with seed 0, 20 repeats and five folds gave mean held-out precision 0.725193, recall 0.853974, F1 0.778225; the same-fold fixed-default F1 was 0.788313. Seventy of 100 training folds were infeasible under the helper's constraints, distinct from the source's unconstrained Jev audit. Checked ties and rejected empty/single-class/undersized-class cohorts. Inspected Typed Evals SDK adapter, raw Noul validation, missing/error handling and MIT license at 0d54b0ab612127d82034bbb00331fb667b12210f; not executed. Replaced jev-judge because its pinned client parses choices with success-shaped defaults instead of validating current answers.",
     "live": "No Jev or other decision-model inference, no new traces, labels, calibration fit, latency or cost measurement. Cost and latency figures and all non-Jev results are the authors'.",
-    "review": "AI-assisted editorial review; no human reviewer. No keyword tool or Search Console data was consulted. Distinguished from the research-triage guide (dev/test split for document collections) and the decision-audit guide by focusing on LLM-judge replacement, minimum precision and recall, cross-validated thresholds on saved scores and calibration checks."
+    "review": "AI-assisted editorial refresh; no human reviewer. Search-intent queries included Jev eval judge, threshold calibration, precision and recall; current results emphasize threshold tuning and calibrated scores. Retained the stable URL, distinct from research triage and observed-outcome audits. Ahrefs Chrome session required sign-in/session resolution, so no volume, difficulty or plan eligibility data was obtained. Search Console inspection remains a separate site-level check; no indexing/ranking claim is made. Search Console was accessible for site-level review on 2026-10-23: the visible knowledge-page query sample contained broad Jev confidence/Choice terms but no demonstrated casebook or eval-judge demand. That sparse sample does not justify renaming either stable URL or imply absent demand."
   },
   "faqs": [
     {

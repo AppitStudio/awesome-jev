@@ -49,12 +49,12 @@
       "origin": "jevlist-suggestion",
       "purpose": "evaluation",
       "step": "Run a small, quick Banking77 comparison of Jev against LLMs before building a full migration study",
-      "why": "The benchmark sorts 100 seeded Banking77 messages into 77 categories with Jev and two Claude models and reports accuracy, off-list answers, latency and cost, which is a cheap first look at the same intent-selection task. The source author does not name it.",
+      "why": "The benchmark sorts 100 seeded Banking77 messages into 77 categories with Jev and two Claude models and reports accuracy, off-list answers, latency and cost, which is a small first look at the same intent-selection task. The source author does not name it.",
       "evidence": [
         "https://github.com/0xGondarxyz/jev-vs-llm/blob/8f80717e347eb5c041c1ff3e551905c836573312/lib/sorters.ts",
         "https://github.com/0xGondarxyz/jev-vs-llm/blob/8f80717e347eb5c041c1ff3e551905c836573312/LICENSE"
       ],
-      "limitations": "MIT TypeScript benchmark; Node 22+, a TypeSafe key and an OpenRouter key, billed per call. 100 messages from one location; LLMs reached through OpenRouter, which adds a network hop. No rules baseline or hybrid. Not executed for this guide."
+      "limitations": "MIT TypeScript benchmark; Node 22+, a TypeSafe key and an OpenRouter key, billed per call. 100 messages from one location; LLMs reached through OpenRouter, which adds a network hop. No rules baseline or hybrid. Not executed for this guide. The upstream code substitutes zero for missing usage and failed-call costs; these are not independently verified bills or proof that failures are free."
     },
     {
       "kind": "project",
@@ -68,14 +68,14 @@
         "https://github.com/khaledjamal/support-ticket-router/blob/e0831fc12abaf918bc7df8fab37165f7098dd3fd/src/triage/questions.py",
         "https://github.com/khaledjamal/support-ticket-router/blob/e0831fc12abaf918bc7df8fab37165f7098dd3fd/LICENSE"
       ],
-      "limitations": "MIT Python FastAPI service; offline fake backend by default, Jev backend needs a TypeSafe or OpenRouter key and is billed. Routes tickets to teams, not to executable handlers. Benchmark figures are the maintainer's. Not executed for this guide."
+      "limitations": "MIT Python FastAPI service; offline fake backend by default, Jev backend needs a TypeSafe or OpenRouter key and is billed. Routes tickets to teams, not to executable handlers. Benchmark figures are the maintainer's. Not executed for this guide. Its expected-cost decisions rely on calibrated probabilities and user-supplied mistake costs; it does not add bank authorization or confirmation."
     }
   ],
   "verification": {
-    "source": "Read the complete dev.to article on 2026-10-23, including the results tables and the reproduction section; publication date from the dev.to API. The author discloses no relationship with TypeSafe and AI assistance in implementation and writing. The X account @3dgrinder (display name Mamun) shared the article in the first person on 2026-10-17, and the shared link resolves to this article. Inspected the switchless repository at f2afb84a5bcd0478f41af3956f3bd0b553bdfc71 (MIT): README, pinned jev-1.13.0 router and generated analysis. Source images not reused; original CC0 diagram created.",
-    "offline": "Ran switchless at the pinned commit on Node 22 with pnpm 10.28.0: pnpm install --frozen-lockfile --ignore-scripts, then pnpm analyze, which verified all 16 raw prediction files against their SHA-256 manifest and regenerated results/analysis.md with no diff from the committed file; pnpm test passed 61 tests with 2 skipped. Ran the guide's hybrid combiner and execution gate on five fixture cases: agreement, confident disagreement, uncertain disagreement, no rule match with low confidence, and a confident state-changing action held for confirmation. Checked current TypeSafe Choice, confidence and models docs.",
+    "source": "Read the complete dev.to article on 2026-10-23, including the results tables and the reproduction section; publication date from the dev.to API. The author discloses no relationship with TypeSafe and AI assistance in implementation and writing. The X account @3dgrinder (display name Mamun) shared the article in the first person on 2026-10-17, and the shared link resolves to this article. Inspected the switchless repository at f2afb84a5bcd0478f41af3956f3bd0b553bdfc71 (MIT): README, pinned jev-1.13.0 router and generated analysis. Source images not reused; original CC0 diagram created. Refresh: read the full original in logged-in Chrome, inspected article-linked Lyzr and Glean evaluations, raw-run provenance notes, the source hybrid implementation and handler-effects list. Its saved Jev predictions omit returned model IDs, raw token counts, request IDs and git revisions. Jev 101 is an unofficial article pointer; no author republication was established. Inspected both suggested catalog pages and pinned upstream implementations/licenses. Viewed the existing original CC0 diagram PNG.",
+    "offline": "Ran switchless at the pinned commit on Node 22 with pnpm 10.28.0: pnpm install --frozen-lockfile --ignore-scripts, then pnpm analyze, which verified all 16 raw prediction files against their SHA-256 manifest and regenerated results/analysis.md with no diff from the committed file; pnpm test passed 61 tests with 2 skipped. Ran the guide's hybrid combiner and execution gate on five fixture cases: agreement, confident disagreement, uncertain disagreement, no rule match with low confidence, and a confident state-changing action held for confirmation. Checked current TypeSafe Choice, confidence and models docs. Refresh on Node 26.8.1 and pnpm 11.25.0: repeated the SHA-256-verified analysis without diff, again passed 61 source tests with 2 skipped, and checked nine revised combiner/gate fixtures including low-confidence agreement, no rule match, provider unavailability, unknown/no-match action, and held state changes. No handler with side effects was invoked.",
     "live": "No TypeSafe or OpenAI calls, no new routing run, no human resolution of referrals, no latency or cost measurement. All accuracy, latency, cost and drift figures are from the author's recorded runs.",
-    "review": "AI-assisted editorial review; no human reviewer. No keyword tool or Search Console data was consulted. Distinguished from the worker-router and decision-gate guides by focusing on migrating an existing rules dispatcher, with a frozen baseline, hybrid abstention and a separate execution check."
+    "review": "AI-assisted editorial review; no human reviewer. Retained the published title and URL. Reader queries considered: replace regex intent router with Jev, Jev rules hybrid confidence, Jev Banking77 comparison, and safe handler routing migration. Ahrefs browser access was blocked by session-limit/sign-in state, so plan eligibility and keyword metrics were not verified. The coordinating agent reviewed available Search Console knowledge queries; no exact intent or volume/difficulty was established. Kept migration of an existing dispatcher distinct from the worker-router and general decision-gate guides."
   },
   "faqs": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "question": "What does the rules plus Jev hybrid buy?",
-      "answer": "It accepts an action when both agree, accepts Jev alone at 0.9 confidence or more, and otherwise refers the message. In the source it answered 81.7 percent of messages at 90.7 percent accuracy, which still left about one wrong automatic choice in eleven."
+      "answer": "It accepts an action when both agree, even below the confidence floor, accepts Jev alone at 0.9 confidence or more, and otherwise refers the message. In the source it answered 81.7 percent of messages at 90.7 percent accuracy, which still left about one wrong automatic choice in eleven."
     },
     {
       "question": "Why keep a confirmation step for state-changing actions?",

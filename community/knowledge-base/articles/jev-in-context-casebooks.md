@@ -10,7 +10,7 @@ Jev's weights are the same for every account, so customization happens in the re
 - **Retrieved examples helped on all four tasks.** Adding up to 32 TF-IDF-retrieved training examples improved every task Eventum tested.
 - **More is not automatically better.** A full 84K-token casebook beat 32 retrieved examples on banking intents. A random casebook of about 6,400 examples did worse than 32 retrieved on an emotion task.
 - **Training can still win.** A fine-tuned small classifier was far stronger on one task.
-- **Accuracy is not automation.** No highlighted configuration found a set of answers that met a 1% error target.
+- **Accuracy is not automation.** Neither highlighted selector found a set of answers that met a 1% error target.
 
 ## What Eventum tested
 
@@ -57,19 +57,29 @@ QUESTION = Choice(
     },
 )
 
-def build_state(target, ranked_examples, k=32, budget=24_000, count=lambda s: len(s) // 4 + 8):
-    """ranked_examples: training-pool records, best match first."""
-    examples, used = [], count(target)
+def build_state(target, ranked_examples, count_request, k=32, budget=24_000):
+    """count_request estimates the complete serialized request, including the question."""
+    state = {"examples": [], "target": target}
+    def fits(candidate):
+        return count_request({
+            "model": "jev-1.14.0",
+            "state": candidate,
+            "questions": {"signature_status": QUESTION.model_dump(mode="json")},
+        }) <= budget
+    if not fits(state):
+        raise ValueError("Target and question exceed the budget without examples")
     for ex in ranked_examples[:k]:
-        cost = count(ex["text"])
-        if used + cost > budget:
-            break                      # report the shortfall rather than hide it
-        examples.append({"text": ex["text"], "label": ex["label"]})
-        used += cost
-    return {"examples": examples, "target": target}, {"requested": k, "sent": len(examples)}
+        candidate = {
+            "target": target,
+            "examples": state["examples"] + [{"text": ex["text"], "label": ex["label"]}],
+        }
+        if not fits(candidate):
+            break
+        state = candidate
+    return state, {"requested": k, "sent": len(state["examples"])}
 ```
 
-The question is adapted from the source's request example. The token counter is a rough placeholder; use the `usage` the API returns to calibrate it. Pin the model version, log example IDs, exact requests, responses, usage, failures and retries, and report cases that received fewer examples because of the budget, as the source recommends. Report accuracy per category as well as overall, with intervals grouped by source document.
+The question is adapted from the source's request example. Supply a conservative token estimator as `count_request`; include the serialized target, example labels, instructions and criteria. A character-count shortcut cannot guarantee a token limit. The 24,000-token packing budget leaves room below the ordinary per-question limit, but provider tokenization remains authoritative: record a rejected request as an error, never as a classification. For multiple questions, check both state plus the largest question and state plus every question. Use returned `usage` to audit estimates. Pin the model version, log example IDs, exact requests, responses, usage, failures and retries, and report cases that received fewer examples because of the budget, as the source recommends. Report accuracy per category as well as overall, with intervals grouped by source document.
 
 ### 4. Test a full casebook only when it fits, and log the mode
 
@@ -81,7 +91,7 @@ The source's selector asks Jev to score the usefulness of each of 32 retrieved c
 
 ### 6. Compare with a trained model and with code
 
-If you have a stable, high-volume task and enough labels, train a small classifier on the same training pool and test both on the same split. [Jev IDS](../../projects/tools/jev-ids.md) is an **independent JevList suggestion**, not named by the source, that shows this comparison in another domain. It places a record and labelled pool examples in one request's state, sweeps the number of examples per category across seeds, and scores Random Forest and Isolation Forest baselines on the same splits.
+If you have a stable, high-volume task and enough labels, train a small classifier on the same training pool and test both on the same split. [Jev IDS](../../projects/tools/jev-ids.md) is an **independent JevList suggestion**, not named by the source, that shows this comparison in another domain. It is an MIT Python 3.13+ research harness for NSL-KDD network flows, with randomly sampled examples rather than text retrieval. Live runs need a TypeSafe key, send flow features to TypeSafe and incur inference charges; we inspected its source without running it. It places a record and labelled pool examples in one request's state, sweeps the number of examples per category across seeds, and scores Random Forest and Isolation Forest baselines on the same splits.
 
 ### 7. Fit acceptance separately, and version the casebook
 
@@ -97,6 +107,9 @@ Build an in-context casebook evaluation for one Jev Choice decision.
 Inputs:
 - Decision and answer definitions: [OPTION: TESTABLE DESCRIPTION, ...]
 - Labelled records: [CSV OF id, source_group, text, label]
+- Stack: Python, typesafe-sdk 0.7.5; training-only TF-IDF retrieval
+- Live inference: OFF by default; TypeSafe key, authorized records, maximum
+  requests [N], maximum retries [R] and spend budget [AMOUNT] before opt-in
 - Pinned model: jev-1.14.0; long-context header OFF unless I say so
 - Token budget per request: [e.g. 24,000]
 
@@ -106,8 +119,9 @@ Read first:
 - https://hamel.dev/blog/posts/decision-model-evals/ (threshold evaluation)
 
 Steps:
-1. Split into train, dev and test by source_group, removing exact and near
-   duplicates across splits. Save the split and a checksum.
+1. Reserve train, dev, calibration and final test pools by source_group;
+   remove exact and near duplicates across pools. Save split checksums.
+   Keep calibration and final test untouched during prompt selection.
 2. Build a TF-IDF index from train only.
 3. Conditions on dev: no examples; up to 32 retrieved examples. Same
    question and instructions ("classify target only; examples are
@@ -115,10 +129,14 @@ Steps:
 4. Optional: full casebook from the same train pool if it fits; record the
    mode and per-request input tokens.
 5. Log example IDs, exact request, response, usage, errors and retries.
-6. Choose one configuration on dev, freeze it, score test once: accuracy,
-   per-category results, grouped bootstrap intervals, input-token cost.
-7. Fit an acceptance threshold on a separate calibration split for a target
-   error rate; report error and coverage on test, or that none exists.
+6. Choose one configuration on dev and freeze it. Fit an acceptance
+   threshold on calibration only for the stated target error rate.
+7. Freeze that threshold; score final test once. Write a versioned
+   casebook, split manifest, request/error log and report: accuracy,
+   per-category results, grouped intervals, error/coverage and complete
+   token cost, keeping unresolved usage separate. Report no acceptance
+   rule if none qualifies. Failed or missing answers remain visible and
+   cannot authorize actions.
 8. Offline tests: no test record or duplicate is retrievable, budget
    shortfall is reported, missing answers and API errors are counted.
 
@@ -128,8 +146,8 @@ Report results as limited to this dataset, split and model version.
 
 ## Validation and limits
 
-- **Source inspected:** the complete article and companion through the X API on 23 October 2026, including the request example, with the partner disclosure. The linked Eventum write-up and reference pages resolve; Eventum's figures were not checked against raw data.
-- **Offline example tested:** the casebook builder with a small TF-IDF retriever on fixture records. Groups were disjoint across train and test, the target never appeared among its own examples, and a tight budget reduced the examples sent and reported the shortfall. Long-context limits and the header were checked against current docs. Jev IDS was inspected at a pinned commit and not run.
+- **Source inspected:** the complete article and companion in logged-in Chrome on 23 October 2026, including the request example, with the partner disclosure. The linked Eventum article was also read in full in Chrome: David Bressler, 16 October 2026. It is an earlier, broader experimental write-up, not an identical republication. Eventum's figures were not checked against raw data.
+- **Offline example tested:** the revised builder with `typesafe-sdk` 0.7.5 on synthetic records, including full serialized question/label accounting, budget shortfall and an oversized target. SDK Choice response fixtures were parsed offline. Earlier fixture checks covered a training-only TF-IDF retriever and disjoint groups; these do not establish tokenizer accuracy. Long-context limits and the header were checked against current docs. Jev IDS was inspected at a pinned commit and not run.
 - **Not tested:** any Jev request, retrieval over a real dataset, a full casebook, long context, the selector, a fine-tuned baseline, accuracy, acceptance thresholds or cost.
 - **Design limits:** casebooks add input tokens to every call; retrieval quality bounds what examples can teach; a casebook tuned on one model version needs re-testing on the next.
 
@@ -162,6 +180,7 @@ When the task is stable, high-volume and well labelled. In the source a fine-tun
 ## Sources, credits and corrections
 
 - **Main source:** [David Bressler's X article](https://x.com/davidwbressler/article/2113374694405509628), 22 October 2026, and its [companion article](https://x.com/davidwbressler/article/2113374717516058674). The experiments, figures, workflow order and request example are Eventum's. The token-budget builder, the rule that the full casebook must come from the same library, and the placement of trained and code baselines are Appit Studio's framing of the source's advice. Eventum is an official TypeSafe technology partner, and TypeSafe's CTO advises Eventum.
+- **Earlier related article:** [“In-context learning at scale: what Jev changes”](https://www.eventum.ai/blog/in-context-learning-at-scale-what-jev-changes), David Bressler, **16 October 2026**, read in full. Its broader study cites AnthusAI's Few-Shot-Jev and Jev-Mem as background; neither implements this guide's text-classification experiment in the catalog.
 - **Further reading linked by the source:** [Eventum's experimental write-up](https://www.eventum.ai/blog/in-context-learning-at-scale-what-jev-changes), [Many-Shot In-Context Learning](https://arxiv.org/abs/2404.11018) and Hamel Husain and Antaripa Saha's [decision-model evaluation article](https://hamel.dev/blog/posts/decision-model-evals/).
 - **API references:** [Choice](https://docs.typesafe.ai/primitives/choice) and [models and long context](https://docs.typesafe.ai/models), checked 23 October 2026.
 - **Editorial connection:** [Jev IDS](https://github.com/jev-sec/jev-ids/tree/6aa5ac4570db1d6d9b88f769f7d16c1cd2c3784a), MIT, suggested by JevList; not named by the source, and no affiliation with its maintainer is claimed.

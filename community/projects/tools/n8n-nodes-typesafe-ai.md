@@ -47,5 +47,5 @@ Reviewed **2026-09-29** (Europe/Sofia) at [commit c12537b](https://github.com/ty
 <!-- knowledge:backlinks:start -->
 ## Knowledge guides
 
-- [Gate an n8n news brief with Jev: three questions, one filter, visible failures](../../knowledge-base/articles/jev-n8n-workflow-gates.md) — Independently suggested by JevList; not an endorsement by n8n team (guest post by Tyler Eastman, You.com). Replace the template's raw HTTP Request call with TypeSafe's own n8n node for typed answers on each item.
+- [Gate an n8n news brief with Jev: three questions, one filter, visible failures](../../knowledge-base/articles/jev-n8n-workflow-gates.md) — Independently suggested by JevList; not an endorsement by n8n team (guest post by Tyler Eastman, You.com). Use TypeSafe Evaluate in place of the library export's HTTP Request, or inspect the already-migrated companion before adapting its failure branch.
 <!-- knowledge:backlinks:end -->

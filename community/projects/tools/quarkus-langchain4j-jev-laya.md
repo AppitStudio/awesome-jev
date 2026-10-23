@@ -51,5 +51,5 @@ Reviewed **2026-10-08** (Europe/Sofia) at [commit f312884dbeff](https://github.c
 <!-- knowledge:backlinks:start -->
 ## Knowledge guides
 
-- [Plan the hosted Jev boundary: state, transfers, latency and fallbacks](../../knowledge-base/articles/jev-hosted-deployment-boundary.md) — Independently suggested by JevList; not an endorsement by Maarten Vandeperre (Red Hat Developer). Put the decision backend behind one interface so hosted Jev, a local substitute or a deterministic stub can be swapped and tested.
+- [Plan the hosted Jev boundary: state, transfers, latency and fallbacks](../../knowledge-base/articles/jev-hosted-deployment-boundary.md) — Independently suggested by JevList; not an endorsement by Maarten Vandeperre. Put the decision backend behind one interface so hosted Jev, a local substitute or a deterministic stub can be swapped and tested.
 <!-- knowledge:backlinks:end -->

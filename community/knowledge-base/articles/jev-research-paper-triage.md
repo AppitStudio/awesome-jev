@@ -18,7 +18,7 @@ elvis built the benchmark around a real problem at DAIR.AI: deciding which paper
 
 Both models received the same instructions. On the 149 test papers, Drex Max got both labels right 76.5% of the time and Jev 1.14 74.5%. Averaged over five repeated runs, the figures were 78.1% and 74.9%. For ranking *Harness Engineering* papers, AUROC was 0.924 for Drex Max and 0.907 for Jev. The author calls this an exploratory comparison, notes the small number of labels and that some papers were used during earlier development, and says freshly labelled papers would give a stronger test.
 
-The article does not publish the papers, labels, instructions or evaluation code, so its numbers cannot be checked. It does not report per-collection precision and recall, the chosen thresholds, or cost. Read the headline gap as two points on 149 papers, not as a ranking of the models.
+The article gives the two collection questions, but does not link the paper list, labels, full request instructions or evaluation code, so its numbers cannot be independently reproduced from the post. It does not report per-collection precision and recall, the chosen thresholds, or cost. Read the headline gap as two points on 149 papers, not as a ranking of the models.
 
 ## Build a paper-triage evaluation with Jev
 
@@ -47,7 +47,7 @@ state = {"title": paper["title"], "abstract": paper["abstract"]}
 # client.system_one(state=state, questions=QUESTIONS, model="jev-1.14.0")
 ```
 
-Pin `jev-1.14.0` or `jev-1.13.0`. The [models page](https://docs.typesafe.ai/models) says the `jev-latest` alias moves with new releases, and a threshold tuned on one version is not evidence for another. Store the raw probabilities, the returned model ID and the instructions version for every paper, so thresholds can be re-chosen later without new calls.
+This question sketch needs Python 3.11+ and `typesafe-sdk`; its constructors were checked offline with SDK 0.7.5. Live calls need a TypeSafe account and API key, send paper text and collection definitions to TypeSafe, and incur input-token charges. Pin `jev-1.14.0` for a new evaluation or `jev-1.13.0` when explicitly studying that version. The [models page](https://docs.typesafe.ai/models) says the `jev-latest` alias moves with new releases, and a threshold tuned on one version is not evidence for another. Store the raw probabilities, the returned model ID and the instructions version for every paper, so thresholds can be re-chosen later without new calls. Before thresholding, require every requested answer to be a Noul with a finite probability in [0, 1]. Record missing answers, invalid values, timeouts and provider errors as failed work for retry or review; they are neither negative labels nor successful exclusions. Count failures separately in the evaluation and keep the previous published collection until a complete run succeeds.
 
 ### 3. Choose one threshold per question on the dev split
 
@@ -64,7 +64,7 @@ def pick_threshold(dev, cost_fp=1.0, cost_fn=1.0):
     return min(cuts, key=lambda t: (cost(t), -t))      # ties: prefer the stricter cut
 ```
 
-With equal costs this behaves much like the source's F1 choice. If a missed paper costs a curator more than an extra paper in a review queue, raise `cost_fn`. If a wrong inclusion damages a published collection, raise `cost_fp`. Run it separately for each question. Iterate on instructions only with dev results, never test results.
+This minimises weighted false-positive and false-negative counts; it does **not** reproduce the source's F1 objective. F1 is `2*TP / (2*TP + FP + FN)` and ignores true negatives. For a synthetic development set with probabilities 0.9 and 0.8 on nonmembers and 0.7 on a member, equal-cost error minimisation rejects all three (one error), while maximum F1 accepts all three (F1 0.5, two errors). Choose and record the objective before tuning, and report F1 as undefined when its denominator is zero. Require validated rows before calling this picker; with no labelled members, its never-yes cut is a cue to gather positive labels before adoption. If a missed paper costs a curator more than an extra paper in a review queue, raise `cost_fn`. If a wrong inclusion damages a published collection, raise `cost_fp`. Run it separately for each question. Iterate on instructions only with dev results, never test results.
 
 A middle band can be more useful than one cut. Accept above a high threshold, reject below a low one, and send the band between to a person. Choose both ends on the dev split, and report how many papers land in the band.
 
@@ -72,11 +72,11 @@ A middle band can be more useful than one cut. Accept above a high threshold, re
 
 Write the thresholds and instruction text to a versioned file before scoring the test split. Report per question: true and false positives and negatives, precision and recall with counts, papers in any review band, and the share with both labels right, which is the source's headline metric. AUROC is a useful check on ranking quality, as the source shows, but it does not tell you how a fixed threshold will behave.
 
-Re-run part of the test split. The source averaged five runs; [jev-paired-replay](../../projects/tools/jev-paired-replay.md), an **independent JevList suggestion**, shows that repeated Jev 1.13 calls on items near a threshold can flip decisions. If papers flip between runs, widen the review band rather than trusting one run.
+Predeclare a repeated-run check as part of the frozen evaluation, without adjusting thresholds from its results. The source averaged five runs; [jev-paired-replay](../../projects/tools/jev-paired-replay.md), an **independent JevList suggestion**, shows that repeated Jev 1.13 calls on items near a threshold can flip decisions. If papers flip between runs, treat that as evidence for a later review-band revision. Tune the revision on development data and evaluate it on fresh held-out papers; the inspected test set has become a regression set.
 
 ### 5. Run it daily, and keep checking
 
-[Paper Radar](../../projects/apps/paper-radar.md) is an **independent JevList suggestion**, not named by elvis, that runs this pattern on new arXiv papers. Interests are written in plain English, Jev returns one probability per interest, thresholds sit in config, and every decision and model version is committed to the repository. Its `label` and `calibrate` commands report Brier score, calibration error and a precision/recall table on your labels and suggest thresholds. Those suggestions are fitted and reported on the same labels, so keep separate held-out papers for the final check. Its TypeSafe default model is the `jev-latest` alias; pin a version in `radar.toml`.
+[Paper Radar](../../projects/apps/paper-radar.md) is an **independent JevList suggestion** (`Open source` · `Free source build` · `BYOK`; MIT, Python 3.11+), not named by elvis, that runs this pattern on new arXiv papers. Interests are written in plain English, Jev returns one probability per interest, thresholds sit in config, and every decision and model version is committed to the repository. Its `label` and `calibrate` commands report Brier score, calibration error and a precision/recall table on your labels and suggest thresholds. Those suggestions are fitted and reported on the same labels, so keep separate held-out papers for the final check. Its report warns about labels without a stored decision and excludes them from the metric denominator; retain that missing count when reporting coverage. Its TypeSafe default model is the `jev-latest` alias; pin a version in `radar.toml`.
 
 Once the collection is live, label a sample of new decisions every few weeks. Papers drift: new terminology, new kinds of agents. A threshold that was right in October may not be in March.
 
@@ -91,6 +91,12 @@ Inputs:
 - Collection definitions: [ONE PARAGRAPH EACH, WITH IN/OUT EXAMPLES]
 - Mistake costs per collection: [COST OF A FALSE YES, COST OF A MISSED PAPER]
 - Pinned model: jev-1.14.0
+- Live limits: [MAX REQUESTS INCLUDING RETRIES], [MAX INPUT TOKENS], [SPEND CAP]
+
+Prerequisites: Python 3.11+ and typesafe-sdk (constructors checked with
+0.7.5). Start offline with authored SDK response fixtures. Live inference
+requires explicit opt-in, a TypeSafe key and authorized paper text; titles,
+abstracts and collection definitions leave this host and usage is billed.
 
 Read first:
 - https://x.com/omarsar0/article/2113296402289676594 (source method)
@@ -107,10 +113,17 @@ Steps:
 4. Freeze thresholds and instructions in a versioned file.
 5. Score test once: per-collection TP/FP/FN/TN, precision and recall with
    counts, review-band size, share with both labels right, AUROC.
-6. Re-run 30 test papers twice more; report decisions that flip.
-7. Errors and missing answers are counted and reported, never scored as no.
+6. Predeclare two extra runs on 30 test papers; report decisions that flip.
+   Any policy change based on those results needs fresh held-out papers.
+7. Require typed Nouls with finite probabilities in [0, 1]. Errors, missing
+   answers and invalid values are visible failed work, never scored as no.
+   Retry only within the request/token/spend caps; keep the last complete
+   published collection when a run is incomplete.
 8. Offline tests with recorded fixture probabilities for the threshold
    picker and report, including a collection with no positives in dev.
+   State that weighted error minimisation differs from maximising F1.
+9. Deliver saved splits, versioned definitions/thresholds, raw answer and
+   failure records, an offline test command and a held-out metrics report.
 
 Do not tune on test results. Report all numbers with counts and state
 that the result is limited to this labelled set and model version.
@@ -118,8 +131,8 @@ that the result is limited to this labelled set and model version.
 
 ## Validation and limits
 
-- **Source inspected:** the complete article through the X API on 23 October 2026. It is short, links only to the competing product's documentation and console, and discloses credits and partnership with its maker. The dataset, labels, instructions and code are not published.
-- **Offline example tested:** the threshold picker above on a seeded synthetic dev/test set. Raising the cost of missed papers lowered the cut and raising the cost of false yeses did not lower it; a dev set with no members returned the never-yes cut. This checks the code, not Jev. Paper Radar's offline suite passed 68 of 68 at the pinned commit.
+- **Source inspected:** the complete article in logged-in Chrome on 23 October 2026, following the original API-based review. It is short, links to the competing product's documentation and console (and the DAIR.AI and Nace accounts), and discloses credits and partnership with its maker. No paper list, labels, full request payload or evaluation code is linked. The linked Drex Max documentation was inspected; it is not independent benchmark evidence.
+- **Offline example tested:** the threshold picker above on a seeded synthetic dev/test set. Raising the cost of missed papers lowered the cut and raising the cost of false yeses did not lower it; a dev set with no members returned the never-yes cut. This checks the code, not Jev. The refresh also checked the question constructors with SDK 0.7.5, confirmed the three-row F1/error-cost counterexample and re-ran Paper Radar's offline suite at its pinned commit (68 passed).
 - **Not tested:** any Jev or Drex Max call, real papers, labels, thresholds, AUROC, repeat-run stability or cost. The source's figures are reported as the author's.
 - **Design limits:** title and abstract may not settle “mainly about”; a few hundred labels give wide intervals; thresholds need re-checking when the model version, instructions or paper mix changes.
 
@@ -139,7 +152,7 @@ Labels written after reading the model's answers drift toward agreeing with them
 
 ### Is F1 the right way to pick a threshold?
 
-It is a reasonable default when both mistakes cost about the same. The source notes that your own application should weigh which mistakes cost more. A missed paper in a curated collection and a wrong inclusion rarely cost the same.
+Use F1 when balancing precision and recall is your declared objective. It ignores true negatives and can choose a different threshold from minimising equally weighted false positives and false negatives. The source uses F1; this guide instead demonstrates a cost objective that you must choose before tuning.
 
 ### Does the source show that Jev is worse than Drex Max?
 
@@ -153,7 +166,9 @@ The source used 101 for tuning and 149 for testing and still called it explorato
 
 - **Main source:** [elvis's X article](https://x.com/omarsar0/article/2113296402289676594), 22 October 2026. The two collection questions, the label-first 101/149 split, per-model and per-collection thresholds chosen by F1, the repeated runs and the cost-of-mistakes advice are the author's. The cost-weighted picker, review band, flip check and drift sampling are Appit Studio's editorial additions. The source's comparison was supported with credits and early access by a competing vendor; this guide does not evaluate that product.
 - **API references:** [Noul](https://docs.typesafe.ai/primitives/noul), [confidence](https://docs.typesafe.ai/confidence) and [models](https://docs.typesafe.ai/models), checked 23 October 2026.
+- **Source-linked product docs:** [Drex Max](https://console.nace.ai/docs/drex/guides/drex-max), inspected to identify the competing product and its access; no inference or independent benchmark verification.
 - **Editorial connections:** [Paper Radar](https://github.com/Eliot5566/JEV-Paper-Radar/tree/d55299b911ea4ada60912648158bf5258d99ccfa) and [jev-replay](https://github.com/poisson-labs/jev-replay/tree/aeaba514ec54e69fd6c6ba847623172614cfee80), both MIT, suggested by JevList; neither is named by the source, and no affiliation with their maintainers is claimed.
+- **Corrections in this refresh:** the cost picker and F1 optimise different objectives; threshold changes after a repeat check need a new held-out evaluation; missing or invalid provider answers must remain visible. The article supplies the collection questions, though not a reproducible dataset and request bundle.
 - **Image:** original Appit Studio diagram, dedicated to CC0 1.0. The article's images are not reused.
 
 Appit Studio wrote this guide with AI assistance; no human reviewer, source-author endorsement or paid placement is claimed. Propose evidence-backed corrections through the [contribution process](../../../CONTRIBUTING.md).

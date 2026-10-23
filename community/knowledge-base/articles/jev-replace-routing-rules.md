@@ -40,9 +40,9 @@ Treat today's dispatcher as a router with a fixed version. Collect a few thousan
 
 ### 2. Describe each action, then ask one Choice
 
-Give every handler an ID and a one-line description that separates it from its neighbours. In the source, the description is all the model sees about an action. A [Choice](https://docs.typesafe.ai/primitives/choice) accepts up to 255 options. Send the customer message as `state`, pin a versioned model, and record the returned `model`, `choice`, `confidence` and `probabilities`. The author's TypeScript router does exactly this and rejects any action ID outside the catalogue. Read it in the [switchless repository](https://github.com/grinder81/switchless/tree/f2afb84a5bcd0478f41af3956f3bd0b553bdfc71) before writing your own.
+Give every handler an ID and a one-line description that separates it from its neighbours. In the source, the description is all the model sees about an action. A [Choice](https://docs.typesafe.ai/primitives/choice) accepts up to 255 options. Send the customer message as `state`, pin a versioned model, and record the returned `model`, `choice`, `confidence` and `probabilities`. The author's TypeScript router pins `jev-1.13.0` and rejects off-catalogue actions, but its saved Jev runs retain only the selected action, confidence, top three alternatives, timing and computed cost. The raw-run notes say token counts, request IDs and git revisions were not recorded; do not treat reconstructed token counts as original usage or a response model ID as retained when it is absent. Read it in the [switchless repository](https://github.com/grinder81/switchless/tree/f2afb84a5bcd0478f41af3956f3bd0b553bdfc71) before writing your own.
 
-When two actions keep getting confused, the Choice documentation suggests describing each with an object that says what it covers and what belongs to a neighbouring option. Re-test after any description change. It is a new configuration, not a fix to the old one.
+When two actions keep getting confused, the Choice documentation suggests describing each with an object that says what it covers and what belongs to a neighbouring option. Re-test after any description change. It is a new configuration, not a fix to the old one. The source's 77-way question assumes every message belongs to the catalogue. For real out-of-scope input, test an explicit no-match option or a companion Noul that checks whether any handler fits; current Choice docs caution that a no-match option can itself perform poorly. Such a change needs new labels and threshold tuning.
 
 ### 3. Combine rules and Jev, then gate execution separately
 
@@ -58,15 +58,19 @@ def combine(rules_pick, jev):
     return None, "refer"
 
 def dispatch(message, rules_pick, jev, state_changing, handlers):
+    if jev is None:  # adapter maps provider/missing/invalid-answer failures to None
+        return {"status": "unavailable", "why": "jev_failed"}
     action, why = combine(rules_pick, jev)
     if action is None:
         return {"status": "referred", "why": why}
+    if action not in handlers:
+        return {"status": "referred", "why": "no_allowed_handler"}
     if action in state_changing:
         return {"status": "needs_confirmation", "action": action, "why": why}
     return {"status": "done", "action": action, "why": why, "result": handlers[action](message)}
 ```
 
-`combine` is the source's hybrid. `dispatch` is our editorial addition: any handler that can block a card, open a claim or cancel a transfer asks the customer or an agent to confirm, whatever the confidence. The source keeps a list of 20 such handlers and checks it with a test that runs every handler against seed customers. Build the same list for your backend from what handlers do, not from their names.
+`combine` reproduces the source's hybrid for a validated Choice answer. Its agreement branch accepts even below 0.9; the floor applies only when the selectors do not agree. `dispatch` is our editorial addition: any handler that can block a card, open a claim or cancel a transfer asks the customer or an agent to confirm, whatever the confidence. The source keeps a list of 20 such handlers and checks it with a test that runs every handler against seed customers. Build the same list for your backend from what handlers do, not from their names. This sketch assumes authentication, authorization and handler argument validation already ran. The adapter must validate the answer type, finite confidence in [0, 1], and catalogue membership before calling it. On a timeout, missing answer or invalid response, keep a visible unavailable record for retry or human triage; do not disguise provider failure as an ordinary disagreement or execute a rules fallback silently. In an evaluation, replace handlers with inert stubs.
 
 Choose `FLOOR` on the tuning sample, not the test set. [TypeSafe's confidence page](https://docs.typesafe.ai/confidence) describes `confidence` as a statistic of the probability spread, so its scale depends on the number of options. A floor tuned for 77 actions does not carry over to 20. The author found that higher confidence went with higher accuracy, but Jev was over-confident below 0.9. Any cut has to come from data.
 
@@ -78,7 +82,7 @@ Before freezing the floor, re-run a fixed subset twice and once with the options
 
 A hybrid that refers 18% of messages should be compared with Jev and the LLM referring the same number. Otherwise you are comparing coverage, not quality. Report wrong automatic selections, wrong selections of state-changing handlers, and recall on your safety-critical intents. Then price the options on your traffic. The source found the LLM cheaper because of input caching, which depends on your provider, catalogue size and call pattern.
 
-[Support Ticket Router](../../projects/tools/support-ticket-router.md) is an **independent JevList suggestion** that takes a further step: it multiplies mistake probabilities by configured costs to choose auto, review or human routing, and can replay stored answers under a new policy without new calls. For a fast first look before a full study, [the Jev vs LLM Banking77 benchmark](../../projects/tools/jev-vs-llm-banking77.md), also a JevList suggestion, compares Jev with two Claude models on 100 messages. Neither is named by the source.
+[Support Ticket Router](../../projects/tools/support-ticket-router.md) is an **independent JevList suggestion** that takes a further step: its cost policy multiplies the full answer probabilities by configured costs to choose auto, review or human routing, and can replay stored answers under a new policy without new calls. For a fast first look before a full study, [the Jev vs LLM Banking77 benchmark](../../projects/tools/jev-vs-llm-banking77.md), also a JevList suggestion, compares Jev with two Claude models on 100 messages. Both are MIT source projects requiring separate provider keys and billed usage for live inference; the router has an offline fake backend, while the Banking77 comparison calls TypeSafe and OpenRouter. Neither is named by the source. Validate probability calibration before treating expected mistake cost as money you can rely on. The benchmark computes missing usage or failed-call costs as zero, so its cost fields are not proof that an errored request was unbilled.
 
 ### 6. Decide what to keep
 
@@ -94,7 +98,14 @@ Inputs:
 - Action catalogue: [ACTION IDS WITH ONE-LINE DESCRIPTIONS]
 - State-changing handlers: [LIST, OR DERIVE FROM HANDLER CODE WITH A TEST]
 - Labelled messages: [CSV OF message, correct_action]
-- Pinned model: jev-1.14.0
+- Pinned model: [jev-1.13.0 FOR SOURCE REPRODUCTION; jev-1.14.0 FOR A NEW RUN]
+- Live limits: [MAX REQUESTS INCLUDING RETRIES], [TOKEN LIMIT], [SPEND CAP]
+
+Prerequisites: Node 22+ and pnpm for the source TypeScript project, or
+Python 3.11+ and typesafe-sdk for the policy sketch. Live Jev calls need a
+TypeSafe key, send messages and action descriptions to TypeSafe, and incur
+charges. Use authorized text and opt in explicitly before any live run.
+Reproducing the source analysis uses recorded public predictions offline.
 
 Read first:
 - https://dev.to/md_almamunmamun_857ec/can-a-decision-model-replace-hand-written-routing-rules-a-3080-message-experiment-1mnd
@@ -106,19 +117,30 @@ Steps:
 1. Split messages into tuning and test sets; keep near-duplicates together.
 2. Wrap the current dispatcher, Jev (one Choice over the catalogue, message
    as state) and a hybrid behind one interface. Reject off-catalogue IDs.
+   Separately test out-of-scope and multi-intent inputs; adding a no-match
+   option or fit question creates a new configuration that needs tuning.
 3. Hybrid: accept on agreement; else accept Jev at or above a floor chosen
    on the tuning set; else refer.
 4. Execution gate: state-changing handlers return needs_confirmation.
+   Preserve existing authentication, permissions and argument validation.
+   During evaluation, stub every handler; execute no bank operation.
 5. Log every decision with model ID, choice, confidence, probabilities,
-   latency and input tokens.
+   latency and input tokens when available. Store raw usage and request
+   IDs; missing usage or an errored request is an unknown charge, not zero.
 6. Test set, frozen configs: exact-action and service accuracy with
    intervals, referral rate, accuracy when answering, wrong selections of
    state-changing handlers, recall on safety-critical intents, latency, cost.
-7. Stability: rerun 200 test messages twice and once with reversed options;
-   report changed selections.
+7. Predeclare stability checks: rerun 200 test messages twice and once
+   with reversed options; report changed selections. Tune revisions on dev
+   data, then use fresh held-out messages when test findings inspire changes.
 8. Compare at equal referral volume and state that this is exploratory if
    cut-offs are chosen on the test set.
-9. Offline tests with recorded fixture answers for the combiner and gate.
+9. Offline tests with authored response fixtures for agreement below the
+   floor, confident and uncertain disagreement, no match, unavailable or
+   malformed answers, and state-changing selections. Provider failures
+   remain visible and run no handler; retries stay within the live caps.
+10. Deliver saved splits, frozen model/question/policy versions, raw answer
+    and failure records, an offline test command and a metrics report.
 
 Do not execute state-changing handlers during evaluation. Do not claim
 safety from selection accuracy.
@@ -126,8 +148,8 @@ safety from selection accuracy.
 
 ## Validation and limits
 
-- **Source inspected:** the complete dev.to article, and the switchless repository at a pinned commit: README, the pinned `jev-1.13.0` router and generated analysis. The X share by @3dgrinder links to this article and is written in the first person.
-- **Offline evidence reproduced:** on Node 22, `pnpm analyze` verified all 16 raw prediction files against their SHA-256 manifest and regenerated the committed analysis with no differences; `pnpm test` passed 61 tests with 2 skipped. The combiner and gate above passed five fixture cases. This reproduces the author's analysis from saved predictions, not the model calls.
+- **Source inspected:** the complete dev.to article in logged-in Chrome, and the switchless repository at a pinned commit: README, the pinned `jev-1.13.0` router and generated analysis. The X share by @3dgrinder links to this article and is written in the first person.
+- **Offline evidence reproduced:** on Node 22, `pnpm analyze` verified all 16 raw prediction files against their SHA-256 manifest and regenerated the committed analysis with no differences; `pnpm test` passed 61 tests with 2 skipped. On refresh, Node 26.8.1 and pnpm 11.25.0 reproduced the same analysis without a diff and again passed 61 tests with 2 skipped. The revised combiner and gate passed nine offline fixture cases, including unavailable and unknown-handler paths, low-confidence agreement and a state-changing selection held for confirmation. This reproduces the author's analysis from saved predictions, not the model calls.
 - **Not tested:** any TypeSafe or OpenAI call, a new routing run, human handling of referrals, latency or cost. Every model figure here is from the author's recorded runs, on one public dataset and one rules implementation written by an AI assistant.
 - **Design limits:** Banking77 messages are short and single-intent; real traffic has multi-intent and out-of-scope messages. A hybrid keeps the full cost of maintaining the rules. The 0.9 floor belongs to the source's catalogue and model version.
 
@@ -143,7 +165,7 @@ Not in the source's runs. The LLM cost about a third as much per 1,000 messages 
 
 ### What does the rules plus Jev hybrid buy?
 
-It accepts an action when both agree, accepts Jev alone at 0.9 confidence or more, and otherwise refers the message. In the source it answered 81.7 percent of messages at 90.7 percent accuracy, which still left about one wrong automatic choice in eleven.
+It accepts an action when both agree, even below the confidence floor, accepts Jev alone at 0.9 confidence or more, and otherwise refers the message. In the source it answered 81.7 percent of messages at 90.7 percent accuracy, which still left about one wrong automatic choice in eleven.
 
 ### Why keep a confirmation step for state-changing actions?
 
@@ -163,6 +185,8 @@ A trained classifier or embedding baseline. The author points to another evaluat
 - **Source repository:** [switchless](https://github.com/grinder81/switchless/tree/f2afb84a5bcd0478f41af3956f3bd0b553bdfc71), MIT, by the article's author.
 - **API references:** [Choice](https://docs.typesafe.ai/primitives/choice), [confidence](https://docs.typesafe.ai/confidence) and [models](https://docs.typesafe.ai/models), checked 23 October 2026.
 - **Editorial connections:** [jev-vs-llm](https://github.com/0xGondarxyz/jev-vs-llm/tree/8f80717e347eb5c041c1ff3e551905c836573312) and [support-ticket-router](https://github.com/khaledjamal/support-ticket-router/tree/e0831fc12abaf918bc7df8fab37165f7098dd3fd), both MIT, suggested by JevList; neither is named by the source, and no affiliation with their maintainers is claimed.
+- **Related primary checks:** the article-linked [Lyzr Banking77 comparison](https://www.lyzr.ai/blog/jev-as-an-ai-router-and-controller/) reports the trained baselines the source says it lacks. [Glean's evaluation](https://www.glean.com/blog/jev-zero-shot-classifier) confirms that its 8.1× figure concerns 40 positive expert transfers, rather than this routing test. Jev 101 has an unofficial pointer to the dev.to article, not a verified author republication.
+- **Corrections in this refresh:** the source logs do not retain every field recommended for a new run; provider failures stay visible; the agreement branch can accept below 0.9; a new model or no-match configuration needs fresh tuning.
 - **Image:** original Appit Studio diagram, dedicated to CC0 1.0. The article's images and charts are not reused.
 
 Appit Studio wrote this guide with AI assistance; no human reviewer, source-author endorsement or paid placement is claimed. Propose evidence-backed corrections through the [contribution process](../../../CONTRIBUTING.md).

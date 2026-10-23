@@ -49,3 +49,9 @@ Evaluation inputs (queries, responses, contexts, traces) leave the host on live 
 Reviewed on **2026-09-20** at [commit 0d54b0a](https://github.com/TrustifAI/typed_evals/tree/0d54b0ab612127d82034bbb00331fb667b12210f): MIT. AI-assisted source review of the Jev backend, metrics, README, and LICENSE. On Python 3.13 with `typesafe-sdk` 0.7.0: **`python examples/offline_demo.py`** completed; **`pytest -q --ignore=tests/test_live.py`**: **302 passed, 6 skipped**. Upstream GitHub Actions `tests` succeeded on the same SHA. No live TypeSafe calls.
 
 Related: [daf-jev](daf-jev.md), [jev-align](jev-align.md), [Responsible AI Harness](responsible-ai-harness.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Use Jev as an eval judge: tune thresholds and check calibration](../../knowledge-base/articles/jev-decision-model-evals.md) — Independently suggested by JevList; not an endorsement by Hamel Husain (@HamelHusain) and Antaripa Saha. Collect custom per-failure-mode Noul scores over supplied responses and recorded traces.
+<!-- knowledge:backlinks:end -->

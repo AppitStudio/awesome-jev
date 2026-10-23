@@ -37,7 +37,7 @@
   },
   "image": {
     "path": "community/knowledge-base/images/jev-grok-bot-router.png",
-    "alt": "Three stages of a Grok Bot router rollout: code checks side effects first, Jev picks one of four skip actions in shadow mode, and code-owned confidence floors decide what active mode may skip",
+    "alt": "Three stages of a Grok Bot router rollout: code checks side effects first, Jev picks one of four actions in shadow mode, and code-owned confidence floors decide what active mode may skip",
     "credit": "Appit Studio (original diagram)",
     "license": "CC0 1.0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -49,7 +49,7 @@
       "origin": "jevlist-suggestion",
       "purpose": "implements-step",
       "step": "Start from an inspectable router module, skill file, config and kill switch instead of generating them from scratch",
-      "why": "The pinned reference package implements the same shape the article describes: a jev-usage-router skill, shadow and active modes, an enabled flag and a bypass marker, plus code-side checks that a cached artifact exists before reuse. rody does not name or endorse it.",
+      "why": "The pinned reference package supplies a jev-usage-router skill, shadow and active modes, an enabled flag and a bypass marker. Its five-question router is a related scaffold, not the article's single-Choice implementation. rody does not name or endorse it.",
       "evidence": [
         "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/README.md",
         "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/src/router.py",
@@ -57,7 +57,7 @@
         "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/config.example.yaml",
         "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/LICENSE"
       ],
-      "limitations": "MIT reference package with no tagged release; Python with typesafe-sdk and PyYAML. Defaults to the moving jev-latest alias and illustrative thresholds. Shadow mode still calls TypeSafe when enabled; active mode works only if the skill is honoured. Its A/B notes are one local proxy run. Only the disabled dry run was executed for this guide; no live inference."
+      "limitations": "MIT reference package with no tagged release; Python with typesafe-sdk and PyYAML. Defaults to jev-latest and illustrative thresholds. Cache presence is a caller-supplied boolean, not a filesystem check; ask_human follows cache/retry branches. Provider and missing-answer failures are not caught. Add independent approval, artifact validation and failure handling. Enabled shadow mode calls TypeSafe and may bill; goals and notes enter unredacted local logs. Earlier disabled dry run only; audit re-inspected source, no live inference."
     },
     {
       "kind": "project",
@@ -75,10 +75,10 @@
     }
   ],
   "verification": {
-    "source": "Read the complete X article text and all seven code blocks through the X API article fields on 2026-10-23. The article's only outbound links point to a third-party Substack, which is not linked here. Checked the official Grok Bot overview, which confirms that all of an account's bots share one cloud computer with its files, sessions and logins. The masked secret flow and the 20-run-record limit are the author's statements and were not independently confirmed. Source cover image not reused; original CC0 diagram created.",
-    "offline": "Checked current TypeSafe Choice, confidence and models docs: jev-latest currently points to jev-1.13.0 and jev-preview to jev-1.14.0. Installed typesafe-sdk 0.7.5 in a scratch environment and confirmed that response.choices is a typed view over response.answers. Ran the guide's router sketch against a mocked HTTP transport: seven cases passed (code-side ask_human with no request, honoured and floored stop_retry, reuse_cache rejected without an artifact and accepted with one, HTTP 500 and missing answer both falling back to proceed). Ran grok-bot-jev at 1583e09928c138aeac0aa89818c67ea41f08e807 with enabled false: dry run exited 0 with proceed_full and no Jev call.",
+    "source": "Read the full X article and all seven code blocks in logged-in Chrome on 2026-10-23; followed its Substack link and read the matching republication under Zodchi, dated 2026-10-22, with minor wording changes. Checked the official Grok Bot overview (shared account computer). Masked secret flow and 20-run-record limit remain source-reported, not independently confirmed. Re-inspected pinned upstream router, client, guard and MIT licenses. Looked at both original CC0 guide diagrams; no source image reused.",
+    "offline": "Rechecked official TypeSafe Choice, confidence and models docs; no installed typesafe-ai skill was available. Installed typesafe-sdk 0.7.5 in a scratch environment. Ten mocked-transport cases passed for the guide router: code-side ask_human with no request; honoured/floored stop_retry; reuse_cache rejected/accepted according to supplied artifact; HTTP 500, timeout, connection failure, missing answer and unknown action fall back to proceed. SDK connection/timeout errors derive from TypeSafeError. The previous guide recorded an enabled-false package dry run; this audit did not repeat it. No provider calls.",
     "live": "No TypeSafe inference, Grok Bot skill install, secret provisioning, shadow week, active rollout, cost or latency measurement. The thresholds shown are placeholders, not tuned values.",
-    "review": "AI-assisted editorial review; no human reviewer. No keyword tool or Search Console data was consulted for this guide. Distinguished from the existing agent-loop, worker-router and decision-layer guides by focusing on the hosted-agent install path, secret handling on a shared computer and a staged shadow-to-active rollout."
+    "review": "AI-assisted editorial audit; no human reviewer. Search results for Grok Bot Jev router and shadow-mode queries favour skills and routing docs; preserved this install/rollout intent and published slug, distinct from agent-loop and worker-routing guides. No keyword volume or difficulty used; Ahrefs in Chrome was blocked by a session/sign-in screen, so plan eligibility was not established. Search Console review found broad harness/bot intent but no exact query evidence for this narrower workflow; no private query metrics reproduced."
   },
   "faqs": [
     {
