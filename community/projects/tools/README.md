@@ -564,6 +564,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jev-herdr](jev-herdr.md) | Spawn Claude Code agents in Herdr with TypeSafe Jev choosing model and effort per agent. | TypeScript · Herdr integration (MIT) |
 | [jev-hook-guard](jev-hook-guard.md) | Mask and gate session text before a Claude Code hook sends it to Jev. | Python · library + example hook (MIT) |
 | [jev-hooks](jev-hooks.md) | Review Claude Code commits with typed System One questions (self-hosted rizzo-flow or TypeSafe Jev) via PreToolUse hooks. | TypeScript · Claude Code plugins (MIT, 0.1.0-dev preview) |
+| [jev-hooks by austpryb (nine Claude Code hooks backed by Jev)](austpryb-jev-hooks.md) | Claude Code plugin with nine Jev-backed hooks: a Bash and an edit risk gate, compaction triage that keeps decisions, subagent report verification, loop detection, a stop self-check, subagent model routing, prompt routing and output narrowing. It fails open. | Claude Code plugin (Python hooks) (MIT) |
 | [jev-humanizer](snjrusmn-jev-humanizer.md) | Anti-slop skill: TypeSafe Jev flags AI-sounding paragraphs so the writing model rewrites only those spans… | Python · agent skill (MIT) |
 | [jev-in-codex](jev-in-codex.md) | Rank Codex capabilities, search hits, and output excerpts with TypeSafe Jev via local MCP. | TypeScript · MCP server + Codex plugin (0.1.0) |
 | [jev-inference-router](jev-inference-router.md) | Observable TypeSafe Jev routing with local Apple Silicon LLM inference and evals. | Python · FastAPI (MIT) |
