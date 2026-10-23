@@ -40,7 +40,9 @@ npm run build
 npm start
 ```
 
-Open **[http://127.0.0.1:3178/](http://127.0.0.1:3178/)**. Live analysis sends message text to TypeSafe and may incur charges. Do not commit `.env` or private chats.
+After starting the app locally, enter `http://127.0.0.1:3178/` in a browser on the same computer. This address opens your own installation; there is no separate hosted demo. See the author's [public installation instructions](https://github.com/FerryCorleone/crush-monitor/blob/main/README.en.md#run-locally) for the current setup.
+
+Live analysis sends message text to TypeSafe and may incur charges. Do not commit `.env` or private chats.
 
 Offline tests (no key required):
 
