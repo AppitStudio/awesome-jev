@@ -48,3 +48,9 @@ Ticket text goes to TypeSafe/OpenRouter with the Jev backend. Not run on the rev
 ## Review and maintenance
 
 Reviewed **2026-10-07** (Europe/Sofia) at [commit e0831fc12aba](https://github.com/khaledjamal/support-ticket-router/tree/e0831fc12abaf918bc7df8fab37165f7098dd3fd). Inspected the upstream README, LICENSE, and the Jev integration described there; install and live inference were not run on the review host. Catalog checks (`npm run lint`, `check:links`, `check:community`) ran locally; they verify navigation, not project claims. AI-assisted review.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Replace hand-written routing rules with Jev: a migration test](../../knowledge-base/articles/jev-replace-routing-rules.md) — Independently suggested by JevList; not an endorsement by Mo Al Mamun (Mamun). Route by the expected cost of a mistake instead of a single confidence floor once the hybrid is in place.
+<!-- knowledge:backlinks:end -->

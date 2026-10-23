@@ -1862,6 +1862,22 @@ Kotlin desktop app that puts an AI in front of Pokémon HeartGold on a Nintendo 
 
 [Full AI Plays Pokémon (kotlinds) guide](ai-plays-pokemon.md) · [Source](https://github.com/kotlinds/ai-plays-pokemon)
 
+### Beam (Omarchy launcher with optional Jev intent search)
+
+`Open source` · `Free`
+
+One-box launcher plugin for Omarchy that launches apps, runs Omarchy menu actions, calculates and converts inline, and opens web searches and URLs; with an optional Jev key it also finds actions by meaning, so typing screen warmer finds Nightlight.
+
+**Jev's role:** Optional: when typed text does not match an action by name, Jev picks the Omarchy action you most likely mean.
+
+**Platform:** Linux desktop running Omarchy 4, installed with `omarchy plugin add`.
+
+**Product:** [plugins.omarchy.org/plugin.html?id=dev.reuk.beam](https://plugins.omarchy.org/plugin.html?id=dev.reuk.beam)
+
+**Pricing / access:** Open source (MIT); free to install from the Omarchy plugin directory or GitHub. Jev intent search uses your own TypeSafe key. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full Beam (Omarchy launcher with optional Jev intent search) guide](omarchy-beam.md) · [Source](https://github.com/RohitKaushal7/omarchy-beam)
+
 ### dotpals
 
 `Open source` · `Free` · `BYOK`
@@ -2096,6 +2112,22 @@ Native macOS assistant: describe a task, review rule-ranked app/model/effort cho
 
 [Full AI Model Picker guide](ai-model-picker.md) · [Source](https://github.com/Gavinluo19/ai-model-picker)
 
+### ASO Workbench (App Store Optimization on your Mac, with Jev keyword clues)
+
+`Source available` · `Free`
+
+Mac app for App Store Optimization that tracks keyword ranks per country, estimates popularity and difficulty with labelled sources, writes and publishes store listings in every language, and measures what each change did; Jev answers narrow keyword questions that feed its popularity estimate.
+
+**Jev's role:** Optional: through OpenRouter, Jev answers probability questions about each keyword (is it a brand, is it relevant) that the app uses as clues for its popularity estimate.
+
+**Platform:** macOS 15+; free unnotarized DMG from GitHub releases, or build from source with Xcode 26.
+
+**Product:** [github.com/mustafakendiguzel/aso-workbench](https://github.com/mustafakendiguzel/aso-workbench)
+
+**Pricing / access:** Free download (MIT with Commons Clause: free to use, including for your own apps, but not to sell). OpenRouter usage for Jev and the AI writer is pay per use on your key. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full ASO Workbench (App Store Optimization on your Mac, with Jev keyword clues) guide](aso-workbench.md) · [Source](https://github.com/mustafakendiguzel/aso-workbench)
+
 ### Baton (notch app)
 
 `Open source` · `Free source build` · `BYOK`
@@ -2139,6 +2171,22 @@ Menu-bar launcher for your AI chats: press Control-Option-Space, type what you r
 **Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
 
 [Full ChatJump guide](chatjump.md) · [Source](https://github.com/saydus/chatjump)
+
+### Hyperclip (macOS video clipper with Jev clip scoring)
+
+`Open source` · `Free source build`
+
+Native SwiftUI app that turns long videos into short captioned clips on your Mac: it downloads with yt-dlp, transcribes on device, finds clips with built-in scoring, a Jev-compatible decision model or an LLM, frames the speaker and burns in word-by-word captions.
+
+**Jev's role:** Optional: after built-in scoring shortlists spans, Jev answers typed questions about each candidate clip (hook strength, whether it stands alone, payoff) to rank them.
+
+**Platform:** macOS 26+ on Apple silicon; built from source by the install script.
+
+**Product:** [github.com/alexisbcz/hyperclip](https://github.com/alexisbcz/hyperclip)
+
+**Pricing / access:** Open source (MIT); free to build. Jev calls use your own TypeSafe key; self-hosted Jev-compatible servers and LLMs are alternatives; optional publishing uses Zernio. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full Hyperclip (macOS video clipper with Jev clip scoring) guide](hyperclip.md) · [Source](https://github.com/alexisbcz/hyperclip)
 
 ### Jaste
 

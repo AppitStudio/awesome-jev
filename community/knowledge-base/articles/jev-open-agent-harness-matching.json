@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "jev-open-agent-harness-matching",
+  "slug": "jev-open-agent-harness-matching",
+  "title": "Match client requests to GitHub issues with Jev in an agent harness",
+  "description": "Shortlist GitHub issues in code, let Jev pick a match or none, send uncertain answers to review and keep writes behind approval in an open agent harness.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-23",
+  "modified_at": "2026-10-23",
+  "topics": [
+    "agent-harnesses",
+    "retrieval",
+    "decision-gates",
+    "calibration"
+  ],
+  "source": {
+    "title": "I put Jev inside an Open Agent Harness",
+    "url": "https://x.com/akshay_pachaar/article/2109678653974155459",
+    "author": {
+      "name": "Akshay 🚀 (@akshay_pachaar)",
+      "url": "https://x.com/akshay_pachaar"
+    },
+    "published_at": "2026-10-12",
+    "accessed_at": "2026-10-23"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and offline verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-open-agent-harness-matching.png",
+    "alt": "A weekly matching run: code shortlists ten GitHub issues per client request, Jev chooses one issue or none, uncertain matches go to review, and every write waits for team approval",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-issue-radar.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Study a read-only lexical-shortlist-then-Jev design for GitHub issue relationships before building the weekly run",
+      "why": "jev-issue-radar uses title-weighted lexical retrieval to pick candidates, asks Jev Choice questions about each pair, validates evidence line IDs in code and never writes to GitHub. That is the same retrieve, decide and review split as the article, on a smaller scale. Akshay does not name it.",
+      "evidence": [
+        "https://github.com/Patrick-SCH03/jev-issue-radar/blob/5878ba97d70d8aed10a2a628f224a8612d4e870b/README.md",
+        "https://github.com/Patrick-SCH03/jev-issue-radar/blob/5878ba97d70d8aed10a2a628f224a8612d4e870b/lib/jev.mjs",
+        "https://github.com/Patrick-SCH03/jev-issue-radar/blob/5878ba97d70d8aed10a2a628f224a8612d4e870b/LICENSE"
+      ],
+      "limitations": "MIT Node.js 0.1.1 MVP; Node 22+. Compares one source issue with one candidate at a time rather than choosing among a shortlist, and calls Jev through OpenRouter's Decisions endpoint with typesafe/jev-1.13, so live runs need an OpenRouter key and may be billed. Lexical retrieval can miss differently worded matches. Offline npm test only (48 passed); no live comparison."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article and all three code blocks in logged-in Chrome on 2026-10-23; followed the earlier linked post and TrueForge repository. Article thanks TrueFoundry for working with the author. Found and read the AI Engineering Hub adaptation, added by Sitam Meur on 2026-10-12 at 6e39877e2e59d8365ca002fb251ccbb095571282; README and media do not supply the machine-readable evaluation set or agent definitions. Re-inspected TrueForge README at 109088036870e7839e9f86811e09fb3f4ada3d68 and jev-issue-radar provider implementation/MIT license. Original CC0 diagram visually inspected; source images not reused.",
+    "offline": "Rechecked current official TypeSafe Choice, Noul, confidence and models documentation (no installed typesafe-ai skill). Ran the revised guide question builder, request wrapper and policy with typesafe-sdk 0.7.5 and mocked HTTP transport: 13 cases passed, covering confident/uncertain/open/closed/none matches; unknown issue or state; missing Choice or Noul; HTTP 500, timeout and connection failure; and empty shortlist without a request. Earlier guide/catalog evidence records 48 passing jev-issue-radar tests; audit re-inspected source, did not repeat that suite. No provider requests.",
+    "live": "No TrueForge install, MCP connection, Notion or GitHub access, Jev or Claude inference, accuracy, review-yield or cost measurement. The source's 37 of 40 results and 150 to 250 times cost estimate are the author's and were not reproduced.",
+    "review": "AI-assisted editorial audit; no human reviewer. Search queries for Jev GitHub issue matching and agent harness results surfaced the author-associated AI Engineering Hub adaptation and source build summary. Retained entity-matching-over-shortlist intent and stable URL, distinct from LangChain tool screening and conceptual Jev-vs-LLMs. No keyword volume or difficulty used; Ahrefs Chrome session/sign-in blocked access, plan eligibility not established. Search Console review found broad harness/bot intent but no exact query evidence for this narrower workflow; no private query metrics reproduced."
+  },
+  "faqs": [
+    {
+      "question": "Why not give Jev the whole GitHub backlog?",
+      "answer": "A Choice question accepts up to 255 options and a request has context limits, so a 300-issue backlog with discussions will not fit as one question. Shortlist candidates in code first, and measure how often the right issue survives the shortlist."
+    },
+    {
+      "question": "Did Jev make the matching more accurate than Opus?",
+      "answer": "Not in the source's test. Both versions got 37 of 40 requests right. The difference the author reports is in review: low Jev confidence sent 16 answers for a second look and caught 5 errors, while the version without Jev reviewed 5 and caught none."
+    },
+    {
+      "question": "Is Jev's confidence a probability that the match is correct?",
+      "answer": "No. TypeSafe defines Choice confidence as a statistic of how the probabilities are spread. Whether 0.8 confidence means about 80 percent correct on your backlog has to be checked against labelled requests before it controls what skips review."
+    },
+    {
+      "question": "What should happen when no issue matches?",
+      "answer": "Treat none as a proposal, not a write. Pair the Choice with a Noul asking whether any listed issue matches, and send every none answer to review, where a person or the generation model drafts a new issue for approval."
+    },
+    {
+      "question": "Can a confident match still be wrong?",
+      "answer": "Yes. In the source's test one of Jev's three misses had the highest confidence on the wrong issue and went straight through. Sample accepted matches for review as well, especially when the summary will be sent to a client."
+    },
+    {
+      "question": "Is TrueForge required for this workflow?",
+      "answer": "No. The source uses TrueForge, an MIT-licensed harness, for scheduling, approvals and credential isolation. Any harness that keeps credentials outside generated code and requires approval before writes can run the same shortlist, decide and review steps."
+    }
+  ]
+}

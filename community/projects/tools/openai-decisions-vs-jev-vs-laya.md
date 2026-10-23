@@ -48,3 +48,9 @@ Synthetic/curated PT-BR cases go to the hosted providers. Results are the author
 ## Review and maintenance
 
 Reviewed **2026-10-08** (Europe/Sofia) at [commit b9d296e97b4e](https://github.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/tree/b9d296e97b4ed382cbad65248800ec63096225f4). Inspected the upstream README, LICENSE, and the Jev integration described there; install and live inference were not run on the review host. Catalog checks (`npm run check`) ran locally; they verify navigation, not project claims. AI-assisted review.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Plan the hosted Jev boundary: state, transfers, latency and fallbacks](../../knowledge-base/articles/jev-hosted-deployment-boundary.md) — Independently suggested by JevList; not an endorsement by Maarten Vandeperre. Measure hosted round-trip latency and compare a local decision model on the same cases before relying on either.
+<!-- knowledge:backlinks:end -->
