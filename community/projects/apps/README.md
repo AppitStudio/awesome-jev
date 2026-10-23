@@ -2322,6 +2322,22 @@ Local-first AI design workspace: write a brief and a local agent CLI builds the 
 
 [Full Mish guide](mish.md) · [Source](https://github.com/ZeroSum-Solutions/mish)
 
+### Moji (macOS emoji picker with optional Jev ranking)
+
+`Open source` · `Free source build`
+
+Native macOS emoji picker: type `:` and a few letters in any app. Search runs locally; with a TypeSafe key, Jev reorders the suggestions to the emoji you most likely mean.
+
+**Jev's role:** Optional: one choice question over about 200 local candidates reorders suggestions a moment after local results appear.
+
+**Platform:** macOS 14+, built from source with `scripts/bundle.sh`.
+
+**Product:** [github.com/beckyisj/moji](https://github.com/beckyisj/moji)
+
+**Pricing / access:** Open source (MIT); free source build. Jev ranking uses your own TypeSafe key (the README estimates about $0.0001 per lookup). Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Moji (macOS emoji picker with optional Jev ranking) guide](moji-emoji-picker.md) · [Source](https://github.com/beckyisj/moji)
+
 ### PetPaw
 
 `Source available` · `Free` · `BYOK`
