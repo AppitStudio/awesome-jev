@@ -30,7 +30,8 @@
     "jev-research-paper-triage",
     "jev-replace-routing-rules",
     "jev-in-context-casebooks",
-    "jev-decision-model-evals"
+    "jev-decision-model-evals",
+    "jev-hosted-deployment-boundary"
   ],
   "retire_all": false
 }

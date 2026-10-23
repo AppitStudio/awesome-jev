@@ -47,3 +47,9 @@ Requests go to OpenAI and the chosen decision backend. No LICENSE file. Not run 
 ## Review and maintenance
 
 Reviewed **2026-10-08** (Europe/Sofia) at [commit f312884dbeff](https://github.com/kdubois/quarkus-langchain4j-jev-laya/tree/f312884dbeffeb226a74aab2fe8ee0c9afc076e9). Inspected the upstream README, LICENSE, and the Jev integration described there; install and live inference were not run on the review host. Catalog checks (`npm run check`) ran locally; they verify navigation, not project claims. AI-assisted review.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Plan the hosted Jev boundary: state, transfers, latency and fallbacks](../../knowledge-base/articles/jev-hosted-deployment-boundary.md) — Independently suggested by JevList; not an endorsement by Maarten Vandeperre (Red Hat Developer). Put the decision backend behind one interface so hosted Jev, a local substitute or a deterministic stub can be swapped and tested.
+<!-- knowledge:backlinks:end -->
