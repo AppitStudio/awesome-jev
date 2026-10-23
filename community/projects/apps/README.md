@@ -450,6 +450,22 @@ Workplace jargon (职场黑话) reader: guess first, then reveal TypeSafe Jev’
 
 [Full Heihua Translator guide](heihua-translator.md) · [Source](https://github.com/casperkwok/heihua-translator)
 
+### Heliotrope (carbon-aware load scheduler with Jev load intake)
+
+`Open source` · `Free source build`
+
+Scheduler that shifts EV charging, water heating, laundry and pumps into low-carbon hours without missing deadlines, using OR-Tools; Jev turns plain-words load descriptions into typed load specs and ranks how essential each appliance is.
+
+**Jev's role:** Classifies loads from plain words with confidence and judges appliance importance for prioritisation; numbers and schedules stay in code.
+
+**Platform:** Self-hosted web app (Next.js front end, FastAPI backend).
+
+**Product:** [github.com/StellarieX/Heliotrope](https://github.com/StellarieX/Heliotrope)
+
+**Pricing / access:** Open source (MIT); free source build. Hosting and TypeSafe usage are yours. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Heliotrope (carbon-aware load scheduler with Jev load intake) guide](heliotrope.md) · [Source](https://github.com/StellarieX/Heliotrope)
+
 ### Hx
 
 `Open source` · `Free source build` · `BYOK`
