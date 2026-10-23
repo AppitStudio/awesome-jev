@@ -49,3 +49,9 @@ Shadow-first by design for adoption. Redaction is best-effort. This listing did 
 Reviewed on **2026-09-23** at [commit 6083fb0](https://github.com/0xwhrari/grok-jev-guard/tree/6083fb0584ffc61857fac755447e93d121925b48) (**0.1.0**, MIT). AI-assisted source review. No live TypeSafe spend.
 
 Related: [Grok Bot Jev](grok-bot-jev.md), [opencode-jev-guard](opencode-jev-guard.md), [agent-chaperone](agent-chaperone.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Wire Jev into Grok Bot: a shadow-first router skill](../../knowledge-base/articles/jev-grok-bot-router.md) — Independently suggested by JevList; not an endorsement by rody. Use a stricter preflight envelope when the main risk is consequential tool use rather than wasted retries.
+<!-- knowledge:backlinks:end -->

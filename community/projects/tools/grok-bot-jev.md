@@ -63,3 +63,9 @@ A/B figures are upstream proxy measurements from one local run, not independentl
 Reviewed on **2026-09-20** at [commit 1583e09](https://github.com/Bodila51/grok-bot-jev/tree/1583e09928c138aeac0aa89818c67ea41f08e807): MIT. AI-assisted source review of `jev_client.py`, `router.py`, skill, README, and license. Offline **`scripts/dry_run.py` with `enabled: false`** completed without TypeSafe calls. No live Jev or Grok Bot sessions were run. A follow-up on the same date verified the executable offline setup in a separate checkout with a credential-free environment, Python 3.12.14, `typesafe-sdk` 0.7.0, and PyYAML 6.0.3: `python -m compileall -q src scripts` passed, and all five disabled smoke cases returned `proceed_full` with `jev_used: false`. This checks imports and the disabled path, not model-driven routing or active enforcement.
 
 Related: [jev-gateway](jev-gateway.md), [super-jev](super-jev.md), [toolgate](toolgate.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Wire Jev into Grok Bot: a shadow-first router skill](../../knowledge-base/articles/jev-grok-bot-router.md) — Independently suggested by JevList; not an endorsement by rody. Start from an inspectable router module, skill file, config and kill switch instead of generating them from scratch.
+<!-- knowledge:backlinks:end -->

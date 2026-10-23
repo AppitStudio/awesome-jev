@@ -24,7 +24,8 @@
     "jev-content-grader",
     "jev-vs-llms",
     "jev-opus-content-workflow",
-    "jev-decision-layer"
+    "jev-decision-layer",
+    "jev-grok-bot-router"
   ],
   "retire_all": false
 }
