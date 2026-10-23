@@ -48,3 +48,9 @@ Verification is fully offline. Re-running the sweeps sends public benchmark text
 ## Review and maintenance
 
 Reviewed **2026-10-18** (Europe/Sofia) at [commit aeaba514ec54](https://github.com/poisson-labs/jev-replay/tree/aeaba514ec54e69fd6c6ba847623172614cfee80). Inspected the upstream README, license status, and the Jev integration file linked above; install and live inference were not run on the review host. Catalog checks (`npm run check`) ran locally; they verify navigation, not project claims. AI-assisted review.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Triage research papers with Jev: tune thresholds on labelled splits](../../knowledge-base/articles/jev-research-paper-triage.md) — Independently suggested by JevList; not an endorsement by elvis. Estimate how often repeated calls flip a decision near the chosen threshold before freezing it.
+<!-- knowledge:backlinks:end -->
