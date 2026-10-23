@@ -3216,6 +3216,22 @@ Chrome extension that hides X timeline posts you don't want: tap noise bubbles (
 
 [Full Signal & Noise guide](signal-and-noise.md) · [Source](https://github.com/icpmacdo/signal-and-noise)
 
+### Signal Feed (X and YouTube bait filter with Jev)
+
+`Open source` · `Free source build`
+
+Chromium extension that folds ragebait, empty hype and engagement bait on the X timeline and YouTube before you scroll to them, each with the reason, highlights posts on topics you choose, and shows what the Jev calls cost.
+
+**Jev's role:** Jev answers one yes-or-no question per post (hide under your list?) plus one for highlights, in batches ahead of your scroll.
+
+**Platform:** Chromium browsers, loaded unpacked from source or a release zip; Chrome Web Store listing announced as coming soon.
+
+**Product:** [github.com/harish-anumula/signal-feed](https://github.com/harish-anumula/signal-feed)
+
+**Pricing / access:** Open source (MIT); free to load. Jev usage is billed to your OpenRouter key; the author measured about $0.02 per 1,000 posts on 2026-10-23. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full Signal Feed (X and YouTube bait filter with Jev) guide](signal-feed.md) · [Source](https://github.com/harish-anumula/signal-feed)
+
 ### Skipto
 
 `Open source` · `Free source build` · `BYOK`
