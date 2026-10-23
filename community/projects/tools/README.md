@@ -1465,6 +1465,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jevmcp (eaisdevelopment)](eaisdevelopment-jevmcp.md) | One Agent Plugins install: TypeSafe Jev MCP tools for spec-drift, CI triage, and code-audit screening. | Python · Agent Plugins + MCP (Apache-2.0) |
 | [jevonian](jevonian.md) | Local OpenAI/Anthropic/Responses proxy: one Jev call picks the model and the thinking level after code has filtered candidates; pinned models skip Jev. | Node.js ≥ 22 · CLI and local server (`jevonian` 0.0.1, AGPL-3.0-only) |
 | [jevper](jevper.md) | Jev-shaped System One noul/choice/score over any OpenAI-compatible client (no hosted TypeSafe API). | Python · PyPI (`jevper` 0.1.2, Apache-2.0) |
+| [JevQuery (sentences to typed query plans for Drizzle and Prisma)](jevquery.md) | TypeScript library that turns a sentence such as "orders over 100 dollars, biggest first" into a typed query plan (table, filters, columns, order, limit) by having Jev pick each part from your schema. Drizzle, Prisma or plain SQL builders run it; no model writes SQL. | TypeScript library (MIT) |
 | [jevraulio](jevraulio.md) | Spanish-language study stack wiring Jev decisions into chat/MCP (jeveador) APIs. | Python API study stack (Apache-2.0) |
 | [Jevs](jevs.md) | Call TypeSafe Jev classify/score/check/batch from Bun MCP / Codex plugin via the official JS SDK. | TypeScript · Bun MCP / Codex plugin (`jevs` 0.1.0) |
 | [JevT++](jevtpp.md) | C++20 typed decision library with optional local Laya (ONNX/ggml) or remote System One backends. | C++20 · library (MIT) |
