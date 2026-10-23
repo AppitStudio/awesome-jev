@@ -1102,6 +1102,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [HA_SystemOne](ha-systemone.md) | Polish-language Home Assistant command layer: local embedding and reranker models narrow about 100 possible actions to five, Jev picks one or none with a confidence, and the action runs only at 0.8 or above; otherwise it asks back. | Python service with Docker Compose and Home Assistant REST integration (MIT) |
 | [Jev for Home Assistant](ha-jev.md) | Turn household context into judgment sensors and automation responses. | Python · Home Assistant integration |
 | [Laya for Home Assistant](home-assistant-laya.md) | Run a fully local Assist conversation agent on open-weight Laya with speculative intent/entity scoring (independent of hosted Jev). | Python · Home Assistant integration (Apache-2.0) |
+| [Typesafe routing proxy (decision fast path for Home Assistant voice)](typesafe-openai-proxy.md) | OpenAI-compatible proxy that sits behind the hass_local_openai_llm Home Assistant integration: one System One decision per request turns clear commands and state questions into Home Assistant tool calls, asks before risky actions, and forwards everything else unchanged to your LLM server. | TypeScript server (Docker image or Node.js) (MIT) |
 
 ## Independent model research
 
