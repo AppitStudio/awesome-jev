@@ -203,6 +203,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [azir-dispatch](azir-dispatch.md) | Route herdr coding-agent tasks with Jev and watch them on a live terminal board. | Python · CLI (MIT) |
 | [barmkin-mod](barmkin-mod.md) | Harden Claude Code sessions with redaction, taint tracking and an optional Jev injection screen. | TypeScript · Claude Code mod/plugin (no LICENSE) |
 | [Baton Agent Orchestrator](baton-agent-orchestrator.md) | `jev` CLI pipeline: Jev picks agent, model and effort per step (plan → validate → build → review). | Python · CLI (Apache-2.0) |
+| [Beacon (shared, self-improving memory for coding agents, with Jev evaluation)](agent-beacon.md) | Memory layer that records sessions across Claude Code, Codex, Cursor and OpenCode and turns useful corrections into shared memory; Jev is the default evaluator that decides whether a session holds a lesson worth keeping. | Go CLI with agent integrations (MIT) |
 | [beam-cli](beam-cli.md) | Local AgentBeam hooks/policy for coding agents; optional TypeSafe Jev Noul/Score action judging (off by default). | TypeScript · npm CLI (`@agent-beam/beam` 0.2.16, AGPL-3.0) |
 | [bekko-system-one](bekko-system-one.md) | Small System One decision models (17M–400M) for Yes/No, Choice, and Score (independent open weights). | Python · local models (MIT) |
 | [Better TypeScript](better-typescript.md) | Go-based TypeScript linter whose `semantic` mode asks TypeSafe Noul questions over bounded source spans for policy checks. | Linter CLI (Go; npm package) (MIT) |
