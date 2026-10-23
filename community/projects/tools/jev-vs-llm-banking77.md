@@ -47,3 +47,9 @@ Public Banking77 messages go to TypeSafe and OpenRouter on your keys.
 ## Review and maintenance
 
 Reviewed **2026-10-18** (Europe/Sofia) at [commit 8f80717e347e](https://github.com/0xGondarxyz/jev-vs-llm/tree/8f80717e347eb5c041c1ff3e551905c836573312). Inspected the upstream README, license status, and the Jev integration file linked above; install and live inference were not run on the review host. Catalog checks (`npm run check`) ran locally; they verify navigation, not project claims. AI-assisted review.
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Replace hand-written routing rules with Jev: a migration test](../../knowledge-base/articles/jev-replace-routing-rules.md) — Independently suggested by JevList; not an endorsement by Mo Al Mamun (Mamun). Run a small, quick Banking77 comparison of Jev against LLMs before building a full migration study.
+<!-- knowledge:backlinks:end -->

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "jev-replace-routing-rules",
+  "slug": "jev-replace-routing-rules",
+  "title": "Replace hand-written routing rules with Jev: a migration test",
+  "description": "Test whether Jev can replace a keyword dispatcher: freeze the rules as a baseline, compare exact-action accuracy, add a hybrid gate and confirm state changes.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-23",
+  "modified_at": "2026-10-23",
+  "topics": [
+    "model-routing",
+    "decision-gates",
+    "calibration",
+    "cost-optimization"
+  ],
+  "source": {
+    "title": "Can a Decision Model Replace Hand-Written Routing Rules? A 3,080-Message Experiment",
+    "url": "https://dev.to/md_almamunmamun_857ec/can-a-decision-model-replace-hand-written-routing-rules-a-3080-message-experiment-1mnd",
+    "author": {
+      "name": "Mo Al Mamun (Mamun)",
+      "url": "https://dev.to/md_almamunmamun_857ec"
+    },
+    "published_at": "2026-10-17",
+    "accessed_at": "2026-10-23"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and offline verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-replace-routing-rules.png",
+    "alt": "A routing migration in three steps: freeze the existing rules as a baseline, compare Jev on exact-action accuracy, then combine both in a hybrid gate where state-changing actions still need confirmation",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-vs-llm-banking77.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Run a small, quick Banking77 comparison of Jev against LLMs before building a full migration study",
+      "why": "The benchmark sorts 100 seeded Banking77 messages into 77 categories with Jev and two Claude models and reports accuracy, off-list answers, latency and cost, which is a cheap first look at the same intent-selection task. The source author does not name it.",
+      "evidence": [
+        "https://github.com/0xGondarxyz/jev-vs-llm/blob/8f80717e347eb5c041c1ff3e551905c836573312/lib/sorters.ts",
+        "https://github.com/0xGondarxyz/jev-vs-llm/blob/8f80717e347eb5c041c1ff3e551905c836573312/LICENSE"
+      ],
+      "limitations": "MIT TypeScript benchmark; Node 22+, a TypeSafe key and an OpenRouter key, billed per call. 100 messages from one location; LLMs reached through OpenRouter, which adds a network hop. No rules baseline or hybrid. Not executed for this guide."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/support-ticket-router.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Route by the expected cost of a mistake instead of a single confidence floor once the hybrid is in place",
+      "why": "Support Ticket Router multiplies mistake probabilities by configured costs to choose auto, quick review or human, and can replay stored answers under different policies without new Jev calls. That is a way to make referral decisions depend on what a wrong action would cost.",
+      "evidence": [
+        "https://github.com/khaledjamal/support-ticket-router/blob/e0831fc12abaf918bc7df8fab37165f7098dd3fd/src/triage/decisions/policy.py",
+        "https://github.com/khaledjamal/support-ticket-router/blob/e0831fc12abaf918bc7df8fab37165f7098dd3fd/src/triage/questions.py",
+        "https://github.com/khaledjamal/support-ticket-router/blob/e0831fc12abaf918bc7df8fab37165f7098dd3fd/LICENSE"
+      ],
+      "limitations": "MIT Python FastAPI service; offline fake backend by default, Jev backend needs a TypeSafe or OpenRouter key and is billed. Routes tickets to teams, not to executable handlers. Benchmark figures are the maintainer's. Not executed for this guide."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete dev.to article on 2026-10-23, including the results tables and the reproduction section; publication date from the dev.to API. The author discloses no relationship with TypeSafe and AI assistance in implementation and writing. The X account @3dgrinder (display name Mamun) shared the article in the first person on 2026-10-17, and the shared link resolves to this article. Inspected the switchless repository at f2afb84a5bcd0478f41af3956f3bd0b553bdfc71 (MIT): README, pinned jev-1.13.0 router and generated analysis. Source images not reused; original CC0 diagram created.",
+    "offline": "Ran switchless at the pinned commit on Node 22 with pnpm 10.28.0: pnpm install --frozen-lockfile --ignore-scripts, then pnpm analyze, which verified all 16 raw prediction files against their SHA-256 manifest and regenerated results/analysis.md with no diff from the committed file; pnpm test passed 61 tests with 2 skipped. Ran the guide's hybrid combiner and execution gate on five fixture cases: agreement, confident disagreement, uncertain disagreement, no rule match with low confidence, and a confident state-changing action held for confirmation. Checked current TypeSafe Choice, confidence and models docs.",
+    "live": "No TypeSafe or OpenAI calls, no new routing run, no human resolution of referrals, no latency or cost measurement. All accuracy, latency, cost and drift figures are from the author's recorded runs.",
+    "review": "AI-assisted editorial review; no human reviewer. No keyword tool or Search Console data was consulted. Distinguished from the worker-router and decision-gate guides by focusing on migrating an existing rules dispatcher, with a frozen baseline, hybrid abstention and a separate execution check."
+  },
+  "faqs": [
+    {
+      "question": "Can Jev replace a keyword and regex intent dispatcher?",
+      "answer": "In the source's Banking77 experiment, zero-shot Jev chose the exact action for 80.9 percent of 3,080 messages against 65.5 percent for 772 lines of rules. That supports replacing intent selection in a similar task. It does not show the chosen actions are safe to run unchecked."
+    },
+    {
+      "question": "Is Jev cheaper than an LLM for routing?",
+      "answer": "Not in the source's runs. The LLM cost about a third as much per 1,000 messages because its repeated action catalogue benefited from cached-input pricing. Jev was about nine times faster. Price both on your own catalogue and traffic."
+    },
+    {
+      "question": "What does the rules plus Jev hybrid buy?",
+      "answer": "It accepts an action when both agree, accepts Jev alone at 0.9 confidence or more, and otherwise refers the message. In the source it answered 81.7 percent of messages at 90.7 percent accuracy, which still left about one wrong automatic choice in eleven."
+    },
+    {
+      "question": "Why keep a confirmation step for state-changing actions?",
+      "answer": "Picking the right handler and executing it safely are different questions. In the source, 32 of the hybrid's 233 wrong selections chose a handler that can change bank state. Require confirmation for those handlers regardless of confidence."
+    },
+    {
+      "question": "Does option order affect Jev's choice?",
+      "answer": "It can. Reversing the order of the 77 options changed 5 percent of selections on a 200-message subset in the source, and two repeat runs changed 2.0 and 0.5 percent. Test order and repeat stability before freezing a threshold."
+    },
+    {
+      "question": "What baseline is missing from the source's comparison?",
+      "answer": "A trained classifier or embedding baseline. The author points to another evaluation where logistic regression on the full labelled set scored higher than zero-shot Jev. If you have labelled history, include such a baseline before choosing."
+    }
+  ]
+}
