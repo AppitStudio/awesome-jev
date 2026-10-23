@@ -2480,6 +2480,22 @@ Minimalist Android launcher (Portuguese docs): text-only home, grayscale screen 
 
 [Full axo-launcher guide](axo-launcher.md) · [Source](https://github.com/axolutions/axo-launcher)
 
+### DSB (trust-first Android AI assistant with a Jev command gate)
+
+`Open source` · `Free source build`
+
+Open-source Android assistant built on DeepSeek Harness that operates apps on a background virtual display of your own phone, with execution gates, a task ledger and audit logs; an optional Jev gate classifies suspicious shell commands before they run.
+
+**Jev's role:** Optional safety gate: Jev classifies the kind of each suspicious shell command and whether it would leak secrets, in shadow (log-only) mode by default.
+
+**Platform:** Android 11+ via the project's installer; validated so far on the maintainer's device and an arm64 emulator.
+
+**Product:** [github.com/tianye1999/dsb](https://github.com/tianye1999/dsb)
+
+**Pricing / access:** Open source (Apache-2.0); free to install. DeepSeek and TypeSafe usage are billed to your keys. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full DSB (trust-first Android AI assistant with a Jev command gate) guide](dsb.md) · [Source](https://github.com/tianye1999/dsb)
+
 ### Jev Chat Assistant
 
 `Open source` · `Free source build` · `BYOK`
