@@ -422,6 +422,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Jev Decision Gateway (kartikanand73)](kartikanand73-jev-decision-gateway.md) | Governed withdrawal PoC: Jev scores, code signs policy, executor accepts signed decisions only; bench vs LLM/rules (≠ kuldeepsinh19). | Python · PoC + bench harness (MIT) |
 | [JEV Decision Hub](jev-decision-hub.md) | Zero-dep Python Jev client, key-pool rotation, dashboard, and example agents. | Python · toolkit (MIT) |
 | [Jev Decisions Plugin for Hermes](jev-decisions-hermes.md) | Jev review tools for Hermes: risk reviews, source checks, and task-completion checks. | Python · agent plugin (MIT) |
+| [Jev DevTools (React inspector for Jev requests)](jev-devtools.md) | Drop-in React inspector for TypeSafe Jev, inspired by TanStack Query Devtools: a drawer that records your app's Jev requests and shows animated flows from context to questions to answers, choice probability bars, score and noul values, request history, retries and raw payloads. | React component and server adapter (TypeScript) (MIT) |
 | [Jev Engineering Cookbook](jev-engineering-cookbook.md) | Learn Jev patterns through runnable notebooks with honest offline/live provenance. | Python · Jupyter notebooks (MIT) |
 | [JEV Flaky Detective](jev-flaky-detective.md) | Jev classifies CI test failures without masking or auto-rerun. | TypeScript · Action (MIT) |
 | [Jev Flow](jev-flow.md) | Standalone studio for typed Jev workflows (Studio, Compendium, Battle Arena, labs). | Node.js · app (MIT) |
