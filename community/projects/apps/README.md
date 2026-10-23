@@ -3236,6 +3236,22 @@ Judge LinkedIn post writing with TypeSafe Jev (11–12 typed questions), then fo
 
 [Full Slop Mop guide](slop-mop.md) · [Source](https://github.com/tomfrazier/slopmop)
 
+### Smart Dark (adaptive dark mode with optional Jev screenshot checks)
+
+`Open source` · `Free source build`
+
+Chrome extension that darkens websites by using a site's own dark theme when it has one and otherwise rewriting its colours while keeping layout, hover states and brand colours; optional Jev screenshot checks decide whether a page should stay dark or return to its original look.
+
+**Jev's role:** Optional: Jev looks at a screenshot of the darkened page and decides whether to keep the dark theme or restore the original.
+
+**Platform:** Chrome desktop, loaded unpacked from a release zip or source build; not on the Chrome Web Store.
+
+**Product:** [github.com/ThrownLemon/smart-dark](https://github.com/ThrownLemon/smart-dark)
+
+**Pricing / access:** Open source (MIT); free to load from a release or source. Jev checks use your own TypeSafe key and are capped at 30 image checks per UTC day. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full Smart Dark (adaptive dark mode with optional Jev screenshot checks) guide](smart-dark.md) · [Source](https://github.com/ThrownLemon/smart-dark)
+
 ### Smart Find
 
 `Open source` · `Free source build` · `BYOK`
