@@ -690,6 +690,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevci (sumant1122)](sumant1122-jevci.md) | Sub-second CI/diff/commit/doc quality gate powered by TypeSafe Jev System One (score+noul). | CLI · CI gate (MIT) |
 | [jevcompat](jevcompat.md) | Spec + conformance suite for Jev-compatible `/v1/systemone` servers (proxy, mock, Action). | Python · suite + GitHub Action (MIT) |
 | [JevCore Agent](carter1111-jevcore.md) | Coding harness: TypeSafe Jev classifies task/risk/mode; hard-policy Guard; MCP + `npx jevcoreagent`. | JavaScript · npm CLI/MCP (Apache-2.0) |
+| [jevctl (Jev judgments for agents from a CLI or MCP tool)](jevctl.md) | Small Rust CLI and single generic MCP tool that give coding agents fast semantic judgments: shared JSON context plus batched boolean, select and scale questions, answered by Jev with TypeSafe models and API details kept internal. | Rust CLI and MCP server (MIT) |
 | [jevcut](jevcut.md) | Turn long talk videos into ranked short clips: code lists cut edges; TypeSafe Jev judges standalone worth. | Python · CLI (`jevcut`, MIT) |
 | [jevdedup](jevdedup.md) | Get a duplicate-file report with Jev's verdict and raw probabilities next to the classic hash checks. | TypeScript (Bun) · CLI (MIT) |
 | [jevdev](jevdev.md) | Rust coding-agent harness centered on TypeSafe Jev System One (HTTP or local transport). | Rust · crate/CLI (Apache-2.0) |
