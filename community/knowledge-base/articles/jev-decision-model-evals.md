@@ -1,6 +1,6 @@
 # Use Jev as an eval judge: tune thresholds and check calibration
 
-An automated eval asks the same yes-or-no question about every trace: did this agent run contain a real failure? Decision models such as Jev can answer it with a probability, at a fraction of an LLM judge's cost. Whether that probability is usable depends on two things this guide makes routine: a threshold chosen on labelled traces against minimum precision and recall, and a check that the scores mean what they appear to mean.
+An automated eval asks the same yes-or-no question about every trace: did this agent run contain a real failure? Decision models such as Jev can answer it with a probability; the source compares the input-token cost and measured quality for one dataset. Whether that probability is usable depends on two things this guide makes routine: a threshold chosen on labelled traces against minimum precision and recall, and a check that the scores mean what they appear to mean.
 
 **Based on:** [“How To Use Decision Models for Evals”](https://hamel.dev/blog/posts/decision-model-evals/) by Hamel Husain ([@HamelHusain](https://x.com/HamelHusain)) and Antaripa Saha, published on hamel.dev on **20 October 2026** and read in full on **23 October 2026**. The post compares Jev 1.13 with five other decision models and publishes its saved scores and labels. Guide by **Appit Studio**, with AI-assisted research, drafting and an offline reproduction of the post's Jev numbers; no human reviewer is recorded.
 
@@ -24,15 +24,16 @@ The authors are careful about scope: one broad failure question, a small dataset
 
 ### What we reproduced for Jev
 
-The post publishes its saved scores and labels as JSON. Recomputing Jev's numbers from that file, without model calls:
+The post publishes its [saved scores and labels as JSON](https://hamel.dev/blog/posts/decision-model-evals/charts/chart-data.json). Recomputing Jev's numbers from that file, without model calls:
 
 | Jev 1.13 on 98 traces | Precision | Recall | F1 |
 | --- | --- | --- | --- |
 | Default threshold 0.50, full sample | 0.711 | 0.885 | 0.788 |
-| Tuned by cross-validation, held-out average (ours) | 0.718 | 0.867 | 0.779 |
+| Default 0.50, mean over our held-out folds | 0.714 | 0.886 | 0.788 |
+| Tuned, mean over our held-out folds | 0.725 | 0.854 | 0.778 |
 | Tuned by cross-validation, held-out average (post) | 0.711 | 0.867 | 0.781 |
 
-No single threshold on the full sample gives Jev both 80% precision and 80% recall. Its best in-sample F1, 0.817 at a threshold of 0.40, does not survive cross-validation. For Jev on this task, tuning did not beat the default, because its scores were already centred near 0.50. That is a useful negative result: tuning is a check you run, not a guaranteed gain. The post's other models show the opposite case, with large gains from moving far below 0.50.
+Our rows use the condensed helper below, averaging metrics over 100 held-out folds; the post averages its own repeated split results. The splits, selection constraints and aggregation differ, so this is a method check rather than an exact replay of the authors' audit. No single threshold on the full sample gives Jev both 80% precision and 80% recall. Its best in-sample F1, 0.817 at a threshold of 0.40, does not survive cross-validation. For Jev on this task, tuning did not beat the default, because its scores were already centred near 0.50. That is a useful negative result: tuning is a check you run, not a guaranteed gain. The post's other models show the opposite case, with large gains from moving far below 0.50.
 
 ## Build a Jev eval judge
 
@@ -61,6 +62,8 @@ def cv_threshold(rows, min_p=0.8, min_r=0.8, repeats=20, seed=0):
     """rows: (score, is_failure). Returns held-out (p, r, f1) per fold and whether minimums were feasible."""
     rng, results = random.Random(seed), []
     pos = [x for x in rows if x[1]]; neg = [x for x in rows if not x[1]]
+    if min(len(pos), len(neg)) < 5:
+        raise ValueError("Five-fold stratification needs at least five examples of each class")
     for _ in range(repeats):
         rng.shuffle(pos); rng.shuffle(neg)
         folds = [pos[k::5] + neg[k::5] for k in range(5)]
@@ -73,15 +76,19 @@ def cv_threshold(rows, min_p=0.8, min_r=0.8, repeats=20, seed=0):
     return results
 ```
 
-When no threshold meets both minimums on a training fold, this falls back to the best F1 and marks the fold infeasible, which is what the post's audit does. Count infeasible folds and report them. A model that is infeasible in most folds does not meet your requirements, whatever its average F1. Reuse the same splits for every model you compare. Replace F1 with a weighted metric if a missed failure and a false alarm do not cost the same; the authors explicitly warn against using F1 just because their post did.
+When no threshold meets both minimums on a training fold, this sketch records the best-F1 fallback for diagnosis and marks the fold infeasible. The source applies constrained selection to its three candidate models; its non-candidates, including Jev, are always tuned without constraints. This helper applies the stated minimums to any supplied model, so its infeasibility count is our diagnostic, not the source's Jev audit count. A fallback never authorizes deployment below the minimums. Count infeasible folds and report them. A model that is infeasible in most folds does not meet your requirements, whatever its average F1. Reuse the same splits for every model you compare. Replace F1 with a weighted metric if a missed failure and a false alarm do not cost the same; the authors explicitly warn against using F1 just because their post did.
 
 ### 4. Check calibration before reading scores as confidence
 
 If you will act on a score itself, for example paging someone only above 0.9, group traces by predicted probability and compare each group's mean prediction with its observed failure rate. The post's second prompt fits Platt scaling inside cross-validation and reports Brier scores before and after. Keep the adjusted mapping only if it improves held-out Brier score: Jev barely changed in the post, and OpenAI Decisions got slightly worse with the version of Platt scaling used. TypeSafe's [confidence documentation](https://docs.typesafe.ai/confidence) notes that a Noul returns a probability and no separate `confidence` field. Calibration on your labels is what turns that probability into something you can quote.
 
-### 5. Put the tuned threshold into CI
+### 5. Carry the evaluated policy into CI
 
-[jev-judge](../../projects/tools/jev-judge.md) is an **independent JevList suggestion**, not named by the authors, that runs Jev Noul and Score assertions from YAML in CI and compares each probability with a threshold. At the catalog's pinned commit, an assertion without its own threshold uses 0.75. Set each threshold from step 3 instead. Re-tune whenever the prompt, the model version or the kind of traces changes, and keep a held-out set of labelled traces outside prompt iteration, as the authors advise for prompt optimisation.
+Write the frozen question, model ID, event definition and threshold to a versioned policy file. If no usable threshold meets your requirements, CI should report that result and leave automated acceptance disabled. Keep a final test set outside prompt, threshold and calibration development. A service error or missing answer is unavailable evidence and must fail the run or produce an explicit incomplete status.
+
+[Typed Evals](../../projects/tools/typed-evals.md) is an **independent JevList suggestion**, not named by the authors, for collecting custom Noul judgments over supplied responses and recorded traces. The MIT Python 3.11+ package uses the official SDK, exposes each metric's raw probability, model ID and usage, and rejects missing answers by default. Live evaluation needs a TypeSafe key, sends the supplied evidence to TypeSafe and incurs inference charges. Its presets do not reproduce the article's failure rubric or tune thresholds for you.
+
+Keep the event direction explicit. This guide flags a failure when `p_failure >= threshold`; Typed Evals marks a metric `passed` when its score is at least its threshold. If a custom metric asks whether a failure occurred, use its raw Noul value with your failure policy and do not interpret `passed=True` as a healthy trace. A pass-oriented rubric changes the event and needs matching labels and its own evaluation. We inspected the pinned implementation without installing or running it.
 
 ## Copyable build prompt
 
@@ -95,6 +102,11 @@ Inputs:
 - Minimums: precision >= [0.80], recall >= [0.80]; cost of a miss vs a
   false alarm: [RATIO]
 - Pinned model: jev-1.13.0 (or the dated version you will deploy)
+- Stack: Python, TypeSafe SDK; optional scikit-learn for Platt scaling
+- Live scoring: OFF by default; TypeSafe key, authorized trace content,
+  request cap [N], retry cap [R], spend limit [AMOUNT] before opt-in
+- Reserve a grouped final test set outside all prompt/threshold/calibration
+  development; related conversations must stay in the same pool
 
 Read first:
 - https://hamel.dev/blog/posts/decision-model-evals/ (method, prompts, appendix)
@@ -113,10 +125,16 @@ Steps:
 4. Calibration: reliability table of ~5 groups, Brier score before and
    after cross-validated Platt scaling on log-odds; keep it only if
    held-out Brier improves.
-5. Write the chosen threshold and prompt version to a config file used by
-   CI.
-6. Offline tests on fixture scores: all-pass labels, infeasible minimums,
-   ties at the threshold.
+5. Only if requirements are feasible, freeze the threshold, mapping and
+   prompt/model versions; evaluate once on the untouched final test.
+   Otherwise report no deployable operating point.
+6. Write saved scores, split manifest, CV report, calibration report and
+   versioned policy JSON. CI uses p_failure >= threshold to flag failures;
+   missing answers and API errors are explicit incomplete/failed results.
+7. Offline fixtures: all-pass/all-fail labels or fewer than five of either
+   class reject five-fold tuning; check infeasible minimums, threshold ties,
+   a malformed/missing Noul and a failed call. Never deploy fallback F1
+   merely because it was recorded for comparison.
 
 Do not call the model during tuning. Do not relax the minimums silently.
 State that results apply to this dataset, prompt and model version.
@@ -124,9 +142,9 @@ State that results apply to this dataset, prompt and model version.
 
 ## Validation and limits
 
-- **Source inspected:** the complete post with footnotes and appendix, and its published JSON files. The traces are private, so the scores could be recomputed but not regenerated. The post states no sponsorship; the tested models are its subject, not its funders.
-- **Offline reproduction:** from the post's `chart-data.json`, Jev's default-threshold precision, recall and F1, the absence of a full-sample 80/80 threshold, and the raw Brier score 0.187 match the post. An independent cross-validation with our own seed gave held-out F1 0.779, close to the post's 0.781. The condensed sketch above, run on the same file, gives held-out F1 0.778, with 70 of 100 training folds unable to meet both minimums.
-- **Not tested:** any decision-model call, new traces or labels, a calibration fit, latency or cost. Every non-Jev figure is the authors'.
+- **Source inspected:** the complete post with footnotes and appendix, and its published JSON files. The traces are private, so the scores could be recomputed but not regenerated. The post does not disclose sponsorship or a vendor relationship; absence of a disclosure does not establish funding independence. The page promotes the authors' paid evals course, which this guide does not require.
+- **Offline reproduction:** from the post's `chart-data.json`, Jev's default-threshold precision, recall and F1, the absence of a full-sample 80/80 threshold, and the raw Brier score 0.187 match the post. The condensed sketch above, re-run on the same file with its fixed seed, gives mean held-out F1 0.778, against 0.788 for the default on the same folds, with 70 of 100 training folds unable to meet both minimums. Empty, single-class and undersized-class inputs are rejected; a score exactly on the threshold is flagged.
+- **Not tested:** any decision-model call, new traces or labels, a calibration fit, Typed Evals execution, latency or cost. Every non-Jev figure is the authors'.
 - **Design limits:** 98 traces with 61 failures give wide uncertainty; one broad question mixes many failure modes; cross-validation on one dataset does not predict another.
 
 ## Adoption questions
@@ -157,9 +175,9 @@ No. Threshold tuning and calibration run on the scores you already saved alongsi
 
 ## Sources, credits and corrections
 
-- **Main source:** [“How To Use Decision Models for Evals”](https://hamel.dev/blog/posts/decision-model-evals/), Hamel Husain and Antaripa Saha, 20 October 2026, with its published scores, labels, calibration data and threshold audit. The method, minimums, prompts, model comparison and calibration results are the authors'. The Jev reproduction table, the condensed cross-validation sketch and the CI hand-off are Appit Studio's additions.
+- **Main source:** [“How To Use Decision Models for Evals”](https://hamel.dev/blog/posts/decision-model-evals/), Hamel Husain and Antaripa Saha, 20 October 2026, with its published scores, labels, calibration data and threshold audit. The method, minimums, prompts, model comparison and calibration results are the authors'. The Jev reproduction table, the condensed cross-validation sketch and the CI hand-off are Appit Studio's additions. The source page also promotes a paid evals course; it is not a prerequisite for this guide.
 - **API references:** [Noul](https://docs.typesafe.ai/primitives/noul), [confidence](https://docs.typesafe.ai/confidence) and [models](https://docs.typesafe.ai/models), checked 23 October 2026.
-- **Editorial connection:** [jev-judge](https://github.com/00200200/jev-judge/tree/5d4ac63cad80a87b4c7930aeb49fd607372fb671), MIT, suggested by JevList; not named by the source, and no affiliation with its maintainer is claimed.
+- **Editorial connection:** [Typed Evals](https://github.com/TrustifAI/typed_evals/tree/0d54b0ab612127d82034bbb00331fb667b12210f), MIT, suggested by JevList; not named by the source, and no affiliation with its maintainer is claimed. It replaces the earlier jev-judge suggestion: that pinned client's `choices` parser supplies success-shaped defaults for missing current-format `answers`, so it is unsuitable for the proposed CI hand-off without repair.
 - **Image:** original Appit Studio diagram, dedicated to CC0 1.0. The post's charts and cover are not reused.
 
 Appit Studio wrote this guide with AI assistance; no human reviewer, source-author endorsement or paid placement is claimed. Propose evidence-backed corrections through the [contribution process](../../../CONTRIBUTING.md).

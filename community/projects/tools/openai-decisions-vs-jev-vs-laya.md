@@ -52,5 +52,5 @@ Reviewed **2026-10-08** (Europe/Sofia) at [commit b9d296e97b4e](https://github.c
 <!-- knowledge:backlinks:start -->
 ## Knowledge guides
 
-- [Plan the hosted Jev boundary: state, transfers, latency and fallbacks](../../knowledge-base/articles/jev-hosted-deployment-boundary.md) — Independently suggested by JevList; not an endorsement by Maarten Vandeperre (Red Hat Developer). Measure hosted round-trip latency and compare a local decision model on the same cases before relying on either.
+- [Plan the hosted Jev boundary: state, transfers, latency and fallbacks](../../knowledge-base/articles/jev-hosted-deployment-boundary.md) — Independently suggested by JevList; not an endorsement by Maarten Vandeperre. Measure hosted round-trip latency and compare a local decision model on the same cases before relying on either.
 <!-- knowledge:backlinks:end -->

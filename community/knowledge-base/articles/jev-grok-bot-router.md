@@ -1,8 +1,8 @@
 # Wire Jev into Grok Bot: a shadow-first router skill
 
-A Grok Bot agent can waste most of its budget on predictable mistakes: reopening a browser for a file it already has, reading more sources than the question needs, or repeating an approach that already failed the same way. This guide adds one Jev router in front of those steps, logs its advice for a week, and then lets it skip work only where code-owned thresholds and the log support it.
+A Grok Bot agent can waste its budget on predictable mistakes: reopening a browser for a file it already has, reading more sources than the question needs, or repeating an approach that already failed the same way. This guide adds one Jev router in front of those steps, logs its advice for a week, and then lets it skip work only where code-owned thresholds and the log support it.
 
-**Based on:** [“How To Wire Jev Into Grok Bot: The Best Agent I've Built”](https://x.com/0x_rody/article/2112558839589417355) by [rody (@0x_rody)](https://x.com/0x_rody), published **20 October 2026** and read in full on **23 October 2026**. Guide by **Appit Studio**, with AI-assisted research, drafting and offline checks; no human reviewer is recorded. rody also wrote the source of our [project ideas guide](jev-project-ideas.md); this is a different article.
+**Based on:** [“How To Wire Jev Into Grok Bot: The Best Agent I've Built”](https://x.com/0x_rody/article/2112558839589417355) by [rody (@0x_rody)](https://x.com/0x_rody), published **20 October 2026** and read in full on **23 October 2026**. Guide by **Appit Studio**, with AI-assisted research, drafting and offline checks; no human reviewer is recorded. rody also wrote the source of our [project ideas guide](jev-project-ideas.md); this is a different article. The linked Zodchi Substack republishes this router article under the byline **Zodchi**, dated **22 October 2026**, with the same seven-step workflow; we read both versions in Chrome.
 
 ## Key takeaways
 
@@ -70,6 +70,8 @@ def route(goal, task_type, last_error, repeats, *, step_kind, artifact, sources,
     except (TypeSafeError, KeyError) as e:
         return {"action": "proceed", "by": "fallback", "error": type(e).__name__}
     action = a.choice
+    if action not in {"proceed", *FLOOR}:
+        return {"action": "proceed", "by": "fallback", "error": "unknown_action"}
     if action != "proceed" and a.confidence < FLOOR[action]:
         action = "proceed"   # an uncertain skip falls back to the normal work
     if action == "reuse_cache" and not artifact:
@@ -78,7 +80,7 @@ def route(goal, task_type, last_error, repeats, *, step_kind, artifact, sources,
             "confidence": a.confidence, "probabilities": dict(a.probabilities)}
 ```
 
-The caller appends each return value, the inputs and a timestamp to `decisions.jsonl`, as the article suggests. The floors are placeholders: `confidence` is a statistic of the probability spread, defined in the [confidence documentation](https://docs.typesafe.ai/confidence), not a probability that the skip is correct. Its scale also depends on the number of options. Fix the values from the shadow log in step 5.
+The caller derives `step_kind` from trusted tool metadata and checks artifact existence, freshness and relevance before supplying its description as `artifact`; a nonempty string alone is not validation. The host still applies its normal permissions to every tool. The caller appends each return value, the inputs and a timestamp to `decisions.jsonl`, as the article suggests. The floors are placeholders: `confidence` is a statistic of the probability spread, defined in the [confidence documentation](https://docs.typesafe.ai/confidence), not a probability that the skip is correct. Its scale also depends on the number of options. Fix the values from the shadow log in step 5.
 
 The failure direction matters. Every uncertain, missing or failed answer becomes `proceed`, which is the work the agent would have done without a router. No answer can remove the approval for a side effect.
 
@@ -86,13 +88,13 @@ The failure direction matters. Every uncertain, missing or failed answer becomes
 
 Write the skill as the article describes: trigger before browser sessions, research passes, retries and extra bots; call `route()`; honour the returned action; write one line per decision into the run report. Keep the skill and router in your own repository and treat the copy on the Grok Bot computer as a deployment. A skill is an instruction the agent follows, not an interceptor. If the agent skips the call, nothing enforces it.
 
-[Grok Bot Jev](../../projects/tools/grok-bot-jev.md) is an **independent JevList suggestion** that already packages this shape. rody does not name it. At the catalog's pinned commit, its `jev-usage-router` skill, shadow and active modes, `enabled: false` switch and `bypass jev` marker closely match the article. Its router also checks in code that a cached artifact exists before honouring `reuse_cache`. It defaults to `jev-latest` and to illustrative thresholds; pin both before relying on it. If your concern is consequential tool calls rather than wasted retries, [grok-jev-guard](../../projects/tools/grok-jev-guard.md) puts local hard stops for secrets, deletion and payments ahead of Jev and returns a narrower action envelope.
+[Grok Bot Jev](../../projects/tools/grok-bot-jev.md) is an **independent JevList suggestion** that already packages this shape. **MIT source; Python, typesafe-sdk and PyYAML; enabled runs need a TypeSafe key and may incur inference charges.** rody does not name it. At the catalog's pinned commit, its `jev-usage-router` skill, shadow and active modes, `enabled: false` switch and `bypass jev` marker provide a related rollout scaffold. Its implementation uses five questions (Choice, Noul and Score), rather than the article's single Choice. Cache reuse checks a supplied boolean, not the filesystem or artifact age; code must verify those facts before setting it. The package's `ask_human` branch follows cache reuse and retry-stop branches, and provider or missing-answer failures are not caught there. Add the code-side approval and failure handling shown here before adapting it. It defaults to `jev-latest` and to illustrative thresholds; pin both before relying on it. Goals, cache notes and errors are transmitted to TypeSafe, and the local logs include task text without automatic redaction. If your concern is consequential tool calls rather than wasted retries, [grok-jev-guard](../../projects/tools/grok-jev-guard.md) puts local hard stops for secrets, deletion and payments ahead of Jev and returns a narrower action envelope. It is **MIT source for Python 3.11+**, with a TypeSafe key and separate inference charges for live judgments; we did not run it.
 
 ### 5. Run a shadow week and read the disagreements
 
 In shadow mode the router is called, logged and ignored. Shadow mode is not free or offline: every call still sends the state to TypeSafe and may be billed. Only `enabled: false` stops the calls.
 
-At the end of the week, label a sample of logged decisions by what actually happened. Did a retry the router wanted to stop later succeed? Did the agent reuse the artifact anyway, and was it current? Did the capped research miss something the final answer needed? For each action, choose the lowest confidence floor at which the skips you would have accepted outnumber the harmful ones by the margin you need, and leave actions with too few examples at `proceed`. The article's week is a reasonable minimum for a busy routine. A routine that fires a few times a day needs longer before its log says much.
+At the end of the week, label a sample of logged decisions by what actually happened. Did a retry the router wanted to stop later succeed? Did the agent reuse the artifact anyway, and was it current? Did the capped research miss something the final answer needed? Separate labelled examples for choosing floors from later, untouched examples for evaluating them. For each action, account for the cost of an incomplete task, extra review and router calls as well as saved work; a majority of helpful skips alone is not enough. Choose floors on the tuning examples, report harmful skips and completion on the held-out examples, and leave actions with too few examples at `proceed`. The article's week is a reasonable minimum for a busy routine. A routine that fires a few times a day needs longer before its log says much.
 
 ### 6. Go active with a kill switch, and keep logging
 
@@ -137,19 +139,20 @@ Requirements:
    confidence, what the agent actually did) to decisions.jsonl and copy it
    to my repo daily.
 8. Offline tests with a mocked transport: side effect, confident skip,
-   floored skip, missing artifact, HTTP 500, missing answer, kill switch.
+   floored skip, missing artifact, HTTP 500, timeout, connection failure, missing answer, unknown action,
+   kill switch.
 9. Daily shadow report: call count, action split, and every disagreement
    between the logged action and what the agent did.
 
 Do not switch to active mode. I will choose per-action floors after
-reviewing at least a week of shadow logs. Report what was tested offline
+reviewing at least a week of shadow logs and an untouched evaluation set. Report what was tested offline
 versus what still needs live traffic.
 ```
 
 ## Validation and limits
 
-- **Source inspected:** the complete article and all seven code blocks, read through the X API on 23 October 2026. The shared-computer limit was checked against the Grok Bot overview; the masked secret flow and the 20-run-record limit were not independently confirmed.
-- **Offline example tested:** the router sketch above ran against a mocked HTTP transport with `typesafe-sdk` 0.7.5. Seven cases passed: code-side `ask_human` without a request, a confident `stop_retry`, a floored `stop_retry`, `reuse_cache` rejected without an artifact and accepted with one, and HTTP 500 and missing-answer fallbacks. Grok Bot Jev's dry run with `enabled: false` exited 0 with no Jev call.
+- **Source inspected:** the complete X article and all seven code blocks, read in logged-in Chrome on 23 October 2026, plus the full linked Substack republication (Zodchi, 22 October). The shared-computer limit was checked against the Grok Bot overview; the masked secret flow and the 20-run-record limit were not independently confirmed.
+- **Offline example tested:** the router sketch above ran against a mocked HTTP transport with `typesafe-sdk` 0.7.5. Ten cases passed during this audit: code-side `ask_human` without a request, a confident `stop_retry`, a floored `stop_retry`, `reuse_cache` rejected without an artifact and accepted with one, and HTTP 500, timeout, connection, missing-answer and unknown-action fallbacks. The earlier guide check recorded Grok Bot Jev's dry run with `enabled: false` exiting 0 with no Jev call; this audit re-inspected the pinned source and did not repeat that package run.
 - **Not tested:** live TypeSafe calls, installing the skill in Grok Bot, a shadow week, active mode, cost or latency. The floors in the sketch are placeholders. We make no claim that this router reduces usage; the article makes none either, and asks readers to measure it.
 - **Design limits:** the router adds a network call before every triggered step. A skill can be ignored by the agent. Confidence floors tuned on one routine and one model version do not transfer to another.
 
@@ -182,6 +185,7 @@ No. Shadow mode still sends each router state to TypeSafe and may be billed; it 
 ## Sources, credits and corrections
 
 - **Main source:** [rody's X article](https://x.com/0x_rody/article/2112558839589417355), 20 October 2026. The seven-step structure, five actions, four-field state, shadow week and kill switches are the author's. Moving side effects into code, adding artifact and source facts to the state, pinning the model and the failure defaults are Appit Studio's editorial additions.
+- **Republication:** [Zodchi on Substack](https://zodchiii.substack.com/p/how-to-wire-jev-into-grok-bot-the), 22 October 2026. Its workflow and code match the X version, with small wording changes. This does not grant permission to reuse its images.
 - **Platform and API references:** [Grok Bot overview](https://cursor.com/docs/grok-bot), [Choice](https://docs.typesafe.ai/primitives/choice), [confidence](https://docs.typesafe.ai/confidence) and [models](https://docs.typesafe.ai/models), checked 23 October 2026.
 - **Editorial connections:** [Grok Bot Jev](https://github.com/Bodila51/grok-bot-jev/tree/1583e09928c138aeac0aa89818c67ea41f08e807) and [grok-jev-guard](https://github.com/0xwhrari/grok-jev-guard/tree/6083fb0584ffc61857fac755447e93d121925b48), both MIT, suggested by JevList. Neither is named or endorsed by the source author, and no affiliation with their maintainers is claimed.
 - **Image:** original Appit Studio diagram, dedicated to CC0 1.0. The article's cover is not reused.

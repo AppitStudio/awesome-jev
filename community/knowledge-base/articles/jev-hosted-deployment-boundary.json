@@ -17,8 +17,8 @@
     "title": "Jev: Bounded semantic judgments for messy text",
     "url": "https://developers.redhat.com/articles/2026/10/20/jev-bounded-semantic-judgments-messy-text",
     "author": {
-      "name": "Maarten Vandeperre (Red Hat Developer)",
-      "url": "https://developers.redhat.com"
+      "name": "Maarten Vandeperre",
+      "url": "https://developers.redhat.com/author/maarten-vandeperre"
     },
     "published_at": "2026-10-20",
     "accessed_at": "2026-10-23"
@@ -66,16 +66,17 @@
       "why": "The proof of concept routes the same typed decisions through a DecisionClient abstraction to hosted Jev, local models or a stub, in the Java and Quarkus stack the source's planned part 2 is expected to use. The source does not name it.",
       "evidence": [
         "https://github.com/kdubois/quarkus-langchain4j-jev-laya/blob/f312884dbeffeb226a74aab2fe8ee0c9afc076e9/README.md",
-        "https://github.com/kdubois/quarkus-langchain4j-jev-laya/blob/f312884dbeffeb226a74aab2fe8ee0c9afc076e9/src/main/java/com/tripplanner/poc/jev/DecisionClient.java"
+        "https://github.com/kdubois/quarkus-langchain4j-jev-laya/blob/f312884dbeffeb226a74aab2fe8ee0c9afc076e9/src/main/java/com/tripplanner/poc/jev/DecisionClient.java",
+        "https://github.com/kdubois/quarkus-langchain4j-jev-laya/blob/f312884dbeffeb226a74aab2fe8ee0c9afc076e9/src/main/java/com/tripplanner/poc/jev/ActiveDecisionClient.java"
       ],
-      "limitations": "Proof of concept on beta Quarkus and LangChain4j versions, not a library. The reviewed tree has no LICENSE file, so reuse terms are not granted. Needs OPENAI_API_KEY and TYPESAFE_API_KEY for hosted paths. Local backends are not the official Jev model and must be evaluated separately. Source inspected; not executed."
+      "limitations": "Proof of concept on beta Quarkus and LangChain4j versions, not a library. The reviewed tree has no LICENSE file, so reuse terms are not granted. Needs OPENAI_API_KEY and TYPESAFE_API_KEY for hosted paths. Local backends are not the official Jev model and must be evaluated separately. Source inspected; not executed. ActiveDecisionClient falls back to a deterministic stub on backend errors or missing Jev configuration; this is not a validated production substitute or review lane. Inspect backend/live provenance. HTTP operation timeouts do not enforce a whole-step deadline."
     }
   ],
   "verification": {
-    "source": "Read the complete Red Hat Developer article by Maarten Vandeperre on 2026-10-23, including its request examples, the hosted-deployment section and the note that part 2 is planned. No verified X handle was found, so the author is credited by name. The article's figures are labelled as created by the author with Claude by Anthropic and are not reused. It also promotes a Red Hat model distribution; that claim was not checked and is not repeated here. Original CC0 diagram created.",
-    "offline": "Wrote a 40-line Python lane policy with the official typesafe-sdk 0.7.5 and ran six offline tests through a mock transport: high, middle and low Noul probabilities map to the three lanes; a 503 response, a connection timeout and a missing answer all land in the review lane; the request carries only allowlisted order fields, not name, email or card data. Checked TypeSafe's launch post (service currently on the US West Coast; published speed evals run from there), the data processing addendum (EU SCCs and UK Addendum for international transfers), the subprocessor list, the legal docs page (no training on user data; zero data retention for enterprise) and the models page.",
+    "source": "Read the complete Red Hat Developer article in logged-in Chrome on 2026-10-23, including its three-question example, pseudocode, original-figure credits and hosted-only discussion. Source figures are not reused; the existing original CC0 diagram was visually inspected. Read the pinned benchmark README/adapter and Quarkus README/ActiveDecisionClient separately from the source article.",
+    "offline": "Replayed the guide sketch using typesafe-sdk 0.7.5 and httpx2.MockTransport: high/middle/low probabilities reached their lanes; 503, connection timeout, missing answer and wrong answer type reached review. Each case made one transport attempt with RetryPolicy(max_retries=0). Checked the outgoing allowlist and last-three-message truncation. Zero network calls; no wall-clock deadline or real latency measurement.",
     "live": "No Jev request, latency measurement, legal review or transfer assessment was performed. The lane thresholds are placeholders.",
-    "review": "AI-assisted editorial review; no human reviewer and no legal advice. No keyword tool or Search Console data was consulted. Distinguished from the decision-layer guide (judgment versus permission in agents) and the Jev vs LLMs guide (choosing code, Jev or an LLM) by focusing on the hosted deployment boundary: data minimisation, transfer review, latency budgets and outage behaviour."
+    "review": "AI-assisted source and pinned-code audit; no human or legal reviewer. Ahrefs browser required sign-in after a session limit, so keyword metrics and plan eligibility were unavailable. Reviewed existing knowledge-page query wording in Search Console without publishing private metrics; no exact hosted-boundary query evidence warranted changing this stable URL. Hosting location and terms are dated provider statements, not a compliance assessment."
   },
   "faqs": [
     {

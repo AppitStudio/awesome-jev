@@ -1,6 +1,6 @@
 # Gate an n8n news brief with Jev: three questions, one filter, visible failures
 
-A daily digest is only useful if it stays quiet when nothing happened. The pattern here puts a cheap Jev judgment between a wide search and an expensive summary: three bounded questions per article, combined in an ordinary n8n filter, with the thresholds in one Config node. This guide explains the template's gate, how to tune it, and one change we recommend before trusting its silence.
+A daily digest is only useful if it stays quiet when nothing happened. The pattern here puts a cheap Jev judgment between a wide search and an expensive summary: three bounded questions per article, combined in an ordinary n8n filter, with the thresholds in one Config node. This guide explains the template's gate, how to tune it, and changes we recommend before trusting its silence.
 
 **Based on:** [“Build a morning AI news brief with You.com, Jev, and n8n”](https://blog.n8n.io/spotlight-you-com/), a Verified Node Spotlight guest post by **Tyler Eastman** of You.com, published by the [n8n team](https://blog.n8n.io/author/marketing/) on **13 October 2026** and read on **23 October 2026**, together with its [public workflow template](https://n8n.io/workflows/20558-send-weekday-ai-news-briefs-to-slack-with-youcom-and-typesafe-jev/). **Disclosure:** the post is a vendor guest post promoting You.com's own n8n node on n8n's blog. Guide by **Appit Studio**, with AI-assisted research, drafting and an offline simulation; no human reviewer is recorded.
 
@@ -18,6 +18,8 @@ For the same gate in Python, see [the decision-gate guide](jev-decision-gate.md)
 
 Every weekday at 8am, the workflow searches each Config topic with the You.com node, 15 results from the past day per topic. A Set node normalises each article, and a Remove Duplicates node drops URLs seen in earlier runs. An HTTP Request node then posts one request per article to TypeSafe's `/v1/systemone` endpoint with `model: "jev-latest"`. The `state` holds the watch context from Config (topic, team, what it cares about) and the article's title, description, URL and publication time. It asks three questions:
 
+**Check which export you import.** On 23 October 2026, the n8n template library still exported the HTTP Request version described here. Its page also links Tyler Eastman's [MIT-licensed companion repository](https://github.com/youdotcom-oss/n8n-ai-brief-workflow/tree/2359416d502a5e732df74a6e9be42c38b1d4b81d), whose `workflow.json` already uses TypeSafe's official Evaluate node. Both keep the same three filter fields, `jev-latest`, early deduplication and `continueRegularOutput` error setting. Apply HTTP-body edits to the library export and node-field edits to the companion; they are different snapshots of the same workflow. The repository also documents the author's threshold evaluation; its results are not a measurement of your team's feed.
+
 | Question | Type | What counts | Template filter |
 | --- | --- | --- | --- |
 | `reports_new_development` | Noul, with true and false criteria and examples | One recent release, launch, law or ruling, not a tracker, roundup, explainer, ranking or opinion | probability ≥ 0.8 |
@@ -34,10 +36,12 @@ The source estimates about $0.00004 per article and $0.01 to $0.04 for a whole m
 
 The template's Jev node is set to continue on error, and the filter reads each answer with a default of 0. When the call fails, the item carries an error instead of answers, scores 0 on all three checks, and is dropped exactly like noise. Because deduplication runs before the Jev call, that article is already marked seen and will not be judged on the next run. A TypeSafe outage, an expired key or a rate limit therefore produces the same Slack channel as a quiet morning.
 
-Our offline simulation of the filter and node order shows both effects. Two changes fix them:
+Our offline simulation of the filter and node order shows both effects. Change the failure path and the point at which an item is marked seen:
 
-- **Use the error output.** Set the Jev node's error handling to continue using the error output, and connect that branch to a Slack or email alert, or at least a count included in the brief.
-- **Mark seen after judging.** Move Remove Duplicates after the Jev node's success output, keyed on the article URL from the earlier Prepare article node. Articles that errored stay unseen and can be judged on the next run, if search still returns them. The cost is re-judging articles that reappear in search, which at the source's estimate is a fraction of a cent per morning.
+- **Use the error output and validate answers.** Set the Jev node's error handling to continue using the error output, and connect that branch to an alert or review queue. On the regular output, require both Noul values to be finite numbers from 0 to 1 and the materiality score to be a finite number from 0 to 2. Missing or invalid answers also go to review; an HTTP success alone is insufficient.
+- **Mark seen after a valid judgment.** Move Remove Duplicates after answer validation and before the materiality filter. Use the normalised key `{{ $('Prepare article').item.json.urlKey }}` from the linked input item; the HTTP response does not retain `$json.urlKey`. Keep errored and malformed items out of that node. They remain eligible next time if search still returns them. Because the seen check now runs later, repeated articles can incur another Jev request before they are discarded; measure that cost.
+
+This repairs judgment-stage loss only. An item marked seen can still miss the brief if You.com Research or Slack fails later. Keep a durable retry queue for accepted articles and undelivered briefs if delivery matters. Do not clear all seen history as a delivery retry mechanism.
 
 We simulated this order offline; it has not been run in n8n, so test both branches with a forced error, such as a deliberately invalid key, before switching it on.
 
@@ -53,7 +57,7 @@ Before the filter, append each article's title, URL, topic, the two Noul probabi
 
 The template's sticky note warns that test runs mark articles as seen. Before the first real morning, clear the deduplication history once, as the note describes, or your first brief will skip everything you tested with.
 
-TypeSafe's own [n8n-nodes-typesafe-ai](../../projects/tools/n8n-nodes-typesafe-ai.md) package is an **independent JevList suggestion**, not used or named by the source. It can replace the raw HTTP Request with nodes that attach typed answers to each item or route on one. Re-check the filter's field names and the error branch if you swap it in.
+TypeSafe's own [n8n-nodes-typesafe-ai](../../projects/tools/n8n-nodes-typesafe-ai.md) package is an **independent JevList suggestion for the library export**: the blog does not name it, while the linked companion already uses it. Install `@typesafe-ai/n8n-nodes-typesafe-ai`, including the scope. Its Evaluate operation attaches answers to each item; Route branches on one question. Preserve the three-question Evaluate path for this brief and re-check the error branch and field names rather than replacing it with a single route question. You.com search/research, n8n hosting and Slack access have their own requirements and costs; free source code does not include those services or TypeSafe inference.
 
 ## Copyable build prompt
 
@@ -71,13 +75,19 @@ Read first:
 - https://n8n.io/workflows/20558-send-weekday-ai-news-briefs-to-slack-with-youcom-and-typesafe-jev/
 - https://docs.typesafe.ai/primitives/noul, https://docs.typesafe.ai/primitives/score,
   https://docs.typesafe.ai/confidence
+- https://github.com/youdotcom-oss/n8n-ai-brief-workflow/tree/2359416d502a5e732df74a6e9be42c38b1d4b81d
+- https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.removeduplicates/
 
 Changes:
-1. In the Jev HTTP Request body, replace jev-latest with the pinned model.
+1. Identify the export: template library uses HTTP Request; the linked
+   companion uses TypeSafe Evaluate. Pin the model in the corresponding
+   request body or node field.
 2. Set the Jev node to continue using the error output; send that branch to
    the alert destination with the count and first error message.
-3. Move "Skip articles already seen" after the Jev success output, keyed on
-   the URL from "Prepare article".
+3. Validate that both Nouls are finite numbers in [0,1] and materiality is
+   a finite number in [0,2]; send missing/invalid answers to review.
+   Then move "Skip articles already seen" before the materiality filter,
+   using {{ $('Prepare article').item.json.urlKey }} as the key.
 4. Before the filter, append topic, title, URL, both Noul values and the
    materiality score to a log table.
 5. Keep the three filter conditions; read their thresholds from Config.
@@ -87,7 +97,12 @@ Tests before going live:
   articles still unseen afterwards.
 - One normal run: expect logged rows for every article and briefs only for
   topics with survivors.
-- Clear deduplication history after testing.
+- A 200 response with missing answers: expect review and no seen marker.
+- A repeated valid article: expect no second brief; another judgment may
+  still be billed. Keep the original item linked so the key resolves.
+- A Research or Slack failure: retain accepted work in a retry queue;
+  seen history alone cannot recover delivery.
+- Clear deduplication history after testing in the test workflow only.
 
 Do not add credentials to the workflow JSON. Do not change thresholds until
 a week of rows has been labelled.
@@ -95,9 +110,10 @@ a week of rows has been labelled.
 
 ## Validation and limits
 
-- **Source inspected:** the complete post, and the public template through n8n's template API: every node, the Config values, the Jev request body, the filter conditions and node error settings.
+- **Source inspected:** the complete post in logged-in Chrome, the template page and its public API export, and the linked companion repository at `2359416`. The library export uses HTTP Request; the companion uses TypeSafe Evaluate. Both were inspected for Config, filters, deduplication order and error settings. Neither was imported into n8n.
 - **Offline simulation:** a Node.js 22 script reproduced the template's filter expressions and node order. Three passing answers keep an article; a minor score or a low development probability drops it; an error item is dropped too. With deduplication before judging, an article seen during an outage is not judged the next day. With the fixed order it is judged and posted, if search still returns it.
 - **Not tested:** importing or running the workflow in n8n, the You.com node, any Jev or Slack call, the error-output behaviour inside n8n, or the cost figures, which are the source's.
+- **Audit replay:** seven additional offline assertions checked a valid item, a low score, an error item, a missing answer, a nonnumeric answer, an out-of-range answer and a valid repeated item. The proposed validation leaves invalid/error items unseen. These authored cases test policy and bookkeeping, not n8n node execution, item linking, persistent history or successful delivery.
 - **Disclosure of the source:** a vendor guest post on a vendor blog; it describes You.com's verified node favourably and is not an independent evaluation.
 
 ## Adoption questions
@@ -130,6 +146,7 @@ No. The gate works on any list of items with a title and description. You.com su
 
 - **Main source:** [“Build a morning AI news brief with You.com, Jev, and n8n”](https://blog.n8n.io/spotlight-you-com/), guest post by Tyler Eastman (You.com), published by the n8n team, 13 October 2026, and its [public template](https://n8n.io/workflows/20558-send-weekday-ai-news-briefs-to-slack-with-youcom-and-typesafe-jev/). The filter-first design, the three atomic questions, the Config dial and the cost estimates are the author's. The question table, the failure-handling analysis and simulation, the logging and pinning advice are Appit Studio's additions.
 - **API references:** TypeSafe [Noul](https://docs.typesafe.ai/primitives/noul), [Score](https://docs.typesafe.ai/primitives/score), [confidence](https://docs.typesafe.ai/confidence) and [models and pricing](https://docs.typesafe.ai/models), checked 23 October 2026.
+- **Companion and execution reference:** Tyler Eastman's [workflow repository](https://github.com/youdotcom-oss/n8n-ai-brief-workflow/tree/2359416d502a5e732df74a6e9be42c38b1d4b81d) (MIT) and n8n's [Remove Duplicates documentation](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.removeduplicates/). The node migration in the companion is distinct from the library export; it preserves the failure settings analysed above.
 - **Editorial connection:** [n8n-nodes-typesafe-ai](https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b), MIT, suggested by JevList; no affiliation with TypeSafe, You.com or n8n is claimed.
 - **Image:** original Appit Studio diagram, dedicated to CC0 1.0.
 

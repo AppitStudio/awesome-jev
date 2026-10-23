@@ -2,7 +2,7 @@
 
 Jev answers bounded questions about messy text, but the official model runs only as TypeSafe's hosted API. Everything you put in the `state` leaves your network, every decision pays a round trip, and an outage at the provider becomes your outage unless code decides otherwise. This guide turns that boundary into four checks before production: minimise the state, review the transfer, budget the latency, and route failures to a safe lane.
 
-**Based on:** [“Jev: Bounded semantic judgments for messy text”](https://developers.redhat.com/articles/2026/10/20/jev-bounded-semantic-judgments-messy-text) by Maarten Vandeperre on [Red Hat Developer](https://developers.redhat.com), published **20 October 2026** and read in full on **23 October 2026**. The article uses a coffee shop to separate exact facts, semantic judgments and generated text, and closes with the hosted deployment boundary. Guide by **Appit Studio**, with AI-assisted research, drafting and offline tests; no human reviewer or legal review is recorded.
+**Based on:** [“Jev: Bounded semantic judgments for messy text”](https://developers.redhat.com/articles/2026/10/20/jev-bounded-semantic-judgments-messy-text) by [Maarten Vandeperre](https://developers.redhat.com/author/maarten-vandeperre) on [Red Hat Developer](https://developers.redhat.com), published **20 October 2026** and read in full on **23 October 2026**. The article uses a coffee shop to separate exact facts, semantic judgments and generated text, and closes with the hosted deployment boundary. Guide by **Appit Studio**, with AI-assisted research, drafting and offline tests; no human reviewer or legal review is recorded.
 
 ## Key takeaways
 
@@ -50,7 +50,7 @@ TypeSafe's launch post notes that its published speed evaluations are generally 
 A timeout, a provider error or a response missing the expected answer must not look like a confident "no". In this offline-tested sketch with the official Python SDK, each of those lands in review:
 
 ```python
-from typesafe_sdk import Noul, NoulCriteria, TypeSafeError
+from typesafe_sdk import Noul, NoulCriteria, RetryPolicy, TypeSafeError
 
 MODEL = "jev-1.13.0"            # pin a dated version; re-test before moving
 ALERT_AT, CLEAR_BELOW = 0.80, 0.20   # placeholders: set from your labelled examples
@@ -64,12 +64,13 @@ QUESTION = Noul(
     ),
 )
 
-def assess(order, messages, client, budget_s=2.0):
+def assess(order, messages, client, io_timeout_s=2.0):
     state = {k: order[k] for k in SENT_FIELDS if k in order}
     state["customer_messages"] = [m[:500] for m in messages[-3:]]
     try:
         r = client.system_one(state=state, questions={"manager_review": QUESTION},
-                              model=MODEL, timeout=budget_s)
+                              model=MODEL, timeout=io_timeout_s,
+                              retry=RetryPolicy(max_retries=0))
         p = r.nouls["manager_review"].noul
     except (TypeSafeError, KeyError) as e:
         return {"lane": "review", "by": "fallback", "error": type(e).__name__}
@@ -77,7 +78,9 @@ def assess(order, messages, client, budget_s=2.0):
     return {"lane": lane, "by": "jev", "p": p, "model": r.model}
 ```
 
-Count `by == "fallback"` results and alert on a rise: a silent switch to review is safer than a silent switch to "counter", but it still needs someone to notice. Refunds and other money movements stay outside this function, as the source recommends. If you add a local substitute for outages or data that cannot leave, put both behind one interface and evaluate the substitute on the same examples. The [quarkus-langchain4j-jev-laya](../../projects/tools/quarkus-langchain4j-jev-laya.md) proof of concept, another **independent JevList suggestion**, shows that shape in Java with hosted Jev, local models and a stub. It has no licence file, so read it rather than copying it.
+The call explicitly disables SDK retries: otherwise a failed attempt can be followed by backoff and more attempts after the intended step budget. The HTTP timeout applies to network operations, not a hard deadline for the whole workflow. Enforce an outer service deadline if that is required, and measure the complete step. A timeout also does not establish whether the provider performed billable work.
+
+Count `by == "fallback"` results and alert on a rise: a silent switch to review is safer than a silent switch to "counter", but it still needs someone to notice. Refunds and other money movements stay outside this function, as the source recommends. If you add a local substitute for outages or data that cannot leave, put both behind one interface and evaluate the substitute on the same examples. The [quarkus-langchain4j-jev-laya](../../projects/tools/quarkus-langchain4j-jev-laya.md) proof of concept, another **independent JevList suggestion**, shows that shape in Java with hosted Jev, local models and a stub. Its `ActiveDecisionClient` substitutes the deterministic stub after a backend exception or missing Jev configuration; that is a demo result, not a validated local-model or human-review fallback. Inspect its reported backend and `live` flag and replace the policy before relying on it. The repository has no licence file, so read it rather than copying it.
 
 ## Copyable build prompt
 
@@ -101,8 +104,9 @@ Read first:
 Steps:
 1. Build state from the allowlist only; truncate free text; keep IDs local.
    Add a test that fails if any other field is sent.
-2. Pin a dated model ID. Set the client timeout inside the budget; no
-   retries that would exceed it.
+2. Pin a dated model ID. Set the HTTP timeout inside the budget and disable
+   SDK retries with RetryPolicy(max_retries=0). Enforce any hard whole-step
+   deadline at the service boundary; an HTTP timeout alone is not that deadline.
 3. Map probabilities to lanes in code with placeholder thresholds; any
    error, timeout or missing answer goes to the review lane.
 4. Offline tests with the SDK's mock transport: each lane, 5xx, timeout,
@@ -119,7 +123,7 @@ changes. Do not claim the hosted model runs locally.
 ## Validation and limits
 
 - **Source inspected:** the complete article and its example requests. The article's figures are labelled as created by the author with Claude by Anthropic and are not reused. It also promotes a Red Hat model distribution as a self-hosted alternative; that claim was not checked and is not repeated here. A second part is planned and may refine the deployment advice.
-- **Offline tests:** the sketch above, with the official `typesafe-sdk` 0.7.5 and a mock transport, passed six cases: three lanes from high, middle and low probabilities; a 503, a connection timeout and a missing answer all routed to review; and a request containing only the allowlisted fields, with no name, email or card data.
+- **Offline tests:** the sketch above, with the official `typesafe-sdk` 0.7.5 and a mock transport, was rechecked on 23 October 2026: high, middle and low probabilities reached the three lanes; a 503, a connection timeout, a missing answer and a wrong answer type reached review. Each failure made one attempt, and outgoing state contained only the allowlisted fields and truncated messages. No network request or hard wall-clock deadline was tested.
 - **Documents checked:** TypeSafe's launch post, data processing addendum, subprocessor list, legal documentation page and models page, on 23 October 2026.
 - **Not tested:** any live Jev call, real latency from any region, the accuracy of the example question, or any legal assessment. The thresholds are placeholders.
 
