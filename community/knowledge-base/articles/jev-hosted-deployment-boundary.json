@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "jev-hosted-deployment-boundary",
+  "slug": "jev-hosted-deployment-boundary",
+  "title": "Plan the hosted Jev boundary: state, transfers, latency and fallbacks",
+  "description": "Hosted Jev runs outside your network. Decide what state you send, review the transfer, budget the round trip, and keep a review lane in code for outages.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-23",
+  "modified_at": "2026-10-23",
+  "topics": [
+    "tool-safety",
+    "decision-gates",
+    "devops"
+  ],
+  "source": {
+    "title": "Jev: Bounded semantic judgments for messy text",
+    "url": "https://developers.redhat.com/articles/2026/10/20/jev-bounded-semantic-judgments-messy-text",
+    "author": {
+      "name": "Maarten Vandeperre (Red Hat Developer)",
+      "url": "https://developers.redhat.com"
+    },
+    "published_at": "2026-10-20",
+    "accessed_at": "2026-10-23"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and offline verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-hosted-deployment-boundary.png",
+    "alt": "Three checks before sending state to hosted Jev: send an allowlisted minimal state, review the cross-border transfer and measure the round trip, and route errors and timeouts to a review lane owned by application code",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/openai-decisions-vs-jev-vs-laya.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "evaluation",
+      "step": "Measure hosted round-trip latency and compare a local decision model on the same cases before relying on either",
+      "why": "The benchmark records latency with and without network for hosted Jev, OpenAI Decisions and a locally run Laya, with stored raw results, which is the kind of comparison the source asks teams to run for their own region and data. The source does not name it.",
+      "evidence": [
+        "https://github.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/blob/b9d296e97b4ed382cbad65248800ec63096225f4/README.md",
+        "https://github.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/blob/b9d296e97b4ed382cbad65248800ec63096225f4/bench/adapters/jev.py",
+        "https://github.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/tree/b9d296e97b4ed382cbad65248800ec63096225f4/results/2026-10-07",
+        "https://github.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/blob/b9d296e97b4ed382cbad65248800ec63096225f4/LICENSE"
+      ],
+      "limitations": "MIT Python benchmark; one dated run on Portuguese-language tasks from the maintainer's network, so its latencies and accuracies do not transfer to your region or language. Live runs need OPENAI_API_KEY and TYPESAFE_API_KEY and send the cases to those providers. Laya is an independent local model, not official Jev. Source inspected; not executed."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/quarkus-langchain4j-jev-laya.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "Put the decision backend behind one interface so hosted Jev, a local substitute or a deterministic stub can be swapped and tested",
+      "why": "The proof of concept routes the same typed decisions through a DecisionClient abstraction to hosted Jev, local models or a stub, in the Java and Quarkus stack the source's planned part 2 is expected to use. The source does not name it.",
+      "evidence": [
+        "https://github.com/kdubois/quarkus-langchain4j-jev-laya/blob/f312884dbeffeb226a74aab2fe8ee0c9afc076e9/README.md",
+        "https://github.com/kdubois/quarkus-langchain4j-jev-laya/blob/f312884dbeffeb226a74aab2fe8ee0c9afc076e9/src/main/java/com/tripplanner/poc/jev/DecisionClient.java"
+      ],
+      "limitations": "Proof of concept on beta Quarkus and LangChain4j versions, not a library. The reviewed tree has no LICENSE file, so reuse terms are not granted. Needs OPENAI_API_KEY and TYPESAFE_API_KEY for hosted paths. Local backends are not the official Jev model and must be evaluated separately. Source inspected; not executed."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete Red Hat Developer article by Maarten Vandeperre on 2026-10-23, including its request examples, the hosted-deployment section and the note that part 2 is planned. No verified X handle was found, so the author is credited by name. The article's figures are labelled as created by the author with Claude by Anthropic and are not reused. It also promotes a Red Hat model distribution; that claim was not checked and is not repeated here. Original CC0 diagram created.",
+    "offline": "Wrote a 40-line Python lane policy with the official typesafe-sdk 0.7.5 and ran six offline tests through a mock transport: high, middle and low Noul probabilities map to the three lanes; a 503 response, a connection timeout and a missing answer all land in the review lane; the request carries only allowlisted order fields, not name, email or card data. Checked TypeSafe's launch post (service currently on the US West Coast; published speed evals run from there), the data processing addendum (EU SCCs and UK Addendum for international transfers), the subprocessor list, the legal docs page (no training on user data; zero data retention for enterprise) and the models page.",
+    "live": "No Jev request, latency measurement, legal review or transfer assessment was performed. The lane thresholds are placeholders.",
+    "review": "AI-assisted editorial review; no human reviewer and no legal advice. No keyword tool or Search Console data was consulted. Distinguished from the decision-layer guide (judgment versus permission in agents) and the Jev vs LLMs guide (choosing code, Jev or an LLM) by focusing on the hosted deployment boundary: data minimisation, transfer review, latency budgets and outage behaviour."
+  },
+  "faqs": [
+    {
+      "question": "Can I run Jev on my own servers or in vLLM?",
+      "answer": "No. The source explains that the official Jev model is offered only as a closed, managed API: its weights are not published, so it cannot be downloaded, containerised or loaded into vLLM. Calling it from OpenShift or beside vLLM still sends state to TypeSafe."
+    },
+    {
+      "question": "Where does hosted Jev process requests?",
+      "answer": "TypeSafe's launch post says its service is currently based on the US West Coast. Treat that as a dated statement and confirm the current location and subprocessors with TypeSafe before sending personal data."
+    },
+    {
+      "question": "What should a European team check before sending customer data?",
+      "answer": "Map which personal data is in the state, check TypeSafe's data processing addendum and subprocessor list with whoever owns data protection, and decide whether zero data retention for enterprise is needed. This guide is not legal advice."
+    },
+    {
+      "question": "How much latency does the remote call add?",
+      "answer": "Measure it from where your application runs. TypeSafe's launch post says its published speed evaluations are generally run from the West Coast, so their figures do not include a round trip from Europe."
+    },
+    {
+      "question": "What should happen when Jev is slow or unavailable?",
+      "answer": "Application code should send the case to a safe lane, such as human review or a follow-up question, never to the automatic one. Set a timeout inside your latency budget and count fallbacks so an outage is visible."
+    },
+    {
+      "question": "Can a local open model replace Jev here?",
+      "answer": "It can fill the same slot if your requirements demand local processing, but it is a different model. Run it on the same labelled examples and thresholds before swapping; results for hosted Jev do not carry over."
+    }
+  ]
+}
