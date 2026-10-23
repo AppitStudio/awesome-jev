@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "jev-grok-bot-router",
+  "slug": "jev-grok-bot-router",
+  "title": "Wire Jev into Grok Bot: a shadow-first router skill",
+  "description": "Add a Jev router skill to Grok Bot: keep the API key out of chat, log a shadow week, gate skips in code, keep approvals human and a kill switch ready.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-23",
+  "modified_at": "2026-10-23",
+  "topics": [
+    "agent-harnesses",
+    "model-routing",
+    "decision-gates",
+    "tool-safety"
+  ],
+  "source": {
+    "title": "How To Wire Jev Into Grok Bot: The Best Agent I've Built",
+    "url": "https://x.com/0x_rody/article/2112558839589417355",
+    "author": {
+      "name": "rody",
+      "url": "https://x.com/0x_rody"
+    },
+    "published_at": "2026-10-20",
+    "accessed_at": "2026-10-23"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and offline verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-grok-bot-router.png",
+    "alt": "Three stages of a Grok Bot router rollout: code checks side effects first, Jev picks one of four skip actions in shadow mode, and code-owned confidence floors decide what active mode may skip",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/grok-bot-jev.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Start from an inspectable router module, skill file, config and kill switch instead of generating them from scratch",
+      "why": "The pinned reference package implements the same shape the article describes: a jev-usage-router skill, shadow and active modes, an enabled flag and a bypass marker, plus code-side checks that a cached artifact exists before reuse. rody does not name or endorse it.",
+      "evidence": [
+        "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/README.md",
+        "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/src/router.py",
+        "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/skill/jev-usage-router.SKILL.md",
+        "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/config.example.yaml",
+        "https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/LICENSE"
+      ],
+      "limitations": "MIT reference package with no tagged release; Python with typesafe-sdk and PyYAML. Defaults to the moving jev-latest alias and illustrative thresholds. Shadow mode still calls TypeSafe when enabled; active mode works only if the skill is honoured. Its A/B notes are one local proxy run. Only the disabled dry run was executed for this guide; no live inference."
+    },
+    {
+      "kind": "project",
+      "path": "community/projects/tools/grok-jev-guard.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "alternative",
+      "step": "Use a stricter preflight envelope when the main risk is consequential tool use rather than wasted retries",
+      "why": "grok-jev-guard puts local hard stops for secrets, deletion and payments ahead of Jev judgments and returns proceed, scope_down, checkpoint, ask_human or block. That is closer to an approval layer than to the article's cost router.",
+      "evidence": [
+        "https://github.com/0xwhrari/grok-jev-guard/blob/6083fb0584ffc61857fac755447e93d121925b48/README.md",
+        "https://github.com/0xwhrari/grok-jev-guard/blob/6083fb0584ffc61857fac755447e93d121925b48/src/grok_jev_guard/jev.py",
+        "https://github.com/0xwhrari/grok-jev-guard/blob/6083fb0584ffc61857fac755447e93d121925b48/LICENSE"
+      ],
+      "limitations": "MIT Python 0.1.0 package; Python 3.11+ and a TypeSafe key for live judgments. Catalog review inspected source only; not run for this guide. Its envelope is advisory unless the bot's skill enforces it."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article text and all seven code blocks through the X API article fields on 2026-10-23. The article's only outbound links point to a third-party Substack, which is not linked here. Checked the official Grok Bot overview, which confirms that all of an account's bots share one cloud computer with its files, sessions and logins. The masked secret flow and the 20-run-record limit are the author's statements and were not independently confirmed. Source cover image not reused; original CC0 diagram created.",
+    "offline": "Checked current TypeSafe Choice, confidence and models docs: jev-latest currently points to jev-1.13.0 and jev-preview to jev-1.14.0. Installed typesafe-sdk 0.7.5 in a scratch environment and confirmed that response.choices is a typed view over response.answers. Ran the guide's router sketch against a mocked HTTP transport: seven cases passed (code-side ask_human with no request, honoured and floored stop_retry, reuse_cache rejected without an artifact and accepted with one, HTTP 500 and missing answer both falling back to proceed). Ran grok-bot-jev at 1583e09928c138aeac0aa89818c67ea41f08e807 with enabled false: dry run exited 0 with proceed_full and no Jev call.",
+    "live": "No TypeSafe inference, Grok Bot skill install, secret provisioning, shadow week, active rollout, cost or latency measurement. The thresholds shown are placeholders, not tuned values.",
+    "review": "AI-assisted editorial review; no human reviewer. No keyword tool or Search Console data was consulted for this guide. Distinguished from the existing agent-loop, worker-router and decision-layer guides by focusing on the hosted-agent install path, secret handling on a shared computer and a staged shadow-to-active rollout."
+  },
+  "faqs": [
+    {
+      "question": "Does Jev replace the model that runs Grok Bot?",
+      "answer": "No. Grok Bot still plans, writes and uses tools. The router asks Jev one bounded question before expensive steps, such as whether to reuse an artifact or stop a failing retry, and the skill decides what to do with the answer."
+    },
+    {
+      "question": "Is the TypeSafe key safe on the Grok Bot computer?",
+      "answer": "It is kept out of chat and files, but every bot on the account shares the same computer and can read the environment variable. Use a dedicated key with a spending limit, rotate it if a bot handles untrusted content, and never log it."
+    },
+    {
+      "question": "Why run the router in shadow mode first?",
+      "answer": "Shadow mode records what the router would have done while the agent keeps working normally. Comparing those records with what actually happened shows whether stop_retry or research_capped would have cut off work that later succeeded, before the router is allowed to act."
+    },
+    {
+      "question": "Should Jev decide when to ask a human?",
+      "answer": "Not for side effects. Sending, publishing, paying and deleting are known from the tool being called, so code should require approval for them before any Jev call. Jev can still suggest asking for help when a task is ambiguous."
+    },
+    {
+      "question": "What happens if the Jev call fails?",
+      "answer": "The router should return proceed and record the error, so the agent does the work it would have done anyway. A provider failure must not silently skip work, and it must never remove an approval step."
+    },
+    {
+      "question": "Does shadow mode avoid TypeSafe charges?",
+      "answer": "No. Shadow mode still sends each router state to TypeSafe and may be billed; it only ignores the answer. To stop calls entirely, set enabled to false."
+    }
+  ]
+}
