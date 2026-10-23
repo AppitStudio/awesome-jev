@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "jev-decision-model-evals",
+  "slug": "jev-decision-model-evals",
+  "title": "Use Jev as an eval judge: tune thresholds and check calibration",
+  "description": "Replace an LLM judge with a Jev Noul eval: set precision and recall minimums, tune the threshold with cross-validation on saved scores, and check calibration.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-23",
+  "modified_at": "2026-10-23",
+  "topics": [
+    "calibration",
+    "decision-gates",
+    "use-cases"
+  ],
+  "source": {
+    "title": "How To Use Decision Models for Evals",
+    "url": "https://hamel.dev/blog/posts/decision-model-evals/",
+    "author": {
+      "name": "Hamel Husain (@HamelHusain) and Antaripa Saha",
+      "url": "https://x.com/HamelHusain"
+    },
+    "published_at": "2026-10-20",
+    "accessed_at": "2026-10-23"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and offline reproduction"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-decision-model-evals.png",
+    "alt": "Three steps for a decision-model eval: set minimum precision and recall, tune the threshold with cross-validation on saved scores, then check calibration before reading scores as confidence",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-judge.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "implements-step",
+      "step": "Run Jev-graded pass/fail assertions in CI once a threshold has been tuned on labelled saved scores",
+      "why": "jev-judge maps declarative YAML assertions to Jev Noul and Score questions and compares each probability with a threshold, so a tuned threshold from this workflow can replace its default per assertion. The source authors do not name it.",
+      "evidence": [
+        "https://github.com/00200200/jev-judge/blob/5d4ac63cad80a87b4c7930aeb49fd607372fb671/README.md",
+        "https://github.com/00200200/jev-judge/blob/5d4ac63cad80a87b4c7930aeb49fd607372fb671/jev_judge/evaluators.py",
+        "https://github.com/00200200/jev-judge/blob/5d4ac63cad80a87b4c7930aeb49fd607372fb671/jev_judge/client.py",
+        "https://github.com/00200200/jev-judge/blob/5d4ac63cad80a87b4c7930aeb49fd607372fb671/LICENSE"
+      ],
+      "limitations": "MIT Python CLI and library; Python 3.10+ and TYPESAFE_API_KEY, so every run sends test inputs and outputs to TypeSafe and is billed. The pinned evaluator defaults each assertion to a 0.75 threshold unless one is set; that default is not tuned to your data. The README's PyPI install was not found at catalog review. Source inspected; not executed."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete hamel.dev post, footnotes and appendix on 2026-10-23, including the Jev structured Noul prompt. The post is co-authored by Hamel Husain and Antaripa Saha; @HamelHusain is from the page's twitter:creator metadata. The underlying traces are private; the post publishes saved scores, labels, calibration data and a threshold-selection audit as JSON. No sponsorship or vendor relationship is stated in the post. Source charts and images not reused; original CC0 diagram created.",
+    "offline": "Downloaded the post's chart-data.json (98 labelled traces, 61 failures) and recomputed Jev 1.13's numbers without model calls: default 0.50 threshold precision 0.711, recall 0.885, F1 0.788; no single threshold on the full sample reaches both 0.80 precision and 0.80 recall; raw Brier score 0.187, matching the post. An independent stratified five-fold cross-validation with 20 repeats and our own seed gave tuned held-out F1 0.779 at a mean threshold of 0.482, against 0.788 at the fixed default, close to the post's 0.781 at 0.484. Checked current TypeSafe Noul, confidence and models docs.",
+    "live": "No Jev or other decision-model inference, no new traces, labels, calibration fit, latency or cost measurement. Cost and latency figures and all non-Jev results are the authors'.",
+    "review": "AI-assisted editorial review; no human reviewer. No keyword tool or Search Console data was consulted. Distinguished from the research-triage guide (dev/test split for document collections) and the decision-audit guide by focusing on LLM-judge replacement, minimum precision and recall, cross-validated thresholds on saved scores and calibration checks."
+  },
+  "faqs": [
+    {
+      "question": "Can Jev replace an LLM judge in my evals?",
+      "answer": "Sometimes. In the source's 98-trace failure-finding eval, Jev 1.13 scored an F1 near 0.79 but never reached the authors' minimum of 80 percent precision and recall together. Measure it against your own labelled traces and requirements before swapping judges."
+    },
+    {
+      "question": "Why not keep the default 0.50 threshold?",
+      "answer": "Because a model's scores may sit anywhere between 0 and 1 for your task. The source shows models whose best threshold was far from 0.50. For Jev on that dataset the default happened to be near its tuned value, so tuning changed little."
+    },
+    {
+      "question": "How should I tune a threshold without fooling myself?",
+      "answer": "Save the model's scores once, then use stratified cross-validation: pick the threshold on training folds, measure on the held-out fold, and use the same splits for every model. Report when no threshold meets your minimums rather than relaxing them."
+    },
+    {
+      "question": "Is a Jev Noul probability a calibrated confidence?",
+      "answer": "Check it on your labels. In the source, Jev's probabilities were already well calibrated on its dataset and Platt scaling barely changed its Brier score. That is one small dataset; a reliability chart on your own traces is the evidence that matters."
+    },
+    {
+      "question": "Should one judge check every failure mode?",
+      "answer": "No. The authors kept one broad question to make model differences visible, but recommend a separate judge for each failure mode in practice. Narrower questions with specific criteria are easier to label, tune and debug."
+    },
+    {
+      "question": "Does tuning need new model calls?",
+      "answer": "No. Threshold tuning and calibration run on the scores you already saved alongside human labels. Re-score only when the prompt, the model version or the kind of traces changes."
+    }
+  ]
+}

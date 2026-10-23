@@ -29,7 +29,8 @@
     "jev-open-agent-harness-matching",
     "jev-research-paper-triage",
     "jev-replace-routing-rules",
-    "jev-in-context-casebooks"
+    "jev-in-context-casebooks",
+    "jev-decision-model-evals"
   ],
   "retire_all": false
 }
