@@ -2112,6 +2112,22 @@ Native macOS assistant: describe a task, review rule-ranked app/model/effort cho
 
 [Full AI Model Picker guide](ai-model-picker.md) · [Source](https://github.com/Gavinluo19/ai-model-picker)
 
+### ASO Workbench (App Store Optimization on your Mac, with Jev keyword clues)
+
+`Source available` · `Free`
+
+Mac app for App Store Optimization that tracks keyword ranks per country, estimates popularity and difficulty with labelled sources, writes and publishes store listings in every language, and measures what each change did; Jev answers narrow keyword questions that feed its popularity estimate.
+
+**Jev's role:** Optional: through OpenRouter, Jev answers probability questions about each keyword (is it a brand, is it relevant) that the app uses as clues for its popularity estimate.
+
+**Platform:** macOS 15+; free unnotarized DMG from GitHub releases, or build from source with Xcode 26.
+
+**Product:** [github.com/mustafakendiguzel/aso-workbench](https://github.com/mustafakendiguzel/aso-workbench)
+
+**Pricing / access:** Free download (MIT with Commons Clause: free to use, including for your own apps, but not to sell). OpenRouter usage for Jev and the AI writer is pay per use on your key. Checked 2026-10-23. Source inspected; live app not run on the review host.
+
+[Full ASO Workbench (App Store Optimization on your Mac, with Jev keyword clues) guide](aso-workbench.md) · [Source](https://github.com/mustafakendiguzel/aso-workbench)
+
 ### Baton (notch app)
 
 `Open source` · `Free source build` · `BYOK`
