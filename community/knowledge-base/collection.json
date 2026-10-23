@@ -28,7 +28,8 @@
     "jev-grok-bot-router",
     "jev-open-agent-harness-matching",
     "jev-research-paper-triage",
-    "jev-replace-routing-rules"
+    "jev-replace-routing-rules",
+    "jev-in-context-casebooks"
   ],
   "retire_all": false
 }

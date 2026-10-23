@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "jev-in-context-casebooks",
+  "slug": "jev-in-context-casebooks",
+  "title": "Jev in-context casebooks: test examples before you trust them",
+  "description": "Customize Jev with labelled examples instead of training: define answers, compare retrieved and full casebooks without leakage, and version each casebook.",
+  "language": "en",
+  "status": "published",
+  "published_at": "2026-10-23",
+  "modified_at": "2026-10-23",
+  "topics": [
+    "retrieval",
+    "calibration",
+    "use-cases",
+    "cost-optimization"
+  ],
+  "source": {
+    "title": "How to Make In-Context Learning Work with Jev",
+    "url": "https://x.com/davidwbressler/article/2113374694405509628",
+    "author": {
+      "name": "David Bressler",
+      "url": "https://x.com/davidwbressler"
+    },
+    "published_at": "2026-10-22",
+    "accessed_at": "2026-10-23"
+  },
+  "credits": {
+    "guide_authors": [
+      {
+        "type": "Organization",
+        "name": "Appit Studio",
+        "url": "https://appitstudio.com",
+        "role": "Original editorial guide; AI-assisted research, drafting and offline verification"
+      }
+    ],
+    "reviewers": []
+  },
+  "image": {
+    "path": "community/knowledge-base/images/jev-in-context-casebooks.png",
+    "alt": "Four steps for in-context examples with Jev: define each answer, compare no examples with retrieved examples from a training-only pool, test a full casebook if it fits, and version the casebook with a separate test set",
+    "credit": "Appit Studio (original diagram)",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "connections": [
+    {
+      "kind": "project",
+      "path": "community/projects/tools/jev-ids.md",
+      "origin": "jevlist-suggestion",
+      "purpose": "teaching-example",
+      "step": "See a harness that varies the number of labelled examples in Jev's state and compares against trained baselines",
+      "why": "Jev IDS puts the record under test and a set of labelled pool examples into one request's state, sweeps examples per category across seeds, and scores the same splits with a Random Forest and an Isolation Forest. That is the example-count and trained-baseline comparison the source recommends, in a different domain. David Bressler does not name it.",
+      "evidence": [
+        "https://github.com/jev-sec/jev-ids/blob/6aa5ac4570db1d6d9b88f769f7d16c1cd2c3784a/README.md",
+        "https://github.com/jev-sec/jev-ids/blob/6aa5ac4570db1d6d9b88f769f7d16c1cd2c3784a/jev_ids/detectors/jev.py",
+        "https://github.com/jev-sec/jev-ids/blob/6aa5ac4570db1d6d9b88f769f7d16c1cd2c3784a/jev_ids/cli.py",
+        "https://github.com/jev-sec/jev-ids/blob/6aa5ac4570db1d6d9b88f769f7d16c1cd2c3784a/LICENSE"
+      ],
+      "limitations": "MIT Python research benchmark on network-flow records (NSL-KDD), not text classification; Python 3.13+ and a TypeSafe key for live runs, which send flow features to TypeSafe and are billed. Examples are drawn at random per category rather than retrieved. Source inspected only; not executed. Its results are the maintainer's."
+    }
+  ],
+  "verification": {
+    "source": "Read the complete X article and its companion, One Model, a Different Rulebook for Every Customer, through the X API article fields on 2026-10-23, including the article's JSON request example. Both disclose that Eventum is an official TypeSafe technology partner and that TypeSafe's CTO advises Eventum. The linked Eventum write-up, TypeSafe docs and decision-model evaluation article resolve. Source images not reused; original CC0 diagram created.",
+    "offline": "Checked current TypeSafe Choice, models and long-context docs: 64k per-request and 32k per-question limits by default, 262k for both with the TypeSafe-Danger-Zone-Long-Context header, which the docs describe as slower and less accurate. Ran the guide's casebook builder with a small TF-IDF retriever on fixture records: train and test groups were disjoint, the target never appeared among its own examples, and a tight token budget reduced the examples sent and reported the shortfall. Inspected Jev IDS at 6aa5ac4570db1d6d9b88f769f7d16c1cd2c3784a: request construction and the example-count and seed options.",
+    "live": "No Jev inference, retrieval over a real dataset, full-casebook or long-context request, selector stage, fine-tuning comparison, accuracy, calibration or cost measurement. Every result quoted is Eventum's.",
+    "review": "AI-assisted editorial review; no human reviewer. No keyword tool or Search Console data was consulted. No existing guide covers in-context examples, casebooks or per-customer policies for Jev; the text-to-columns and content-triage guides use fixed instructions without examples."
+  },
+  "faqs": [
+    {
+      "question": "Can Jev be fine-tuned on my labels?",
+      "answer": "No. TypeSafe's models page says Jev is not fine-tuned or LoRA-adapted with customer data and the same weights serve every account. You customize it through the request: state, instructions, criteria and, as this guide shows, labelled examples placed in the state."
+    },
+    {
+      "question": "How many examples should I put in a Jev request?",
+      "answer": "Start with none and with up to 32 retrieved examples, and compare them on a development split. In the source, 32 retrieved examples helped on all four tasks, while thousands of random examples sometimes did worse. A full casebook won on banking intents but cost far more."
+    },
+    {
+      "question": "Do I need long context for a full casebook?",
+      "answer": "Only if it exceeds the default limits of 64k tokens per request and 32k per question. The long-context header raises both to 262k, and TypeSafe says such requests are slower and less accurate. Log the setting so you know which mode you evaluated."
+    },
+    {
+      "question": "How do I stop test labels leaking into the examples?",
+      "answer": "Split records into training, development and test pools before building the retrieval index, keep related documents and near-duplicates in one pool, and build the index from the training pool only. A test case must never retrieve itself or a copy of itself."
+    },
+    {
+      "question": "Is a better casebook enough to automate decisions?",
+      "answer": "No. In the source, neither highlighted selector found any set of answers that met a 1 percent error target on 200 calibration cases. Fit acceptance thresholds on separate data and report when no useful operating point exists."
+    },
+    {
+      "question": "When is fine-tuning a separate model the better choice?",
+      "answer": "When the task is stable, high-volume and well labelled. In the source a fine-tuned MiniLM scored 92.35 percent on Emotion against 76.00 percent for the Jev selector. Casebooks matter most when boundaries differ by customer or change often."
+    }
+  ]
+}
