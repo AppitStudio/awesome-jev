@@ -753,6 +753,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevskillz](jevskillz.md) | Calibrated multi-phrasing Jev checks (claims/tests/AC/triage) as Claude Code skills + CLI. | JavaScript · CLI + skills (MIT) |
 | [JevTape](jevtape.md) | Record and replay TypeSafe Jev HTTP decisions from JSON cassettes with contract fingerprint misses. | Java 21 · Maven CLI (`jevtape` 0.5.0) |
 | [jevtok](jevtok.md) | Count Jev tokens and estimate billed request input_tokens offline before calling TypeSafe. | Python · library/CLI (`jevtok` 0.1.0) |
+| [jevtool (test Jev judgments against labeled cases)](jevtool.md) | Node.js CLI that runs a suite of Jev questions and expected answers to report accuracy, misses and how much you could automate at a target accuracy, compares model versions, checks agent deliveries against real test results and filters records by meaning, with TypeSafe or OpenRouter as the provider. | Node.js CLI (npm: jevtool) (MIT) |
 | [JevTools](jevtools.md) | Local Python dashboard, REST API and docs for experimenting with Jev decisions. | Python · local server + dashboard (GPL-3.0) |
 | [JevTree (Chuf-H)](chuf-h-jev-tree.md) | Probability tree/graph runtime: compose TypeSafe Jev action probs into path mass and Pareto picks (distinct from taxonomy jev-tree). | Python · CLI/library (`jev-tree` 0.1.0, Apache-2.0) |
 | [jevtri (Jev Triage)](jevtri.md) | Rank which server logs to read first for an incident, with secrets masked before anything is sent to Jev. | Go · CLI (MIT) |
