@@ -1312,6 +1312,22 @@ Gmail sorter with readable rules plus TypeSafe Jev typed judgments, receipts, an
 
 [Full Masroufi guide](masroufi.md) · [Source](https://github.com/wafaa-alhayek/masroufi)
 
+### MinusPod (self-hosted podcast ad remover with native System One support)
+
+`Open source` · `Free source build`
+
+Self-hosted server that transcribes podcast episodes, detects and cuts ad segments, and learns sponsor patterns from your corrections; it has a native System One adapter so Jev can run ad detection and verification.
+
+**Jev's role:** Optional: with TypeSafe selected as the System One provider, Jev handles ad detection, verification and ad categories.
+
+**Platform:** Self-hosted via Docker (CPU multi-arch or NVIDIA GPU image).
+
+**Product:** [github.com/ttlequals0/MinusPod](https://github.com/ttlequals0/MinusPod)
+
+**Pricing / access:** Open source (MIT); free to self-host. Inference uses your own provider keys. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full MinusPod (self-hosted podcast ad remover with native System One support) guide](minuspod.md) · [Source](https://github.com/ttlequals0/MinusPod)
+
 ### Model vs Market
 
 `Open source` · `Free` · `BYOK`
