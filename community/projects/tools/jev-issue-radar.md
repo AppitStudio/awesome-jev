@@ -48,3 +48,9 @@ Issue bodies/titles leave the host on live comparisons. The tool never mutates G
 Reviewed on **2026-09-20** at [commit 5878ba9](https://github.com/Patrick-SCH03/jev-issue-radar/tree/5878ba97d70d8aed10a2a628f224a8612d4e870b): **0.1.1**, MIT. AI-assisted source review of README, LICENSE, `lib/jev.mjs`, `server.mjs`, and `package.json`. Ran `npm test` (48 pass). No live OpenRouter or GitHub API calls.
 
 Related: [Metis](metis.md), [jev-pr-judge](jev-pr-judge.md), [Moongate](moongate.md).
+
+<!-- knowledge:backlinks:start -->
+## Knowledge guides
+
+- [Match client requests to GitHub issues with Jev in an agent harness](../../knowledge-base/articles/jev-open-agent-harness-matching.md) — Independently suggested by JevList; not an endorsement by Akshay 🚀 (@akshay_pachaar). Study a read-only lexical-shortlist-then-Jev design for GitHub issue relationships before building the weekly run.
+<!-- knowledge:backlinks:end -->
