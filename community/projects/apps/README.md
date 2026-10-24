@@ -2702,6 +2702,22 @@ Minimal Android home app styled after Omarchy's waybar and walker: status bar, n
 
 ## Windows apps
 
+### Emc² (desktop email client with Jev sorting)
+
+`Open source` · `Free`
+
+Desktop email client for Windows (macOS build from source) with a bundled mail service and encrypted SQLite storage; Jev sorts mail into Important and Other and gives each row a fixed label such as "Needs a reply".
+
+**Jev's role:** Classifies each message and rates relevance in one call; sender rules and Teach corrections take priority.
+
+**Platform:** Windows installer from GitHub Releases (unsigned); macOS build from source.
+
+**Product:** [github.com/collection-of-things/aggregate-mail](https://github.com/collection-of-things/aggregate-mail)
+
+**Pricing / access:** Open source (MIT); free download. Jev sorting uses your own provider key. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Emc² (desktop email client with Jev sorting) guide](emc2-mail.md) · [Source](https://github.com/collection-of-things/aggregate-mail)
+
 ### fine-file (Windows file explorer with optional Jev risk badges)
 
 `Open source` · `Free` · `BYOK`
