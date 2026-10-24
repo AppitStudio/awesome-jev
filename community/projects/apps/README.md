@@ -3808,6 +3808,22 @@ Daily arXiv digest engine: lexical front-line plus TypeSafe Jev confidence-gated
 
 [Full arJev guide](arjev.md) · [Source](https://github.com/harmoniqs/arjev)
 
+### Better Email Filter (local Gmail triage with Jev that learns from your corrections)
+
+`Source available` · `Free source build` · `BYOK`
+
+Local command-line Gmail triage: Jev sorts messages into Spam, Ignore or Important, sends uncertain ones to Review, and the labels you correct in Gmail become examples for future classifications.
+
+**Jev's role:** Core: Jev classifies each message and its confidence decides whether a label or Review is used.
+
+**Platform:** macOS and Linux command line, run from source; Windows not supported.
+
+**Product:** [github.com/miguelgarcia/better-email-filter](https://github.com/miguelgarcia/better-email-filter)
+
+**Pricing / access:** Free source build; public source with no license file (no open-source license granted). Jev calls use your own TypeSafe key and are billed by TypeSafe. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full Better Email Filter (local Gmail triage with Jev that learns from your corrections) guide](better-email-filter.md) · [Source](https://github.com/miguelgarcia/better-email-filter)
+
 ### Clasificador de noticias regionales con Jev
 
 `Open source` · `Free source build` · `BYOK`
