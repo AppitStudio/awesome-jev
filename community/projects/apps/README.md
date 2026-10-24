@@ -2524,6 +2524,22 @@ Desktop pet companion for Apple Silicon Macs (SwiftUI, SceneKit, AVAudioEngine) 
 
 [Full PetPaw guide](petpaw.md) · [Source](https://github.com/sirily11/pet-companion)
 
+### Pointsman by RomainJeff (macOS link router that picks the right browser with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS menu bar app you set as the default browser: describe once how you use each real browser, and each clicked link goes to the right one, chosen by Jev from your descriptions, the app the link came from and the URL without its query string.
+
+**Jev's role:** Core: Jev returns a probability for each browser plus none; below a 60% threshold, on error or after 1.5 s the link goes to your fallback browser.
+
+**Platform:** macOS on Apple silicon; build from source (no signed release yet).
+
+**Product:** [github.com/RomainJeff/pointsman](https://github.com/RomainJeff/pointsman)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls go through your own OpenRouter key (the README estimates about $0.00002 per link). Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full Pointsman by RomainJeff (macOS link router that picks the right browser with Jev) guide](romainjeff-pointsman.md) · [Source](https://github.com/RomainJeff/pointsman)
+
 ### PR Review (sunwrobert)
 
 `Open source` · `Free source build` · `BYOK`
