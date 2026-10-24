@@ -106,6 +106,22 @@ Three AI trading bees on OKX perpetual futures race on paper by default: TypeSaf
 
 [Full beebots guide](beebots.md) · [Source](https://github.com/imikerussell/beebots)
 
+### Bot Derby (Jev and OpenAI Decisions compete in a paper-trading experiment)
+
+`Open source` · `Free`
+
+Public paper-trading experiment: Ferdi (TypeSafe Jev) and Bodi (OpenAI Decisions) each get $50,000 of simulated cash, the same stock evidence and the same legal action menu for five large US stocks, and a public scoreboard tracks how their portfolios diverge.
+
+**Jev's role:** Core: Jev is one of the two competing decision engines and picks an action from the legal menu each cycle.
+
+**Platform:** Public web scoreboard; self-hosted engine from source.
+
+**Product:** [botderby.dayinthecountry.co](https://botderby.dayinthecountry.co)
+
+**Pricing / access:** Open source (MIT); the public scoreboard is free to view. Running your own needs your TypeSafe, OpenAI and Alpaca paper keys. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Bot Derby (Jev and OpenAI Decisions compete in a paper-trading experiment) guide](bot-derby.md) · [Source](https://github.com/Day-in-the-Country-LLC/bot-derby)
+
 ### Call Coach
 
 `Open source` · `Free source build` · `BYOK`
