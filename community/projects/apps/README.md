@@ -132,6 +132,22 @@ Local live sales-call coach: TypeSafe Jev judges next-best actions and buying st
 
 [Full Call Coach guide](call-coach-ai.md) · [Source](https://github.com/ZeroGold/call-coach-ai)
 
+### ChatJev by JamesANZ (ask Jev to judge a document or web lookup in plain language)
+
+`Open source` · `Free source build`
+
+Web app where you upload a document or ask about the web: a fast LLM turns your question into Jev yes/no, choice or score judgments, can attach web excerpts as evidence, and then restates only Jev's numbers, with a verdict card showing each judgment.
+
+**Jev's role:** Core: every verdict comes from Jev; the LLM only writes the questions and restates the numbers.
+
+**Platform:** Web; hosted demo plus self-hosting from source.
+
+**Product:** [chatjev.vercel.app](https://chatjev.vercel.app)
+
+**Pricing / access:** Open source (MIT); free source build with your own keys. A hosted demo is at chatjev.vercel.app (reachable 2026-10-24; access terms not verified). Source inspected; live app not run on the review host.
+
+[Full ChatJev by JamesANZ (ask Jev to judge a document or web lookup in plain language) guide](chatjev-jamesanz.md) · [Source](https://github.com/JamesANZ/ChatJev)
+
 ### ChatJevPT
 
 `Open source` · `Free source build` · `BYOK`
