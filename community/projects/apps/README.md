@@ -2324,6 +2324,22 @@ Native macOS launcher/window manager (Option–Space). Optional TypeSafe Jev mat
 
 [Full Jevcast guide](jevcast.md) · [Source](https://github.com/RyanErkal/jevcast) · [Product homepage](https://jevcast.vercel.app)
 
+### JevDK and jev-serve (Mac tools to design decision questions and serve a Jev-style API locally)
+
+`Open source` · `Free`
+
+Two free Mac tools: JevDK lets you design and test typed decision questions on a local MLX model and on hosted backends side by side (including TypeSafe Jev through OpenRouter), mark right answers and calibrate; jev-serve answers a hosted-Jev-style HTTP API on your Mac.
+
+**Jev's role:** Optional hosted comparison backend: Jev (typesafe/jev-1.13 via OpenRouter) runs next to local models so you can compare answers before shipping questions.
+
+**Platform:** macOS on Apple silicon; signed and notarized DMG from GitHub Releases (v0.2.2 at review).
+
+**Product:** [github.com/ancientcomputing/jevdk](https://github.com/ancientcomputing/jevdk)
+
+**Pricing / access:** Open source (Apache-2.0); free download. Hosted Jev calls go through your own OpenRouter key; local models are free to run. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full JevDK and jev-serve (Mac tools to design decision questions and serve a Jev-style API locally) guide](jevdk.md) · [Source](https://github.com/ancientcomputing/jevdk)
+
 ### JevPaste
 
 `Open source` · `Free source build` · `BYOK`
