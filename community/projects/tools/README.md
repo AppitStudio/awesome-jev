@@ -1507,6 +1507,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [Jevs](jevs.md) | Call TypeSafe Jev classify/score/check/batch from Bun MCP / Codex plugin via the official JS SDK. | TypeScript · Bun MCP / Codex plugin (`jevs` 0.1.0) |
 | [JevT++](jevtpp.md) | C++20 typed decision library with optional local Laya (ONNX/ggml) or remote System One backends. | C++20 · library (MIT) |
 | [jevtok-ts](jevtok-ts.md) | Offline Jev token counting and request accounting for Node.js/TypeScript (companion to Python jevtok). | TypeScript · library (MIT) |
+| [JRK.JevRunner (.NET client for Jev with source-generated typed questions)](jrk-jevrunner.md) | .NET client for Jev and the TypeSafe System One API: submit application state and named questions and get typed responses, with source generators that turn your query classes into requests, plus an image package. | NuGet package (C#) (MIT) |
 | [judge_rails](judge-rails.md) | Declare `judge_attribute :urgency, Judge.noul(...)` on a model and query judged records with scopes; three judgments cost one API call per record. | Ruby · gem `judge_rails` (Rails generators; plain-Ruby client) (MIT) |
 | [judgment (Rust)](judgment.md) | Write Jev decisions in Rust with typed options and thresholds, and unit-test them offline against answers the real model could give. | Rust · crates.io `judgment` (MIT) |
 | [Kafka Jev Connector](kafka-jev-connector.md) | Classify, score or route Kafka messages with Jev without writing a consumer service. | Java 17 · Kafka Connect sink connector (Apache-2.0) |
