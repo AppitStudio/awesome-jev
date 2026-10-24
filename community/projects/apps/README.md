@@ -2300,6 +2300,22 @@ Menu-bar launcher for your AI chats: press Control-Option-Space, type what you r
 
 [Full ChatJump guide](chatjump.md) · [Source](https://github.com/saydus/chatjump)
 
+### Computer Use (lite) by ajokhai (Mac computer use for any AI, with an optional Jev mode)
+
+`Source available` · `Free` · `BYOK`
+
+Menu bar app and native MCP server that let an AI operate the whole Mac, not just a browser: Claude, ChatGPT, Gemini, OpenRouter or a local model plans the steps, and in its Jev modes TypeSafe Jev picks the next action and element from the app's accessibility tree.
+
+**Jev's role:** Optional: in the Vision + Jev and Jev Only modes, Jev chooses the next action, the target element and the text to type from the accessibility tree; other modes do not use Jev.
+
+**Platform:** macOS; DMG on GitHub Releases (v0.1.15 at review), signed with a local certificate rather than a verified Developer ID.
+
+**Product:** [github.com/ajokhai/computer-use-lite](https://github.com/ajokhai/computer-use-lite)
+
+**Pricing / access:** Free download; public source with no license file (no open-source license granted). Provider calls use your own keys; through MCP the AI app you already use does the thinking. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full Computer Use (lite) by ajokhai (Mac computer use for any AI, with an optional Jev mode) guide](computer-use-lite.md) · [Source](https://github.com/ajokhai/computer-use-lite)
+
 ### Hyperclip (macOS video clipper with Jev clip scoring)
 
 `Open source` · `Free source build`
