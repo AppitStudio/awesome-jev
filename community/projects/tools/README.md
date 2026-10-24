@@ -343,6 +343,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [evidence-referee](evidence-referee.md) | Evidence-over-eloquence Claude Code plugin: Jev done-gates and judgment receipts (≠ claude-referee). | Claude Code plugin (MIT) |
 | [EvolveRoute](evolve-router.md) | Local Rust LLM gateway that routes each request with Jev plus a heuristic, with an audit log. | Rust · gateway (MIT) |
 | [ExcelPilot](excelpilot.md) | Drive live Excel workbooks with Qwen planning and TypeSafe Jev intent/tool gates (cascade to OpenRouter/offline). | Python · Office.js add-in + FastMCP agent (`excelpilot` 1.0.0) |
+| [exo-compact (fast Claude Code compaction, with an optional Jev rule check)](exo-compact.md) | Claude Code plugin (beta) that compacts in about a second instead of a minute, quotes your rules word for word and keeps the whole session searchable on disk; an optional Jev rule check, off by default, asks TypeSafe's Jev which of your task's rules each reply breaks. | Claude Code plugin (TypeScript) (MIT) |
 | [fast-compact](fast-compact.md) | `/fc` for Claude Code: Jev keeps still-needed tool outputs, trims the rest. | TypeScript · Claude Code plugin (MIT) |
 | [fast-jev-compaction](fast-jev-compaction.md) | Select which old tool calls and results remain in agent context. | TypeScript · library and Claude Code plugin |
 | [fast-jev-compaction (Ayush)](ayush-fast-jev-compaction.md) | Claude Code plugin that replaces compaction summaries with Jev decisions over tool calls and results. | Claude Code plugin (MIT) |
