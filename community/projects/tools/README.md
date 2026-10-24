@@ -819,6 +819,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [MM3](mm3.md) | Have an agent ask Jev focused code questions ("does this handler check the caller?") in one call, with verdicts and outcomes tracked over time. | TypeScript · npm `@mvpscale/mm3` · Claude Code plugin (Apache-2.0) |
 | [mnemon-memory-agent](mnemon-memory-agent.md) | Agent long-term memory judged with TypeSafe Jev System One over raw records | TypeScript · memory agent (MIT) |
 | [mobai-ci](mobai-ci.md) | Run MobAI `.mob` / Maestro mobile UI flows in CI; `.mobflow` steps are judged/acted by TypeSafe Jev. | CLI · GitHub Action |
+| [Model Quality Radar (DeepSeek Harness plugin with optional Jev scoring)](dsh-quality-lens.md) | DeepSeek Harness plugin that shows a quality and topic-coverage score on every answer, with an evidence-backed report and copy-ready prompt fixes; optional Jev mode scores five dimensions and checks coverage in one request. | DeepSeek Harness plugin (JavaScript) (MIT) |
 | [model-router (Claude Code)](akurganow-model-router.md) | Pick haiku/sonnet/opus per Claude Code subagent from one Jev Score question. | TypeScript · Claude Code mod (MIT) |
 | [model-router (muhx)](muhx-model-router.md) | Per-task model/effort routing for Claude Code with calibrated Jev confidence. | TypeScript · Claude Code plugin/mod (MIT) |
 | [model-router-python](model-router-python.md) | Filter models by limits/budget, then ask TypeSafe Jev which remaining model should handle the prompt. | Python · PyPI library (MIT) |
