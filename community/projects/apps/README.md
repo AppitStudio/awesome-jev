@@ -1490,6 +1490,22 @@ Upload patrol photos and get Korean patrol-log text (or HWPX). OpenAI reads the 
 
 [Full patrol-jev guide](patrol-jev.md) · [Source](https://github.com/patrol-jev/patrol-jev)
 
+### Penny (grocery receipt review for Grocy, with Jev suggesting storage and groups)
+
+`Open source` · `Free source build`
+
+Self-hosted receipt review for Grocy: upload a grocery receipt PDF, OpenAI extracts the lines, Jev suggests a storage location and product group for each product (low-confidence ones stay unassigned), and confirmed purchases are imported into Grocy stock.
+
+**Jev's role:** Suggests storage locations and product groups; extraction uses OpenAI.
+
+**Platform:** Self-hosted web app run from source.
+
+**Product:** [github.com/YuryFilipovich/Penny](https://github.com/YuryFilipovich/Penny)
+
+**Pricing / access:** Open source (Apache-2.0); free source build. Uses your own OpenAI and TypeSafe keys. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Penny (grocery receipt review for Grocy, with Jev suggesting storage and groups) guide](penny-grocy.md) · [Source](https://github.com/YuryFilipovich/Penny)
+
 ### Photo Ferret
 
 `Open source` · `Free`
