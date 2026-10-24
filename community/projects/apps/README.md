@@ -2278,6 +2278,22 @@ macOS voice-control exploration: TypeSafe Jev decides intent and target while an
 
 [Full JEV (marcosdeaza) guide](marcosdeaza-jev.md) · [Source](https://github.com/marcosdeaza/JEV)
 
+### Jev Amazing (macOS WeChat sidebar for witty reply ideas, ranked by Jev)
+
+`Open source` · `Free source build`
+
+Native macOS side window for WeChat: one click reads the visible chat (text, images, stickers), a generative model drafts replies in five tones, and Jev ranks them; you edit and send yourself. A derivative of the Jev Chat assistant for macOS.
+
+**Jev's role:** Ranks candidate replies by comparison; generation and vision use other models.
+
+**Platform:** macOS on Apple Silicon, built from source with setup.command.
+
+**Product:** [github.com/yxjsxy/jevchat-amazing-response-macos](https://github.com/yxjsxy/jevchat-amazing-response-macos)
+
+**Pricing / access:** Open source (MIT); free source build. Model calls use your own OpenRouter/TypeSafe keys. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Jev Amazing (macOS WeChat sidebar for witty reply ideas, ranked by Jev) guide](jev-amazing-wechat.md) · [Source](https://github.com/yxjsxy/jevchat-amazing-response-macos)
+
 ### Jev Voice
 
 `Open source` · `Free source build` · `BYOK`
