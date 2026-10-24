@@ -2226,6 +2226,22 @@ macOS notch app that pings you when a ChatGPT, Codex, Claude or Cursor chat fini
 
 [Full Baton (notch app) guide](baton-notch.md) · [Source](https://github.com/jeanlucandre-afk/baton)
 
+### Call Coach by Darlison (live interview checklist on macOS, ticked by Jev)
+
+`Open source` · `Free source build`
+
+Live checklist for interviews and discovery calls: whisper.cpp transcribes both sides on your Mac, Jev ticks off each question once it is answered, tracks which listed question you just asked and flags answers worth a follow-up, and an MCP server lets your AI add follow-ups.
+
+**Jev's role:** Core for automatic ticking: yes/no and choice questions on recent transcript lines. Without a key you tick by hand.
+
+**Platform:** macOS on Apple silicon; local page at localhost:4800 after running the installer.
+
+**Product:** [github.com/ByronDarlison/call-coach](https://github.com/ByronDarlison/call-coach)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls use your own TypeSafe key. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Call Coach by Darlison (live interview checklist on macOS, ticked by Jev) guide](byrondarlison-call-coach.md) · [Source](https://github.com/ByronDarlison/call-coach)
+
 ### Capture (sgaabdu4)
 
 `Open source` · `Free source build` · `BYOK`
