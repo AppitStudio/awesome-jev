@@ -1630,6 +1630,22 @@ Measures how closely each page matches the search intent you set, using TypeSafe
 
 [Full seo-jev-analyzer guide](seo-jev-analyzer.md) · [Source](https://github.com/matthelam/seo-jev-analyzer)
 
+### Shapes of Stories (story arcs of books and scripts scored with Jev)
+
+`Open source` · `Free source build`
+
+Charts the shape of a novel, screenplay or transcript: Jev scores every passage of about 800 words on ten qualities such as fortune and tension plus events, and the fortune curve is matched to named arcs like Rags to Riches or Man in a Hole.
+
+**Jev's role:** Core: twenty typed questions per passage (ten 0-4 scales, nine yes/no events, one choice) produce the curves.
+
+**Platform:** Self-hosted via Docker Compose.
+
+**Product:** [github.com/Ferrum-Citadel/shapes-of-stories](https://github.com/Ferrum-Citadel/shapes-of-stories)
+
+**Pricing / access:** Open source (MIT); free source build. The bundled gallery of fifty public-domain works needs no key; your own texts use your TypeSafe key. Checked 2026-10-24. Source inspected; live app not run on the review host.
+
+[Full Shapes of Stories (story arcs of books and scripts scored with Jev) guide](shapes-of-stories.md) · [Source](https://github.com/Ferrum-Citadel/shapes-of-stories)
+
 ### Shapeshift
 
 `Open source` · `Free` · `BYOK`
