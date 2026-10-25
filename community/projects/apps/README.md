@@ -2830,6 +2830,22 @@ Minimal Android home app styled after Omarchy's waybar and walker: status bar, n
 
 ## Windows apps
 
+### Booksmith (Calibre ebooks to Plex audiobooks, with Jev-planned pauses)
+
+`Source available` · `Free source build` · `BYOK`
+
+Early Windows-first app that turns DRM-free Calibre ebooks into chaptered audiobooks narrated locally with Kokoro and imports them into Plex; optional Jev annotation proposes sentence pauses, reviews them in paragraph context and suggests pronunciations for ambiguous words.
+
+**Jev's role:** Optional: when contextual pauses or pronunciation help are enabled, Jev picks pause boundaries and timing variants and suggests pronunciations; narration itself is local and Jev never rewrites the text.
+
+**Platform:** Windows (service lock, scheduled task and Plex credential discovery are Windows-only); source release, not an installer.
+
+**Product:** [github.com/neuralcataccel/booksmith](https://github.com/neuralcataccel/booksmith)
+
+**Pricing / access:** Free source build; public source with no license file (no open-source license granted). Jev calls go to the decision endpoint you configure, with your own key and monthly spend limits in config. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full Booksmith (Calibre ebooks to Plex audiobooks, with Jev-planned pauses) guide](booksmith.md) · [Source](https://github.com/neuralcataccel/booksmith)
+
 ### Emc² (desktop email client with Jev sorting)
 
 `Open source` · `Free`
