@@ -2726,6 +2726,22 @@ Mac menu-bar app to see, answer and talk to every coding agent running in herdr;
 
 [Full Reflex (monotykamary) guide](monotykamary-reflex.md) · [Source](https://github.com/monotykamary/reflex)
 
+### Sippy (macOS water-break companion with optional Jev sip confirmation)
+
+`Open source` · `Free source build` · `BYOK`
+
+Small native macOS water reminder with a floating droplet buddy and menu-bar progress; Apple Vision face and hand tracking spots a possible sip on device, and with your own TypeSafe key Jev confirms the candidate frame before a drink is logged.
+
+**Jev's role:** Optional: Jev answers one Noul question about a single candidate JPEG; 0.8 or higher confirms the sip, otherwise the local check decides.
+
+**Platform:** macOS 13+, built from source (`scripts/build-app.sh`, ad-hoc signed); the README describes DMG/ZIP releases, but none were published at review time.
+
+**Product:** [github.com/milanjain2208/sippy](https://github.com/milanjain2208/sippy)
+
+**Pricing / access:** Open source (MIT); free source build with no account. The optional Jev check is billed to your own TypeSafe key, at most 3 photos per reminder. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Sippy (macOS water-break companion with optional Jev sip confirmation) guide](sippy.md) · [Source](https://github.com/milanjain2208/sippy)
+
 ### skil.li
 
 `Open source` · `Free` · `BYOK`
