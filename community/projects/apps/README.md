@@ -3806,6 +3806,22 @@ Violentmonkey userscript that turns YouTube into a plain list of titles without 
 
 [Full Text-Only YouTube (userscript with Jev genre tags) guide](text-only-youtube.md) · [Source](https://github.com/JohnVonDrashek/youtube-text-only)
 
+### ToS Decipher (terms-of-service and privacy-policy reviewer whose claims are checked by Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+English and Spanish web app, Chrome/Edge MV3 extension and Python API that summarise terms of service and privacy policies, highlight important clauses next to their source text and find policy links on a page; Jev classifies links and verifies each finding against the source passages.
+
+**Jev's role:** Core: with `TYPESAFE_API_KEY` set, Jev classifies policy links and verifies the generated claims in one bundled request; policy analysis itself uses an OpenRouter model.
+
+**Platform:** Chrome/Edge extension loaded unpacked, talking to a local API at `localhost:8000`; not packaged for general distribution.
+
+**Product:** [github.com/javierBrenesAI/ToS-Defender](https://github.com/javierBrenesAI/ToS-Defender)
+
+**Pricing / access:** Open source (MIT); free source build. You supply OpenRouter and TypeSafe keys. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full ToS Decipher (terms-of-service and privacy-policy reviewer whose claims are checked by Jev) guide](tos-decipher.md) · [Source](https://github.com/javierBrenesAI/ToS-Defender)
+
 ### Tube Focus Mode
 
 `Open source` · `Free source build` · `BYOK`
