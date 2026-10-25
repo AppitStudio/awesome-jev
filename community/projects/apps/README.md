@@ -2058,6 +2058,22 @@ WeChat companion (Mac source preview + Windows preview ZIP): OCR the chat, optio
 
 [Full Goutoujunshi Jev Chat guide](goutoujunshi-jev-chat.md) · [Source](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat)
 
+### Jev Companion (read-only WeChat conversation companion with typed Jev judgments)
+
+`Open source` · `Free source build` · `BYOK`
+
+Native macOS and Windows companion that reads the text of the current WeChat window (or pasted text) and places Jev judgment cards under each message: communication needs, next actions and conversation tension, plus optional reply drafts from a local OpenAI-compatible model; it never sends messages.
+
+**Jev's role:** Core: Jev Noul, Choice and Score questions produce the judgment cards; an optional separate model writes reply drafts.
+
+**Platform:** macOS (app 0.3.1) and Windows preview (0.4.1); build from source.
+
+**Product:** [github.com/jimmy1340/jev-companion](https://github.com/jimmy1340/jev-companion)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls use your own TypeSafe key. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full Jev Companion (read-only WeChat conversation companion with typed Jev judgments) guide](jev-companion.md) · [Source](https://github.com/jimmy1340/jev-companion)
+
 ### Jev Linux (voice desktop controller)
 
 `Open source` · `Free source build` · `BYOK`
