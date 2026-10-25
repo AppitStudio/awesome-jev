@@ -2974,6 +2974,22 @@ Early Windows-first app that turns DRM-free Calibre ebooks into chaptered audiob
 
 [Full Booksmith (Calibre ebooks to Plex audiobooks, with Jev-planned pauses) guide](booksmith.md) · [Source](https://github.com/neuralcataccel/booksmith)
 
+### Conclave (local multi-model council app with Jev routing and answer checks)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local Windows app that sends one question to a council of up to 13 AI providers, has a chosen model synthesise their answers blind and an optional model from another company audit the result; optional Jev checks route questions, flag refusals or off-topic answers and test draft claims, in shadow (record-only) mode by default.
+
+**Jev's role:** Optional: Jev routes questions, checks each council answer and the draft's claims; modes are Off, Shadow (record only, default) and Active.
+
+**Platform:** Windows 10/11, runs locally on 127.0.0.1 in an Edge app window; keys are stored with Windows DPAPI.
+
+**Product:** [github.com/btrischetta/conclave](https://github.com/btrischetta/conclave)
+
+**Pricing / access:** Open source (Apache-2.0); free source build. Each provider, including TypeSafe, bills your own key; Conclave shows live per-call costs. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Conclave (local multi-model council app with Jev routing and answer checks) guide](conclave.md) · [Source](https://github.com/btrischetta/conclave)
+
 ### Emc² (desktop email client with Jev sorting)
 
 `Open source` · `Free`
