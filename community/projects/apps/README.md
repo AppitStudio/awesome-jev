@@ -1974,6 +1974,22 @@ Kotlin desktop app that puts an AI in front of Pokémon HeartGold on a Nintendo 
 
 [Full AI Plays Pokémon (kotlinds) guide](ai-plays-pokemon.md) · [Source](https://github.com/kotlinds/ai-plays-pokemon)
 
+### AlgorithVideo (open-source desktop video clipper with optional Jev clip review)
+
+`Open source` · `Free` · `BYOK`
+
+Open-source Electron desktop app that turns podcasts, interviews and streams into captioned short clips rendered on your own computer; an opt-in Jev review step, through OpenRouter's Decisions API, scores candidate moments from transcript excerpts.
+
+**Jev's role:** Optional: Jev review is off by default in automatic clipping and always on in the Review & edit workflow; it answers typed questions about each candidate clip.
+
+**Platform:** Windows x64, macOS (Apple silicon and Intel) and Linux x64 packages on GitHub Releases (v0.1.0 at review); unsigned, macOS not notarized.
+
+**Product:** [github.com/algorithco/algorith-video](https://github.com/algorithco/algorith-video)
+
+**Pricing / access:** Open source (MIT); free download. AI features use your own provider keys, stored in the OS secure storage. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full AlgorithVideo (open-source desktop video clipper with optional Jev clip review) guide](algorithvideo.md) · [Source](https://github.com/algorithco/algorith-video)
+
 ### Beam (Omarchy launcher with optional Jev intent search)
 
 `Open source` · `Free`
