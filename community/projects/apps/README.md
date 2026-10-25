@@ -1782,6 +1782,22 @@ Local inbox dashboard for enterprise translation intake: it reads unread Gmail o
 
 [Full Slator Localization Request Readiness Inbox guide](slator-localization-inbox.md) · [Source](https://github.com/alexslator/Localization-Email-Analysis)
 
+### SmartDoc Vision (self-hosted archive and drawing review platform with Jev classifiers)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chinese-language self-hosted review platform for archives, drawings, scans and text: a Go and Gin backend with MySQL and Redis and a Vue 3 admin console run configurable, traceable review pipelines on general LLMs and on Jev Choice and Noul classifiers, with model failover, circuit breaking and token accounting.
+
+**Jev's role:** Optional: Jev is one of two provider kinds; review configurations can use Jev Choice and Noul questions for classification, beside general LLMs.
+
+**Platform:** Self-hosted with Docker Compose or a single Go binary that serves the admin console.
+
+**Product:** [github.com/ImYoyoData/smart-doc-vision](https://github.com/ImYoyoData/smart-doc-vision)
+
+**Pricing / access:** Open source (MIT); free source build. You host MySQL and Redis and supply provider keys. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full SmartDoc Vision (self-hosted archive and drawing review platform with Jev classifiers) guide](smartdoc-vision.md) · [Source](https://github.com/ImYoyoData/smart-doc-vision)
+
 ### Snake × Jev
 
 `Source available` · `Free source build` · `BYOK`
