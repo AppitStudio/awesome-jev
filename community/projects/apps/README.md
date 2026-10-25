@@ -3856,6 +3856,22 @@ Local command-line Gmail triage: Jev sorts messages into Spam, Ignore or Importa
 
 [Full Better Email Filter (local Gmail triage with Jev that learns from your corrections) guide](better-email-filter.md) · [Source](https://github.com/miguelgarcia/better-email-filter)
 
+### buildornot (BUILD, MAYBE or DON'T BUILD verdicts on side-project ideas, judged by Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Command-line tool that judges a side-project idea: it searches GitHub and Hacker News for prior art, has Jev rate pain, reach, feasibility and deal-breakers and how likely each match does the same job, and prints BUILD, MAYBE or DON'T BUILD with the reasons.
+
+**Jev's role:** Core: Jev answers every judgment (levels out of five, deal-breakers, prior-art matches) and code turns them into a score and verdict.
+
+**Platform:** Any OS with Python 3.10+; install with uvx or pipx from GitHub.
+
+**Product:** [github.com/blakestone-x/buildornot](https://github.com/blakestone-x/buildornot)
+
+**Pricing / access:** Open source (MIT); free. Jev calls use your own TypeSafe key (the README says a run is well under a cent). Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full buildornot (BUILD, MAYBE or DON'T BUILD verdicts on side-project ideas, judged by Jev) guide](buildornot.md) · [Source](https://github.com/blakestone-x/buildornot)
+
 ### Clasificador de noticias regionales con Jev
 
 `Open source` · `Free source build` · `BYOK`
