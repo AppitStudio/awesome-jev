@@ -1250,6 +1250,22 @@ Local Japanese bookkeeping tool (playful "demon ledger" UI) that shows receipts 
 
 [Full Jev会計 (jev-kaikei-free) guide](jev-kaikei.md) · [Source](https://github.com/USHIKUNDESUYO/jev-kaikei-free)
 
+### jizhang (self-hosted subscription and renewal tracker with optional Jev categories)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted command center for recurring expenses: subscriptions, renewals, reminders and the decisions around them; optional per-user Jev classification picks a category when a subscription is added.
+
+**Jev's role:** Optional: off by default; when enabled, Jev suggests a category for each new subscription and only a confident suggestion is applied.
+
+**Platform:** Self-hosted; Docker image on GHCR.
+
+**Product:** [github.com/torr9522/jizhang](https://github.com/torr9522/jizhang)
+
+**Pricing / access:** Open source (GPL-3.0-or-later); free to self-host. Jev calls use each user's own TypeSafe key. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full jizhang (self-hosted subscription and renewal tracker with optional Jev categories) guide](jizhang.md) · [Source](https://github.com/torr9522/jizhang)
+
 ### job-drill
 
 `Open source` · `Free source build` · `BYOK`
