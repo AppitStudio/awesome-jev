@@ -1828,6 +1828,22 @@ WebGL swarm of 1,000 light particles whose strategy (flee, attack, protect, spli
 
 [Full THE SWARM guide](the-swarm.md) · [Source](https://github.com/machine1986/the-swarm)
 
+### Toru (recording infrastructure for coding agents, with optional Jev browser navigation)
+
+`Open source` · `Commercial` · `Freemium` · `BYOK`
+
+MCP recorder that lets Claude Code, Cursor, Codex and other agents record product demos, changelog GIFs and bug repros in your signed-in Chrome or on your Mac, renders them with your brand and checks each take; optional server-side Jev navigation picks browser operations and targets for a goal.
+
+**Jev's role:** Optional: with a TypeSafe key, Jev answers the operation and target questions for server-side navigation; manual MCP browser controls work without it, and Toru adds no model of its own otherwise.
+
+**Platform:** Hosted at toru.tools (limited public beta) with Toru for Chrome and Toru for Mac; source on GitHub.
+
+**Product:** [toru.tools](https://toru.tools)
+
+**Pricing / access:** Hosted: Free (10 credits a month), Creator $19/month and Studio $49/month per [toru.tools/pricing](https://toru.tools/pricing); checkout after beta admission. Self-host under MIT. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full Toru (recording infrastructure for coding agents, with optional Jev browser navigation) guide](toru.md) · [Source](https://github.com/alifoo/toru)
+
 ### ToS Watch
 
 `Open source` · `Free source build` · `BYOK`
