@@ -1360,6 +1360,22 @@ Gmail sorter with readable rules plus TypeSafe Jev typed judgments, receipts, an
 
 [Full Masroufi guide](masroufi.md) · [Source](https://github.com/wafaa-alhayek/masroufi)
 
+### Metis Suite (self-hosted mail and calendar client with an optional Jev decision model)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted mail, calendar and drive client with an AI agent and workflows for Gmail, Outlook, Zoho or any IMAP/SMTP and CalDAV server; an optional decision model (TypeSafe's Jev by default for the `systemone` driver) labels inbox mail, gates thread summaries and powers workflow Ask and Branch steps.
+
+**Jev's role:** Optional: each decision-model feature (inbox labels, summary gate, workflow Ask and Branch) has its own switch, all off by default; the LLM still writes text.
+
+**Platform:** Self-hosted web app; local SQLite or Turso database.
+
+**Product:** [github.com/trymetis/metis](https://github.com/trymetis/metis)
+
+**Pricing / access:** Open source (AGPL-3.0); free to self-host. Decision calls use your own TypeSafe key, OpenAI key or a local server. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full Metis Suite (self-hosted mail and calendar client with an optional Jev decision model) guide](metis-suite.md) · [Source](https://github.com/trymetis/metis)
+
 ### MinusPod (self-hosted podcast ad remover with native System One support)
 
 `Open source` · `Free source build`
