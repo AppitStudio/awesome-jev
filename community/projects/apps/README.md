@@ -2940,6 +2940,22 @@ Native Android notification filter: natural-language rules plus TypeSafe Jev (or
 
 [Full Notiq guide](notiq.md) · [Source](https://github.com/chengyongru/notiq)
 
+### QuietFlow (Android notification attention manager with opt-in Jev classification)
+
+`Open source` · `Free source build` · `BYOK`
+
+Android proof of concept that listens to notifications and sorts them into five attention classes, from action required to hide; local safety rules protect OTP, security, finance, calls and system notifications, Jev classifies the rest when you opt in, and observation mode (never dismissing anything) is the default.
+
+**Jev's role:** Optional but central: with a key and explicit permission, Jev picks one of the five classes for redacted notification text, with confidence; high-confidence results drive active-mode actions.
+
+**Platform:** Android 10+, built from source or from the CI debug APK artifact; not on Google Play.
+
+**Product:** [github.com/KoheiTakada/QuietFlow](https://github.com/KoheiTakada/QuietFlow)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls are billed to your TypeSafe key. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full QuietFlow (Android notification attention manager with opt-in Jev classification) guide](quietflow.md) · [Source](https://github.com/KoheiTakada/QuietFlow)
+
 ### Simple Launcher
 
 `Open source` · `Free source build` · `BYOK`
