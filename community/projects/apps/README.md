@@ -4244,6 +4244,22 @@ Native terminal multiplexer for coding agents (live status, persistent sessions,
 
 [Full pitwall guide](pitwall.md) · [Source](https://github.com/quanticstudios/pitwall)
 
+### Tidyward (private file housekeeper for macOS where Jev answers what each file is)
+
+`Open source` · `Free source build` · `BYOK`
+
+Early macOS command-line housekeeper: it identifies files locally first, masks real names before anything leaves the machine, asks Jev only semantic yes/no questions such as "is this an invoice?", and your plain-text rules turn the answers into a keep, archive or Trash plan you confirm; every move can be undone.
+
+**Jev's role:** Core for semantic matching: Jev returns calibrated yes/no probabilities for each rule's description; exact conditions run locally and the model never chooses an action.
+
+**Platform:** macOS command line (`cargo install`); no scheduler or GUI yet, Windows planned.
+
+**Product:** [github.com/chatpoc-ai/tidyward](https://github.com/chatpoc-ai/tidyward)
+
+**Pricing / access:** Open source (Apache-2.0); free source build. Jev calls are billed to your TypeSafe or Vercel AI Gateway account. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Tidyward (private file housekeeper for macOS where Jev answers what each file is) guide](tidyward.md) · [Source](https://github.com/chatpoc-ai/tidyward)
+
 ## Discord bots
 
 ### jeff (Discord bot)
