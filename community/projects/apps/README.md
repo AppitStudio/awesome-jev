@@ -106,6 +106,22 @@ Three AI trading bees on OKX perpetual futures race on paper by default: TypeSaf
 
 [Full beebots guide](beebots.md) · [Source](https://github.com/imikerussell/beebots)
 
+### BOOLS (Breakout played live by Jev in the browser)
+
+`Open source` · `Free` · `BYOK`
+
+Browser Breakout game where a System One decision model steers the paddle: while the ball falls the page sends its state and one Choice question over eight zones, and the paddle moves to the pick; on-screen stats show latency, accuracy by distance and per-zone probabilities.
+
+**Jev's role:** Core: every paddle move comes from the model's answer; the game never predicts the ball itself. Default model `typesafe/jev-latest` through Requesty.
+
+**Platform:** Web, at bools.iteratory.com; or run the single `public/index.html` locally.
+
+**Product:** [bools.iteratory.com](https://bools.iteratory.com)
+
+**Pricing / access:** Open source (MIT); free to play. Decisions are billed to your own Requesty or provider key (about 400 input tokens each, a few per second). Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full BOOLS (Breakout played live by Jev in the browser) guide](bools.md) · [Source](https://github.com/neovibrant/BOOLS)
+
 ### Bot Derby (Jev and OpenAI Decisions compete in a paper-trading experiment)
 
 `Open source` · `Free`
