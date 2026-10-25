@@ -2380,6 +2380,22 @@ Menu bar app and native MCP server that let an AI operate the whole Mac, not jus
 
 [Full Computer Use (lite) by ajokhai (Mac computer use for any AI, with an optional Jev mode) guide](computer-use-lite.md) · [Source](https://github.com/ajokhai/computer-use-lite)
 
+### Covan (local-first personal agent desktop app with Jev reply decisions)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local-first personal agent desktop app with memory, tools, workspaces and scheduled tasks, where several bots can chat with you or in groups; an optional Jev strategy decides whether each bot should reply in a group or follow up, with low-confidence answers falling back to the LLM strategy.
+
+**Jev's role:** Optional: Jev answers the speak-or-stay-quiet and follow-up decisions; text is written by the bot's chosen model.
+
+**Platform:** macOS mainly; run from source with `./start.command`.
+
+**Product:** [github.com/Lichas/covan](https://github.com/Lichas/covan)
+
+**Pricing / access:** Open source (Apache-2.0); free source build. Model and Jev calls use your own keys or CLIs. Checked 2026-10-25. Source inspected; live app not run on the review host.
+
+[Full Covan (local-first personal agent desktop app with Jev reply decisions) guide](covan.md) · [Source](https://github.com/Lichas/covan)
+
 ### Hyperclip (macOS video clipper with Jev clip scoring)
 
 `Open source` · `Free source build`
