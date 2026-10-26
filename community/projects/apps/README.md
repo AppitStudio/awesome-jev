@@ -3502,6 +3502,22 @@ Chrome extension that scores and stamps AI slop on X and LinkedIn feeds with Typ
 
 [Full Jev Slop Guard guide](jev-slop-guard.md) · [Source](https://github.com/davertor/jev-slop-guard)
 
+### Jev ToS Checker (Chrome extension that flags terms-of-service clauses that may work against you)
+
+`Open source` · `Free` · `BYOK`
+
+Chrome extension that, on request, splits the terms of service or privacy policy on the current page into clauses, has Jev check each against five risk types, and lists the flagged clauses with their original text, scrolling to each on the page; works on any site and in any language; English and Japanese UI.
+
+**Jev's role:** Clause judge: each clause is asked five typed risk questions, and the flagged ones are shown.
+
+**Platform:** Chrome (installed from a downloaded release folder; not on the Chrome Web Store at review time).
+
+**Product:** [shohei81.github.io/jev-tos-checker/](https://shohei81.github.io/jev-tos-checker/)
+
+**Pricing / access:** Open source (MIT); free from GitHub Releases (v0.3.1). Jev calls are billed to your TypeSafe key, or handled by a server you are given. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Jev ToS Checker (Chrome extension that flags terms-of-service clauses that may work against you) guide](jev-tos-checker.md) · [Source](https://github.com/shohei81/jev-tos-checker)
+
 ### Jev Tweet Radar
 
 `Open source` · `Free source build` · `BYOK`
