@@ -394,6 +394,22 @@ Turns your own study material (PDF, Word, text) into exams that grade themselves
 
 [Full Eyedot · 点睛 guide](eyedot.md) · [Source](https://github.com/Simon-zj1/eyedot)
 
+### Family Feud Live (multiplayer party game whose optional AI host uses Jev to judge answers)
+
+`Open source` · `Free`
+
+Jackbox-style multiplayer Family Feud fan game: the board runs on a TV, players join from phones by QR code, and an optional AI host writes surveys on any topic, speaks in character and judges fuzzy answers, with a local matcher first and Jev as the decision model for the guesses it cannot decide.
+
+**Jev's role:** Optional answer judge: with the AI host on, guesses the local matcher cannot settle go to Jev, which picks the matching board answer or none.
+
+**Platform:** Web (TV or laptop screen plus phones); self-deploy on Vercel.
+
+**Product:** [family-feud-self.vercel.app](https://family-feud-self.vercel.app)
+
+**Pricing / access:** Open source (MIT). The live demo is free to play; a self-deployed copy runs free with AI off. The AI host uses your own Vercel AI Gateway key and prepaid credits (BYOK for that mode); whether the public demo has the AI host on was not verified. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Family Feud Live (multiplayer party game whose optional AI host uses Jev to judge answers) guide](family-feud-live.md) · [Source](https://github.com/gocougs2020/family-feud)
+
 ### FilmHunch
 
 `Open source` · `Free source build` · `BYOK`
