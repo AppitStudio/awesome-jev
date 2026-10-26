@@ -1944,6 +1944,22 @@ Explore YouTube transcripts by meaning with a Turkish UI: TypeSafe Jev classifie
 
 [Full Transcript Lens guide](transcript-lens.md) · [Source](https://github.com/sensahin/transcript-lens)
 
+### Treg ("OpenRouter for agent tools": pay-per-call tool catalog whose tool search is judged by Jev)
+
+`Source available` · `Paid` · `Commercial`
+
+Hosted tool registry from Superdesign: agents use one base URL and token to call thousands of priced endpoints (SEO, social, people and company enrichment, ads, scraping, media generation) without provider accounts, plus team keys and skills; tool search sends the query and candidates to Jev in one judge request, and Jev is also offered as a catalog endpoint.
+
+**Jev's role:** Search judge: `/catalog/find` sends the job description and recalled tools to Jev, which keeps or drops each candidate; Jev is also resold as the `typesafe.jev` endpoint.
+
+**Platform:** Web service at treg.to with a CLI and agent skills; self-hosting for your own organisation is permitted.
+
+**Product:** [treg.to](https://treg.to)
+
+**Pricing / access:** Pay per call, with prices shown per endpoint on [treg.to](https://treg.to) (from about one cent per the README); new verified accounts get $1.00 of free credit. Licence: Apache-2.0 with Additional Terms that forbid offering it as a hosted service to third parties without permission — source available, not OSI open source, despite the launch post's "fully open source" wording. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Treg ("OpenRouter for agent tools": pay-per-call tool catalog whose tool search is judged by Jev) guide](treg.md) · [Source](https://github.com/superdesigndev/treg)
+
 ### undertone
 
 `Source available` · `Free source build` · `BYOK`
