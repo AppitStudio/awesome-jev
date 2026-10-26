@@ -2548,6 +2548,22 @@ Two free Mac tools: JevDK lets you design and test typed decision questions on a
 
 [Full JevDK and jev-serve (Mac tools to design decision questions and serve a Jev-style API locally) guide](jevdk.md) · [Source](https://github.com/ancientcomputing/jevdk)
 
+### JEVision (flowchart UI tests for any Mac app, with Jev checking screens and finding elements)
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS app for visual UI testing of any Mac app, including ones you cannot instrument: a test is a JSON flowchart walked block by block with the real mouse and keyboard, and Jev can check what a screenshot shows with a confidence threshold and find elements described in words such as "the blue Save button".
+
+**Jev's role:** Optional vision provider: Jev answers how sure it is that a screen matches an expectation and locates elements by description; Anthropic, OpenAI, Gemini, Ollama and LM Studio are alternatives.
+
+**Platform:** macOS 26+ source build; the README describes signed DMG and Homebrew installs, but no GitHub release was published at review time.
+
+**Product:** [github.com/dev-pikapik/JEVision](https://github.com/dev-pikapik/JEVision)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls are billed to your TypeSafe account or Cloudflare AI Gateway credits. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full JEVision (flowchart UI tests for any Mac app, with Jev checking screens and finding elements) guide](jevision.md) · [Source](https://github.com/dev-pikapik/JEVision)
+
 ### JevPaste
 
 `Open source` · `Free source build` · `BYOK`
