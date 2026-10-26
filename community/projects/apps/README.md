@@ -440,6 +440,22 @@ Hosted natural-language API discovery: product copy states Jev searches about 1,
 
 [Try Find the Right API](https://www.findtherightapi.com/) · [Full Find the Right API guide](find-the-right-api.md) · [Source](https://www.findtherightapi.com/)
 
+### Finney (finance agent for hackathon directors, with Jev reviewing agent traces)
+
+`Open source` · `Free source build` · `BYOK`
+
+Event finance workspace for hackathon directors that keeps source evidence, budget commitments, decisions and reports together in Supabase with a Next.js front end; OpenCode and Hermes do scoped agent work, Jev asks four yes/no questions about each finished trace (unsupported completions, missing payer evidence, needless clarifications, stale links), and payments run only on Base Sepolia test funds with exact-action approvals.
+
+**Jev's role:** Trace reviewer: completed agent traces get four Noul questions, and flagged ones queue a bounded diagnosis.
+
+**Platform:** Web; hosted beta at finney-beta.vercel.app (sign-in required) or self-host.
+
+**Product:** [finney-beta.vercel.app](https://finney-beta.vercel.app)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls are billed to your Vercel AI Gateway key; Supabase and hosting are yours. Access terms for the hosted beta were not verified. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Finney (finance agent for hackathon directors, with Jev reviewing agent traces) guide](finney.md) · [Source](https://github.com/pauravhp/finney)
+
 ### Fly x Jev
 
 `Open source` · `Free source build` · `BYOK`
