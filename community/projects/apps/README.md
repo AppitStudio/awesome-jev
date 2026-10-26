@@ -3154,6 +3154,22 @@ Outlook add-in for Microsoft 365 work and school accounts, powered by TypeSafe J
 
 [Full JevMail (Outlook) guide](koh-henry-jevmail.md) · [Source](https://github.com/koh-henry/jevmail)
 
+### KeyFlip (Windows tray app that picks the right Hebrew or English layout per text field)
+
+`Open source` · `Free source build` · `BYOK`
+
+Windows tray app for people who type in Hebrew and English: when you focus a text field it chooses the layout from what it learned for that field, the text already there, or Jev's reading of the app, site, page title and field label, and it fixes a word you typed on the wrong layout.
+
+**Jev's role:** Layout classifier: Jev decides Hebrew or English from the field's context when local rules cannot, above a configurable threshold (default 0.70).
+
+**Platform:** Windows 10/11; source build with `dotnet publish` (no published release at review time).
+
+**Product:** [github.com/kivimedia/keyflip](https://github.com/kivimedia/keyflip)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls (about $0.00002 each per the README) are billed to your TypeSafe account; the optional Haiku fixer to Anthropic. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full KeyFlip (Windows tray app that picks the right Hebrew or English layout per text field) guide](keyflip.md) · [Source](https://github.com/kivimedia/keyflip)
+
 ### Neutron Email Triage
 
 `Open source` · `Free source build` · `BYOK`
