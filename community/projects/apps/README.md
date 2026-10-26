@@ -2610,6 +2610,22 @@ Control Ableton Live from a ⌘⇧Space bar: TypeSafe Jev chooses typed mixer, t
 
 [Full Live Jev guide](live-jev.md) · [Source](https://github.com/okinaaudio/live-jev)
 
+### Llasso (draw a box round anything on your Mac and ask about it or have it changed)
+
+`Open source` · `Free` · `BYOK`
+
+Mac app where you hold ⌘ and drag a box round anything on screen, then type or say what you want: Llasso guesses what the box holds, picks a model for the kind of work from OpenRouter's live lists, and every change waits for your tap; Jev on OpenRouter classifies the request when it can answer within 1.5 seconds.
+
+**Jev's role:** Request router: Jev reads the typed request and names the kind of work (writing, coding, design and so on) so Llasso can pick a model; keyword rules decide when Jev is slow.
+
+**Platform:** macOS 26+ on Apple silicon; install script fetches the GitHub release (v0.1.2 at review time).
+
+**Product:** [github.com/jamiejefferson/llasso](https://github.com/jamiejefferson/llasso)
+
+**Pricing / access:** Open source (MIT); free install. All model calls, including Jev, are billed to your OpenRouter key. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Llasso (draw a box round anything on your Mac and ask about it or have it changed) guide](llasso.md) · [Source](https://github.com/jamiejefferson/llasso)
+
 ### Mac Voice Control
 
 `Open source` · `Free source build` · `BYOK`
