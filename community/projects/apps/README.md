@@ -2742,6 +2742,22 @@ Personal macOS pipeline that turns Safari iCloud tabs into clean EPUBs for an e-
 
 [Full pulp guide](pulp.md) · [Source](https://github.com/danemarguglio/pulp)
 
+### QuickAsk (macOS menu bar assistant for Codex and Claude, with Jev routing and follow-up checks)
+
+`Source available` · `Free source build` · `BYOK`
+
+Native macOS menu bar assistant: press Option–Space, ask a question and send it to Codex or Claude using your existing CLI logins; Jev (or optionally OpenAI Decisions) routes which context to attach and checks whether an answer needs a follow-up.
+
+**Jev's role:** Context router and follow-up checker: Jev answers typed questions about which context to include and whether a reply needs a follow-up.
+
+**Platform:** macOS 14+; build from source or use the `dist/QuickAsk.app` in the repository (no GitHub release at review time).
+
+**Product:** [github.com/cxrobx/quickask](https://github.com/cxrobx/quickask)
+
+**Pricing / access:** Source available under BSL 1.1: free for personal use and internal use by your organisation; selling it needs a commercial licence from CX Ventures LLC. Converts to Apache-2.0 on 2030-09-30. Jev calls billed to your TypeSafe key. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full QuickAsk (macOS menu bar assistant for Codex and Claude, with Jev routing and follow-up checks) guide](quickask.md) · [Source](https://github.com/cxrobx/quickask)
+
 ### RedOS
 
 `Open source` · `Free source build` · `BYOK`
