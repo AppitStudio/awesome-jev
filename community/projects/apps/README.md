@@ -3512,6 +3512,22 @@ Chrome MV3 (optional iOS Safari Web Extension) that scores each visible X post w
 
 [Full Jev Tweet Radar guide](jev-tweet-radar.md) · [Source](https://github.com/DDnim/jev-tweet-radar)
 
+### Jev X Blocker (Chrome extension that hides high-confidence porn and spam on X with your own Jev key)
+
+`Open source` · `Free` · `BYOK`
+
+Local-first Chrome extension that uses your own TypeSafe key to cover high-confidence pornographic, sexually suggestive and porn-funnel posts and replies on X with restorable placeholders, across timelines, search, profiles and threads; a refactor and extension of bugkiwi's elons-job; Chinese documentation.
+
+**Jev's role:** Content judge: the username and post or reply text go to Jev, and items above the confidence threshold are hidden behind a placeholder.
+
+**Platform:** Chrome and Edge (unpacked from the v1.0.0 release zip); not on the Chrome Web Store at review time.
+
+**Product:** [github.com/bit-cook/Jev-X-Blocker](https://github.com/bit-cook/Jev-X-Blocker)
+
+**Pricing / access:** Open source (MIT); free download from GitHub Releases. Jev calls are billed to your TypeSafe account. Without a key nothing is hidden. Checked 2026-10-26. Source inspected; live app not run on the review host.
+
+[Full Jev X Blocker (Chrome extension that hides high-confidence porn and spam on X with your own Jev key) guide](jev-x-blocker.md) · [Source](https://github.com/bit-cook/Jev-X-Blocker)
+
 ### Jev × WebMCP
 
 `Open source` · `Free source build` · `BYOK`
