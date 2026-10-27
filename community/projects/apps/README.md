@@ -3344,6 +3344,22 @@ Privacy-conscious local-first chat signal analyzer: on-device redaction, then Ty
 
 [Full SignalLens guide](signal-lens.md) · [Source](https://github.com/xinian5216/chat-signal-analyzer)
 
+### SoluTerminal (Windows workspace for Claude Code and Codex, with Jev smart approvals)
+
+`Open source` · `Free`
+
+Windows workspace that runs Claude Code and Codex side by side in PowerShell and WSL panes, keeps them running when the window closes, lets one agent ask another for a second opinion, and stops agents approving their own requests; Jev classifies each task into a tier and answers cautious permission prompts as smart approvals.
+
+**Jev's role:** Tier classification and smart approvals: one Choice for the task tier and one Noul risk question, gated on confidence.
+
+**Platform:** Windows; installer from soluterminal.com (free during beta) or build from source.
+
+**Product:** [soluterminal.com/](https://soluterminal.com/)
+
+**Pricing / access:** Open source (Apache-2.0); the Windows app is free during beta per soluterminal.com (future pricing not published). With your own key, Jev calls are billed to your TypeSafe account. Checked 2026-10-27. Source inspected; live app not run on the review host.
+
+[Full SoluTerminal (Windows workspace for Claude Code and Codex, with Jev smart approvals) guide](soluterminal.md) · [Source](https://github.com/soluterminal/soluterminal)
+
 ## Browser extensions
 
 ### AI, SI, or Whatever
