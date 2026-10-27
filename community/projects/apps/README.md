@@ -80,6 +80,22 @@ Tiny static web app for yes/no questions via TypeSafe Jev Noul through OpenRoute
 
 [Full AskJev (openconstruct) guide](openconstruct-askjev.md) · [Source](https://github.com/openconstruct/askjev)
 
+### Atmosphere (animate a rigged 3D character from a plain-language action, with Jev judging each pose)
+
+`Open source` · `Free source build`
+
+Web app built for the Devpost Build With AI: Basics hackathon: upload a rigged 3D character, describe an action, and an OpenAI model plans the timing, beats and poses while Jev judges and polishes each pose before the result plays back.
+
+**Jev's role:** Pose judge: scores and picks pose refinements during the animation pipeline.
+
+**Platform:** Run locally from source (Node.js).
+
+**Product:** [github.com/JackMerma/atmosphere](https://github.com/JackMerma/atmosphere)
+
+**Pricing / access:** Open source (MIT); free source build. OpenAI and TypeSafe usage is billed to your own keys. Checked 2026-10-27. Source inspected; live app not run on the review host.
+
+[Full Atmosphere (animate a rigged 3D character from a plain-language action, with Jev judging each pose) guide](atmosphere-3d-animation.md) · [Source](https://github.com/JackMerma/atmosphere)
+
 ### Beat Jev
 
 `Open source` · `Free source build` · `BYOK`
