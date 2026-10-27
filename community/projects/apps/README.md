@@ -1874,6 +1874,22 @@ Describe what you are building in plain language; TypeSafe Jev assembles a coher
 
 [Full Stack4That guide](stack4that.md) · [Source](https://github.com/MoRohn/stack4that)
 
+### stream95 (Windows 95-style live-stream overlay whose chat is moderated by rules and Jev before it shows)
+
+`Open source` · `Free source build`
+
+Live-stream overlay for old-school programming channels built with React95: eight ready OBS scenes, chat that passes local rules and then Jev before it appears on screen, an LLM fallback when Jev is unsure, a Clippy that answers chat questions and optional text-to-speech. Portuguese-language docs.
+
+**Jev's role:** Chat moderation: Jev decides whether each message is shown, held for a human, or flagged.
+
+**Platform:** Runs locally; scenes load in OBS as browser sources.
+
+**Product:** [github.com/frederico-kluser/stream95](https://github.com/frederico-kluser/stream95)
+
+**Pricing / access:** Open source (MIT); free source build. Jev and LLM calls are billed to your own OpenRouter key. Checked 2026-10-28. Source inspected; live app not run on the review host.
+
+[Full stream95 (Windows 95-style live-stream overlay whose chat is moderated by rules and Jev before it shows) guide](stream95.md) · [Source](https://github.com/frederico-kluser/stream95)
+
 ### Surge Desk
 
 `Source available` · `Free` · `BYOK`
