@@ -2912,6 +2912,22 @@ Hackathon proof of concept that predicts your next action on a Mac and shows it 
 
 [Full Tab (Mac next-action autocomplete) guide](tab-mac-next-action.md) · [Source](https://github.com/alaramartin/paradigmhacks)
 
+### Tally (automatic time, income and evidence tracking for hourly contract work)
+
+`Open source` · `Free source build`
+
+Menu bar app for hourly contractors that records which app, window and tab you are in every few seconds, assigns time to projects by your rules, seals intervals into a hash-chained ledger and bills only explicit client sessions; optionally Jev assigns unmatched windows to projects (at 80% confidence or more) and to activity categories.
+
+**Jev's role:** Optional classifier: windows no rule matches go to Jev once per window for a project or category; Jev never puts time on a client.
+
+**Platform:** macOS; build from source (self-signed release builds).
+
+**Product:** [github.com/0Calories/tally](https://github.com/0Calories/tally)
+
+**Pricing / access:** Open source (MIT); free source build. Optional Jev calls are billed to your own TypeSafe key. Checked 2026-10-27. Source inspected; live app not run on the review host.
+
+[Full Tally (automatic time, income and evidence tracking for hourly contract work) guide](tally-contract-time.md) · [Source](https://github.com/0Calories/tally)
+
 ### TipTour
 
 `Open source` · `Free source build` · `BYOK`
