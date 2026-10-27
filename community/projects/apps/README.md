@@ -2144,6 +2144,22 @@ Desktop pal and notch that shows what coding agents (Claude Code, Codex and othe
 
 [Full dotpals guide](dotpals.md) · [Source](https://github.com/Rikinshah787/dotpals)
 
+### extynt (After Effects plugin and MCP server: plain-language motion design with optional Jev checks)
+
+`Open source` · `Free`
+
+Native After Effects plugin for macOS and Windows: describe a motion-design change in plain language, a model proposes a typed plan, and extynt validates, previews, applies it in one undo group and verifies the result; Claude Code and Codex can drive the same project over MCP, and small closed questions can optionally be answered by Jev when it is confident.
+
+**Jev's role:** Optional decision model for small closed questions (which effect was named, is the job finished); deterministic code answers by default.
+
+**Platform:** macOS and Windows; After Effects 25 and 26; signed installers on GitHub Releases (0.1.0, early).
+
+**Product:** [github.com/extynt-plugin/extynt/releases](https://github.com/extynt-plugin/extynt/releases)
+
+**Pricing / access:** Open source (MIT); signed installers are a free download. Model and optional Jev usage is billed by your providers. Checked 2026-10-27. Source inspected; live app not run on the review host.
+
+[Full extynt (After Effects plugin and MCP server: plain-language motion design with optional Jev checks) guide](extynt.md) · [Source](https://github.com/extynt-plugin/extynt)
+
 ### Facet
 
 `Open source` · `Free source build` · `BYOK`
