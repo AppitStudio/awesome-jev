@@ -2680,6 +2680,22 @@ Local-first macOS coding workspace with sessions, composer, terminal, and ACP ag
 
 [Full Keel guide](keel.md) · [Source](https://github.com/codejunkie99/keel)
 
+### LingYi App Watch (local macOS app-update dashboard, with optional Jev upgrade-risk ratings)
+
+`Open source` · `Free`
+
+Local-first macOS update dashboard that gathers pending updates from Homebrew, the Mac App Store, GitHub Releases, Sparkle appcasts and other sources, flags third-party sources and lets you mark apps as do-not-upgrade or to-verify; with a TypeSafe key, each pending update also gets a Jev risk level, confidence and reason. Chinese-language UI and docs.
+
+**Jev's role:** Optional upgrade-risk rating for each pending update, with a confidence and reason.
+
+**Platform:** macOS; run from source (Node.js) at 127.0.0.1:4123.
+
+**Product:** [watch.lingyi.tools](https://watch.lingyi.tools)
+
+**Pricing / access:** Open source (MIT); free. Optional Jev calls are billed to your own TypeSafe key. Checked 2026-10-28. Source inspected; live app not run on the review host.
+
+[Full LingYi App Watch (local macOS app-update dashboard, with optional Jev upgrade-risk ratings) guide](lingyi-app-watch.md) · [Source](https://github.com/Jascenn/lingyi-app-watch)
+
 ### Live Jev
 
 `Open source` · `Free source build` · `BYOK`
