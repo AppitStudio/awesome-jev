@@ -2550,6 +2550,22 @@ Native macOS side window for WeChat: one click reads the visible chat (text, ima
 
 [Full Jev Amazing (macOS WeChat sidebar for witty reply ideas, ranked by Jev) guide](jev-amazing-wechat.md) · [Source](https://github.com/yxjsxy/jevchat-amazing-response-macos)
 
+### Jev Assistant by jbellsolutions (Mac voice assistant that works in Chrome, on your Mac and in cloud browsers)
+
+`Open source` · `Free`
+
+Voice assistant preview for Apple Silicon Macs: LiveKit with GPT-Live 1 handles conversation, GPT-6 Luna does reasoning and task execution, and Jev makes the fast judgments (routing, next actions and checks) for tasks in your Chrome, on your Mac, in a Browser Use cloud browser or on an optional Orgo computer, with approvals before sends and changes.
+
+**Jev's role:** Fast judge: routes requests and makes yes/no and choice checks during tasks, alongside the reasoning model.
+
+**Platform:** macOS 15+ on Apple Silicon; unsigned preview installer.
+
+**Product:** [github.com/jbellsolutions/jev-assistant/releases/tag/v1.0.0-preview.1](https://github.com/jbellsolutions/jev-assistant/releases/tag/v1.0.0-preview.1)
+
+**Pricing / access:** Open source (MIT); the preview installer is a free download. OpenAI, LiveKit, TypeSafe, Browser Use and optional Orgo/Composio usage is billed by those providers. Checked 2026-10-27. Source inspected; live app not run on the review host.
+
+[Full Jev Assistant by jbellsolutions (Mac voice assistant that works in Chrome, on your Mac and in cloud browsers) guide](jev-assistant-jbellsolutions.md) · [Source](https://github.com/jbellsolutions/jev-assistant)
+
 ### Jev Voice
 
 `Open source` · `Free source build` · `BYOK`
