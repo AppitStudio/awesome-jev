@@ -3500,6 +3500,22 @@ Chrome and Firefox side-panel extension that asks the page you are reading your 
 
 [Full Jev Check (browser extension) guide](jev-check-extension.md) · [Source](https://github.com/amir9480/JevCheck)
 
+### Jev Content Filter (hide classified ads that don't match your plain-language criteria)
+
+`Open source` · `Free source build`
+
+Browser extension for classified-ad and auction sites: you write what you want in plain Czech or English (price range, model year, condition), it asks Jev one yes/no question per ad in batches of ten, and collapses or dims the ads that don't match; works on Bazos.cz/.sk/.pl/.at today, with a modular design for other sites.
+
+**Jev's role:** Per-ad yes/no filter: each ad's text goes to Jev as a Noul question against your criteria.
+
+**Platform:** Chromium-based browsers; build from source and load unpacked. Work in progress.
+
+**Product:** [github.com/Aladincz/Jev-Content-Filter](https://github.com/Aladincz/Jev-Content-Filter)
+
+**Pricing / access:** Open source (MIT); free source build. Jev calls are billed to your own TypeSafe key. Checked 2026-10-27. Source inspected; live app not run on the review host.
+
+[Full Jev Content Filter (hide classified ads that don't match your plain-language criteria) guide](jev-content-filter.md) · [Source](https://github.com/Aladincz/Jev-Content-Filter)
+
 ### Jev Content Guard
 
 `Open source` · `Free source build` · `BYOK`
