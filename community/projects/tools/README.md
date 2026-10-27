@@ -786,6 +786,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [jevmod](jevmod.md) | Moderation CLI/SDK/API/MCP and optional chat bots with per-category TypeSafe Jev probabilities and owned thresholds. | Python · `jevmod` 0.2.1 (MIT) |
 | [jevmory](jevmory.md) | Build quote-backed agent memory with TypeSafe Jev grading and audit MEMORY.md with receipts. | Python · CLI (`jevmory`) + Claude/Codex hooks |
 | [jevotron](jevotron.md) | CLI that scores every field of a table or file with Jev and exports a review queue. | Python · CLI (BSD-3-Clause) |
+| [Jevpact (Codex desktop plugin that compacts context at the right moment)](jevpact.md) | Local plugin and service for the Codex desktop app on macOS that watches ongoing work, asks Jev whether the current step has a usable conclusion and whether the task is waiting on something, then pauses the agent, triggers Codex's native compaction and resumes only actionable work; a development preview. | Codex plugin with local Node.js service (CC-BY-4.0) |
 | [JevPolicy](jevpolicy.md) | Turn Jev typed answers into deterministic, auditable policy decisions. | TypeScript · npm `@sanoy24/jevpolicy` (Apache-2.0) |
 | [jevq](who-jevq.md) | Read JSONL on stdin, ask Jev a yes/no claim about each value, pass through those above threshold (optional `--score` / `--pass`). | Python · CLI (`jevq` via uv/pipx) |
 | [JevRepoTriage](jevrepo-triage.md) | Self-hosted GitHub issue/PR triage with TypeSafe Jev classifications and operator-approved actions. | TypeScript · web UI + workers (MIT) |
