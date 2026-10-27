@@ -3006,6 +3006,22 @@ macOS app for explaining bugs by talking and pointing: record your screen and vo
 
 ## Android apps
 
+### Audience Moderator (Android counter for people and raised hands, with an optional Jev round insight)
+
+`Open source` · `Free source build`
+
+Android helper for event moderators: counts people and raised hands on-device (MediaPipe or YOLOv8n-pose), runs timed question rounds, picks a random audience member, and can optionally send round results, or one photo you confirm, to Jev for a short insight and a second count; camera pictures are never saved and there is no face recognition.
+
+**Jev's role:** Optional insight: one Choice and one Noul question about a round, plus an experimental photo check.
+
+**Platform:** Android arm64; debug APK built from source. The author notes the APK had not been run on a device at the time of writing.
+
+**Product:** [github.com/irvan-putra/jev-moderator](https://github.com/irvan-putra/jev-moderator)
+
+**Pricing / access:** Open source (AGPL-3.0); free source build. Optional Jev calls are billed to your own TypeSafe key. Checked 2026-10-27. Source inspected; live app not run on the review host.
+
+[Full Audience Moderator (Android counter for people and raised hands, with an optional Jev round insight) guide](audience-moderator-jev.md) · [Source](https://github.com/irvan-putra/jev-moderator)
+
 ### axo-launcher
 
 `Open source` · `Free source build` · `BYOK`
