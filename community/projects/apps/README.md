@@ -4142,6 +4142,22 @@ Firefox add-on that collapses noise on your X timeline: TypeSafe Jev (via OpenRo
 
 [Full Xift guide](xift.md) · [Source](https://github.com/asaidaoui-netria/xift)
 
+### XPostFilterPlus (Chrome extension that hides X posts by keyword or by Jev classification)
+
+`Open source` · `Free source build`
+
+Unofficial Chrome extension that hides X posts using keyword rules with case, accent and symbol normalisation, plus optional semantic exclusion conditions judged by Jev, OpenAI Decisions or Cloudflare Clef with your own key; settings open over the X page and a chip counts hidden posts; Japanese and English documentation.
+
+**Jev's role:** Optional semantic filter: each post is checked against your exclusion conditions, one of three selectable providers.
+
+**Platform:** Chrome (load unpacked from the dist folder); not in the Chrome Web Store at review time.
+
+**Product:** [github.com/doraTeX/XPostFilterPlus](https://github.com/doraTeX/XPostFilterPlus)
+
+**Pricing / access:** Open source (MIT); free source build. AI classification is billed by the provider you choose. Checked 2026-10-27. Source inspected; live app not run on the review host.
+
+[Full XPostFilterPlus (Chrome extension that hides X posts by keyword or by Jev classification) guide](xpostfilterplus.md) · [Source](https://github.com/doraTeX/XPostFilterPlus)
+
 ### Xtags
 
 `Open source` · `Free source build` · `BYOK`
