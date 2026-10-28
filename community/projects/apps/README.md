@@ -2208,6 +2208,22 @@ Photo culling and sorting app for photographers: an AI model checks every photo 
 
 [Full Facet guide](facet-photo.md) · [Source](https://github.com/ceelnok/facet-photo)
 
+### GenOffice (open-source AI office suite whose file search can be reranked by Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Free, open-source desktop office suite for Word, Excel, PowerPoint, PDF, Markdown and HTML files with a built-in AI panel, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can edit real .docx/.xlsx/.pptx files locally. Its home-screen file search can switch on Jev reranking, which reads excerpts of the top 20 local hits and moves the document that actually answers the query to the top.
+
+**Jev's role:** Optional reranker for local file search: one calibrated 0-2 relevance score per document excerpt.
+
+**Platform:** macOS 11+, Windows 10+ (x64 and Arm) and Linux x86_64 installers from GitHub Releases.
+
+**Product:** [genoffice.ai/](https://genoffice.ai/)
+
+**Pricing / access:** Open source (Apache-2.0); free download. Bring your own model keys; Jev reranking is billed to your OpenRouter or TypeSafe key. Checked 2026-10-28. Source inspected; live app not run on the review host.
+
+[Full GenOffice (open-source AI office suite whose file search can be reranked by Jev) guide](genoffice.md) · [Source](https://github.com/genspark-ai/genoffice)
+
 ### Goutoujunshi Jev Chat
 
 `Open source` · `Free source build` · `BYOK`
