@@ -3164,6 +3164,22 @@ Native Android notification filter: natural-language rules plus TypeSafe Jev (or
 
 [Full Notiq guide](notiq.md) · [Source](https://github.com/chengyongru/notiq)
 
+### NotiSift (Android notification organizer where a decision model such as Jev sorts each notification)
+
+`Open source` · `Free`
+
+Open-source Android app that rebuilds your notification drawer: each notification is decided as Important, Later or Junk and grouped, with important ones on top and the rest in quiet day and group stacks. Decision models (Jev, Perplexity's, or a self-hosted one) or chat models can do the sorting with your own key; codes, chats, calls and alarms never leave the phone, and your own rules always win. Works offline without AI.
+
+**Jev's role:** Optional per-notification decision: Important, Later or Junk, plus its group.
+
+**Platform:** Android; build from source and sideload (no store listing verified).
+
+**Product:** [github.com/procoder-net/notisift](https://github.com/procoder-net/notisift)
+
+**Pricing / access:** Open source (MIT); free. AI sorting is billed to your own provider key. Checked 2026-10-28. Source inspected; live app not run on the review host.
+
+[Full NotiSift (Android notification organizer where a decision model such as Jev sorts each notification) guide](notisift.md) · [Source](https://github.com/procoder-net/notisift)
+
 ### QuietFlow (Android notification attention manager with opt-in Jev classification)
 
 `Open source` · `Free source build` · `BYOK`
