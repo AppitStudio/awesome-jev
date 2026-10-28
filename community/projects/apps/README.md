@@ -4022,6 +4022,22 @@ Firefox extension (Japanese UI) that asks Jev six questions about each Google re
 
 [Full SearchJev guide](searchjev.md) · [Source](https://github.com/mita-pixels/searchjev)
 
+### Sift (Chrome extension that reranks Google results with Jev and folds away sales pages and SEO filler)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that moves Google results that actually answer your query to the top and folds away sales pages and SEO filler. Each search gets one extra question about whether it is transactional ("buy nike pegasus 41"), so shopping searches keep their sales pages.
+
+**Jev's role:** Per-result relevance and page-type decisions, plus one search-intent question per query.
+
+**Platform:** Chrome; build from source and load unpacked (no store listing verified).
+
+**Product:** [github.com/tylergibbs1/sift](https://github.com/tylergibbs1/sift)
+
+**Pricing / access:** Open source (MIT); free. Jev calls are billed to your own TypeSafe key. Checked 2026-10-28. Source inspected; live app not run on the review host.
+
+[Full Sift (Chrome extension that reranks Google results with Jev and folds away sales pages and SEO filler) guide](sift-google-rerank.md) · [Source](https://github.com/tylergibbs1/sift)
+
 ### Signal & Noise
 
 `Source unverified` · `Free source build` · `BYOK`
