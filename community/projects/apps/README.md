@@ -4270,6 +4270,22 @@ Review draft X posts, replies, and quote posts with a scorecard inside the compo
 
 [Full Vibe Check guide](vibecheck.md) · [Source](https://github.com/RafalWilinski/vibecheck)
 
+### X Semantic Filter (Chrome extension that folds low-value X posts by your plain-language rules, with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that folds posts on X in real time: describe what you don't want in plain language, every post gets a probability per rule, and anything above your threshold collapses into a one-line bar you can expand. Backends are Jev, Cloudflare's Clef-omni (which also reads images) or an OpenAI-compatible model; bilingual Chinese and English UI, no backend of its own.
+
+**Jev's role:** Per-post decision: the probability that a post matches each of your rules.
+
+**Platform:** Chrome or Chromium; load unpacked from source (no store listing verified).
+
+**Product:** [github.com/Nixz0824/x-semantic-filter](https://github.com/Nixz0824/x-semantic-filter)
+
+**Pricing / access:** Open source (MIT); free. Model calls are billed to your own key. Checked 2026-10-28. Source inspected; live app not run on the review host.
+
+[Full X Semantic Filter (Chrome extension that folds low-value X posts by your plain-language rules, with Jev) guide](x-semantic-filter.md) · [Source](https://github.com/Nixz0824/x-semantic-filter)
+
 ### Xift
 
 `Open source` · `Free source build` · `BYOK`
