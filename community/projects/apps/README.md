@@ -190,6 +190,22 @@ Chat app that makes TypeSafe Jev 'generate' an answer one character at a time by
 
 [Full ChatJevPT guide](chatjevpt.md) · [Source](https://github.com/samkoosh/ChatJevPT)
 
+### CheckMyBrandName (free brand-name checker where rules gather evidence and Jev judges what rules can't)
+
+`Closed source` · `Free`
+
+Free web app, no sign-up, that tests a proposed brand name for spelling and pronunciation, distinctiveness and trademark strength, meaning in six languages, naming fashions, unwanted associations and availability across 22 domain extensions, and gives separate name and availability scores. Rules collect the evidence and Jev judges what rules cannot, such as whether listeners in the US, UK, Canada and Australia would spell the name right; report sentences are written in advance. Also usable from AI agents through a no-key MCP server.
+
+**Jev's role:** vendor claim: Jev judges the questions rules cannot, such as how listeners would spell and say the name.
+
+**Platform:** web browser; MCP server for AI agents.
+
+**Product:** [checkmybrandname.com](https://www.checkmybrandname.com/)
+
+**Pricing / access:** free, no sign-up or key, with usage limits. Closed source; public pages reviewed 2026-10-28, implementation not inspected. Not affiliated with the maker.
+
+[Try CheckMyBrandName](https://www.checkmybrandname.com/) · [Full CheckMyBrandName guide](checkmybrandname.md) · [Source](https://www.checkmybrandname.com/)
+
 ### Cheese Toast
 
 `Open source` · `Free`
