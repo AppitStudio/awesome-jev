@@ -2572,6 +2572,22 @@ Local-first personal agent desktop app with memory, tools, workspaces and schedu
 
 [Full Covan (local-first personal agent desktop app with Jev reply decisions) guide](covan.md) · [Source](https://github.com/Lichas/covan)
 
+### Hermes Focus (Mac app that keeps you on task in 25-minute blocks, judged by Jev on your own keys)
+
+`Open source` · `Free source build` · `BYOK`
+
+Mac focus app: type what you are about to do, start a 25-minute block, and the app reads the front window once a second and asks Jev whether you are on task; a nudge appears only after about twenty seconds of confident drift, with one "I'm on task" button to correct it. Each block ends with a score out of 1,000 weighed against a rubric for your goal. No server or account.
+
+**Jev's role:** Per-second judgment of whether the current screen matches the block's goal and rubric.
+
+**Platform:** macOS 14+ on Apple silicon; build from source with `install.sh` (no notarized release verified).
+
+**Product:** [github.com/philiprmocanu-cell/hermes-focus](https://github.com/philiprmocanu-cell/hermes-focus)
+
+**Pricing / access:** Open source (MIT); free source build. TypeSafe usage is billed to your key; the author estimates one to three dollars per full day of blocks. Checked 2026-10-29. Source inspected; live app not run on the review host.
+
+[Full Hermes Focus (Mac app that keeps you on task in 25-minute blocks, judged by Jev on your own keys) guide](hermes-focus.md) · [Source](https://github.com/philiprmocanu-cell/hermes-focus)
+
 ### Hyperclip (macOS video clipper with Jev clip scoring)
 
 `Open source` · `Free source build`
