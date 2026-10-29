@@ -1650,6 +1650,22 @@ Self-hosted photo gallery where Jev's image questions rate every photo on dozens
 
 [Full Photo Ferret guide](photo-ferret.md) · [Source](https://github.com/JonesSteven/photo-ferret)
 
+### Planet.buzz (Reddit-style discovery feed from many web sources, with Jev classifying topics, motivations and content warnings)
+
+`Closed source` · `Pricing unverified`
+
+Early-stage web feed that brings posts, stories, videos and conversations from several web sources into an old-Reddit-style interface with topics, comments and votes. Per the maker, Jev classifies public post metadata into topics, reader motivations (learning, staying informed, entertainment, feel-good) and content warnings; application code validates and caches those answers and ranks posts from your topic preferences, content limits and feedback. Jev does not write posts or set the feed order directly.
+
+**Jev's role:** maker claim: classifies public post metadata into topics, motivations and content warnings; ranking stays in application code.
+
+**Platform:** web browser.
+
+**Product:** [planet.buzz](https://planet.buzz/)
+
+**Pricing / access:** guest feed open without an account; account limits and pricing not verified. Closed source; implementation not inspected; self-submitted by the maker (issue #2272).
+
+[Try Planet.buzz](https://planet.buzz/) · [Full Planet.buzz guide](planet-buzz.md) · [Source](https://planet.buzz/)
+
 ### Plasis
 
 `Open source` · `Free source build` · `BYOK`
