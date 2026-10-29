@@ -1048,6 +1048,22 @@ Self-hosted crypto decision-support web terminal: it pulls 50–1,000 recent twe
 
 [Full Jev X Sentiment Analysis (jev-v8) guide](jev-x-sentiment.md) · [Source](https://github.com/aikeluargalee-tech/jev-v8)
 
+### Jev · Bridge by Bridgehead (hosted MCP connector that puts Jev's choices, scores and yes/no checks in Claude, ChatGPT and other MCP apps)
+
+`Closed source` · `Pricing unverified` · `BYOK`
+
+Hosted connector you add once to claude.ai, ChatGPT, Claude Code, Codex or another MCP app: sign in, store your own Jev key in Bridgehead's vault, and Jev's choice, score and yes/no questions become tools, plus ranking of up to 50 candidates, questions over files (with Gemini transcribing recordings, videos and scans), a three-way allow/ask/block gate for agents, people search (is this the person you mean?), ready-made triage, screening, writing-review, claim-check and routing recipes, extraction and saved question sets. Every answer is kept with its confidence so you can mark it right or wrong.
+
+**Jev's role:** vendor description: answers the connector's choice, score, yes/no, ranking and gate questions on your own key.
+
+**Platform:** remote MCP connector for claude.ai, ChatGPT, Claude Code, Codex and other MCP apps.
+
+**Product:** [jevbridge.fyi](https://jevbridge.fyi/)
+
+**Pricing / access:** sign-in with your own Jev key; Bridgehead pricing not published on the pages reviewed. Closed source; public pages reviewed 2026-10-29, implementation not inspected. Not made by TypeSafe.
+
+[Try Jev · Bridge](https://jevbridge.fyi/) · [Full Jev · Bridge guide](jev-bridge-bridgehead.md) · [Source](https://jevbridge.fyi/)
+
 ### Jev 棋馆 (Jev board games)
 
 `Open source` · `Free source build` · `BYOK`
