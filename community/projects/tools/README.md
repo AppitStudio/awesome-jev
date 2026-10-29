@@ -1801,6 +1801,7 @@ These projects study related typed-decision patterns using other models. They ar
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [Abstract Sift (screen research abstracts against your interests with Jev, OpenAI Decisions or both)](abstract-sift.md) | Local CLI for screening conference or paper abstracts against a research-interest text with Jev, OpenAI Decisions or both side by side, with agreement and disagreement reports. Concurrent, resumable scoring, cost estimates and a `--max-cost-usd` cap, CSV/JSONL exports and an offline HTML report; an ESMO 2026 run guide is included. | Python CLI (uv) (MIT) |
 | [Agent Seek](agent-seek.md) | Cheap web recall for agents: You.com discover + TypeSafe Jev cascade ranking (REST/MCP/UI). Does not write answers. | Python 3.12+ · FastAPI/MCP (`agentseek.dev` demo) |
 | [agent-doc-search](agent-doc-search.md) | Docs routing for agents: BM25 + Jev search propose, Jev check confirms. | JavaScript · CLI/hook (MIT) |
 | [Apple RAG MCP](apple-rag-mcp.md) | Apple developer docs and WWDC transcripts over MCP, ranked by Jev with a fallback reranker. | TypeScript · hosted MCP + Cloudflare Worker source (MIT; free tier + paid Pro) |
