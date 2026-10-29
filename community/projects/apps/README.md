@@ -4816,6 +4816,22 @@ Delete high-confidence Telegram group spam with TypeSafe Jev Noul signals and fa
 
 [Full Jev Anti-Spam Bot guide](jev-antispam-bot.md) · [Source](https://github.com/backmeupplz/jev_antispam_bot)
 
+### Jevchik (Telegram group bot: karma for useful messages, anti-spam for newcomers, judged by Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted Telegram bot for group chats: members earn karma from reactions, replies, thanks and from messages Jev judges useful, a karma number appears next to their names, newcomers get spam screening, and a Mini App shows weekly, monthly and all-time leaderboards. Bot texts are in Russian; docs in Russian and English.
+
+**Jev's role:** Scores messages for usefulness and screens newcomers' messages for spam.
+
+**Platform:** Self-hosted with Docker Compose; no public instance verified.
+
+**Product:** [github.com/smixs/jevchik](https://github.com/smixs/jevchik)
+
+**Pricing / access:** Open source (MIT); free to self-host. TypeSafe usage is billed to your key. Checked 2026-10-29. Source inspected; live app not run on the review host.
+
+[Full Jevchik (Telegram group bot: karma for useful messages, anti-spam for newcomers, judged by Jev) guide](jevchik.md) · [Source](https://github.com/smixs/jevchik)
+
 ### TG-Spam
 
 `Open source` · `Free source build` · `BYOK`
