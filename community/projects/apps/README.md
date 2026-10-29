@@ -3634,6 +3634,22 @@ Browser extension that uses TypeSafe Jev (via OpenRouter Decisions) to classify 
 
 [Full Focus guide](focus.md) · [Source](https://github.com/bramtechs/Focus)
 
+### GitMemoMark (Chrome extension that saves X posts and web pages to your GitHub repo as Markdown, with optional Jev folder sorting)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension (Manifest V3) that saves X posts, web articles, selections, links and images to a GitHub repository you own as Markdown, with folders, tags and notes. Folder choice goes domain rules first, then Jev if you turned it on, then an unsorted folder. Japanese UI and docs; developer preview, not on the Chrome Web Store.
+
+**Jev's role:** Optional: picks the destination folder for a saved page from your folder list and descriptions.
+
+**Platform:** Desktop Chrome; load unpacked from the cloned repo (developer preview).
+
+**Product:** [github.com/Aero123421/gitmemomark](https://github.com/Aero123421/gitmemomark)
+
+**Pricing / access:** Open source (Apache-2.0); free source build. Jev is off by default; usage is billed to your TypeSafe key. Checked 2026-10-29. Source inspected; live app not run on the review host.
+
+[Full GitMemoMark (Chrome extension that saves X posts and web pages to your GitHub repo as Markdown, with optional Jev folder sorting) guide](gitmemomark.md) · [Source](https://github.com/Aero123421/gitmemomark)
+
 ### Gmail notifications with Jev (Safari)
 
 `Open source` · `Free source build` · `BYOK`
