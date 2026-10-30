@@ -1286,6 +1286,22 @@ Find similar movies with TypeSafe Jev over IMDb/TMDB/Wikidata metadata and where
 - Source: [ClaudioEden/jevmdb](https://github.com/ClaudioEden/jevmdb)
 - Access: free source build; BYOK TypeSafe/provider keys when live
 
+### jevmoji (web app that suggests emoji reactions for a chat message by scoring 200 emojis with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Small Go web app: type a line of group-chat banter and the server scores all 200 catalog emojis in one Jev call, one yes/no question per emoji, and shows the best four (50% or higher) plus a fifth above 75% as Slack-style reactions. HTMX front end embedded in a single static binary; Docker and Cloud Run deploy steps included. Built as an example integration of the Jev API.
+
+**Jev's role:** Scores how well each of 200 emojis fits the message so the app can show the top reactions.
+
+**Platform:** Self-hosted web app (local binary, Docker or Cloud Run); no public instance verified.
+
+**Product:** [github.com/amscotti/jevmoji](https://github.com/amscotti/jevmoji)
+
+**Pricing / access:** Free source build; bring your own TypeSafe key and any hosting costs. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full jevmoji (web app that suggests emoji reactions for a chat message by scoring 200 emojis with Jev) guide](jevmoji.md) · [Source](https://github.com/amscotti/jevmoji)
+
 ### JevPDF
 
 `Open source` · `Free` · `BYOK`
