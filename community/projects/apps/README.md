@@ -4164,6 +4164,22 @@ Judge LinkedIn post writing with TypeSafe Jev (11–12 typed questions), then fo
 
 [Full Slop Mop guide](slop-mop.md) · [Source](https://github.com/tomfrazier/slopmop)
 
+### SlopFilter (Chrome extension that folds or hides AI-generated slop on X, judged by Jev and local rules)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension for X: local rules scan each post, then Jev answers three questions (is it AI slop, what kind, does it show a human touch) and posts above your threshold are folded to one line or hidden. A floating counter shows how many were caught, you can pick lenient, balanced or strict, and marking a false positive restores the post and stops filtering that author. Without a key it runs on local rules only. Interface in Chinese.
+
+**Jev's role:** Judges each X post for AI slop so the extension can fold or hide it.
+
+**Platform:** Desktop Chrome; load unpacked from the cloned repo (no Chrome Web Store listing verified).
+
+**Product:** [github.com/HerrysYu/SlopFilter](https://github.com/HerrysYu/SlopFilter)
+
+**Pricing / access:** Free source build; bring your own TypeSafe key (optional). Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full SlopFilter (Chrome extension that folds or hides AI-generated slop on X, judged by Jev and local rules) guide](slopfilter.md) · [Source](https://github.com/HerrysYu/SlopFilter)
+
 ### Smart Dark (adaptive dark mode with optional Jev screenshot checks)
 
 `Open source` · `Free source build`
