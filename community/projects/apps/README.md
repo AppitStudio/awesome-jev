@@ -3310,6 +3310,22 @@ Early Windows-first app that turns DRM-free Calibre ebooks into chaptered audiob
 
 [Full Booksmith (Calibre ebooks to Plex audiobooks, with Jev-planned pauses) guide](booksmith.md) · [Source](https://github.com/neuralcataccel/booksmith)
 
+### BUTLR.ai (Windows desktop assistant that operates the focused app, choosing each UI action with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Focus any Windows app, press Ctrl+Win and type what you want done. BUTLR.ai reads the app's accessible controls through Windows UI Automation, asks Jev (through Vercel AI Gateway) to pick the next action, then types, clicks and checks the result. Steps such as Submit, Send, Pay, Delete or Install always wait for your approval, password fields and card numbers are never captured, and password managers are blocked.
+
+**Jev's role:** Picks the next UI action for each step of your instruction.
+
+**Platform:** Windows x64; source build (no GitHub release published when reviewed).
+
+**Product:** [github.com/notyourgiantcoder/BUTLR.ai](https://github.com/notyourgiantcoder/BUTLR.ai)
+
+**Pricing / access:** Free source build; bring your own Vercel AI Gateway key. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full BUTLR.ai (Windows desktop assistant that operates the focused app, choosing each UI action with Jev) guide](butlr-ai.md) · [Source](https://github.com/notyourgiantcoder/BUTLR.ai)
+
 ### Conclave (local multi-model council app with Jev routing and answer checks)
 
 `Open source` · `Free source build` · `BYOK`
