@@ -4472,6 +4472,22 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 
 [Full Xtags guide](xtags.md) · [Source](https://github.com/manifoldor/xtags)
 
+### YouTube Jev Filter (Chrome extension that hides clickbait, hype and Shorts on YouTube using Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Manifest V3 Chrome extension: for each video card it sends the title, channel, length and description to Jev with three questions (clickbait yes/no, hype yes/no, substance score 0-3) and hides or dims the video when a threshold is crossed, with soft, normal and strict modes. Shorts are removed. Answers are cached per video ID; the README estimates about 3 cents per 1,000 videos. README in Russian.
+
+**Jev's role:** Scores each video card for clickbait, hype and substance so the extension can hide or dim it.
+
+**Platform:** Desktop Chrome; load unpacked from the cloned repo (no Chrome Web Store listing verified).
+
+**Product:** [github.com/Vlad0n1m/youtube-jev-filter](https://github.com/Vlad0n1m/youtube-jev-filter)
+
+**Pricing / access:** Free source build; bring your own TypeSafe key (README estimates about 3 cents per 1,000 videos). Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full YouTube Jev Filter (Chrome extension that hides clickbait, hype and Shorts on YouTube using Jev) guide](youtube-jev-filter.md) · [Source](https://github.com/Vlad0n1m/youtube-jev-filter)
+
 ### YouTube Sponsor Skip (Jev)
 
 `Open source` · `Free` · `BYOK`
