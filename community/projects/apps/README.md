@@ -1286,6 +1286,22 @@ Find similar movies with TypeSafe Jev over IMDb/TMDB/Wikidata metadata and where
 - Source: [ClaudioEden/jevmdb](https://github.com/ClaudioEden/jevmdb)
 - Access: free source build; BYOK TypeSafe/provider keys when live
 
+### jevmoji (web app that suggests emoji reactions for a chat message by scoring 200 emojis with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Small Go web app: type a line of group-chat banter and the server scores all 200 catalog emojis in one Jev call, one yes/no question per emoji, and shows the best four (50% or higher) plus a fifth above 75% as Slack-style reactions. HTMX front end embedded in a single static binary; Docker and Cloud Run deploy steps included. Built as an example integration of the Jev API.
+
+**Jev's role:** Scores how well each of 200 emojis fits the message so the app can show the top reactions.
+
+**Platform:** Self-hosted web app (local binary, Docker or Cloud Run); no public instance verified.
+
+**Product:** [github.com/amscotti/jevmoji](https://github.com/amscotti/jevmoji)
+
+**Pricing / access:** Free source build; bring your own TypeSafe key and any hosting costs. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full jevmoji (web app that suggests emoji reactions for a chat message by scoring 200 emojis with Jev) guide](jevmoji.md) · [Source](https://github.com/amscotti/jevmoji)
+
 ### JevPDF
 
 `Open source` · `Free` · `BYOK`
@@ -3098,6 +3114,22 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 [Full TipTour guide](tiptour.md) · [Source](https://github.com/milind-soni/tiptour-macos)
 
+### Usher (macOS menu bar app that sizes the focused window by the kind of work, classified by Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+When you switch windows, Usher sends the app name and window title to Jev on OpenRouter, sorts the window into Code, Reference, Media, Writing, Chat or Ambient, gives it that category's share of the screen (two-thirds for code, full for media) and arranges the other windows around it. Shares are adjustable from the menu bar, answers are cached per app and title, and with no network or key it guesses from the app.
+
+**Jev's role:** Classifies the focused window's kind of work so Usher can size it.
+
+**Platform:** macOS 13+; build from source with Swift (no release binary verified).
+
+**Product:** [github.com/jabreeflor/usher](https://github.com/jabreeflor/usher)
+
+**Pricing / access:** Free source build; bring your own OpenRouter key. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full Usher (macOS menu bar app that sizes the focused window by the kind of work, classified by Jev) guide](usher.md) · [Source](https://github.com/jabreeflor/usher)
+
 ### voice-browser
 
 `Open source` · `Free source build` · `BYOK`
@@ -4471,6 +4503,22 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 **Access:** load the [MIT `extension/` folder unpacked](https://github.com/manifoldor/xtags#安装) (or the Tampermonkey userscript) and paste a TypeSafe key. No app purchase fee; provider usage can incur charges. Independent of X Corp. Source inspected; Chrome install and live labeling not tested.
 
 [Full Xtags guide](xtags.md) · [Source](https://github.com/manifoldor/xtags)
+
+### YouTube Jev Filter (Chrome extension that hides clickbait, hype and Shorts on YouTube using Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Manifest V3 Chrome extension: for each video card it sends the title, channel, length and description to Jev with three questions (clickbait yes/no, hype yes/no, substance score 0-3) and hides or dims the video when a threshold is crossed, with soft, normal and strict modes. Shorts are removed. Answers are cached per video ID; the README estimates about 3 cents per 1,000 videos. README in Russian.
+
+**Jev's role:** Scores each video card for clickbait, hype and substance so the extension can hide or dim it.
+
+**Platform:** Desktop Chrome; load unpacked from the cloned repo (no Chrome Web Store listing verified).
+
+**Product:** [github.com/Vlad0n1m/youtube-jev-filter](https://github.com/Vlad0n1m/youtube-jev-filter)
+
+**Pricing / access:** Free source build; bring your own TypeSafe key (README estimates about 3 cents per 1,000 videos). Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full YouTube Jev Filter (Chrome extension that hides clickbait, hype and Shorts on YouTube using Jev) guide](youtube-jev-filter.md) · [Source](https://github.com/Vlad0n1m/youtube-jev-filter)
 
 ### YouTube Sponsor Skip (Jev)
 
