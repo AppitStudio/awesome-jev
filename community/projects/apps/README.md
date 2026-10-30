@@ -3504,6 +3504,22 @@ Windows workspace that runs Claude Code and Codex side by side in PowerShell and
 
 [Full SoluTerminal (Windows workspace for Claude Code and Codex, with Jev smart approvals) guide](soluterminal.md) · [Source](https://github.com/soluterminal/soluterminal)
 
+### SpaceSniffer, Jev edition (3D disk-space map for Windows that asks Jev which folders are safe to clear)
+
+`Open source` · `Free` · `BYOK`
+
+Windows disk-space map that draws your drive as a 3D city: every folder is a district sized by the space it takes. As soon as a folder is scanned, Jev labels what kind of folder it is, whether it only holds regenerable data such as caches, temp files and old installers, and how confident it is; safe-looking folders get a neon outline and land in a Reclaimable list. Jev never deletes anything; you confirm every deletion. Not affiliated with the original SpaceSniffer.
+
+**Jev's role:** Labels each scanned folder and scores whether it is safe to clear.
+
+**Platform:** Windows; portable exe on GitHub Releases (v0.1.1) or build from source.
+
+**Product:** [github.com/NoxLoveYa/space-sniffer](https://github.com/NoxLoveYa/space-sniffer)
+
+**Pricing / access:** Free and open source; uses OpenCode's limited-time free Jev tier when available, otherwise your own OpenCode or TypeSafe key. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full SpaceSniffer, Jev edition (3D disk-space map for Windows that asks Jev which folders are safe to clear) guide](space-sniffer-jev.md) · [Source](https://github.com/NoxLoveYa/space-sniffer)
+
 ## Browser extensions
 
 ### AI, SI, or Whatever
