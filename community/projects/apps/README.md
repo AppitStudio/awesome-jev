@@ -3114,6 +3114,22 @@ Use a macOS menu bar companion to act on typed click requests. Jev chooses among
 
 [Full TipTour guide](tiptour.md) · [Source](https://github.com/milind-soni/tiptour-macos)
 
+### Usher (macOS menu bar app that sizes the focused window by the kind of work, classified by Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+When you switch windows, Usher sends the app name and window title to Jev on OpenRouter, sorts the window into Code, Reference, Media, Writing, Chat or Ambient, gives it that category's share of the screen (two-thirds for code, full for media) and arranges the other windows around it. Shares are adjustable from the menu bar, answers are cached per app and title, and with no network or key it guesses from the app.
+
+**Jev's role:** Classifies the focused window's kind of work so Usher can size it.
+
+**Platform:** macOS 13+; build from source with Swift (no release binary verified).
+
+**Product:** [github.com/jabreeflor/usher](https://github.com/jabreeflor/usher)
+
+**Pricing / access:** Free source build; bring your own OpenRouter key. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full Usher (macOS menu bar app that sizes the focused window by the kind of work, classified by Jev) guide](usher.md) · [Source](https://github.com/jabreeflor/usher)
+
 ### voice-browser
 
 `Open source` · `Free source build` · `BYOK`
