@@ -4806,6 +4806,22 @@ Early macOS command-line housekeeper: it identifies files locally first, masks r
 
 ## Discord bots
 
+### Jarvis (Discord voice assistant for game nights, with Jev deciding whether a follow-up was meant for the bot)
+
+`Open source` · `Free source build` · `BYOK`
+
+Say "Hey Jarvis" in a Discord voice channel, ask out loud, and hear the answer in the call. Each speaker gets their own wake-word detector, answers start speaking before they are finished, and per-game patch notes keep answers current. After a reply the person can carry on without the wake word; with a TypeSafe key, Jev checks whether each follow-up was meant for the bot or a friend, so it stays quiet when unsure. Answers come from Qwen on Cerebras.
+
+**Jev's role:** Optional addressee check: decides whether a follow-up was meant for the bot.
+
+**Platform:** Self-hosted Discord bot; no public instance verified.
+
+**Product:** [github.com/DarrenRM/jarvis-voice](https://github.com/DarrenRM/jarvis-voice)
+
+**Pricing / access:** Free source build; bring your own Discord, Cerebras, Groq and Inworld keys, plus TypeSafe for Jev. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full Jarvis (Discord voice assistant for game nights, with Jev deciding whether a follow-up was meant for the bot) guide](jarvis-voice.md) · [Source](https://github.com/DarrenRM/jarvis-voice)
+
 ### jeff (Discord bot)
 
 `Open source` · `Free source build` · `BYOK`
