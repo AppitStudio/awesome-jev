@@ -2428,6 +2428,22 @@ Omarchy (Hyprland) plugin: move the pointer into the bottom-right corner and a c
 
 [Full omarchy-mouse-sacrifice guide](omarchy-mouse-sacrifice.md) · [Source](https://github.com/ignotas/omarchy-mouse-sacrifice)
 
+### OpenMausBot (desktop chat app for a team of AI agent bots, with Jev picking which bot answers)
+
+`Open source` · `Free` · `BYOK`
+
+Electron desktop app for macOS, Windows and Ubuntu where each bot in a chat-style sidebar is a local Claude Code, Codex or Grok CLI agent with its own personality, model, computer and connected apps. With a decision model enabled, rooms set to Auto send each un-mentioned message to Jev, which picks the bot that should answer in a few hundred milliseconds; the room's lead bot answers whenever the decision model is off, slow or unsure.
+
+**Jev's role:** Picks which bot in an Auto room should answer each message that does not mention one.
+
+**Platform:** macOS (Apple silicon and Intel), Windows x64 and Ubuntu desktop installers from GitHub releases (v0.1.134, 2026-10-30).
+
+**Product:** [www.openmausbot.com/](https://www.openmausbot.com/)
+
+**Pricing / access:** Desktop app free (Apache-2.0); you bring your own agent CLI subscriptions and TypeSafe/OpenRouter key. An optional paid Cloud plan and an Enterprise license for `enterprise/` features exist. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full OpenMausBot (desktop chat app for a team of AI agent bots, with Jev picking which bot answers) guide](openmausbot.md) · [Source](https://github.com/milind-soni/OpenMausBot)
+
 ### Scene Finder
 
 `Free` · `Source available` · `BYOK`
