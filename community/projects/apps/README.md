@@ -3604,6 +3604,22 @@ Chrome extension that lets TypeSafe Jev choose AI / SI / alternating / custom we
 
 [Full AI, SI, or Whatever guide](ai-si-or-whatever.md) · [Source](https://github.com/SjJ1017/ai-si-or-whatever)
 
+### Anti Slop for X (Chrome extension that folds AI-bait and bot replies on X, scored by Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension for x.com that pre-screens replies with local keywords, then optionally sends a post and its parent to a decision model through your own proxy worker. Jev answers whether it reads like AI engagement bait, which kind of bait it is and how strongly; replies over the threshold are folded with the score and reason shown, and mute or block only happens when you click. Inspired by slop-filter (MIT) but written independently. README in Chinese.
+
+**Jev's role:** Scores each reply for AI engagement bait so the extension can fold it.
+
+**Platform:** Desktop Chrome; build and load unpacked (no Chrome Web Store listing verified).
+
+**Product:** [github.com/Caph-dev/anti-slop-for-x](https://github.com/Caph-dev/anti-slop-for-x)
+
+**Pricing / access:** Free source build; you run the proxy and bring your own TypeSafe key. Checked 2026-10-30. Source inspected; live app not run on the review host.
+
+[Full Anti Slop for X (Chrome extension that folds AI-bait and bot replies on X, scored by Jev) guide](anti-slop-for-x.md) · [Source](https://github.com/Caph-dev/anti-slop-for-x)
+
 ### Attention Vaccine (Chrome extension that flags manipulation techniques with Jev)
 
 `Open source` · `Free`
