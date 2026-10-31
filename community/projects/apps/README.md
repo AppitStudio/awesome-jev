@@ -472,6 +472,22 @@ Hosted natural-language API discovery: product copy states Jev searches about 1,
 
 [Try Find the Right API](https://www.findtherightapi.com/) · [Full Find the Right API guide](find-the-right-api.md) · [Source](https://www.findtherightapi.com/)
 
+### FinDoc (loan-file copilot that checks a mortgage packet against its documents, with Jev classifying and splitting pages)
+
+`Open source` · `Free source build` · `BYOK`
+
+Web app for mortgage loan officers: upload a borrower's PDFs, get an automatic review of the application against pay slips, statements and title documents, record a decision on every flag and ask follow-ups with page citations. Jev labels each page's document type and detects document boundaries during ingestion; the app never approves or rejects loans.
+
+**Jev's role:** Classifies each page's document type and detects document boundaries during ingestion.
+
+**Platform:** Self-hosted web app (browser); no hosted instance verified.
+
+**Product:** [github.com/VIVPM/document-retrieval-system](https://github.com/VIVPM/document-retrieval-system)
+
+**Pricing / access:** Free source build (MIT); you pay for AWS, Pinecone, Neon, Gemini/Cloudflare and TypeSafe usage. Checked 2026-10-31. Source inspected; live app not run on the review host.
+
+[Full FinDoc (loan-file copilot that checks a mortgage packet against its documents, with Jev classifying and splitting pages) guide](findoc.md) · [Source](https://github.com/VIVPM/document-retrieval-system)
+
 ### Finney (finance agent for hackathon directors, with Jev reviewing agent traces)
 
 `Open source` · `Free source build` · `BYOK`
