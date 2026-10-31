@@ -2748,6 +2748,22 @@ Native SwiftUI app that turns long videos into short captioned clips on your Mac
 
 [Full Hyperclip (macOS video clipper with Jev clip scoring) guide](hyperclip.md) · [Source](https://github.com/alexisbcz/hyperclip)
 
+### iMessage Bridge (Mac menu bar app that gives AI agents approved access to your iMessages, with Jev screening incoming texts)
+
+`Open source` · `Free` · `BYOK`
+
+Menu bar app that lets agents such as Claude Code or Grok Bot read and, if you allow it, send iMessages through the app instead of touching the Messages database. Each agent is approved with a pairing code and gets its own rules, every send can require confirmation, and incoming texts that try to instruct your agent can be screened by a local model and, optionally, Jev.
+
+**Jev's role:** Optional prompt-injection screening of incoming messages before an agent sees them.
+
+**Platform:** macOS 14 or later (menu bar app).
+
+**Product:** [cmer.github.io/imessage-bridge/](https://cmer.github.io/imessage-bridge/)
+
+**Pricing / access:** Free download and source (MIT); Jev screening uses your own TypeSafe or OpenRouter key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full iMessage Bridge (Mac menu bar app that gives AI agents approved access to your iMessages, with Jev screening incoming texts) guide](imessage-bridge.md) · [Source](https://github.com/cmer/imessage-bridge)
+
 ### Jaste
 
 `Source unverified` · `Pricing unverified` · `BYOK`
