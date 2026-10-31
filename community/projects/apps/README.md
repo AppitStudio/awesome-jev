@@ -476,6 +476,22 @@ Self-hostable movie finder: describe a film any way you like and TypeSafe Jev sc
 
 [Full FilmHunch guide](film-hunch.md) · [Source](https://github.com/eduardoalba00/film-hunch)
 
+### fin (agent-first double-entry finance ledger where Jev proposes matches and categories)
+
+`Open source` · `Free source build` · `BYOK`
+
+Gives your AI agent a trustworthy place to manage your money: a double-entry ledger with an agent-first CLI and a web view a human can check at a glance. Code classifies what it can first (learned UPI IDs, transfers, card patterns, who owes whom); Jev handles the remaining closed-set judgments such as 'same payment?' and categories, and only proposes; it never writes.
+
+**Jev's role:** Proposes payment matches and categories for lines code rules could not classify.
+
+**Platform:** Self-hosted web app (Cloudflare Workers) plus CLI; no hosted instance verified.
+
+**Product:** [github.com/tanushmahalka/fin](https://github.com/tanushmahalka/fin)
+
+**Pricing / access:** Free source build (MIT); you pay any Cloudflare and TypeSafe usage. Checked 2026-10-31. Source inspected; live app not run on the review host.
+
+[Full fin (agent-first double-entry finance ledger where Jev proposes matches and categories) guide](fin-ledger.md) · [Source](https://github.com/tanushmahalka/fin)
+
 ### Find the Right API (Orthogonal × Jev)
 
 `Closed source` · `Freemium` · `Commercial`
