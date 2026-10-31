@@ -684,6 +684,22 @@ Instrumented 2048 web lab: every move is a TypeSafe Jev Choice (no heuristic fal
 
 [Try Jev 2048](https://jev-2048-ultra.vercel.app) · [Full Jev 2048 guide](jev-2048.md) · [Source](https://github.com/ARCJ137442/jev-2048)
 
+### Jev abstract art playground (turns a prompt into abstract art through 80+ parallel Jev decisions)
+
+`Source available` · `Free`
+
+Web playground that turns a natural-language prompt into abstract art by asking Jev typed questions about 80+ renderer characteristics (palette, composition, form) in parallel, rechecking uncertain choices, then rendering with canvas-sketch. It compares latency and cost against a reasoning model and against generating the art directly with AI.
+
+**Jev's role:** Makes every renderer decision (visual direction plus 80+ characteristics) as typed choices.
+
+**Platform:** Browser (hosted demo on Vercel).
+
+**Product:** [jev-abstract-art.vercel.app/](https://jev-abstract-art.vercel.app/)
+
+**Pricing / access:** Hosted demo free to use at review time (no sign-in seen); local builds need your own AI Gateway key. Checked 2026-10-31. Source inspected; live app not run on the review host.
+
+[Full Jev abstract art playground (turns a prompt into abstract art through 80+ parallel Jev decisions) guide](jev-abstract-art.md) · [Source](https://github.com/carollia-99/jev-determinism-and-abstraction)
+
 ### Jev Arena
 
 `Open source` · `Free source build` · `BYOK`
