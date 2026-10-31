@@ -2120,6 +2120,22 @@ Hosted tool registry from Superdesign: agents use one base URL and token to call
 
 [Full Treg ("OpenRouter for agent tools": pay-per-call tool catalog whose tool search is judged by Jev) guide](treg.md) · [Source](https://github.com/superdesigndev/treg)
 
+### uCable (your YouTube subscriptions as an early-2000s satellite TV guide, with Jev tagging every video)
+
+`Open source` · `Free source build` · `BYOK`
+
+Web app that takes the last 14 days of videos from your YouTube subscriptions and schedules them into numbered themed channels with a two-screen TV guide; type 1-0-5 to change channel. Jev labels each video with its channel theme, while a plain-code scheduler decides order and remembers where you stopped. Italian UI.
+
+**Jev's role:** Tags every recent subscription video with the themed channel it belongs to.
+
+**Platform:** Self-hosted web app in the browser; no hosted instance verified.
+
+**Product:** [github.com/hiitsmax/ucable](https://github.com/hiitsmax/ucable)
+
+**Pricing / access:** Free source build (MIT); you supply Google Cloud credentials and a TypeSafe key. Checked 2026-10-31. Source inspected; live app not run on the review host.
+
+[Full uCable (your YouTube subscriptions as an early-2000s satellite TV guide, with Jev tagging every video) guide](ucable.md) · [Source](https://github.com/hiitsmax/ucable)
+
 ### undertone
 
 `Source available` · `Free source build` · `BYOK`
