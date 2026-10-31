@@ -388,6 +388,22 @@ Turn-based browser dungeon crawler where Jev picks which champion to send, which
 
 [Full Dungeon of Jev guide](dungeon-of-jev.md) · [Source](https://github.com/ericosg/doj)
 
+### Elmo (open-source AI visibility tracker where Jev judges brand mentions and sentiment)
+
+`Open source` · `Freemium` · `Commercial` · `BYOK`
+
+Open-source answer-engine-optimization platform: runs your tracked prompts against ChatGPT, Google AI Mode, Gemini, Perplexity, Copilot and model APIs, then reports visibility, share of voice, citations and sentiment. Jev judges whether each passage really mentions your brand or a competitor and how it is framed, keeping the passage each judgment rests on.
+
+**Jev's role:** Judges brand and competitor mentions and their sentiment in each answer-engine passage.
+
+**Platform:** Self-hosted web app, or Elmo Cloud in the browser.
+
+**Product:** [www.elmohq.com/](https://www.elmohq.com/)
+
+**Pricing / access:** Self-host free (MIT, bring your own provider and TypeSafe keys); Elmo Cloud from $29/mo Starter, higher tiers on the [pricing page](https://www.elmohq.com/pricing). Checked 2026-10-31. Source inspected; live app not run on the review host.
+
+[Full Elmo (open-source AI visibility tracker where Jev judges brand mentions and sentiment) guide](elmo.md) · [Source](https://github.com/elmohq/elmo)
+
 ### Elo Jev 4 Investment Ideas
 
 `Open source` · `Free source build` · `BYOK`
