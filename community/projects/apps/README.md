@@ -4224,6 +4224,22 @@ Chrome extension for browser automation in your own logged-in Chrome: Claude Cod
 
 [Try Noa](https://www.noa.bot) · [Full Noa guide](noa.md) · [Source](https://github.com/m0dE/noa)
 
+### NotForMe (Chrome extension that folds PR, product-launch and off-topic articles in Korean news lists using Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Chrome extension (README in Korean and English) that collapses, blurs, dims or hides advertorial PR articles, product-launch pieces and off-topic stories in the article lists of ZDNet Korea, Yonhap, Hankyoreh and other Korean news sites. It only changes how the list is shown in your browser.
+
+**Jev's role:** Classifies each headline as PR, product launch or off-topic.
+
+**Platform:** Chrome (desktop), unpacked extension.
+
+**Product:** [github.com/x-mesh/notforme](https://github.com/x-mesh/notforme)
+
+**Pricing / access:** Free (MIT); you supply a TypeSafe key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full NotForMe (Chrome extension that folds PR, product-launch and off-topic articles in Korean news lists using Jev) guide](notforme.md) · [Source](https://github.com/x-mesh/notforme)
+
 ### PageGrade
 
 `Open source` · `Free source build` · `BYOK`
