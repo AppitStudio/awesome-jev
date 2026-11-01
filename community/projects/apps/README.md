@@ -4320,6 +4320,22 @@ Open-source Chrome extension that silently hides X ads and posts by account coun
 
 [Full Quiet X guide](quiet-x.md) · [Source](https://github.com/arzumanabbasov/quiet-x)
 
+### Recall (Chrome history search with a local index, browsing stats and optional Jev ranking)
+
+`Open source` · `Free` · `BYOK`
+
+Desktop Chrome extension for finding a page you remember visiting. It builds a local index of your history, shows a browsing overview, and if you opt in with your own TypeSafe key, Jev re-ranks a shortlist of local matches by meaning.
+
+**Jev's role:** Optional re-ranking of a local shortlist of history matches.
+
+**Platform:** Desktop Chrome (unpacked extension).
+
+**Product:** [github.com/ebuojr/recall](https://github.com/ebuojr/recall)
+
+**Pricing / access:** Free download and source (MIT); Jev ranking uses your own TypeSafe key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full Recall (Chrome history search with a local index, browsing stats and optional Jev ranking) guide](recall.md) · [Source](https://github.com/ebuojr/recall)
+
 ### Reddit Pain
 
 `Open source` · `Free` · `BYOK`
