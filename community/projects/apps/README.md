@@ -2432,6 +2432,22 @@ Photo culling and sorting app for photographers: an AI model checks every photo 
 
 [Full Facet guide](facet-photo.md) · [Source](https://github.com/ceelnok/facet-photo)
 
+### focuslog (study-time tracker for Hyprland and Omarchy that can ask Jev whether a window supports your goal)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local study and time-use tracker for Hyprland: it samples the focused window every few seconds, labels activity as study, waste or neutral with local rules and optionally Jev, and shows totals in a loopback dashboard and an Omarchy bar widget.
+
+**Jev's role:** Classifies unresolved windows as study, waste or neutral against your goal.
+
+**Platform:** Linux, Hyprland / Omarchy.
+
+**Product:** [github.com/piyush97/focuslog](https://github.com/piyush97/focuslog)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full focuslog (study-time tracker for Hyprland and Omarchy that can ask Jev whether a window supports your goal) guide](focuslog.md) · [Source](https://github.com/piyush97/focuslog)
+
 ### GenOffice (open-source AI office suite whose file search can be reranked by Jev)
 
 `Open source` · `Free` · `BYOK`
