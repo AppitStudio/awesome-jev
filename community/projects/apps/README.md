@@ -2310,6 +2310,22 @@ One-box launcher plugin for Omarchy that launches apps, runs Omarchy menu action
 
 [Full Beam (Omarchy launcher with optional Jev intent search) guide](omarchy-beam.md) · [Source](https://github.com/RohitKaushal7/omarchy-beam)
 
+### CareerSurge (free desktop app that finds job postings and applies for you locally, with Jev only picking among values it already found)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local desktop app that searches Greenhouse, Lever and Ashby listings through your own Apify account, shows a batch to approve, and fills and submits each form in a headless Chromium. It does no captcha solving or made-up answers; Jev, if you add a key, only picks among values the app already found (resume parsing, label mapping, question classification), and anything unresolved waits in 'Needs you'.
+
+**Jev's role:** Optional chooser among already-found values for resume parsing and form answers.
+
+**Platform:** Desktop (macOS, Windows, Linux) via a local server and window.
+
+**Product:** [github.com/Ben19001/applypulse-public](https://github.com/Ben19001/applypulse-public)
+
+**Pricing / access:** Free source build (Apache-2.0); Apify runs bill your own Apify account and Jev uses your own TypeSafe key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full CareerSurge (free desktop app that finds job postings and applies for you locally, with Jev only picking among values it already found) guide](careersurge.md) · [Source](https://github.com/Ben19001/applypulse-public)
+
 ### dotpals
 
 `Open source` · `Free` · `BYOK`
