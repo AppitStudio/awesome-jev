@@ -1594,6 +1594,22 @@ Web app where three decision models — OpenAI Decisions, TypeSafe Jev and Cloud
 
 [Full Model vs Market guide](model-vs-market.md) · [Source](https://github.com/yorkeccak/model-vs-market)
 
+### nameworthy (World of Warcraft: Forever name auditor that grades a name with one Jev call)
+
+`Open source` · `Free source build` · `BYOK`
+
+Single-binary Go web app for fun: enter a WoW: Forever first name and surname, optionally pick race and class, and get a grade from S to F, a naming style, a six-stat sheet and probability signals such as 'likely to be reported', all from one System One call with the full distribution shown.
+
+**Jev's role:** Grades a name, picks a style and rates six stats in one call.
+
+**Platform:** Self-hosted web app in the browser; no hosted instance verified.
+
+**Product:** [github.com/amscotti/nameworthy](https://github.com/amscotti/nameworthy)
+
+**Pricing / access:** Free source build (MIT); you supply a TypeSafe key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full nameworthy (World of Warcraft: Forever name auditor that grades a name with one Jev call) guide](nameworthy.md) · [Source](https://github.com/amscotti/nameworthy)
+
 ### Nature Lens
 
 `Open source` · `Free source build` · `BYOK`
