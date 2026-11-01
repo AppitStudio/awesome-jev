@@ -832,6 +832,22 @@ Browser strategy game: you reshape the environment; TypeSafe Jev chooses each tr
 
 [Try Jev Civilization](https://thunder-monocle.env-ca.veilstreamapp.com/) · [Full Jev Civilization guide](jev-civilization.md) · [Source](https://github.com/JonesSteven/jev_civilization)
 
+### Jev Cloud Quiz (Japanese web demo where Jev guesses whether a feature name is AWS, Azure or Google Cloud)
+
+`Open source` · `Free`
+
+Japanese demo: pick one of 30 cloud feature names with brand words removed, and Jev returns a probability for AWS, Azure and Google Cloud, drawn as three bars. Ambiguous names show visibly split confidence.
+
+**Jev's role:** Picks the cloud provider with probabilities.
+
+**Platform:** Any modern browser.
+
+**Product:** [dxtmc35dbmyei.cloudfront.net/](https://dxtmc35dbmyei.cloudfront.net/)
+
+**Pricing / access:** Free hosted demo; source Apache-2.0. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full Jev Cloud Quiz (Japanese web demo where Jev guesses whether a feature name is AWS, Azure or Google Cloud) guide](jev-cloud-quiz.md) · [Source](https://github.com/minorun365/jev-cloud-quiz)
+
 ### Jev Column Race
 
 `Open source` · `Free source build` · `BYOK`
