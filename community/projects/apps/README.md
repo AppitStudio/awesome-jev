@@ -4202,6 +4202,22 @@ Find relevant X posts for your interests and optionally score unpublished drafts
 
 [Full jevx guide](jevx.md) · [Source](https://github.com/hawkyre/jevx)
 
+### Kuro (Chrome reading aid for ADHD with bold word starts, a focus reader and optional Jev paragraph triage)
+
+`Open source` · `Free source build` · `BYOK`
+
+Manifest V3 Chrome extension that bolds the start of every word, enlarges the paragraph you are reading while the rest of the page dims, and optionally summarizes dense pages. Jev scores how dense each paragraph is and whether it carries the argument, so only the right paragraphs are turned into bullets or marked in the margin.
+
+**Jev's role:** Scores paragraph density and importance to decide what to summarize or mark.
+
+**Platform:** Chrome (load unpacked).
+
+**Product:** [github.com/builtbyd3v/kuro](https://github.com/builtbyd3v/kuro)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Kuro (Chrome reading aid for ADHD with bold word starts, a focus reader and optional Jev paragraph triage) guide](kuro.md) · [Source](https://github.com/builtbyd3v/kuro)
+
 ### L Ragebait
 
 `Open source` · `Free`
