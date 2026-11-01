@@ -3158,6 +3158,22 @@ Mac menu-bar app to see, answer and talk to every coding agent running in herdr;
 
 [Full Reflex (monotykamary) guide](monotykamary-reflex.md) · [Source](https://github.com/monotykamary/reflex)
 
+### Resenha (free push-to-talk dictation for macOS with local Whisper and optional Jev corrections)
+
+`Open source` · `Free` · `BYOK`
+
+Native push-to-talk dictation for Portuguese, English and Spanish: hold a shortcut, speak, and whisper.cpp transcribes on your Mac and types into the active field. Optionally, Jev judges only the transcript and local alternatives to pick contextual corrections; when it is unsure, the original text wins. A public unsigned Windows beta also exists.
+
+**Jev's role:** Optional choice between the original transcript and local correction candidates.
+
+**Platform:** macOS 14+ on Apple Silicon; unsigned Windows beta.
+
+**Product:** [luisroquette-labs.github.io/resenha/](https://luisroquette-labs.github.io/resenha/)
+
+**Pricing / access:** Free download and source (MIT); Jev corrections use your own provider key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full Resenha (free push-to-talk dictation for macOS with local Whisper and optional Jev corrections) guide](resenha.md) · [Source](https://github.com/luisroquette-labs/resenha)
+
 ### Sippy (macOS water-break companion with optional Jev sip confirmation)
 
 `Open source` · `Free source build` · `BYOK`
