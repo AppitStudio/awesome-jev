@@ -2780,6 +2780,22 @@ Menu-bar launcher for your AI chats: press Control-Option-Space, type what you r
 
 [Full ChatJump guide](chatjump.md) · [Source](https://github.com/saydus/chatjump)
 
+### Command Space (macOS Spotlight replacement with an agent, local decisions and optional Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Launcher that replaces ⌘Space: apps, documents, paths, math and settings, plus an AI agent for questions and tasks and push-to-talk voice. Quick typed decisions run on a local model by default, with TypeSafe's Jev as an optional hosted backend.
+
+**Jev's role:** Optional backend for fast typed decisions in the launcher and agent.
+
+**Platform:** macOS.
+
+**Product:** [github.com/otron-io/command-space](https://github.com/otron-io/command-space)
+
+**Pricing / access:** Free download and source (GPL-3.0); the Jev backend uses your own key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full Command Space (macOS Spotlight replacement with an agent, local decisions and optional Jev) guide](command-space.md) · [Source](https://github.com/otron-io/command-space)
+
 ### Computer Use (lite) by ajokhai (Mac computer use for any AI, with an optional Jev mode)
 
 `Source available` · `Free` · `BYOK`
