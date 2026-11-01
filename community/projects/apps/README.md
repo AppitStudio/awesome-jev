@@ -388,6 +388,22 @@ Turn-based browser dungeon crawler where Jev picks which champion to send, which
 
 [Full Dungeon of Jev guide](dungeon-of-jev.md) · [Source](https://github.com/ericosg/doj)
 
+### DurableMMO (cozy multiplayer farming game on Cloudflare where villagers can make decisions with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Multiplayer farming game in the valley of Mossbrook: farm, mine, fight light monsters and chat with ten villagers. Villager decisions come from rules, optionally TypeSafe Jev, while Workers AI writes their lines. Runs on Cloudflare Workers and Durable Objects with a PixiJS client.
+
+**Jev's role:** Typed NPC decisions such as how to respond to a player.
+
+**Platform:** Self-hosted web game (browser client).
+
+**Product:** [github.com/elsodev/durable-objects-mmorpg](https://github.com/elsodev/durable-objects-mmorpg)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full DurableMMO (cozy multiplayer farming game on Cloudflare where villagers can make decisions with Jev) guide](durablemmo.md) · [Source](https://github.com/elsodev/durable-objects-mmorpg)
+
 ### Elmo (open-source AI visibility tracker where Jev judges brand mentions and sentiment)
 
 `Open source` · `Freemium` · `Commercial` · `BYOK`
