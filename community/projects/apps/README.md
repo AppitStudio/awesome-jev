@@ -1568,6 +1568,22 @@ Self-hosted mail, calendar and drive client with an AI agent and workflows for G
 
 [Full Metis Suite (self-hosted mail and calendar client with an optional Jev decision model) guide](metis-suite.md) · [Source](https://github.com/trymetis/metis)
 
+### Mimir (self-hosted news reader that ranks RSS feeds against your interests and groups stories with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted news reader: collect any number of RSS and Atom feeds, describe your interests in plain words, and Mimir scores every article against them and groups articles about the same event into one story with a timeline. Jev does the scoring and story matching; on-demand sourced briefs are written by a MiniMax model.
+
+**Jev's role:** Scores articles against your profile and matches articles into stories.
+
+**Platform:** Self-hosted web app in the browser; no hosted instance verified.
+
+**Product:** [github.com/sp1r1t/mimir](https://github.com/sp1r1t/mimir)
+
+**Pricing / access:** Free source build (MIT); you supply TypeSafe and optional MiniMax keys. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full Mimir (self-hosted news reader that ranks RSS feeds against your interests and groups stories with Jev) guide](mimir.md) · [Source](https://github.com/sp1r1t/mimir)
+
 ### MinusPod (self-hosted podcast ad remover with native System One support)
 
 `Open source` · `Free source build`
