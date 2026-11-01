@@ -2558,6 +2558,22 @@ Local IMAP mail organizer: write natural-language rules (one action each), Jev j
 
 [Full JevDash guide](jevdash.md) · [Source](https://github.com/Sunwood-ai-labs/jevdash)
 
+### JevRadar (local-first Windows desktop radar for market sentiment and context, classified with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Tauri desktop app (Portuguese UI, bilingual setup) that combines public content from RSS, Reddit and optional X with Jev's typed classifications and real market series, to show shifts in attention and measure what happened after past signals. It does not recommend trades or execute orders.
+
+**Jev's role:** Typed classification of each content item (asset, sentiment, relevance, hype).
+
+**Platform:** Windows (alpha); built from source.
+
+**Product:** [github.com/PedroReoli/JevRadar](https://github.com/PedroReoli/JevRadar)
+
+**Pricing / access:** Free source build (Apache-2.0); Jev and data providers use your own keys. Checked 2026-11-02. Source inspected; live app not run on the review host.
+
+[Full JevRadar (local-first Windows desktop radar for market sentiment and context, classified with Jev) guide](jevradar.md) · [Source](https://github.com/PedroReoli/JevRadar)
+
 ### JEVsnap
 
 `Open source` · `Free source build` · `BYOK`
