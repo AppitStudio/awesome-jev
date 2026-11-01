@@ -4980,6 +4980,22 @@ Arch Linux (Hyprland) personal AI assistant that uses TypeSafe Jev for sub-secon
 
 [Full kureksistant guide](kureksistant.md) · [Source](https://github.com/nodaysidle/kureksistant)
 
+### LYRCENSOR (C terminal app that redacts slurs in Russian and English lyrics using Jev probabilities, editing letters locally)
+
+`Open source` · `Free source build` · `BYOK`
+
+Native C17 terminal application for context-sensitive lyrics redaction: it asks one OpenRouter Decisions model (Jev by default) for noul probabilities and replaces selected letters locally in C, so the model never writes output text. Russian and English text, line endings and spacing are preserved.
+
+**Jev's role:** Scores words and phrases for redaction; code edits the letters.
+
+**Platform:** Terminal on Linux/macOS (POSIX).
+
+**Product:** [github.com/qememe/LYRCENSOR](https://github.com/qememe/LYRCENSOR)
+
+**Pricing / access:** Free source build (MIT); you supply an OpenRouter key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full LYRCENSOR (C terminal app that redacts slurs in Russian and English lyrics using Jev probabilities, editing letters locally) guide](lyrcensor.md) · [Source](https://github.com/qememe/LYRCENSOR)
+
 ### Mardi Gras
 
 `Open source` · `Free source build` · `BYOK`
