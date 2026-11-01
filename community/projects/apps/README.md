@@ -972,6 +972,22 @@ Local interactive workbench with small demos showing TypeSafe Jev System One cap
 
 [Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
 
+### Jev Playground by Laaaaksh (hosted bring-your-own-key playground for TypeSafe Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Unofficial static web playground for trying Jev with your own TypeSafe key: paste a state (text or JSON), define questions, and see Jev's answers. A small relay function forwards your key to TypeSafe without logging it; you can also run your own copy.
+
+**Jev's role:** The model being explored: answers the questions you define.
+
+**Platform:** Any modern browser; self-hostable.
+
+**Product:** [jev-playground-beta.vercel.app](https://jev-playground-beta.vercel.app)
+
+**Pricing / access:** Free hosted page and source (MIT); calls are billed to your own TypeSafe key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full Jev Playground by Laaaaksh (hosted bring-your-own-key playground for TypeSafe Jev) guide](jev-playground-laaaaksh.md) · [Source](https://github.com/Laaaaksh/jev-playground)
+
 ### Jev plays chess
 
 `Open source` · `Free` · `BYOK`
