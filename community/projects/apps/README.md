@@ -3906,6 +3906,22 @@ Free, open-source Safari extension for Gmail on Mac: write in plain language whi
 
 [Full Gmail notifications with Jev (Safari) guide](gmail-jev-notifications-safari.md) · [Source](https://github.com/jaumesaa/gmail-jev-notifications)
 
+### gmessages-filter (Google Messages Web auto-filter with one-call multi-category Jev classification and KDE alerts)
+
+`Open source` · `Free source build` · `BYOK`
+
+WebExtension plus local sync daemon for Google Messages Web: it blocks spam, cleans up messages by age, classifies non-contact messages against all your AI categories in one OpenRouter call to `typesafe/jev-router` with disk caching and per-category age thresholds, and raises KDE Plasma 6 alerts for VIP senders.
+
+**Jev's role:** Classifies non-contact messages against your categories in one call.
+
+**Platform:** Chromium browser on Linux (KDE Plasma 6 Wayland for alerts).
+
+**Product:** [github.com/russellmilliner/gmessages-filter](https://github.com/russellmilliner/gmessages-filter)
+
+**Pricing / access:** Free source build (Apache-2.0); you supply an OpenRouter key. Checked 2026-11-01. Source inspected; live app not run on the review host.
+
+[Full gmessages-filter (Google Messages Web auto-filter with one-call multi-category Jev classification and KDE alerts) guide](gmessages-filter.md) · [Source](https://github.com/russellmilliner/gmessages-filter)
+
 ### HookMeter
 
 `Open source` · `Free source build` · `BYOK`
