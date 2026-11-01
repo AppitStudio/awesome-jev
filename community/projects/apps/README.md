@@ -2416,6 +2416,22 @@ Desktop pal and notch that shows what coding agents (Claude Code, Codex and othe
 
 [Full dotpals guide](dotpals.md) · [Source](https://github.com/Rikinshah787/dotpals)
 
+### Elefante (desktop multi-agent workspace with an API hub and browser harness, where Jev can route channel messages)
+
+`Open source` · `Free source build` · `BYOK`
+
+Electron workspace (bilingual English/Portuguese README) for running many AI agents on any engine, from OpenRouter, DeepSeek, Ollama, Groq, OpenAI and Anthropic to CLI harnesses such as Claude Code and Codex, with a native API hub and browser harness. Jev is an optional router that decides which agent takes a message.
+
+**Jev's role:** Optional router that picks which agent takes a message.
+
+**Platform:** Windows, macOS and Linux (built from source).
+
+**Product:** [github.com/vncsrmro/elefante](https://github.com/vncsrmro/elefante)
+
+**Pricing / access:** Free source build (Apache-2.0); you supply your own model and TypeSafe keys. Checked 2026-11-02. Source inspected; live app not run on the review host.
+
+[Full Elefante (desktop multi-agent workspace with an API hub and browser harness, where Jev can route channel messages) guide](elefante.md) · [Source](https://github.com/vncsrmro/elefante)
+
 ### extynt (After Effects plugin and MCP server: plain-language motion design with optional Jev checks)
 
 `Open source` · `Free`
