@@ -1506,6 +1506,22 @@ Local workplace response drill: write timed replies to scenario prompts and get 
 
 [Full job-drill guide](job-drill.md) · [Source](https://github.com/ceokobec-hue/job-drill)
 
+### LadingLens (shipping inbox control that checks Shipping Instructions against draft Bills of Lading, with Jev classifying)
+
+`Open source` · `Free`
+
+Hackathon-built shipping-operations inbox that accounts for every received email, reconciles expected shipments against what arrived, and compares each Shipping Instruction with its draft Bill of Lading over seven fields, leaving every consequential decision to a named person. Jev decides email categories, document roles and textual field equivalence; Gemini reads the documents.
+
+**Jev's role:** Classifies emails and document roles and judges whether SI and BL field values match.
+
+**Platform:** Web (live demo); self-host from source.
+
+**Product:** [averis-222536409832.asia-southeast1.run.app](https://averis-222536409832.asia-southeast1.run.app)
+
+**Pricing / access:** Free guest live demo (hackathon deployment, no account needed); free source build under MIT with your own TypeSafe and Gemini keys. Checked 2026-11-02. Source inspected; live app not run on the review host.
+
+[Full LadingLens (shipping inbox control that checks Shipping Instructions against draft Bills of Lading, with Jev classifying) guide](ladinglens.md) · [Source](https://github.com/M1KUAPP/LadingLens)
+
 ### LifePot
 
 `Open source` · `Free source build` · `BYOK`
