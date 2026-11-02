@@ -1622,6 +1622,22 @@ Gmail sorter with readable rules plus TypeSafe Jev typed judgments, receipts, an
 
 [Full Mailroom guide](mailroom.md) · [Source](https://github.com/Kevin-Liu-01/mailroom)
 
+### Mailroom by origna8 (self-hosted email for people and AI agents on Cloudflare, where Jev applies your auto-labels)
+
+`Open source` · `Free source build`
+
+Self-hosted email system on your own Cloudflare account: people use a Gmail-style web UI, agents read and send through MCP with scoped OAuth, and every agent-drafted reply waits for one-click approval. Your natural-language label rules are checked against new mail by Jev. Separate from the listed Kevin-Liu-01 Mailroom.
+
+**Jev's role:** Checks each new email against your natural-language label rules.
+
+**Platform:** Self-hosted on Cloudflare.
+
+**Product:** [github.com/origna8/mailroom](https://github.com/origna8/mailroom)
+
+**Pricing / access:** Free source build under Apache-2.0; needs Cloudflare Workers Paid for outbound mail plus Workers AI usage. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full Mailroom by origna8 (self-hosted email for people and AI agents on Cloudflare, where Jev applies your auto-labels) guide](origna8-mailroom.md) · [Source](https://github.com/origna8/mailroom)
+
 ### Masroufi
 
 `Source available` · `Free source build` · `BYOK`
