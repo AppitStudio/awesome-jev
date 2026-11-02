@@ -4496,6 +4496,22 @@ Chrome extension (README in Korean and English) that collapses, blurs, dims or h
 
 [Full NotForMe (Chrome extension that folds PR, product-launch and off-topic articles in Korean news lists using Jev) guide](notforme.md) · [Source](https://github.com/x-mesh/notforme)
 
+### OwnYourTimeline (Chrome and Edge extension that filters your X Home feed with a plain-language rule, classified by Jev)
+
+`Open source` · `Free source build`
+
+Manifest V3 extension that filters both X Home tabs with an instruction such as "Nothing political": it holds each timeline response, sends its posts (text, quotes, images) to Jev in one bulk request, and removes posts scoring 0.90 or more before X renders them. It fails open and has an optional Filtered tab.
+
+**Jev's role:** Scores each Home-feed post against your instruction.
+
+**Platform:** Chrome or Edge (load unpacked).
+
+**Product:** [github.com/raghavio/ownyourtimeline](https://github.com/raghavio/ownyourtimeline)
+
+**Pricing / access:** Free source build under MIT; TypeSafe calls are billed to your own key. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full OwnYourTimeline (Chrome and Edge extension that filters your X Home feed with a plain-language rule, classified by Jev) guide](ownyourtimeline.md) · [Source](https://github.com/raghavio/ownyourtimeline)
+
 ### PageGrade
 
 `Open source` · `Free source build` · `BYOK`
