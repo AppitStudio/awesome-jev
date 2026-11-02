@@ -2212,6 +2212,22 @@ Local real-time Telegram coach: TypeSafe Jev judges partner messages and your dr
 
 [Full tg-crush guide](tg-crush.md) · [Source](https://github.com/BrickerP/tg-crush)
 
+### The Living Handbook (living article for beginner vibe coders where Jev screens reader edits before a person publishes)
+
+`Open source` · `Free`
+
+Russian and English article for beginner vibe coders, with an MCP server their agents can read. Readers select text and suggest edits; Jev judges each suggestion, an optional writer model rewrites it, a second Jev check reviews the result, and the author publishes by hand.
+
+**Jev's role:** Judges each reader suggestion and re-checks the rewritten candidate.
+
+**Platform:** Web (live demo); self-host as a Worker.
+
+**Product:** [the-living-handbook.fit-hake-0747.chatgpt.site/](https://the-living-handbook.fit-hake-0747.chatgpt.site/)
+
+**Pricing / access:** Free live demo (sign-in needed to suggest edits); free source build under MIT with your own OpenRouter key. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full The Living Handbook (living article for beginner vibe coders where Jev screens reader edits before a person publishes) guide](the-living-handbook.md) · [Source](https://github.com/Bb-soil/the-living-handbook)
+
 ### THE SWARM
 
 `Open source` · `Free source build` · `BYOK`
