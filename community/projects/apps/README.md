@@ -1706,6 +1706,22 @@ Neon-style endless runner where TypeSafe Jev can drive realtime gameplay decisio
 
 [Full Neon Chase guide](neon-chase.md) · [Source](https://github.com/susyimes/neon-chase)
 
+### Netizen (simulate how Indonesian netizens react to a post before it goes live, judged by Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Simulator by Moddest Lab: retrieve similar past cases and their real comment mix, let Jev judge which personas (Bekasi mothers, ojol drivers, students, buzzers, news accounts and more) see the post, then run two rounds of reactions across niche, busy and viral reach scenarios. Text and image posts; a hosted demo where you bring your own key.
+
+**Jev's role:** Judges each persona's reaction and stance.
+
+**Platform:** Web demo; Python CLI and local web UI.
+
+**Product:** [moddestlab.com/netizen/](https://moddestlab.com/netizen/)
+
+**Pricing / access:** Free hosted demo with your own TypeSafe key; free source build under MIT. Checked 2026-11-02. Source inspected; live app not run on the review host.
+
+[Full Netizen (simulate how Indonesian netizens react to a post before it goes live, judged by Jev) guide](netizen.md) · [Source](https://github.com/Seheta/netizen)
+
 ### Notra
 
 `Open source` · `Commercial` · `Paid`
