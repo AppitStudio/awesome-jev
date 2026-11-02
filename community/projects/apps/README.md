@@ -122,6 +122,22 @@ Three AI trading bees on OKX perpetual futures race on paper by default: TypeSaf
 
 [Full beebots guide](beebots.md) · [Source](https://github.com/imikerussell/beebots)
 
+### Besidka (open-source BYOK AI chat that adds seven optional Jev checks on your own TypeSafe key)
+
+`Open source` · `Free`
+
+Bring-your-own-key AI chat on Nuxt and Cloudflare Workers that shows the price of every message and puts all your models in one chat, with no subscription. With your own TypeSafe key, Jev adds optional yes/no checks such as prompt-injection screening, memory checks and reranking, each with its own threshold and toggle; the chat works without it.
+
+**Jev's role:** Runs optional yes/no checks such as injection screening, memory checks and reranking.
+
+**Platform:** Web (hosted at besidka.com); self-host on Cloudflare.
+
+**Product:** [besidka.com](https://besidka.com)
+
+**Pricing / access:** Free hosted app with no subscription or markup; you pay AI providers (and TypeSafe for Jev checks) through your own keys. Free source build under MIT. Checked 2026-11-02. Source inspected; live app not run on the review host.
+
+[Full Besidka (open-source BYOK AI chat that adds seven optional Jev checks on your own TypeSafe key) guide](besidka.md) · [Source](https://github.com/besidka/besidka)
+
 ### BOOLS (Breakout played live by Jev in the browser)
 
 `Open source` · `Free` · `BYOK`
