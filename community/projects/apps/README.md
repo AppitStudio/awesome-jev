@@ -1774,6 +1774,22 @@ Local web app to browse conference papers (ICML, ICLR, CVPR, NeurIPS and more), 
 
 [Full PaperRadar guide](paperradar.md) · [Source](https://github.com/eyad-al-shami/PaperRadar)
 
+### PaperWing (open-web reader organised by topic, with Jev grading how heated a discussion is)
+
+`Open source` · `Free`
+
+Ad-free reader that pulls Hacker News, Lobsters, Bluesky, RSS, arXiv and engineering blogs into topics rather than sources, merges duplicate links and ranks across sources with a recipe that runs on your device. Jev powers an optional spice rating: a score question and four yes/no questions grade how heated a thread's discussion is.
+
+**Jev's role:** Grades how heated a thread's discussion is.
+
+**Platform:** Web; self-host from source.
+
+**Product:** [tech-reader-nine.vercel.app](https://tech-reader-nine.vercel.app)
+
+**Pricing / access:** Free hosted app with no accounts or ads (reader donations via Ko-fi); free source build under Apache-2.0. Checked 2026-11-02. Source inspected; live app not run on the review host.
+
+[Full PaperWing (open-web reader organised by topic, with Jev grading how heated a discussion is) guide](paperwing.md) · [Source](https://github.com/jordan-simonovski/paperwing)
+
 ### Pastewise
 
 `Source unverified` · `Free` · `BYOK`
