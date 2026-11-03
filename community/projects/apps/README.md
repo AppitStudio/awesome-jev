@@ -5408,6 +5408,22 @@ One chat in front of Claude Code, Codex, Gemini CLI and Ollama: each message is 
 
 [Full Nectra guide](nectra.md) · [Source](https://github.com/MBarc/nectra)
 
+### Odin (French-language personal AI agent for terminal, web and Telegram, with an optional Jev judge for its action-severity questions)
+
+`Open source` · `Free source build` · `BYOK`
+
+Personal AI agent with a local web UI, terminal, Telegram and HTTP API, built with no runtime dependencies. Before any action that writes, runs or sends, Odin asks itself seven simple questions and classifies the action as routine, important, serious or blocked; a local rules judge answers by default, and a Jev judge can be added to answer only when the local judge hesitates (or on every question). The documentation is in French.
+
+**Jev's role:** Optional second-opinion judge on action-severity questions when the local judge is unsure.
+
+**Platform:** macOS, Linux and Windows (installer script or source; Docker).
+
+**Product:** [github.com/TOUFATECH/Odin](https://github.com/TOUFATECH/Odin)
+
+**Pricing / access:** Free source build under MIT; you pay your model provider and, if enabled, TypeSafe through your own keys. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full Odin (French-language personal AI agent for terminal, web and Telegram, with an optional Jev judge for its action-severity questions) guide](odin-toufatech.md) · [Source](https://github.com/TOUFATECH/Odin)
+
 ### Omarchy Mail
 
 `Open source` · `Free source build` · `BYOK`
