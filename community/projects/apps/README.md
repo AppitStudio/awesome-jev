@@ -5456,6 +5456,22 @@ Self-hosted Telegram bot for group chats: members earn karma from reactions, rep
 
 [Full Jevchik (Telegram group bot: karma for useful messages, anti-spam for newcomers, judged by Jev) guide](jevchik.md) · [Source](https://github.com/smixs/jevchik)
 
+### mail-agent (always-on Gmail agent that uses Jev to sort mail into alerts, digests and todos in Telegram or Lark)
+
+`Open source` · `Free source build`
+
+Personal email agent that runs on your own Mac or Linux machine: it watches Gmail over IMAP IDLE, Jev scores each email for importance, needed action and dates, and important mail reaches Telegram or Lark/Feishu within seconds while the rest waits for a twice-daily digest. You can chat with it to search mail or draft replies; it never sends without your tap.
+
+**Jev's role:** Scores each email for importance, needed action and dates.
+
+**Platform:** Self-hosted on macOS or Linux; Telegram or Lark/Feishu.
+
+**Product:** [github.com/Jaydccq/mail-agent](https://github.com/Jaydccq/mail-agent)
+
+**Pricing / access:** Free source build under Apache-2.0; you pay TypeSafe and any model provider through your own keys. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full mail-agent (always-on Gmail agent that uses Jev to sort mail into alerts, digests and todos in Telegram or Lark) guide](mail-agent-jaydccq.md) · [Source](https://github.com/Jaydccq/mail-agent)
+
 ### TG-Spam
 
 `Open source` · `Free source build` · `BYOK`
