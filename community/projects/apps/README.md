@@ -3564,6 +3564,22 @@ macOS app for explaining bugs by talking and pointing: record your screen and vo
 
 [Full YapSketch guide](yapsketch.md) · [Source](https://github.com/farouqaldori/yapsketch)
 
+### zapzero (inbox zero for WhatsApp on your Mac, where Jev triages every chat and you send each draft yourself)
+
+`Open source` · `Free source build` · `BYOK`
+
+Mac tool that reads the WhatsApp Desktop app's own database read-only and triages every chat: who is waiting on whom, how urgent, and who the person is to you. Jev does the triage and a small chat model drafts replies in your own tone; you review each draft and press Enter in WhatsApp yourself. The panel UI is in Portuguese.
+
+**Jev's role:** Triages each WhatsApp chat for wait state, urgency, person and area.
+
+**Platform:** macOS with WhatsApp Desktop (source build; launchd agent installed by setup).
+
+**Product:** [zapzero.dev](https://zapzero.dev)
+
+**Pricing / access:** Free source build under MIT; you pay OpenRouter through your own key. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full zapzero (inbox zero for WhatsApp on your Mac, where Jev triages every chat and you send each draft yourself) guide](zapzero.md) · [Source](https://github.com/vibegui/zapzero)
+
 ## Android apps
 
 ### Audience Moderator (Android counter for people and raised hands, with an optional Jev round insight)
