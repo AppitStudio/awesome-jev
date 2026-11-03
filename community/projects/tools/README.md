@@ -1652,6 +1652,7 @@ These projects study related typed-decision patterns using other models. They ar
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [@omadia/decision-jev (omadia plugin that lets Jev decide each chat message's route, data source, memory and evidence checks before any language-model call)](omadia-decision-jev.md) | Plugin that makes Jev the decision model of the omadia agent platform: in one request it decides whether a message needs a language model, which read-only tool or data source can answer it, whether a learned query fits, and whether a plan is needed. It also rates recalled notes, whether a turn is worth remembering and whether evidence supports a claim; when Jev fails or is unsure, the language model takes over. | omadia plugin (TypeScript, packaged as a zip) (MIT) |
 | [@rbxts/jev (Jev for roblox-ts)](rbxts-jev.md) | Typed TypeSafe Jev client for roblox-ts games: declare choice, score and noul questions about one state, and the option names become TypeScript types your server code branches on, with a shared rate limiter, retries and request deduplication over Roblox `HttpService`. | roblox-ts package (install from GitHub) (MIT) |
 | [adk-go-typesafe](adk-go-typesafe.md) | Call System One from Go and Google ADK-Go with OpenAPI-generated types (Choice/Score/Noul). | Go · module + ADK tool (`adk-go-typesafe`) |
 | [Advocaat](advocaat.md) | Batch typed Jev choice, score, and yes/no questions about structured data from TypeScript. | TypeScript · client library and agent skill |
