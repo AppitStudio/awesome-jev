@@ -326,6 +326,22 @@ Transparent AI-driven paper-trading and backtest platform for crypto with a cali
 
 [Full CryptoCadence guide](crypto-cadence.md) · [Source](https://github.com/KarelTestSpecial/crypto-trading-lab)
 
+### d20-oracle (one-page Go demo where Jev scores your name, profession and a d20 roll against the twelve D&D classes)
+
+`Open source` · `Free source build` · `BYOK`
+
+One-page Go web demo: type a name and profession, roll a d20 for destiny and a d6 for a little weirdness, and Jev scores your identity and roll against the twelve core 5e classes in one choice question. The highest probability wins, up to two runners-up show as close calls, and a local d6 picks a quirk.
+
+**Jev's role:** Scores the user's name, profession and roll against the twelve D&D classes.
+
+**Platform:** Self-hosted Go server (browser UI); Docker image supported.
+
+**Product:** [github.com/amscotti/d20-oracle](https://github.com/amscotti/d20-oracle)
+
+**Pricing / access:** Free source build under MIT; you pay TypeSafe through your own key and cover any hosting. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full d20-oracle (one-page Go demo where Jev scores your name, profession and a d20 roll against the twelve D&D classes) guide](d20-oracle.md) · [Source](https://github.com/amscotti/d20-oracle)
+
 ### DeciFlow
 
 `Open source` · `Free source build` · `BYOK`
