@@ -4044,6 +4044,22 @@ Original Chrome/Edge extension (Chinese, with English README) that filters Bilib
 
 [Full B站降噪 · JEV (Bilibili noise filter) guide](jev-bili-filter.md) · [Source](https://github.com/littlewindy123/jev-bili-filter)
 
+### Cookie Away (Chrome extension that rejects cookie banners for you, with optional Jev help on banners it can't read)
+
+`Open source` · `Free`
+
+Free Chrome extension that rejects cookie banners, including ones that hide Reject behind a settings screen: it knows 27 consent platforms, reads other banners in about 20 languages, and checks the banner is gone after each click. For banners it still can't read, it can ask Jev which button is which; that is off by default and uses your own key.
+
+**Jev's role:** Picks the reject button on banners the heuristics can't read (optional).
+
+**Platform:** Chrome, Edge, Brave, Arc (load unpacked; Chrome Web Store in review).
+
+**Product:** [www.cookieaway.com](https://www.cookieaway.com)
+
+**Pricing / access:** Free extension under MIT; the optional Jev feature is billed to your own TypeSafe key. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full Cookie Away (Chrome extension that rejects cookie banners for you, with optional Jev help on banners it can't read) guide](cookie-away.md) · [Source](https://github.com/upstrategylab/cookie-away)
+
 ### Danmaku spoiler filter (JEV)
 
 `Open source` · `Free source build` · `BYOK`
