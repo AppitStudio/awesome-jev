@@ -2192,6 +2192,22 @@ Browser Snake played by TypeSafe Jev with a live panel of every call — the sta
 
 [Full Snake × Jev guide](snake-jev.md) · [Source](https://github.com/michaelmld/snake-jev)
 
+### Social Monitor (self-hosted feed that collects X, Reddit, Hacker News, RSS and GitHub posts, with Jev scoring each post's reader value)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted monitor that collects posts and articles across X, Reddit, Hacker News, RSS/Atom, GitHub and Telegram previews for the topics you follow, ranks what matters and turns it into readable AI summaries with source links, daily and four-hour digests and personal interest profiles. Jev (through OpenRouter, with OpenAI Decisions as an alternative) scores each collected post on several reader-value criteria, the database stores the result and code sorts it.
+
+**Jev's role:** Scores each collected post on reader-value criteria before ranking and summaries.
+
+**Platform:** Self-hosted Docker stack (browser UI); a product site exists.
+
+**Product:** [social-monitor.app](https://social-monitor.app)
+
+**Pricing / access:** Free source build under Apache-2.0; you pay OpenRouter or OpenAI through your own key and any hosting. The hosted product's pricing was not verified. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full Social Monitor (self-hosted feed that collects X, Reddit, Hacker News, RSS and GitHub posts, with Jev scoring each post's reader value) guide](social-monitor.md) · [Source](https://github.com/777genius/social-monitor)
+
 ### Stack4That
 
 `Open source` · `Free source build` · `BYOK`
