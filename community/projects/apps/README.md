@@ -1622,6 +1622,22 @@ Gmail sorter with readable rules plus TypeSafe Jev typed judgments, receipts, an
 
 [Full Mailroom guide](mailroom.md) · [Source](https://github.com/Kevin-Liu-01/mailroom)
 
+### Mailroom by origna8 (self-hosted email for people and AI agents on Cloudflare, where Jev applies your auto-labels)
+
+`Open source` · `Free source build`
+
+Self-hosted email system on your own Cloudflare account: people use a Gmail-style web UI, agents read and send through MCP with scoped OAuth, and every agent-drafted reply waits for one-click approval. Your natural-language label rules are checked against new mail by Jev. Separate from the listed Kevin-Liu-01 Mailroom.
+
+**Jev's role:** Checks each new email against your natural-language label rules.
+
+**Platform:** Self-hosted on Cloudflare.
+
+**Product:** [github.com/origna8/mailroom](https://github.com/origna8/mailroom)
+
+**Pricing / access:** Free source build under Apache-2.0; needs Cloudflare Workers Paid for outbound mail plus Workers AI usage. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full Mailroom by origna8 (self-hosted email for people and AI agents on Cloudflare, where Jev applies your auto-labels) guide](origna8-mailroom.md) · [Source](https://github.com/origna8/mailroom)
+
 ### Masroufi
 
 `Source available` · `Free source build` · `BYOK`
@@ -4028,6 +4044,22 @@ Original Chrome/Edge extension (Chinese, with English README) that filters Bilib
 
 [Full B站降噪 · JEV (Bilibili noise filter) guide](jev-bili-filter.md) · [Source](https://github.com/littlewindy123/jev-bili-filter)
 
+### Cookie Away (Chrome extension that rejects cookie banners for you, with optional Jev help on banners it can't read)
+
+`Open source` · `Free`
+
+Free Chrome extension that rejects cookie banners, including ones that hide Reject behind a settings screen: it knows 27 consent platforms, reads other banners in about 20 languages, and checks the banner is gone after each click. For banners it still can't read, it can ask Jev which button is which; that is off by default and uses your own key.
+
+**Jev's role:** Picks the reject button on banners the heuristics can't read (optional).
+
+**Platform:** Chrome, Edge, Brave, Arc (load unpacked; Chrome Web Store in review).
+
+**Product:** [www.cookieaway.com](https://www.cookieaway.com)
+
+**Pricing / access:** Free extension under MIT; the optional Jev feature is billed to your own TypeSafe key. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full Cookie Away (Chrome extension that rejects cookie banners for you, with optional Jev help on banners it can't read) guide](cookie-away.md) · [Source](https://github.com/upstrategylab/cookie-away)
+
 ### Danmaku spoiler filter (JEV)
 
 `Open source` · `Free source build` · `BYOK`
@@ -4479,6 +4511,22 @@ Chrome extension (README in Korean and English) that collapses, blurs, dims or h
 **Pricing / access:** Free (MIT); you supply a TypeSafe key. Checked 2026-11-01. Source inspected; live app not run on the review host.
 
 [Full NotForMe (Chrome extension that folds PR, product-launch and off-topic articles in Korean news lists using Jev) guide](notforme.md) · [Source](https://github.com/x-mesh/notforme)
+
+### OwnYourTimeline (Chrome and Edge extension that filters your X Home feed with a plain-language rule, classified by Jev)
+
+`Open source` · `Free source build`
+
+Manifest V3 extension that filters both X Home tabs with an instruction such as "Nothing political": it holds each timeline response, sends its posts (text, quotes, images) to Jev in one bulk request, and removes posts scoring 0.90 or more before X renders them. It fails open and has an optional Filtered tab.
+
+**Jev's role:** Scores each Home-feed post against your instruction.
+
+**Platform:** Chrome or Edge (load unpacked).
+
+**Product:** [github.com/raghavio/ownyourtimeline](https://github.com/raghavio/ownyourtimeline)
+
+**Pricing / access:** Free source build under MIT; TypeSafe calls are billed to your own key. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full OwnYourTimeline (Chrome and Edge extension that filters your X Home feed with a plain-language rule, classified by Jev) guide](ownyourtimeline.md) · [Source](https://github.com/raghavio/ownyourtimeline)
 
 ### PageGrade
 
