@@ -1482,6 +1482,22 @@ Desktop browser agent for website tasks, research, and supported games: the page
 
 [Full Jevry guide](jevry.md) · [Source](https://github.com/michaelswissa/jevry)
 
+### JevSense (self-hosted site personalization where Jev judges a visitor's browsing against your Yes/No questions to show the right offer; Japanese)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted app for marketers: describe what you want to say and who it is for, build a node-based audience rule from URL, Jev, AND and OR conditions, and the site SDK asks Jev, once per page at most, whether the visitor's browsing so far fits before showing a registered offer (modal, banner, notice bar or custom script). It includes drafts and previews, passkey sign-in, per-site roles, encrypted site keys and a call log. The interface and guides are in Japanese.
+
+**Jev's role:** Judges a visitor's browsing against your Yes/No audience questions to choose an offer.
+
+**Platform:** Self-hosted on Cloudflare Workers (browser admin UI; site SDK).
+
+**Product:** [manji6.github.io/jev-personalization/](https://manji6.github.io/jev-personalization/)
+
+**Pricing / access:** Free source build under MIT; you pay TypeSafe per site key and any Cloudflare charges. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full JevSense (self-hosted site personalization where Jev judges a visitor's browsing against your Yes/No questions to show the right offer; Japanese) guide](jevsense.md) · [Source](https://github.com/manji6/jev-personalization)
+
 ### JevSlop
 
 `Open source` · `Free source build` · `BYOK`
