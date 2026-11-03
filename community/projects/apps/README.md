@@ -326,6 +326,22 @@ Transparent AI-driven paper-trading and backtest platform for crypto with a cali
 
 [Full CryptoCadence guide](crypto-cadence.md) · [Source](https://github.com/KarelTestSpecial/crypto-trading-lab)
 
+### Curalink (medical research assistant where Jev routes each question to live PubMed and trial search or to saved conversation evidence and picks the 8B or 70B answer model)
+
+`Open source` · `Free source build` · `BYOK`
+
+Medical research assistant for patients and caregivers: enter a condition and goal once, then ask questions, compare findings and open the PubMed, OpenAlex and ClinicalTrials.gov sources behind each answer. When a TypeSafe key is set, Jev decides whether a question needs fresh retrieval or can be answered from the saved conversation, whether the form's disease still applies, and whether an 8B or 70B Llama writes the answer; without a key the original single-model pipeline runs.
+
+**Jev's role:** Optional router that chooses retrieval or saved-evidence answering and the 8B or 70B answer model.
+
+**Platform:** Self-hosted web app; a hosted demo is linked from the repository.
+
+**Product:** [curalink-medical-assistant-frontend.onrender.com](https://curalink-medical-assistant-frontend.onrender.com)
+
+**Pricing / access:** Free source build under MIT; you supply Hugging Face or Cloudflare keys and a TypeSafe key for Jev routing, plus hosting. The hosted demo's terms were not verified. Checked 2026-11-03. Source inspected; live app not run on the review host.
+
+[Full Curalink (medical research assistant where Jev routes each question to live PubMed and trial search or to saved conversation evidence and picks the 8B or 70B answer model) guide](curalink.md) · [Source](https://github.com/VIVPM/curalink-medical-assistant)
+
 ### d20-oracle (one-page Go demo where Jev scores your name, profession and a d20 roll against the twelve D&D classes)
 
 `Open source` · `Free source build` · `BYOK`
