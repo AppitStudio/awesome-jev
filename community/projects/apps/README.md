@@ -3966,6 +3966,22 @@ Windows voice-workflow app built for the Wispr No Hands challenge: dictate into 
 
 [Full FlowMesh guide](flowmesh-voice.md) · [Source](https://github.com/HamzaShaikh-source/flowmesh)
 
+### gent (NVDA screen-reader add-on that changes speech settings from a plain-words request, with Jev choosing the setting through a relay)
+
+`Open source` · `Pricing unverified`
+
+NVDA add-on from Blind Ant: press NVDA+G, type what you want changed in plain words ("talk a bit faster", "stop reading so much punctuation", "undo that") and gent works out which speech, typing or keys setting you mean and changes it. If it is unsure it asks "Did you mean...?" first, and it can undo the last five changes. The repository also holds the Cloudflare Worker relay that holds the TypeSafe key and asks Jev the one question. The authors call it a design-fiction experiment.
+
+**Jev's role:** Chooses which NVDA setting a typed request means and how big the change is.
+
+**Platform:** Windows with NVDA 2025.1 or later; needs the maintainer's hosted relay.
+
+**Product:** [github.com/Carrados/nvda-addons](https://github.com/Carrados/nvda-addons)
+
+**Pricing / access:** The add-on is distributed from GitHub releases and no price or relay usage terms are stated in the README, so pricing and long-term relay availability are unverified. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full gent (NVDA screen-reader add-on that changes speech settings from a plain-words request, with Jev choosing the setting through a relay) guide](gent-nvda-addon.md) · [Source](https://github.com/Carrados/nvda-addons)
+
 ### INployed
 
 `Open source` · `Free source build` · `BYOK`
