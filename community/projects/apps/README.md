@@ -5428,6 +5428,22 @@ Self-hosted Gmail triage: every few minutes it asks Jev which category each new 
 
 [Full inbox-jev guide](inbox-jev.md) · [Source](https://github.com/hellolitebox/litebox-inbox-jev)
 
+### Jarvis by craigraphics (macOS voice-command CLI where patterns go first, Jev decides the rest and an LLM only writes)
+
+`Open source` · `Free source build` · `BYOK`
+
+Say "Jarvis, ..." and it opens apps, plays music, sets reminders, checks the calendar, drafts emails (always left for you to send), writes Obsidian notes and runs Shortcuts. Exact command shapes are handled by patterns; with a TypeSafe key, Jev picks the action for natural phrasing and ignores questions and small talk; an optional LLM only fills details and writes drafts. Early experiment, macOS only.
+
+**Jev's role:** Picks which skill action a spoken or typed command means, and answers 'unknown' for questions and small talk.
+
+**Platform:** macOS (terminal command installed with uv); no other platform.
+
+**Product:** [github.com/craigraphics/jarvis](https://github.com/craigraphics/jarvis)
+
+**Pricing / access:** Free source build under MIT; Jev needs your own TypeSafe key and an LLM key is optional, each with provider charges. No hosted plan found. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Jarvis by craigraphics (macOS voice-command CLI where patterns go first, Jev decides the rest and an LLM only writes) guide](jarvis-craigraphics.md) · [Source](https://github.com/craigraphics/jarvis)
+
 ### Jev Mail Classifier
 
 `Open source` · `Free source build` · `BYOK`
