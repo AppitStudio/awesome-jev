@@ -5556,6 +5556,22 @@ Native C17 terminal application for context-sensitive lyrics redaction: it asks 
 
 [Full LYRCENSOR (C terminal app that redacts slurs in Russian and English lyrics using Jev probabilities, editing letters locally) guide](lyrcensor.md) · [Source](https://github.com/qememe/LYRCENSOR)
 
+### Mail Assistant by jmdurgali03 (local-first Gmail read-only assistant that stages GPT preparation, a Jev priority decision and GPT rendering)
+
+`Open source` · `Free source build` · `BYOK`
+
+Experimental email assistant in Python and SQLite that reads Gmail read-only, gathers evidence, classifies priority and drafts short summaries, with private Telegram notifications through OpenClaw. Each analysis is staged: GPT prepares verified facts, Jev answers typed questions on priority, promotional and financial content, and GPT renders the result. It never sends, archives or changes mail, and the core and demo run without accounts. English and Spanish READMEs.
+
+**Jev's role:** Classifies each prepared email's priority, promotional and financial nature as typed decisions.
+
+**Platform:** Linux (reference platform), run from source; Telegram notifications through OpenClaw.
+
+**Product:** [github.com/jmdurgali03/mail-assistant](https://github.com/jmdurgali03/mail-assistant)
+
+**Pricing / access:** Free source build under MIT; live use needs your own GPT, OpenClaw and TypeSafe access with their charges. No hosted plan was found. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Mail Assistant by jmdurgali03 (local-first Gmail read-only assistant that stages GPT preparation, a Jev priority decision and GPT rendering) guide](mail-assistant-jmdurgali03.md) · [Source](https://github.com/jmdurgali03/mail-assistant)
+
 ### Mardi Gras
 
 `Open source` · `Free source build` · `BYOK`
