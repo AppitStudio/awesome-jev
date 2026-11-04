@@ -4758,6 +4758,22 @@ Collapse posts that match English rules you wrote; TypeSafe Jev via OpenRouter D
 
 [Full Polymorph guide](polymorph.md) · [Source](https://github.com/moomooskycow/polymorph)
 
+### Practical Data (Chrome extension that shades comparable table columns, with Jev deciding which columns and which end is better)
+
+`Open source` · `Free`
+
+Chrome extension that colour-shades the comparable columns of HTML tables on any page. A small decision model picks which columns to shade and which end of each is better; code does the parsing, arithmetic and colours. The default Free provider forwards table text through the author's Cloudflare Worker to Jev; you can instead use your own TypeSafe key from the browser, or Cloudflare's Clef. The README reports 284 of 285 labelled columns matched on 26 pages, with labels and thresholds tuned on those pages.
+
+**Jev's role:** Decides which table columns are comparable and which end of each column is better; code shades them.
+
+**Platform:** Desktop Chrome (Chrome Web Store listing and source build).
+
+**Product:** [practicaldata.dev](https://practicaldata.dev)
+
+**Pricing / access:** The extension is MIT and the default Free provider needs no key; it has a per-install daily request limit and the author's server funds the calls, so availability may change. Using your own key bills your TypeSafe account. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Practical Data (Chrome extension that shades comparable table columns, with Jev deciding which columns and which end is better) guide](practical-data.md) · [Source](https://github.com/philrenaud/practical-data)
+
 ### Qiaomu Banbot (乔木净评)
 
 `Free` · `Source available` · `BYOK`
