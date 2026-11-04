@@ -5552,6 +5552,22 @@ One chat in front of Claude Code, Codex, Gemini CLI and Ollama: each message is 
 
 [Full Nectra guide](nectra.md) · [Source](https://github.com/MBarc/nectra)
 
+### Nouli (terminal app, CLI and Rust library that keeps connected decision histories, with Jev through its TypeSafe connection)
+
+`Open source` · `Free source build` · `BYOK`
+
+Terminal app, command-line tool and Rust library for decision histories: you add facts as context, ask a plain question, and earlier answers and files stay in a ledger-backed graph you can reference with `@`. It connects to any service that supports System One or OpenAI Decisions, and `nouli connect` has a TypeSafe recipe with `jev-latest` as the model; the project also publishes nine small task-specific models.
+
+**Jev's role:** One of the connectable decision services; answers typed questions about the facts in a session.
+
+**Platform:** Terminal on Apple silicon macOS and ARM64/x86_64 GNU/Linux (Homebrew, install script or source).
+
+**Product:** [nouli.ai/](https://nouli.ai/)
+
+**Pricing / access:** Free to install and run (MIT); remote inference through your own TypeSafe key is billed by TypeSafe. No paid Nouli plan was found. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Nouli (terminal app, CLI and Rust library that keeps connected decision histories, with Jev through its TypeSafe connection) guide](nouli.md) · [Source](https://github.com/nouli-ai/nouli)
+
 ### Odin (French-language personal AI agent for terminal, web and Telegram, with an optional Jev judge for its action-severity questions)
 
 `Open source` · `Free source build` · `BYOK`
