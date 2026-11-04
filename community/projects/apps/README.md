@@ -2222,6 +2222,22 @@ Measures how closely each page matches the search intent you set, using TypeSafe
 
 [Full seo-jev-analyzer guide](seo-jev-analyzer.md) · [Source](https://github.com/matthelam/seo-jev-analyzer)
 
+### Separ8 (AETHER's early-access web app that sorts every row of a CSV with Jev, then measures how far its confidence can be trusted)
+
+`Closed source` · `Pricing unverified`
+
+Upload a CSV of up to 500 rows, describe a decision in plain English (route a ticket, flag a refund request, score a lead), and Separ8 drafts typed questions that run on every row in parallel on Jev. You mark 20 to 50 rows by hand and it measures how often the model agreed with you at each confidence level, then proposes the line above which rows can be handled automatically and below which a person looks. A free demo with sample data is on the site; self-serve and done-for-you setups are in early access.
+
+**Jev's role:** vendor claim: Jev answers the plain-English questions about each row; code measures agreement with your labels and sets the automation threshold.
+
+**Platform:** web browser (CSV upload).
+
+**Product:** [separ8.8ther.io](https://separ8.8ther.io/)
+
+**Pricing / access:** free demo with sample data; self-serve and done-for-you pricing is unpublished (waitlist first). Closed source; public pages reviewed 2026-11-05, implementation not inspected. Not affiliated with the maker.
+
+[Try Separ8](https://separ8.8ther.io/) · [Full Separ8 guide](separ8.md) · [Source](https://separ8.8ther.io/)
+
 ### Shapes of Stories (story arcs of books and scripts scored with Jev)
 
 `Open source` · `Free source build`
