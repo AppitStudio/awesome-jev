@@ -554,6 +554,22 @@ Jackbox-style multiplayer Family Feud fan game: the board runs on a TV, players 
 
 [Full Family Feud Live (multiplayer party game whose optional AI host uses Jev to judge answers) guide](family-feud-live.md) · [Source](https://github.com/gocougs2020/family-feud)
 
+### FamilyWell (self-hostable family organizer whose optional TypeSafe key lets Jev sort shopping items and expenses filed under Other)
+
+`Source available` · `Free source build` · `BYOK`
+
+Family organizer with shared shopping lists, tasks, calendar, spending, projects and recipes, built as a small core plus modules you switch on per family. With a TypeSafe key, items added to a shop's catch-all Other aisle are sorted into the best-fit aisle and expenses saved as Other get a category, with a one-tap backlog sort. The source is PolyForm Noncommercial: free for personal use, not for commercial use or resale.
+
+**Jev's role:** Optionally sorts shopping items and expenses filed under Other into the best-fit aisle or category.
+
+**Platform:** Self-hosted web app (installable PWA); a hosted version exists at familywell.co.
+
+**Product:** [familywell.co](https://familywell.co)
+
+**Pricing / access:** Self-hosting is free for personal, noncommercial use under PolyForm Noncommercial 1.0.0; commercial use is not allowed. The hosted version's pricing was not verified. TypeSafe calls use your own key. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full FamilyWell (self-hostable family organizer whose optional TypeSafe key lets Jev sort shopping items and expenses filed under Other) guide](familywell.md) · [Source](https://github.com/bvdr/familywell)
+
 ### FilmHunch
 
 `Open source` · `Free source build` · `BYOK`
