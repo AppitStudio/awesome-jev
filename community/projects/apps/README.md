@@ -3986,6 +3986,22 @@ Jev-first email classifier for Proton Mail through Proton Mail Bridge, with a Wi
 
 [Full Neutron Email Triage guide](neutron-email-triage.md) · [Source](https://github.com/Geneonosis/neutron-email-triage)
 
+### PasteGuard (free Windows tray agent that asks Jev how dangerous a copied command is and removes risky ones from the clipboard to stop ClickFix attacks)
+
+`Open source` · `Free` · `BYOK`
+
+Small Windows tray agent against ClickFix attacks, where a fake CAPTCHA or error page tricks you into pasting a malicious command into Win+R, a terminal or PowerShell. It watches the clipboard, sends only command-like text to Jev with a yes/no danger question, and if the risk score reaches your threshold it removes the text from the clipboard and warns you. Each block is listed under Threat activity, and it never runs anything it inspects.
+
+**Jev's role:** Scores each copied command-like text for danger so risky commands can be removed from the clipboard.
+
+**Platform:** Windows tray app; no installer or admin rights, per the README.
+
+**Product:** [github.com/Ryankapa/PasteGuard](https://github.com/Ryankapa/PasteGuard)
+
+**Pricing / access:** The app is described as free; you pay TypeSafe through your own Jev key. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full PasteGuard (free Windows tray agent that asks Jev how dangerous a copied command is and removes risky ones from the clipboard to stop ClickFix attacks) guide](pasteguard.md) · [Source](https://github.com/Ryankapa/PasteGuard)
+
 ### Qoresence
 
 `Open source` · `Free` · `BYOK`
