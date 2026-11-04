@@ -1,13 +1,19 @@
 name: Checks
 
 on:
-  push:
-    branches: [main]
+  # PRs already validate the prospective merge; avoid repeating every merged listing.
+  schedule:
+    - cron: '41 6 * * *'
+  merge_group:
   pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  group: checks-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   offline:
