@@ -528,6 +528,22 @@ Software Enigma/Bombe pipeline: TypeSafe Jev ranks cribs and judges whether a tr
 
 [Try enigma-jev](https://enigma-jev.vercel.app) · [Full enigma-jev guide](enigma-jev.md) · [Source](https://github.com/agodoy21/enigma-jev)
 
+### Eregion (local job-search agent that scores resume fit, with optional Jev fit scoring for speed)
+
+`Open source` · `Free source build` · `BYOK`
+
+Job-search agent that runs on your computer: it searches company job boards and LinkedIn, reads each posting, ranks jobs by fit to your resume with gaps listed, tailors the resume and cover letter with each claim checked against the resume, and fills application forms up to the review page without submitting. When Jev is switched on, fit scoring uses Jev while your main model keeps handling conversation and writing. The README reports 0.39 s per posting across 150 postings in 13 searches.
+
+**Jev's role:** Optional fast yes/no scorer for how well each posting fits the resume.
+
+**Platform:** Local web app on macOS, Linux or Windows (source build); no hosted version verified.
+
+**Product:** [github.com/ethany14/Eregion-Job-Finding-Agent](https://github.com/ethany14/Eregion-Job-Finding-Agent)
+
+**Pricing / access:** Free source build under MIT; you supply your own model and TypeSafe keys and pay their usage. No hosted plan was found. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Eregion (local job-search agent that scores resume fit, with optional Jev fit scoring for speed) guide](eregion-job-finding-agent.md) · [Source](https://github.com/ethany14/Eregion-Job-Finding-Agent)
+
 ### Eyedot · 点睛
 
 `Open source` · `Freemium` · `Commercial` · `BYOK`
