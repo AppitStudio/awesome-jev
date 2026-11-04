@@ -5012,6 +5012,22 @@ Chrome extension that finds any tab fast, groups tabs by the job you are doing, 
 
 [Full Tab Land guide](tab-land.md) · [Source](https://github.com/robin-anil/tab-land)
 
+### Tabfold (Chrome extension that groups and folds crowded tabs, with Jev classifying tabs when you add a key)
+
+`Source available` · `Free source build` · `BYOK`
+
+Manifest V3 Chrome extension that proposes tab groups, lets you review them, then applies and collapses them without merging windows. It works without AI using local title similarity; with an OpenRouter or TypeSafe key, Jev (1.13) classifies tabs into your categories and can suggest new ones. Pinned, audible, incognito and internal tabs are protected, and the last grouping can be undone.
+
+**Jev's role:** Optionally classifies open tabs into your categories and suggests new groups; local similarity is the default.
+
+**Platform:** Desktop Chrome; load unpacked from the cloned repo (no Chrome Web Store listing verified).
+
+**Product:** [github.com/JayYun98/tabfold](https://github.com/JayYun98/tabfold)
+
+**Pricing / access:** Free to load from source; no account or paid plan was found. The AI preview needs your own TypeSafe or OpenRouter key and incurs provider charges. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Tabfold (Chrome extension that groups and folds crowded tabs, with Jev classifying tabs when you add a key) guide](tabfold.md) · [Source](https://github.com/JayYun98/tabfold)
+
 ### TabTidy
 
 `Open source` · `Free source build` · `BYOK`
