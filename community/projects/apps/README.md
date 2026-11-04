@@ -1912,6 +1912,22 @@ One paste box that recognizes JSON, JWTs, cron, stack traces, colors, and more, 
 
 [Try Pastewise](https://pastewise.vercel.app) · [Full Pastewise guide](pastewise.md) · [Source](https://github.com/Nuu-maan/pastewise)
 
+### Patchwork Constellation (local web tool that maps which files and modules a set of pull requests or commits touches, with optional Jev regrouping of files into islands)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local-first web tool for seeing which parts of a repository a collection of pull requests or commits touches: files are connected circles, and labeled islands reveal modules, folders and components. It has an interactive sample that needs no credentials, public GitHub analysis and optional read-only GitHub App sign-in. An optional AI step lets Jev decide, for each file, which existing island fits best (with an `uncertain` option that keeps the original group) while a generative model proposes island names.
+
+**Jev's role:** Optional grouping step that assigns each changed file to the island that best contains it, or leaves it where it was when evidence is weak.
+
+**Platform:** Self-hosted web app (loopback by default); hosted deployment needs your own configuration.
+
+**Product:** [github.com/oudaykhaled/patchwork-constellation](https://github.com/oudaykhaled/patchwork-constellation)
+
+**Pricing / access:** Free source build under Apache-2.0; you supply any TypeSafe, OpenAI and GitHub keys and hosting. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Patchwork Constellation (local web tool that maps which files and modules a set of pull requests or commits touches, with optional Jev regrouping of files into islands) guide](patchwork-constellation.md) · [Source](https://github.com/oudaykhaled/patchwork-constellation)
+
 ### patrol-jev
 
 `Open source` · `Free source build` · `BYOK`
