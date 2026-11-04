@@ -1634,6 +1634,22 @@ Local workplace response drill: write timed replies to scenario prompts and get 
 
 [Full job-drill guide](job-drill.md) · [Source](https://github.com/ceokobec-hue/job-drill)
 
+### Kickbase KI-Cockpit (self-hosted German fantasy-Bundesliga co-pilot where Jev reads news into lineup odds and code decides)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted web cockpit and optional autopilot for Kickbase (German-language). Jev reads match reports, press conferences and forecasts and returns calibrated start, bench, absent and comeback probabilities that feed a 0-100 player score; code, including a lineup optimizer, makes every purchase and sale. A single guarded executor, dry-run by default, supports three autonomy levels, and it falls back to non-AI sources when no key is set.
+
+**Jev's role:** Reads news into calibrated player role and availability probabilities that gate purchases; code does the optimizing and trading.
+
+**Platform:** Self-hosted web app (Docker Compose); no hosted instance.
+
+**Product:** [github.com/milopraetzel/kickbase-copilot](https://github.com/milopraetzel/kickbase-copilot)
+
+**Pricing / access:** Free source build under MIT; you host it and supply any TypeSafe key with its charges. No hosted plan was found. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Kickbase KI-Cockpit (self-hosted German fantasy-Bundesliga co-pilot where Jev reads news into lineup odds and code decides) guide](kickbase-copilot.md) · [Source](https://github.com/milopraetzel/kickbase-copilot)
+
 ### Kiteva (local AI motion-graphics studio where Jev ranks style directions and picks visual and audio capabilities for each film)
 
 `Open source` · `Free source build` · `BYOK`
