@@ -2300,6 +2300,22 @@ Hackathon demo for 911 surges: each call transcript (multilingual, with location
 
 [Full Surge Desk guide](surge-desk.md) · [Source](https://github.com/valensangui8/surge-desk)
 
+### Switchback (Expo mobile app with a browser demo that gives career switchers one technical lesson a day, with Jev choosing and grading each step)
+
+`Open source` · `Free source build` · `BYOK`
+
+Mobile app (Expo and Supabase) for people moving from business roles into go-to-market engineering, forward deployed and applied AI roles. All lesson content is written in advance, so every AI job in it is a Jev decision: which lesson comes next, which encouragement note fits the day, how well an answer scores against a three-level rubric, how well each synced job fits you, and which expert posts are worth reading. Confidence is shown in the app, and low-confidence grades ask you to compare with a sample answer. Without a key it falls back to simple rules.
+
+**Jev's role:** Chooses the next lesson and note, scores answers against a rubric and ranks jobs and expert posts.
+
+**Platform:** Mobile app built with Expo, plus a browser demo; self-hosting needs your own Supabase project.
+
+**Product:** [switchback.valerievu.com](https://switchback.valerievu.com)
+
+**Pricing / access:** The browser demo is described as needing no sign-up; the source is MIT and a self-hosted build needs your own Supabase project and TypeSafe key. No app-store or paid plan was verified. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Switchback (Expo mobile app with a browser demo that gives career switchers one technical lesson a day, with Jev choosing and grading each step) guide](switchback.md) · [Source](https://github.com/valerievanvu-dev/switchback)
+
 ### talktojev (Jev Prime)
 
 `Open source` · `Free` · `BYOK`
