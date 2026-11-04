@@ -1570,6 +1570,22 @@ Local workplace response drill: write timed replies to scenario prompts and get 
 
 [Full job-drill guide](job-drill.md) · [Source](https://github.com/ceokobec-hue/job-drill)
 
+### Kiteva (local AI motion-graphics studio where Jev ranks style directions and picks visual and audio capabilities for each film)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local creative room where an idea becomes a short motion-graphics film, built on Claude or GPT main models with narration and audio generated locally. Jev is configured separately with its own key and is used for generated style directions and for visual and audio capability selection; choosing a Motion Graphic by hand skips style ranking. It also exposes an MCP endpoint so external agents can search ideas, save a draft and start a build, and has English and Chinese interfaces.
+
+**Jev's role:** Ranks generated style directions and chooses visual and audio capabilities for a project.
+
+**Platform:** Self-hosted local web app (macOS-focused install notes; a Windows CI workflow is present).
+
+**Product:** [github.com/delexw/motion-graphics-agent](https://github.com/delexw/motion-graphics-agent)
+
+**Pricing / access:** Free source build under MIT; you supply Claude or Codex access, a TypeSafe key and local compute. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Kiteva (local AI motion-graphics studio where Jev ranks style directions and picks visual and audio capabilities for each film) guide](kiteva.md) · [Source](https://github.com/delexw/motion-graphics-agent)
+
 ### LadingLens (shipping inbox control that checks Shipping Instructions against draft Bills of Lading, with Jev classifying)
 
 `Open source` · `Free`
