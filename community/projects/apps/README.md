@@ -266,6 +266,22 @@ Browser chess where your opponent is TypeSafe Jev: every move is a short chain o
 
 [Full Chess with Jev guide](chess-with-jev.md) · [Source](https://github.com/vlaier/chessWithJev)
 
+### Chopin (GitHub Next research prototype for writing plans and specs with a repository-grounded agent, with Jev optionally judging chat turns and cards)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted research prototype where people and a hosted agent write one repository-grounded document together, with chat, decisions and research briefs. A decisions classifier, either OpenAI's Decisions API or TypeSafe's Jev (via `JEV_API_KEY`), judges when the agent should speak in group chat, proposes optional conversation cards, and routes explanatory visuals. GitHub calls it experimental research software, not a supported product, and offers no public instance.
+
+**Jev's role:** Optional decisions classifier for group-chat turn-taking, conversation cards and visual routing.
+
+**Platform:** Self-hosted web app (run locally or on your own server); no hosted instance is offered.
+
+**Product:** [github.com/githubnext/chopin](https://github.com/githubnext/chopin)
+
+**Pricing / access:** Free source build under MIT; you provide hosting, a GitHub App and your own model keys, and no hosted instance is offered. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Chopin (GitHub Next research prototype for writing plans and specs with a repository-grounded agent, with Jev optionally judging chat turns and cards) guide](chopin.md) · [Source](https://github.com/githubnext/chopin)
+
 ### Clean Code Review
 
 `Open source` · `Free source build` · `BYOK`
