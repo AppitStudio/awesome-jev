@@ -34,6 +34,22 @@ Ranked daily AI-news site and digest whose importance scoring can use Jev throug
 
 [Full AI;DR guide](aidr.md) · [Source](https://github.com/duyet/aidr)
 
+### Anyhour (open-source AI for your website that answers visitors, catches leads and pings you on WhatsApp, with Jev cleaning crawled page text)
+
+`Open source` · `Free source build` · `BYOK`
+
+Open-source website assistant that answers customers from your pages, files and notes, catches leads (who they are and what they want), pings you on your own WhatsApp or Slack, and shows monthly proof from visitors to chats to leads to won. Jev is used in its website text cleanup: each crawled text block gets a knowledge, action, noise or uncertain decision, and only confident noise is removed; a retrieval script also compares search with and without Jev reranking.
+
+**Jev's role:** Optional classifier that labels crawled text blocks and removes confident noise before indexing.
+
+**Platform:** Self-hosted web app and API with a WhatsApp or Slack channel; a hosted instance may exist (not verified).
+
+**Product:** [github.com/mshahbazm/anyhour.app](https://github.com/mshahbazm/anyhour.app)
+
+**Pricing / access:** Free source build under AGPL-3.0; you supply providers, hosting and database. Any hosted plan or pricing was not verified. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full Anyhour (open-source AI for your website that answers visitors, catches leads and pings you on WhatsApp, with Jev cleaning crawled page text) guide](anyhour.md) · [Source](https://github.com/mshahbazm/anyhour.app)
+
 ### Aperture (ranked reading feed)
 
 `Open source` · `Free`
