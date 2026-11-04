@@ -3788,6 +3788,22 @@ Open-source Android app that rebuilds your notification drawer: each notificatio
 
 [Full NotiSift (Android notification organizer where a decision model such as Jev sorts each notification) guide](notisift.md) · [Source](https://github.com/procoder-net/notisift)
 
+### OpenMob (self-hosted server and Android companion app that lets AI agents use a phone over REST or MCP, with optional Jev for screen and tap checks)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted server with a REST API and an MCP endpoint that lets an AI agent operate a real Android phone, either on its own goal ("open Settings and go to Display") or step by step from your agent. A companion app pairs by QR code, reads the screen through Android Accessibility and checks every action on the phone, refusing banking and password apps. With a TypeSafe key, Jev classifies screen state, rates how risky a tap is and picks the next step; a Faster mode can also send small screenshots.
+
+**Jev's role:** Optional classifier for screen state, tap risk and next step.
+
+**Platform:** Self-hosted server with an Android companion app (Android 11+, ARM64, per the README).
+
+**Product:** [github.com/andkhong/openmob](https://github.com/andkhong/openmob)
+
+**Pricing / access:** Free source build under MIT; you supply model provider keys, optional TypeSafe key and hosting. Checked 2026-11-04. Source inspected; live app not run on the review host.
+
+[Full OpenMob (self-hosted server and Android companion app that lets AI agents use a phone over REST or MCP, with optional Jev for screen and tap checks) guide](openmob.md) · [Source](https://github.com/andkhong/openmob)
+
 ### QuietFlow (Android notification attention manager with opt-in Jev classification)
 
 `Open source` · `Free source build` · `BYOK`
