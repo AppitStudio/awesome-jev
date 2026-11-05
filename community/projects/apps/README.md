@@ -1898,6 +1898,22 @@ Upload a nature photo and Jev ranks which landscape categories are visible, pick
 
 [Full Nature Lens guide](nature-lens.md) · [Source](https://github.com/JonesSteven/jevnatureimage)
 
+### Nebula Nodes (local AI creation canvas with Jev Decide, Pick Best and Box nodes that gate or choose between generated images, video and text)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local node-graph studio for image, video, audio, text, 3D and world generation with your own provider keys. Jev decision nodes put a typed judge between generators: Jev Decide asks one yes/no, pick-one or score question about text or images and works as a pass/fail gate that skips the other branch, Jev Pick Best chooses among up to 10 candidate images, Jev Box (experimental) returns a box, crop and mask, and the video QC nodes have a Jev mode.
+
+**Jev's role:** Typed judge nodes that gate branches, pick the best candidate image and locate objects in images.
+
+**Platform:** Web UI served locally (Python 3.12 + Node.js 24 source build)
+
+**Product:** [github.com/JustinPerea/nebula-nodes](https://github.com/JustinPerea/nebula-nodes)
+
+**Pricing / access:** Free source build (AGPL-3.0); you supply provider and TypeSafe keys and pay for generation and judging. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Nebula Nodes (local AI creation canvas with Jev Decide, Pick Best and Box nodes that gate or choose between generated images, video and text) guide](nebula-nodes.md) · [Source](https://github.com/JustinPerea/nebula-nodes)
+
 ### Neon Chase
 
 `Open source` · `Free source build` · `BYOK`
