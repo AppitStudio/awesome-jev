@@ -3836,6 +3836,22 @@ macOS command bar that drives Chromium, Dia, Arc or Chrome from plain English; T
 
 [Full voice-browser guide](voice-browser.md) · [Source](https://github.com/ken-code-wq/voice-browser)
 
+### YapCut (local talking-head video editor that cuts, titles, zooms, captions and grades a take, with an optional Jev frame check)
+
+`Open source` · `Free source build` · `BYOK`
+
+Mac app and Claude Code plugin that turns a raw talking-head video into cut, titled, zoomed and captioned vertical Reel versions, each graded with a list of failed checks. The edit runs on your Mac with the Claude Code or Codex CLI you already use. An optional TypeSafe frame check sends frames at 2 fps to Jev with yes/no questions and face and problem boxes (text over the face, cut-off text, broken frames), grouped into issues with a fix each.
+
+**Jev's role:** Optional frame check that answers yes/no questions and returns face and problem boxes for each frame of an edited video, so layout issues become fixable checks.
+
+**Platform:** macOS on Apple silicon (local web studio at localhost:4901; Claude Code plugin)
+
+**Product:** [tools.techguyverlabs.org/t/yapcut](https://tools.techguyverlabs.org/t/yapcut)
+
+**Pricing / access:** Free source build (MIT). It uses the Claude Code or Codex plan you already have; the optional TypeSafe frame check is billed to your own key (about $0.042 per million input tokens per the source). Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full YapCut (local talking-head video editor that cuts, titles, zooms, captions and grades a take, with an optional Jev frame check) guide](yapcut.md) · [Source](https://github.com/royherma/yapcut)
+
 ### YapSketch
 
 `Open source` · `Free source build` · `BYOK`
