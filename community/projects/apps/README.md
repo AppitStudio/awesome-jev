@@ -3570,6 +3570,22 @@ Native macOS emoji picker: type `:` and a few letters in any app. Search runs lo
 
 [Full Moji (macOS emoji picker with optional Jev ranking) guide](moji-emoji-picker.md) · [Source](https://github.com/beckyisj/moji)
 
+### Parrot (native macOS meeting recorder with a live AI assistant that can use Jev for instant answers from your own documents)
+
+`Open source` · `Free` · `BYOK`
+
+Native SwiftUI meeting recorder for macOS 14+ that transcribes and detects speakers on-device, suggests answers from your own documents during a call and writes the report afterwards; no bot joins the meeting. With Claude mode and an optional TypeSafe key, Jev ranks up to twelve knowledge-base passages for a fast document answer and judges duplicate coaching cards.
+
+**Jev's role:** Optional fast path that scores which of up to twelve document chunks answers the question being asked, and judges whether two coaching cards flag the same issue.
+
+**Platform:** macOS 14+ (Apple Silicon recommended); releases via GitHub and the website
+
+**Product:** [openparrot.app](https://openparrot.app)
+
+**Pricing / access:** Free per the README (no meeting bot or time limit); the assistant, cloud transcription and Jev path use your own keys or a local model. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Parrot (native macOS meeting recorder with a live AI assistant that can use Jev for instant answers from your own documents) guide](parrot-meeting-assistant.md) · [Source](https://github.com/turantekin/Parrot)
+
 ### PetPaw
 
 `Source available` · `Free` · `BYOK`
