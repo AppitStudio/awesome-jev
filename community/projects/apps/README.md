@@ -2972,6 +2972,22 @@ Electron desktop app for macOS, Windows and Ubuntu where each bot in a chat-styl
 
 [Full OpenMausBot (desktop chat app for a team of AI agent bots, with Jev picking which bot answers) guide](openmausbot.md) · [Source](https://github.com/milind-soni/OpenMausBot)
 
+### Rook (open-source desktop app where named AI agents work as a team in channels and ask your approval first, with an optional Jev approval reviewer)
+
+`Open source` · `Free` · `BYOK`
+
+Open-source desktop app that gives AI agents a job, tools and a conversation each, lets them hand work to each other in channels and squads, and stops for your yes before sensitive actions. Its optional Auto Review can let a decision model answer approval requests: a `jev` provider calls TypeSafe System One directly, or `typesafe/jev-1.14` can be used through an OpenRouter connection, and below a confidence floor (default 0.5) it asks you instead.
+
+**Jev's role:** Optional Auto Review verifier that can pass or escalate agent approval requests using typed Jev decisions with a confidence floor.
+
+**Platform:** macOS, Windows and Linux desktop app (release installer or source build)
+
+**Product:** [rookup.run](https://rookup.run)
+
+**Pricing / access:** The README describes the local desktop edition as free and open source (Apache-2.0) with no account; model and Jev calls are billed by your own providers. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Rook (open-source desktop app where named AI agents work as a team in channels and ask your approval first, with an optional Jev approval reviewer) guide](rook.md) · [Source](https://github.com/corvo-technology/rook)
+
 ### Scene Finder
 
 `Free` · `Source available` · `BYOK`
