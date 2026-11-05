@@ -4320,6 +4320,22 @@ Windows disk-space map that draws your drive as a 3D city: every folder is a dis
 
 [Full SpaceSniffer, Jev edition (3D disk-space map for Windows that asks Jev which folders are safe to clear) guide](space-sniffer-jev.md) · [Source](https://github.com/NoxLoveYa/space-sniffer)
 
+### StudyWhisper (Windows study assistant that listens only when you switch monitoring on and uses Jev to decide which transcribed speech is a real study question)
+
+`Open source` · `Free` · `BYOK`
+
+Windows 10/11 tray app (README in Portuguese) that listens on a pausable microphone or system source, filters silence locally with Silero VAD, transcribes through OpenRouter, and sends only the transcribed text to a Jev classifier. Clear study questions get a short text answer from a model you choose; comments and interjections are ignored, and incomplete speech waits up to 12 seconds. Monitoring always starts off.
+
+**Jev's role:** Text classifier that decides which transcribed speech is a clear study question to answer and which comments to ignore.
+
+**Platform:** Windows 10/11 x64 (per-user installer from GitHub Releases)
+
+**Product:** [github.com/rnahumaf/StudyWhisper](https://github.com/rnahumaf/StudyWhisper)
+
+**Pricing / access:** Free and open source (MIT) with no subscription or included balance; transcription, Jev, answer and search calls are billed to your own OpenRouter key. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full StudyWhisper (Windows study assistant that listens only when you switch monitoring on and uses Jev to decide which transcribed speech is a real study question) guide](studywhisper.md) · [Source](https://github.com/rnahumaf/StudyWhisper)
+
 ## Browser extensions
 
 ### AI, SI, or Whatever
