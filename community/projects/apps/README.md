@@ -3292,6 +3292,22 @@ Menu bar app that lets agents such as Claude Code or Grok Bot read and, if you a
 
 [Full iMessage Bridge (Mac menu bar app that gives AI agents approved access to your iMessages, with Jev screening incoming texts) guide](imessage-bridge.md) · [Source](https://github.com/cmer/imessage-bridge)
 
+### Invoice Assistant (local invoice review app for property managers that extracts invoice details, lets Jev pick the supplier property, and emails the PDF to your accountant after approval)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local, attended Java app for property managers: upload invoice PDFs, extract details with a local Ollama model or OpenRouter, let a bounded decision model choose which of your configured properties the invoice belongs to (with a no-supported-property choice that forces review), then review and send the PDF through a personal Outlook.com account. Automatic approval is off by default and low-confidence decisions always need review. In OpenRouter mode the decision step uses `typesafe/jev-1.13`; the default Ollama mode uses the experimental local `tev1` model instead.
+
+**Jev's role:** Optional bounded decision step that picks the supplier property for an invoice from your configured choices, with a no-match choice and confidence rules that route doubtful invoices to a person.
+
+**Platform:** macOS (first release; built from source with Java 25), local web UI on 127.0.0.1
+
+**Product:** [github.com/MokapotLabs/invoice-assistant](https://github.com/MokapotLabs/invoice-assistant)
+
+**Pricing / access:** Free source build (Apache-2.0); no account or product price. The Jev path needs your own OpenRouter key and is billed by OpenRouter, and all-local mode needs hardware for three Ollama models. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Invoice Assistant (local invoice review app for property managers that extracts invoice details, lets Jev pick the supplier property, and emails the PDF to your accountant after approval) guide](invoice-assistant.md) · [Source](https://github.com/MokapotLabs/invoice-assistant)
+
 ### Jaste
 
 `Source unverified` · `Pricing unverified` · `BYOK`
