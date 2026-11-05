@@ -2742,6 +2742,22 @@ Local desktop app that searches Greenhouse, Lever and Ashby listings through you
 
 [Full CareerSurge (free desktop app that finds job postings and applies for you locally, with Jev only picking among values it already found) guide](careersurge.md) · [Source](https://github.com/Ben19001/applypulse-public)
 
+### Claude Code Trace (desktop, web and terminal viewer for Claude Code session logs with an optional Jev efficiency analysis)
+
+`Open source` · `Free` · `BYOK`
+
+Viewer for the session logs Claude Code keeps in `~/.claude/projects`: readable conversations with expandable tool calls and diffs, live tailing, session picker, and desktop (Tauri), web and terminal front ends. The optional efficiency analysis sends a redacted session summary to Jev after you confirm the exact payload and shows trace-linked findings such as repeated work, thrashing and recovery.
+
+**Jev's role:** Optional efficiency analysis of a Claude Code session: typed Jev decisions over redacted windows of actions that become trace-linked findings.
+
+**Platform:** macOS (Apple Silicon), Linux and Windows desktop app, plus web app and terminal UI
+
+**Product:** [github.com/delexw/claude-code-trace](https://github.com/delexw/claude-code-trace)
+
+**Pricing / access:** Free and open source (MIT) with no account; only the optional efficiency analysis needs your own Jev API key, billed by TypeSafe. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Claude Code Trace (desktop, web and terminal viewer for Claude Code session logs with an optional Jev efficiency analysis) guide](claude-code-trace.md) · [Source](https://github.com/delexw/claude-code-trace)
+
 ### dotpals
 
 `Open source` · `Free` · `BYOK`
@@ -3292,6 +3308,22 @@ Menu bar app that lets agents such as Claude Code or Grok Bot read and, if you a
 
 [Full iMessage Bridge (Mac menu bar app that gives AI agents approved access to your iMessages, with Jev screening incoming texts) guide](imessage-bridge.md) · [Source](https://github.com/cmer/imessage-bridge)
 
+### Invoice Assistant (local invoice review app for property managers that extracts invoice details, lets Jev pick the supplier property, and emails the PDF to your accountant after approval)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local, attended Java app for property managers: upload invoice PDFs, extract details with a local Ollama model or OpenRouter, let a bounded decision model choose which of your configured properties the invoice belongs to (with a no-supported-property choice that forces review), then review and send the PDF through a personal Outlook.com account. Automatic approval is off by default and low-confidence decisions always need review. In OpenRouter mode the decision step uses `typesafe/jev-1.13`; the default Ollama mode uses the experimental local `tev1` model instead.
+
+**Jev's role:** Optional bounded decision step that picks the supplier property for an invoice from your configured choices, with a no-match choice and confidence rules that route doubtful invoices to a person.
+
+**Platform:** macOS (first release; built from source with Java 25), local web UI on 127.0.0.1
+
+**Product:** [github.com/MokapotLabs/invoice-assistant](https://github.com/MokapotLabs/invoice-assistant)
+
+**Pricing / access:** Free source build (Apache-2.0); no account or product price. The Jev path needs your own OpenRouter key and is billed by OpenRouter, and all-local mode needs hardware for three Ollama models. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Invoice Assistant (local invoice review app for property managers that extracts invoice details, lets Jev pick the supplier property, and emails the PDF to your accountant after approval) guide](invoice-assistant.md) · [Source](https://github.com/MokapotLabs/invoice-assistant)
+
 ### Jaste
 
 `Source unverified` · `Pricing unverified` · `BYOK`
@@ -3537,6 +3569,22 @@ Native macOS emoji picker: type `:` and a few letters in any app. Search runs lo
 **Pricing / access:** Open source (MIT); free source build. Jev ranking uses your own TypeSafe key (the README estimates about $0.0001 per lookup). Checked 2026-10-24. Source inspected; live app not run on the review host.
 
 [Full Moji (macOS emoji picker with optional Jev ranking) guide](moji-emoji-picker.md) · [Source](https://github.com/beckyisj/moji)
+
+### Parrot (native macOS meeting recorder with a live AI assistant that can use Jev for instant answers from your own documents)
+
+`Open source` · `Free` · `BYOK`
+
+Native SwiftUI meeting recorder for macOS 14+ that transcribes and detects speakers on-device, suggests answers from your own documents during a call and writes the report afterwards; no bot joins the meeting. With Claude mode and an optional TypeSafe key, Jev ranks up to twelve knowledge-base passages for a fast document answer and judges duplicate coaching cards.
+
+**Jev's role:** Optional fast path that scores which of up to twelve document chunks answers the question being asked, and judges whether two coaching cards flag the same issue.
+
+**Platform:** macOS 14+ (Apple Silicon recommended); releases via GitHub and the website
+
+**Product:** [openparrot.app](https://openparrot.app)
+
+**Pricing / access:** Free per the README (no meeting bot or time limit); the assistant, cloud transcription and Jev path use your own keys or a local model. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Parrot (native macOS meeting recorder with a live AI assistant that can use Jev for instant answers from your own documents) guide](parrot-meeting-assistant.md) · [Source](https://github.com/turantekin/Parrot)
 
 ### PetPaw
 
@@ -3803,6 +3851,22 @@ macOS command bar that drives Chromium, Dia, Arc or Chrome from plain English; T
 **Access:** Source inspected at a pinned commit; not run on the review host.
 
 [Full voice-browser guide](voice-browser.md) · [Source](https://github.com/ken-code-wq/voice-browser)
+
+### YapCut (local talking-head video editor that cuts, titles, zooms, captions and grades a take, with an optional Jev frame check)
+
+`Open source` · `Free source build` · `BYOK`
+
+Mac app and Claude Code plugin that turns a raw talking-head video into cut, titled, zoomed and captioned vertical Reel versions, each graded with a list of failed checks. The edit runs on your Mac with the Claude Code or Codex CLI you already use. An optional TypeSafe frame check sends frames at 2 fps to Jev with yes/no questions and face and problem boxes (text over the face, cut-off text, broken frames), grouped into issues with a fix each.
+
+**Jev's role:** Optional frame check that answers yes/no questions and returns face and problem boxes for each frame of an edited video, so layout issues become fixable checks.
+
+**Platform:** macOS on Apple silicon (local web studio at localhost:4901; Claude Code plugin)
+
+**Product:** [tools.techguyverlabs.org/t/yapcut](https://tools.techguyverlabs.org/t/yapcut)
+
+**Pricing / access:** Free source build (MIT). It uses the Claude Code or Codex plan you already have; the optional TypeSafe frame check is billed to your own key (about $0.042 per million input tokens per the source). Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full YapCut (local talking-head video editor that cuts, titles, zooms, captions and grades a take, with an optional Jev frame check) guide](yapcut.md) · [Source](https://github.com/royherma/yapcut)
 
 ### YapSketch
 
@@ -4287,6 +4351,22 @@ Windows disk-space map that draws your drive as a 3D city: every folder is a dis
 **Pricing / access:** Free and open source; uses OpenCode's limited-time free Jev tier when available, otherwise your own OpenCode or TypeSafe key. Checked 2026-10-30. Source inspected; live app not run on the review host.
 
 [Full SpaceSniffer, Jev edition (3D disk-space map for Windows that asks Jev which folders are safe to clear) guide](space-sniffer-jev.md) · [Source](https://github.com/NoxLoveYa/space-sniffer)
+
+### StudyWhisper (Windows study assistant that listens only when you switch monitoring on and uses Jev to decide which transcribed speech is a real study question)
+
+`Open source` · `Free` · `BYOK`
+
+Windows 10/11 tray app (README in Portuguese) that listens on a pausable microphone or system source, filters silence locally with Silero VAD, transcribes through OpenRouter, and sends only the transcribed text to a Jev classifier. Clear study questions get a short text answer from a model you choose; comments and interjections are ignored, and incomplete speech waits up to 12 seconds. Monitoring always starts off.
+
+**Jev's role:** Text classifier that decides which transcribed speech is a clear study question to answer and which comments to ignore.
+
+**Platform:** Windows 10/11 x64 (per-user installer from GitHub Releases)
+
+**Product:** [github.com/rnahumaf/StudyWhisper](https://github.com/rnahumaf/StudyWhisper)
+
+**Pricing / access:** Free and open source (MIT) with no subscription or included balance; transcription, Jev, answer and search calls are billed to your own OpenRouter key. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full StudyWhisper (Windows study assistant that listens only when you switch monitoring on and uses Jev to decide which transcribed speech is a real study question) guide](studywhisper.md) · [Source](https://github.com/rnahumaf/StudyWhisper)
 
 ## Browser extensions
 
