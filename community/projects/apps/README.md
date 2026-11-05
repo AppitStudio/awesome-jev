@@ -2742,6 +2742,22 @@ Local desktop app that searches Greenhouse, Lever and Ashby listings through you
 
 [Full CareerSurge (free desktop app that finds job postings and applies for you locally, with Jev only picking among values it already found) guide](careersurge.md) · [Source](https://github.com/Ben19001/applypulse-public)
 
+### Claude Code Trace (desktop, web and terminal viewer for Claude Code session logs with an optional Jev efficiency analysis)
+
+`Open source` · `Free` · `BYOK`
+
+Viewer for the session logs Claude Code keeps in `~/.claude/projects`: readable conversations with expandable tool calls and diffs, live tailing, session picker, and desktop (Tauri), web and terminal front ends. The optional efficiency analysis sends a redacted session summary to Jev after you confirm the exact payload and shows trace-linked findings such as repeated work, thrashing and recovery.
+
+**Jev's role:** Optional efficiency analysis of a Claude Code session: typed Jev decisions over redacted windows of actions that become trace-linked findings.
+
+**Platform:** macOS (Apple Silicon), Linux and Windows desktop app, plus web app and terminal UI
+
+**Product:** [github.com/delexw/claude-code-trace](https://github.com/delexw/claude-code-trace)
+
+**Pricing / access:** Free and open source (MIT) with no account; only the optional efficiency analysis needs your own Jev API key, billed by TypeSafe. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full Claude Code Trace (desktop, web and terminal viewer for Claude Code session logs with an optional Jev efficiency analysis) guide](claude-code-trace.md) · [Source](https://github.com/delexw/claude-code-trace)
+
 ### dotpals
 
 `Open source` · `Free` · `BYOK`
