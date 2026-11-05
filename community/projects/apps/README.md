@@ -5568,6 +5568,22 @@ Command-line tool that judges a side-project idea: it searches GitHub and Hacker
 
 [Full buildornot (BUILD, MAYBE or DON'T BUILD verdicts on side-project ideas, judged by Jev) guide](buildornot.md) · [Source](https://github.com/blakestone-x/buildornot)
 
+### Buzzard (AUR helper that reviews every package with rules, Jev and a sandbox before install)
+
+`Open source` · `Free source build` · `BYOK`
+
+Arch Linux AUR helper written in Rust that reads each PKGBUILD, runs local rules, asks Jev about credential exfiltration and download-and-run risks, optionally asks a local LLM for an advisory review, and only then builds in a sandbox after you confirm.
+
+**Jev's role:** Optional but primary risk scorer: Jev estimates maliciousness and specific risk flags on each PKGBUILD before install.
+
+**Platform:** Arch Linux CLI; install from source or releases.
+
+**Product:** [github.com/kanyefue/buzzard](https://github.com/kanyefue/buzzard)
+
+**Pricing / access:** Free source build; you supply TypeSafe (and optional local LLM) keys. Checked 2026-11-06. Source inspected; live app not run on the review host.
+
+[Full Buzzard (AUR helper that reviews every package with rules, Jev and a sandbox before install) guide](buzzard.md) · [Source](https://github.com/kanyefue/buzzard)
+
 ### Clasificador de noticias regionales con Jev
 
 `Open source` · `Free source build` · `BYOK`
