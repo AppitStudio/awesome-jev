@@ -4832,6 +4832,22 @@ Chrome extension (README in Korean and English) that collapses, blurs, dims or h
 
 [Full NotForMe (Chrome extension that folds PR, product-launch and off-topic articles in Korean news lists using Jev) guide](notforme.md) · [Source](https://github.com/x-mesh/notforme)
 
+### OpenSidekick (MIT Chrome side-panel browser agent with optional beta Jev smart checks as a second opinion on risky actions)
+
+`Open source` · `Free source build` · `BYOK`
+
+Open-source Chrome side-panel agent that reads the page and clicks, types, navigates and works across tabs with any model you choose (OpenRouter, OpenAI, Claude, Gemini, Groq, local). Optional beta Smart checks use TypeSafe's Jev for yes/no safety verdicts and are off until you switch them on; Jev is used for those checks only, not as the chat model.
+
+**Jev's role:** Optional Smart checks: typed yes/no safety verdicts before or after agent actions.
+
+**Platform:** Chrome side-panel extension (source build / unpacked)
+
+**Product:** [github.com/esterhuizen/opensidekick](https://github.com/esterhuizen/opensidekick)
+
+**Pricing / access:** Free per the README (MIT, no account or telemetry); provider keys and usage are your own cost. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full OpenSidekick (MIT Chrome side-panel browser agent with optional beta Jev smart checks as a second opinion on risky actions) guide](opensidekick.md) · [Source](https://github.com/esterhuizen/opensidekick)
+
 ### OwnYourTimeline (Chrome and Edge extension that filters your X Home feed with a plain-language rule, classified by Jev)
 
 `Open source` · `Free source build`
