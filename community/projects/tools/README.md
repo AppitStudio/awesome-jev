@@ -196,6 +196,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
 | [@contexera DSH jev plugin](contexera-dsh-jev.md) | DeepSeek Harness plugin monorepo whose `jev` package adds a TypeSafe Jev service for typed decisions alongside channel-gateway and context-continuity plugins. | DSH plugins (TypeScript, pnpm monorepo) (MIT (package `packages/jev`; no root LICENSE)) |
+| [a0-plugin-jev-compact (Agent Zero plugin that span-scores context with Jev, tombs stale spans and restores them via MCP)](a0-plugin-jev-compact.md) | Agent Zero plugin that compacting conversation context by scoring spans with Jev (or OpenRouter Decisions / an offline heuristic), keeping high-value spans, tombstoning the rest, and restoring any tombstone verbatim through a bundled MCP server. Off by default. | Agent Zero Python plugin (MIT; vendors stdlib-only jev-compact) (MIT) |
 | [Abide](abide.md) | Enforce project instruction rules on agent edits/turns with TypeSafe Jev per-rule probabilities (Claude Code/Codex/OpenCode/Pi). | TypeScript · agent hooks/CLI (`@coldtea/abide`, MIT) |
 | [ACP Bridge](acp-bridge.md) | Bridge that exposes local coding agents over the Agent Client Protocol, with a virtual `auto` agent where TypeSafe Jev picks the best-fit agent per task with a confidence gate. | Python service (Apache-2.0) |
 | [adecider](adecider.md) | CLI/MCP/HTTP/pi surfaces for multi-question System One judgments (local Laya default; optional Jev). | TypeScript · CLI + MCP + HTTP + pi (MIT) |
