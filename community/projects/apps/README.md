@@ -1352,6 +1352,22 @@ Self-hosted local web UI that filters Gmail with plain-English topics using [jev
 
 [Full jev-gmail-filter guide](jev-gmail-filter.md) · [Source](https://github.com/damiensmith1/jev-gmail-filter)
 
+### jev-insight-app (Japanese web app for exhibition booths that judges each spoken remark with Jev to keep only the visitor's real problems)
+
+`Open source` · `Free source build` · `BYOK`
+
+Phone-based web app for trade-show booth staff: record a conversation, transcribe it, and have Jev score every utterance for relevance, problem severity (1–5) and concreteness so only problem statements are kept as cards. Jev also picks the next question to ask (scale, budget, timing, decision-maker), and a local LLM writes the visitor's summary. UI and README are in Japanese.
+
+**Jev's role:** Judges each transcribed remark for relevance, severity and concreteness and picks the next question to ask.
+
+**Platform:** Web app you host yourself (source build); used from a phone browser
+
+**Product:** [github.com/Takashi-Matsumura/jev-insight-app](https://github.com/Takashi-Matsumura/jev-insight-app)
+
+**Pricing / access:** Free source build (MIT); you supply your own TypeSafe key and run the local speech and LLM servers. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full jev-insight-app (Japanese web app for exhibition booths that judges each spoken remark with Jev to keep only the visitor's real problems) guide](jev-insight-app.md) · [Source](https://github.com/Takashi-Matsumura/jev-insight-app)
+
 ### jev-leads
 
 `Open source` · `Free source build` · `BYOK`
