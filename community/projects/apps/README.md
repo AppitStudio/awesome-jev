@@ -5500,6 +5500,22 @@ Chrome and Safari extension that detects in-video spoken sponsorships on Russian
 
 ## Command-line apps
 
+### Agent AFK (local coding agent you can walk away from, with optional Jev as the what-if verification judge)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local coding-agent harness (`afk`) that builds a feature, verifies its own work and texts you when done. Optional Jev integration: configure Jev as an MCP judge so `afk whatif --judge auto` grades verification episodes with calibrated probabilities instead of the same-family model.
+
+**Jev's role:** Optional external judge for what-if verification episodes (`--judge auto` prefers Jev when configured; falls back to Claude).
+
+**Platform:** CLI on macOS/Linux/Windows (Node). Product site agentafk.com.
+
+**Product:** [agentafk.com](https://agentafk.com)
+
+**Pricing / access:** Free source build / npm package; bring your own model and optional TypeSafe keys. Checked 2026-11-06. Source inspected; live app not run on the review host.
+
+[Full Agent AFK (local coding agent you can walk away from, with optional Jev as the what-if verification judge) guide](agent-afk.md) · [Source](https://github.com/griffinwork40/agent-afk)
+
 ### Albatross
 
 `Open source` · `Free source build` · `BYOK`
