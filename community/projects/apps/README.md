@@ -2988,6 +2988,22 @@ Electron desktop app for macOS, Windows and Ubuntu where each bot in a chat-styl
 
 [Full OpenMausBot (desktop chat app for a team of AI agent bots, with Jev picking which bot answers) guide](openmausbot.md) · [Source](https://github.com/milind-soni/OpenMausBot)
 
+### PandaCode (native desktop workspace for many coding-agent CLIs with an optional, off-by-default Jev add-on for work review, project rules, context search and worker choice)
+
+`Source available` · `Free` · `BYOK`
+
+Tauri desktop workspace that runs Claude Code, Codex, OpenCode, Pi and many other coding CLIs side by side with projects, Git, a terminal and a browser. The optional Jev add-on (off by default) adds advisory work review, project-rule checks on saved diffs, context excerpts and worker suggestions, plus browser testing; everything works without it.
+
+**Jev's role:** Optional advisory checks (work review, project rules, context search, worker choice) from typed Jev decisions over local evidence.
+
+**Platform:** macOS, Windows and Linux desktop app (release installers or source build)
+
+**Product:** [github.com/aicodeking/pandacode](https://github.com/aicodeking/pandacode)
+
+**Pricing / access:** Free per the README (no account, license key or telemetry); the license is MIT plus a requirement that public or commercial forks say they are forks of PandaCode, so it is tagged source available. Jev calls are billed on your key. Checked 2026-11-05. Source inspected; live app not run on the review host.
+
+[Full PandaCode (native desktop workspace for many coding-agent CLIs with an optional, off-by-default Jev add-on for work review, project rules, context search and worker choice) guide](pandacode.md) · [Source](https://github.com/aicodeking/pandacode)
+
 ### Rook (open-source desktop app where named AI agents work as a team in channels and ask your approval first, with an optional Jev approval reviewer)
 
 `Open source` · `Free` · `BYOK`
