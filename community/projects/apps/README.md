@@ -6010,6 +6010,22 @@ Discord moderation bot powered by TypeSafe Jev rules: hosted dashboard or self-h
 
 [Full Jev-Mod (undeemed) guide](undeemed-jev-mod.md) · [Source](https://github.com/undeemed/jev-mod) · [Product page](https://jevmod.us)
 
+### NiceNovember (Discord bot that uses Jev to judge hostile chat and voice)
+
+`Open source` · `Free source build` · `BYOK`
+
+Discord bot that listens in voice and text, asks TypeSafe Jev whether speech or messages are hostile toward a person (not just swear words), and applies short server-mute timeouts with an announce-channel quote and audit log.
+
+**Jev's role:** Judges whether chat, edits, reactions and transcribed speech are hostile toward a person via typed questions to TypeSafe Jev (`jev-latest` at api.typesafe.ai/v1/systemone).
+
+**Platform:** Self-hosted Discord bot (Rust).
+
+**Product:** [github.com/SAUCE-2/NiceNovember](https://github.com/SAUCE-2/NiceNovember)
+
+**Pricing / access:** Free source build; Discord and TypeSafe usage on your keys. Checked 2026-11-06. Source inspected; live app not run on the review host.
+
+[Full NiceNovember (Discord bot that uses Jev to judge hostile chat and voice) guide](nicenovember.md) · [Source](https://github.com/SAUCE-2/NiceNovember)
+
 ### Soter
 
 `Open source` · `Free source build` · `BYOK`
