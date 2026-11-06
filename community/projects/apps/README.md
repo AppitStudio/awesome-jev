@@ -4844,6 +4844,22 @@ Chrome MV3 extension that classifies Gmail rows with TypeSafe Jev (Choice/Score/
 
 [Full jev-email-classifier guide](jev-email-classifier.md) · [Source](https://github.com/AkashNaickar/jev-email-classifier)
 
+### jev-tabs (Chrome extension that groups and suggests closing tabs with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that asks TypeSafe Jev (or OpenRouter/Workers AI decision endpoints) to place each tab into a colored group from its title and URL, and to suggest which tabs are safe to close.
+
+**Jev's role:** Classifies tabs into user-defined groups and close-suggestions via typed System One questions to TypeSafe Jev (`jev-latest` at api.typesafe.ai/v1/systemone) or compatible OpenRouter/Workers AI endpoints.
+
+**Platform:** Chromium browser extension (Manifest V3).
+
+**Product:** [github.com/fatalbazuka/jev-tabs](https://github.com/fatalbazuka/jev-tabs)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full jev-tabs (Chrome extension that groups and suggests closing tabs with Jev) guide](jev-tabs.md) · [Source](https://github.com/fatalbazuka/jev-tabs)
+
 ### jev-x-filter
 
 `Open source` · `Free source build` · `BYOK`
