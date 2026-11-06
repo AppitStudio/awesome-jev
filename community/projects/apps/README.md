@@ -3260,6 +3260,22 @@ Local-first personal agent desktop app with memory, tools, workspaces and schedu
 
 [Full Covan (local-first personal agent desktop app with Jev reply decisions) guide](covan.md) · [Source](https://github.com/Lichas/covan)
 
+### Fenlet (Mac window arranger with a CLI and agent skill that can ask Jev how to lay out panes)
+
+`Open source` · `Free source build` · `BYOK`
+
+Native Mac widget, CLI and agent skill that turns open windows into non-overlapping panes. You confirm before anything moves. The agent skill can ask TypeSafe Jev typed layout questions from the current window set.
+
+**Jev's role:** Optional layout judge for the agent skill: Jev answers typed questions about how to arrange panes; the widget/CLI can arrange without Jev.
+
+**Platform:** macOS (widget, CLI, agent skill).
+
+**Product:** [github.com/2018kguo/fenlet](https://github.com/2018kguo/fenlet)
+
+**Pricing / access:** Free source build; TypeSafe key required for Jev-assisted agent layouts. Checked 2026-11-06. Source inspected; live app not run on the review host.
+
+[Full Fenlet (Mac window arranger with a CLI and agent skill that can ask Jev how to lay out panes) guide](fenlet.md) · [Source](https://github.com/2018kguo/fenlet)
+
 ### Hermes Focus (Mac app that keeps you on task in 25-minute blocks, judged by Jev on your own keys)
 
 `Open source` · `Free source build` · `BYOK`
