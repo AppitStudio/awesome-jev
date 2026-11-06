@@ -1398,6 +1398,22 @@ Runnable demo (Chinese docs) in an open-source Minecraft-compatible world: each 
 
 [Full jev-minecraft guide](jev-minecraft.md) · [Source](https://github.com/BHD110/jev-minecraft)
 
+### jev-tldraw-voice (voice-controlled tldraw canvas; Jev reads intent, code edits the canvas)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chinese-first web app where speech is interpreted by TypeSafe Jev (`jev-latest` at api.typesafe.ai/v1/systemone) into typed canvas commands; local code applies them on a tldraw canvas (move/add/edit/connect) without inventing geometry in the model.
+
+**Jev's role:** Interprets utterances into typed live commands via `server/live/interpret.mjs` POSTing to TypeSafe System One; the canvas executor applies validated commands.
+
+**Platform:** Self-hosted web app (browser + local Node server).
+
+**Product:** [github.com/voidning/jev-tldraw-voice](https://github.com/voidning/jev-tldraw-voice)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full jev-tldraw-voice (voice-controlled tldraw canvas; Jev reads intent, code edits the canvas) guide](jev-tldraw-voice.md) · [Source](https://github.com/voidning/jev-tldraw-voice)
+
 ### Jev/ui (jev-genui)
 
 `Source available` · `Free source build` · `BYOK`
