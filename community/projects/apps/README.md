@@ -2694,6 +2694,22 @@ Kotlin desktop app that puts an AI in front of Pokémon HeartGold on a Nintendo 
 
 [Full AI Plays Pokémon (kotlinds) guide](ai-plays-pokemon.md) · [Source](https://github.com/kotlinds/ai-plays-pokemon)
 
+### Alethe (multi-agent coding desktop workspace with TypeSafe Jev voice-intent routing)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local-first desktop app that runs Claude Code, Codex, Copilot and shells side by side. Voice intent routing goes through TypeSafe Jev (`src-tauri/src/jev.rs`) so spoken commands map to typed workspace actions.
+
+**Jev's role:** Voice intent router: Jev classifies spoken intents into workspace actions via the native TypeSafe decisions client.
+
+**Platform:** Desktop (Tauri); local-first multi-agent workspace.
+
+**Product:** [github.com/Vnxcarvalho/Alethe-2.0](https://github.com/Vnxcarvalho/Alethe-2.0)
+
+**Pricing / access:** Free source build (AGPL-3.0); TypeSafe key for Jev voice routing. Checked 2026-11-06. Source inspected; live app not run on the review host.
+
+[Full Alethe (multi-agent coding desktop workspace with TypeSafe Jev voice-intent routing) guide](alethe.md) · [Source](https://github.com/Vnxcarvalho/Alethe-2.0)
+
 ### AlgorithVideo (open-source desktop video clipper with optional Jev clip review)
 
 `Open source` · `Free` · `BYOK`
