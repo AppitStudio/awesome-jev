@@ -3984,6 +3984,22 @@ Minimalist Android launcher (Portuguese docs): text-only home, grayscale screen 
 
 [Full axo-launcher guide](axo-launcher.md) · [Source](https://github.com/axolutions/axo-launcher)
 
+### bianzhu-android (personal Android assistant fork with TypeSafe Jev as a judge provider)
+
+`Open source` · `Free source build` · `BYOK`
+
+Personal-maintained Android assistant based on jev-chat/jev-chat-jarvis: visible-text OCR, WeChat helpers, local contact memory and reply suggestions, with TypeSafe direct connect among several judge providers for decisions users confirm before send.
+
+**Jev's role:** Optional TypeSafe-direct judge provider among OpenRouter / Bocha Jev / Vercel / OpenCode Zen / custom endpoints for reply and relationship suggestions; messages are user-confirmed before send.
+
+**Platform:** Android (personal fork of jev-chat-jarvis).
+
+**Product:** [github.com/xlgbyyds/bianzhu-android](https://github.com/xlgbyyds/bianzhu-android)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full bianzhu-android (personal Android assistant fork with TypeSafe Jev as a judge provider) guide](bianzhu-android.md) · [Source](https://github.com/xlgbyyds/bianzhu-android)
+
 ### DSB (trust-first Android AI assistant with a Jev command gate)
 
 `Open source` · `Free source build`
