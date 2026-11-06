@@ -2154,6 +2154,22 @@ Mine-cart track puzzle: lay and turn track pieces, then write the cart a one-sen
 
 [Full Railroad Route guide](railroad-route.md) · [Source](https://github.com/vinicius-francozo/railroad-route)
 
+### Rajzolj Mircinek (drawing game judged by TypeSafe Jev on Cloudflare Workers AI)
+
+`Open source` · `Free` · `BYOK`
+
+Browser/PWA drawing game where Mirci the cat keeps guessing what you draw; judgments come from TypeSafe's Jev model on Cloudflare Workers AI (`typesafe/jev`).
+
+**Jev's role:** Judges live drawings with typed questions to Workers AI `typesafe/jev` (TypeSafe Jev on Cloudflare).
+
+**Platform:** Browser / installable PWA (Cloudflare Workers).
+
+**Product:** [deszepmacskavagymirci.kornel-dc5.workers.dev](https://deszepmacskavagymirci.kornel-dc5.workers.dev)
+
+**Pricing / access:** Hosted demo is free to play; self-host needs Cloudflare Workers AI. Checked 2026-11-07. Source inspected; live app not run on the review host.
+
+[Full Rajzolj Mircinek (drawing game judged by TypeSafe Jev on Cloudflare Workers AI) guide](rajzolj-mircinek.md) · [Source](https://github.com/Slityak/rajzolj-mircinek)
+
 ### RefGarden
 
 `Open source` · `Free source build` · `BYOK`
