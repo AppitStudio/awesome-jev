@@ -1532,6 +1532,22 @@ Self-hostable read-only Gmail triage where TypeSafe Jev sorts mail into trays yo
 
 [Full Jevmail (hwong103) guide](hwong103-jevmail.md) · [Source](https://github.com/hwong103/jevmail)
 
+### jevman (Pac-Man driven by TypeSafe Jev and other System One models)
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser Pac-Man where ghosts and Pac-Man choose moves with System One decision models; TypeSafe Jev is the default path (typesafe/jev-1.13.0 via api.typesafe.ai) and Opper-served models are also supported, with a live demo and recorded replays.
+
+**Jev's role:** Core: each actor move is a System One Choice; TypeSafe Jev is the default provider path.
+
+**Platform:** Web (hosted demo at jevman.chadda.se; or self-host).
+
+**Product:** [jevman.chadda.se](https://jevman.chadda.se)
+
+**Pricing / access:** Free source build / free hosted demo; you supply TypeSafe or Opper keys for live decisions. Checked 2026-11-07. Source inspected; live app not run on the review host.
+
+[Full jevman (Pac-Man driven by TypeSafe Jev and other System One models) guide](jevman.md) · [Source](https://github.com/joch/jevman)
+
 ### jevmdb
 
 `Open source` · `Free source build` · `BYOK`
