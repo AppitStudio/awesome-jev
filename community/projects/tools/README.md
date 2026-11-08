@@ -204,6 +204,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [Testimonial miner](testimonial-miner.md) | Find and review verbatim praise in email, grouped by product. | Python · CLI and local dashboard |
 | [tg-x-copilot (Telegram to X drafting copilot)](tg-x-copilot.md) | Telegram bot that turns forwarded posts into original X drafts: Jev triages each post with typed value, type and risk questions so confident low-value posts are skipped early, then an LLM rewrites the rest and you approve and post yourself. | Self-hosted Telegram bot (Python) (MIT) |
 | [WhatsApp Inbox (local WhatsApp conversation inbox classified by TypeSafe Jev)](whatsapp-inbox.md) | Lightweight local inbox for managing WhatsApp conversations by status and label, with the main label suggested by TypeSafe Jev via `@typesafe-ai/sdk`; runs on your PC without Docker. | Node.js local app (no SPDX license file on the reviewed commit) (NONE) |
+| [YouTube Shorts automation (trend ranking and faceless Shorts production judged by TypeSafe Jev)](youtube-shorts-automation.md) | Python pipeline that discovers trending Shorts, judges each video with TypeSafe Jev, ranks formats you can copy as a faceless creator, then writes, voices, captions, renders and optionally uploads a new Short. | Python CLI + local console (no SPDX license file on the reviewed commit) (NONE) |
 
 ## Developer tools
 
