@@ -1076,6 +1076,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 | [onesie](frodi-karlsson-onesie.md) | Unix-pipeable System One CLI for TypeSafe Jev (also OpenRouter/Berget): pipe text, ask a typed question, script the… | Go · CLI (MIT) |
 | [ontoken-auto](ontoken-auto.md) | Pi virtual model where Jev picks the OnToken model slot and thinking level per prompt. | TypeScript · Pi package (MIT) |
 | [ontoken-auto-omp](ontoken-auto-omp.md) | Native OMP extension: adaptive OnToken routing with TypeSafe Jev. | TypeScript · OMP extension (MIT) |
+| [Open Intelligent UI (CopilotKit generative UI framework where TypeSafe Jev picks the renderer)](open-intelligent-ui.md) | CopilotKit's open-source generative UI app: before each user turn TypeSafe Jev chooses between A2UI tables and Open Generative UI charts/visuals. | Python agent + React web app (MIT) (MIT) |
 | [Open Jev Bridge](open-jev-bridge.md) | Zero-dep Node MCP + Claude/Codex hooks bridging hosted Jev or local Kev/Laya System One (compaction + completion gates). | Node.js · CLI/MCP (`open-jev-bridge` 0.3.0, MIT) |
 | [Open Memory (pi)](open-memory-pi.md) | Local memory for Pi with token budget; optional Jev `noul` judge scores what to keep. | TypeScript · Pi package / MCP (MIT) |
 | [open-source-finder](open-source-finder.md) | Rank GitHub open issues for good-first-issue fit with TypeSafe Jev (size/clarity/knowledge/claimed). | Python · CLI/tooling (MIT) |
