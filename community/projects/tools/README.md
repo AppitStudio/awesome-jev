@@ -1991,6 +1991,7 @@ These projects study related typed-decision patterns using other models. They ar
 | [jev-mcp-server](jev-mcp-server.md) | MCP for official TypeSafe Jev choice/score/noul plus compare/verify/batch classify and client installer. | Python · PyPI MCP (`jev-mcp-server` 0.2.3) |
 | [jev-netlify-mcp](jev-netlify-mcp.md) | Private Jev access for MCP clients through a key-locked Netlify AI Gateway proxy (or directly with a TypeSafe key). | Python MCP server + Netlify function (MIT) |
 | [jev-php (f-lombardo)](f-lombardo-jev-php.md) | Call TypeSafe Jev System One APIs from PHP applications. | PHP · library (LGPL-2.1) |
+| [jev-php (minimal PHP client for TypeSafe Jev with Laravel integration)](jev-php.md) | Minimal PHP client that sends state and typed questions to Jev and returns answers and actionable failures, with Laravel integration; transport today is Cloudflare Workers AI. | PHP Composer package (MIT) (MIT) |
 | [jev-prompt-sentry](jev-prompt-sentry.md) | Reverse-proxy Anthropic Messages through one batched TypeSafe Jev jailbreak/injection/exfil screen (PolyForm Noncommercial). | Python · FastAPI proxy |
 | [jev-py-sdk](jev-py-sdk.md) | Python SDK/CLI for typed Jev judgments with client-side masking. | Python · SDK + CLI (MIT) |
 | [jev-recipes](jev-recipes.md) | 66 TypeScript recipes for TypeSafe Jev decisions (rerank/verify/clarify/route/…) via `@typesafe-ai/sdk`. | TypeScript · npm (`jev-recipes` 0.2.0) |
