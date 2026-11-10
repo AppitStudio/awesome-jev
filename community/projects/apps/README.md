@@ -4496,6 +4496,22 @@ Windows 10/11 tray app (README in Portuguese) that listens on a pausable microph
 
 [Full StudyWhisper (Windows study assistant that listens only when you switch monitoring on and uses Jev to decide which transcribed speech is a real study question) guide](studywhisper.md) · [Source](https://github.com/rnahumaf/StudyWhisper)
 
+### wechat-triage-hud (WeChat PC overlay where Jev decides who in a chat needs you)
+
+`Open source` · `Free source build` · `BYOK`
+
+Windows overlay for PC WeChat that reads the open chat with local offline OCR, groups messages by speaker and asks Jev who actually needs you (alert, todo or silent), with separate ad, scam, flame and policy risk scores. It never sends or drafts replies.
+
+**Jev's role:** Jev judges, per speaker, whether a chat turn needs you and scores ad, scam, flame and policy risks.
+
+**Platform:** Windows 10/11 with PC WeChat (source build or self-packaged exe)
+
+**Product:** [github.com/ops120/wechat-triage-hud](https://github.com/ops120/wechat-triage-hud)
+
+**Pricing / access:** Free Apache-2.0 source; you supply your own TypeSafe key and pay its usage. Checked 2026-11-10. Source inspected; live app not run on the review host.
+
+[Full wechat-triage-hud (WeChat PC overlay where Jev decides who in a chat needs you) guide](wechat-triage-hud.md) · [Source](https://github.com/ops120/wechat-triage-hud)
+
 ## Browser extensions
 
 ### AI, SI, or Whatever
