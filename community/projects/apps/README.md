@@ -1988,6 +1988,22 @@ Track how AI answers describe and position your brand. Jev judges brand sentimen
 
 [Full Notra guide](notra.md) · [Source](https://github.com/usenotra/notra)
 
+### OnBrief (check text against your own nested rules with Jev)
+
+`Source available` · `Free source build` · `BYOK`
+
+Next.js web app where you paste text, pick a rule set you wrote, and Jev judges each rule and sub-rule with a tick or cross; users bring their own TypeSafe key.
+
+**Jev's role:** Jev judges whether the text meets each user-written rule and sub-rule.
+
+**Platform:** Web (self-hosted Next.js + Supabase; source build)
+
+**Product:** [github.com/samaksh-bajaj/on-brief](https://github.com/samaksh-bajaj/on-brief)
+
+**Pricing / access:** Free source; no license file on the reviewed commit. Users supply their own TypeSafe key; Supabase and hosting costs are yours. Checked 2026-11-10. Source inspected; live app not run on the review host.
+
+[Full OnBrief (check text against your own nested rules with Jev) guide](onbrief-rule-checker.md) · [Source](https://github.com/samaksh-bajaj/on-brief)
+
 ### open-annie
 
 `Open source` · `Free source build` · `BYOK`
