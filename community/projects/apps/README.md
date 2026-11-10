@@ -2912,6 +2912,22 @@ Local study and time-use tracker for Hyprland: it samples the focused window eve
 
 [Full focuslog (study-time tracker for Hyprland and Omarchy that can ask Jev whether a window supports your goal) guide](focuslog.md) · [Source](https://github.com/piyush97/focuslog)
 
+### Frontier (desktop coding-agent harness that routes each turn with a Jev classifier)
+
+`Source available` · `Free source build` · `BYOK`
+
+Desktop workspace where one conversation about a project folder can be answered by Claude Code, Codex, Gemini or OpenCode; Adaptive mode uses TypeSafe as the classifier that picks the cheapest capable agent per message.
+
+**Jev's role:** Jev classifies each message's needs so Adaptive mode can route it to the cheapest capable agent.
+
+**Platform:** Windows and Linux (GitHub release builds: setup.exe, AppImage, .deb; v0.27.78 at review) or source build
+
+**Product:** [github.com/SecondStageTurbine/FrontierHarness](https://github.com/SecondStageTurbine/FrontierHarness)
+
+**Pricing / access:** Free download/source; no license file on the reviewed commit. Agent subscriptions and TypeSafe usage are separate. Checked 2026-11-10. Source inspected; live app not run on the review host.
+
+[Full Frontier (desktop coding-agent harness that routes each turn with a Jev classifier) guide](frontier-harness-adaptive.md) · [Source](https://github.com/SecondStageTurbine/FrontierHarness)
+
 ### GenOffice (open-source AI office suite whose file search can be reranked by Jev)
 
 `Open source` · `Free` · `BYOK`
