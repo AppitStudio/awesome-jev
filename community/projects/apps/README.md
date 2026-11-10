@@ -6170,6 +6170,22 @@ Self-hosted Telegram anti-spam bot and Go library (maintained since 2023); its o
 
 [Full TG-Spam guide](tg-spam.md) · [Source](https://github.com/umputun/tg-spam)
 
+### Veritheo (Spanish theology Telegram bot with Jev guards and routing)
+
+`Source available` · `Free source build` · `BYOK`
+
+Spanish-language Telegram bot that answers theology questions, verifies claims and argues the opposing view, using Jev for reply routing, spam and prompt-injection guards and other typed checks.
+
+**Jev's role:** Jev routes replies and runs typed guard checks (spam, prompt injection, claim verification) before the chat model answers.
+
+**Platform:** Telegram (self-hosted bot; source build)
+
+**Product:** [github.com/alambertt/veritheo](https://github.com/alambertt/veritheo)
+
+**Pricing / access:** Free source; no license file on the reviewed commit. You host the bot and pay for Telegram-side hosting and model/TypeSafe usage. Checked 2026-11-10. Source inspected; live app not run on the review host.
+
+[Full Veritheo (Spanish theology Telegram bot with Jev guards and routing) guide](veritheo-telegram-bot.md) · [Source](https://github.com/alambertt/veritheo)
+
 ## Before you get started
 
 Each guide records supported platforms, setup, accounts and keys, data recipients, costs, limitations, and the version reviewed. Follow its launch or build path. Source availability does not imply a downloadable release or free inference, and an app listing does not certify production readiness.
