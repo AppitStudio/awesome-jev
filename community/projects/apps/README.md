@@ -6250,6 +6250,22 @@ Self-hosted Telegram anti-spam bot and Go library (maintained since 2023); its o
 
 [Full TG-Spam guide](tg-spam.md) · [Source](https://github.com/umputun/tg-spam)
 
+### Tradingbot (French Telegram trading assistant with Jev as a second judge)
+
+`Open source` · `Free source build` · `BYOK`
+
+French-language Telegram bot for Bourse Direct with daily AI briefings, stop-loss/take-profit alerts and a buy gate where Jev gives a typed counter-opinion on each buy thesis and sorts news.
+
+**Jev's role:** Jev gives a typed counter-opinion on each buy thesis and classifies news sentiment for alerts.
+
+**Platform:** Telegram (self-hosted bot; source build)
+
+**Product:** [github.com/myopencomm/Tradingbot](https://github.com/myopencomm/Tradingbot)
+
+**Pricing / access:** Free source build (MIT); you host the bot and pay any model/TypeSafe usage and broker costs. Checked 2026-11-11. Source inspected; live app not run on the review host.
+
+[Full Tradingbot (French Telegram trading assistant with Jev as a second judge) guide](tradingbot-jev-second-judge.md) · [Source](https://github.com/myopencomm/Tradingbot)
+
 ### Veritheo (Spanish theology Telegram bot with Jev guards and routing)
 
 `Source available` · `Free source build` · `BYOK`
