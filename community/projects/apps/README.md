@@ -3250,6 +3250,22 @@ Text-to-motion app for VRM avatars: type a line such as "jump for joy" and it ge
 
 [Full Text-To-VRMA guide](text-to-vrma.md) · [Source](https://github.com/Kirakun0328/text-to-vrma)
 
+### UE Box (Unreal Editor agent with a Jev judge role)
+
+`Open source` · `Free` · `BYOK`
+
+Open-source AI agent that operates the Unreal Editor (levels, blueprints, materials, C++), with a structured judge provider for TypeSafe Jev that drives goal-mode autoplay steps and visual checks.
+
+**Jev's role:** Jev is the judge model for autoplay goal steps and screenshot visual checks.
+
+**Platform:** Windows desktop app; macOS and Linux from source
+
+**Product:** [uebox.ai/en](https://uebox.ai/en)
+
+**Pricing / access:** Free download (Apache-2.0); bring your own model and TypeSafe keys. Hosted pricing not checked. Checked 2026-11-11. Source inspected; live app not run on the review host.
+
+[Full UE Box (Unreal Editor agent with a Jev judge role) guide](uebox-jev-judge.md) · [Source](https://github.com/ueboxai/uebox)
+
 ### Warren Duffer
 
 `Open source` · `Free source build` · `BYOK`
