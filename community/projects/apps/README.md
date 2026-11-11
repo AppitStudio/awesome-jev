@@ -2030,6 +2030,22 @@ Voice-driven 3D character in the browser: GPT-Live-1 talks with you over WebRTC 
 
 [Full open-annie guide](open-annie.md) · [Source](https://github.com/rehan-remade/open-annie)
 
+### Openmind (self-hosted commonplace book with Jev-assisted organisation)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted place to save links, quotes, images and notes and find them again by a fragment; optional AI-assisted organisation uses Jev for capture tags, Lens re-ranking and daily Drift scoring.
+
+**Jev's role:** Jev suggests capture tags, re-ranks Lens results and scores daily Drift items.
+
+**Platform:** Web (self-hosted)
+
+**Product:** [github.com/Rohithgilla12/open-mind](https://github.com/Rohithgilla12/open-mind)
+
+**Pricing / access:** Free source build (AGPL-3.0); you host it and pay any TypeSafe usage. Checked 2026-11-11. Source inspected; live app not run on the review host.
+
+[Full Openmind (self-hosted commonplace book with Jev-assisted organisation) guide](openmind-jev.md) · [Source](https://github.com/Rohithgilla12/open-mind)
+
 ### Orbs
 
 `Open source` · `Free source build` · `BYOK`
