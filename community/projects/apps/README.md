@@ -3388,6 +3388,22 @@ Menu bar app and native MCP server that let an AI operate the whole Mac, not jus
 
 [Full Computer Use (lite) by ajokhai (Mac computer use for any AI, with an optional Jev mode) guide](computer-use-lite.md) · [Source](https://github.com/ajokhai/computer-use-lite)
 
+### Copper (small WebKit browser for macOS with a Jev-first agent command)
+
+`Open source` · `Free` · `BYOK`
+
+Small, quiet WebKit browser for the Mac built on Search by Office Commun; its `copper` CLI and `/jev <goal>` command let Jev pick each action from a numbered list of what is on the page in the signed-in browser.
+
+**Jev's role:** Jev picks each browser action from a numbered list of page controls for `copper run` and `/jev` goals.
+
+**Platform:** macOS 14 or later (Apple Silicon or Intel)
+
+**Product:** [copper-browser.github.io/Copper/](https://copper-browser.github.io/Copper/)
+
+**Pricing / access:** Free download (MIT); Jev runs use your own TypeSafe key. Checked 2026-11-11. Source inspected; live app not run on the review host.
+
+[Full Copper (small WebKit browser for macOS with a Jev-first agent command) guide](copper-browser-jev.md) · [Source](https://github.com/copper-browser/Copper)
+
 ### Covan (local-first personal agent desktop app with Jev reply decisions)
 
 `Open source` · `Free source build` · `BYOK`
