@@ -3086,6 +3086,22 @@ Screenshot hotkey that blacks out secrets and personal information (API keys, to
 
 [Full JEVsnap guide](jevsnap.md) · [Source](https://github.com/brainstormity/jevsnap)
 
+### Juggler (coding-agent workbench with Jev as its decision model)
+
+`Open source` · `Free` · `BYOK`
+
+Visual workbench for AI coding agents, with tree-shaped sessions and inspectable model calls; you can pick Jev as the decision model that answers yes/no, choice and score questions such as Auto-approve's review of a parked tool call.
+
+**Jev's role:** Optional decision model for yes/no, choice and score checks such as auto-approve reviews of tool calls.
+
+**Platform:** macOS, Windows and Linux desktop app; server mode opens in a browser
+
+**Product:** [juggler.studio](https://juggler.studio)
+
+**Pricing / access:** Free download (AGPL-3.0); bring your own provider subscriptions or keys and a TypeSafe key for Jev. Checked 2026-11-11. Source inspected; live app not run on the review host.
+
+[Full Juggler (coding-agent workbench with Jev as its decision model) guide](juggler-jev-decisions.md) · [Source](https://github.com/juggler-ai/juggler)
+
 ### Laser (Omarchy focus mode)
 
 `Open source` · `Free` · `BYOK`
