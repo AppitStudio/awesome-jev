@@ -2146,6 +2146,22 @@ Self-hosted receipt review for Grocy: upload a grocery receipt PDF, OpenAI extra
 
 [Full Penny (grocery receipt review for Grocy, with Jev suggesting storage and groups) guide](penny-grocy.md) · [Source](https://github.com/YuryFilipovich/Penny)
 
+### Phone menu (voice IVR where Jev picks the stored reply line)
+
+`Source available` · `Free source build` · `BYOK`
+
+Next.js builder for phone menus run as a Vapi assistant: Deepgram listens, Jev picks the stored line for the current menu, and the agent speaks it instead of inventing a reply.
+
+**Jev's role:** Jev chooses which stored menu line or submenu matches what the caller said.
+
+**Platform:** Web (self-hosted Next.js; Vapi phone calls)
+
+**Product:** [github.com/nayeemrahman13/voice-ivr](https://github.com/nayeemrahman13/voice-ivr)
+
+**Pricing / access:** Free source build; no license file on the reviewed commit. You pay TypeSafe, Deepgram and Vapi usage. Checked 2026-11-11. Source inspected; live app not run on the review host.
+
+[Full Phone menu (voice IVR where Jev picks the stored reply line) guide](voice-ivr-jev.md) · [Source](https://github.com/nayeemrahman13/voice-ivr)
+
 ### Photo Ferret
 
 `Open source` · `Free`
