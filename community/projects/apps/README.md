@@ -1788,6 +1788,22 @@ Magic 8 Ball in the browser that doesn't pick at random: hold it, shake it, let 
 
 [Full Magic Jev Ball guide](magic-jev-ball.md) · [Source](https://github.com/mikecann/magic-jev-ball)
 
+### mail (keyboard-first unified inbox with Jev important-vs-promotions sorting)
+
+`Source available` · `Free source build` · `BYOK`
+
+Keyboard-first email client with one inbox for all your accounts and a remote MCP server for agents; its optional AI sorting asks Jev whether each conversation is a promotion.
+
+**Jev's role:** Jev decides whether each conversation is a promotion or important mail for inbox sorting.
+
+**Platform:** Web (self-hosted; hosted demo available)
+
+**Product:** [mail.demo.samayo.me](https://mail.demo.samayo.me)
+
+**Pricing / access:** Free source build; no license file on the reviewed commit. Hosted-service pricing not published. You pay hosting and TypeSafe usage. Checked 2026-11-11. Source inspected; live app not run on the review host.
+
+[Full mail (keyboard-first unified inbox with Jev important-vs-promotions sorting) guide](sam-ayo-mail-jev-sorting.md) · [Source](https://github.com/sam-ayo/mail)
+
 ### mail-watcher
 
 `Open source` · `Free source build` · `BYOK`
