@@ -2762,6 +2762,22 @@ Status-update honesty auditor: TypeSafe Jev judges language while local code par
 
 [Full Watermelon guide](watermelon.md) · [Source](https://github.com/shashwatc12/watermelon) · [Product homepage](https://watermelon.shashwatchavan.com)
 
+### Wisp (content-aware video player that fades video edges into the page, keeping Jev-tracked people sharp)
+
+`Open source` · `Free source build`
+
+Local web video player that softly fades a video's edges into the page; optional focus tracks built with Jev's image questions mark people, animals and faces ahead of time so the fade opens around them, and a QA tool asks Jev whether subjects stayed visible.
+
+**Jev's role:** Optional: Jev box questions build per-clip focus tracks of people, animals and faces, and judge QA frames; playback works without Jev.
+
+**Platform:** Web (local Node.js server, any modern browser with WebGL); source build only, no hosted product verified
+
+**Product:** [github.com/nomanjack/wisp](https://github.com/nomanjack/wisp)
+
+**Pricing / access:** Free MIT source build; an optional TypeSafe key is billed by TypeSafe when you build focus tracks. Checked 2026-11-13. Source inspected; live app not run on the review host.
+
+[Full Wisp (content-aware video player that fades video edges into the page, keeping Jev-tracked people sharp) guide](wisp-video-player.md) · [Source](https://github.com/nomanjack/wisp)
+
 ### Zearch
 
 `Open source` · `Free source build` · `BYOK`
