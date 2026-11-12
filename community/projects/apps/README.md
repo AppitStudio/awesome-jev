@@ -3942,6 +3942,22 @@ Native macOS launcher and assistant (apps, files, clipboard, snippets, windows, 
 
 [Full skil.li guide](skilli.md) · [Source](https://github.com/nomdelasociete/skilli)
 
+### SpeedRead (macOS app that highlights the decisions and actions in AI coding agent outputs, using Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+macOS app for reading long Claude Code or Codex reports: paste the output and Jev classifies each line, block or sentence as decision, action or info, so you can jump between what needs you and delete the rest.
+
+**Jev's role:** Jev classifies every segment of the pasted text as decision, action or info; the colour intensity follows Jev's probability.
+
+**Platform:** macOS (source build with Tauri; no signed release verified)
+
+**Product:** [github.com/TomySpagnoletti/speed-reading-app](https://github.com/TomySpagnoletti/speed-reading-app)
+
+**Pricing / access:** Free MIT source build; requires your own OpenRouter key, billed per Jev call by OpenRouter (the app logs cost locally). Checked 2026-11-13. Source inspected; live app not run on the review host.
+
+[Full SpeedRead (macOS app that highlights the decisions and actions in AI coding agent outputs, using Jev) guide](speedread-agent-outputs.md) · [Source](https://github.com/TomySpagnoletti/speed-reading-app)
+
 ### SplitSeek
 
 `Open source` · `Free`
