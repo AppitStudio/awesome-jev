@@ -13,7 +13,7 @@ Pipeline action in Buddy that asks Jev one typed question about a commit message
 | License | Closed source, part of the hosted Buddy product. No public repository. |
 | Pricing and access | Commercial product, see [Buddy pricing](https://buddy.works/pricing). Jev calls are billed to your own TypeSafe key (BYOK). |
 | Jev evidence | [TypeSafe integration docs](https://buddy.works/docs/integrations/typesafe), [Jev YAML reference](https://buddy.works/docs/yaml/yaml-actions/jev), [launch post](https://buddy.works/blog/jev-action-typed-decisions-in-buddy-pipelines). Vendor documentation; the implementation could not be inspected. |
-| Disclosure | Closed source and commercial. Listing is not an endorsement. |
+| Disclosure | Closed source and commercial. Self-submission: the contributor works at Buddy. Listing is not an endorsement. |
 
 ## When to use
 
@@ -48,29 +48,29 @@ Jev only answers the question. The decision to notify, wait for approval or depl
 1. In Buddy, add a TypeSafe integration with your TypeSafe API key.
 2. Add the Jev action to a pipeline and reference the integration by its ID:
 
-```yaml
-- action: "Assess deployment risk"
-  type: "JEV"
-  integration: "typesafe"
-  state:
-    - "Commit: $BUDDY_RUN_COMMIT_MESSAGE"
-    - file: "CHANGELOG.md"
-  question: "How risky is this change to deploy?"
-  question_type: "SCORE"
-  criteria:
-    none: "Touches only documentation or comments"
-    low: "Touches application code covered by tests"
-    high: "Touches database migrations or public API contracts"
-```
+   ```yaml
+   - action: "Assess deployment risk"
+     type: "JEV"
+     integration: "typesafe"
+     state:
+       - "Commit: $BUDDY_RUN_COMMIT_MESSAGE"
+       - file: "CHANGELOG.md"
+     question: "How risky is this change to deploy?"
+     question_type: "SCORE"
+     criteria:
+       none: "Touches only documentation or comments"
+       low: "Touches application code covered by tests"
+       high: "Touches database migrations or public API contracts"
+   ```
 
 3. Add a trigger condition to a later action, for example a Slack message or manual approval that runs only when confidence is below 0.7:
 
-```yaml
-  trigger_conditions:
-    - trigger_condition: VAR_LESS_THAN
-      trigger_variable_key: BUDDY_ACTION_JEV_CONFIDENCE
-      trigger_variable_value: "0.7"
-```
+   ```yaml
+     trigger_conditions:
+       - trigger_condition: VAR_LESS_THAN
+         trigger_variable_key: BUDDY_ACTION_JEV_CONFIDENCE
+         trigger_variable_value: "0.7"
+   ```
 
 Each run sends a live request to TypeSafe under your key. There is no offline or mock mode.
 
