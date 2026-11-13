@@ -2596,6 +2596,16 @@ Russian and English article for beginner vibe coders, with an MCP server their a
 
 [Full The Living Handbook (living article for beginner vibe coders where Jev screens reader edits before a person publishes) guide](the-living-handbook.md) · [Source](https://github.com/Bb-soil/the-living-handbook)
 
+### The Pragmatic Engineer newsletter search
+
+`Closed source` · `Free`
+
+Free search over The Pragmatic Engineer newsletter archive, built on turbopuffer full-text search with Jev categorizing and reranking results.
+
+**Access:** use [pragmaticengineer.com/search](https://www.pragmaticengineer.com/search); no account needed (checked 2026-11-13), paid articles need a subscription to read. Closed source — implementation not inspected; Jev evidence is the page credits and the author's [X post](https://x.com/GergelyOrosz/status/2121053731114643785). Not an endorsement.
+
+[Full The Pragmatic Engineer newsletter search guide](pragmatic-engineer-newsletter-search.md) · [Source](https://www.pragmaticengineer.com/search)
+
 ### THE SWARM
 
 `Open source` · `Free source build` · `BYOK`
