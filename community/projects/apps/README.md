@@ -4168,6 +4168,22 @@ Mac tool that reads the WhatsApp Desktop app's own database read-only and triage
 
 ## Android apps
 
+### Android Voice Control by dbrodie (say a task and GPT-Live hands it to an on-device loop where Jev picks each tap, type or swipe)
+
+`Open source` · `Free source build` · `BYOK`
+
+Floating mic bubble over every app: you say a task such as "open settings and turn on Bluetooth", GPT-Live turns it into a crisp instruction, and the phone runs a screenshot → decide → act loop through an accessibility service, asking Jev which tap, typing or swipe comes next until the task is done. Based on System One Computer Use by brainstormity.
+
+**Jev's role:** Jev chooses the next tap, typing or swipe from each screenshot until the spoken task is done.
+
+**Platform:** Android 11+ (arm64 APK v0.1.1 on GitHub Releases, published 2026-11-13); no Play Store listing verified
+
+**Product:** [github.com/dbrodie/android-voice-control](https://github.com/dbrodie/android-voice-control)
+
+**Pricing / access:** Free APK and source; TypeSafe usage on your key, plus a ChatGPT Plus/Pro plan or OpenAI API usage for voice. Checked 2026-11-13. Source inspected; live app not run on the review host.
+
+[Full Android Voice Control by dbrodie (say a task and GPT-Live hands it to an on-device loop where Jev picks each tap, type or swipe) guide](android-voice-control-dbrodie.md) · [Source](https://github.com/dbrodie/android-voice-control)
+
 ### Audience Moderator (Android counter for people and raised hands, with an optional Jev round insight)
 
 `Open source` · `Free source build`
