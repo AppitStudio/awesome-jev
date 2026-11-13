@@ -5106,6 +5106,22 @@ Chrome side panel that uses TypeSafe Jev to select and populate WebMCP tool call
 
 [Full Jev × WebMCP guide](jev-webmcp-extension.md) · [Source](https://github.com/sdras/jev-webmcp-extension)
 
+### Jev-Ad blocker by yuseisakai (Chrome extension that has Jev judge ad candidates on a page and removes them reversibly)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that collects ad candidates on each page, asks Jev whether each is an ad, and removes the ones above an adjustable threshold (default 80%), with undo for the last or all removals and no URL history kept.
+
+**Jev's role:** Jev decides whether each collected page element is an ad; the extension removes those above your threshold.
+
+**Platform:** Chrome desktop (load unpacked); no Chrome Web Store listing
+
+**Product:** [github.com/yuseisakai/jev-adblock](https://github.com/yuseisakai/jev-adblock)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Jev-Ad blocker by yuseisakai (Chrome extension that has Jev judge ad candidates on a page and removes them reversibly) guide](jev-ad-blocker-yuseisakai.md) · [Source](https://github.com/yuseisakai/jev-adblock)
+
 ### jev-email-classifier
 
 `Open source` · `Free source build` · `BYOK`
