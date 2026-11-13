@@ -5096,6 +5096,22 @@ Chrome extension that scores and stamps AI slop on X and LinkedIn feeds with Typ
 
 [Full Jev Slop Guard guide](jev-slop-guard.md) · [Source](https://github.com/davertor/jev-slop-guard)
 
+### Jev Tab Switcher (Chrome extension where you type a vague phrase and Jev picks the open tab to jump to)
+
+`Source available` · `Free source build` · `BYOK`
+
+Press ⌘⇧K, type a vague phrase like "board slides", and Chrome jumps to the right tab: instant local matches appear first, and on Enter Jev chooses among up to 80 candidate tabs (with a `none` option); below 55% confidence you get a ranked list with probabilities instead.
+
+**Jev's role:** Jev chooses which open tab matches your phrase, or says none match.
+
+**Platform:** Desktop Chrome (load unpacked); no Chrome Web Store listing verified
+
+**Product:** [github.com/ido-foundation/jev-tab-switcher](https://github.com/ido-foundation/jev-tab-switcher)
+
+**Pricing / access:** Public source with no license file (all rights reserved by default); no purchase fee, OpenRouter usage on your key. Checked 2026-11-13. Source inspected; live app not run on the review host.
+
+[Full Jev Tab Switcher (Chrome extension where you type a vague phrase and Jev picks the open tab to jump to) guide](jev-tab-switcher.md) · [Source](https://github.com/ido-foundation/jev-tab-switcher)
+
 ### Jev ToS Checker (Chrome extension that flags terms-of-service clauses that may work against you)
 
 `Open source` · `Free` · `BYOK`
