@@ -2230,6 +2230,22 @@ No-login Spanish yes/no chat: TypeSafe Jev Choice probabilities (Sí / No / No a
 
 [Full Preguntale a Jev guide](preguntale-a-jev.md) · [Source](https://github.com/dariozfold6-wez2/JEV-CHAT) · [Try app](https://jev-chat-ten.vercel.app)
 
+### Press O'Clock (agentic RAG assistant for journalists that screens incoming press-release emails with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Full-stack assistant that collects press releases sent by email and lets journalists query them in natural language with source links back to each email; before a mail is stored or indexed, Jev screens it as a triage step, while answers, extraction and embeddings use OpenAI and pgvector.
+
+**Jev's role:** Jev screens each incoming press-release email before it is stored and indexed.
+
+**Platform:** Self-hosted web app (Docker Compose); no hosted instance verified
+
+**Product:** [github.com/alvillalta/press-oclock](https://github.com/alvillalta/press-oclock)
+
+**Pricing / access:** Free source build (MIT, based on the Full Stack FastAPI Template); OpenAI and TypeSafe usage on your keys plus hosting. Checked 2026-11-14. Source inspected; live app not run on the review host.
+
+[Full Press O'Clock (agentic RAG assistant for journalists that screens incoming press-release emails with Jev) guide](press-oclock.md) · [Source](https://github.com/alvillalta/press-oclock)
+
 ### QuantDinger
 
 `Open source` · `Free source build` · `BYOK`
