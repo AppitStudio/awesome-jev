@@ -4208,6 +4208,22 @@ Personal-maintained Android assistant based on jev-chat/jev-chat-jarvis: visible
 
 [Full bianzhu-android (personal Android assistant fork with TypeSafe Jev as a judge provider) guide](bianzhu-android.md) · [Source](https://github.com/xlgbyyds/bianzhu-android)
 
+### DotLauncher (Android home app in a waybar/walker style where Jev finds apps by meaning and sorts them into categories)
+
+`Open source` · `Free source build` · `BYOK`
+
+Simple Android home app with a pixel-font, Omarchy-style bar and search: when no name matches, Jev picks installed apps by meaning ("music" finds music apps), and apps with no or too-broad categories are sorted into category pages by Jev once, with the answer kept on the device.
+
+**Jev's role:** Jev picks matching apps by meaning when name search finds nothing, and assigns categories to apps that declare none or only "Productivity".
+
+**Platform:** Android (tested by the author on Android 13 and 16); source build, no store release verified
+
+**Product:** [github.com/ptyhard/dot-launcher](https://github.com/ptyhard/dot-launcher)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full DotLauncher (Android home app in a waybar/walker style where Jev finds apps by meaning and sorts them into categories) guide](dotlauncher-android.md) · [Source](https://github.com/ptyhard/dot-launcher)
+
 ### DSB (trust-first Android AI assistant with a Jev command gate)
 
 `Open source` · `Free source build`
