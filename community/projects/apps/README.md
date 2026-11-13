@@ -3212,6 +3212,22 @@ Tauri desktop workspace that runs Claude Code, Codex, OpenCode, Pi and many othe
 
 [Full PandaCode (native desktop workspace for many coding-agent CLIs with an optional, off-by-default Jev add-on for work review, project rules, context search and worker choice) guide](pandacode.md) · [Source](https://github.com/aicodeking/pandacode)
 
+### Prompt Check (live overlay that grades the prompt you type into the Claude app and suggests an effort level, using Jev)
+
+`Source available` · `Free source build` · `BYOK`
+
+Mac and Windows overlay that sits above the Claude desktop app's message box and, as you type, has Jev decide whether the message is a task, follow-up, reply or question, grade it, list what is missing and suggest the effort level to run it at; a side window works with any app.
+
+**Jev's role:** Jev classifies each draft (task, follow-up, reply or question), grades clarity and missing parts, and picks a suggested effort level.
+
+**Platform:** macOS and Windows (source launchers); Windows path untested by the author; no packaged release verified
+
+**Product:** [github.com/jjlinucb/prompt-check](https://github.com/jjlinucb/prompt-check)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Prompt Check (live overlay that grades the prompt you type into the Claude app and suggests an effort level, using Jev) guide](prompt-check-claude.md) · [Source](https://github.com/jjlinucb/prompt-check)
+
 ### Rook (open-source desktop app where named AI agents work as a team in channels and ask your approval first, with an optional Jev approval reviewer)
 
 `Open source` · `Free` · `BYOK`
