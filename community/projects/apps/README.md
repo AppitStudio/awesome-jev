@@ -4390,6 +4390,24 @@ Minimal Android home app styled after Omarchy's waybar and walker: status bar, n
 
 [Full Simple Launcher guide](simple-launcher.md) · [Source](https://github.com/polidog/simple-launcher)
 
+## iOS apps
+
+### Jev Jarvis for iOS (custom keyboard that shows a chat message's intent, risk and ranked reply suggestions in any chat app)
+
+`Open source` · `Free source build` · `BYOK`
+
+iPhone custom keyboard from the jev-chat-jarvis family: copy a message (or turn on Live Mode, which reads the screen with on-device OCR), and the keyboard shows the message's intent and risk and ranks drafted reply candidates with Jev; one tap inserts a reply. Chinese and English UI.
+
+**Jev's role:** Jev judges each message's intent and risk and ranks the drafted reply candidates.
+
+**Platform:** iPhone, iOS 16+; self-built and signed in Xcode (no App Store listing verified)
+
+**Product:** [github.com/jev-chat/jev-chat-jarvis-ios](https://github.com/jev-chat/jev-chat-jarvis-ios)
+
+**Pricing / access:** Free source build (a free Apple ID works for signing); judge and LLM usage on your own keys. Checked 2026-11-13. Source inspected; live app not run on the review host.
+
+[Full Jev Jarvis for iOS (custom keyboard that shows a chat message's intent, risk and ranked reply suggestions in any chat app) guide](jev-chat-jarvis-ios.md) · [Source](https://github.com/jev-chat/jev-chat-jarvis-ios)
+
 ## Windows apps
 
 ### Booksmith (Calibre ebooks to Plex audiobooks, with Jev-planned pauses)
