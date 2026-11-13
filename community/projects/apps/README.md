@@ -5566,6 +5566,22 @@ Chrome extension for X: local rules scan each post, then Jev answers three quest
 
 [Full SlopFilter (Chrome extension that folds or hides AI-generated slop on X, judged by Jev and local rules) guide](slopfilter.md) · [Source](https://github.com/HerrysYu/SlopFilter)
 
+### SlopGuard by stevyhacker (Chrome extension that folds AI-bot replies on X, with Jev among benchmarked decision-model presets)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension that reads the replies under an X post, asks a decision model two yes/no questions per reply (written by an AI reply bot? assistant tone?) and folds the ones scoring at least 90% into a one-line bar, with per-account trust and a 14-day verdict cache. Jev 1.14 via OpenRouter is one of the presets; the default is Perplexity Decider, chosen from the author's benchmark.
+
+**Jev's role:** Optional preset: Jev scores whether each reply is AI-bot slop; the default judge is Perplexity Decider.
+
+**Platform:** Desktop Chrome (load unpacked); no Chrome Web Store listing verified
+
+**Product:** [github.com/stevyhacker/SlopGuard](https://github.com/stevyhacker/SlopGuard)
+
+**Pricing / access:** Free source build; OpenRouter usage on your key (the default preset uses a free tier with paid fallback). Checked 2026-11-13. Source inspected; live app not run on the review host.
+
+[Full SlopGuard by stevyhacker (Chrome extension that folds AI-bot replies on X, with Jev among benchmarked decision-model presets) guide](slopguard-stevyhacker.md) · [Source](https://github.com/stevyhacker/SlopGuard)
+
 ### Smart Dark (adaptive dark mode with optional Jev screenshot checks)
 
 `Open source` · `Free source build`
