@@ -4764,6 +4764,22 @@ Firefox (and Chrome) port of littlewindy123/jev-bili-filter: toggles for spoiler
 
 [Full Bilibili noise filter for Firefox (JEV) guide](ray4ai-jev-bili-filter.md) · [Source](https://github.com/Ray4AI/jev-bili-filter)
 
+### Busted! (browser extension that blurs GTA VI spoilers on YouTube, X and Reddit, judged by Cloudflare Clef or Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Browser extension that asks a yes/no decision model whether each video, post or link preview spoils GTA VI and hides the ones that do behind a blurred "BUSTED!" stamp you can click through; Cloudflare Clef on your own account is the default, and TypeSafe Jev is a built-in alternative.
+
+**Jev's role:** Optional: in TypeSafe mode, Jev answers whether each item spoils GTA VI; the default judge is Cloudflare Clef.
+
+**Platform:** Desktop Chrome, Chromium and Edge (Chrome Web Store) and Firefox 142+ (Firefox Add-ons); store listings checked 2026-11-13
+
+**Product:** [chromewebstore.google.com/detail/busted-%E2%80%94-spoiler-blocker/eggbgmgafnkeckpopfcmnnopcjgnbnfb](https://chromewebstore.google.com/detail/busted-%E2%80%94-spoiler-blocker/eggbgmgafnkeckpopfcmnnopcjgnbnfb)
+
+**Pricing / access:** Free extension on the Chrome Web Store and Firefox Add-ons; Cloudflare Clef runs on your own (free-for-normal-use) account, TypeSafe mode is pay per use on your key. Checked 2026-11-13. Source inspected; live app not run on the review host.
+
+[Full Busted! (browser extension that blurs GTA VI spoilers on YouTube, X and Reddit, judged by Cloudflare Clef or Jev) guide](busted-spoiler-blocker.md) · [Source](https://github.com/canvural/busted)
+
 ### B站降噪 · JEV (Bilibili noise filter)
 
 `Open source` · `Free` · `BYOK`
