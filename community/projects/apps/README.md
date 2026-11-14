@@ -2674,6 +2674,22 @@ Explore YouTube transcripts by meaning with a Turkish UI: TypeSafe Jev classifie
 
 [Full Transcript Lens guide](transcript-lens.md) · [Source](https://github.com/sensahin/transcript-lens)
 
+### traxy
+
+`Closed source` · `Paid` · `Commercial`
+
+Hosted LinkedIn lead-finding and outreach service; the founder says its lead qualification is powered by Jev.
+
+**Jev's role:** Vendor claim: Jev decides which people from LinkedIn engagement fit your ICP and buying intent.
+
+**Platform:** Hosted web app.
+
+**Product:** [traxy.ai](https://traxy.ai)
+
+**Pricing / access:** [Paid plans](https://traxy.ai/pricing) from $149/month with a 7-day free trial (checked 2026-11-14). Closed source — implementation not inspected; Jev evidence is the founder's [X post](https://x.com/benbuaron_/status/2121283448258314533). Not an endorsement.
+
+[Full traxy guide](traxy.md) · [Source](https://traxy.ai) · [Product homepage](https://traxy.ai)
+
 ### Treg ("OpenRouter for agent tools": pay-per-call tool catalog whose tool search is judged by Jev)
 
 `Source available` · `Paid` · `Commercial`
