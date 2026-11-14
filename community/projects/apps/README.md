@@ -4424,6 +4424,22 @@ Minimal Android home app styled after Omarchy's waybar and walker: status bar, n
 
 ## iOS apps
 
+### Bearly (smart-glasses shopping helper where Jev reads what each spoken sentence asks for and boxes the items you look at)
+
+`Source available` · `Free source build` · `BYOK`
+
+Hackathon prototype for Meta smart glasses: look at something and say what you want, and Bearly identifies it, finds the cheapest match in the Shopify catalog and buys it on "yup" (Stripe test mode), can email the invoice and logs inspection notes with photos. Gemini Live is the voice agent; Jev classifies each sentence into intents like find, buy, skip or note and draws the boxes around items in view.
+
+**Jev's role:** Jev classifies each spoken sentence into a shopping or inspection intent and draws boxes around items in the camera view.
+
+**Platform:** iPhone app with Meta smart glasses plus a laptop web screen; source build only, no App Store listing verified
+
+**Product:** [github.com/jungkeun-hong/bearly](https://github.com/jungkeun-hong/bearly)
+
+**Pricing / access:** Public source with no license file (all rights reserved by default); no purchase fee, provider usage on your keys, Stripe in test mode. Checked 2026-11-15. Source inspected; live app not run on the review host.
+
+[Full Bearly (smart-glasses shopping helper where Jev reads what each spoken sentence asks for and boxes the items you look at) guide](bearly-smart-glasses-shopping.md) · [Source](https://github.com/jungkeun-hong/bearly)
+
 ### Jev Jarvis for iOS (custom keyboard that shows a chat message's intent, risk and ranked reply suggestions in any chat app)
 
 `Open source` · `Free source build` · `BYOK`
