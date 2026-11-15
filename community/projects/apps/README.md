@@ -1246,6 +1246,22 @@ Explainable day-trip planner: LLM drafts; TypeSafe Jev screens/compares/reviews;
 
 [Full Jev Trip guide](jev-trip.md) · [Source](https://github.com/liaoyuhua/jev-trip)
 
+### Jev VJ (audio-reactive visuals where three Jev units deliberate every few bars on section, scene, intensity and palette)
+
+`Source available` · `Free`
+
+Browser VJ prototype: in-page audio analysis tracks beats and bars and drives frame-level effects, while every few bars a summary of recent bars goes to Jev, asked by three deliberating units (MAGI-style), to decide the current section, whether a drop is coming, the next scene, intensity, palette and transitions; a pre-armed drop scene cuts in when the audio confirms the drop. three.js/GLSL with ISF and Shadertoy plugins, served from Cloudflare Workers. README is in Japanese.
+
+**Jev's role:** Jev reads summaries of recent bars and decides section, upcoming drop, scene, intensity, palette and transitions; code handles beat-level reactions.
+
+**Platform:** Web (hosted demo on Cloudflare Workers; no login) · local dev build
+
+**Product:** [jevj.sayuno.me](https://jevj.sayuno.me)
+
+**Pricing / access:** Public demo at [jevj.sayuno.me](https://jevj.sayuno.me) opens without an account (checked 2026-11-15; Jev calls run on the maker's key and are rate-limited). Self-hosting needs your own TypeSafe key and Cloudflare costs. Source has no license file. Source inspected; live app not run on the review host.
+
+[Full Jev VJ (audio-reactive visuals where three Jev units deliberate every few bars on section, scene, intensity and palette) guide](jev-vj.md) · [Source](https://github.com/TakuyaAbe/jev-vj)
+
 ### Jev Voice Chat (Japanese)
 
 `Open source` · `Free source build` · `BYOK`
