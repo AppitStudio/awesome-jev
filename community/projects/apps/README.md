@@ -5382,6 +5382,22 @@ Chrome extension that conservatively hides high-confidence ragebait, hostile thr
 
 [Full L Ragebait guide](l-ragebait.md) · [Source](https://github.com/davidherring123/l-ragebait)
 
+### Linis (Chromium extension that captures loaded page evidence, asks Jev which blocks are useful for your goal, and exports the originals)
+
+`Open source` · `Free source build` · `BYOK`
+
+Manifest V3 extension for Chrome and Brave: on click it collects the loaded page's blocks (text, headings, links, image descriptions) by snapshot or scroll capture, asks Jev which blocks fit your extraction goal, and lets you review the result and save Markdown, text or full JSON with the original evidence. No local server or build step. Works with your own TypeSafe key or through OpenRouter.
+
+**Jev's role:** Jev decides which captured page blocks are useful evidence for your stated goal.
+
+**Platform:** Chrome and Brave (unpacked Manifest V3 extension; release ZIP buildable locally)
+
+**Product:** [github.com/TheFindingPath/linis](https://github.com/TheFindingPath/linis)
+
+**Pricing / access:** Free source build (Apache-2.0); not in a browser store. You pay TypeSafe or OpenRouter for your own calls. Checked 2026-11-15. Source inspected; live app not run on the review host.
+
+[Full Linis (Chromium extension that captures loaded page evidence, asks Jev which blocks are useful for your goal, and exports the originals) guide](linis.md) · [Source](https://github.com/TheFindingPath/linis)
+
 ### LinkedIn Slop Filter
 
 `Open source` · `Free source build` · `BYOK`
