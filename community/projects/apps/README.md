@@ -1746,6 +1746,22 @@ Hackathon-built shipping-operations inbox that accounts for every received email
 
 [Full LadingLens (shipping inbox control that checks Shipping Instructions against draft Bills of Lading, with Jev classifying) guide](ladinglens.md) · [Source](https://github.com/M1KUAPP/LadingLens)
 
+### LEO (hackathon app that reads vendor contracts, emails and invoices, uses Jev to filter and validate, and flags billing leaks against card charges)
+
+`Source available` · `Free source build` · `BYOK`
+
+Berkeley Business Society x Ramp hackathon project for small businesses: LEO reads vendor contracts, emails (read-only Gmail sync) and invoices, records each agreed term with its source quote, and checks card charges against them to flag renewals, price increases, cap breaches and seat overages with the dollars at stake. Jev labels each document first so noise never reaches the LLM, and later checks the extracted terms; Claude Haiku extracts and drafts cancellation or negotiation emails, which are never sent without approval. Ships with a fictional coffee-shop demo dataset.
+
+**Jev's role:** Jev classifies every incoming document and checks extracted terms, so only relevant documents reach Claude.
+
+**Platform:** Web (self-hosted FastAPI + React dashboard on localhost)
+
+**Product:** [github.com/lewisyang3/LEO](https://github.com/lewisyang3/LEO)
+
+**Pricing / access:** Free source build; no hosted version. You pay TypeSafe and Anthropic for your own calls. No license file. Checked 2026-11-15. Source inspected; live app not run on the review host.
+
+[Full LEO (hackathon app that reads vendor contracts, emails and invoices, uses Jev to filter and validate, and flags billing leaks against card charges) guide](leo-vendor-billing.md) · [Source](https://github.com/lewisyang3/LEO)
+
 ### LifePot
 
 `Open source` · `Free source build` · `BYOK`
