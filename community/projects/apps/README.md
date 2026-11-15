@@ -2220,6 +2220,22 @@ One text box that turns what you type into the right UI card (event, reminder, i
 
 [Full Plasis guide](plasis.md) · [Source](https://github.com/shreyaspangal/plasis)
 
+### Portuñol Sin Vergüenza (Tucumán Spanish ⇄ Brazilian Portuguese chat translator whose web app has Jev check each candidate translation and slang sense)
+
+`Source available` · `Free source build` · `BYOK`
+
+Translator for real WhatsApp-style chat between Argentine (Tucumán) Spanish with voseo and Brazilian Portuguese, with slang, no accents and *jajaja*/*kkkk*. The self-hosted web app (also a PWA) runs a cascade: your own corrections, ready phrases, real subtitle phrases and DeepL's free tier first; Jev checks whether each candidate keeps meaning and tone and picks the sense of each ambiguous slang word in context; a paid GLM model is called only when nothing passes. The Android app works offline without Jev. README is in Portuguese.
+
+**Jev's role:** Jev checks each candidate translation for meaning and tone and picks the sense of ambiguous slang, so the paid translator runs only when nothing passes.
+
+**Platform:** Self-hosted web app / PWA (Jev path) and an Android APK built by the repo's GitHub Actions (offline, no Jev)
+
+**Product:** [github.com/straviosbr/portunol-sin-verguenza](https://github.com/straviosbr/portunol-sin-verguenza)
+
+**Pricing / access:** Public source with no license file (all rights reserved by default); no purchase fee; DeepL API Free plus TypeSafe and optional OpenRouter usage on your keys, and your own server. Checked 2026-11-15. Source inspected; live app not run on the review host.
+
+[Full Portuñol Sin Vergüenza (Tucumán Spanish ⇄ Brazilian Portuguese chat translator whose web app has Jev check each candidate translation and slang sense) guide](portunol-sin-verguenza.md) · [Source](https://github.com/straviosbr/portunol-sin-verguenza)
+
 ### Preguntale a Jev
 
 `Source unverified` · `Free` · `BYOK`
