@@ -6482,6 +6482,22 @@ Automated Discord moderation: TypeSafe Jev (OpenRouter Decisions) scores hate sp
 
 ## Telegram bots
 
+### BanHammerBot (Telegram group moderation bot where Jev scores each message, avatar and recent history for ads and spam before any ban)
+
+`Source available` · `Free source build` · `BYOK`
+
+Self-hosted Telegram bot that sends Jev the sender's display name, username, visible avatar, current message (with hidden link targets and images) and up to five recent messages, and asks three yes/no questions: unsolicited ad, spam and profile promotion. Scores from 0.70 go to review; only 0.98 or higher bans and deletes, and dry run is available per group. Adds a private admin menu, new-member mutes and an audit log in SQLite.
+
+**Jev's role:** Jev scores each group message and its sender's profile for unsolicited ads, spam and profile promotion; the bot's thresholds decide review or ban.
+
+**Platform:** Telegram (self-hosted bot, long polling; no public server needed)
+
+**Product:** [github.com/crzidea/BanHammerBot](https://github.com/crzidea/BanHammerBot)
+
+**Pricing / access:** Public source with no license file (all rights reserved by default); no purchase fee; you host it and pay TypeSafe usage on your key. Checked 2026-11-15. Source inspected; live app not run on the review host.
+
+[Full BanHammerBot (Telegram group moderation bot where Jev scores each message, avatar and recent history for ads and spam before any ban) guide](banhammerbot.md) · [Source](https://github.com/crzidea/BanHammerBot)
+
 ### Jev Anti-Spam Bot
 
 `Open source` · `Free source build` · `BYOK`
