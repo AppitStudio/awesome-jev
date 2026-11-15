@@ -4994,6 +4994,22 @@ Chrome extension: select text, right-click and Jev (via OpenRouter, your own key
 
 [Full Fallacy Lens guide](fallacy-lens.md) · [Source](https://github.com/cobmuddybug/fallacylens-extension)
 
+### Feed Filter (Chrome extension that blurs YouTube feed cards until Jev checks each video against goals you write)
+
+`Open source` · `Free source build` · `BYOK`
+
+Desktop Chrome extension for YouTube's home feed and watch sidebar: every card stays blurred until Jev has checked the video against your goals. Clearly on-goal videos get an ON GOAL badge, clearly off-goal ones are filtered out, and the rest show normally; any filtered card can be revealed with the reason or kept/hidden by hand. A dashboard shows what got through by goal and over time, and a daily call limit guards spending. An optional local Python proxy keeps the key out of the browser.
+
+**Jev's role:** Jev scores each recommended video against your written goals before the card is shown.
+
+**Platform:** Desktop Chrome (unpacked Manifest V3 extension; YouTube home feed and watch sidebar)
+
+**Product:** [github.com/ranawaqas-ai/feed-filter](https://github.com/ranawaqas-ai/feed-filter)
+
+**Pricing / access:** Free source build (MIT); not in the Chrome Web Store. You pay TypeSafe for your own calls (a long evening with three goals can use a few thousand calls, per the maker). Checked 2026-11-16. Source inspected; live app not run on the review host.
+
+[Full Feed Filter (Chrome extension that blurs YouTube feed cards until Jev checks each video against goals you write) guide](feed-filter-youtube.md) · [Source](https://github.com/ranawaqas-ai/feed-filter)
+
 ### FeedLens (Chrome extension that tracks the LinkedIn posts you see and has Jev sort each one as In Focus or Off Topic for your own interests)
 
 `Open source` · `Free source build` · `BYOK`
