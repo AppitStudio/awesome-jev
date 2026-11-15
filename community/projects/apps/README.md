@@ -3008,6 +3008,22 @@ Viewer for the session logs Claude Code keeps in `~/.claude/projects`: readable 
 
 [Full Claude Code Trace (desktop, web and terminal viewer for Claude Code session logs with an optional Jev efficiency analysis) guide](claude-code-trace.md) · [Source](https://github.com/delexw/claude-code-trace)
 
+### Desktop Assistant by Neuronection (system-tray AI launcher whose optional decision layer uses Jev to dispatch short commands straight to tools)
+
+`Open source` · `Free` · `BYOK`
+
+Electron launcher that lives in the system tray: global hotkey, streaming chat with many providers (or local Ollama), voice input, PDF and screen attachments, tool apps and local-only history. Its optional decision layer runs before the chat model: a decision model assigned per capability slot (tool dispatch, yes/no gate, choice, score) sends short commands straight to a tool and also powers voice auto-send, prompt-armed auto-speak, custom rules and live-conversation interruption. The one decision transport that ships is TypeSafe System One, used directly or through OpenRouter's Jev route.
+
+**Jev's role:** Optional decision layer: Jev picks the tool and closed-set arguments for short commands and answers yes/no gates for voice features.
+
+**Platform:** Windows, macOS (Intel and Apple Silicon) and Linux (AppImage, deb); installers on GitHub Releases
+
+**Product:** [neuronection.com](https://neuronection.com)
+
+**Pricing / access:** Free download (Apache-2.0, installers on GitHub Releases). You pay your chat provider and TypeSafe or OpenRouter for your own calls. Checked 2026-11-16. Source inspected; live app not run on the review host.
+
+[Full Desktop Assistant by Neuronection (system-tray AI launcher whose optional decision layer uses Jev to dispatch short commands straight to tools) guide](desktop-assistant-neuronection.md) · [Source](https://github.com/neuronection/desktop-assistant)
+
 ### dotpals
 
 `Open source` · `Free` · `BYOK`
