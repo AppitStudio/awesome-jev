@@ -5628,6 +5628,22 @@ Open-source Chrome extension that silently hides X ads and posts by account coun
 
 [Full Quiet X guide](quiet-x.md) · [Source](https://github.com/arzumanabbasov/quiet-x)
 
+### Raindrop Autosort (Chrome extension that saves the current tab to Raindrop.io and lets Jev pick the collection and tags)
+
+`Open source` · `Free source build` · `BYOK`
+
+Unofficial Manifest V3 extension for Raindrop.io: you list your collections with a short criterion each, and when you save a tab Jev reads the page and picks one collection from that list, plus up to four tags from your tag vocabulary. If Jev is unsure (below 0.7 by default), the bookmark goes to a fallback collection, and the popup lets you change it before saving. Rules can force a collection; a keyboard shortcut and a right-click menu save without the popup. English and Korean docs.
+
+**Jev's role:** Jev picks the Raindrop.io collection and tags for each saved page from your own list and criteria.
+
+**Platform:** Chrome and other Chromium browsers (unpacked Manifest V3 extension)
+
+**Product:** [github.com/x-mesh/raindrop-autosort](https://github.com/x-mesh/raindrop-autosort)
+
+**Pricing / access:** Free source build (MIT); not in the Chrome Web Store. Requires a Raindrop.io account; you pay TypeSafe for your own calls. Checked 2026-11-16. Source inspected; live app not run on the review host.
+
+[Full Raindrop Autosort (Chrome extension that saves the current tab to Raindrop.io and lets Jev pick the collection and tags) guide](raindrop-autosort.md) · [Source](https://github.com/x-mesh/raindrop-autosort)
+
 ### Recall (Chrome history search with a local index, browsing stats and optional Jev ranking)
 
 `Open source` · `Free` · `BYOK`
