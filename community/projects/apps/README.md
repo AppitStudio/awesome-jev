@@ -186,6 +186,22 @@ Public paper-trading experiment: Ferdi (TypeSafe Jev) and Bodi (OpenAI Decisions
 
 [Full Bot Derby (Jev and OpenAI Decisions compete in a paper-trading experiment) guide](bot-derby.md) · [Source](https://github.com/Day-in-the-Country-LLC/bot-derby)
 
+### Broccoli (open-source employee operations system that uses Jev decisions to read imported HR files and set up time-off rules)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted Employee Operations System (people records, time off and related HR workflows) by Minari Limited, built for teams that work alongside agents. Its AI layer asks only multiple-choice decision questions: when you import a spreadsheet, Jev decides which row is the header and which column holds which field, and during time-off setup it answers questions about your locations. Personal values are masked as placeholders before a request leaves the install, and answers under a confidence floor are treated as no answer.
+
+**Jev's role:** Jev answers the multiple-choice decisions behind file imports (header row, column mapping) and time-off setup.
+
+**Platform:** Web (self-hosted with Docker Compose; hosted version via waitlist)
+
+**Product:** [getbroccoli.com](https://getbroccoli.com)
+
+**Pricing / access:** Self-hosting is free under AGPL-3.0; bring an OpenRouter key or use a free Broccoli AI token (the code references a free period, so terms may change). Hosted pricing not published (waitlist). Checked 2026-11-15. Source inspected; live app not run on the review host.
+
+[Full Broccoli (open-source employee operations system that uses Jev decisions to read imported HR files and set up time-off rules) guide](broccoli.md) · [Source](https://github.com/getbroccoli/broccoli)
+
 ### Call Coach
 
 `Open source` · `Free source build` · `BYOK`
