@@ -11,7 +11,7 @@ One Cloudflare Worker exposing 16 Jev-backed MCP tools, plus 7 agent skills and 
 | Format | Cloudflare Worker MCP server (Node.js) with agent skills |
 | Requirements | A Cloudflare account and a TypeSafe (or Vercel AI Gateway) key. |
 | License | [MIT](https://github.com/bitskc/honest-jev/blob/953d9d9eb593700bc9c530e0baffe7dc964604fe/LICENSE) |
-| Disclosure | AI-assisted catalog review; no affiliation with the maintainer. Listing is not an endorsement. Install and live calls not run on the review host. |
+| Disclosure | Rename update self-submitted by the maintainer (bitskc) with AI assistance; checked by an AI-assisted catalog review. Listing is not an endorsement. Install and live calls not run on the review host. |
 | Jev evidence | [`server/src/kit/jev.mjs`](https://github.com/bitskc/honest-jev/blob/953d9d9eb593700bc9c530e0baffe7dc964604fe/server/src/kit/jev.mjs) at the pinned commit. |
 
 ## When to use
@@ -21,7 +21,7 @@ One Cloudflare Worker exposing 16 Jev-backed MCP tools, plus 7 agent skills and 
 
 ## How it works
 
-`server/src/kit/jev.mjs` resolves the upstream (TypeSafe or Vercel AI Gateway's TypeSafe-compatible API) and sends `{model, state, questions}` for each `kit_*` tool. Integration evidence: [`server/src/kit/jev.mjs`](https://github.com/bitskc/honest-jev/blob/c7181c04970e4f80cdfa308f3ae935b824caa9c3/server/src/kit/jev.mjs).
+`server/src/kit/jev.mjs` resolves the upstream (TypeSafe or Vercel AI Gateway's TypeSafe-compatible API) and sends `{model, state, questions}` for each `kit_*` tool. Integration evidence: [`server/src/kit/jev.mjs`](https://github.com/bitskc/honest-jev/blob/953d9d9eb593700bc9c530e0baffe7dc964604fe/server/src/kit/jev.mjs).
 
 ## Get started
 
@@ -43,4 +43,4 @@ Commands, tasks and evidence checked by the tools go through your Worker to Type
 
 ## Review and maintenance
 
-Reviewed **2026-11-14** at [commit 953d9d9](https://github.com/bitskc/honest-jev/tree/953d9d9eb593700bc9c530e0baffe7dc964604fe). Inspected the upstream README, license status, and the Jev integration file linked above; install and live inference were not run on the review host. Catalog checks (`npm run check`) ran locally; they verify navigation, not project claims. AI-assisted review.
+Reviewed **2026-11-16** (Europe/Sofia; maintainer rename update pinned 2026-11-14) at [commit 953d9d9](https://github.com/bitskc/honest-jev/tree/953d9d9eb593700bc9c530e0baffe7dc964604fe). Inspected the upstream README, license status, and the Jev integration file linked above; install and live inference were not run on the review host. Catalog checks (`npm run check`) ran locally; they verify navigation, not project claims. AI-assisted review.
