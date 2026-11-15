@@ -4946,6 +4946,22 @@ Chrome extension: select text, right-click and Jev (via OpenRouter, your own key
 
 [Full Fallacy Lens guide](fallacy-lens.md) · [Source](https://github.com/cobmuddybug/fallacylens-extension)
 
+### FeedLens (Chrome extension that tracks the LinkedIn posts you see and has Jev sort each one as In Focus or Off Topic for your own interests)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local Chrome extension: you describe your interests in your own words, and FeedLens sends the text of each LinkedIn feed post you view to Jev as one Choice question (one option per interest plus irrelevant). A side panel shows today's In Focus and Off Topic totals, expanded posts and a by-interest breakdown, plus monthly history. Only IDs, classifications and timestamps are stored. LinkedIn is supported today; other networks are open for contributions.
+
+**Jev's role:** Jev classifies each viewed post into one of your interests or off topic.
+
+**Platform:** Chrome (unpacked Manifest V3 extension; LinkedIn feed)
+
+**Product:** [github.com/IuryCavalcante/FeedLens](https://github.com/IuryCavalcante/FeedLens)
+
+**Pricing / access:** Free source build (MIT); not in the Chrome Web Store. You pay TypeSafe for your own Jev calls. Checked 2026-11-15. Source inspected; live app not run on the review host.
+
+[Full FeedLens (Chrome extension that tracks the LinkedIn posts you see and has Jev sort each one as In Focus or Off Topic for your own interests) guide](feedlens.md) · [Source](https://github.com/IuryCavalcante/FeedLens)
+
 ### Flash (YouTube Q&A)
 
 `Source available` · `Free` · `BYOK`
