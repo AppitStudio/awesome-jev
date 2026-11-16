@@ -2874,6 +2874,22 @@ Vonage Community demo where Jev reads a customer's chat messages for sentiment a
 
 [Full Vonage Video API x Jev support demo guide](vonage-video-jev-starter.md) · [Source](https://github.com/Vonage-Community/demo-video-javascript-jev-starter)
 
+### Waterline by noah-thing (checks a link in a sealed browser before it goes on stream, with Jev confirming or clearing what the rules flag)
+
+`Open source` · `Free` · `BYOK`
+
+Paste a link and Waterline opens it in a sealed headless Chromium, presses Play, mashes keys and fast-forwards timers, then reads every script and image it loads. Six depths of checks look for look-alike or brand-new domains, ClickFix commands, crypto miners, IP loggers, data-stealing webhooks and adult content (an on-device NSFW image model included). Rules find candidates; Jev gives a second opinion on each borderline frame, image and code match, and DeepSeek optionally reads the most suspicious script. Made for streamers who get sent games and links live.
+
+**Jev's role:** Jev is the second opinion on every borderline frame, image and code match the rules flag, keeping false positives down.
+
+**Platform:** Web (hosted at waterline.cc on Vercel); self-hostable Node.js server
+
+**Product:** [waterline.cc](https://waterline.cc)
+
+**Pricing / access:** Hosted site: paste a link and check it, with no sign-up or price shown (rate-limited). Self-hosting is a free MIT build where you pay for your own TypeSafe/DeepSeek calls. Checked 2026-11-17. Source inspected; live app not run on the review host.
+
+[Full Waterline by noah-thing (checks a link in a sealed browser before it goes on stream, with Jev confirming or clearing what the rules flag) guide](waterline.md) · [Source](https://github.com/noah-thing/waterline)
+
 ### Watermelon
 
 `Open source` · `Free source build` · `BYOK`
