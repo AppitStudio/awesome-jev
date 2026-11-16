@@ -770,6 +770,22 @@ Scheduler that shifts EV charging, water heating, laundry and pumps into low-car
 
 [Full Heliotrope (carbon-aware load scheduler with Jev load intake) guide](heliotrope.md) · [Source](https://github.com/StellarieX/Heliotrope)
 
+### HS code lookup by cuongpham2107 (Vietnamese HS-code and import/export tariff lookup on Laravel and Filament, where Jev makes the classification steps)
+
+`Source available` · `Free source build` · `BYOK`
+
+Self-hosted Laravel 13 + Filament 5 admin app for Vietnam's import/export tariff schedule. A chat at `/admin/tra-cuu` walks a goods description through Rule 1 and Rule 6 of the HS nomenclature (section, chapter, 4-digit heading, branch, 8-digit code), shows the legal basis, risks and a suggested customs description, charts the probabilities of candidate codes and lists MFN and FTA rates. If the description lacks a deciding criterion, it asks for that criterion instead of guessing. Yearly tariff schedules are loaded from Excel through a Python pipeline; lookups are logged with their confidence. Interface and docs in Vietnamese.
+
+**Jev's role:** Jev answers each Rule 1/Rule 6 classification step (chapter, heading, branch, code) as typed questions with probabilities.
+
+**Platform:** Self-hosted web app (Laravel + Filament admin panel); run on your own server
+
+**Product:** [github.com/cuongpham2107/hs_filament_jev_ai](https://github.com/cuongpham2107/hs_filament_jev_ai)
+
+**Pricing / access:** Free source build (no license file). You pay TypeSafe for your own calls and any hosting. Checked 2026-11-16. Source inspected; live app not run on the review host.
+
+[Full HS code lookup by cuongpham2107 (Vietnamese HS-code and import/export tariff lookup on Laravel and Filament, where Jev makes the classification steps) guide](hs-filament-jev-ai.md) · [Source](https://github.com/cuongpham2107/hs_filament_jev_ai)
+
 ### Hx
 
 `Open source` · `Free source build` · `BYOK`
