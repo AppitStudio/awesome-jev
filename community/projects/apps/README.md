@@ -2576,6 +2576,22 @@ Self-hosted monitor that collects posts and articles across X, Reddit, Hacker Ne
 
 [Full Social Monitor (self-hosted feed that collects X, Reddit, Hacker News, RSS and GitHub posts, with Jev scoring each post's reader value) guide](social-monitor.md) · [Source](https://github.com/777genius/social-monitor)
 
+### Sortroom by mhoenes (self-hosted IMAP mail sorter where a decision model such as Jev files new mail into your own folders)
+
+`Open source` · `Free source build` · `BYOK`
+
+One Docker container with a web admin UI that sorts any IMAP inbox (Gmail, Outlook/Microsoft 365, others). A classification model reads each new mail and picks one of your categories, so it can never invent a folder: twelve built-in English or German categories you can edit, uncertain mail left in the inbox under To review, stars for bills, appointments and security alerts, expiry tracking for time-limited offers, free sender rules, an unsubscribe helper and several mailboxes with their own schedules. The model is any service that speaks the TypeSafe API; the default is Jev through OpenRouter's decisions API.
+
+**Jev's role:** Jev (the default model, via OpenRouter) picks one of your categories for each new mail; low-confidence mail waits for review.
+
+**Platform:** Self-hosted web app in one Docker container (amd64/arm64: home server, NAS, Raspberry Pi)
+
+**Product:** [github.com/mhoenes/sortroom](https://github.com/mhoenes/sortroom)
+
+**Pricing / access:** Free AGPL-3.0 source build and container. You pay your model provider (the README estimates about $0.00002 per mail on OpenRouter's default) and run your own host. Checked 2026-11-17. Source inspected; live app not run on the review host.
+
+[Full Sortroom by mhoenes (self-hosted IMAP mail sorter where a decision model such as Jev files new mail into your own folders) guide](sortroom.md) · [Source](https://github.com/mhoenes/sortroom)
+
 ### Stack4That
 
 `Open source` · `Free source build` · `BYOK`
