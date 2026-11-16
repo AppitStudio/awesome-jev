@@ -3516,6 +3516,22 @@ macOS notch app that pings you when a ChatGPT, Codex, Claude or Cursor chat fini
 
 [Full Baton (notch app) guide](baton-notch.md) · [Source](https://github.com/jeanlucandre-afk/baton)
 
+### BrowserHelm (macOS MCP gateway for BrowserOS Neo that compacts browser context and can delegate bounded navigation to Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Native macOS companion for an installed BrowserOS Neo: Claude Desktop, Codex or another MCP client talks to BrowserHelm's stdio MCP server, Neo performs the browser actions, and BrowserHelm controls how much browser context comes back. `browserhelm_navigate` can observe links, ask Jev (or another configured decision provider) to choose, recheck and follow the link and verify a phrase before returning, avoiding planner round trips; `browserhelm_execute` runs one bounded read-only plan. Optional local or OpenRouter vision grounds visual targets, and proven routes can be reused without a model call. The maker publishes its own small benchmarks and says broad savings remain unproven.
+
+**Jev's role:** Optional decision provider: Jev picks which observed link to follow during delegated navigation.
+
+**Platform:** macOS 14+ on Apple Silicon (preview DMG, ad-hoc signed); requires BrowserOS Neo
+
+**Product:** [github.com/RaDeleon/BrowserHelm](https://github.com/RaDeleon/BrowserHelm)
+
+**Pricing / access:** Free download (Apache-2.0, preview DMGs on GitHub Releases). You pay TypeSafe or other providers for your own calls. Checked 2026-11-16. Source inspected; live app not run on the review host.
+
+[Full BrowserHelm (macOS MCP gateway for BrowserOS Neo that compacts browser context and can delegate bounded navigation to Jev) guide](browserhelm.md) · [Source](https://github.com/RaDeleon/BrowserHelm)
+
 ### Call Coach by Darlison (live interview checklist on macOS, ticked by Jev)
 
 `Open source` · `Free source build`
