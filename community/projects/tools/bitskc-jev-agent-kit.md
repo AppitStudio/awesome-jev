@@ -2,7 +2,7 @@
 
 [All projects](../README.md) · [Developer tools](README.md#developer-tools)
 
-One Cloudflare Worker exposing 16 Jev-backed MCP tools, plus 7 agent skills and an optional guard hook, for the judgment calls coding agents make all day: is this shell command safe, is this sub-agent the right size, did the agent really verify before saying done. Builds on jkudish/jev-mcp and jonathanavis96/jev-kit; deterministic rules handle what a model shouldn't guess.
+One Cloudflare Worker exposing 16 Jev-backed MCP tools, plus 10 agent skills and an optional guard hook, for the judgment calls coding agents make all day: is this shell command safe, is this sub-agent the right size, did the agent really verify before saying done. Builds on jkudish/jev-mcp and jonathanavis96/jev-kit; deterministic rules handle what a model shouldn't guess.
 
 | At a glance | Details |
 | --- | --- |
