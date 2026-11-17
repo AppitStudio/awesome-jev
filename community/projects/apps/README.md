@@ -2258,6 +2258,22 @@ Self-hosted photo gallery where Jev's image questions rate every photo on dozens
 
 [Full Photo Ferret guide](photo-ferret.md) · [Source](https://github.com/JonesSteven/photo-ferret)
 
+### Pipette by ferced (free daily edition of new research papers, labelled and ranked by Jev with the authors' own words first)
+
+`Open source` · `Free`
+
+Free daily science feed at pipette.day. Each morning it reads every new paper from arXiv, bioRxiv, medRxiv and 58 journals, quotes the abstract sentence that states the main result exactly as written, and publishes a short, field-balanced edition. Jev answers ten typed questions per paper (topic, kind of contribution, evidence, which sentence states the result or admits a limitation, appeal, size of the step, reading level, hype), and a public formula ranks them; papers that overclaim are left out. Edition papers also get English and Spanish summaries from an open model that Jev checks sentence by sentence against the abstract. A For you page ranks the day's papers against a sentence you write. No ads, tracking or accounts; labels are open CC0 JSON.
+
+**Jev's role:** Jev labels and helps rank every paper with ten typed questions, checks each summary sentence against the abstract, and ranks papers for a reader's own interest sentence.
+
+**Platform:** Web (pipette.day, English and Spanish); RSS feeds and a public JSON API
+
+**Product:** [pipette.day](https://pipette.day)
+
+**Pricing / access:** Free to read, with no account, ads or tracking. Self-hosting the MIT code means paying for your own AWS, Vercel and model usage (the README estimates about US$0.17 of model usage per weekday). Checked 2026-11-17. Source inspected; live app not run on the review host.
+
+[Full Pipette by ferced (free daily edition of new research papers, labelled and ranked by Jev with the authors' own words first) guide](pipette.md) · [Source](https://github.com/ferced/pipette)
+
 ### Planet.buzz (Reddit-style discovery feed from many web sources, with Jev classifying topics, motivations and content warnings)
 
 `Closed source` · `Pricing unverified`
