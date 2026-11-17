@@ -3686,6 +3686,22 @@ Local-first personal agent desktop app with memory, tools, workspaces and schedu
 
 [Full Covan (local-first personal agent desktop app with Jev reply decisions) guide](covan.md) · [Source](https://github.com/Lichas/covan)
 
+### DeskRecall by sreenivasanac (macOS menu bar app that restores window layouts per display setup, with Jev deciding the fuzzy matches)
+
+`Source available` · `Free source build` · `BYOK`
+
+macOS menu bar app that puts every window back on the right display, Mission Control desktop (Space), size and minimized state for whichever monitors are plugged in. You save one profile per display setup and click Arrange. Exact cases are settled locally; the judgement calls go to Jev: which profile fits a new set of monitors, which display stands in for which, and which window is which when titles have changed. Low-confidence answers become one dialog with the best guess preselected. A Profiles window draws each saved layout to scale.
+
+**Jev's role:** Jev decides the fuzzy matches: which profile, which display stands in for which, and which window goes in which saved slot.
+
+**Platform:** macOS (menu bar app, source build)
+
+**Product:** [github.com/sreenivasanac/deskrecall](https://github.com/sreenivasanac/deskrecall)
+
+**Pricing / access:** Free source build with no license file (reuse terms not granted); you pay for your own TypeSafe calls. Checked 2026-11-17. Source inspected; live app not run on the review host.
+
+[Full DeskRecall by sreenivasanac (macOS menu bar app that restores window layouts per display setup, with Jev deciding the fuzzy matches) guide](deskrecall.md) · [Source](https://github.com/sreenivasanac/deskrecall)
+
 ### Fenlet (Mac window arranger with a CLI and agent skill that can ask Jev how to lay out panes)
 
 `Open source` · `Free source build` · `BYOK`
