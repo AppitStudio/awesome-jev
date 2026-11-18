@@ -406,6 +406,22 @@ One-page Go web demo: type a name and profession, roll a d20 for destiny and a d
 
 [Full d20-oracle (one-page Go demo where Jev scores your name, profession and a d20 roll against the twelve D&D classes) guide](d20-oracle.md) · [Source](https://github.com/amscotti/d20-oracle)
 
+### Dealflow Triage by Honey Chawla (local read-only inbox for Instagram DMs, Gmail, Proton Mail and LinkedIn, sorted by Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+One local inbox for Instagram DMs, Gmail, Proton Mail and LinkedIn messages that only reads (never sends or changes anything). For each conversation Jev answers nine typed questions (category, real opportunity, deal value, sender credibility, urgency, written for you, reply expected, states terms, scam risk), which become a category such as Brand deal or Vendor pitch, a 0–100 score, a priority and a Needs review flag when Jev was unsure. The rubric is editable in Settings. Python standard library only, one SQLite file.
+
+**Jev's role:** Classifies and scores every conversation with nine typed questions in one request; uncertain calls are flagged for review instead of filed silently.
+
+**Platform:** Self-hosted local web app (`http://127.0.0.1:4747`); no hosted instance
+
+**Product:** [github.com/honeyychawla/Dealflow](https://github.com/honeyychawla/Dealflow)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Dealflow Triage by Honey Chawla (local read-only inbox for Instagram DMs, Gmail, Proton Mail and LinkedIn, sorted by Jev) guide](dealflow-triage.md) · [Source](https://github.com/honeyychawla/Dealflow)
+
 ### DeciFlow
 
 `Open source` · `Free source build` · `BYOK`
