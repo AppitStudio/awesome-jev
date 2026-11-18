@@ -3478,6 +3478,22 @@ Desktop app for finding a moment in a movie you can only describe: it samples fr
 
 [Full Scene Finder guide](scene-finder.md) · [Source](https://github.com/EmmyMay/scene-finder)
 
+### SmartRSSReader by Dylan Festa (desktop RSS reader that ranks new journal papers against your criteria with Jev)
+
+`Open source` · `Free` · `BYOK`
+
+Local desktop app (Tauri v2) for scientific feeds: pick the RSS feeds of the journals and preprint servers you follow, define any number of positive and negative criteria, and Jev scores each new paper's title and abstract against them for a combined relevance ranking. Papers already scored are remembered, so you never pay twice, and changing a criterion's weight re-ranks the feed offline. Pre-built installers for Windows, macOS and Linux. Alpha.
+
+**Jev's role:** Answers yes/no and rubric questions for each paper against each of your criteria; the app combines the probabilities into a ranking.
+
+**Platform:** Windows, macOS (Apple Silicon and Intel) and Linux; unsigned alpha builds
+
+**Product:** [github.com/dylanfesta/RSS-Sci-Jev-Reader/releases/latest](https://github.com/dylanfesta/RSS-Sci-Jev-Reader/releases/latest)
+
+**Pricing / access:** Free download and CC0 source; Jev calls are billed to your own OpenRouter key. Checked 2026-11-18. Source inspected; live app not run on the review host.
+
+[Full SmartRSSReader by Dylan Festa (desktop RSS reader that ranks new journal papers against your criteria with Jev) guide](smartrssreader.md) · [Source](https://github.com/dylanfesta/RSS-Sci-Jev-Reader)
+
 ### Stillwatch
 
 `Open source` · `Free source build` · `BYOK`
