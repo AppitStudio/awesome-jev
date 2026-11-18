@@ -4958,6 +4958,22 @@ Windows overlay for PC WeChat that reads the open chat with local offline OCR, g
 
 ## Browser extensions
 
+### Ad Library Saver by Jim Banks (Chrome extension that saves Meta Ad Library ads as you scroll and has Jev tag their format, call to action and funnel stage)
+
+`Open source` · `Free source build`
+
+Manifest V3 Chrome extension for competitor ad research. As you scroll the Meta Ad Library, each ad that comes into view is saved to a database inside the extension (copy, headline, call-to-action button, landing URL with tracking parameters stripped, media, run dates, country). Jev tags each ad's format, call to action and funnel stage, three at a time, and everything exports to CSV. Saving and export work without a key; only tagging needs one.
+
+**Jev's role:** Tags each saved ad with format, call to action and funnel stage using typed questions.
+
+**Platform:** Chrome, loaded unpacked (not on the Chrome Web Store); English Meta UI only
+
+**Product:** [github.com/jimbanks/ad-library-saver](https://github.com/jimbanks/ad-library-saver)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Ad Library Saver by Jim Banks (Chrome extension that saves Meta Ad Library ads as you scroll and has Jev tag their format, call to action and funnel stage) guide](ad-library-saver.md) · [Source](https://github.com/jimbanks/ad-library-saver)
+
 ### AI, SI, or Whatever
 
 `Open source` · `Free source build` · `BYOK`
