@@ -1148,6 +1148,22 @@ Local interactive workbench with small demos showing TypeSafe Jev System One cap
 
 [Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
 
+### Jev Play Games by Ege Bulut (watch Jev play 2048, Snake, a platformer and more live, with the odds of every move on screen)
+
+`Source available` · `Free`
+
+Live site where Jev plays browser games (2048, Snake, a block-drop puzzle, Hill Climb, Super Jev Bros, a Freedoom raycaster) and shows the probability of each legal move as bars next to the game. Every move is one Jev choice question; the server owns the seeded game state, the viewer who presses Play live drives the session for everyone watching, and nothing is called when no one is watching. Every decision is recorded for exact replays.
+
+**Jev's role:** Picks one move per turn from the legal moves with a choice question; the page shows the returned probabilities.
+
+**Platform:** Web (hosted at jev-play-games.vercel.app)
+
+**Product:** [jev-play-games.vercel.app](https://jev-play-games.vercel.app)
+
+**Pricing / access:** Free to watch; the maintainer pays for Jev calls with a daily budget (live play pauses when it is spent; replays keep playing). Checked 2026-11-18. Source inspected; live app not run on the review host.
+
+[Full Jev Play Games by Ege Bulut (watch Jev play 2048, Snake, a platformer and more live, with the odds of every move on screen) guide](jev-play-games.md) · [Source](https://github.com/Ege-BULUT/jev-play-games)
+
 ### Jev Playground by Laaaaksh (hosted bring-your-own-key playground for TypeSafe Jev)
 
 `Open source` · `Free` · `BYOK`
