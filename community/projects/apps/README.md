@@ -770,6 +770,22 @@ Scheduler that shifts EV charging, water heating, laundry and pumps into low-car
 
 [Full Heliotrope (carbon-aware load scheduler with Jev load intake) guide](heliotrope.md) · [Source](https://github.com/StellarieX/Heliotrope)
 
+### How Jev works by Ritchie King (interactive explainer of Jev's question types and batching, with puzzles answered by real requests)
+
+`Source available` · `Free`
+
+Interactive web explainer for Jev: what its question types are, why batching many questions about one context is cheap, and a set of puzzles where each starts with a solution that runs but gets some cases wrong, and you fix it by changing what you ask Jev or what you do with the answers. The checks send your questions to Jev for real through the author's small proxy, which holds the key and enforces a daily budget, caching and per-visitor rate limits.
+
+**Jev's role:** Answers the explainer's live examples and puzzle checks; the proxy pins `jev-1.14.0` so recorded answers don't drift.
+
+**Platform:** Web (ritchiesking.com/jev/); self-hostable with your own key
+
+**Product:** [ritchiesking.com/jev/](https://ritchiesking.com/jev/)
+
+**Pricing / access:** Free to use; the author pays for Jev calls behind a daily budget cap. Checked 2026-11-18. Source inspected; live app not run on the review host.
+
+[Full How Jev works by Ritchie King (interactive explainer of Jev's question types and batching, with puzzles answered by real requests) guide](how-jev-works.md) · [Source](https://github.com/ritchieking/jev)
+
 ### HS code lookup by cuongpham2107 (Vietnamese HS-code and import/export tariff lookup on Laravel and Filament, where Jev makes the classification steps)
 
 `Source available` · `Free source build` · `BYOK`
