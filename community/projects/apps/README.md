@@ -1952,6 +1952,22 @@ Self-hosted news reader: collect any number of RSS and Atom feeds, describe your
 
 [Full Mimir (self-hosted news reader that ranks RSS feeds against your interests and groups stories with Jev) guide](mimir.md) · [Source](https://github.com/sp1r1t/mimir)
 
+### Mintie by tommyyzhao (open-source talking slime-blob companion in Three.js where a System One model such as Jev decides how it reacts)
+
+`Open source` · `Free source build`
+
+Browser companion built as a showcase for System One. A jelly blob lives in a Three.js (WebGL2) scene, reacts to touch (poke, pat, lift, throw), hears you through a realtime speech model, and answers in its own voice. Each turn a small typed-decision model answers several questions with probabilities (what to do, which of 64 gestures, how to feel), which an `?debug` overlay shows. It runs with no keys using a deterministic rules decider; any `/v1/systemone`-compatible model (hosted Jev, self-hosted OpenJev or another) can be swapped in with two environment variables. There is a hosted demo.
+
+**Jev's role:** Answers typed questions each turn (which action, which emote, mood) from the touch or speech event, with the probabilities shown in a debug overlay; a rules decider is the no-key fallback.
+
+**Platform:** Web (hosted demo at mintie.sloprefinery.ai); self-hostable with Node.js 24+
+
+**Product:** [mintie.sloprefinery.ai](https://mintie.sloprefinery.ai)
+
+**Pricing / access:** Free to open the hosted demo and to build from source; voice and decisions need your own OpenRouter and TypeSafe keys, billed by those providers. Checked 2026-11-18. Source inspected; live app not run on the review host.
+
+[Full Mintie by tommyyzhao (open-source talking slime-blob companion in Three.js where a System One model such as Jev decides how it reacts) guide](mintie-mascot.md) · [Source](https://github.com/tommyyzhao/mintie-mascot)
+
 ### MinusPod (self-hosted podcast ad remover with native System One support)
 
 `Open source` · `Free source build`
