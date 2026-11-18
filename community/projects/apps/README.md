@@ -1978,6 +1978,22 @@ Web app where three decision models — OpenAI Decisions, TypeSafe Jev and Cloud
 
 [Full Model vs Market guide](model-vs-market.md) · [Source](https://github.com/yorkeccak/model-vs-market)
 
+### Mood Pixels by mahshid (mood tracker where Jev reads a few words about your day and suggests a mood, energy and self-care nudge)
+
+`Open source` · `Free source build`
+
+Small self-hosted mood tracker (Next.js, PostgreSQL, Drizzle, Better Auth with Google sign-in). Write a few words about your day and Jev classifies the mood (Sparkly, Cozy, Tired, Sad or Frustrated), suggests an energy level and an optional nudge; you review and edit before saving. Monthly calendar and a Year in Pixels view. Guests get a limited number of AI trials; saved entries keep the date, mood, energy and nudge, not your original text.
+
+**Jev's role:** Classifies the check-in text into one of five moods and suggests energy and a self-care nudge with typed questions; the user confirms before saving.
+
+**Platform:** Self-hosted web app (localhost or Docker); no hosted instance verified
+
+**Product:** [github.com/mahshid/mood-pixels](https://github.com/mahshid/mood-pixels)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Mood Pixels by mahshid (mood tracker where Jev reads a few words about your day and suggests a mood, energy and self-care nudge) guide](mood-pixels.md) · [Source](https://github.com/mahshid/mood-pixels)
+
 ### nameworthy (World of Warcraft: Forever name auditor that grades a name with one Jev call)
 
 `Open source` · `Free source build` · `BYOK`
