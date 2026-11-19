@@ -2572,6 +2572,22 @@ Paste a suspicious message and get a scam verdict and risk score: one TypeSafe J
 
 [Full ScamCheck guide](scamcheck.md) · [Source](https://github.com/AkashNaickar/scamcheck)
 
+### Scrapbook/01 by Franco Roura and Alexis Augoustis (share reels and links to yourself; Jev files them into your categories)
+
+`Open source` · `Free source build` · `BYOK`
+
+Save reels, TikToks, videos and links from any app's share sheet with one line about what they are; Scrapbook/01 sorts each save into a category, links related saves into a graph and exposes your library to your own AI through an MCP server.
+
+**Jev's role:** Choice question that matches each new save to one of your existing categories; without a TypeSafe key, saves are not matched to existing categories.
+
+**Platform:** Expo / React Native app with share extension, web app, Go API on AWS Lambda (hosted waitlist or self-host).
+
+**Product:** [d2gh6vwoycfx90.cloudfront.net](https://d2gh6vwoycfx90.cloudfront.net)
+
+**Pricing / access:** Self-hosting is free source (MIT or Apache-2.0) on your own AWS account with your own TypeSafe, embeddings and Claude keys. The hosted app is waitlist-only and uses prepaid credits (new accounts start with some free); credit-pack payments are not connected yet. Checked 2026-11-20. Source inspected; live app not run on the review host.
+
+[Full Scrapbook/01 by Franco Roura and Alexis Augoustis (share reels and links to yourself; Jev files them into your categories) guide](scrapbook-01.md) · [Source](https://github.com/franco-roura/scrapbook-01)
+
 ### SeeFood (food recognizer with EmbeddingGemma and Jev)
 
 `Source available` · `Free`
