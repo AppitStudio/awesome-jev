@@ -5384,6 +5384,22 @@ Chrome extension (optional FastAPI / Cloudflare Worker) that scores social-post 
 
 [Full HookMeter guide](hookmeter.md) · [Source](https://github.com/ehui1226/hookmeter-jev)
 
+### JEV Autofill by Atharva Joshi (Chrome extension that fills job applications from a local profile, with optional Jev field mapping)
+
+`Open source` · `Free source build` · `BYOK`
+
+Manifest V3 Chrome extension that fills the repetitive fields of a job application (name, contact, education, links, work authorization, EEO and screening questions) from a profile file on your own machine, including Workday's multi-step flow and React or Material UI widgets. It never clicks Submit, Next or Apply and never overwrites a field that has a value. Mapping is regex rules by default; the hybrid and jev modes ask Jev to map fields the rules miss and to pick dropdown and screening answers, seeing only labels, option text and your `facts` list. A JSON report of filled and skipped fields is left on the page for agents.
+
+**Jev's role:** In hybrid/jev modes, maps unmatched form fields to profile keys and picks the best dropdown or screening option; the default static mode makes no Jev calls.
+
+**Platform:** Chrome or Chromium on macOS or Linux, loaded unpacked, with a local native-messaging helper.
+
+**Product:** [github.com/a3harva/jev-autofill](https://github.com/a3harva/jev-autofill)
+
+**Pricing / access:** Free source build (MIT); Jev modes use your own TypeSafe key and are billed to you. Checked 2026-11-19. Source inspected; live app not run on the review host.
+
+[Full JEV Autofill by Atharva Joshi (Chrome extension that fills job applications from a local profile, with optional Jev field mapping) guide](jev-autofill.md) · [Source](https://github.com/a3harva/jev-autofill)
+
 ### Jev Check (browser extension)
 
 `Open source` · `Free` · `BYOK`
