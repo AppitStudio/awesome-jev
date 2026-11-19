@@ -3468,6 +3468,22 @@ Open Codex-App–style desktop coding agent (Electron+React) driving Claude Code
 
 [Full Modex guide](modex.md) · [Source](https://github.com/TypeSafeAI/modex)
 
+### Nudge by Mekdim Dereje (voice or text computer control for people with limited dexterity, with Jev choosing each next control)
+
+`Open source` · `Free source build` · `BYOK`
+
+Accessibility assistant for macOS and Windows, built at StormHacks 2026, for people with tremor, repetitive strain injuries, low vision or limited dexterity. You say or type what you want (for example, download your October bank statement); Nudge reads the app's accessibility controls, Jev chooses the next control, and a large on-screen cursor carries the action out. It asks you to pick between uncertain options, asks approval before sensitive actions, drafts text with Gemini for you to edit, and has an optional local vision fallback for controls an app does not expose. An offline demo runs without keys.
+
+**Jev's role:** Chooses the next control to act on from the app's readable controls at each step; drafting is done by Gemini.
+
+**Platform:** macOS and Windows desktop, run from source with uv (prototype).
+
+**Product:** [github.com/mekdimd/nudge](https://github.com/mekdimd/nudge)
+
+**Pricing / access:** Free source build (MIT); you pay TypeSafe and Google for your own API usage. Checked 2026-11-19. Source inspected; live app not run on the review host.
+
+[Full Nudge by Mekdim Dereje (voice or text computer control for people with limited dexterity, with Jev choosing each next control) guide](nudge-mekdimd.md) · [Source](https://github.com/mekdimd/nudge)
+
 ### Nudge for Omarchy
 
 `Open source` · `Free source build` · `BYOK`
