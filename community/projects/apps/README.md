@@ -2074,6 +2074,22 @@ Web app where three decision models — OpenAI Decisions, TypeSafe Jev and Cloud
 
 [Full Model vs Market guide](model-vs-market.md) · [Source](https://github.com/yorkeccak/model-vs-market)
 
+### Monid Social API for agents (pay-per-call social media data for agents, with Jev-powered viral UGC discovery)
+
+`Closed source` · `Paid` · `Commercial`
+
+Pay-per-call tool registry for agents whose Social API covers TikTok, Instagram, Reddit, YouTube, LinkedIn and ad data; Monid says its viral UGC discovery is Jev-powered.
+
+**Jev's role:** Vendor claim: Jev powers the viral UGC discovery workflow (for example judging which posts are outliers for their creator).
+
+**Platform:** Web service reached through an agent skill, remote MCP server or CLI.
+
+**Product:** [monid.ai](https://monid.ai)
+
+**Pricing / access:** Commercial, pay as you go per call with $1 free starting credit ([pricing and sample calls](https://monid.ai/lp/social-media-api)); checked 2026-11-20. Closed source; implementation not inspected, Jev use is the vendor's claim.
+
+[Full Monid Social API for agents (pay-per-call social media data for agents, with Jev-powered viral UGC discovery) guide](monid-social-api.md) · [Source](https://monid.ai)
+
 ### Mood Pixels by mahshid (mood tracker where Jev reads a few words about your day and suggests a mood, energy and self-care nudge)
 
 `Open source` · `Free source build`
