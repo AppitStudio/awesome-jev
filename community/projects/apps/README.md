@@ -5708,6 +5708,22 @@ Chrome extension for browser automation in your own logged-in Chrome: Claude Cod
 
 [Try Noa](https://www.noa.bot) · [Full Noa guide](noa.md) · [Source](https://github.com/m0dE/noa)
 
+### Noisefilter for X by tpa339 (Chrome extension that collapses low-substance and engagement-bait posts, rated by Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Chrome extension (Manifest V3) that rates every post in your X timeline, search, lists and profiles with two Jev yes/no questions: does it say something concrete, and is it mainly built for reaction (rage bait, clickbait). Posts that fail are collapsed, not hidden. An optional switch rates replies under an open post for relevance and substance. Near-duplicate texts and emoji-only replies are caught locally without a call, up to 10 posts go in one request, and your last few manual markings are sent as examples. UI and docs are in German.
+
+**Jev's role:** Answers two `noul` questions per post (substance, bait) and two per reply (relevance, substance); the extension collapses posts by fixed thresholds.
+
+**Platform:** Chrome (desktop), loaded as an unpacked extension.
+
+**Product:** [github.com/tpa339/x-noisefilter](https://github.com/tpa339/x-noisefilter)
+
+**Pricing / access:** Free source build; you pay OpenRouter for the Jev calls on your own key. Checked 2026-11-19. Source inspected; live app not run on the review host.
+
+[Full Noisefilter for X by tpa339 (Chrome extension that collapses low-substance and engagement-bait posts, rated by Jev) guide](x-noisefilter.md) · [Source](https://github.com/tpa339/x-noisefilter)
+
 ### NotForMe (Chrome extension that folds PR, product-launch and off-topic articles in Korean news lists using Jev)
 
 `Open source` · `Free` · `BYOK`
