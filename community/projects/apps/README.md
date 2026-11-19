@@ -4758,6 +4758,22 @@ Minimal Android home app styled after Omarchy's waybar and walker: status bar, n
 
 [Full Simple Launcher guide](simple-launcher.md) · [Source](https://github.com/polidog/simple-launcher)
 
+### Winnow by Eric Florenzano (Android SMS app that classifies every text before it can buzz your phone, Jev first)
+
+`Open source` · `Free` · `BYOK`
+
+Full SMS/MMS app for Android that replaces Google Messages as your default and decides, for each incoming text, whether it deserves your attention: personal and transactional notify, marketing arrives silently, political and spam go to Filtered with no notification, and nothing is deleted. Decisions come from rules on the phone, an on-phone model you train with one-tap labels, and an optional classifier service: Jev by TypeSafe or OpenRouter, any System One server, or any OpenAI-compatible model. Each filtered conversation says what decided it and why.
+
+**Jev's role:** Optional classifier service: answers a typed choice over five categories for texts the on-phone rules and model leave undecided, after redaction.
+
+**Platform:** Android 12 or later; APK from GitHub Releases (v0.1.73 on 2026-11-06), not on Google Play. SMS/MMS only, no RCS.
+
+**Product:** [github.com/ericflo/winnow](https://github.com/ericflo/winnow)
+
+**Pricing / access:** Free APK and MIT source; the optional Jev service is billed to your own TypeSafe or OpenRouter key (the author estimates about $0.0001 a text). Checked 2026-11-19. Source inspected; live app not run on the review host.
+
+[Full Winnow by Eric Florenzano (Android SMS app that classifies every text before it can buzz your phone, Jev first) guide](winnow-sms-ericflo.md) · [Source](https://github.com/ericflo/winnow)
+
 ## iOS apps
 
 ### Bearly (smart-glasses shopping helper where Jev reads what each spoken sentence asks for and boxes the items you look at)
