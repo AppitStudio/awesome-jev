@@ -154,6 +154,22 @@ Bring-your-own-key AI chat on Nuxt and Cloudflare Workers that shows the price o
 
 [Full Besidka (open-source BYOK AI chat that adds seven optional Jev checks on your own TypeSafe key) guide](besidka.md) · [Source](https://github.com/besidka/besidka)
 
+### Best of Go by Mike Fridman (daily star rankings of 35,000 Go repositories, sorted into categories by Jev)
+
+`Closed source` · `Free`
+
+Free site that ranks Go repositories on GitHub by stars and recent star gains; its maker says Jev sorted over 14,000 repos into categories.
+
+**Jev's role:** Maker's claim: picks one category per repository from a fixed list, with a confidence; low-confidence repositories stay uncategorised.
+
+**Platform:** Web (hosted).
+
+**Product:** [bestofgo.dev](https://bestofgo.dev)
+
+**Pricing / access:** Free public website, no account needed (checked 2026-11-19). Closed source — implementation not inspected; Jev evidence is the vendor's public [X post](https://x.com/_mfridman/status/2123405034192839011). Not an endorsement.
+
+[Full Best of Go by Mike Fridman (daily star rankings of 35,000 Go repositories, sorted into categories by Jev) guide](best-of-go.md) · [Source](https://bestofgo.dev) · [Product homepage](https://bestofgo.dev)
+
 ### BlockSurvey (privacy-first survey platform that uses Jev to judge answers before its AI follow-ups and to check surveys)
 
 `Closed source` · `Freemium` · `Commercial`
