@@ -6582,6 +6582,22 @@ Local Gmail triage CLI (uv): TypeSafe Jev classifies threads (category/priority)
 
 [Full Gmail Classifier guide](gmail-classifier.md) · [Source](https://github.com/leomfu/gmail-classifier)
 
+### ifseen by Krish Joshi (plain-English triggers for your screen, camera and mic, judged by decision models such as Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Write rules such as "the washing machine's display shows the cycle has finished"; ifseen grabs a frame or audio clip every few seconds, asks all rules at once and fires actions (ntfy, MQTT, speech, webhooks) when one comes true.
+
+**Jev's role:** One of several supported providers: with the `jev` provider each rule becomes a yes/no question about the current frame, and the probability gates the action.
+
+**Platform:** macOS, Windows and Linux CLI, Docker image, Home Assistant add-on and a JS/TS client.
+
+**Product:** [krishj.com/ifseen/](https://krishj.com/ifseen/)
+
+**Pricing / access:** Free MIT source and standalone binaries; hosted decision models are billed to your own TypeSafe, Google or Azure key (a local SigLIP provider is free and offline). Checked 2026-11-20. Source inspected; live app not run on the review host.
+
+[Full ifseen by Krish Joshi (plain-English triggers for your screen, camera and mic, judged by decision models such as Jev) guide](ifseen.md) · [Source](https://github.com/KrishJoshi/ifseen)
+
 ### Inbox Triage
 
 `Open source` · `Free source build` · `BYOK`
