@@ -1858,6 +1858,22 @@ Hackathon-built shipping-operations inbox that accounts for every received email
 
 [Full LadingLens (shipping inbox control that checks Shipping Instructions against draft Bills of Lading, with Jev classifying) guide](ladinglens.md) · [Source](https://github.com/M1KUAPP/LadingLens)
 
+### Lakewood Creek HOA Q&A (cited answers from one HOA's documents, with Jev gating, retrieving and checking support)
+
+`Open source` · `Free`
+
+Unofficial one-box Q&A for an Illinois homeowners' association: answers come only from the HOA's published documents and two Illinois statutes, every claim must be backed by a verbatim quote, and off-topic or unanswerable questions are refused.
+
+**Jev's role:** Gate (is this about the HOA?), sweep (scores every corpus chunk and keeps the top 8) and support check (does each quote support the claim?), plus matching against a curated answer cache.
+
+**Platform:** Web (Vercel); Python CLI for local use.
+
+**Product:** [lwc-hoa-qa.vercel.app](https://lwc-hoa-qa.vercel.app)
+
+**Pricing / access:** Free public page with a monthly spending budget and per-IP rate limits; the MIT source can be deployed with your own TypeSafe, LLM, Vercel and Upstash accounts. Checked 2026-11-20. Source inspected; live app not run on the review host.
+
+[Full Lakewood Creek HOA Q&A (cited answers from one HOA's documents, with Jev gating, retrieving and checking support) guide](lakewood-creek-hoa-qa.md) · [Source](https://github.com/lostcol0ny/lwc-hoa-qa)
+
 ### LEO (hackathon app that reads vendor contracts, emails and invoices, uses Jev to filter and validate, and flags billing leaks against card charges)
 
 `Source available` · `Free source build` · `BYOK`
