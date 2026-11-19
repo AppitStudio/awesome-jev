@@ -2830,6 +2830,22 @@ WebGL swarm of 1,000 light particles whose strategy (flee, attack, protect, spli
 
 [Full THE SWARM guide](the-swarm.md) · [Source](https://github.com/machine1986/the-swarm)
 
+### Todoist Comms by Doist (team chat built into Todoist, with a Jev-powered inbox)
+
+`Closed source` · `Pricing unverified` · `Commercial`
+
+Doist's threads-first team chat that turns conversations into linked Todoist tasks; Doist says its inbox is Jev-powered.
+
+**Jev's role:** Vendor claim: Jev classifies inbox activity to decide what to surface first. Which other features (such as suggested tasks) use Jev or other models was not stated.
+
+**Platform:** Web, macOS, Windows, iOS and Android (public beta).
+
+**Product:** [comms.todoist.com](https://comms.todoist.com)
+
+**Pricing / access:** Public beta; anyone with a Todoist account can start, and it is included with Todoist Business (per Doist's CEO, checked 2026-11-19). No separate Comms price page found; see [Todoist pricing](https://www.todoist.com/pricing). Closed source — implementation not inspected; Jev evidence is the vendor's public [X post](https://x.com/amix3k/status/2123070438322397663). Not an endorsement.
+
+[Full Todoist Comms by Doist (team chat built into Todoist, with a Jev-powered inbox) guide](todoist-comms.md) · [Source](https://comms.todoist.com) · [Product homepage](https://comms.todoist.com)
+
 ### Toru (recording infrastructure for coding agents, with optional Jev browser navigation)
 
 `Open source` · `Commercial` · `Freemium` · `BYOK`
