@@ -154,6 +154,22 @@ Bring-your-own-key AI chat on Nuxt and Cloudflare Workers that shows the price o
 
 [Full Besidka (open-source BYOK AI chat that adds seven optional Jev checks on your own TypeSafe key) guide](besidka.md) · [Source](https://github.com/besidka/besidka)
 
+### BlockSurvey (privacy-first survey platform that uses Jev to judge answers before its AI follow-ups and to check surveys)
+
+`Closed source` · `Freemium` · `Commercial`
+
+Privacy-first survey platform; its engineering blog describes Jev judging answers before AI follow-ups, checking anonymity, picking question types and scoring surveys.
+
+**Jev's role:** Per the vendor: decides whether an answer deserves an AI follow-up, whether a question asks for identifying information, which question type a label needs, and how a draft survey scores on rubric items. A language model still writes the follow-ups and summaries.
+
+**Platform:** Web (hosted).
+
+**Product:** [blocksurvey.io](https://blocksurvey.io)
+
+**Pricing / access:** Free plan with 10 responses; paid plans from $49/month ([pricing](https://blocksurvey.io/pricing), checked 2026-11-19). Closed source — implementation not inspected; Jev evidence is the vendor's public [X post](https://x.com/blocksurvey/status/2123409857227235550). Not an endorsement.
+
+[Full BlockSurvey (privacy-first survey platform that uses Jev to judge answers before its AI follow-ups and to check surveys) guide](blocksurvey.md) · [Source](https://blocksurvey.io) · [Product homepage](https://blocksurvey.io)
+
 ### BOOLS (Breakout played live by Jev in the browser)
 
 `Open source` · `Free` · `BYOK`
