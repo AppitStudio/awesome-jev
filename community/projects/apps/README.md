@@ -4518,6 +4518,22 @@ macOS command bar that drives Chromium, Dia, Arc or Chrome from plain English; T
 
 [Full voice-browser guide](voice-browser.md) · [Source](https://github.com/ken-code-wq/voice-browser)
 
+### voicecom-jev by Matthew Ruiz Diaz (hold a key, say several commands at once, and Jev decides what your Mac does)
+
+`Open source` · `Free source build` · `BYOK`
+
+Push-to-talk voice control for macOS: local faster-whisper transcribes, Jev decides which command each part of the sentence is, whether it is destructive or just filler, and which button you meant, and plain code runs the actions with a confirm step for risky or unsure ones.
+
+**Jev's role:** Choice over the command set for the whole sentence and each candidate split, plus Noul checks for destructive steps and filler; thresholds decide run, ask or ignore.
+
+**Platform:** macOS (Apple Silicon or Intel).
+
+**Product:** [github.com/MatthewRuizDiaz/voicecom-jev](https://github.com/MatthewRuizDiaz/voicecom-jev)
+
+**Pricing / access:** Free MIT source build; Jev calls are billed to your own TypeSafe key. Speech-to-text runs locally. Checked 2026-11-20. Source inspected; live app not run on the review host.
+
+[Full voicecom-jev by Matthew Ruiz Diaz (hold a key, say several commands at once, and Jev decides what your Mac does) guide](voicecom-jev.md) · [Source](https://github.com/MatthewRuizDiaz/voicecom-jev)
+
 ### YapCut (local talking-head video editor that cuts, titles, zooms, captions and grades a take, with an optional Jev frame check)
 
 `Open source` · `Free source build` · `BYOK`
