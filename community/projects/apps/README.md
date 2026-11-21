@@ -5278,6 +5278,22 @@ Firefox (and Chrome) port of littlewindy123/jev-bili-filter: toggles for spoiler
 
 [Full Bilibili noise filter for Firefox (JEV) guide](ray4ai-jev-bili-filter.md) · [Source](https://github.com/Ray4AI/jev-bili-filter)
 
+### BookmarX by Peter Rauscher (Chrome extension that sorts your X bookmarks into folders with Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+Scans the bookmarks you already have on X, suggests one of your existing bookmark folders for each with Jev, keeps low-confidence suggestions in a Review list, and files accepted results through the official X API.
+
+**Jev's role:** One narrow choice question per bookmark over your existing folder names; low-confidence answers are left for review instead of being filed.
+
+**Platform:** Chrome or another Chromium browser (Manifest V3), loaded unpacked.
+
+**Product:** [github.com/peterrauscher/BookmarX](https://github.com/peterrauscher/BookmarX)
+
+**Pricing / access:** Free MIT source, loaded unpacked; you supply your own TypeSafe key and an X developer app with bookmark API access (X Premium is needed for bookmark folders). Checked 2026-11-21. Source inspected; live app not run on the review host.
+
+[Full BookmarX by Peter Rauscher (Chrome extension that sorts your X bookmarks into folders with Jev) guide](bookmarx.md) · [Source](https://github.com/peterrauscher/BookmarX)
+
 ### Busted! (browser extension that blurs GTA VI spoilers on YouTube, X and Reddit, judged by Cloudflare Clef or Jev)
 
 `Open source` · `Free` · `BYOK`
