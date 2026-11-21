@@ -5732,6 +5732,22 @@ Local-first Chrome extension that uses your own TypeSafe key to cover high-confi
 
 [Full Jev X Blocker (Chrome extension that hides high-confidence porn and spam on X with your own Jev key) guide](jev-x-blocker.md) · [Source](https://github.com/bit-cook/Jev-X-Blocker)
 
+### jev · youtube by Luca Baeyens (filters your YouTube home feed by sending titles and thumbnails to Jev)
+
+`Open source` · `Free source build` · `BYOK`
+
+A Chrome/Safari extension that sends the title, channel and thumbnail of each long video in your YouTube home feed to Jev and hides whatever scores below your threshold; shorts, lives and similar cards are hidden without a call, and decisions are cached, capped per load and logged so you can mark them right or wrong.
+
+**Jev's role:** Scores each home-feed video against your stated taste from its title and thumbnail; the score is compared with your threshold.
+
+**Platform:** Chrome or Safari (Manifest V3), loaded unpacked. UI in Spanish; code and docs in English.
+
+**Product:** [github.com/lucabae/jev-youtube](https://github.com/lucabae/jev-youtube)
+
+**Pricing / access:** Free MIT source, loaded unpacked; Jev calls are billed to your own OpenRouter key, with a per-load cap and an hourly call limit. Checked 2026-11-21. Source inspected; live app not run on the review host.
+
+[Full jev · youtube by Luca Baeyens (filters your YouTube home feed by sending titles and thumbnails to Jev) guide](jev-youtube.md) · [Source](https://github.com/lucabae/jev-youtube)
+
 ### Jev × WebMCP
 
 `Open source` · `Free source build` · `BYOK`
