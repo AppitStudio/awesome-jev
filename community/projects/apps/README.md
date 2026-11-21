@@ -2690,6 +2690,22 @@ Describe a feature; get a verdict—plain code, TypeSafe Jev, LLM, Jev+LLM, clas
 
 [Full Should I Jev? guide](should-i-jev.md) · [Source](https://github.com/yakubmurcek/should-i-jev) · [Try app](https://shouldijev.vercel.app)
 
+### Sift by Nihir Dhamecha (blind resume shortlisting with Jev; names stay in the recruiter's browser)
+
+`Source available` · `Free source build` · `BYOK`
+
+Upload resumes against a job description; Sift parses each PDF, redacts the candidate's name before Jev sees it, and returns a match score with a Shortlisted / Not this time suggestion and requirement chips. Results show IDs only until you click Reveal names; nothing is stored server-side.
+
+**Jev's role:** Scores each redacted resume against the job's requirements and gives the shortlist suggestion.
+
+**Platform:** Web (Vercel: React front end + Python function) and a local Python CLI.
+
+**Product:** [github.com/nihirdhamecha/sift](https://github.com/nihirdhamecha/sift)
+
+**Pricing / access:** Self-deploy the source to Vercel or run it locally with your own TypeSafe key; no license file, so reuse terms are not granted. No public hosted instance verified. Checked 2026-11-21. Source inspected; live app not run on the review host.
+
+[Full Sift by Nihir Dhamecha (blind resume shortlisting with Jev; names stay in the recruiter's browser) guide](sift-resume-shortlisting.md) · [Source](https://github.com/nihirdhamecha/sift)
+
 ### SiteClarity
 
 `Open source` · `Free` · `BYOK`
