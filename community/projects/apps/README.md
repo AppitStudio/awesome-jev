@@ -1442,6 +1442,22 @@ One sentence in, a narrated product demo video out: TypeSafe Jev drives your rea
 
 [Full jev-demofast guide](jev-demofast.md) · [Source](https://github.com/q3learners/jev-demofast) · [Product homepage](https://onecentdemo.com)
 
+### jev-dynamic-ui by Felix Glush (chat box that opens the right banking form and pre-fills it, with Jev picking the form)
+
+`Source available` · `Free source build` · `BYOK`
+
+A research demo: type "Send $50 to Sam for dinner" and the matching one of fourteen prebuilt banking forms opens with recipient and amount filled in, anything unstated left blank and highlighted. Jev picks the action and its choice fields in one request; a fine-tuned 350M model in Ollama extracts the free-text fields. An experimental voice mode fills the form while you talk.
+
+**Jev's role:** One Jev request per message picks the action (or none) and speculatively answers every choice parameter of every action; code keeps only the chosen action's answers.
+
+**Platform:** Local Next.js web app (Node 22+), Ollama for the extractor; optional local speech servers for voice.
+
+**Product:** [github.com/felixglush/jev-dynamic-ui](https://github.com/felixglush/jev-dynamic-ui)
+
+**Pricing / access:** Free source build run locally with your own TypeSafe key and Ollama; no license file, so reuse terms are not granted. No hosted app (the write-up site is static). Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full jev-dynamic-ui by Felix Glush (chat box that opens the right banking form and pre-fills it, with Jev picking the form) guide](jev-dynamic-ui.md) · [Source](https://github.com/felixglush/jev-dynamic-ui)
+
 ### jev-ercot
 
 `Open source` · `Free source build` · `BYOK`
