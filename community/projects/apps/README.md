@@ -1270,6 +1270,22 @@ Public chess ladder where TypeSafe Jev picks each move as a Choice over legal mo
 
 [Full Jev plays chess guide](jev-plays-chess.md) · [Source](https://github.com/dmallory42/jev-plays-chess)
 
+### Jev Plays Chess by hs094 (play chess and Connect Four against Jev in the browser while Jev runs a Dino game)
+
+`Source available` · `Free` · `BYOK`
+
+A browser game lab: you play White at chess or a Connect Four game against Jev, which picks from the legal moves the browser gives it, while Jev also plays a Chrome-Dino-style runner by choosing `jump` or `wait`. Games are saved locally in SQLite persisted through IndexedDB. Not related to the dmallory42 Jev plays chess ladder.
+
+**Jev's role:** Picks each move as a choice among legal moves (the browser enforces the rules), and jump-or-wait for the runner.
+
+**Platform:** Web (live Cloudflare Worker site, or run locally with Vite).
+
+**Product:** [jev-plays-chess.iamhardikat11.workers.dev](https://jev-plays-chess.iamhardikat11.workers.dev)
+
+**Pricing / access:** The live site is free to open; Jev moves need your own OpenCode API key with access to `jev-1.13-free`, or you can pick the keyless classifier.dev provider. Source has no license file, so reuse terms are not granted. Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full Jev Plays Chess by hs094 (play chess and Connect Four against Jev in the browser while Jev runs a Dino game) guide](hs094-jev-plays-chess.md) · [Source](https://github.com/hs094/Jev-Plays-Chess)
+
 ### Jev Radar
 
 `Open source` · `Free source build` · `BYOK`
