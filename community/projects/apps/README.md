@@ -1212,6 +1212,22 @@ Local interactive workbench with small demos showing TypeSafe Jev System One cap
 
 [Full Jev Lab (BrendanH18) guide](brendanh18-jev-lab.md) · [Source](https://github.com/BrendanH18/jev-lab)
 
+### Jev Learning Quest (Japanese study app where Jev picks today's quest and judges whether you need a review)
+
+`Source available` · `Free source build` · `BYOK`
+
+Choose how much time you have and your mood, and Jev picks one study quest; after you answer and self-assess, Jev judges your understanding and whether the item needs review. Content covers the Japanese Network Specialist and Registered Information Security Specialist exams plus AWS and GCP certification flashcards. UI and most docs are in Japanese, with an English README.
+
+**Jev's role:** Picks one quest from your time and mood, then judges understanding and the need for review after each answer.
+
+**Platform:** Web: local Node server on 127.0.0.1, or self-hosted on Vercel + Supabase.
+
+**Product:** [github.com/moruku36/jev-learning-quest](https://github.com/moruku36/jev-learning-quest)
+
+**Pricing / access:** Free source build: run locally with `npm start` or self-deploy to Vercel and Supabase with your own Jev key. The author's live deployment needs a GitHub login on an allowlist, so it is not open to the public. No license file, so reuse terms are not granted. Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full Jev Learning Quest (Japanese study app where Jev picks today's quest and judges whether you need a review) guide](jev-learning-quest.md) · [Source](https://github.com/moruku36/jev-learning-quest)
+
 ### Jev Play Games by Ege Bulut (watch Jev play 2048, Snake, a platformer and more live, with the odds of every move on screen)
 
 `Source available` · `Free`
