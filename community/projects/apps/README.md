@@ -3654,6 +3654,22 @@ Electron desktop app for macOS, Windows and Ubuntu where each bot in a chat-styl
 
 [Full OpenMausBot (desktop chat app for a team of AI agent bots, with Jev picking which bot answers) guide](openmausbot.md) · [Source](https://github.com/milind-soni/OpenMausBot)
 
+### OS1 by Nicholas Vasilescu (Her-inspired voice-first desktop assistant where Jev decides what to show and routes each turn)
+
+`Open source` · `Free source build` · `BYOK`
+
+An experimental voice-first personal assistant: an Electron and Three.js desktop client, a FastAPI orchestrator, a LiveKit voice stack with Fish Audio voices, and a Hermes background agent on a cloud VM. The screen stays quiet while you talk, and Jev decides when a card, inbox or other surface is worth showing (with anti-flicker hysteresis). Risky actions use an undo queue or read-back confirmation.
+
+**Jev's role:** Optional ~100 ms System One judgments: the UI Director picks which surface to show, mood and triage, and the turn router decides how each voice turn is handled; every caller still works when Jev is off or times out.
+
+**Platform:** Desktop (Electron, developed on macOS) plus local Python services; optional cloud VM on Orgo.
+
+**Product:** [github.com/nickvasilescu/os1-her](https://github.com/nickvasilescu/os1-her)
+
+**Pricing / access:** Free source build under MIT; you bring keys for Anthropic, LiveKit Cloud and Fish Audio (required) and optionally TypeSafe, Composio and Orgo, and pay those providers. Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full OS1 by Nicholas Vasilescu (Her-inspired voice-first desktop assistant where Jev decides what to show and routes each turn) guide](os1-her.md) · [Source](https://github.com/nickvasilescu/os1-her)
+
 ### PandaCode (native desktop workspace for many coding-agent CLIs with an optional, off-by-default Jev add-on for work review, project rules, context search and worker choice)
 
 `Source available` · `Free` · `BYOK`
