@@ -2784,6 +2784,22 @@ Self-hosted monitor that collects posts and articles across X, Reddit, Hacker Ne
 
 [Full Social Monitor (self-hosted feed that collects X, Reddit, Hacker News, RSS and GitHub posts, with Jev scoring each post's reader value) guide](social-monitor.md) · [Source](https://github.com/777genius/social-monitor)
 
+### Somewhat Magical Jev Ball (a Magic 8 Ball whose answer comes from twelve Jev judgments about your question)
+
+`Source available` · `Free`
+
+Type a yes/no question and shake the 3D ball: twelve independent Jev yes/no judgments (tone, whether it is about a fact, whether the answer is true, which way it leans, how certain) are combined in code into one of the twenty classic answers, and safe questions are relayed live to other visitors.
+
+**Jev's role:** One Jev request with twelve parallel `noul` questions per ask; code maps the probabilities to an answer and hides questions that look personal.
+
+**Platform:** Web (live site); Cloudflare Worker back end.
+
+**Product:** [somewhatmagicaljevball.com](https://somewhatmagicaljevball.com)
+
+**Pricing / access:** Free to use at somewhatmagicaljevball.com (rate limited to 20 requests per minute per IP); source has no license file, so reuse terms are not granted. Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full Somewhat Magical Jev Ball (a Magic 8 Ball whose answer comes from twelve Jev judgments about your question) guide](somewhat-magical-jev-ball.md) · [Source](https://github.com/raunaqgupta/somewhat-magical-jev-ball)
+
 ### Sortroom by mhoenes (self-hosted IMAP mail sorter where a decision model such as Jev files new mail into your own folders)
 
 `Open source` · `Free source build` · `BYOK`
