@@ -2632,6 +2632,22 @@ Interactive NPCs of River Oaks, Houston, with TypeSafe Jev powering NPC decision
 
 [Full River Oaks guide](river-oaks.md) · [Source](https://github.com/bunsdev/river-oaks)
 
+### Saanjh Clothing support demo by Swastik Methi (store support bot where Jev checks every drafted reply before it is sent)
+
+`Source available` · `Free source build` · `BYOK`
+
+A support bot for a fictional fashion store: customers can track an order, check a refund, cancel, return or report an undelivered package. Rules draft routine replies from order records, Jev scores every draft before it is sent, a fallback LLM gets one attempt when there is no draft or Jev rejects it, and anything that cannot be verified becomes a ticket. Cancellations and returns run only after the customer confirms.
+
+**Jev's role:** The send gate: Jev scores each draft for whether it is supported, complete and needs a human; cutoffs, the pinned model and question wording live in `data/gate.json`. A Jev timeout or malformed answer opens a ticket instead of sending.
+
+**Platform:** Web app (FastAPI) run locally on port 7860; Docker/Hugging Face Space-style config included.
+
+**Product:** [github.com/SwastikMethi/JEV-LLM](https://github.com/SwastikMethi/JEV-LLM)
+
+**Pricing / access:** Free source build that you run locally with your own TypeSafe key and a local Ollama model. No license file, so reuse terms are not granted. Checked 2026-11-23. Source inspected; live app not run on the review host.
+
+[Full Saanjh Clothing support demo by Swastik Methi (store support bot where Jev checks every drafted reply before it is sent) guide](saanjh-support-demo.md) · [Source](https://github.com/SwastikMethi/JEV-LLM)
+
 ### say-hi
 
 `Open source` · `Free source build` · `BYOK`
