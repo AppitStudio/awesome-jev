@@ -2202,6 +2202,22 @@ Simulator by Moddest Lab: retrieve similar past cases and their real comment mix
 
 [Full Netizen (simulate how Indonesian netizens react to a post before it goes live, judged by Jev) guide](netizen.md) · [Source](https://github.com/Seheta/netizen)
 
+### Nimble Rubric Evaluator (local web app that scores written responses against your rubric, with a TypeSafe Jev cloud option)
+
+`Source available` · `Free source build` · `BYOK`
+
+A local web app for teachers and assessors: build a rubric as a grid of criteria and levels, paste or import learners' responses, and get a level per criterion from a System One decision model. It runs nimble in Ollama by default (nothing leaves the machine), can switch to TypeSafe Jev or other cloud models, and ships a batch evaluator and benchmark against public essay datasets.
+
+**Jev's role:** Optional cloud backend: scores each response against each rubric criterion through the `/v1/systemone` API (`jev-latest`), instead of the local nimble model.
+
+**Platform:** Local web app in the browser, served by `serve.py` (Python 3); Ollama 0.35+ for the default local model.
+
+**Product:** [github.com/wheelie-bugsy/RLCD-Rubric-Evaluation-interface](https://github.com/wheelie-bugsy/RLCD-Rubric-Evaluation-interface)
+
+**Pricing / access:** Free source build that runs locally; the default nimble model runs in Ollama at no API cost, and the optional TypeSafe Jev cloud backend uses your own key. No license file, so reuse terms are not granted. Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full Nimble Rubric Evaluator (local web app that scores written responses against your rubric, with a TypeSafe Jev cloud option) guide](nimble-rubric-evaluator.md) · [Source](https://github.com/wheelie-bugsy/RLCD-Rubric-Evaluation-interface)
+
 ### Notra
 
 `Open source` · `Commercial` · `Paid`
