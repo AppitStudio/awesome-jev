@@ -3788,6 +3788,22 @@ Open-source AI agent that operates the Unreal Editor (levels, blueprints, materi
 
 [Full UE Box (Unreal Editor agent with a Jev judge role) guide](uebox-jev-judge.md) · [Source](https://github.com/ueboxai/uebox)
 
+### Viva Recall (flashcards you answer in your own words, marked by Jev, with an appeal agent you can argue with)
+
+`Source available` · `Free source build` · `BYOK`
+
+A desktop flashcard app for open-ended recall. You write a question and the answer you expect, an LLM turns that answer into small yes/no checks, and at review time Jev answers every check in one request; plain code turns the probabilities into a verdict and FSRS schedules the next review. If you dispute a mark, an appeal agent can fix the checks, but only if your previously settled answers still pass.
+
+**Jev's role:** Marks each review: one `noul` question per check, sent with only the question and your answer as state; code bands the probabilities (yes / no / unsure) and applies the card's rule.
+
+**Platform:** Electron desktop app (tested on macOS, Apple Silicon); local SQLite.
+
+**Product:** [github.com/jacquescogal/viva-recall](https://github.com/jacquescogal/viva-recall)
+
+**Pricing / access:** Free source build: run it with `npm run dev` using your own TypeSafe key and LLM key. No packaged release and no license file, so reuse terms are not granted. Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full Viva Recall (flashcards you answer in your own words, marked by Jev, with an appeal agent you can argue with) guide](viva-recall.md) · [Source](https://github.com/jacquescogal/viva-recall)
+
 ### Warren Duffer
 
 `Open source` · `Free source build` · `BYOK`
