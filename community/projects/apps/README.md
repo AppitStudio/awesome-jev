@@ -3122,6 +3122,22 @@ Hosted tool registry from Superdesign: agents use one base URL and token to call
 
 [Full Treg ("OpenRouter for agent tools": pay-per-call tool catalog whose tool search is judged by Jev) guide](treg.md) · [Source](https://github.com/superdesigndev/treg)
 
+### TypeSafe Use Case Lab by chaitanya-y (local app with 32 small runnable Jev workflows adapted from TypeSafe's use case map)
+
+`Source available` · `Free source build` · `BYOK`
+
+A local web app with 32 compact adaptations of TypeSafe's use case map, from invoice inboxes and support triage to OCR field checks, vaccination records and bird frames. Each example has editable inputs, a JSON view, the workflow code, its source link and a scope statement; you can preview with clearly labelled illustrative answers for free, or run it live on Jev and download the exact run JSON.
+
+**Jev's role:** Each workflow sends typed questions to Jev and applies plain decision rules to the answers; image examples use Box and crop-then-recheck.
+
+**Platform:** Local web app (Node.js server + browser UI); macOS double-click launcher included.
+
+**Product:** [github.com/chaitanya-y/typesafe-jev-workflows](https://github.com/chaitanya-y/typesafe-jev-workflows)
+
+**Pricing / access:** Free source build with no packages to install; live runs use your own TypeSafe key. No license file, so reuse terms are not granted. Checked 2026-11-23. Source inspected; live app not run on the review host.
+
+[Full TypeSafe Use Case Lab by chaitanya-y (local app with 32 small runnable Jev workflows adapted from TypeSafe's use case map) guide](typesafe-use-case-lab.md) · [Source](https://github.com/chaitanya-y/typesafe-jev-workflows)
+
 ### uCable (your YouTube subscriptions as an early-2000s satellite TV guide, with Jev tagging every video)
 
 `Open source` · `Free source build` · `BYOK`
