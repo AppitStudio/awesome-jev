@@ -3408,6 +3408,22 @@ Electron launcher that lives in the system tray: global hotkey, streaming chat w
 
 [Full Desktop Assistant by Neuronection (system-tray AI launcher whose optional decision layer uses Jev to dispatch short commands straight to tools) guide](desktop-assistant-neuronection.md) · [Source](https://github.com/neuronection/desktop-assistant)
 
+### Domios by Andrey Kovalev (desktop workspace that runs Claude Code, Codex and other agents as one team, with Jev ranking shared memory)
+
+`Open source` · `Freemium` · `Commercial` · `BYOK`
+
+A Tauri desktop app for macOS, Windows and Linux that runs Claude Code, Codex, OpenCode, Cursor, Aider and ACP agents side by side with your shells. A Planner scopes tasks, Workers take them and an Orchestrator reviews the evidence before a task closes; local memory keeps facts, decisions and skills across sessions, and a private mesh lets you reach agents on other machines or reply from Telegram.
+
+**Jev's role:** Optional: the Supporter Agent uses Jev to rerank memory and documentation candidates by how much each helps with the current question and to surface context; Domios works without it.
+
+**Platform:** Desktop (Tauri v2 with a Rust host and React UI) on macOS Apple Silicon, Windows x64 and Linux x64.
+
+**Product:** [domios.dev](https://domios.dev)
+
+**Pricing / access:** Free download and AGPL-3.0 source; the app has a Pro subscription (`domios account upgrade pro`) with plan limits on workspaces, Teams and tabs. Pro pricing was not verified ([account and subscription docs](https://github.com/domios-dev/domios/blob/256431d544651fd50a3891fcef58caaa4ba83b39/prod-docs/ACCOUNT.md), [website](https://domios.dev)). Jev is optional and uses your own TypeSafe key. Checked 2026-11-23. Source inspected; live app not run on the review host.
+
+[Full Domios by Andrey Kovalev (desktop workspace that runs Claude Code, Codex and other agents as one team, with Jev ranking shared memory) guide](domios.md) · [Source](https://github.com/domios-dev/domios)
+
 ### dotpals
 
 `Open source` · `Free` · `BYOK`
