@@ -3834,6 +3834,22 @@ Native macOS assistant: describe a task, review rule-ranked app/model/effort cho
 
 [Full AI Model Picker guide](ai-model-picker.md) · [Source](https://github.com/Gavinluo19/ai-model-picker)
 
+### Antispam for Apple Mail by pravbeseda (Mail extension that sorts every new message into spam, phishing, promo or legit with Jev)
+
+`Source available` · `Free source build` · `BYOK`
+
+An Apple Mail extension for macOS that classifies every newly received message in every Mail account. Spam and phishing above the confidence threshold (0.9 by default) move to Junk, below it they get a yellow background and gray flag; promotions get a purple flag. On any error the message is left untouched, and a watchdog checks every 30 minutes that filtering still works.
+
+**Jev's role:** One `choice` per new message among spam, phishing, promo and legit, with the confidence compared against your threshold.
+
+**Platform:** macOS 14+ Apple Mail (MailKit extension + SwiftUI host app).
+
+**Product:** [github.com/pravbeseda/antispam](https://github.com/pravbeseda/antispam)
+
+**Pricing / access:** Free source build that you compile and install yourself with Xcode and your own TypeSafe key. No signed release and no license file, so reuse terms are not granted. Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full Antispam for Apple Mail by pravbeseda (Mail extension that sorts every new message into spam, phishing, promo or legit with Jev) guide](antispam-apple-mail.md) · [Source](https://github.com/pravbeseda/antispam)
+
 ### ASO Workbench (App Store Optimization on your Mac, with Jev keyword clues)
 
 `Source available` · `Free`
