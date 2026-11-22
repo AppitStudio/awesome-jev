@@ -2924,6 +2924,22 @@ Mobile app (Expo and Supabase) for people moving from business roles into go-to-
 
 [Full Switchback (Expo mobile app with a browser demo that gives career switchers one technical lesson a day, with Jev choosing and grading each step) guide](switchback.md) · [Source](https://github.com/valerievanvu-dev/switchback)
 
+### Switchboard by Gaurav Lahoti (IT service desk agent where Jev screens each ticket and Gemini reasons only when needed)
+
+`Source available` · `Free source build` · `BYOK`
+
+A self-service IT triage agent built with Google ADK 2.0: Jev runs the fast checks (is this a real IT request, an injection or abuse attempt, in scope, which of eight intents, does this action need approval), code applies the rules, and Gemini at one of three tiers handles only the steps that need reasoning. Risky actions wait for a human, and every step goes to a masked, append-only audit log.
+
+**Jev's role:** System 1: an input guardrail (two attack checks and a scope check in one call), intent understanding (eight questions in one call) and approval decisions; code routes on the probabilities.
+
+**Platform:** Local web UI (FastAPI + SSE) on 127.0.0.1:5180; Dockerfile for Cloud Run.
+
+**Product:** [github.com/gauravlahoti/Switchboard](https://github.com/gauravlahoti/Switchboard)
+
+**Pricing / access:** Free source build run locally with your own TypeSafe key and Google Cloud (Vertex AI) account. The README says MIT but the repository has no license file, so reuse terms are not formally granted. Synthetic data only. Checked 2026-11-22. Source inspected; live app not run on the review host.
+
+[Full Switchboard by Gaurav Lahoti (IT service desk agent where Jev screens each ticket and Gemini reasons only when needed) guide](gauravlahoti-switchboard.md) · [Source](https://github.com/gauravlahoti/Switchboard)
+
 ### talktojev (Jev Prime)
 
 `Open source` · `Free` · `BYOK`
