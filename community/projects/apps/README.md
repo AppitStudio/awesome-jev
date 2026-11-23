@@ -3814,6 +3814,22 @@ Omarchy (Hyprland) plugin: move the pointer into the bottom-right corner and a c
 
 [Full omarchy-mouse-sacrifice guide](omarchy-mouse-sacrifice.md) · [Source](https://github.com/ignotas/omarchy-mouse-sacrifice)
 
+### OneClip by Jan M. (local AI video clipper where Jev scores candidate clips for hook strength before rendering vertical shorts)
+
+`Open source` · `Free source build` · `BYOK`
+
+Transcribes a long video locally, cuts sentence-aligned candidate clips, asks Jev for six scores, a context check and a hook type per clip, ranks them, has an AI planner (or a template) plan the edit, and renders 1080x1920 MP4s with word-by-word captions via Remotion or FFmpeg.
+
+**Jev's role:** Jev scores each candidate clip (six dimensions, context, hook type); OneClip ranks, penalises and de-duplicates from those answers.
+
+**Platform:** Local web app (Next.js) and media worker; tested on Windows 11, macOS/Linux untested end to end per the README.
+
+**Product:** [github.com/janmm97/oneclip](https://github.com/janmm97/oneclip)
+
+**Pricing / access:** Free MIT source build that runs locally; requires a free One account (withone.ai) plus your own TypeSafe account, billed at about 34k Jev tokens per video by the author's estimate; OpenRouter edit plans optional. Checked 2026-11-24. Source inspected; live app not run on the review host.
+
+[Full OneClip by Jan M. (local AI video clipper where Jev scores candidate clips for hook strength before rendering vertical shorts) guide](oneclip.md) · [Source](https://github.com/janmm97/oneclip)
+
 ### OpenMausBot (desktop chat app for a team of AI agent bots, with Jev picking which bot answers)
 
 `Open source` · `Free` · `BYOK`
