@@ -6772,6 +6772,22 @@ Label each X timeline post with intent and thresholded risk signals. Jev answers
 
 [Full Xtags guide](xtags.md) · [Source](https://github.com/manifoldor/xtags)
 
+### YouTube AI Video Filter by Hoàng Thành Tiến (Chrome and Edge extension that blurs YouTube videos whose titles Jev says match your blocking prompt)
+
+`Source available` · `Free source build` · `BYOK`
+
+Write a natural-language rule such as "block AI slop, brain rot and bad stock market news" and the extension checks YouTube titles against it. Matching videos are blurred, title and thumbnail, rather than removed, with a badge showing Jev's probability and a click-to-peek toggle; results are cached per rule and title.
+
+**Jev's role:** Jev answers one Noul question per video title in a batch ("should this video be blocked based strictly on the rule?"); the extension blurs titles above its threshold.
+
+**Platform:** Chrome and Edge (Manifest V3), loaded unpacked; not on a store.
+
+**Product:** [github.com/tim-polodev/yt-ai-filter](https://github.com/tim-polodev/yt-ai-filter)
+
+**Pricing / access:** Free source build, loaded unpacked; you supply a Command Code API key, and Jev calls are billed to that account. No license file, so reuse terms are not granted. Checked 2026-11-23. Source inspected; live app not run on the review host.
+
+[Full YouTube AI Video Filter by Hoàng Thành Tiến (Chrome and Edge extension that blurs YouTube videos whose titles Jev says match your blocking prompt) guide](yt-ai-filter.md) · [Source](https://github.com/tim-polodev/yt-ai-filter)
+
 ### YouTube Jev Filter (Chrome extension that hides clickbait, hype and Shorts on YouTube using Jev)
 
 `Open source` · `Free source build` · `BYOK`
