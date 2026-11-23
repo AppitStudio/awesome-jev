@@ -532,6 +532,22 @@ Free web interview that maps your AI worldview (doom↔bloom) using many TypeSaf
 
 [Try Doom or Bloom](https://www.doom-or-bloom.com) · [Full Doom or Bloom guide](doom-or-bloom.md) · [Source](https://github.com/transitive-bullshit/doom-or-bloom)
 
+### Double11 Radar by Yang (self-hosted Chinese deal-alert matcher that asks Jev whether each new deal fits your shopping needs)
+
+`Source available` · `Free source build` · `BYOK`
+
+Write shopping needs such as "tissues, not wet wipes" and the worker keeps collecting posts from the Xianbaoku deal feeds, asks Jev whether each new deal matches each need, and pushes confirmed matches to Bark and Feishu. Uncertain results wait in the web UI; failures are kept apart from "no match". Chinese README and UI.
+
+**Jev's role:** One Jev request per deal carries two questions per enabled need (is it relevant, is it an offer for it); a match is confirmed only when both answer `matched` with valid probabilities.
+
+**Platform:** Self-hosted Next.js web app and worker with SQLite, run with Docker Compose.
+
+**Product:** [github.com/zhexin233-ui/double11-radar](https://github.com/zhexin233-ui/double11-radar)
+
+**Pricing / access:** Free source build you self-host (Docker Compose on a NAS or server); your own TypeSafe key(s) are billed per Jev call, and the README notes each retry is a new paid call. No license file, so reuse terms are not granted. Checked 2026-11-24. Source inspected; live app not run on the review host.
+
+[Full Double11 Radar by Yang (self-hosted Chinese deal-alert matcher that asks Jev whether each new deal fits your shopping needs) guide](double11-radar.md) · [Source](https://github.com/zhexin233-ui/double11-radar)
+
 ### Dungeon of Jev
 
 `Open source` · `Free source build` · `BYOK`
