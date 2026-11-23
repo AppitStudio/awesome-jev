@@ -2664,6 +2664,22 @@ Interactive NPCs of River Oaks, Houston, with TypeSafe Jev powering NPC decision
 
 [Full River Oaks guide](river-oaks.md) · [Source](https://github.com/bunsdev/river-oaks)
 
+### Rondyr by Basaltbytes (self-hosted form backend on Cloudflare that screens messages for spam and sales pitches with Jev)
+
+`Open source` · `Free source build`
+
+Point your website's form at Rondyr and every message is saved in your own Cloudflare account, checked by rate limits, honeypot, Turnstile and repeat detection, then classified for spam, unsolicited sales outreach and business relevance. Accepted messages go to email, signed webhooks, Discord, Slack or Airtable; the rest wait in a To review folder for your team.
+
+**Jev's role:** Jev (by default) answers Noul and Choice questions about each message for spam, solicitation and, when you give business context, relevance; thresholds in code route it to Accepted or To review. OpenAI Decisions is an alternative, with optional second-model escalation for uncertain messages.
+
+**Platform:** Web app on Cloudflare Workers (one-click Deploy to Cloudflare); pre-alpha.
+
+**Product:** [rondyr.com](https://rondyr.com)
+
+**Pricing / access:** Free AGPL-3.0 source; you deploy it to your own Cloudflare account, which needs Workers Paid ($5/month per account, per the project's costs guide) plus any Workers AI, email and usage charges. No hosted Rondyr service was found. Checked 2026-11-23. Source inspected; live app not run on the review host.
+
+[Full Rondyr by Basaltbytes (self-hosted form backend on Cloudflare that screens messages for spam and sales pitches with Jev) guide](rondyr.md) · [Source](https://github.com/basaltbytes/rondyr)
+
 ### Saanjh Clothing support demo by Swastik Methi (store support bot where Jev checks every drafted reply before it is sent)
 
 `Source available` · `Free source build` · `BYOK`
