@@ -1122,6 +1122,22 @@ File a local document folder into configured categories with TypeSafe Jev (Verce
 
 [Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
 
+### Jev Evaluation Lab by march (research workspace that classifies AI-system descriptions with Jev and compares results with human reviews)
+
+`Source available` · `Free source build` · `BYOK`
+
+An independent research workspace: analyze AI-system descriptions with five governance questions (Choice, Noul and Score), read exact passages on human oversight in a synthetic document corpus, compare text and graph search, and compare predictions with reviewer labels. An assessments workspace runs documentary checks for a Claude Code adoption or an internal assistant against eight regulatory excerpts and exports an evidence-linked report. English and German UI; it makes no legal compliance decisions.
+
+**Jev's role:** Jev answers the governance questions about a description and, only on an explicit action, judges whether a single synthetic passage is relevant evidence. Search, rules and assessments are deterministic code.
+
+**Platform:** Local web app (Next.js); browser storage for history and reviews.
+
+**Product:** [github.com/marchexe/jev-evaluation-lab](https://github.com/marchexe/jev-evaluation-lab)
+
+**Pricing / access:** Free source build; live Jev runs use your own TypeSafe key and are off by default. A hosted deployment is linked from the repository ([jev-evaluation-lab-lovat.vercel.app](https://jev-evaluation-lab-lovat.vercel.app)) but was not checked. No license file (package.json says UNLICENSED), so reuse terms are not granted. Checked 2026-11-23. Source inspected; live app not run on the review host.
+
+[Full Jev Evaluation Lab by march (research workspace that classifies AI-system descriptions with Jev and compares results with human reviews) guide](jev-evaluation-lab.md) · [Source](https://github.com/marchexe/jev-evaluation-lab)
+
 ### Jev Fighter
 
 `Open source` · `Free` · `BYOK`
