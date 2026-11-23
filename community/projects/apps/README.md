@@ -7414,6 +7414,24 @@ Spanish-language Telegram bot that answers theology questions, verifies claims a
 
 [Full Veritheo (Spanish theology Telegram bot with Jev guards and routing) guide](veritheo-telegram-bot.md) · [Source](https://github.com/alambertt/veritheo)
 
+## QQ bots
+
+### qqbot by Mist-wu (QQ group chat bot where Jev decides whether to speak and DeepSeek decides what to say)
+
+`Open source` · `Free source build` · `BYOK`
+
+A self-hosted QQ bot on NapCat. New group messages are batched and Jev gives the probability that the bot should join in; being @-mentioned or replied to lowers the bar but does not force a reply. DeepSeek writes the replies, describes images and stickers, and the bot keeps long-term memory of private chats. Chinese README.
+
+**Jev's role:** Jev returns Noul probabilities for whether to reply to the current batch of messages; code applies the thresholds. Without a TypeSafe key the bot only speaks in private chats, on @, replies or when named.
+
+**Platform:** Self-hosted Node.js bot for QQ via NapCat (OneBot v11 WebSocket).
+
+**Product:** [github.com/Mist-wu/qqbot](https://github.com/Mist-wu/qqbot)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full qqbot by Mist-wu (QQ group chat bot where Jev decides whether to speak and DeepSeek decides what to say) guide](qqbot-jev.md) · [Source](https://github.com/Mist-wu/qqbot)
+
 ## Before you get started
 
 Each guide records supported platforms, setup, accounts and keys, data recipients, costs, limitations, and the version reviewed. Follow its launch or build path. Source availability does not imply a downloadable release or free inference, and an app listing does not certify production readiness.
