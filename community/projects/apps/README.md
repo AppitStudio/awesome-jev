@@ -7248,6 +7248,22 @@ Native terminal multiplexer for coding agents (live status, persistent sessions,
 
 [Full pitwall guide](pitwall.md) · [Source](https://github.com/quanticstudios/pitwall)
 
+### System IQ by Harsh Tomar (CLI that turns a project idea into a system design, with Jev making the bounded architecture choices and checking the result)
+
+`Source available` · `Free source build` · `BYOK`
+
+Send an idea from the command line to a small FastAPI backend: an LLM extracts the requirements, Jev decides API style, database, architecture, caching, async work and scaling as probabilities, the LLM writes a 13-section design around those decisions, and Jev then asks validation questions about the finished design. No application code is generated.
+
+**Jev's role:** Jev answers Choice and Noul questions for each architecture decision and for validation of the written design; the LLM writes the text.
+
+**Platform:** Python CLI with a FastAPI backend (local or the author's hosted demo).
+
+**Product:** [system-iq.onrender.com](https://system-iq.onrender.com)
+
+**Pricing / access:** Free source build with your own Groq and OpenCode keys. The author also runs a hosted demo on free tiers that needs an access code from the project page and has daily limits (author statement; not used for this review). No license file, so reuse terms are not granted. Checked 2026-11-23. Source inspected; live app not run on the review host.
+
+[Full System IQ by Harsh Tomar (CLI that turns a project idea into a system design, with Jev making the bounded architecture choices and checking the result) guide](system-iq.md) · [Source](https://github.com/TFD666/system-iq)
+
 ### Tidyward (private file housekeeper for macOS where Jev answers what each file is)
 
 `Open source` · `Free source build` · `BYOK`
