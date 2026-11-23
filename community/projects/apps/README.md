@@ -1980,6 +1980,22 @@ Chinese-style I Ching (六爻) site with programmatic casting plus TypeSafe Jev 
 
 [Full Liuyao guide](liuyao.md) · [Source](https://github.com/masonweb3/liuyao)
 
+### loadline by d-station-grid (Apple Watch training dashboard where Jev checks each line a 3D avatar says in your weekly review)
+
+`Open source` · `Pricing unverified`
+
+A web app that imports Apple Watch workouts (through the Health Auto Export iOS app) and shows fitness, fatigue and VO2max on one dashboard. Once a week a 3D VRM avatar speaks a short review of the week and offers two or three options for the next one. Code judges fatigue and load against your own past nine weeks, Gemini writes the line and the options, and Jev checks the line before the avatar is allowed to say it.
+
+**Jev's role:** Jev returns Noul probabilities that the avatar's drafted line pushes you too hard, gives medical advice or recommends more training, picks a matching facial expression (Choice), and separately checks whether your weekly notes mention pain or illness. Code reads the probabilities; at 0.35 or higher, or if Gemini or Jev fails, a prepared fallback line is used.
+
+**Platform:** Web (React frontend, FastAPI backend on Cloud Run); hosted beta and source build. Workout import needs an iPhone with Apple Watch data.
+
+**Product:** [api-qbvpsx77dq-an.a.run.app](https://api-qbvpsx77dq-an.a.run.app)
+
+**Pricing / access:** Hosted beta with a no-sign-up guest demo ([app](https://api-qbvpsx77dq-an.a.run.app)); no pricing page or plan terms were found, so hosted access terms are unverified. The AGPL-3.0 source build has no purchase fee; self-hosting needs your own Gemini (Vertex AI), TypeSafe, Firebase and database setup. Checked 2026-11-23. Source inspected; live app not run on the review host.
+
+[Full loadline by d-station-grid (Apple Watch training dashboard where Jev checks each line a 3D avatar says in your weekly review) guide](loadline.md) · [Source](https://github.com/d-station-grid/loadline)
+
 ### Magic Jev Ball
 
 `Open source` · `Free`
