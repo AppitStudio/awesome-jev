@@ -2044,6 +2044,22 @@ Magic 8 Ball in the browser that doesn't pick at random: hold it, shake it, let 
 
 [Full Magic Jev Ball guide](magic-jev-ball.md) · [Source](https://github.com/mikecann/magic-jev-ball)
 
+### Magpie by Ian Poley (local archive of your X bookmarks and likes, sorted into topics with Jev and searchable by coding agents)
+
+`Source available` · `Free source build` · `BYOK`
+
+Syncs your X bookmarks and likes to your machine every few hours, has Claude propose topic areas and Jev score each post against each topic, and serves a local web app for filtering, browsing linked repos and pages, and asking questions answered from your saved posts. A Claude skill lets coding agents search the archive.
+
+**Jev's role:** Jev scores each saved post against each topic for tagging and helps select posts for Ask; Claude (optional) proposes the categories and writes Ask answers.
+
+**Platform:** Local web app on 127.0.0.1 with background services (LaunchAgents or systemd user units) on macOS or Linux.
+
+**Product:** [github.com/ianpoley/magpie](https://github.com/ianpoley/magpie)
+
+**Pricing / access:** Free source build run on your own macOS or Linux machine; a TypeSafe API key is required and Jev calls are billed to it; optional Claude Code calls count against your Claude plan. No license file, so reuse terms are not granted. Checked 2026-11-24. Source inspected; live app not run on the review host.
+
+[Full Magpie by Ian Poley (local archive of your X bookmarks and likes, sorted into topics with Jev and searchable by coding agents) guide](magpie-x-bookmarks.md) · [Source](https://github.com/ianpoley/magpie)
+
 ### mail (keyboard-first unified inbox with Jev important-vs-promotions sorting)
 
 `Source available` · `Free source build` · `BYOK`
