@@ -5096,6 +5096,22 @@ iPhone custom keyboard from the jev-chat-jarvis family: copy a message (or turn 
 
 [Full Jev Jarvis for iOS (custom keyboard that shows a chat message's intent, risk and ranked reply suggestions in any chat app) guide](jev-chat-jarvis-ios.md) · [Source](https://github.com/jev-chat/jev-chat-jarvis-ios)
 
+### Jevvy AI: Food Label Scanner by Yash Patidar (iPhone app that scores a food label with Jev and gives a verdict, reasons and swaps)
+
+`Closed source` · `Free`
+
+iPhone food-label scanner: scan a barcode or photograph a label and Jevvy gives a Yum or bleh verdict, a score out of 100 and one line on why; the maker says scores are made by Jev.
+
+**Jev's role:** Per the maker: Jev weighs the whole label (Open Food Facts data or a label photo) and produces the score, checked against UK traffic-light limits for sugar, salt and fat. Which other models, if any, write the explanations or answer questions was not stated.
+
+**Platform:** iPhone (iOS 26 or later; also listed for Apple silicon Macs and visionOS); App Store release. No Android app yet.
+
+**Product:** [jevvyai.app](https://jevvyai.app)
+
+**Pricing / access:** Free, with no account, ads or tracking ([App Store](https://apps.apple.com/us/app/jevvy-ai-food-label-scanner/id6836675657); the [site](https://jevvyai.app) FAQ says "Jevvy is free to use"; checked 2026-11-23). Closed source — implementation not inspected; Jev evidence is the maker's App Store listing, website and [X post](https://x.com/yash_patidar_ai/status/2124664321011769806). Not an endorsement.
+
+[Full Jevvy AI: Food Label Scanner by Yash Patidar (iPhone app that scores a food label with Jev and gives a verdict, reasons and swaps) guide](jevvy-food-label-scanner.md) · [Source](https://jevvyai.app) · [Product homepage](https://jevvyai.app)
+
 ## Windows apps
 
 ### Booksmith (Calibre ebooks to Plex audiobooks, with Jev-planned pauses)
