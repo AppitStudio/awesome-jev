@@ -36,7 +36,7 @@ Treat this cadence as a maintainer responsibility; CI cannot perform editorial r
 
 ## Prepare a public release
 
-Read the README as a newcomer, follow its first-run instructions in a clean checkout, verify license boundaries, and confirm that no credentials, local research, or generated artifacts are tracked. Enable GitHub Actions, inspect the first run, and require the `Checks` workflow's `offline` check before merging once repository settings permit it.
+Read the README as a newcomer, follow its first-run instructions in a clean checkout, verify license boundaries, and confirm that no credentials, local research, or generated artifacts are tracked. Enable GitHub Actions and inspect the first run. The `Checks` workflow validates the default branch every six hours (00:41, 06:41, 12:41, and 18:41 UTC) and can also be run manually. It is not a required pre-merge check: listing pull requests can merge between scheduled validations. Review failures from scheduled runs and correct regressions promptly.
 
 Suggested GitHub description: “Curated Jev resources and runnable examples for typed AI decisions.” Suggested topics: `awesome`, `awesome-list`, `jev`, `typesafe-ai`, `system-one`, `ai`, `decision-making`. These are setup suggestions, not automatically configured repository settings.
 

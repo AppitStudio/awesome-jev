@@ -1,18 +1,16 @@
 name: Checks
 
 on:
-  # PRs already validate the prospective merge; avoid repeating every merged listing.
+  # Batch validation to avoid a separate runner for every listing PR.
   schedule:
-    - cron: '41 6 * * *'
-  merge_group:
-  pull_request:
+    - cron: '41 */6 * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: checks-${{ github.event.pull_request.number || github.ref }}
+  group: checks-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
