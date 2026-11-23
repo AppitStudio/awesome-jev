@@ -350,6 +350,22 @@ Self-hosted homelab dashboard where open Clef-flash (GGUF on a 6 GB laptop GPU) 
 
 [Full Clef homelab decision engine guide](clef-homelab.md) · [Source](https://github.com/NikhileshThiru/clef)
 
+### CodeOtter by Dharmesh Gurnani (self-hosted AI code review where a System One model such as Jev answers the scores and yes/no merge gates)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted pull-request reviewer for GitHub, Bitbucket, Azure DevOps, Forgejo and Gitea. A System One model answers six 0-100 rubric scores and nine yes/no merge gates in one pass, while a language model writes the review text and inline fixes. Runs fully offline with local GGUF models or with your own API keys.
+
+**Jev's role:** With the TypeSafe Jev provider selected, Jev answers the score rubrics (five levels mapped to 0-100) and the yes/no merge gates; CodeOtter applies the pass/fail rules. Jev can be swapped for local System One-compatible runtimes or Jev via OpenRouter.
+
+**Platform:** Self-hosted Node.js web app (Docker, Render, Railway, Azure templates, or local `pnpm dev`).
+
+**Product:** [codeotter.io](https://codeotter.io)
+
+**Pricing / access:** Free AGPL-3.0 self-hosted build; the README says there is no paid tier (GitHub Sponsors only). Jev scoring needs your own TypeSafe key (or OpenRouter key) and is billed to that account; local GGUF models avoid API costs. Checked 2026-11-24. Source inspected; live app not run on the review host.
+
+[Full CodeOtter by Dharmesh Gurnani (self-hosted AI code review where a System One model such as Jev answers the scores and yes/no merge gates) guide](codeotter.md) · [Source](https://github.com/dharmeshgurnani/CodeOtter)
+
 ### CrawlHive
 
 `Open source` · `Pricing unverified`
