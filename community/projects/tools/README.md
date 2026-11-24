@@ -1633,6 +1633,7 @@ See the [computer-use guide](../../../docs/computer-use.md) for a comparison, fo
 
 | Project | What you can do | Stack / format |
 | --- | --- | --- |
+| [20 Questions with Jev by Rhys Lindmark (hands-on workshop: build a 20 Questions player with Jev and race it against DeepSeek and Sonnet)](20-questions-workshop.md) | Leveled workshop teaching "Jev makes one judgment, code does the rest": each turn Jev picks the next yes/no question, while answering, crossing off candidates and guessing are plain code. Uses a fixed 100-noun × 35-question answer table that Jev filled once, and recorded races so it runs without keys. | Node.js workshop (no dependencies) with a terminal race and a local web page (MIT) |
 | [2048 with Jev](2048-with-jev.md) | 2048 experiment where a bot chooses moves via the TypeSafe SDK (`typesafe-sdk`, pinned) using a fixed Jev model id so runs do not silently follow `jev-latest` alias moves. | Python 2048 bot + game UI pieces (MIT) |
 | [2048: Jev vs Laya](2048-jev-vs-laya.md) | Reproducible 2048 head-to-head of Jev vs Laya with move-level logs. | Python · simulation + reports (MIT) |
 | [Agent Chess (Claude vs Jev)](agent-chess.md) | Local chess board styled after chess.com where Claude models and Jev play each other, with per-side engine settings, Jev move probabilities in the live view, a per-run spend cap and server-side legality checks. | Local web app (Node.js) (MIT) |
