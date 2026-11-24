@@ -682,6 +682,22 @@ Family organizer with shared shopping lists, tasks, calendar, spending, projects
 
 [Full FamilyWell (self-hostable family organizer whose optional TypeSafe key lets Jev sort shopping items and expenses filed under Other) guide](familywell.md) · [Source](https://github.com/bvdr/familywell)
 
+### Fer Agent by Fernando Villar Peláez (open-source agent company in your browser where a built-in JEV agent decides whether each costly step is worth it)
+
+`Open source` · `Free` · `BYOK`
+
+An English/Spanish web and desktop app where your AI agents live in a building: floors are teams, a boss shares out the work, and agents have their own model, heartbeat and spending caps. A built-in JEV agent checks costly steps (a web search, a retry, a new agent) and decides go ahead, reuse, stop or ask the boss.
+
+**Jev's role:** The JEV agent uses `~typesafe/jev-latest` through OpenRouter's decisions API to answer a Choice before spending steps and to pick the best of several answers; other agents use whatever text models you choose.
+
+**Platform:** Browser (hosted site or local), plus Mac and Windows desktop builds from GitHub Releases.
+
+**Product:** [feragent.netlify.app](https://feragent.netlify.app)
+
+**Pricing / access:** Free MIT app (browser, Mac and Windows builds). Agents run on your own OpenRouter key or provider subscription; JEV calls go through OpenRouter's decisions API and are billed to that key. Checked 2026-11-24. Source inspected; live app not run on the review host.
+
+[Full Fer Agent by Fernando Villar Peláez (open-source agent company in your browser where a built-in JEV agent decides whether each costly step is worth it) guide](fer-agent.md) · [Source](https://github.com/Ferjovipe/fer-agent)
+
 ### FilmHunch
 
 `Open source` · `Free source build` · `BYOK`
