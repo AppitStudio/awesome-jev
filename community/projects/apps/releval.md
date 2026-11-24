@@ -10,7 +10,7 @@ Self-hosted tool for search engineers to evaluate and track search relevance (ND
 | Tags | `Closed source` · `Freemium` · `Commercial` · `BYOK` |
 | Product homepage | [Product homepage](https://releval.co) |
 | Pricing and access | [Pricing](https://releval.co/pricing): free Individual tier (1 user, 1 search endpoint, 1 App Client, unlimited evaluations); Team and Enterprise tiers are paid via a license file (prices not listed publicly). Self-hosted. Jev and other AI judges use your own provider keys, billed separately. Checked 2026-11-24. |
-| Jev evidence | [`blog/jev-ai-judges/`](https://releval.co/blog/jev-ai-judges/) at the pinned release. Source inspected; not run on the review host. |
+| Jev evidence | [`blog/jev-ai-judges/`](https://releval.co/blog/jev-ai-judges/) (vendor release notes for 1.2.0). Closed source: implementation not inspected; app not run on the review host. |
 | Disclosure | AI-assisted catalog review; no affiliation with the maintainer. Listing is not an endorsement. Install and live calls not run on the review host. Closed source: the implementation could not be inspected; Jev support is vendor-reported (release notes), not checked hands-on. Commercial product: free Individual tier, paid Team and Enterprise licenses; check current pricing. No relationship with the vendor. Discovered via X ([post](https://x.com/releval_co/status/2125230203555528898)). |
 | Maintainer | Releval (founder Russ Cam, [releval.co](https://releval.co)). Independently curated. |
 | Format | Self-hosted web app (closed source) |
