@@ -2702,6 +2702,22 @@ Hosted growth teammate that investigates product, search, content, and ad signal
 
 [Full Refix guide](refix.md) · [Source](https://www.refix.ai) · [Product homepage](https://www.refix.ai)
 
+### Releval (self-hosted search relevance evaluation with AI judges that grade results with Jev)
+
+`Closed source` · `Freemium` · `Commercial` · `BYOK`
+
+Self-hosted tool for search engineers to evaluate and track search relevance (NDCG, MRR) against Elasticsearch, OpenSearch, Vespa or any search API. Since 1.2.0 its AI judges can grade each result with Jev, recording a probability for every grade so you can see where the judge hesitated and which judgments to sample; 1.3.0 adds OpenAI's Decisions API under a common decision-model type.
+
+**Jev's role:** A decision judge sends Jev the query, the result's title and mapped fields, and one description per grade on the evaluation's scale; Jev returns a probability per grade and Releval records the grade from them.
+
+**Platform:** Self-hosted server with a web UI (downloadable from releval.co).
+
+**Product:** [releval.co](https://releval.co)
+
+**Pricing / access:** [Pricing](https://releval.co/pricing): free Individual tier (1 user, 1 search endpoint, 1 App Client, unlimited evaluations); Team and Enterprise tiers are paid via a license file (prices not listed publicly). Self-hosted. Jev and other AI judges use your own provider keys, billed separately. Checked 2026-11-24. Source inspected; live app not run on the review host.
+
+[Full Releval (self-hosted search relevance evaluation with AI judges that grade results with Jev) guide](releval.md) · [Source](https://releval.co)
+
 ### Resurface
 
 `Open source` · `Free source build` · `BYOK`
