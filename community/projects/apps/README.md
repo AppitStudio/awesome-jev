@@ -3266,6 +3266,22 @@ Web app that takes the last 14 days of videos from your YouTube subscriptions an
 
 [Full uCable (your YouTube subscriptions as an early-2000s satellite TV guide, with Jev tagging every video) guide](ucable.md) · [Source](https://github.com/hiitsmax/ucable)
 
+### Uncle Gerd's Graveyard of Dead Side Projects by Jens Martsch (pixel-art graveyard of your stale GitHub repos where Jev judges revival odds)
+
+`Source available` · `Free` · `BYOK`
+
+A personal agent on a Fly.io Sprite that finds your GitHub repos with no push in a year and turns them into tombstones in a walkable pixel-art graveyard or museum. Jev judges revival odds, whether it's worth it, and Uncle Gerd's mood; an LLM writes his lines; Claude Code can try to revive a project on its own Sprite. Built for Hacksgiving 2026.
+
+**Jev's role:** Jev answers typed questions per repo (revivable and worth-it Nouls, a mood Choice) that drive the plaque tone and which projects get revival attempts.
+
+**Platform:** Hosted web app on Fly.io Sprites; local demo with `npm run dev`.
+
+**Product:** [ugm-museum-3nrx.sprites.app](https://ugm-museum-3nrx.sprites.app)
+
+**Pricing / access:** Free to visit the hosted museum and to run from source; self-hosting uses your own Fly.io Sprites, GitHub, TypeSafe, Ollama Cloud and Anthropic accounts. Checked 2026-11-24. Source inspected; live app not run on the review host.
+
+[Full Uncle Gerd's Graveyard of Dead Side Projects by Jens Martsch (pixel-art graveyard of your stale GitHub repos where Jev judges revival odds) guide](uncle-gerds-graveyard.md) · [Source](https://github.com/jmartsch/uncle-gerds-graveyard-of-dead-side-projects)
+
 ### undertone
 
 `Source available` · `Free source build` · `BYOK`
