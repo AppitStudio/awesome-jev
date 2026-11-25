@@ -5288,6 +5288,22 @@ Full SMS/MMS app for Android that replaces Google Messages as your default and d
 
 ## iOS apps
 
+### Agent Approve by Agent Approve LLC (iPhone and Apple Watch approvals for AI coding agents, with Jev-powered Policy Rules that check each action)
+
+`Closed source` · `Paid` · `Commercial`
+
+Monitor Claude Code, Codex, Cursor and other coding agents from an iPhone or Apple Watch and approve or deny their requests away from the keyboard. Version 0.9 adds Policy Rules powered by Jev: rules you write (with examples and counterexamples) are checked against agent actions that the Allow, Deny and Ask lists have not already decided.
+
+**Jev's role:** Per the vendor, Jev is the default decision model behind Agent Approve Fast: it checks each undecided agent action against your Policy Rules, with a per-rule match threshold; you can connect your own decision-model provider instead.
+
+**Platform:** iPhone and Apple Watch app (App Store) plus an installer that adds hooks to the coding agents on your computer (Cursor, Claude Code, Codex, Antigravity, OpenCode, Pi, Hermes, OpenClaw, OpenHands, VS Code Copilot, Copilot CLI, Windsurf).
+
+**Product:** [agentapprove.com](https://agentapprove.com)
+
+**Pricing / access:** Paid subscription: Solo $7.99/month (5,000 AI credits, 3 agents or subagents at once) and Pro $14.99/month (15,000 AI credits, 7 at once), chosen in the app; eligible new subscribers get a 7-day free trial with 2,000 AI credits ([pricing](https://agentapprove.com/pricing), checked 2026-11-26). Rule checks through Agent Approve Fast use plan credits; no separate TypeSafe key is needed. Closed source — implementation not inspected; Jev evidence is the vendor's changelog, pricing page and [X post](https://x.com/agentapprove/status/2125009080440025264). Not an endorsement.
+
+[Full Agent Approve by Agent Approve LLC (iPhone and Apple Watch approvals for AI coding agents, with Jev-powered Policy Rules that check each action) guide](agent-approve.md) · [Source](https://agentapprove.com) · [Product homepage](https://agentapprove.com)
+
 ### Bearly (smart-glasses shopping helper where Jev reads what each spoken sentence asks for and boxes the items you look at)
 
 `Source available` · `Free source build` · `BYOK`
