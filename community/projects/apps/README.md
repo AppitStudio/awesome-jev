@@ -3298,6 +3298,22 @@ Hosted tool registry from Superdesign: agents use one base URL and token to call
 
 [Full Treg ("OpenRouter for agent tools": pay-per-call tool catalog whose tool search is judged by Jev) guide](treg.md) · [Source](https://github.com/superdesigndev/treg)
 
+### TypeSafe Classifier Dashboard by lecharles (local Next.js app that classifies support e-mails, video titles or any text with Jev and charts the answers)
+
+`Source available` · `Free source build` · `BYOK`
+
+Local-first Next.js app with three dashboards, a playground, e-mail triage (category, urgency, priority) and a YouTube analyzer (topic, clickbait, sentiment), that sends typed Choice, Score and Noul questions to Jev and charts the answers with donuts, histograms and gauges.
+
+**Jev's role:** Jev answers all of a dashboard's typed questions in one `/v1/systemone` request per item; the app charts the probabilities.
+
+**Platform:** Web app run locally (Next.js, React, Recharts).
+
+**Product:** [github.com/lecharles/typesafe-classifier-dashboard](https://github.com/lecharles/typesafe-classifier-dashboard)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full TypeSafe Classifier Dashboard by lecharles (local Next.js app that classifies support e-mails, video titles or any text with Jev and charts the answers) guide](typesafe-classifier-dashboard.md) · [Source](https://github.com/lecharles/typesafe-classifier-dashboard)
+
 ### TypeSafe Use Case Lab by chaitanya-y (local app with 32 small runnable Jev workflows adapted from TypeSafe's use case map)
 
 `Source available` · `Free source build` · `BYOK`
