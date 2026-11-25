@@ -3568,6 +3568,22 @@ Viewer for the session logs Claude Code keeps in `~/.claude/projects`: readable 
 
 [Full Claude Code Trace (desktop, web and terminal viewer for Claude Code session logs with an optional Jev efficiency analysis) guide](claude-code-trace.md) · [Source](https://github.com/delexw/claude-code-trace)
 
+### Dazzi by NomaDamas (Finder-style desktop file manager that answers questions about your files with citations, powered by AutoRAG and Jev)
+
+`Source available` · `Freemium` · `Commercial`
+
+Desktop file manager for macOS and Windows built on the AutoRAG librarian: browse files, preview with Space, find duplicates and version stacks, and ask questions across documents, chats and mail with every answer citing its source. The librarian's Jev decisions (query routing, citation and evidence checks) run on Dazzi's managed models or on your own provider key.
+
+**Jev's role:** Through the bundled AutoRAG librarian, Jev routes each question and judges whether cited excerpts are relevant and supported before an answer is shown.
+
+**Platform:** macOS (Apple silicon DMG) and Windows (x64 installer).
+
+**Product:** [dazziapp.com/](https://dazziapp.com/)
+
+**Pricing / access:** Freemium: Free ($0, small credit allowance covering chat, embeddings, reranking and Jev), Air $4/mo, Pro $20/mo and Max $200/mo per [dazziapp.com](https://dazziapp.com/); or connect your own provider key and pay the provider. Checked 2026-11-25. Source inspected; live app not run on the review host.
+
+[Full Dazzi by NomaDamas (Finder-style desktop file manager that answers questions about your files with citations, powered by AutoRAG and Jev) guide](dazzi.md) · [Source](https://github.com/NomaDamas/AutoRAG-app)
+
 ### Desktop Assistant by Neuronection (system-tray AI launcher whose optional decision layer uses Jev to dispatch short commands straight to tools)
 
 `Open source` · `Free` · `BYOK`
