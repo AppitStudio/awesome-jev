@@ -4604,6 +4604,22 @@ Native macOS emoji picker: type `:` and a few letters in any app. Search runs lo
 
 [Full Moji (macOS emoji picker with optional Jev ranking) guide](moji-emoji-picker.md) · [Source](https://github.com/beckyisj/moji)
 
+### Omni Mail by BradWMorris (read-only Gmail inbox that labels mail Action or No Action with Jev or local Liquid AI models)
+
+`Open source` · `Free source build` · `BYOK`
+
+Local Mac app that syncs Gmail threads read-only into SQLite and labels the newest received message in each thread **Action** or **No Action**. You choose Jev (through TypeSafe or OpenRouter) or a local Liquid AI model (d1-2B or Omni 600M); an optional lab tests small weight edits of the local models on your own labelled mail.
+
+**Jev's role:** With a Jev provider selected, Omni Mail sends the sender, subject and up to 12,000 characters of body text to Jev and uses its probability with a 0.50 cutoff to label the message Action or No Action.
+
+**Platform:** macOS (verified by the author on Apple silicon with macOS 26); a local Python server serves the React UI at 127.0.0.1:8765.
+
+**Product:** [github.com/bradwmorris/omni-mail](https://github.com/bradwmorris/omni-mail)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full Omni Mail by BradWMorris (read-only Gmail inbox that labels mail Action or No Action with Jev or local Liquid AI models) guide](omni-mail.md) · [Source](https://github.com/bradwmorris/omni-mail)
+
 ### Parrot (native macOS meeting recorder with a live AI assistant that can use Jev for instant answers from your own documents)
 
 `Open source` · `Free` · `BYOK`
