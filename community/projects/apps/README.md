@@ -7628,6 +7628,22 @@ Self-hosted Telegram bot for group chats: members earn karma from reactions, rep
 
 [Full Jevchik (Telegram group bot: karma for useful messages, anti-spam for newcomers, judged by Jev) guide](jevchik.md) · [Source](https://github.com/smixs/jevchik)
 
+### judge-jev by Mikhail Levchenko (Telegram Guest Mode bot that answers yes/no and pick-one questions about a message with Jev probabilities)
+
+`Source available` · `Free` · `BYOK`
+
+Cloudflare Worker behind the Telegram bot @judge_jev_bot: mention it in any chat (Guest Mode) with a question, or reply to a message with `/is_this_true`, `/classify a | b` or `/judge`, and it returns Jev's probabilities for each option. The Worker owns parsing, thresholds and formatting; Jev only returns typed Noul and Choice answers. Examples are in Russian.
+
+**Jev's role:** Jev answers one Noul or Choice question per command about the replied-to text or caption; the Worker sorts the options by probability and bolds the top one.
+
+**Platform:** Telegram (public bot @judge_jev_bot, or self-host the Cloudflare Worker).
+
+**Product:** [github.com/Mishkun/judge-jev](https://github.com/Mishkun/judge-jev)
+
+**Pricing / access:** The public bot has no payment step (the README describes none); self-hosting needs your own OpenRouter key and a Cloudflare account. Checked 2026-11-26. Source inspected; live app not run on the review host.
+
+[Full judge-jev by Mikhail Levchenko (Telegram Guest Mode bot that answers yes/no and pick-one questions about a message with Jev probabilities) guide](judge-jev-telegram.md) · [Source](https://github.com/Mishkun/judge-jev)
+
 ### mail-agent (always-on Gmail agent that uses Jev to sort mail into alerts, digests and todos in Telegram or Lark)
 
 `Open source` · `Free source build`
