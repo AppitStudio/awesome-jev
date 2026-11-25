@@ -4294,6 +4294,22 @@ macOS menu bar app that puts every window back on the right display, Mission Con
 
 [Full DeskRecall by sreenivasanac (macOS menu bar app that restores window layouts per display setup, with Jev deciding the fuzzy matches) guide](deskrecall.md) · [Source](https://github.com/sreenivasanac/deskrecall)
 
+### Falcon by Zheng Li (native macOS Jev HTTP and MCP proxy that records and lets you review every decision for seven days)
+
+`Open source` · `Free` · `BYOK`
+
+Native SwiftUI app for developers running local agents against Jev. It serves the System One API (`POST /v1/systemone`, `GET /v1/models`) and an MCP `jev_decide` tool on 127.0.0.1, forwards each call to TypeSafe with a per-source local key, and keeps the state, questions and answers for review, search, flags, notes and CSV/JSON export.
+
+**Jev's role:** Falcon does not make decisions itself; it proxies your agents' Jev calls to TypeSafe (directly or via your own Cloudflare Worker relay) and records them for review.
+
+**Platform:** macOS 15+ on Apple Silicon (arm64). Chinese and English docs.
+
+**Product:** [github.com/nocoo/falcon](https://github.com/nocoo/falcon)
+
+**Pricing / access:** Free MIT app: signed DMG on [GitHub Releases](https://github.com/nocoo/falcon/releases) (v0.2.0, not notarized) or build from source. Jev calls use your own TypeSafe key and are billed to it; the optional relay runs on your own Cloudflare account. Checked 2026-11-25. Source inspected; live app not run on the review host.
+
+[Full Falcon by Zheng Li (native macOS Jev HTTP and MCP proxy that records and lets you review every decision for seven days) guide](falcon.md) · [Source](https://github.com/nocoo/falcon)
+
 ### Fenlet (Mac window arranger with a CLI and agent skill that can ask Jev how to lay out panes)
 
 `Open source` · `Free source build` · `BYOK`
