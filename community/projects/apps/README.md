@@ -18,6 +18,22 @@ Shared 1,000×1,000 emoji canvas where humans paint and TypeSafe Jev paints alon
 
 [Try 1 Million Emojis](https://chriswijnia.com/lab/emoji) · [Full 1 Million Emojis guide](1-million-emojis.md) · [Source](https://github.com/cwdx/1-million-emojis)
 
+### A2UI decision-model playground by Shahriar Bijoy (voice-driven generative UI where Claude builds each screen and Jev handles the follow-up edits)
+
+`Source available` · `Free source build` · `BYOK`
+
+Voice playground for generative UI: ask for something and Claude answers with a screen built from a fixed catalog of 27 A2UI components; follow-ups such as "we're six, and later" go to Jev, which decides whether the request changes the current screen and picks the new values, so the screen updates in about 0.2 seconds without calling the large model. Shown at AI Tinkerers Bremen on 25 November 2026.
+
+**Jev's role:** One Jev request per utterance decides change versus new screen and, for a change, picks the new values from those the screen allows; while you speak it also guesses which components the request is about.
+
+**Platform:** Web app on Cloudflare Workers (Bun, React, shadcn/ui); run locally with `bun run dev`.
+
+**Product:** [github.com/ShahriarBijoy/A2ui](https://github.com/ShahriarBijoy/A2ui)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full A2UI decision-model playground by Shahriar Bijoy (voice-driven generative UI where Claude builds each screen and Jev handles the follow-up edits) guide](a2ui-decision-playground.md) · [Source](https://github.com/ShahriarBijoy/A2ui)
+
 ### AI;DR
 
 `Source available` · `Free`
