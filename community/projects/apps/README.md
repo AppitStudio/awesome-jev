@@ -2744,6 +2744,22 @@ Resume screening: LLM writes questions; TypeSafe Jev System One classifies answe
 
 [Full Resurface guide](resurface.md) · [Source](https://github.com/dolevhayut/resurface)
 
+### RFQ Desk by 1Beyond1 (self-hosted B2B quoting workbench where Jev triages the inquiry inbox before human-approved quotes)
+
+`Open source` · `Free source build` · `BYOK`
+
+Self-hosted workbench that turns incoming request-for-quotation emails (body text, spreadsheets and text PDFs) into traceable quotes. Jev sorts each inbox message into new RFQ, revision, other or suspicious; an agent extracts line items with source citations and checks stock and history, while acceptance, pricing, approval and export stay with a human.
+
+**Jev's role:** Jev (`jev-latest`) answers a four-way Choice for each inbox email; low confidence (below 0.8), a narrow top-two margin or a suspicious label forces human review. Without Jev it falls back to a reranker, then to local rules.
+
+**Platform:** Self-hosted Python web app (local SQLite by default, optional MatrixOne). Chinese and English READMEs.
+
+**Product:** [github.com/1Beyond1/rfq-desk](https://github.com/1Beyond1/rfq-desk)
+
+**Pricing / access:** Free source build; bring your own TypeSafe/provider key when live. Source inspected; live app not run on the review host.
+
+[Full RFQ Desk by 1Beyond1 (self-hosted B2B quoting workbench where Jev triages the inquiry inbox before human-approved quotes) guide](rfq-desk.md) · [Source](https://github.com/1Beyond1/rfq-desk)
+
 ### River Oaks
 
 `Source available` · `Free source build` · `BYOK`
