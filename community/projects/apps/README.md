@@ -1716,6 +1716,22 @@ Mobile-friendly 3D browser chess where TypeSafe Jev chooses among legal moves in
 
 [Full JevChess guide](odinachi-jevchess.md) · [Source](https://github.com/Odinachi/jevchess)
 
+### Jevdex by robpob10 (experiment that ranks S&P 500 stocks by daily pairwise Jev comparisons and tracks the top 100)
+
+`Open source` · `Free` · `BYOK`
+
+Public experiment asking whether Jev can tell which of two stocks is the better value. Each trading day it shows Jev about 950 pairs of S&P 500 companies (figures plus recent headlines), updates chess-style ratings and rebalances a tracked portfolio of the 100 highest rated; the site publishes the daily record.
+
+**Jev's role:** Jev answers a Choice between company A and company B with a probability; the ratings move by more when Jev is more confident.
+
+**Platform:** Web (tracking site on Vercel); the daily tool is a Rust CLI you can run yourself.
+
+**Product:** [www.jevdex.app](https://www.jevdex.app)
+
+**Pricing / access:** The [jevdex.app](https://www.jevdex.app) tracking site is free to read with no account. Running the MIT Rust tool yourself needs your own TypeSafe, Finnhub and Trading 212 keys. Checked 2026-11-25. Source inspected; live app not run on the review host.
+
+[Full Jevdex by robpob10 (experiment that ranks S&P 500 stocks by daily pairwise Jev comparisons and tracks the top 100) guide](jevdex.md) · [Source](https://github.com/robpob10/jevdex)
+
 ### JevEye
 
 `Open source` · `Free source build` · `BYOK`
