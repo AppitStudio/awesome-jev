@@ -4688,6 +4688,22 @@ Control macOS apps and perform Chrome tasks through an experimental voice assist
 
 [Full macbrow guide](macbrow.md) · [Source](https://github.com/timpratim/macbrow)
 
+### Meeting copilot by Dzmitry Harupa (Russian-language Google Meet helper where Jev spots questions aimed at you and picks an answer card or hands off to Claude Code)
+
+`Source available` · `Free source build` · `BYOK`
+
+Self-hosted call helper for Google Meet on a Mac: a Chrome extension streams the call tab and your microphone to a local server, Deepgram transcribes, and a Jev judge decides whether a question is addressed to you, which card from your answer bank fits and how hard it is; harder ones go to a read-only Claude Code session in your project folder. Answers appear in Chrome's side panel. Interface and prompts are in Russian.
+
+**Jev's role:** `server/router.js` sends each finished utterance with your profile and card list to Jev as typed questions (to you or not, which card, difficulty); with no TypeSafe key the judge falls back to Claude Haiku, which the README says is slower (about 3 s).
+
+**Platform:** macOS with Chrome (unpacked extension), Node.js 20+ local server under launchd and a menu-bar tray app.
+
+**Product:** [github.com/d7561985/meeting-copilot](https://github.com/d7561985/meeting-copilot)
+
+**Pricing / access:** Free to build from source; you pay for your own Deepgram and TypeSafe usage and need a Claude Code subscription. No licence file, so no reuse rights are granted. Checked 2026-11-27. Source inspected; live app not run on the review host.
+
+[Full Meeting copilot by Dzmitry Harupa (Russian-language Google Meet helper where Jev spots questions aimed at you and picks an answer card or hands off to Claude Code) guide](meeting-copilot-jev.md) · [Source](https://github.com/d7561985/meeting-copilot)
+
 ### Meraline
 
 `Open source` · `Free` · `BYOK`
