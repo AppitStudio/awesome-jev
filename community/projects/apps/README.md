@@ -4774,6 +4774,22 @@ Desktop pet companion for Apple Silicon Macs (SwiftUI, SceneKit, AVAudioEngine) 
 
 [Full PetPaw guide](petpaw.md) · [Source](https://github.com/sirily11/pet-companion)
 
+### photosearch by Mumit Khan (search your Apple Photos library by description on your Mac, with optional Jev smart-search filters)
+
+`Open source` · `Free` · `BYOK`
+
+Local search for your Apple Photos library: describe a picture, find look-alikes, browse a map or a galaxy of the library, and tidy duplicates into albums, all with an open embedding model on your Mac. With a TypeSafe key, Jev reads the smart search box into filters (photo or video, season, dates, no people) and checks the first results from text descriptions; without one, keyword rules do the same job.
+
+**Jev's role:** Optional. `smartbox.py` asks Jev typed `choice` and `noul` questions to turn your words into filters, and `checks.py` asks which of the first 40 results fit, using text descriptions only; photos, names and places are never sent. With no key or no answer, local keyword rules take over.
+
+**Platform:** macOS (Apple Silicon recommended), installed as a Python tool with uv; web UI on localhost and an MCP server for agents.
+
+**Product:** [github.com/mumit/photosearch](https://github.com/mumit/photosearch)
+
+**Pricing / access:** Free MIT source and PyPI package (0.3.0). Jev features are optional and use your own TypeSafe key; search itself runs locally with no key. Checked 2026-11-27. Source inspected; live app not run on the review host.
+
+[Full photosearch by Mumit Khan (search your Apple Photos library by description on your Mac, with optional Jev smart-search filters) guide](photosearch.md) · [Source](https://github.com/mumit/photosearch)
+
 ### Pointsman by RomainJeff (macOS link router that picks the right browser with Jev)
 
 `Open source` · `Free source build` · `BYOK`
