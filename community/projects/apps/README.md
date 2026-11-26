@@ -1502,6 +1502,22 @@ Japanese voice conversation in the browser where Jev handles turn-taking (end of
 
 [Full Jev Voice Chat (Japanese) guide](jev-voice-chat-jp.md) · [Source](https://github.com/snowconed/jev_gpt_voice_chat_jp)
 
+### Jev World Map by Troy Anderson (type a yes/no statement and watch Jev answer it for all 193 UN countries on a live D3 map)
+
+`Open source` · `Free source build` · `BYOK`
+
+Type a statement such as "drives on the left" or "is landlocked" and a Cloudflare Worker asks Jev whether it is true for each of the 193 UN member states, using only that country's record from a committed data snapshot. Answers stream back as NDJSON and colour a D3 map by probability, with a hatched "unsure" band in the middle.
+
+**Jev's role:** One Jev request carries every country's record in the state and one `noul` question per country; the map treats a probability of 0.65 or more as true, 0.35 or less as false, and the rest as unsure.
+
+**Platform:** Web app you run yourself as a Cloudflare Worker (local `npm run dev` or `wrangler deploy`); no public hosted instance was verified.
+
+**Product:** [github.com/TheHazeEffect/jev-world-map](https://github.com/TheHazeEffect/jev-world-map)
+
+**Pricing / access:** Free MIT source. Live answers call Jev through Cloudflare Workers AI, which bills it separately from the free allowance (top up AI Gateway credits or add your own TypeSafe key); a mock mode needs no account. Checked 2026-11-26. Source inspected; live app not run on the review host.
+
+[Full Jev World Map by Troy Anderson (type a yes/no statement and watch Jev answer it for all 193 UN countries on a live D3 map) guide](jev-world-map.md) · [Source](https://github.com/TheHazeEffect/jev-world-map)
+
 ### Jev X Sentiment Analysis (jev-v8)
 
 `Open source` · `Free source build` · `BYOK`
