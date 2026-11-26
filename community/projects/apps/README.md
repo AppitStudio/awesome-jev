@@ -1186,6 +1186,22 @@ File a local document folder into configured categories with TypeSafe Jev (Verce
 
 [Full JEV Document Classification guide](jev-document-classification.md) · [Source](https://github.com/Charlyhno-eng/jev-document-classification)
 
+### jev drone cam by Todd Dailey (browser demo where a simulated drone sweeps a room photo and Jev finds the object you showed it)
+
+`Open source` · `Free source build` · `BYOK`
+
+Browser demo: pick or upload a photo of an object and a simulated top-down drone camera sweeps a room photo frame by frame. Every frame is one Jev call with a Box question (where is it) and a yes/no question (is it in view at all); plain code flies to the box when the yes/no answer passes a threshold you set with a slider.
+
+**Jev's role:** Each frame goes to Jev with the destination photo and two questions in one request, `where` (Box) and `seen` (noul); the drone moves only when `seen` is above the threshold, because a Box answer always returns a box even when the object is absent.
+
+**Platform:** Web app: a public demo on sprites.dev run by the author, or a single Python server you run yourself on 127.0.0.1:9470.
+
+**Product:** [jev-dronecam-bq3fs.sprites.app](https://jev-dronecam-bq3fs.sprites.app)
+
+**Pricing / access:** Free MIT source. The public demo is free to try and runs on the author's key (calls capped at 90 a minute); self-hosting needs your own TypeSafe key and pays TypeSafe's image-input usage. Checked 2026-11-26. Source inspected; live app not run on the review host.
+
+[Full jev drone cam by Todd Dailey (browser demo where a simulated drone sweeps a room photo and Jev finds the object you showed it) guide](jev-dronecam.md) · [Source](https://github.com/twidtwid/jev-dronecam)
+
 ### Jev Evaluation Lab by march (research workspace that classifies AI-system descriptions with Jev and compares results with human reviews)
 
 `Source available` · `Free source build` · `BYOK`
