@@ -4422,6 +4422,22 @@ Native Mac widget, CLI and agent skill that turns open windows into non-overlapp
 
 [Full Fenlet (Mac window arranger with a CLI and agent skill that can ask Jev how to lay out panes) guide](fenlet.md) · [Source](https://github.com/2018kguo/fenlet)
 
+### Fez by Kenneth Ashley (Mac chat room for a team of AI agents where Jev decides who takes each message and whether a reply is needed)
+
+`Open source` · `Free` · `BYOK`
+
+Desktop app where several AI agents, each with its own identity, model and skills, work in shared channels with you. Instead of you picking the agent and checking the result, a judgment model routes each message to an agent (or nobody), decides whether the work is done and whether you need to read it. Messages are signed and stored on a nostr relay you run locally or on a server.
+
+**Jev's role:** Router and judge. The room asks Jev (`jev-1.13.0` by default) which agent should take a message, and a thread governor asks yes/no questions before a fellow agent's mention costs a full agent turn. `judge.ts` calls `https://api.typesafe.ai/v1/systemone` directly when the judge URL is TypeSafe's own API with your key.
+
+**Platform:** macOS desktop app (Apple Silicon, signed DMG); CLI and services from source on macOS or Linux.
+
+**Product:** [fez.chat](https://fez.chat)
+
+**Pricing / access:** Free MIT source and desktop download. You pay your own chat-model provider; Jev runs on the author's hosted router by default or on your own TypeSafe key. Checked 2026-11-27. Source inspected; live app not run on the review host.
+
+[Full Fez by Kenneth Ashley (Mac chat room for a team of AI agents where Jev decides who takes each message and whether a reply is needed) guide](fez.md) · [Source](https://github.com/KennethAshley/fez)
+
 ### Hermes Focus (Mac app that keeps you on task in 25-minute blocks, judged by Jev on your own keys)
 
 `Open source` · `Free source build` · `BYOK`
