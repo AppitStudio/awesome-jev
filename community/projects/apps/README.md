@@ -5298,6 +5298,22 @@ FkWeChat/LSPosed WeChat plugin: long-press a message for TypeSafe Jev intent/emo
 
 [Full JevIntent guide](jev-intent.md) · [Source](https://github.com/Nisaka520/JevIntent)
 
+### Mika by WangZan (on-device Android AI agent that operates apps and the web, with an optional Jev mode for intent and route decisions)
+
+`Open source` · `Free` · `BYOK`
+
+Android agent that opens apps, taps, types and scrolls on a separate background screen while you keep using the phone, with a built-in browser, schedules, memory and a Linux sandbox for files. There is no Mika server: you bring your own model key or sign in with a supported account. An optional Jev decision mode classifies each request as discussion, reading or action and picks saved routes for repeat tasks, falling back to the main model when unsure.
+
+**Jev's role:** Optional router. When enabled under Settings › Models › Decision model · Jev, Jev classifies intent at the chat entry point and selects saved routes when experience replay is on; the main model still plans and calls tools, and Jev never operates the phone or replaces confirmation gates.
+
+**Platform:** Android phone (APK from GitHub Releases); phone control needs wireless-debugging pairing.
+
+**Product:** [github.com/wangzan101/Mika/releases/latest](https://github.com/wangzan101/Mika/releases/latest)
+
+**Pricing / access:** Free Apache-2.0 app and source. You pay your own model provider; Jev calls are billed by TypeSafe or OpenRouter when the optional mode is on. Checked 2026-11-27. Source inspected; live app not run on the review host.
+
+[Full Mika by WangZan (on-device Android AI agent that operates apps and the web, with an optional Jev mode for intent and route decisions) guide](mika.md) · [Source](https://github.com/wangzan101/Mika)
+
 ### Mobile Agent (KYRIE66nb)
 
 `Open source` · `Free` · `BYOK`
