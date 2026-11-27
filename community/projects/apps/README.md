@@ -366,6 +366,22 @@ Self-hosted homelab dashboard where open Clef-flash (GGUF on a 6 GB laptop GPU) 
 
 [Full Clef homelab decision engine guide](clef-homelab.md) · [Source](https://github.com/NikhileshThiru/clef)
 
+### Cockpit G2 by oblomovunleashed (voice-first three-mind assistant for Even Realities G2 glasses; Jev routes each thought to Work, Personal or Interests)
+
+`Source available` · `Free source build` · `BYOK`
+
+Hackathon app for Even Realities G2 smart glasses: hold to speak, and Jev routes each utterance to one of three minds (Work, Personal, Interests) in a few hundred milliseconds, so quick notes go straight to Notion without waiting on an LLM, while research questions wake a slower DeepSeek pass that returns one sourced card. Includes two-way Notion sync with one-swipe undo, a read-only equity-research example workflow and a zero-key mock mode.
+
+**Jev's role:** Router. Each transcribed utterance gets a Jev decision on mind and action type that picks the tier (local save, async enrichment or blocking synthesis); code handles dates, storage and Notion writes.
+
+**Platform:** Even Realities G2 via Even Hub (Vite/TypeScript WebView app) with a local Python FastAPI backend; tested in the Even Hub Simulator.
+
+**Product:** [github.com/oblomovunleashed/Cockpit-G2](https://github.com/oblomovunleashed/Cockpit-G2)
+
+**Pricing / access:** Free source build with a prebuilt simulator `.ehpk` on GitHub Releases; no licence file. Live mode needs your own OpenRouter key (Jev, Whisper, DeepSeek) and a Notion token. Checked 2026-11-28. Source inspected; live app not run on the review host.
+
+[Full Cockpit G2 by oblomovunleashed (voice-first three-mind assistant for Even Realities G2 glasses; Jev routes each thought to Work, Personal or Interests) guide](cockpit-g2.md) · [Source](https://github.com/oblomovunleashed/Cockpit-G2)
+
 ### CodeOtter by Dharmesh Gurnani (self-hosted AI code review where a System One model such as Jev answers the scores and yes/no merge gates)
 
 `Open source` · `Free source build` · `BYOK`
