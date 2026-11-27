@@ -1324,6 +1324,22 @@ Choose how much time you have and your mood, and Jev picks one study quest; afte
 
 [Full Jev Learning Quest (Japanese study app where Jev picks today's quest and judges whether you need a review) guide](jev-learning-quest.md) · [Source](https://github.com/moruku36/jev-learning-quest)
 
+### Jev News (じぇぶニュース) by dezigozi (hourly Japanese headline portal where Jev sorts news into 16 genres)
+
+`Source available` · `Free`
+
+Personal news portal that collects headlines from a wide range of sources every hour, has Jev sort each into one of 16 genres and shows headlines only, with Japanese translations of English headlines from Groq. Built and published to GitHub Pages by a scheduled GitHub Actions job.
+
+**Jev's role:** Classifier. Each new headline gets one Jev request: a `choice` over 16 genres that decides its section, plus two `noul` questions scoring whether it broadens knowledge and whether it is a widely discussed story.
+
+**Platform:** Web (GitHub Pages); Japanese interface.
+
+**Product:** [dezigozi.github.io/jev_news/](https://dezigozi.github.io/jev_news/)
+
+**Pricing / access:** Free to read; source is public without a licence. Self-hosting needs your own TypeSafe and Groq keys. Checked 2026-11-27. Source inspected; live app not run on the review host.
+
+[Full Jev News (じぇぶニュース) by dezigozi (hourly Japanese headline portal where Jev sorts news into 16 genres) guide](jev-news.md) · [Source](https://github.com/dezigozi/jev_news)
+
 ### Jev Play Games by Ege Bulut (watch Jev play 2048, Snake, a platformer and more live, with the odds of every move on screen)
 
 `Source available` · `Free`
