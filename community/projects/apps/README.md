@@ -3154,6 +3154,22 @@ Describe what you are building in plain language; TypeSafe Jev assembles a coher
 
 [Full Stack4That guide](stack4that.md) · [Source](https://github.com/MoRohn/stack4that)
 
+### Station of One by Tarik Moody (hourly synthetic-voice newscast where Jev decides which stories air)
+
+`Source available` · `Free`
+
+ONE 1.0 FM, a fictional radio station with one listener, run by an agent on a Fly.io Sprite for Hacksgiving 2026. Every hour from 7 am to 7 pm Central it scrapes about 1,300 public posts from Hacker News, Reddit, RSS, Bluesky and Google News, merges duplicates, has Jev answer five typed questions per post (will it matter in a week? new or reaction? which part of the show? primary source? could it harm a private person?), and publishes a five-minute newscast with story pages, a control room showing every Jev decision, a daily debate show and music stations.
+
+**Jev's role:** Jev answers five questions per post plus a "same story?" merge question; code reads only the probabilities to build the rundown, and every answer is logged and shown in the control room.
+
+**Platform:** Public website and podcast feed; the agent runs on a Fly.io Sprite (Python).
+
+**Product:** [patient-mountain-3400.fly.storage.tigris.dev/index.html](https://patient-mountain-3400.fly.storage.tigris.dev/index.html)
+
+**Pricing / access:** Free to listen on the public site and podcast feed; self-hosting needs a Fly.io Sprite and paid connectors (Apify, TypeSafe, Pinecone, voices, Box). Checked 2026-11-28. Source inspected; live app not run on the review host.
+
+[Full Station of One by Tarik Moody (hourly synthetic-voice newscast where Jev decides which stories air) guide](station-of-one.md) · [Source](https://github.com/tmoody1973/station-of-one)
+
 ### stream95 (Windows 95-style live-stream overlay whose chat is moderated by rules and Jev before it shows)
 
 `Open source` · `Free source build`
