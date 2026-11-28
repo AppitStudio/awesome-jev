@@ -5642,6 +5642,22 @@ NVDA add-on from Blind Ant: press NVDA+G, type what you want changed in plain wo
 
 [Full gent (NVDA screen-reader add-on that changes speech settings from a plain-words request, with Jev choosing the setting through a relay) guide](gent-nvda-addon.md) · [Source](https://github.com/Carrados/nvda-addons)
 
+### GraphPaper by Aron Bijl (local-first Windows writing studio with source graphs and an optional Jev decision studio)
+
+`Open source` · `Free` · `BYOK`
+
+Writing studio for nonfiction, fiction, polemic and scientific manuscripts: upload sources, explore them as a knowledge graph, pick an angle, outline and draft in a saved author voice, then review and export to PDF or Word with citations. An optional Jev connection guides source selection, graph exploration, edit checks and research triage, shows its questions and distributions, and lets you save corrections and train a local preference ranker.
+
+**Jev's role:** Optional: Jev answers typed questions for source selection, graph candidates, evidence gaps, intent repair and edit checks; GraphPaper shows each distribution and the action taken.
+
+**Platform:** Windows x64 desktop app (release ZIP, needs Edge WebView2); Python 3.11+ source edition.
+
+**Product:** [github.com/AronAxe/GraphPaper](https://github.com/AronAxe/GraphPaper)
+
+**Pricing / access:** Free download (Windows x64 ZIP on GitHub Releases) and MIT source; writing needs your own ChatGPT/Codex sign-in or provider keys, and Jev an OpenRouter or TypeSafe key. Checked 2026-11-28. Source inspected; live app not run on the review host.
+
+[Full GraphPaper by Aron Bijl (local-first Windows writing studio with source graphs and an optional Jev decision studio) guide](graphpaper.md) · [Source](https://github.com/AronAxe/GraphPaper)
+
 ### INployed
 
 `Open source` · `Free source build` · `BYOK`
