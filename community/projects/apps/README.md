@@ -1010,6 +1010,22 @@ Hosted bookshelf search and sort: visitors ask by mood, theme, or plot; TypeSafe
 
 [Full Jeff guide](jeff.md) · [Source](https://read.atharvashah.com)
 
+### Jeff by Deepu (a chatbot that cannot write: Jev picks each reply from a checked-in bank of 242 lines)
+
+`Open source` · `Free` · `BYOK`
+
+Chatbot whose every visible reply is a reviewed line committed to the repository. Local rules catch crisis and grief phrases first and answer without any model call; other messages go with up to four recent turns to Jev, which scores the candidate lines and safety and relevance signals in one request, and code applies thresholds to return one line. No generated text reaches the chat.
+
+**Jev's role:** One Jev request per message scores the reply bank and classifies safety and relevance; local code picks the line and handles crisis phrases before Jev is called.
+
+**Platform:** Web app on Vercel (static page + serverless API); hosted demo or self-host.
+
+**Product:** [askjeff.vercel.app](https://askjeff.vercel.app)
+
+**Pricing / access:** Free hosted demo at askjeff.vercel.app (no sign-up described); self-hosting needs your own TypeSafe key and a Vercel account. Checked 2026-11-28. Source inspected; live app not run on the review host.
+
+[Full Jeff by Deepu (a chatbot that cannot write: Jev picks each reply from a checked-in bank of 242 lines) guide](jeff-askjeff.md) · [Source](https://github.com/Deepusleepy/jeff)
+
 ### Jev 2048
 
 `Open source` · `Free` · `BYOK`
